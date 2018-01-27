@@ -1647,7 +1647,12 @@ focus_tree = {
 		}
 		
 		bypass = {
-			
+			HEJ = {
+					OR = {
+						is_puppet = yes
+						exists = no 
+					}
+			}
 		}
 		
 		complete_tooltip = {
