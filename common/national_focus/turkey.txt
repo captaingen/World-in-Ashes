@@ -1601,6 +1601,52 @@ focus_tree = {
 		}
 		
 		bypass = {
+			AND = {
+				JOR = {
+					OR = {
+						is_puppet = yes
+						exists = no 
+					}
+				}
+				PAL = {
+					OR = {
+						is_puppet = yes
+						exists = no 
+					}
+				}
+			}
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			JOR = {
+					country_event = { id = jordan.1 }
+			}
+		}
+	}
+	
+	focus = {
+		id = TUR_hejaz_next
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_jordan_and_palestine
+		}
+		x = 18
+		y = 9
+		cost = 10
+		available = {
+			HEJ = { exists = yes }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
 			
 		}
 		
