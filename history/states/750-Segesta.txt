@@ -1,0 +1,31 @@
+
+state={
+	id=750
+	name="STATE_750"
+	manpower = 2836571
+	
+	state_category = city
+	history={
+		owner = ITA
+		victory_points = {
+			10074 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 2
+			dockyard = 1
+			10074 = {
+				naval_base = 2
+			}
+			7059 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		7059 7147 10074 
+	}
+}

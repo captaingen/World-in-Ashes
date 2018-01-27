@@ -1,0 +1,25 @@
+
+state={
+	id=677
+	name="STATE_677"
+	manpower = 525594
+	
+	state_category = town
+	
+	history={
+		owner = SYR
+		victory_points = {
+			12473 10 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SYR
+
+	}
+
+	
+	provinces={
+		7140 7671 12473 
+	}
+}

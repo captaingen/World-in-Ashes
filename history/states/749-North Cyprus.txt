@@ -1,0 +1,24 @@
+state= {
+	id=749
+	name="STATE_749"
+	manpower = 147959
+	
+	state_category = rural
+	resources={
+		steel=4
+	}
+
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			11984 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	provinces= { 11984 }
+}

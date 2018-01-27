@@ -1,0 +1,337 @@
+ideas = {
+	country = {
+		LEB_dismantle_existing_militias_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.005
+			}
+		}
+		
+		LEB_Raise_an_army_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		
+		LEB_integrate_them_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.035
+			}
+		}
+		
+		LEB_destroy_the_militias_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.005
+			}
+		}
+		
+		LEB_army_of_terror_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				enemy_partisan_effect = -0.25
+				conscription = 0.035
+				land_reinforce_rate = 0.3
+			}
+		}
+		
+		LEB_policy_of_terrorism_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				enemy_partisan_effect = -0.05
+				army_org_Factor = 0.2
+			}
+		}
+		
+		LEB_start_secret_research_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		
+		LEB_train_the_workers_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.2
+			}
+		}
+		
+		LEB_improve_the_factories_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		LEB_employing_researchers_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		
+		LEB_encourage_communism_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.2
+			}
+		}
+		
+		LEB_found_the_phalange_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.2
+			}
+		}
+
+		LEB_emile_edde_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.2
+			}
+		}
+		
+		LEB_make_speeches_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				neutrality_drift = 0.2
+			}
+		}
+		
+		LEB_phoenician_army_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				unity_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				enemy_partisan_effect = -0.1
+				training_time_army_factor = -0.1
+			}
+		}
+	}
+	
+	#military
+	army_chief = {
+	
+		fouad_shehab = {
+			
+			
+			allowed = {
+				original_tag = LEB
+			}
+			available = {
+				has_completed_focus = LEB_train_the_militia
+			}
+
+			cost = 50
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+}

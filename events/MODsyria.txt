@@ -1,0 +1,135 @@
+﻿###########################
+# Syrian Events
+###########################
+
+add_namespace = syria
+
+# Syria - Turkey demands hatay
+country_event = {
+	id = syria.1
+	title = syria.1.t
+	desc = syria.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Buffer Nation Proposal
+		name = syria.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.4 }
+		}
+	}
+	
+	option = { #Accept demands
+		name = syria.1.b
+		ai_chance = { 
+			factor = 30
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.5 }
+		}
+	}
+	
+	option = { #Deny Demands
+		name = syria.1.c
+		ai_chance = { 
+			factor = 20
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.6 }
+		}
+	}
+	
+}
+
+# Syria - turkey accepts hatay buffer nation
+country_event = {
+	id = syria.2
+	title = syria.2.t
+	desc = syria.2.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Hatay independance
+		name = syria.2.a
+		release = HAT
+	}
+}
+
+# Syria - Turkish trick Maneuvers 
+country_event = {
+	id = syria.3
+	title = syria.3.t
+	desc = syria.3.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Syrian troops cross the border
+		name = syria.3.a
+		ai_chance = { 
+			factor = 75
+		}
+		add_political_power = -50
+		TUR = {
+			country_event = { days = 1 id = turkey.7 }
+		}
+	}
+	
+	option = { #Send Scouts
+		name = syria.3.b
+		ai_chance = { 
+			factor = 20
+		}
+		add_political_power = -125
+		TUR = {
+			country_event = { days = 1 id = turkey.8 }
+		}
+	}
+	
+	option = { #Stay Put
+		name = syria.3.c
+		ai_chance = { 
+			factor = 5
+		}
+		add_political_power = -200
+		TUR = {
+			country_event = { days = 1 id = turkey.9 }
+		}
+	}
+	
+}
+
+# Syria - turkey sends ultimatum
+country_event = {
+	id = syria.4
+	title = syria.4.t
+	desc = syria.4.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #accept
+		name = syria.2.a
+		ai_chance = { 
+			factor = 25
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.10 }
+		}
+	}
+	
+	option = { #reject
+		name = syria.2.a
+		ai_chance = { 
+			factor = 75
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.11 }
+		}
+	}
+}

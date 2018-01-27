@@ -1,0 +1,22 @@
+
+state={
+	id=752
+	name="STATE_752"
+	manpower = 97719
+	
+	state_category = rural
+	
+	history={
+		owner = FRA
+
+		
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+	}
+
+	provinces={
+		989 
+	}
+}

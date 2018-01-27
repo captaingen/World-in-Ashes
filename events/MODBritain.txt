@@ -1,0 +1,264 @@
+﻿add_namespace = britain 
+
+# Lebanon wants to join allies
+country_event = {
+	id = britain.1997
+	title = britain.1997.t
+	desc = britain.1997.d
+	picture = GFX_report_event_degaulle_churchill
+
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.1997.a
+		add_to_faction = FROM
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ENG"
+				value = 200
+			}
+		}
+		FROM = { country_event = { id = lebanon.1} }
+		hidden_effect = {
+			news_event = { id = news.331 }
+		}
+	}
+	
+	option = {
+		name = britain.1997.b
+		ai_chance = { factor = 0 }
+		FROM = { 
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = LEB_go_with_britain_reject
+			}
+			country_event = { id = lebanon.2 }
+		}
+		hidden_effect = {
+			news_event = { id = news.332 }
+		}
+	}
+}
+
+#Phoenicia demands Southern Cyprus
+country_event = {
+	id = britain.2000
+	title = britain.2000.t
+	desc = britain.2000.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = britain.2000.a
+		ai_chance = { 
+			factor = 80
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					LIT = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.3 }
+		}
+	}
+	option = { # Refuse
+		name = britain.2000.b		
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						ENG = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ENG
+					LEB = {
+						is_puppet_of = ENG
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = ENG
+				generator = { 183 }
+				}
+				country_event = { days = 1 id = lebanon.4 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.4 }
+			}
+		}		
+	}
+}
+
+#Phoenicia demands Gibraltar
+country_event = {
+	id = britain.2001
+	title = britain.2001.t
+	desc = britain.2001.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = britain.2001.a
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					LIT = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.5 }
+		}
+	}
+	option = { # Refuse
+		name = britain.2001.b		
+		ai_chance = { 
+			factor = 90
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						ENG = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ENG
+					ENG = {
+						is_puppet_of = LEB
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = ENG
+				generator = { 183 }
+				}
+				country_event = { days = 1 id = lebanon.6 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.6 }
+			}
+		}		
+	}
+}

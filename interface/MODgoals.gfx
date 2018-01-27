@@ -1,0 +1,10 @@
+spriteTypes = {	
+	
+	###MOD###
+	
+	SpriteType = { 
+		name = "GFX_ottoman_ashes"
+		texturefile = "gfx/interface/goals/ottoman_ashes.dds"
+	}
+
+}

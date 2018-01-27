@@ -1,0 +1,29 @@
+
+state={
+	id=757
+	name="STATE_757"
+	manpower = 200000
+
+	
+	state_category = town
+
+	history={
+		owner = BSH
+		victory_points = {
+			2089 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			2089 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = BSH
+	}
+
+	provinces={
+		2089 2004 8001 12726
+	}
+}

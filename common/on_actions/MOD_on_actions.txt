@@ -1,0 +1,8 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#Opinion Modifiers Setup
+			#every_country = { news_event = news.1000 }
+		}
+	}
+}

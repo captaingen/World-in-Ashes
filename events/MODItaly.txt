@@ -1,0 +1,449 @@
+﻿###########################
+# Italian Events
+###########################
+
+add_namespace = italy
+
+#Phoenicia demands our African land 1
+country_event = {
+	id = italy.2000
+	title = italy.2000.t
+	desc = italy.2000.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = italy.2000.a
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					ITA = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.7 }
+		}
+	}
+	option = { # Refuse
+		name = italy.2000.b		
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						ITA = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ITA
+					LEB = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = ITA
+				generator = { 448 }
+				}
+				country_event = { days = 1 id = lebanon.8 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.8 }
+			}
+		}		
+	}
+}
+
+#Phoenicia demands our African land 2
+country_event = {
+	id = italy.2001
+	title = italy.2001.t
+	desc = italy.2001.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = italy.2001.a
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					ITA = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.9 }
+		}
+	}
+	option = { # Refuse
+		name = italy.2001.b		
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						ITA = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ITA
+					LEB = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = ITA
+				generator = { 449 }
+				}
+				country_event = { days = 1 id = lebanon.10 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.10 }
+			}
+		}		
+	}
+}
+
+#Phoenicia demands our land 1
+country_event = {
+	id = italy.2002
+	title = italy.2002.t
+	desc = italy.2002.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = italy.2002.a
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					ITA = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.11 }
+		}
+	}
+	option = { # Refuse
+		name = italy.2002.b		
+		ai_chance = { 
+			factor = 80
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						ITA = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ITA
+					LEB = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = ITA
+				generator = { 750 }
+				}
+				country_event = { days = 1 id = lebanon.12 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.12 }
+			}
+		}		
+	}
+}
+
+#Phoenicia demands our land 2
+country_event = {
+	id = italy.2003
+	title = italy.2003.t
+	desc = italy.2003.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = italy.2003.a
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					ITA = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.13 }
+		}
+	}
+	option = { # Refuse
+		name = italy.2003.b		
+		ai_chance = { 
+			factor = 80
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						ITA = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ITA
+					LEB = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = ITA
+				generator = { 751 }
+				}
+				country_event = { days = 1 id = lebanon.14 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.14 }
+			}
+		}		
+	}
+}

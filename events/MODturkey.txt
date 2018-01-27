@@ -1,0 +1,354 @@
+﻿###########################
+# Turkish Events
+###########################
+
+add_namespace = turkey
+
+# Turkey - Ottoman Ashes
+country_event = {
+	id = turkey.2
+	title = turkey.2.t
+	desc = turkey.2.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.2.a
+		hidden_effect = {
+			news_event = news_event.1000
+		}
+	}
+}
+
+# Turkey - training the women
+country_event = {
+	id = turkey.3
+	title = turkey.3.t
+	desc = turkey.3.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.3.a
+			add_ideas = TUR_training_women_focus
+		}
+}
+
+
+# Turkey - Syria proposes hatay nation
+country_event = {
+	id = turkey.4
+	title = turkey.4.t
+	desc = turkey.4.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #yes
+		name = turkey.4.a
+			ai_chance = { 
+			factor = 50
+			}
+			SYR = {
+			country_event = { days = 1 id = syria.2 }
+			}
+	}
+	option = { #no
+		name = turkey.4.b
+			ai_chance = { 
+			factor = 50
+			}
+			create_wargoal = {
+			type = take_state_focus
+			target = SYR
+			generator = { 746 }
+			}
+	}
+}
+
+# Turkey - Syria accepts giving hatay
+country_event = {
+	id = turkey.5
+	title = turkey.5.t
+	desc = turkey.5.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.5.a
+			TUR = { 
+			transfer_state = 746
+			Add_state_core = 746
+			}
+		}
+}
+
+# Turkey - Syria rejects giving hatay
+country_event = {
+	id = turkey.6
+	title = turkey.6.t
+	desc = turkey.6.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.6.a
+			create_wargoal = {
+			type = take_state_focus
+			target = SYR
+			generator = { 746 }
+			}
+		}
+}
+
+# Turkey - Syrian troops mistakenly cross the border
+country_event = {
+	id = turkey.7
+	title = turkey.7.t
+	desc = turkey.7.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #DECLARE WAR
+		name = turkey.7.a
+			create_wargoal = { type = annex_everything target = SYR }
+		}
+}
+
+# Turkey - Syria Sends scouts
+country_event = {
+	id = turkey.8
+	title = turkey.8.t
+	desc = turkey.8.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #imprison the spies
+		ai_chance = { 
+			factor = 35
+		}
+		name = turkey.8.a
+		create_wargoal = { type = annex_everything target = SYR }
+		SYR = {
+			add_opinion_modifier = { target = TUR modifier = TUR_spies_tortured }
+			}
+	}
+		
+	option = {  #trick them into giving information
+		ai_chance = { 
+			factor = 40
+		}
+		name = turkey.8.b
+		add_tech_bonus = {
+				name = codebreaking_bonus
+				bonus = 0.5
+				uses = 2
+				category = decryption_tech
+				category = computing_tech
+			}	
+	}
+	
+	option = {  #release them unharmed
+		ai_chance = { 
+			factor = 25
+		}
+		name = turkey.8.c
+			SYR = {
+			add_opinion_modifier = { target = TUR modifier = TUR_spies_released }
+			}
+		}
+}
+
+# Turkey - Syria stays put
+country_event = {
+	id = turkey.9
+	title = turkey.9.t
+	desc = turkey.9.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #send ultimatum
+		ai_chance = { 
+			factor = 60
+		}
+		name = turkey.9.a
+		SYR = {
+			country_event = { days = 1 id = syria.4 }
+		}
+	}
+		
+	option = {  #friendship it is then
+		ai_chance = { 
+			factor = 40
+		}
+		name = turkey.9.b	
+	}
+}
+
+# Turkey - Syria accepts ultimatum
+country_event = {
+	id = turkey.10
+	title = turkey.10.t
+	desc = turkey.10.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #annex syria
+		name = turkey.10.a
+		annex_country = { target = SYR transfer_troops = yes }
+	}
+}
+
+# Turkey - Syria rejects ultimatum
+country_event = {
+	id = turkey.11
+	title = turkey.11.t
+	desc = turkey.11.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #war goal to annex syria
+		name = turkey.11.a
+		create_wargoal = { type = annex_everything target = SYR }
+	}
+}
+
+# Turkey - Lebanon rejects ultimatum
+country_event = {
+	id = turkey.12
+	title = turkey.12.t
+	desc = turkey.12.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #war goal to annex lebanon
+		name = turkey.12.a
+		create_wargoal = { type = annex_everything target = LEB }
+	}
+}
+
+# Turkey - Lebanon proposes lebanese puppet
+country_event = {
+	id = turkey.13
+	title = turkey.13.t
+	desc = turkey.13.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #accept
+		name = turkey.13.a
+		ai_chance = { 
+			factor = 90
+		}
+		puppet = LEB
+	}
+	
+	option = {  #war goal to annex lebanon
+		name = turkey.13.a
+		ai_chance = { 
+			factor = 10
+		}
+		add_political_power = -150
+		create_wargoal = { type = annex_everything target = LEB }
+	}
+}
+
+# Turkey - Lebanon accepts ultimatum
+country_event = {
+	id = turkey.14
+	title = turkey.14.t
+	desc = turkey.14.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #accept
+		name = turkey.14.a
+		annex_country = { target = LEB transfer_troops = yes }
+	}
+}
+
+# Turkey - Turkmeneli accepts proposal
+country_event = {
+	id = turkey.15
+	title = turkey.15.t
+	desc = turkey.15.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #turkmeneli becomes puppet (turkey gives plan to the turkmen
+		name = turkey.15.a
+		create_faction = "ottoman_sphere"
+		add_to_faction = TRM
+		create_wargoal = { type = annex_everything target = ASS }
+		create_wargoal = { type = annex_everything target = KUR }
+		army_experience = -20
+		TRM = {
+					country_event = { id = turkmen.2 }
+			}
+	}
+}
+
+# Turkey - Turkmeneli reject proposal
+country_event = {
+	id = turkey.16
+	title = turkey.16.t
+	desc = turkey.16.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #war goals
+		name = turkey.16.a
+		create_wargoal = { type = annex_everything target = ASS }
+		create_wargoal = { type = annex_everything target = KUR }
+		create_wargoal = { type = annex_everything target = TRM }
+		create_wargoal = { type = annex_everything target = IRQ }
+		create_wargoal = { type = annex_everything target = KER }
+		create_wargoal = { type = annex_everything target = BSH }
+	}
+}
+
+# Turkey - Jordan accepts proposal
+country_event = {
+	id = turkey.17
+	title = turkey.17.t
+	desc = turkey.17.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #annex jordan and palestine
+		name = turkey.17.a
+		annex_country = { target = JOR transfer_troops = yes }
+		annex_country = { target = PAL transfer_troops = yes }
+	}
+}
+
+# Turkey - Jordan rejects proposal
+country_event = {
+	id = turkey.18
+	title = turkey.18.t
+	desc = turkey.18.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #jordan and palestine becomes puppets
+		name = turkey.18.a
+		create_wargoal = { type = annex_everything target = JOR }
+		create_wargoal = { type = annex_everything target = PAL }
+	}
+}

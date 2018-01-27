@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Alfurqat Almasha"				
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Militia"				
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+division= {	
+		name = "First Brigade"
+		location = 792
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name = "Second Brigade"
+		location = 1108
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name = "Southern Militia"
+		location = 11919
+		division_template = "Militia"
+		start_experience_factor = 0.3
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "LEB"
+		}
+		requested_factories = 2
+		progress = 0.86
+		efficiency = 100
+	}
+}

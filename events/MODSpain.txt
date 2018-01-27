@@ -1,0 +1,116 @@
+﻿###########################
+# Spanish Events
+###########################
+
+add_namespace = spain
+
+#Phoenicia demands spanish africa
+country_event = {
+	id = spain.2000
+	title = spain.2000.t
+	desc = spain.2000.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = spain.2000.a
+		ai_chance = { 
+			factor = 70
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_puppet_of = LEB
+						is_in_faction_with = LEB
+					}
+				}
+				LEB = {
+					surrender_progress > 0.09
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_in_faction_with = ROOT
+					has_war_with = LEB
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					NOT = {
+						tag = LEB
+					}
+					SPR = {
+						is_puppet_of = PREV
+					}
+					NOT = {
+						is_in_faction_with = LEB
+					}
+				}
+			}
+		}
+		LEB = {
+			country_event = { days = 1 id = lebanon.25 }
+		}
+	}
+	option = { # Refuse
+		name = spain.2000.b		
+		ai_chance = { 
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					LEB = {
+						surrender_progress > 0.09
+					}
+				}
+				NOT = {
+					any_other_country = {
+						is_in_faction_with = ROOT
+						has_war_with = LEB
+					}
+				}
+				NOT = {
+					any_other_country = {
+						NOT = {
+							tag = LEB
+						}
+						SPR = {
+							is_puppet_of = PREV
+						}
+						NOT = {
+							is_in_faction_with = LEB
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = SPR
+					LEB = {
+						is_puppet_of = SPR
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			LEB = {
+				create_wargoal = {
+				type = take_state_focus
+				target = SPR
+				generator = { 290 }
+				}
+				country_event = { days = 1 id = lebanon.26 }
+			}
+		}
+		hidden_effect = {
+			LEB = {
+				country_event = { days = 1 id = lebanon.26 }
+			}
+		}		
+	}
+}

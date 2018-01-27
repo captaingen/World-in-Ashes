@@ -1,0 +1,27 @@
+state={
+	id=759
+	name="STATE_759"
+	manpower = 282741
+	
+	state_category = town
+	
+	resources={
+		oil=4
+	}
+
+
+	history={
+		owner = KER
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10876 1 
+		}
+		add_core_of = KER
+	}
+	
+	provinces={
+		12839 10876
+	}
+}

@@ -1,0 +1,549 @@
+﻿###########################
+# Lebanese Events
+###########################
+
+add_namespace = lebanon
+
+# Lebanon - Britain accepts Ally request
+country_event = {
+	id = lebanon.1
+	title = lebanon.1.t
+	desc = lebanon.1.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = lebanon.1.a
+	}
+}
+
+# Lebanon - Britain denies Ally request
+country_event = {
+	id = lebanon.2
+	title = lebanon.2.t
+	desc = lebanon.2.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = lebanon.2.a
+	}
+}
+
+# Claim Southern Cyprus - England Folds
+country_event = {
+	id = lebanon.3
+	title = lebanon.3.t
+	desc = lebanon.3.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.3.a
+		LEB = { 
+			transfer_state = 183
+			Add_state_core = 183
+		}
+		hidden_effect = {
+			country_event = { days = 1 id = news.333 }
+		}
+	}
+}
+
+# Claim Southern Cyprus - Britain Rejects Demand
+country_event = {
+	id = lebanon.4
+	title = lebanon.4.t
+	desc = lebanon.4.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.4.a
+		create_wargoal = {
+			type = take_state_focus
+			target = ENG
+			generator = { 183 }
+		}
+		hidden_effect = {
+			country_event = { days = 1 id = news.334 }
+		}
+	}
+}
+
+# Claim Gibraltar - England Folds
+country_event = {
+	id = lebanon.5
+	title = lebanon.5.t
+	desc = lebanon.5.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.5.a
+		LEB = { 
+			transfer_state = 118
+		}
+	}
+}
+
+# Claim Gibraltar - Britain Rejects Demand
+country_event = {
+	id = lebanon.6
+	title = lebanon.6.t
+	desc = lebanon.6.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.6.a
+		create_wargoal = {
+			type = take_state_focus
+			target = ENG
+			generator = { 118 }
+		}
+	}
+}
+
+# Claim Italian Africa 1 - Italy Folds
+country_event = {
+	id = lebanon.7
+	title = lebanon.7.t
+	desc = lebanon.7.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.7.a
+		LEB = { 
+			transfer_state = 448
+		}
+	}
+}
+
+# Claim Italian Africa 1 - Italy Rejects Demand
+country_event = {
+	id = lebanon.8
+	title = lebanon.8.t
+	desc = lebanon.8.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.8.a
+		create_wargoal = {
+			type = take_state_focus
+			target = ITA
+			generator = { 448 }
+		}
+	}
+}
+
+# Claim Italian Africa 2 - Italy Folds
+country_event = {
+	id = lebanon.9
+	title = lebanon.9.t
+	desc = lebanon.9.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.9.a
+		LEB = { 
+			transfer_state = 449
+		}
+	}
+}
+
+# Claim Italian Africa 2 - Italy Rejects Demand
+country_event = {
+	id = lebanon.10
+	title = lebanon.10.t
+	desc = lebanon.10.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.10.a
+		create_wargoal = {
+			type = take_state_focus
+			target = ITA
+			generator = { 449 }
+		}
+	}
+}
+
+# Claim Italian land 1 - Italy Folds
+country_event = {
+	id = lebanon.11
+	title = lebanon.11.t
+	desc = lebanon.11.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.11.a
+		LEB = { 
+			transfer_state = 750
+		}
+	}
+}
+
+# Claim Italian land 1 - Italy Rejects Demand
+country_event = {
+	id = lebanon.12
+	title = lebanon.12.t
+	desc = lebanon.12.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.12.a
+		create_wargoal = {
+			type = take_state_focus
+			target = ITA
+			generator = { 750 }
+		}
+#		hidden_effect = {
+#			country_event = { days = 1 id = news.334 }
+#		}
+	}
+}
+
+# Claim Italian land 2 - Italy Folds
+country_event = {
+	id = lebanon.13
+	title = lebanon.13.t
+	desc = lebanon.13.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.13.a
+		LEB = { 
+			transfer_state = 751
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.333 }
+		#}
+	}
+}
+
+# Claim Italian land 2 - Italy Rejects Demand
+country_event = {
+	id = lebanon.14
+	title = lebanon.14.t
+	desc = lebanon.14.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.14.a
+		create_wargoal = {
+			type = take_state_focus
+			target = ITA
+			generator = { 751 }
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.334 }
+		#}
+	}
+}
+
+# Claim french africa 1 - france Folds
+country_event = {
+	id = lebanon.15
+	title = lebanon.15.t
+	desc = lebanon.15.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.15.a
+		LEB = { 
+			transfer_state = 459
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.333 }
+		#}
+	}
+}
+
+# Claim french africa 1 - france Rejects Demand
+country_event = {
+	id = lebanon.16
+	title = lebanon.16.t
+	desc = lebanon.16.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.16.a
+		create_wargoal = {
+			type = take_state_focus
+			target = FRA
+			generator = { 459 }
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.334 }
+		#}
+	}
+}
+
+# Claim french africa 2 - france Folds
+country_event = {
+	id = lebanon.17
+	title = lebanon.17.t
+	desc = lebanon.17.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.17.a
+		LEB = { 
+			transfer_state = 460
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.333 }
+		#}
+	}
+}
+
+# Claim french africa 2 - france Rejects Demand
+country_event = {
+	id = lebanon.18
+	title = lebanon.18.t
+	desc = lebanon.18.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.18.a
+		create_wargoal = {
+			type = take_state_focus
+			target = FRA
+			generator = { 460 }
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.334 }
+		#}
+	}
+}
+
+# Claim french africa 3 - france Folds
+country_event = {
+	id = lebanon.19
+	title = lebanon.19.t
+	desc = lebanon.19.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.19.a
+		LEB = { 
+			transfer_state = 752
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.333 }
+		#}
+	}
+}
+
+# Claim french africa 3 - france Rejects Demand
+country_event = {
+	id = lebanon.20
+	title = lebanon.20.t
+	desc = lebanon.20.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.20.a
+		create_wargoal = {
+			type = take_state_focus
+			target = FRA
+			generator = { 752 }
+		}
+		#hidden_effect = {
+		#	country_event = { days = 1 id = news.334 }
+		#}
+	}
+}
+
+# Claim french tunisia 1 - france Folds
+country_event = {
+	id = lebanon.21
+	title = lebanon.21.t
+	desc = lebanon.21.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.21.a
+		LEB = { 
+			transfer_state = 458
+		}
+	}
+}
+
+# Claim french tunisia 1 - france Rejects Demand
+country_event = {
+	id = lebanon.22
+	title = lebanon.22.t
+	desc = lebanon.22.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.22.a
+		create_wargoal = {
+			type = take_state_focus
+			target = FRA
+			generator = { 458 }
+		}
+		hidden_effect = {
+			country_event = { days = 1 id = news.334 }
+		}
+	}
+}
+
+# Claim french tunisia 2 - france Folds
+country_event = {
+	id = lebanon.23
+	title = lebanon.23.t
+	desc = lebanon.23.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.23.a
+		LEB = { 
+			transfer_state = 665
+		}
+	}
+}
+
+# Claim french tunisia 2 - france Rejects Demand
+country_event = {
+	id = lebanon.24
+	title = lebanon.24.t
+	desc = lebanon.24.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.24.a
+		create_wargoal = {
+			type = take_state_focus
+			target = FRA
+			generator = { 665 }
+		}
+		hidden_effect = {
+			country_event = { days = 1 id = news.334 }
+		}
+	}
+}
+
+# Claim spanish africa - spain Folds
+country_event = {
+	id = lebanon.25
+	title = lebanon.25.t
+	desc = lebanon.25.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.25.a
+		LEB = { 
+			transfer_state = 290
+		}
+		hidden_effect = {
+			country_event = { days = 1 id = news.333 }
+		}
+	}
+}
+
+# Claim spanish africa - spain Rejects Demand
+country_event = {
+	id = lebanon.26
+	title = lebanon.26.t
+	desc = lebanon.26.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = {
+		name = lebanon.26.a
+		create_wargoal = {
+			type = take_state_focus
+			target = SPR
+			generator = { 290 }
+		}
+		hidden_effect = {
+			country_event = { days = 1 id = news.334 }
+		}
+	}
+}
+
+# Lebanon - Turkey sends ultimatum
+country_event = {
+	id = lebanon.27
+	title = lebanon.27.t
+	desc = lebanon.27.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+	
+	option = { #reject ultimatum
+		name = lebanon.27.a
+		ai_chance = { 
+			factor = 60
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.12 }
+		}
+	}
+	option = { #propose lebanese puppet
+		name = lebanon.27.b
+		ai_chance = { 
+			factor = 30
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.13 }
+		}
+	}
+	option = { #accept ultimatum
+		name = lebanon.27.b
+		ai_chance = { 
+			factor = 10
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.14 }
+		}
+	}
+}

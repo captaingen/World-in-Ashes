@@ -1,0 +1,28 @@
+state={
+	id=676
+	name="STATE_676"
+	manpower = 582741
+	
+	state_category = town
+	
+	resources={
+		oil=10
+	}
+
+
+	history={
+		owner = ASS
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10106 1 
+		}
+		add_core_of = ASS
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		1600 1938 10106  10804 12372
+	}
+}

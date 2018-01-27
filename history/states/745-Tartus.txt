@@ -1,0 +1,29 @@
+
+state={
+	id=745
+	name="STATE_745"
+	manpower = 200000
+
+	
+	state_category = town
+
+	history={
+		owner = SYR
+		victory_points = {
+			10087 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			1088 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = SYR
+	}
+
+	provinces={
+		10087 1088 
+	}
+}

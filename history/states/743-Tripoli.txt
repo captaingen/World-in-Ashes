@@ -1,0 +1,32 @@
+
+state={
+	id=743
+	name="STATE_743"
+	manpower = 400000
+	resources={
+		steel=5
+	}
+	
+	state_category = town
+
+	history={
+		owner = LEB
+		victory_points = {
+			1108 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+			1108 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = LEB
+	}
+
+	provinces={
+		1108 
+	}
+}

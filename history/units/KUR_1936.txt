@@ -1,0 +1,35 @@
+﻿division_template = {
+	name = "Alfurqat Almasha"				
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Militia"				
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+division= {	
+		name = "Kurdish Fighter Group A"
+		location = 3916
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.3
+	}
+	
+division= {	
+		name = "Quwwat Aljanoub"
+		location = 10793
+		division_template = "Militia"
+		start_experience_factor = 0.3
+	}
+}

@@ -1,0 +1,55 @@
+﻿###########################
+# Turkmeneli Events
+###########################
+
+add_namespace = turkmen
+
+# Turkmen - Turkey proposes iraqi solution
+country_event = {
+	id = turkmen.1
+	title = turkmen.1.t
+	desc = turkmen.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = turkmen.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		create_wargoal = { type = annex_everything target = IRQ }
+		TUR = {
+			country_event = { days = 1 id = turkey.15 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = turkmen.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.16 }
+		}
+	}
+}
+
+# Turkmen - Turkey gives us the plan
+country_event = {
+	id = turkmen.2
+	title = turkmen.2.t
+	desc = turkmen.2.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #attack the neighbors
+		name = turkmen.2.a
+		create_wargoal = { type = annex_everything target = IRQ }
+		create_wargoal = { type = annex_everything target = KER }
+		create_wargoal = { type = annex_everything target = BSH }
+		army_experience = 20
+	}
+}

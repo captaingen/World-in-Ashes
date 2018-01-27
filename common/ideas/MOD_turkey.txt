@@ -1,0 +1,298 @@
+ideas = {
+	country = {
+		ottoman_ashes = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ottoman_ashes
+			
+			modifier = {
+				drift_defence_factor = -0.5
+				army_org_Factor = -0.05
+				planning_speed = -0.25
+			}
+			rule = {
+				can_create_factions = no
+			}
+		}
+		
+		TUR_justification = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ottoman_ashes
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				army_org_Factor = 0.15
+				planning_speed = 0.25
+				justify_war_goal_time = -0.3
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		
+		TUR_civilian_training_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		TUR_institute_of_research_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				research_time_factor = -0.1
+			}
+		}
+		
+		TUR_faster_production_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		
+		TUR_return_of_the_empire_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				fascism_drift = 0.1
+			}
+		}
+		
+		TUR_keep_the_assembly_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				unity_factor = 0.08
+			}
+		}
+		
+		TUR_political_figure_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				political_power_factor = 0.5
+			}
+		}
+		
+		TUR_northern_volunteers_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				conscription = 0.005
+			}
+		}
+		
+		TUR_abolish_the_assembly_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				unity_factor = -0.08
+			}
+		}
+		
+		TUR_power_to_the_sultan_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+		
+		TUR_conscription_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		
+		TUR_ottoman_army_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				conscription = 0.005
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				enemy_partisan_effect = -0.1
+				training_time_army_factor = -0.1
+			}
+		}
+		
+		TUR_training_women_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				conscription = 0.01
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				enemy_partisan_effect = -0.1
+				training_time_army_factor = -0.1
+			}
+		}
+	}
+
+	
+	#military
+	army_chief = {
+	
+		
+	}
+	
+}

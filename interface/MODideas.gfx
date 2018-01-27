@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_ottoman_ashes"
+		texturefile = "gfx/interface/ideas/ottoman_ashes.dds"
+	}
+
+	
+}

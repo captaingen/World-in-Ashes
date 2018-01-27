@@ -1,0 +1,34 @@
+
+state={
+	id=658
+	name="STATE_658"
+	manpower = 220000
+	resources={
+		oil=6
+	}
+	
+	state_category = pastoral
+
+
+	history={
+		owner = UAE
+		victory_points = {
+			2048 5 
+		}
+		buildings = {
+			infrastructure = 2
+			2048 = {
+				naval_base = 3
+			}
+			8051 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = UAE	
+		
+	}
+
+	provinces={
+		2048 8051 8108 4932
+	}
+}
