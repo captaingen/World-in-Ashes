@@ -255,7 +255,7 @@ country_event = {
 	}
 	
 	option = {  #war goal to annex lebanon
-		name = turkey.13.a
+		name = turkey.13.b
 		ai_chance = { 
 			factor = 10
 		}
@@ -312,6 +312,7 @@ country_event = {
 
 	option = {  #war goals
 		name = turkey.16.a
+		create_faction = "ottoman_sphere"
 		create_wargoal = { type = annex_everything target = ASS }
 		create_wargoal = { type = annex_everything target = KUR }
 		create_wargoal = { type = annex_everything target = TRM }
@@ -380,5 +381,75 @@ country_event = {
 	option = {  #puppet hejaz by force
 		name = turkey.20.a
 		create_wargoal = { type = puppet_wargoal_focus target = HEJ }
+	}
+}
+
+# Turkey - Egyptian threat
+country_event = {
+	id = turkey.21
+	title = turkey.21.t
+	desc = turkey.21.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #Possible Mamluks pose a threat
+		name = turkey.21.a
+		ai_chance = { 
+			factor = 40
+		}
+		create_wargoal = { type = puppet_wargoal_focus target = EGY }
+	}
+	
+	option = {  #Propose alliance between the two
+		name = turkey.21.b
+		ai_chance = { 
+			factor = 30
+		}
+		EGY = {
+					country_event = { id = egypt.1 }
+			}
+	}
+	
+	option = {  #force a non-official pact
+		name = turkey.21.c
+		ai_chance = { 
+			factor = 30
+		}
+		add_political_power = 100
+		diplomatic_relation = { country = EGY relation = non_aggression_pact }
+		EGY = {
+					country_event = { id = egypt.2 }
+			}
+	}
+}
+
+# Turkey - Egypt accepts to join faction
+country_event = {
+	id = turkey.22
+	title = turkey.22.t
+	desc = turkey.22.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #add egypt to faction
+		name = turkey.22.a
+		add_to_faction = EGY
+	}
+}
+
+# Turkey - Egypt rejects to join faction
+country_event = {
+	id = turkey.23
+	title = turkey.23.t
+	desc = turkey.23.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #puppet egypt
+		name = turkey.23.a
+		{ type = puppet_wargoal_focus target = EGY }
 	}
 }

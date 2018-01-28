@@ -1667,4 +1667,39 @@ focus_tree = {
 		} 
 	}
 	
+	focus = {
+		id = TUR_egyptian_threat
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_hejaz_next
+		}
+		x = 18
+		y = 10
+		cost = 10
+		available = {
+			EGY = { exists = yes }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			EGY = {
+				exists = no
+			}
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = +0.05
+			TUR = {
+					country_event = { id = turkey.21 }
+			}
+		} 
+	}
+	
 }

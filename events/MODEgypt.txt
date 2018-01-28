@@ -1,0 +1,62 @@
+﻿###########################
+# Egyptian Events
+###########################
+
+add_namespace = egypt
+
+# egypt - Turkey wants to create a faction
+country_event = {
+	id = egypt.1
+	title = egypt.1.t
+	desc = egypt.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = egypt.1.a
+		ai_chance = { 
+			factor = 80
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.22 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = egypt.1.b
+		ai_chance = { 
+			factor = 20
+		}
+		add_political_power = -100
+		TUR = {
+			country_event = { days = 1 id = turkey.23 }
+		}
+	}
+}
+
+# egypt - turkey forces a non aggresion pact
+country_event = {
+	id = egypt.2
+	title = egypt.2.t
+	desc = egypt.2.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #Accept it
+		name = egypt.2.a
+		ai_chance = { 
+			factor = 99
+		}
+		add_political_power = -100
+	}
+	
+	option = {  #reject it
+		name = egypt.2.b
+		ai_chance = { 
+			factor = 1
+		}
+		declare_war_on = { target = TUR type = annex_everything }
+	}
+}
