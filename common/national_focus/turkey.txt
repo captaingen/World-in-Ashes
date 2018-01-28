@@ -1043,6 +1043,11 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_ottoman_ashes
 		}
+		mutually_exclusive = {
+			focus = TUR_nation_assembly_of_turkey
+			focus = TUR_communist_opportunity
+			
+		}
 		x = 15
 		y = 1
 		cost = 10
@@ -1059,6 +1064,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_national_unity = -0.05
 			add_popularity = { ideology = fascism popularity = 0.1 }
 			add_ideas = TUR_return_of_the_empire_focus
 		}
@@ -1695,9 +1701,124 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_national_unity = +0.05
+			add_national_unity = 0.05
 			TUR = {
 					country_event = { id = turkey.21 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_nation_assembly_of_turkey
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ottoman_ashes
+		}
+		
+		mutually_exclusive = {
+			focus = TUR_return_of_the_empire
+			focus = TUR_communist_opportunity
+		}
+		
+		x = 27
+		y = 1
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = 0.05
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			add_ideas = TUR_nation_assembly_of_turkey_focus
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_joint_army
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_nation_assembly_of_turkey
+			focus = TUR_return_of_the_empire
+		}
+		x = 20
+		y = 3
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = 0.05
+			army_experience = 20
+			navy_experience = 20
+			air_experience = 20
+			TUR = {
+					country_event = { id = turkey.24 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_communist_opportunity
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ottoman_ashes
+		}
+		
+		mutually_exclusive = {
+			focus = TUR_return_of_the_empire
+			focus = TUR_nation_assembly_of_turkey
+		}
+		
+		x = 35
+		y = 1
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = -0.05
+			add_popularity = { ideology = communism popularity = 0.1 }
+			add_ideas = TUR_communist_opportunity_focus
 			}
 		} 
 	}

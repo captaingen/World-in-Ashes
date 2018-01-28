@@ -450,6 +450,21 @@ country_event = {
 
 	option = {  #puppet egypt
 		name = turkey.23.a
-		{ type = puppet_wargoal_focus target = EGY }
+		create_wargoal = { type = puppet_wargoal_focus target = EGY }
+	}
+}
+
+# Turkey - Joint army
+country_event = {
+	id = turkey.24
+	title = turkey.24.t
+	desc = turkey.24.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #join army
+		name = turkey.24.a
+		add_ideas = TUR_joint_army_focus
 	}
 }
