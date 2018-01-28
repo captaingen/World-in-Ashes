@@ -346,9 +346,39 @@ country_event = {
 
 	is_triggered_only	= yes
 
-	option = {  #jordan and palestine becomes puppets
+	option = {  #jordan and palestine shall be conquered
 		name = turkey.18.a
 		create_wargoal = { type = annex_everything target = JOR }
 		create_wargoal = { type = annex_everything target = PAL }
+	}
+}
+
+# Turkey - Hejaz accepts proposal
+country_event = {
+	id = turkey.19
+	title = turkey.19.t
+	desc = turkey.19.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #puppet hejaz
+		name = turkey.19.a
+		puppet = HEJ
+	}
+}
+
+# Turkey - Hejaz rejects proposal
+country_event = {
+	id = turkey.20
+	title = turkey.20.t
+	desc = turkey.20.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #puppet hejaz by force
+		name = turkey.20.a
+		create_wargoal = { type = puppet_wargoal_focus target = HEJ }
 	}
 }

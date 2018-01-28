@@ -1,0 +1,35 @@
+﻿###########################
+# Hejazi Events
+###########################
+
+add_namespace = hejaz
+
+# hejaz - Turkey wants to become our overlord
+country_event = {
+	id = hejaz.1
+	title = hejaz.1.t
+	desc = hejaz.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = hejaz.1.a
+		ai_chance = { 
+			factor = 75
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.19 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = hejaz.1.b
+		ai_chance = { 
+			factor = 25
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.20 }
+		}
+	}
+}

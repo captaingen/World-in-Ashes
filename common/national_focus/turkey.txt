@@ -1660,7 +1660,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = -50
+			add_political_power = -100
 			HEJ = {
 					country_event = { id = hejaz.1 }
 			}
