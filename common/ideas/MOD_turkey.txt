@@ -286,6 +286,68 @@ ideas = {
 				training_time_army_factor = -0.1
 			}
 		}
+		
+		TUR_nation_assembly_of_turkey_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				democratic_drift = 0.1
+			}
+		}
+		
+		TUR_communist_opportunity_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				communism_drift = 0.1
+			}
+		}
+		
+		TUR_joint_army_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				land_reinforce_rate = 0.1
+				attrition = -0.05
+				out_of_supply_factor = -0.05
+				supply_consumption_factor = 0.1
+			}
+		}
 	}
 
 	
