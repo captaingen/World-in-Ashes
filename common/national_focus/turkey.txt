@@ -1581,6 +1581,35 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = TUR_core_iraq
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_iraqi_takeover
+		}
+		x = 20
+		y = 8
+		cost = 20
+		available = {
+			owns_state = 676
+			owns_state = 758
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_tooltip = {
+			add_state_core = 676
+			add_state_core = 758
+		}
+		
+		completion_reward = {
+			add_state_core = 676
+			add_state_core = 758
+		}
+	}
+	
+	focus = {
 		id = TUR_jordan_and_palestine
 		icon = GFX_goal_unknown
 		prerequisite = {
@@ -1743,7 +1772,6 @@ focus_tree = {
 			add_national_unity = 0.05
 			add_popularity = { ideology = democratic popularity = 0.1 }
 			add_ideas = TUR_nation_assembly_of_turkey_focus
-			}
 		} 
 	}
 	
@@ -1754,8 +1782,9 @@ focus_tree = {
 			focus = TUR_nation_assembly_of_turkey
 			focus = TUR_return_of_the_empire
 		}
+		
 		x = 20
-		y = 3
+		y = 2
 		cost = 10
 		available = {
 			
@@ -1781,6 +1810,286 @@ focus_tree = {
 			TUR = {
 					country_event = { id = turkey.24 }
 			}
+		}
+	}
+	
+	focus = {
+		id = TUR_national_guard
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_joint_army
+		}
+		x = 20
+		y = 3
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = 0.01
+			army_experience = 5
+			load_oob = TUR_national_guard
+			TUR = {
+					country_event = { id = turkey.25 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_border_patrols
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_national_guard
+		}
+		x = 21
+		y = 4
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			load_oob = TUR_border_patrols
+		} 
+	}
+	
+	focus = {
+		id = TUR_cyprus_demands
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_border_patrols
+		}
+		x = 21
+		y = 5
+		cost = 10
+		available = {
+			ENG = { exists = yes }
+			ENG = { has_full_control_of_state = 749 }
+			has_political_power > 50
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			ENG = {
+					country_event = { id = britain.2002 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_western_expansion
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_cyprus_demands
+		}
+		x = 22
+		y = 6
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			
+		} 
+	}
+	
+	focus = {
+		id = TUR_greek_demands
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_western_expansion
+		}
+		x = 22
+		y = 7
+		cost = 10
+		available = {
+			GRE = { exists = yes }
+			has_political_power > 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -100
+			GRE = {
+					country_event = { id = greece.5 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_bulgarian_claim
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_western_expansion
+		}
+		x = 24
+		y = 7
+		cost = 10
+		available = {
+			BUL = { exists = yes }
+			has_political_power > 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -100
+			BUL = {
+					country_event = { id = bulgaria.6 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_annex_greece
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_greek_demands
+		}
+		x = 22
+		y = 8
+		cost = 10
+		available = {
+			GRE = { exists = yes }
+			has_political_power > 50
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			GRE = {
+					country_event = { id = greece.6 }
+			}
+		} 
+	}
+	
+	focus = {
+		id = TUR_balkan_strategem
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_annex_greece
+		}
+		prerequisite = {
+			focus = TUR_bulgarian_claim
+		}
+		x = 24
+		y = 9
+		cost = 10
+		available = {
+			TUR = { 
+					owns_state = 184
+					owns_state = 185
+					owns_state = 186
+					owns_state = 187
+					owns_state = 182
+					owns_state = 731
+					owns_state = 47
+					owns_state = 48
+					owns_state = 211
+					owns_state = 212
+				}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = 300
+			release = GRE
+			release = BUL
+			puppet = GRE
+			puppet = BUL
 		} 
 	}
 	

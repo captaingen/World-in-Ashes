@@ -468,3 +468,176 @@ country_event = {
 		add_ideas = TUR_joint_army_focus
 	}
 }
+
+# Turkey - National Guard
+country_event = {
+	id = turkey.25
+	title = turkey.25.t
+	desc = turkey.25.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #join army
+		name = turkey.25.a
+
+	}
+}
+
+# Turkey - Britain accepts to cede northern cyprus
+country_event = {
+	id = turkey.26
+	title = turkey.26.t
+	desc = turkey.26.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { 
+		name = turkey.26.a
+		TUR = { 
+			transfer_state = 749
+			Add_state_core = 749
+		}
+	}
+}
+
+# Turkey - Britain rejects to cede northern cyprus
+country_event = {
+	id = turkey.27
+	title = turkey.27.t
+	desc = turkey.27.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {  #take it by force
+		name = turkey.27.a
+		add_political_power = -100
+		create_wargoal = {
+			type = take_state_focus
+			target = ENG
+			generator = { 749 }
+		}
+	}
+	
+	option = {  #scrap it
+		name = turkey.27.b
+		add_political_power = 10
+	}
+}
+
+# Turkey - Greece accepts to cede thrace
+country_event = {
+	id = turkey.28
+	title = turkey.28.t
+	desc = turkey.28.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { 
+		name = turkey.28.a
+		TUR = { 
+			transfer_state = 184
+			Add_state_core = 184
+		}
+	}
+}
+
+# Turkey - Greece rejects to cede thrace
+country_event = {
+	id = turkey.29
+	title = turkey.29.t
+	desc = turkey.29.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.29.a
+		add_political_power = -50
+		create_wargoal = {
+			type = take_state_focus
+			target = GRE
+			generator = { 184 }
+		}
+	}
+	
+	option = { #scrap it
+		name = turkey.29.b
+		add_political_power = 5
+	}
+}
+
+# Turkey - bulgaria accepts to get annexed
+country_event = {
+	id = turkey.30
+	title = turkey.30.t
+	desc = turkey.30.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { 
+		name = turkey.30.a
+		annex_country = { target = BUL }
+	}
+}
+
+# Turkey - bulgaria rejects
+country_event = {
+	id = turkey.31
+	title = turkey.31.t
+	desc = turkey.31.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.31.a
+		add_political_power = -50
+		create_wargoal = { type = annex_everything target = BUL }
+	}
+	
+	option = { #scrap it
+		name = turkey.31.b
+		add_political_power = 5
+	}
+}
+
+# Turkey - greece accepts to get annexed
+country_event = {
+	id = turkey.32
+	title = turkey.32.t
+	desc = turkey.32.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { 
+		name = turkey.32.a
+		annex_country = { target = GRE }
+	}
+}
+
+# Turkey - greece rejects
+country_event = {
+	id = turkey.33
+	title = turkey.33.t
+	desc = turkey.33.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.33.a
+		add_political_power = -100
+		create_wargoal = { type = annex_everything target = GRE }
+	}
+	
+	option = { #scrap it
+		name = turkey.33.b
+		add_political_power = 25
+	}
+}

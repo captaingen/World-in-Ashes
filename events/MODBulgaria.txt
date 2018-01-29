@@ -1,0 +1,35 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = bulgaria
+
+# Turkey demands annexation
+country_event = {
+	id = bulgaria.6
+	title = bulgaria.6.t
+	desc = bulgaria.6.d
+	picture = GFX_report_event_vienna_award_negotiations
+	
+	is_triggered_only = yes
+	
+	option = { #accept
+		name = bulgaria.6.a
+		ai_chance = {
+			factor = 20
+		}
+		TUR = {
+			country_event = { id = turkey.30 }
+		}
+	}
+	
+	option = { #reject
+		name = bulgaria.6.b
+		ai_chance = {
+			factor = 80
+		}
+		TUR = {
+			country_event = { id = turkey.31 }
+		}
+	}
+}

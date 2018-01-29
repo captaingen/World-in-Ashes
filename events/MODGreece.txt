@@ -1,0 +1,66 @@
+﻿###########################
+# Greek Events
+###########################
+
+add_namespace = greece
+
+
+# Turkey demands thrace
+country_event = {
+	id = greece.5
+	title = greece.5.t
+	desc = greece.5.d
+	picture = GFX_report_event_fascist_militia
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = greece.5.a
+		ai_chance = {
+			factor = 50
+		}
+		TUR = {
+			country_event = { id = turkey.28 }
+		}
+	}
+	
+	option = { # reject demands
+		name = greece.5.b
+		ai_chance = {
+			factor = 50
+		}
+		TUR = {
+			country_event = { id = turkey.29 }
+		}
+	}
+}
+
+# Turkey demands annexation
+country_event = {
+	id = greece.6
+	title = greece.6.t
+	desc = greece.6.d
+	picture = GFX_report_event_fascist_militia
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = greece.6.a
+		ai_chance = {
+			factor = 20
+		}
+		TUR = {
+			country_event = { id = turkey.32 }
+		}
+	}
+	
+	option = { # reject demands
+		name = greece.6.b
+		ai_chance = {
+			factor = 80
+		}
+		TUR = {
+			country_event = { id = turkey.33 }
+		}
+	}
+}

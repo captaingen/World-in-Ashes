@@ -54,39 +54,6 @@ country_event = {
 		name = britain.2000.a
 		ai_chance = { 
 			factor = 80
-			modifier = {
-				factor = 0
-				NOT = {
-					OR = {
-						is_puppet_of = LEB
-						is_in_faction_with = LEB
-					}
-				}
-				LEB = {
-					surrender_progress > 0.09
-				}
-			}
-			modifier = {
-				factor = 0
-				any_other_country = {
-					is_in_faction_with = ROOT
-					has_war_with = LEB
-				}
-			}
-			modifier = {
-				factor = 0
-				any_other_country = {
-					NOT = {
-						tag = LEB
-					}
-					LIT = {
-						is_puppet_of = PREV
-					}
-					NOT = {
-						is_in_faction_with = LEB
-					}
-				}
-			}
 		}
 		LEB = {
 			country_event = { days = 1 id = lebanon.3 }
@@ -96,43 +63,6 @@ country_event = {
 		name = britain.2000.b		
 		ai_chance = { 
 			factor = 20
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				NOT = {
-					LEB = {
-						surrender_progress > 0.09
-					}
-				}
-				NOT = {
-					any_other_country = {
-						is_in_faction_with = ROOT
-						has_war_with = LEB
-					}
-				}
-				NOT = {
-					any_other_country = {
-						NOT = {
-							tag = LEB
-						}
-						ENG = {
-							is_puppet_of = PREV
-						}
-						NOT = {
-							is_in_faction_with = LEB
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					is_in_faction_with = ENG
-					LEB = {
-						is_puppet_of = ENG
-					}
-				}
-			}
 		}
 		effect_tooltip = {
 			LEB = {
@@ -165,39 +95,6 @@ country_event = {
 		name = britain.2001.a
 		ai_chance = { 
 			factor = 10
-			modifier = {
-				factor = 0
-				NOT = {
-					OR = {
-						is_puppet_of = LEB
-						is_in_faction_with = LEB
-					}
-				}
-				LEB = {
-					surrender_progress > 0.09
-				}
-			}
-			modifier = {
-				factor = 0
-				any_other_country = {
-					is_in_faction_with = ROOT
-					has_war_with = LEB
-				}
-			}
-			modifier = {
-				factor = 0
-				any_other_country = {
-					NOT = {
-						tag = LEB
-					}
-					LIT = {
-						is_puppet_of = PREV
-					}
-					NOT = {
-						is_in_faction_with = LEB
-					}
-				}
-			}
 		}
 		LEB = {
 			country_event = { days = 1 id = lebanon.5 }
@@ -207,43 +104,6 @@ country_event = {
 		name = britain.2001.b		
 		ai_chance = { 
 			factor = 90
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				NOT = {
-					LEB = {
-						surrender_progress > 0.09
-					}
-				}
-				NOT = {
-					any_other_country = {
-						is_in_faction_with = ROOT
-						has_war_with = LEB
-					}
-				}
-				NOT = {
-					any_other_country = {
-						NOT = {
-							tag = LEB
-						}
-						ENG = {
-							is_puppet_of = PREV
-						}
-						NOT = {
-							is_in_faction_with = LEB
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					is_in_faction_with = ENG
-					ENG = {
-						is_puppet_of = LEB
-					}
-				}
-			}
 		}
 		effect_tooltip = {
 			LEB = {
@@ -258,6 +118,40 @@ country_event = {
 		hidden_effect = {
 			LEB = {
 				country_event = { days = 1 id = lebanon.6 }
+			}
+		}		
+	}
+}
+
+#Turkey demands Northern Cyprus
+country_event = {
+	id = britain.2002
+	title = britain.2002.t
+	desc = britain.2002.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = britain.2002.a
+		ai_chance = { 
+			factor = 75
+			}
+		TUR = {
+			country_event = { days = 1 id = turkey.26 }
+		}
+	}
+	option = { # Refuse
+		name = britain.2002.b		
+		ai_chance = { 
+			factor = 25
+		}
+		effect_tooltip = {
+			
+		}
+		hidden_effect = {
+			TUR = {
+				country_event = { days = 1 id = turkey.27 }
 			}
 		}		
 	}

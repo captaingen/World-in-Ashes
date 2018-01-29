@@ -16,7 +16,7 @@ country_event = {
 	option = { #Accept proposal
 		name = turkmen.1.a
 		ai_chance = { 
-			factor = 50
+			factor = 75
 		}
 		set_politics = { ruling_party = fascism elections_allowed = no }
 		create_wargoal = { type = annex_everything target = IRQ }
@@ -28,7 +28,7 @@ country_event = {
 	option = { #reject proposal
 		name = turkmen.1.b
 		ai_chance = { 
-			factor = 50
+			factor = 25
 		}
 		TUR = {
 			country_event = { days = 1 id = turkey.16 }
