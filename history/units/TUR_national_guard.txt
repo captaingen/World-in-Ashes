@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "National Guard"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+
+
+units = {
+	
+	division= {	
+		name = "1st National Guard"
+		location = 11829
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+	}
+	
+	division= {	
+		name = "2nd National Guard"
+		location = 9833
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+	}
+	
+	division= {	
+		name = "3rd National Guard"
+		location = 9833
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "4th National Guard"
+		location = 6808
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+
+	}
+}

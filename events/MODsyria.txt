@@ -114,7 +114,7 @@ country_event = {
 	is_triggered_only	= yes
 
 	option = { #accept
-		name = syria.2.a
+		name = syria.4.a
 		ai_chance = { 
 			factor = 25
 		}
@@ -124,12 +124,42 @@ country_event = {
 	}
 	
 	option = { #reject
-		name = syria.2.a
+		name = syria.4.b
 		ai_chance = { 
 			factor = 75
 		}
 		TUR = {
 			country_event = { days = 1 id = turkey.11 }
+		}
+	}
+}
+
+# syria - Turkey wants us to join alliance
+country_event = {
+	id = syria.5
+	title = syria.5.t
+	desc = syria.5.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = syria.5.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.38 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = syria.5.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.39 }
 		}
 	}
 }

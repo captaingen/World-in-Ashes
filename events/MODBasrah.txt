@@ -1,0 +1,35 @@
+﻿###########################
+# Basrah Events
+###########################
+
+add_namespace = basrah
+
+# Turkey wants us to join alliance
+country_event = {
+	id = basrah.1
+	title = basrah.1.t
+	desc = basrah.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = basrah.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.48 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = basrah.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.49 }
+		}
+	}
+}

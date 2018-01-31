@@ -348,6 +348,174 @@ ideas = {
 				supply_consumption_factor = 0.1
 			}
 		}
+		
+		TUR_western_expansion_focus = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+				}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				subversive_activites_upkeep = -0.1
+			}
+		}
+		
+		TUR_stay_neutral_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				#generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1.0
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+			}
+		}
+		
+		TUR_democratic_values_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				send_volunteer_divisions_required = -0.25
+				send_volunteer_size = 2
+				send_volunteers_tension = -0.35
+			}
+		}
+		
+		TUR_language_association_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				consumer_goods_factor = -0.03				
+			}
+		}
+		
+		TUR_turkish_literature_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				unity_factor = 0.07
+				drift_defence_factor = 0.3
+			}
+		}
+		
+		TUR_education_association_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				unity_factor = 0.01
+				research_time_factor = -0.05
+			}
+		}
+		
+		TUR_improved_schools_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		TUR_communist_volunteers_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				send_volunteer_divisions_required = -0.5
+				send_volunteer_size = 3
+				send_volunteers_tension = -0.4
+			}
+		}
+		
 	}
 
 	

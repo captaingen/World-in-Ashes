@@ -33,3 +33,33 @@ country_event = {
 		}
 	}
 }
+
+# jordan - Turkey wants us to join alliance
+country_event = {
+	id = jordan.2
+	title = jordan.2.t
+	desc = jordan.2.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = jordan.2.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.36 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = jordan.2.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.37 }
+		}
+	}
+}

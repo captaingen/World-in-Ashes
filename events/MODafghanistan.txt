@@ -1,0 +1,35 @@
+﻿###########################
+# afghan Events
+###########################
+
+add_namespace = afghan
+
+# Turkey wants us to join alliance
+country_event = {
+	id = afghan.1
+	title = afghan.1.t
+	desc = afghan.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = afghan.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.56 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = afghan.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.57 }
+		}
+	}
+}

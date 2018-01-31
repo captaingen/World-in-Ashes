@@ -10,6 +10,11 @@ set_technology = {
 
 set_convoys = 5
 
+set_autonomy = {
+	target = PAL
+	autonomous_state = autonomy_puppet
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198

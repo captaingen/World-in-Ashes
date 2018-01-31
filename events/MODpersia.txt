@@ -1,0 +1,35 @@
+﻿###########################
+# persian Events
+###########################
+
+add_namespace = persia
+
+# Turkey wants us to join alliance
+country_event = {
+	id = persia.1
+	title = persia.1.t
+	desc = persia.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = persia.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.54 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = persia.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.55 }
+		}
+	}
+}

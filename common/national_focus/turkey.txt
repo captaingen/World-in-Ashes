@@ -1573,6 +1573,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			army_experience = -10
 			add_political_power = -100
 			TRM = {
 					country_event = { id = turkmen.1 }
@@ -1665,6 +1666,44 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = TUR_core_jordan
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_jordan_and_palestine
+		}
+		x = 20
+		y = 9
+		cost = 20
+		available = {
+			owns_state = 748
+			owns_state = 753
+			owns_state = 454
+			owns_state = 455
+			owns_state = 754
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_tooltip = {
+			add_state_core = 748
+			add_state_core = 753
+			add_state_core = 454
+			add_state_core = 455
+			add_state_core = 754
+		}
+		
+		completion_reward = {
+			add_state_core = 748
+			add_state_core = 753
+			add_state_core = 454
+			add_state_core = 455
+			add_state_core = 754
+		}
+	}
+	
+	focus = {
 		id = TUR_hejaz_next
 		icon = GFX_goal_unknown
 		prerequisite = {
@@ -1700,6 +1739,32 @@ focus_tree = {
 					country_event = { id = hejaz.1 }
 			}
 		} 
+	}
+	
+	focus = {
+		id = TUR_core_hejaz
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_hejaz_next
+		}
+		x = 20
+		y = 10
+		cost = 20
+		available = {
+			owns_state = 679
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_tooltip = {
+			add_state_core = 679
+		}
+		
+		completion_reward = {
+			add_state_core = 679
+		}
 	}
 	
 	focus = {
@@ -1854,7 +1919,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_national_guard
 		}
-		x = 21
+		x = 20
 		y = 4
 		cost = 10
 		available = {
@@ -1919,6 +1984,9 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_cyprus_demands
 		}
+		prerequisite = {
+			focus = TUR_syrian_troop_crossover
+		}
 		x = 22
 		y = 6
 		cost = 10
@@ -1939,7 +2007,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = TUR_western_expansion_focus
 		} 
 	}
 	
@@ -2087,9 +2155,627 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 300
 			release = GRE
-			release = BUL
 			puppet = GRE
-			puppet = BUL
+			TUR = { transfer_state = 184 }
+			TUR = { transfer_state = 187 }
+			TUR = { transfer_state = 182 }
+			TUR = { transfer_state = 341 }
+		} 
+	}
+	
+	focus = {
+		id = TUR_ataturk
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_nation_assembly_of_turkey
+		}
+		x = 27
+		y = 2
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+		} 
+	}
+	
+	focus = {
+		id = TUR_stay_neutral
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ataturk
+		}
+		mutually_exclusive = {
+			focus = TUR_middle_east_sphere
+			focus = TUR_join_allies
+			focus = TUR_create_saadabad
+		}
+		x = 22
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_ideas = TUR_stay_neutral_focus
+		} 
+	}
+	
+	focus = {
+		id = TUR_middle_east_sphere
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ataturk
+		}
+		mutually_exclusive = {
+			focus = TUR_stay_neutral
+			focus = TUR_join_allies
+			focus = TUR_create_saadabad
+		}
+		x = 24
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			create_faction = "middle_east_sphere"
+		} 
+	}
+	
+	focus = {
+		id = TUR_ask_jordan
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_middle_east_sphere
+		}
+		
+		x = 22
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+			NOT = { has_war_with = JOR }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = JOR
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			JOR = { country_event = { id = jordan.2 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_ask_syria
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_middle_east_sphere
+		}
+		
+		x = 24
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+			NOT = { has_war_with = SYR }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = SYR
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			SYR = { country_event = { id = syria.5 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_ask_lebanon
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_middle_east_sphere
+		}
+		
+		x = 26
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+			NOT = { has_war_with = LEB }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = LEB
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			LEB = { country_event = { id = lebanon.28 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_ask_lebanon
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ask_jordan
+		}
+		prerequisite = {
+			focus = TUR_ask_syria
+		}
+		prerequisite = {
+			focus = TUR_ask_lebanon
+		}
+		
+		x = 26
+		y = 4
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = LEB
+			is_in_faction_with = JOR
+			is_in_faction_with = SYR
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			LEB = { add_to_tech_sharing_group = middle_east_research }
+			JOR = { add_to_tech_sharing_group = middle_east_research }
+			SYR = { add_to_tech_sharing_group = middle_east_research }
+			add_to_tech_sharing_group = middle_east_research
+		} 
+	}
+	
+	focus = {
+		id = TUR_join_allies
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ataturk
+		}
+		mutually_exclusive = {
+			focus = TUR_stay_neutral
+			focus = TUR_middle_east_sphere
+			focus = TUR_create_saadabad
+		}
+		x = 26
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+			ENG = {
+				exists = yes
+				has_government = democratic
+			}
+			NOT = { has_war_with = ENG }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = ENG
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			ENG = { country_event = { id = britain.2003 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_create_saadabad
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ataturk
+		}
+		mutually_exclusive = {
+			focus = TUR_stay_neutral
+			focus = TUR_middle_east_sphere
+			focus = TUR_join_allies
+		}
+		x = 28
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			create_faction = "saadabad_pact"
+		} 
+	}
+	
+	focus = {
+		id = TUR_iraqi_states
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_create_saadabad
+		}
+		
+		x = 28
+		y = 4
+		cost = 15
+		available = {
+			is_puppet = no
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			KER = { country_event = { id = kerbala.1 } }
+			KUR = { country_event = { id = kurds.1 } }
+			ASS = { country_event = { id = assyria.1 } }
+			TRM = { country_event = { id = turkmen.3 } }
+			IRQ = { country_event = { id = iraq.1 } }
+			BSH = { country_event = { id = basrah.1 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_iran
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_iraqi_states
+		}
+		
+		x = 28
+		y = 5
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = PER
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			PER = { country_event = { id = persia.1 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_afghanistan
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_iran
+		}
+		
+		x = 28
+		y = 6
+		cost = 10
+		available = {
+			is_puppet = no
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			is_in_faction_with = AFG
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			AFG = { country_event = { id = afghan.1 } }
+		} 
+	}
+	
+	focus = {
+		id = TUR_democratic_values
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_ataturk
+		}
+		
+		x = 30
+		y = 3
+		cost = 10
+		available = {
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = 0.05
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			add_ideas = TUR_democratic_values_focus
+		} 
+	}
+	
+	focus = {
+		id = TUR_language_association
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_democratic_values
+		}
+		
+		x = 30
+		y = 4
+		cost = 10
+		available = {
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_ideas = TUR_language_association_focus
+		} 
+	}
+	
+	focus = {
+		id = TUR_turkish_literature
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_language_association
+		}
+		
+		x = 30
+		y = 5
+		cost = 10
+		available = {
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_ideas = TUR_turkish_literature_focus
+		} 
+	}
+	
+	focus = {
+		id = TUR_education_association
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_democratic_values
+		}
+		
+		x = 32
+		y = 4
+		cost = 10
+		available = {
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_ideas = TUR_education_association_focus
+		} 
+	}
+	
+	focus = {
+		id = TUR_improved_schools
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_education_association
+		}
+		
+		x = 32
+		y = 5
+		cost = 10
+		available = {
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_ideas = TUR_improved_schools_focus
+		} 
+	}
+	
+	focus = {
+		id = TUR_educated_population
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_turkish_literature
+		}
+		prerequisite = {
+			focus = TUR_improved_schools
+		}
+		
+		x = 32
+		y = 5
+		cost = 10
+		available = {
+			has_government = democratic
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
 		} 
 	}
 	
@@ -2128,8 +2814,108 @@ focus_tree = {
 			add_national_unity = -0.05
 			add_popularity = { ideology = communism popularity = 0.1 }
 			add_ideas = TUR_communist_opportunity_focus
-			}
-		} 
+		}
+	}
+	
+	focus = {
+		id = TUR_sefik_husnu
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_communist_opportunity
+		}
+		
+		x = 35
+		y = 2
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = -0.15
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
+	
+	focus = {
+		id = TUR_revenge
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_sefik_husnu
+		}
+		
+		mutually_exclusive = {
+			focus = TUR_forgive_capitalists
+		}
+		
+		x = 35
+		y = 2
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_national_unity = -0.05
+			add_popularity = { ideology = democratic popularity = -0.1 }
+			add_popularity = { ideology = neutrality popularity = -0.3 }
+			
+		}
+	}
+	
+	focus = {
+		id = TUR_communist_volunteers
+		icon = GFX_goal_unknown
+		prerequisite = {
+			focus = TUR_communist_opportunity
+		}
+		
+		x = 39
+		y = 2
+		cost = 10
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_ideas = TUR_communist_volunteers_focus
+		}
 	}
 	
 }

@@ -538,12 +538,42 @@ country_event = {
 		}
 	}
 	option = { #accept ultimatum
-		name = lebanon.27.b
+		name = lebanon.27.c
 		ai_chance = { 
 			factor = 10
 		}
 		TUR = {
 			country_event = { days = 1 id = turkey.14 }
+		}
+	}
+}
+
+# Lebanon - Turkey wants us to join alliance
+country_event = {
+	id = lebanon.28
+	title = lebanon.28.t
+	desc = lebanon.28.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = lebanon.28.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.40 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = lebanon.28.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.41 }
 		}
 	}
 }

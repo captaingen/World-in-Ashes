@@ -180,3 +180,106 @@ news_event = {
 		trigger = { TAG = LEB }
 	}
 }
+
+#turkey joins Britain
+news_event = {
+	id = news.335
+	title = news.335.t
+	picture = GFX_news_event_churchill_degaulle
+	desc = news.335.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#We stand together.
+	option = {
+		name = news.335.a
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = TUR
+			}
+		}
+	}
+
+	#They are preparing for the worst.
+	option = {
+		name = news.335.b
+		trigger = {
+			TUR = {
+				has_war = no
+			}
+			NOT = {
+				OR = {
+					tag = TUR
+					tag = ENG
+					tag = GER
+				}
+			}
+		}
+	}
+
+	#Britain has thrown in their lot.
+	option = {
+		name = news.335.c
+		trigger = {
+			TUR = {
+				has_war = yes
+			}
+			NOT = {
+				has_war_with = TUR
+			}
+			NOT = {
+				OR = {
+					tag = TUR
+					tag = ENG
+					tag = GER
+				}
+			}
+		}
+	}
+}
+
+#Britain rejects turkish alliance
+news_event = {
+	id = news.336
+	title = news.336.t
+	picture = GFX_news_event_churchill_degaulle
+	desc = news.336.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+
+	#They should have asked more nicely.
+	option = {
+		name = news.336.a
+		trigger = {
+			tag = ENG
+		}
+	}
+
+	#Our old enemies stand divided.
+	option = {
+		name = news.336.b
+		trigger = {
+			tag = GER
+		}
+	}
+
+	#A dark day
+	option = {
+		name = news.336.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = ENG
+					tag = GER
+				}
+			}
+		}
+	}
+}

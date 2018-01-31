@@ -47,9 +47,42 @@ country_event = {
 
 	option = { #attack the neighbors
 		name = turkmen.2.a
-		create_wargoal = { type = annex_everything target = IRQ }
-		create_wargoal = { type = annex_everything target = KER }
-		create_wargoal = { type = annex_everything target = BSH }
+		declare_war_on = { target = BSH type = annex_everything }
+		declare_war_on = { target = KER type = annex_everything }
+		declare_war_on = { target = IRQ type = annex_everything }
+		add_to_war = { targeted_alliance = TUR enemy = BSH }
+		add_to_war = { targeted_alliance = TUR enemy = KER }
+		add_to_war = { targeted_alliance = TUR enemy = IRQ }
 		army_experience = 20
+	}
+}
+
+# turkmeneli - Turkey wants us to join alliance
+country_event = {
+	id = turkmen.3
+	title = turkmen.3.t
+	desc = turkmen.3.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = turkmen.3.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.42 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = turkmen.3.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.43 }
+		}
 	}
 }

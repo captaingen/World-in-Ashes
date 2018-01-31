@@ -1,0 +1,35 @@
+﻿###########################
+# Iraqi Events
+###########################
+
+add_namespace = iraq
+
+# Turkey wants us to join alliance
+country_event = {
+	id = iraq.1
+	title = iraq.1.t
+	desc = iraq.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = iraq.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.50 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = iraq.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.51 }
+		}
+	}
+}

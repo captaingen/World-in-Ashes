@@ -1,0 +1,35 @@
+﻿###########################
+# assyrian Events
+###########################
+
+add_namespace = assyria
+
+# Turkey wants us to join alliance
+country_event = {
+	id = assyria.1
+	title = assyria.1.t
+	desc = assyria.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = assyria.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.52 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = assyria.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.53 }
+		}
+	}
+}

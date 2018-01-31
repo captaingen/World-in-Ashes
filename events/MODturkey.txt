@@ -295,6 +295,7 @@ country_event = {
 		create_wargoal = { type = annex_everything target = ASS }
 		create_wargoal = { type = annex_everything target = KUR }
 		army_experience = -20
+		puppet = TRM
 		TRM = {
 					country_event = { id = turkmen.2 }
 			}
@@ -639,5 +640,352 @@ country_event = {
 	option = { #scrap it
 		name = turkey.33.b
 		add_political_power = 25
+	}
+}
+
+# turkey - Britain accepts Ally request
+country_event = {
+	id = turkey.34
+	title = turkey.34.t
+	desc = turkey.34.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.34.a
+	}
+}
+
+# Lebanon - Britain denies Ally request
+country_event = {
+	id = turkey.35
+	title = turkey.35.t
+	desc = turkey.35.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.35.a
+	}
+}
+
+# turkey - jordan accepts Ally request
+country_event = {
+	id = turkey.36
+	title = turkey.36.t
+	desc = turkey.36.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.36.a
+		add_to_faction = JOR
+	}
+}
+
+# turkey - jordan denies Ally request
+country_event = {
+	id = turkey.37
+	title = turkey.37.t
+	desc = turkey.37.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.37.a
+	}
+}
+
+# turkey - syria accepts Ally request
+country_event = {
+	id = turkey.38
+	title = turkey.38.t
+	desc = turkey.38.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.38.a
+		add_to_faction = SYR
+	}
+}
+
+# turkey - syria denies Ally request
+country_event = {
+	id = turkey.39
+	title = turkey.39.t
+	desc = turkey.39.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.39.a
+	}
+}
+
+# turkey - lebanon accepts Ally request
+country_event = {
+	id = turkey.40
+	title = turkey.40.t
+	desc = turkey.40.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.40.a
+		add_to_faction = LEB
+	}
+}
+
+# turkey - lebanon denies Ally request
+country_event = {
+	id = turkey.41
+	title = turkey.41.t
+	desc = turkey.41.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.41.a
+	}
+}
+
+# turkey - turkmeneli accepts Ally request
+country_event = {
+	id = turkey.42
+	title = turkey.42.t
+	desc = turkey.42.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.42.a
+		add_to_faction = TRM
+	}
+}
+
+# turkey - turkmeneli denies Ally request
+country_event = {
+	id = turkey.43
+	title = turkey.43.t
+	desc = turkey.43.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.43.a
+	}
+}
+
+# turkey - kurds accepts Ally request
+country_event = {
+	id = turkey.44
+	title = turkey.44.t
+	desc = turkey.44.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.44.a
+		add_to_faction = KUR
+	}
+}
+
+# turkey - kurds denies Ally request
+country_event = {
+	id = turkey.45
+	title = turkey.45.t
+	desc = turkey.45.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.45.a
+	}
+}
+
+# turkey - kerbala accepts Ally request
+country_event = {
+	id = turkey.46
+	title = turkey.46.t
+	desc = turkey.46.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.46.a
+		add_to_faction = KER
+	}
+}
+
+# turkey - kerbala denies Ally request
+country_event = {
+	id = turkey.47
+	title = turkey.47.t
+	desc = turkey.47.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.47.a
+	}
+}
+
+# turkey - basrah accepts Ally request
+country_event = {
+	id = turkey.48
+	title = turkey.48.t
+	desc = turkey.48.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.48.a
+		add_to_faction = BSH
+	}
+}
+
+# turkey - basrah denies Ally request
+country_event = {
+	id = turkey.49
+	title = turkey.49.t
+	desc = turkey.49.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.49.a
+	}
+}
+
+# turkey - iraq accepts Ally request
+country_event = {
+	id = turkey.50
+	title = turkey.50.t
+	desc = turkey.50.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.50.a
+		add_to_faction = IRQ
+	}
+}
+
+# turkey - iraq denies Ally request
+country_event = {
+	id = turkey.51
+	title = turkey.51.t
+	desc = turkey.51.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.51.a
+	}
+}
+
+# turkey - assyria accepts Ally request
+country_event = {
+	id = turkey.52
+	title = turkey.52.t
+	desc = turkey.52.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.52.a
+		add_to_faction = ASS
+	}
+}
+
+# turkey - assyria denies Ally request
+country_event = {
+	id = turkey.53
+	title = turkey.53.t
+	desc = turkey.53.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.53.a
+	}
+}
+
+# turkey - persia accepts Ally request
+country_event = {
+	id = turkey.54
+	title = turkey.54.t
+	desc = turkey.54.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.54.a
+		add_to_faction = PER
+	}
+}
+
+# turkey - persia denies Ally request
+country_event = {
+	id = turkey.55
+	title = turkey.55.t
+	desc = turkey.55.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.55.a
+	}
+}
+
+# turkey - afghanistan accepts Ally request
+country_event = {
+	id = turkey.56
+	title = turkey.56.t
+	desc = turkey.56.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.56.a
+		add_to_faction = AFG
+	}
+}
+
+# turkey - afghanistan denies Ally request
+country_event = {
+	id = turkey.57
+	title = turkey.57.t
+	desc = turkey.57.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.57.a
 	}
 }

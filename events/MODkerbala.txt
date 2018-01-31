@@ -1,0 +1,35 @@
+﻿###########################
+# kerbali Events
+###########################
+
+add_namespace = kerbala
+
+# Turkey wants us to join alliance
+country_event = {
+	id = kerbala.1
+	title = kerbala.1.t
+	desc = kerbala.1.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = kerbala.1.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.46 }
+		}
+	}
+	
+	option = { #reject proposal
+		name = kerbala.1.b
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.47 }
+		}
+	}
+}
