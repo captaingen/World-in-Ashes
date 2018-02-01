@@ -516,6 +516,49 @@ ideas = {
 			}
 		}
 		
+		TUR_moderate_socialism_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+		
+		TUR_on_our_own_focus = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+	
+			modifier = {
+				generate_wargoal_tension = -2.00
+				join_faction_tension = 0.50
+				lend_lease_tension = 0.25
+				guarantee_tension = 1.0
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+			}
+		}
+		
 	}
 
 	

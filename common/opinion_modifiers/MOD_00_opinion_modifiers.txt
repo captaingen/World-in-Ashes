@@ -40,4 +40,12 @@ opinion_modifiers = {
 		value = 50
 	}
 	
+	TUR_SOV_diplomacy_focus = {
+		value = 60
+	}
+	
+	TUR_SOV_supported_turkey = {
+		value = 40
+	}
+	
 }	

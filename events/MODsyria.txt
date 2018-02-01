@@ -163,3 +163,34 @@ country_event = {
 		}
 	}
 }
+
+# Turkey wants us to join red middle east
+country_event = {
+	id = syria.6
+	title = syria.6.t
+	desc = syria.6.d
+	picture = GFX_report_event_fascist_militia
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = syria.6.a
+		ai_chance = {
+			factor = 90
+		}
+		TUR = {
+			country_event = { id = turkey.62 }
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+	}
+	
+	option = { # reject 
+		name = syria.6.b
+		ai_chance = {
+			factor = 10
+		}
+		TUR = {
+			country_event = { id = turkey.63 }
+		}
+	}
+}

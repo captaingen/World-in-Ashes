@@ -989,3 +989,61 @@ country_event = {
 		name = turkey.57.a
 	}
 }
+
+# turkey - greece accepts Ally request - red balkans
+country_event = {
+	id = turkey.58
+	title = turkey.58.t
+	desc = turkey.58.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.58.a
+		add_to_faction = GRE
+	}
+}
+
+# turkey - greece denies Ally request - red balkans
+country_event = {
+	id = turkey.59
+	title = turkey.59.t
+	desc = turkey.59.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.59.a
+	}
+}
+
+# turkey - bulgaria accepts Ally request - red balkans
+country_event = {
+	id = turkey.60
+	title = turkey.60.t
+	desc = turkey.60.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.60.a
+		add_to_faction = BUL
+	}
+}
+
+# turkey - bulgaria denies Ally request - red balkans
+country_event = {
+	id = turkey.61
+	title = turkey.61.t
+	desc = turkey.61.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.61.a
+	}
+}

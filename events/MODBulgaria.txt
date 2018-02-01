@@ -33,3 +33,34 @@ country_event = {
 		}
 	}
 }
+
+# Turkey wants us to join red balkans
+country_event = {
+	id = bulgaria.7
+	title = bulgaria.7.t
+	desc = bulgaria.7.d
+	picture = GFX_report_event_fascist_militia
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = bulgaria.7.a
+		ai_chance = {
+			factor = 90
+		}
+		TUR = {
+			country_event = { id = turkey.60 }
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+	}
+	
+	option = { # reject 
+		name = bulgaria.7.b
+		ai_chance = {
+			factor = 10
+		}
+		TUR = {
+			country_event = { id = turkey.61 }
+		}
+	}
+}
