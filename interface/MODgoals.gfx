@@ -6,5 +6,33 @@ spriteTypes = {
 		name = "GFX_ottoman_ashes"
 		texturefile = "gfx/interface/goals/ottoman_ashes.dds"
 	}
+	SpriteType = { 
+		name = "GFX_TUR_return_of_an_empire"
+		texturefile = "gfx/interface/goals/TUR_return_of_an_empire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_abdulmejid_ii"
+		texturefile = "gfx/interface/goals/abdulmejid_ii.dds"
+	}
+	SpriteType = { 
+		name = "GFX_gnat"
+		texturefile = "gfx/interface/goals/gnat.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_joint_army"
+		texturefile = "gfx/interface/goals/TUR_joint_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_ask_jordan"
+		texturefile = "gfx/interface/goals/TUR_ask_jordan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_ask_lebanon"
+		texturefile = "gfx/interface/goals/TUR_ask_lebanon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_ask_syria"
+		texturefile = "gfx/interface/goals/TUR_ask_syria.dds"
+	}
 
 }

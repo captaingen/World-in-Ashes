@@ -1039,7 +1039,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_return_of_the_empire
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_return_of_an_empire
 		prerequisite = {
 			focus = TUR_ottoman_ashes
 		}
@@ -1072,7 +1072,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_abdulmejid_ii
-		icon = GFX_goal_unknown
+		icon = GFX_abdulmejid_ii
 		prerequisite = {
 			focus = TUR_return_of_the_empire
 		}
@@ -1804,7 +1804,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_nation_assembly_of_turkey
-		icon = GFX_goal_unknown
+		icon = GFX_gnat
 		prerequisite = {
 			focus = TUR_ottoman_ashes
 		}
@@ -1842,7 +1842,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_joint_army
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_joint_army
 		prerequisite = {
 			focus = TUR_nation_assembly_of_turkey
 			focus = TUR_return_of_the_empire
@@ -2270,7 +2270,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_ask_jordan
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_ask_jordan
 		prerequisite = {
 			focus = TUR_middle_east_sphere
 		}
@@ -2303,7 +2303,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_ask_syria
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_ask_syria
 		prerequisite = {
 			focus = TUR_middle_east_sphere
 		}
@@ -2336,7 +2336,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_ask_lebanon
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_ask_lebanon
 		prerequisite = {
 			focus = TUR_middle_east_sphere
 		}
