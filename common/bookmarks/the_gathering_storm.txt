@@ -7,6 +7,18 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
+		"TUR"={
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ottoman_ashes
+			}
+			focuses = {
+				TUR_return_of_the_empire
+				TUR_nation_assembly_of_turkey
+				TUR_communist_opportunity
+			}
+		}
 		"LEB"={
 			history = "LEB_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -73,18 +85,6 @@ bookmarks = {
 				ITA_spanish_italian_faction
 				ITA_italy_first
 			}		
-		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				state_shintoism
-			}	
-			focuses = {
-				southern_expansion_focus
-				divine_wind_focus
-				found_own_faction_focus
-			}			
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"

@@ -1,0 +1,14 @@
+spriteTypes = {	
+	
+	################ Air Force Tab #################
+	
+	######## TUR Airforce Tab ########
+	
+	##### TUR Fighters #####
+	
+	SpriteType = {
+		name = "GFX_TUR_early_fighter"
+		texturefile = "gfx/interface/technologies/TUR/TUR_early_fighter.dds"
+	}
+	
+}	

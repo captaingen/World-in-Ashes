@@ -27,9 +27,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -59,9 +59,9 @@ focus_tree = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			add_building_construction = {
@@ -106,9 +106,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -141,9 +141,9 @@ focus_tree = {
 			}	
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 
 		completion_reward = {
 			49 = {
@@ -188,9 +188,9 @@ focus_tree = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1015,7 +1015,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 1000
 		}
 		
 		complete_tooltip = {
@@ -1055,9 +1055,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1083,9 +1083,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1114,7 +1114,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 30
 		}
 		
 		complete_tooltip = {
@@ -1140,9 +1140,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1166,9 +1166,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1192,9 +1192,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1222,7 +1222,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 20
 		}
 		
 		complete_tooltip = {
@@ -1248,9 +1248,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1275,9 +1275,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1301,9 +1301,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1328,9 +1328,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1356,9 +1356,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1384,9 +1384,9 @@ focus_tree = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			
@@ -1411,9 +1411,9 @@ focus_tree = {
 			has_army_experience > 50			
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		bypass = {
 			SYR = {
@@ -1453,9 +1453,9 @@ focus_tree = {
 			owns_state = 680
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			add_state_core = 677
@@ -1488,9 +1488,9 @@ focus_tree = {
 			has_political_power > 100	
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		bypass = {
 			LEB = {
@@ -1528,9 +1528,9 @@ focus_tree = {
 			owns_state = 744
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
+		#ai_will_do = {
+		#	factor = 10
+		#}
 		
 		complete_tooltip = {
 			add_state_core = 553
@@ -1637,7 +1637,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			AND = {
+			OR = {
 				JOR = {
 					OR = {
 						is_puppet = yes
@@ -1646,7 +1646,7 @@ focus_tree = {
 				}
 				PAL = {
 					OR = {
-						is_puppet = yes
+						is_puppet = no
 						exists = no 
 					}
 				}
@@ -1822,7 +1822,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 200
 		}
 		
 		bypass = {
@@ -2384,7 +2384,9 @@ focus_tree = {
 		y = 5
 		cost = 10
 		available = {
-			
+			is_in_faction_with = LEB
+			is_in_faction_with = JOR
+			is_in_faction_with = SYR
 		}
 		
 		ai_will_do = {
@@ -2392,9 +2394,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			is_in_faction_with = LEB
-			is_in_faction_with = JOR
-			is_in_faction_with = SYR
+			
 		}
 		
 		complete_tooltip = {
@@ -3688,7 +3688,7 @@ focus_tree = {
 		id = TUR_motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = TUR_army_effort }
-		bypass = { has_tech = TUR_motorised_infantry }
+		bypass = { has_tech = motorised_infantry }
 		x = 47
 		y = 1
 		cost = 10
