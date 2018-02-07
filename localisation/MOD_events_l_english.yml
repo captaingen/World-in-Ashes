@@ -281,6 +281,11 @@
  persia.1.a:0 "We will join our brothers"
  persia.1.b:0 "We chose to stay neutral"
  
- 
+ #Syria
+ syria.1.t:0 "[TUR.GetnNameDef] demands Hatay"
+ syria.1.d:0 "[TUR.GetnNameDef] has sent us a demand to give the piece of land that is Hatay. Will we do it?"
+ syria.1.a:0 "Let's propose a buffer Nation"
+ syria.1.b:0 "We have to give it to them!"
+ syria.1.c:0 "No way..."
  
  
