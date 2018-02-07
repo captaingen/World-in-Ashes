@@ -275,7 +275,11 @@
  kurds.1.a:0 "We will join our brothers"
  kurds.1.b:0 "We chose to stay neutral"
  
- 
+ #Persia
+ persia.1.t:0 "Turkey wants us to join the Alliance"
+ persia.1.d:0 "Turkey sent us a formal request to join their new alliance. Will we accept? Or will we decline this generous offer?"
+ persia.1.a:0 "We will join our brothers"
+ persia.1.b:0 "We chose to stay neutral"
  
  
  
