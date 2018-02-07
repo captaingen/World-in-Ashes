@@ -188,7 +188,7 @@ country_event = {
 		FROM = { 
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = LEB_go_with_britain_reject
+				modifier = TUR_go_with_britain_reject
 			}
 			country_event = { id = turkey.35 }
 		}
