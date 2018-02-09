@@ -582,7 +582,7 @@ country_event = {
 
 	option = { 
 		name = turkey.30.a
-		annex_country = { target = BUL }
+		annex_country = { target = BUL transfer_troops = yes }
 	}
 }
 
@@ -618,7 +618,7 @@ country_event = {
 
 	option = { 
 		name = turkey.32.a
-		annex_country = { target = GRE }
+		annex_country = { target = GRE transfer_troops = yes }
 	}
 }
 
