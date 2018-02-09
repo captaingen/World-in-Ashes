@@ -287,5 +287,40 @@
  syria.1.a:0 "Let's propose a buffer Nation"
  syria.1.b:0 "We have to give it to them!"
  syria.1.c:0 "No way..."
+ syria.2.t:0 "[TUR.GetnNameDef] acepts Hatay as a buffer nation"
+ syria.2.d:0 "[TUR.GetnNameDef] has accepted our request."
+ syria.2.a:0 "Hatay will be independant!"
+ syria.3.t:0 "Turkey Withdraws?"
+ syria.3.d:0 "Turkey seems to have withdrawn its troops from the border as a trick to get syrian troops to accidentaly cross over the border."
+ syria.3.a:0 "Oh no, some of our troops have been fooled!"
+ syria.3.b:0 "Let's send scouts to secretly check it out."
+ syria.3.c:0 "We will stay put."
+ syria.4.t:0 "[TUR.GetnNameDef] demands annexation"
+ syria.4.d:0 "[TUR.GetnNameDef] sent us a demand for annexation. Will we accept?"
+ syria.4.a:0 "Do we have another choice?"
+ syria.4.b:0 "We will fight for our life"
+ syria.5.t:0 "Turkey wants us to join the Alliance"
+ syria.5.d:0 "Turkey sent us a formal request to join their new alliance. Will we accept? Or will we decline this generous offer?"
+ syria.5.a:0 "We will join our brothers"
+ syria.5.b:0 "We chose to stay neutral"
+ syria.6.t:0 "Turkey wants us to join the Alliance"
+ syria.6.d:0 "Turkey sent us a formal request to join their new alliance. Will we accept? Or will we decline this generous offer?"
+ syria.6.a:0 "We will join our brothers"
+ syria.6.b:0 "We chose to stay neutral"
+ 
+ #Turkmen
+ turkmen.1.t:0 "Turkey proposes iraqi solution"
+ turkmen.1.d:0 "Turkey sent us a proposition about a partition of Iraq. They will get the north and we will get south of us under one condition: fighting along side them. This seems like a very good proposition!"
+ turkmen.1.a:0 "It is for our benefit!"
+ turkmen.1.b:0 "We will not fight with these roaches"
+ 
+ #Turkey
+ turkey.2.t:0 "Ottoman Ashes"
+ turkey.2.d:0 "We have recently lost the War to end all wars. The previous government was not able to deal with all the revolutions in the middle east so we lost all of our lands there. Will we become an empire again?"
+ turkey.2.a:0 "Let's go."
+ 
+ 
+ 
+ 
  
  

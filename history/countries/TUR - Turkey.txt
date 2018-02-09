@@ -111,6 +111,8 @@ set_politics = {
 
 add_ideas = {
 	ottoman_ashes
+	TUR_lost_ww1
+	TUR_no_airforce
 }
 
 set_convoys = 20

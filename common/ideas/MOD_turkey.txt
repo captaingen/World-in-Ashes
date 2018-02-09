@@ -24,6 +24,49 @@ ideas = {
 			}
 		}
 		
+		TUR_lost_ww1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GFX_idea_TUR_lost_ww1
+			
+			modifier = {
+				unity_factor = -0.04
+				political_power_factor = -0.5
+				planning_speed = 0.05
+				justify_war_goal_time = 0.25
+			}
+		}
+		
+		TUR_no_airforce = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GFX_idea_TUR_no_airforce
+			
+			modifier = {
+				air_ace_generation_chance_factor = -0.10
+				experience_gain_air_factor = -0.1
+				planning_speed = -0.25
+			}
+		}
+		
 		TUR_justification = {
 			
 			allowed = {
@@ -36,12 +79,12 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = ottoman_ashes
+			picture = idea_generic_secret_police
 			
 			modifier = {
-				drift_defence_factor = 0.5
-				army_org_Factor = 0.15
-				planning_speed = 0.25
+				drift_defence_factor = 0.1
+				army_org_Factor = 0.05
+				planning_speed = 0.15
 				justify_war_goal_time = -0.3
 			}
 			rule = {
@@ -80,7 +123,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = generic_research_bonus
 			
 			modifier = {
 				research_time_factor = -0.1
@@ -99,7 +142,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = idea_generic_infantry_equipment_manufacturer_2
 			
 			equipment_bonus = {
 				infantry_equipment = {
@@ -120,7 +163,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = GFX_idea_TUR_return_of_the_empire_focus
 			
 			modifier = {
 				fascism_drift = 0.1
@@ -139,7 +182,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = GFX_idea_TUR_keep_the_assembly_focus
 			
 			modifier = {
 				unity_factor = 0.08
@@ -177,7 +220,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = generic_manpower_bonus
 			
 			modifier = {
 				conscription = 0.005
@@ -196,7 +239,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = GFX_idea_TUR_abolish_the_assembly_focus
 			
 			modifier = {
 				unity_factor = -0.08
@@ -215,7 +258,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = GFX_idea_TUR_power_to_the_sultan_focus
 			
 			modifier = {
 				political_power_factor = -0.1
@@ -234,7 +277,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = generic_manpower_bonus
 			
 			modifier = {
 				conscription = 0.01
@@ -253,7 +296,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = generic_morale_bonus
 			
 			modifier = {
 				conscription = 0.005
@@ -276,7 +319,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = generic_infantry_bonus
 			
 			modifier = {
 				conscription = 0.01
@@ -299,7 +342,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = GFX_idea_TUR_keep_the_assembly_focus
 			
 			modifier = {
 				democratic_drift = 0.1
@@ -318,7 +361,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
 				communism_drift = 0.1
@@ -337,7 +380,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = idea_ast_volunteer_defence_corps
 			
 			modifier = {
 				defence = 0.05
@@ -361,7 +404,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = generic_production_bonus
+			picture = idea_cze_planning_bonus
 			
 			modifier = {
 				justify_war_goal_time = -0.25
@@ -381,7 +424,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = neutrality_idea
 	
 			modifier = {
 				#generate_wargoal_tension = 1.00
@@ -406,7 +449,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = generic_democratic_drift_bonus
 	
 			modifier = {
 				send_volunteer_divisions_required = -0.25
@@ -427,7 +470,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = idea_generic_constitutional_guarantee
 	
 			modifier = {
 				consumer_goods_factor = -0.03				
@@ -446,7 +489,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = idea_generic_constitutional_guarantee
 	
 			modifier = {
 				unity_factor = 0.07
@@ -466,7 +509,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = idea_generic_constitutional_guarantee
 	
 			modifier = {
 				unity_factor = 0.01
@@ -486,7 +529,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = generic_goods_red_bonus
 	
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.05
@@ -507,7 +550,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = idea_ast_volunteer_defence_corps
 	
 			modifier = {
 				send_volunteer_divisions_required = -0.5
@@ -528,7 +571,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = home_of_the_revolution
 	
 			modifier = {
 				political_power_factor = -0.15
@@ -547,7 +590,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_production_bonus
+			picture = neutrality_idea
 	
 			modifier = {
 				generate_wargoal_tension = -2.00

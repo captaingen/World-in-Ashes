@@ -4,6 +4,28 @@ spriteTypes = {
 		name = "GFX_idea_ottoman_ashes"
 		texturefile = "gfx/interface/ideas/ottoman_ashes.dds"
 	}
-
-	
+	spriteType = {
+		name = "GFX_idea_TUR_lost_ww1"
+		texturefile = "gfx/interface/ideas/TUR_lost_ww1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_no_airforce"
+		texturefile = "gfx/interface/ideas/TUR_no_airforce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_return_of_the_empire_focus"
+		texturefile = "gfx/interface/ideas/TUR_return_of_the_empire_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_keep_the_assembly_focus"
+		texturefile = "gfx/interface/ideas/TUR_keep_the_assembly_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_abolish_the_assembly_focus"
+		texturefile = "gfx/interface/ideas/TUR_abolish_the_assembly_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_power_to_the_sultan_focus"
+		texturefile = "gfx/interface/ideas/TUR_power_to_the_sultan_focus.dds"
+	}
 }

@@ -12,6 +12,8 @@ bookmarks = {
 			ideology = neutrality
 			ideas = {
 				ottoman_ashes
+				TUR_lost_ww1
+				TUR_no_airforce
 			}
 			focuses = {
 				TUR_return_of_the_empire

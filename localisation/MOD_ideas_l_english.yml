@@ -1,4 +1,6 @@
 ﻿l_english:
+
+#Lebanon
 LEB_Raise_an_army_focus:0 "Army raised"
 LEB_dismantle_existing_militias_focus:0 "Militias dismantled"
 fouad_shehab:0 "Fouad Shehab"
@@ -15,3 +17,8 @@ LEB_encourage_communism_focus:0 "Communism Encouraged"
 LEB_emile_edde_focus:0 "Émile Eddé"
 LEB_make_speeches_focus:0 "Phoenician speeches"
 LEB_phoenician_army_focus:0 "Phoenician Army"
+
+#Turkey
+ottoman_ashes:0 "Ottoman Ashes"
+TUR_lost_ww1:0 "Lost WW1"
+TUR_no_airforce:0 "Very Small Airforce"
