@@ -1,0 +1,20 @@
+state={
+	id=778
+	name="STATE_778"
+	manpower = 157200
+	
+	state_category = rural
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = LIT
+	}
+
+	provinces={
+		6413 9236 9274 
+	}
+}
