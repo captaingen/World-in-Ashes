@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = ITA
+		owner = MED
 		victory_points = {
 			11773 3 
 		}
@@ -21,7 +21,7 @@ state=
 				naval_base = 3
 			}
 		}
-		add_core_of = ITA
+		add_core_of = MED
 	}
 	provinces=
 	{

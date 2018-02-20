@@ -1,0 +1,73 @@
+#reload countrycolors
+
+#############################
+
+BSH = {
+	color = rgb { 153  51  0 }
+	color_ui = rgb { 153  51  0 }
+}
+
+UAE = {
+	color = rgb { 153  102  51 }
+	color_ui = rgb { 153  102  51 }
+}
+
+CAR = {
+	color = rgb { 125  102  51 }
+	color_ui = rgb { 125  102  51 }
+}
+
+KER = {
+	color = rgb { 130  29  28 }
+	color_ui = rgb { 130  29  28 } 
+}
+
+KUR = {
+	color = rgb { 0  98  255  }
+	color_ui = rgb { 0  98  255 } 
+}
+
+TRM = {
+	color = rgb { 0  204  255  }
+	color_ui = rgb { 0  204  255 } 
+}
+
+ASS = {
+	color = rgb { 0  150  100  }
+	color_ui = rgb { 0  150  100 } 
+}
+
+HAT = {
+	color = rgb { 153  102  0  }
+	color_ui = rgb { 153  102  0 } 
+}
+
+BOR = {
+	color = rgb { 57  76  228 }
+	color_ui = rgb { 57  76  228 }
+}
+
+SCO = {
+	color = rgb { 241  244  66 }
+	color_ui = rgb { 241  244  66 }
+}
+
+WAL = {
+	color = rgb { 104  183  97 }
+	color_ui = rgb { 104  183  97 }
+}
+
+MOR = {
+	color = rgb { 175  163  80 }
+	color_ui = rgb { 175  163  80 }
+}
+
+BAL = {
+	color = rgb { 76  157  195 }
+	color_ui = rgb { 76  157  195 }
+}
+
+MED = {
+	color = rgb { 187  198  121 }
+	color_ui = rgb { 187  198  121 }
+}

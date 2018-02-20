@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = ITA
+		owner = MED
 		victory_points = {
 			4159 10 
 		}
@@ -22,7 +22,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = ITA
+		add_core_of = MED
 	}
 
 	provinces={
