@@ -1,0 +1,24 @@
+
+state={
+	id=35
+	name="STATE_35" # Brabant
+	manpower = 1349000
+	
+	state_category = city
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+		}
+		victory_points = {
+			6496 5
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		3262 6496 6500 11456 
+	}
+}

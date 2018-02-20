@@ -19,6 +19,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/gnat.dds"
 	}
 	SpriteType = { 
+		name = "GFX_no_gnat"
+		texturefile = "gfx/interface/goals/no_gnat.dds"
+	}
+	SpriteType = { 
 		name = "GFX_TUR_joint_army"
 		texturefile = "gfx/interface/goals/TUR_joint_army.dds"
 	}
@@ -33,6 +37,98 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_TUR_ask_syria"
 		texturefile = "gfx/interface/goals/TUR_ask_syria.dds"
+	}
+	SpriteType = { 
+		name = "GFX_hatay"
+		texturefile = "gfx/interface/goals/hatay.dds"
+	}
+	SpriteType = { 
+		name = "GFX_power_to_the_sultan"
+		texturefile = "gfx/interface/goals/power_to_the_sultan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ottoman_army"
+		texturefile = "gfx/interface/goals/ottoman_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_northern_volunteers"
+		texturefile = "gfx/interface/goals/northern_volunteers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_cyprus"
+		texturefile = "gfx/interface/goals/cyprus.dds"
+	}
+	SpriteType = { 
+		name = "GFX_greece_demands"
+		texturefile = "gfx/interface/goals/greece_demands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bulagrian_demands"
+		texturefile = "gfx/interface/goals/bulagrian_demands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_syria"
+		texturefile = "gfx/interface/goals/TUR_syria.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_lebanon"
+		texturefile = "gfx/interface/goals/TUR_lebanon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_iraqis"
+		texturefile = "gfx/interface/goals/TUR_iraqis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_jordan"
+		texturefile = "gfx/interface/goals/TUR_jordan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_egypt"
+		texturefile = "gfx/interface/goals/TUR_egypt.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_greece"
+		texturefile = "gfx/interface/goals/TUR_greece.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_hejaz"
+		texturefile = "gfx/interface/goals/TUR_hejaz.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_bulgaria"
+		texturefile = "gfx/interface/goals/TUR_bulgaria.dds"
+	}
+	SpriteType = { 
+		name = "GFX_saadabad"
+		texturefile = "gfx/interface/goals/saadabad.dds"
+	}
+	SpriteType = { 
+		name = "GFX_iran"
+		texturefile = "gfx/interface/goals/iran.dds"
+	}
+	SpriteType = { 
+		name = "GFX_afghan"
+		texturefile = "gfx/interface/goals/afghan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_red"
+		texturefile = "gfx/interface/goals/TUR_red.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_red_balkan"
+		texturefile = "gfx/interface/goals/TUR_red_balkan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_TUR_red_me"
+		texturefile = "gfx/interface/goals/TUR_red_me.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ataturk"
+		texturefile = "gfx/interface/goals/ataturk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_sefik"
+		texturefile = "gfx/interface/goals/sefik.dds"
 	}
 
 }

@@ -9,14 +9,14 @@ country_event = {
 	id = turkey.2
 	title = turkey.2.t
 	desc = turkey.2.d
-	picture = GFX_report_event_vienna_award_hungary
+	picture = GFX_report_event_turkish_retreat
 
 	is_triggered_only	= yes
 
 	option = {
 		name = turkey.2.a
 		hidden_effect = {
-			news_event = news_event.1000
+			news_event = news.1000
 		}
 	}
 }
@@ -26,7 +26,7 @@ country_event = {
 	id = turkey.3
 	title = turkey.3.t
 	desc = turkey.3.d
-	picture = GFX_report_event_vienna_award_hungary
+	picture = GFX_report_event_train_women
 
 	is_triggered_only	= yes
 
@@ -110,7 +110,7 @@ country_event = {
 	id = turkey.7
 	title = turkey.7.t
 	desc = turkey.7.d
-	picture = GFX_report_event_vienna_award_hungary
+	picture = GFX_report_event_syrian_crossover
 
 	is_triggered_only	= yes
 
@@ -460,7 +460,7 @@ country_event = {
 	id = turkey.24
 	title = turkey.24.t
 	desc = turkey.24.d
-	picture = GFX_report_event_vienna_award_hungary
+	picture = GFX_report_event_joint_army
 
 	is_triggered_only	= yes
 
@@ -475,7 +475,7 @@ country_event = {
 	id = turkey.25
 	title = turkey.25.t
 	desc = turkey.25.d
-	picture = GFX_report_event_vienna_award_hungary
+	picture = GFX_report_event_national_guard
 
 	is_triggered_only	= yes
 
@@ -654,6 +654,7 @@ country_event = {
 
 	option = {
 		name = turkey.34.a
+		add_political_power = 10
 	}
 }
 
@@ -668,6 +669,7 @@ country_event = {
 
 	option = {
 		name = turkey.35.a
+		add_political_power = -20
 	}
 }
 
@@ -1045,5 +1047,63 @@ country_event = {
 
 	option = {
 		name = turkey.61.a
+	}
+}
+
+# turkey - syria accepts Ally request - red middle east
+country_event = {
+	id = turkey.62
+	title = turkey.62.t
+	desc = turkey.62.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.62.a
+		add_to_faction = SYR
+	}
+}
+
+# turkey - syria denies Ally request - red middle east
+country_event = {
+	id = turkey.63
+	title = turkey.63.t
+	desc = turkey.63.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.63.a
+	}
+}
+
+# turkey - Lebanon accepts Ally request - red middle east
+country_event = {
+	id = turkey.64
+	title = turkey.64.t
+	desc = turkey.64.d
+	picture = GFX_report_event_sign_treaty2
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.64.a
+		add_to_faction = SYR
+	}
+}
+
+# turkey - Lebanon denies Ally request - red middle east
+country_event = {
+	id = turkey.65
+	title = turkey.65.t
+	desc = turkey.65.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = turkey.65.a
 	}
 }

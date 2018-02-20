@@ -1,0 +1,31 @@
+state=
+{
+	id=772
+	name="STATE_772"
+	manpower = 2830000
+	
+	state_category = town
+	
+	resources={
+		steel=2
+	}
+	
+	history={
+		owner = MOR
+		victory_points = {
+			557 5 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			anti_air_building = 1
+			
+
+		}
+		add_core_of = MOR
+
+	}
+	provinces=
+	{
+557 11525 	}
+}

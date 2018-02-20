@@ -1,0 +1,33 @@
+
+state={
+	id=771
+	name="STATE_771"
+	manpower = 975377
+	
+	state_category = city
+	
+	resources={
+		steel=5
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			688 7 
+		}
+		add_core_of = GER
+
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+	}
+
+	provinces={
+		688 3703 6708 13208 
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=191
+	name="STATE_191"
+	
+	state_category = rural
+
+	history={
+		owner = BAL
+		victory_points = {
+			9221 1 
+		}
+		buildings = {
+			infrastructure = 5
+			4640 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BAL
+		add_core_of = EST
+
+	}
+
+	provinces={
+		222 308 319 592 3298 3388 6099 6178 6381 6408 9221 9317 9485 9501 11291 11302 13127 
+	}
+	manpower=376400
+	buildings_max_level_factor=1.000
+}

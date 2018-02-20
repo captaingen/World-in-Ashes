@@ -48,7 +48,7 @@ country_event = {
 			Add_state_core = 183
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.333 }
+			news_event = { days = 1 id = news.333 }
 		}
 	}
 }
@@ -70,7 +70,7 @@ country_event = {
 			generator = { 183 }
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.334 }
+			news_event = { days = 1 id = news.334 }
 		}
 	}
 }
@@ -424,7 +424,7 @@ country_event = {
 			generator = { 458 }
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.334 }
+			news_event = { days = 1 id = news.334 }
 		}
 	}
 }
@@ -463,7 +463,7 @@ country_event = {
 			generator = { 665 }
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.334 }
+			news_event = { days = 1 id = news.334 }
 		}
 	}
 }
@@ -483,7 +483,7 @@ country_event = {
 			transfer_state = 290
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.333 }
+			news_event = { days = 1 id = news.333 }
 		}
 	}
 }
@@ -505,7 +505,7 @@ country_event = {
 			generator = { 290 }
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.334 }
+			news_event = { days = 1 id = news.334 }
 		}
 	}
 }
@@ -574,6 +574,37 @@ country_event = {
 		}
 		TUR = {
 			country_event = { days = 1 id = turkey.41 }
+		}
+	}
+}
+
+# Lebanon - Turkey wants us to join alliance - red balkans
+country_event = {
+	id = lebanon.29
+	title = lebanon.29.t
+	desc = lebanon.29.d
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only	= yes
+
+	option = { #Accept proposal
+		name = lebanon.29.a
+		ai_chance = { 
+			factor = 50
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.64 }
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+	}
+	
+	option = { #reject proposal
+		name = lebanon.28.b
+		ai_chance = { 
+			factor = 29
+		}
+		TUR = {
+			country_event = { days = 1 id = turkey.65 }
 		}
 	}
 }

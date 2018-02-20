@@ -28,21 +28,21 @@ units = {
 		location = 9912
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "2nd Light Tank Division"
 		location = 6813
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "3rd Light Tank Division"
 		location = 886
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	

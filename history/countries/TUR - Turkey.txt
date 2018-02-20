@@ -205,9 +205,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Fevzi Çakmak"
+	name = "Abdulmejid II"
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	picture = "gfx/leaders/TUR/abdulmejid_ii.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

@@ -1,4 +1,10 @@
 ﻿l_english:
+ ####################################################
+ neutrality:0 "Monarchist"
+ neutrality_desc:0 "Authoritarian Regime"
+ 
+ 
+ ####################################################
  LEB_lebanese_communist_party:0 "LCP"
  LEB_lebanese_communist_party_long:0 "Lebanese Communist Party"
  LEB_phoenician_party_long:0 "Phoenician Party"

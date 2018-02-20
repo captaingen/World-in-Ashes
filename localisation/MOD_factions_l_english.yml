@@ -6,3 +6,9 @@
  FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
  arab_league_faction:0 "The Arab League"
  CZE_little_entente:0 "Czech Entente"
+ middle_east_sphere:0 "Middle East Sphere"
+ Red_Balkans:0 "Red Balkans"
+ Red_Middle_East:0 "Red Middle East"
+ saadabad_pact:0 "Saadabad Pact"
+ ottoman_sphere:0 "Ottoman Sphere"
+

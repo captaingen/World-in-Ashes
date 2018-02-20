@@ -1,0 +1,22 @@
+
+state={
+	id=762
+	name="STATE_762"
+	manpower = 50000
+	
+	state_category = rural
+	
+	history={
+		owner = JOR
+
+		
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = JOR
+	}
+
+	provinces={
+		8101 10815 
+	}
+}

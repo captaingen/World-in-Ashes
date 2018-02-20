@@ -124,6 +124,6 @@ create_country_leader = {
 	picture = "gfx/leaders/LEB/khalid_bakdash.dds"
 	ideology = leninism
 	traits = {
-		#
+		Exiled
 	}
 }

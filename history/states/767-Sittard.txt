@@ -1,0 +1,25 @@
+
+state={
+	id=767
+	name="STATE_767" # Sittard
+	manpower = 100000
+	
+	state_category = city
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			11562 2
+		}
+		add_core_of = HOL
+		add_core_of = GER
+	}
+
+	provinces={
+		11562 
+	}
+}

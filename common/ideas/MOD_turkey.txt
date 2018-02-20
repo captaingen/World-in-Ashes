@@ -67,7 +67,7 @@ ideas = {
 			}
 		}
 		
-		TUR_justification = {
+		TUR_justification_focus = {
 			
 			allowed = {
 				always = no
@@ -79,7 +79,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = idea_generic_secret_police
+			picture = generic_secret_police
 			
 			modifier = {
 				drift_defence_factor = 0.1
@@ -142,7 +142,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = idea_generic_infantry_equipment_manufacturer_2
+			picture = generic_infantry_equipment_manufacturer_2
 			
 			equipment_bonus = {
 				infantry_equipment = {
@@ -300,10 +300,10 @@ ideas = {
 			
 			modifier = {
 				conscription = 0.005
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
-				enemy_partisan_effect = -0.1
-				training_time_army_factor = -0.1
+				army_core_attack_factor = 0.07
+				army_core_defence_factor = 0.06
+				enemy_partisan_effect = -0.04
+				training_time_army_factor = -0.05
 			}
 		}
 		
@@ -322,11 +322,11 @@ ideas = {
 			picture = generic_infantry_bonus
 			
 			modifier = {
-				conscription = 0.01
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
-				enemy_partisan_effect = -0.1
-				training_time_army_factor = -0.1
+				conscription = 0.005
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				enemy_partisan_effect = -0.05
+				training_time_army_factor = 0.1
 			}
 		}
 		
@@ -380,7 +380,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = idea_ast_volunteer_defence_corps
+			picture = GFX_idea_ast_volunteer_defence_corps
 			
 			modifier = {
 				defence = 0.05
@@ -404,7 +404,7 @@ ideas = {
 				always = yes
 				}
 
-			picture = idea_cze_planning_bonus
+			picture = GFX_idea_CZE_planning_bonus
 			
 			modifier = {
 				justify_war_goal_time = -0.25
@@ -424,7 +424,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = neutrality_idea
+			picture = GFX_idea_neutrality_idea
 	
 			modifier = {
 				#generate_wargoal_tension = 1.00
@@ -470,7 +470,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_generic_constitutional_guarantee
+			picture = generic_constitutional_guarantees
 	
 			modifier = {
 				consumer_goods_factor = -0.03				
@@ -489,7 +489,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_generic_constitutional_guarantee
+			picture = generic_constitutional_guarantees
 	
 			modifier = {
 				unity_factor = 0.07
@@ -509,7 +509,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_generic_constitutional_guarantee
+			picture = generic_constitutional_guarantees
 	
 			modifier = {
 				unity_factor = 0.01
@@ -550,7 +550,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_ast_volunteer_defence_corps
+			picture = GFX_idea_ast_volunteer_defence_corps
 	
 			modifier = {
 				send_volunteer_divisions_required = -0.5
@@ -571,7 +571,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = home_of_the_revolution
+			picture = GFX_home_of_the_revolution
 	
 			modifier = {
 				political_power_factor = -0.15
@@ -590,7 +590,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = neutrality_idea
+			picture = GFX_neutrality_idea
 	
 			modifier = {
 				generate_wargoal_tension = -2.00

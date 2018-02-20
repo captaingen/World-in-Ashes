@@ -1099,7 +1099,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_keep_the_assembly
-		icon = GFX_goal_unknown
+		icon = GFX_gnat
 		prerequisite = {
 			focus = TUR_abdulmejid_ii
 		}
@@ -1107,7 +1107,7 @@ focus_tree = {
 			focus = TUR_abolish_the_assembly
 		}
 		x = 14
-		y = 3
+		y = 4
 		cost = 10
 		available = {
 			
@@ -1129,7 +1129,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_political_figure
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = {
 			focus = TUR_keep_the_assembly
 		}
@@ -1155,7 +1155,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_political_parties
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 			focus = TUR_political_figure
 		}
@@ -1181,7 +1181,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_northern_volunteers
-		icon = GFX_goal_unknown
+		icon = GFX_northern_volunteers
 		prerequisite = {
 			focus = TUR_political_parties
 		}
@@ -1207,7 +1207,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_abolish_the_assembly
-		icon = GFX_goal_unknown
+		icon = GFX_no_gnat
 		prerequisite = {
 			focus = TUR_abdulmejid_ii
 		}
@@ -1215,7 +1215,7 @@ focus_tree = {
 			focus = TUR_keep_the_assembly
 		}
 		x = 16
-		y = 3
+		y = 4
 		cost = 10
 		available = {
 			
@@ -1232,12 +1232,13 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = { ideology = fascism  popularity = 0.2 }
 			add_ideas = TUR_abolish_the_assembly_focus
+			add_country_leader_trait = Dictator
 		}
 	}
 	
 	focus = {
 		id = TUR_power_to_the_sultan
-		icon = GFX_goal_unknown
+		icon = GFX_power_to_the_sultan
 		prerequisite = {
 			focus = TUR_abolish_the_assembly
 		}
@@ -1264,7 +1265,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_conscription
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_axis_build_infantry
 		prerequisite = {
 			focus = TUR_power_to_the_sultan
 		}
@@ -1290,7 +1291,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_ottoman_army
-		icon = GFX_goal_unknown
+		icon = GFX_ottoman_army
 		prerequisite = {
 			focus = TUR_conscription
 		}
@@ -1316,7 +1317,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_training_women
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = {
 			focus = TUR_northern_volunteers
 			focus = TUR_ottoman_army
@@ -1345,7 +1346,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_hatay_question
-		icon = GFX_goal_unknown
+		icon = GFX_hatay
 		prerequisite = {
 			focus = TUR_abdulmejid_ii
 		}
@@ -1373,7 +1374,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_fabrication
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = {
 			focus = TUR_hatay_question
 		}
@@ -1393,13 +1394,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = { remove_idea = ottoman_ashes add_idea = TUR_justification }
+			swap_ideas = { remove_idea = ottoman_ashes add_idea = TUR_justification_focus }
 		}
 	}
 	
 	focus = {
 		id = TUR_syrian_troop_crossover
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = TUR_fabrication
 		}
@@ -1408,7 +1409,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			SYR = { exists = yes }
-			has_army_experience > 50			
+			has_army_experience > 20			
 		}
 		
 		#ai_will_do = {
@@ -1429,7 +1430,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			army_experience = -50
+			army_experience = -20
 			SYR = {
 					country_event = { id = syria.3 }
 			}
@@ -1438,7 +1439,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_core_syria
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_syria
 		prerequisite = {
 			focus = TUR_syrian_troop_crossover
 		}
@@ -1476,7 +1477,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_lebanese_question
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_lebanon
 		prerequisite = {
 			focus = TUR_syrian_troop_crossover
 		}
@@ -1485,7 +1486,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			LEB = { exists = yes }
-			has_political_power > 100	
+			has_political_power > 50	
 		}
 		
 		#ai_will_do = {
@@ -1506,7 +1507,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = -100
+			add_political_power = -50
 			LEB = {
 					country_event = { id = lebanon.27 }
 			}
@@ -1515,7 +1516,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_core_lebanon
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_lebanon
 		prerequisite = {
 			focus = TUR_lebanese_question
 		}
@@ -1547,7 +1548,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_iraqi_takeover
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_iraqis
 		prerequisite = {
 			focus = TUR_lebanese_question
 		}
@@ -1557,7 +1558,7 @@ focus_tree = {
 		available = {
 			TRM = { exists = yes }
 			has_army_experience > 10
-			has_political_power > 100
+			has_political_power > 50
 		}
 		
 		ai_will_do = {
@@ -1574,7 +1575,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = -10
-			add_political_power = -100
+			add_political_power = -50
 			TRM = {
 					country_event = { id = turkmen.1 }
 			}
@@ -1583,7 +1584,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_core_iraq
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_iraqis
 		prerequisite = {
 			focus = TUR_iraqi_takeover
 		}
@@ -1612,7 +1613,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_jordan_and_palestine
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_jordan
 		prerequisite = {
 			focus = TUR_iraqi_takeover
 		}
@@ -1667,7 +1668,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_core_jordan
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_jordan
 		prerequisite = {
 			focus = TUR_jordan_and_palestine
 		}
@@ -1705,7 +1706,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_hejaz_next
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_hejaz
 		prerequisite = {
 			focus = TUR_jordan_and_palestine
 		}
@@ -1743,7 +1744,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_core_hejaz
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_hejaz
 		prerequisite = {
 			focus = TUR_hejaz_next
 		}
@@ -1769,7 +1770,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_egyptian_threat
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_egypt
 		prerequisite = {
 			focus = TUR_hejaz_next
 		}
@@ -1880,7 +1881,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_national_guard
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_sphere
 		prerequisite = {
 			focus = TUR_joint_army
 		}
@@ -1915,7 +1916,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_border_patrols
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
 			focus = TUR_national_guard
 		}
@@ -1945,7 +1946,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_cyprus_demands
-		icon = GFX_goal_unknown
+		icon = GFX_cyprus
 		prerequisite = {
 			focus = TUR_border_patrols
 		}
@@ -1980,7 +1981,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_western_expansion
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = TUR_cyprus_demands
 		}
@@ -2013,7 +2014,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_greek_demands
-		icon = GFX_goal_unknown
+		icon = GFX_greece_demands
 		prerequisite = {
 			focus = TUR_western_expansion
 		}
@@ -2047,7 +2048,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_bulgarian_claim
-		icon = GFX_goal_unknown
+		icon = GFX_bulagrian_demands
 		prerequisite = {
 			focus = TUR_western_expansion
 		}
@@ -2081,7 +2082,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_annex_greece
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = {
 			focus = TUR_greek_demands
 		}
@@ -2115,7 +2116,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_balkan_strategem
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_alliance
 		prerequisite = {
 			focus = TUR_annex_greece
 		}
@@ -2165,7 +2166,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_ataturk
-		icon = GFX_goal_unknown
+		icon = GFX_ataturk
 		prerequisite = {
 			focus = TUR_nation_assembly_of_turkey
 		}
@@ -2197,7 +2198,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_stay_neutral
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
 			focus = TUR_ataturk
 		}
@@ -2233,7 +2234,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_middle_east_sphere
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_alliance
 		prerequisite = {
 			focus = TUR_ataturk
 		}
@@ -2369,7 +2370,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_middle_east_research
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = {
 			focus = TUR_ask_jordan
 		}
@@ -2382,11 +2383,40 @@ focus_tree = {
 		
 		x = 24
 		y = 5
-		cost = 10
+		cost = 1
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			add_to_tech_sharing_group = middle_east_research
+		} 
+	}
+	
+	focus = {
+		id = TUR_lebanon_research
+		icon = GFX_TUR_ask_lebanon
+		prerequisite = {
+			focus = TUR_middle_east_research
+		}
+		
+		x = 26
+		y = 6
+		cost = 2
 		available = {
 			is_in_faction_with = LEB
-			is_in_faction_with = JOR
-			is_in_faction_with = SYR
 		}
 		
 		ai_will_do = {
@@ -2403,15 +2433,74 @@ focus_tree = {
 		
 		completion_reward = {
 			LEB = { add_to_tech_sharing_group = middle_east_research }
-			JOR = { add_to_tech_sharing_group = middle_east_research }
+		} 
+	}
+	
+	focus = {
+		id = TUR_syria_research
+		icon = GFX_TUR_ask_syria
+		prerequisite = {
+			focus = TUR_lebanon_research
+		}
+		
+		x = 26
+		y = 7
+		cost = 2
+		available = {
+			is_in_faction_with = SYR
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
 			SYR = { add_to_tech_sharing_group = middle_east_research }
-			add_to_tech_sharing_group = middle_east_research
+		} 
+	}
+	
+	focus = {
+		id = TUR_jordan_research
+		icon = GFX_TUR_ask_jordan
+		prerequisite = {
+			focus = TUR_syria_research
+		}
+		
+		x = 26
+		y = 8
+		cost = 2
+		available = {
+			is_in_faction_with = JOR
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		bypass = {
+			
+		}
+		
+		complete_tooltip = {
+			
+		}
+		
+		completion_reward = {
+			JOR = { add_to_tech_sharing_group = middle_east_research }
 		} 
 	}
 	
 	focus = {
 		id = TUR_join_allies
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_democracy
 		prerequisite = {
 			focus = TUR_ataturk
 		}
@@ -2452,7 +2541,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_create_saadabad
-		icon = GFX_goal_unknown
+		icon = GFX_saadabad
 		prerequisite = {
 			focus = TUR_ataturk
 		}
@@ -2489,7 +2578,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_iraqi_states
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_iraqis
 		prerequisite = {
 			focus = TUR_create_saadabad
 		}
@@ -2526,7 +2615,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_iran
-		icon = GFX_goal_unknown
+		icon = GFX_iran
 		prerequisite = {
 			focus = TUR_iraqi_states
 		}
@@ -2558,7 +2647,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_afghanistan
-		icon = GFX_goal_unknown
+		icon = GFX_afghan
 		prerequisite = {
 			focus = TUR_iran
 		}
@@ -2590,7 +2679,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_democratic_values
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_democracy
 		prerequisite = {
 			focus = TUR_ataturk
 		}
@@ -2623,7 +2712,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_language_association
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		prerequisite = {
 			focus = TUR_democratic_values
 		}
@@ -2654,7 +2743,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_turkish_literature
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 			focus = TUR_language_association
 		}
@@ -2685,7 +2774,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_education_association
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		prerequisite = {
 			focus = TUR_democratic_values
 		}
@@ -2716,7 +2805,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_improved_schools
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_self_management
 		prerequisite = {
 			focus = TUR_education_association
 		}
@@ -2747,7 +2836,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_educated_population
-		icon = GFX_goal_unknown
+		icon = GFX_focus_research
 		prerequisite = {
 			focus = TUR_turkish_literature
 		}
@@ -2781,7 +2870,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_communist_opportunity
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_communism
 		prerequisite = {
 			focus = TUR_ottoman_ashes
 		}
@@ -2819,7 +2908,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_sefik_husnu
-		icon = GFX_goal_unknown
+		icon = GFX_sefik
 		prerequisite = {
 			focus = TUR_communist_opportunity
 		}
@@ -2845,13 +2934,13 @@ focus_tree = {
 		
 		completion_reward = {
 			add_national_unity = -0.15
-			set_politics = { ruling_party = fascism elections_allowed = no }
+			set_politics = { ruling_party = communism elections_allowed = no }
 		}
 	}
 	
 	focus = {
 		id = TUR_revenge
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = {
 			focus = TUR_sefik_husnu
 		}
@@ -2889,7 +2978,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_communist_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 			focus = TUR_revenge
 		}
@@ -2921,7 +3010,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_get_closer_to_the_ussr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_join_comintern
 		prerequisite = {
 			focus = TUR_communist_propaganda
 		}
@@ -2958,7 +3047,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_forgive_capitalists
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = {
 			focus = TUR_sefik_husnu
 		}
@@ -2996,7 +3085,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_moderate_socialism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_soviet_politics
 		prerequisite = {
 			focus = TUR_forgive_capitalists
 		}
@@ -3029,7 +3118,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_on_our_own
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
 			focus = TUR_moderate_socialism
 		}
@@ -3062,7 +3151,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_socialist_power
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = {
 			focus = TUR_revenge
 			focus = TUR_forgive_capitalists
@@ -3095,7 +3184,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_socialist_industry
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_soviet_construction
 		prerequisite = {
 			focus = TUR_socialist_power
 		}
@@ -3191,7 +3280,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_ussr_sends_factories
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_soviet_construction
 		prerequisite = {
 			focus = TUR_get_closer_to_the_ussr
 		}
@@ -3290,7 +3379,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_husnu_factories
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_soviet_construction
 		prerequisite = {
 			focus = TUR_on_our_own
 		}
@@ -3389,7 +3478,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_communist_volunteers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_secret_rearmament
 		prerequisite = {
 			focus = TUR_communist_opportunity
 		}
@@ -3420,7 +3509,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_expand_the_red
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_red
 		prerequisite = {
 			focus = TUR_communist_opportunity
 		}
@@ -3451,7 +3540,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_red_balkan
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_red_balkan
 		prerequisite = {
 			focus = TUR_expand_the_red
 		}
@@ -3486,7 +3575,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_greece
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_greece
 		prerequisite = {
 			focus = TUR_red_balkan
 		}
@@ -3517,7 +3606,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_bulgaria
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_bulgaria
 		prerequisite = {
 			focus = TUR_greece
 		}
@@ -3548,7 +3637,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_red_middle_east
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_red_me
 		prerequisite = {
 			focus = TUR_expand_the_red
 		}
@@ -3583,7 +3672,7 @@ focus_tree = {
 	
 	focus = {
 		id = TUR_syria
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_syria
 		prerequisite = {
 			focus = TUR_red_middle_east
 		}
@@ -3608,13 +3697,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			SYR = { country_event = { id = syria.7 } }
+			SYR = { country_event = { id = syria.6 } }
 		}
 	}
 	
 	focus = {
 		id = TUR_lebanon
-		icon = GFX_goal_unknown
+		icon = GFX_TUR_lebanon
 		prerequisite = {
 			focus = TUR_syria
 		}

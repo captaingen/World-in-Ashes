@@ -93,7 +93,7 @@ country_event = {
 	
 	option = { # Accept demands
 		name = britain.2001.a
-		ai_chance = { 
+		ai_chance = {
 			factor = 10
 		}
 		LEB = {
@@ -102,7 +102,7 @@ country_event = {
 	}
 	option = { # Refuse
 		name = britain.2001.b		
-		ai_chance = { 
+		ai_chance = {
 			factor = 90
 		}
 		effect_tooltip = {
@@ -186,7 +186,7 @@ country_event = {
 		name = britain.2003.b
 		ai_chance = { factor = 0 }
 		country_event = { id = turkey.35 }
-		}
+		
 		hidden_effect = {
 			news_event = { id = news.336 }
 		}

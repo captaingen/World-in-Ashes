@@ -4,7 +4,27 @@ spriteTypes = {
 		name = "GFX_news_event_1000"
 		texturefile = "gfx/event_pictures/news_event_1000.dds"
 	}
-
+	spriteType = {
+		name = "GFX_report_event_turkish_retreat"
+		texturefile = "gfx/event_pictures/report_event_turkish_retreat.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_train_women"
+		texturefile = "gfx/event_pictures/report_event_train_women.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_joint_army"
+		texturefile = "gfx/event_pictures/report_event_joint_army.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_national_guard"
+		texturefile = "gfx/event_pictures/report_event_national_guard.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_syrian_crossover"
+		texturefile = "gfx/event_pictures/report_event_syrian_crossover.dds"
+	}
+}
 	#### END DoD EVENTS ####
 	
 	

@@ -1,0 +1,29 @@
+state={
+	id=75
+	name="STATE_75"
+	manpower = 2598400
+	resources={
+		steel=6
+		oil = 4
+	}
+
+	state_category = city
+
+	history={
+		owner = MOR
+		victory_points = {
+			3569 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		569 3553 3569 6562 6576 6590 11511 
+	}
+}
