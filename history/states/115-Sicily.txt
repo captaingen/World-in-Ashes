@@ -23,6 +23,7 @@ state={
 			}
 		}
 		add_core_of = MED
+		add_core_of = SIC
 	}
 
 	provinces={
