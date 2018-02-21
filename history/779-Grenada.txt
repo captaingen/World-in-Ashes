@@ -1,0 +1,25 @@
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		11106 
+	}
+
+	state_category = town
+	history={
+		owner = WIF
+		buildings = {
+			11106 = {
+				naval_base = 1
+			}
+		
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 1
+		}
+		add_core_of = WIF
+	}
+	manpower=89100
+	buildings_max_level_factor=1.000
+}

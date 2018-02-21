@@ -1,0 +1,22 @@
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		379 
+	}
+	history={
+		owner = WIF
+		add_core_of = WIF
+		buildings = {
+			infrastructure = 4
+			379 = {
+				naval_base = 1
+			}
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 2
+		}
+	}
+	manpower=58000
+	buildings_max_level_factor=1.000
+}
