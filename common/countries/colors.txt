@@ -613,3 +613,8 @@ SIC = {
 	color = rgb { 153  183  113 }
 	color_ui = rgb { 153  183  113 }
 }
+
+NAP = {
+	color = rgb { 147  92  178 }
+	color_ui = rgb { 147  92  178 }
+}
