@@ -8,10 +8,13 @@ state={
 		add_core_of = WIF
 		buildings = {
 			infrastructure = 4
-			13009 = {
+			11350 = {
 				naval_base = 1
 
 			}
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 
 		}
 

@@ -1,0 +1,29 @@
+state={
+	id=691
+	name="STATE_691"
+	manpower = 413119
+	resources={
+		oil=16
+	}
+	
+	state_category = rural
+
+
+	history={
+		owner = WIF
+		add_core_of = WIF
+		buildings = {
+			13012 = {
+				naval_base = 1
+			}
+		
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+
+	}
+	
+	provinces={ 3284 13012 }
+}
