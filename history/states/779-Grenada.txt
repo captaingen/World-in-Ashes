@@ -1,0 +1,20 @@
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		11106 
+	}
+
+	state_category = town
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			11106 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=89100
+	buildings_max_level_factor=1.000
+}
