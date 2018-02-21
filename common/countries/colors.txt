@@ -603,3 +603,13 @@ MED = {
 	color = rgb { 187  198  121 }
 	color_ui = rgb { 187  198  121 }
 }
+
+MLT = {
+	color = rgb { 204  168  132 }
+	color_ui = rgb { 204  168  132 }
+}
+
+SIC = {
+	color = rgb { 153  183  113 }
+	color_ui = rgb { 153  183  113 }
+}
