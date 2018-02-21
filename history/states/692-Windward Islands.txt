@@ -4,7 +4,8 @@ state={
 	name="STATE_692"
 
 	history={
-		owner = ENG
+		owner = WIF
+		add_core_of = WIF
 		buildings = {
 			infrastructure = 4
 			11350 = {
