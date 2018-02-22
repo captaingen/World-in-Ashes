@@ -4,7 +4,7 @@ state={
 	name="STATE_156"
 
 	history={
-		owner = ITA
+		owner = NAP
 		victory_points = {
 			11837 15 
 		}
@@ -22,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = ITA
+		add_core_of = NAP
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
