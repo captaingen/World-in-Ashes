@@ -1,0 +1,32 @@
+
+state={
+	id=111
+	name="STATE_111" # Turku
+	manpower = 270190
+	
+	state_category = city
+	
+	history={
+		owner = FIN
+		victory_points = {
+			3137 1 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+			11105 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		169 3009 3083 3117 6066 13212 13213 13214 
+	}
+}
