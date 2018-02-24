@@ -1,7 +1,7 @@
 
 state={
-	id=111
-	name="STATE_111" # Turku
+	id=782
+	name="STATE_782" # Turku
 	manpower = 270190
 	
 	state_category = city
