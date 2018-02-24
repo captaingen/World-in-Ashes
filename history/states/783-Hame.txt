@@ -1,0 +1,31 @@
+
+state={
+	id=111
+	name="STATE_111" # Hame
+	manpower = 200000
+	
+	state_category = town
+	
+	history={
+		owner = FIN
+		victory_points = { #turku
+			3083 1 
+		}
+		victory_points = { #pori
+			169 1 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		67 3025 3137 6047 6163 9167 11066 11172 13100 13102 13107 
+	}
+}

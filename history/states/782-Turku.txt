@@ -8,16 +8,15 @@ state={
 	
 	history={
 		owner = FIN
-		victory_points = {
-			3137 1 
+		victory_points = { #turku
+			3083 3 
+		}
+		victory_points = { #pori
+			169 1 
 		}
 		buildings = {
 			infrastructure = 4
 			dockyard = 2
-			11105 = {
-				naval_base = 5
-				coastal_bunker = 2
-			}
 			3083 = {
 				naval_base = 3
 				coastal_bunker = 1
@@ -27,6 +26,6 @@ state={
 	}
 
 	provinces={
-		169 3009 3083 3117 6066 13212 13213 13214 
+		32 169 3009 3083 3117 6066 9094 13101 13212 13213 13214 
 	}
 }

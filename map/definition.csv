@@ -13212,4 +13212,5 @@
 13211;104;69;252;land;false;forest;6
 13212;128;155;242;land;false;plains;1
 13213;230;236;105;land;false;forest;1
-13214;72;96;205;land;true;forest;1
+13214;72;96;205;land;true;forest;0
+13215;84;27;216;land;false;plains;1
