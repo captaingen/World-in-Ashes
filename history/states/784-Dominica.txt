@@ -1,14 +1,15 @@
-
 state={
-	id=308
-	name="STATE_308"
-
+	id=784
+	name="STATE_784"
+	provinces={
+		7123 
+	}
 	history={
 		owner = WIF
 		add_core_of = WIF
 		buildings = {
 			infrastructure = 4
-			4450 = {
+			7123 = {
 				naval_base = 1
 
 			}
@@ -19,11 +20,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		4450 
-	}
-	manpower=25678
+	manpower=50600
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }
