@@ -18,6 +18,9 @@ state={
 			air_base = 2
 
 		}
+		victory_points = {
+			7123 5
+		}
 
 	}
 	manpower=50600
