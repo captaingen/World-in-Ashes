@@ -618,3 +618,7 @@ NAP = {
 	color = rgb { 147  92  178 }
 	color_ui = rgb { 147  92  178 }
 }
+ANH = {
+color = rgb { 255 141 72 }
+color_ui = rgb { 255 141 72 }
+}
