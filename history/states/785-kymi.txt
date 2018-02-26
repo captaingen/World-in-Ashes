@@ -1,0 +1,21 @@
+
+state={
+	id=785
+	name="STATE_785" # Kymi
+	manpower = 270190
+	
+	state_category = rural
+	
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		52 204 3061 3161 6082 6186 9183 11056 13105 
+	}
+}

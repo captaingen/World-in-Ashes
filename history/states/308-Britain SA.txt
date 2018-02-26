@@ -19,18 +19,15 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 2
-<<<<<<< HEAD
 		}
 
 		victory_points = {
 			4450 3
-=======
->>>>>>> parent of f32ec82... Added Dominica
 		}
 
 	}
 
 	provinces={
-		4450 7123 
+		4450 
 	}
 }

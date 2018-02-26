@@ -1,0 +1,23 @@
+
+state={
+	id=787
+	name="STATE_787"
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		7 82 120 132 158 195 3026 3073 3115 3125 3149 3153 3156 6045 6081 6134 6146 6179 6212 9106 9233 11024 11041 11079 11081 11121 11132 11199 13118 
+	}
+	manpower=151100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
