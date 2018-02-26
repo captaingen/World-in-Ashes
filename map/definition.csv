@@ -9192,7 +9192,7 @@
 9191;126;159;154;land;false;plains;1
 9192;126;159;209;land;false;forest;6
 9193;126;162;69;land;false;plains;1
-9194;126;162;174;land;true;forest;1
+9194;126;162;174;land;false;forest;1
 9195;126;165;34;land;true;forest;1
 9196;126;165;89;land;false;forest;1
 9197;126;165;139;land;false;forest;1
