@@ -1,4 +1,4 @@
-﻿l_english:
+﻿SHAl_english:
  GER_fascism:0 "German Reich"
  GER_fascism_DEF:0 "The German Reich"
  GER_democratic:0 "German Republic"
@@ -320,9 +320,9 @@
  FACTION_NAME_NONALIGNED_4:0 "Confederate $CONTINENT_ADJ$ Nations"
  FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
  
- CAR_democratic:0 "[ADJ] Federation"
- CAR_communism:0 "[ADJ] People's Republic"
- CAR_fascism:0 "[ADJ] Empire"
- CAR_neutrality:0 "[ADJ] Kingdom"
+ SHA_democratic:0 "Shangdong Republic"
+ SHA_communism:0 "Shangdong People's Republic"
+ SHA_fascism:0 "Shangdong State"
+ SHA_neutrality:0 "Shangdong Clique"
 
 
