@@ -1,0 +1,21 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		1918 1999 2067 4999 7294 7988 8104 10726 10841 12724 12837 
+	}
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+	}
+	buildings = {
+			infrastructure = 1
+			arms_complex = 1
+			industrial_complex = 2
+
+		}
+	manpower=484100
+	buildings_max_level_factor=1.000
+}
