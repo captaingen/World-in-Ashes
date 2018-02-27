@@ -633,7 +633,7 @@ MAC = {
 	color_ui = rgb { 215 221 37 }
 }
 
-MTN = {
+BOS = {
 	color = rgb { 194 196 135 }
 	color_ui = rgb { 194 196 135 }
 }
