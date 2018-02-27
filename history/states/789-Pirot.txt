@@ -1,0 +1,17 @@
+state={
+	id=789
+	name="STATE_789" #pirot
+	provinces={
+		11857 11868 
+	}
+	history = {
+		owner = SER
+		add_core_of = SER
+	}
+	buildings = {
+			infrastructure = 3
+
+		}
+	manpower=84100
+	buildings_max_level_factor=1.000
+}
