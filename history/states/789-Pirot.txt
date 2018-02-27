@@ -2,7 +2,7 @@ state={
 	id=789
 	name="STATE_789" #pirot
 	provinces={
-		11857 11868 
+		9771 11857 11868 
 	}
 	history = {
 		owner = SER
@@ -12,7 +12,7 @@ state={
 
 		}
 	}
-	manpower=84100
+	manpower=104100
 	buildings_max_level_factor=1.000
 	state_category=town
 }
