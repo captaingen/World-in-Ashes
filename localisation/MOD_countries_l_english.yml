@@ -298,6 +298,44 @@
  ANH_democratic_ADJ:0 "Anhui"
  ANH_neutrality_ADJ:0 "Anhui"
  ANH_communism_ADJ:0 "Anhui"
+ SHA_democratic:0 "Shangdong Republic"
+ SHA_communism:0 "Shangdong People's Republic"
+ SHA_fascism:0 "Shangdong State"
+ SHA_neutrality:0 "Shangdong Clique"
+ SHA_fascism_ADJ:0 "Shangdong"
+ SHA_democratic_ADJ:0 "Shangdong"
+ SHA_neutrality_ADJ:0 "Shangdong"
+ SHA_communism_ADJ:0 "Shangdong"
+ MAC_democratic:0 "Macedonia"
+ MAC_communism:0 "Macedonian Red Order"
+ MAC_fascism:0 "Macedonian Empire"
+ MAC_neutrality:0 "Macedonian Kingdom"
+ SHA_fascism_ADJ:0 "Macedonian"
+ SHA_democratic_ADJ:0 "Macedonian"
+ SHA_neutrality_ADJ:0 "Macedonian"
+ SHA_communism_ADJ:0 "Macedonian"
+ MTN_democratic:0 "Montenegro"
+ MTN_communism:0 "Montenegro"
+ MTN_fascism:0 "Montenegro"
+ MTN_neutrality:0 "Montenegro"
+ MTN_fascism_ADJ:0 "Montenegran"
+ MTN_democratic_ADJ:0 "Montenegran"
+ MTN_neutrality_ADJ:0 "Montenegran"
+ MTN_communism_ADJ:0 "Montenegran"
+ SVN_democratic:0 "Slovenia"
+ SVN_communism:0 "People's Republic of Slovenia"
+ SVN_fascism:0 "Slovenian State"
+ SVN_neutrality:0 "Slovenia"
+ SVN_fascism_ADJ:0 "Slovenian"
+ SVN_democratic_ADJ:0 "Slovenian"
+ SVN_neutrality_ADJ:0 "Slovenian"
+ SVN_communism_ADJ:0 "Slovenian"
+ 
+ 
+ 
+ 
+ 
+ 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_DEMOCRATIC_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"
@@ -319,10 +357,3 @@
  FACTION_NAME_NONALIGNED_3:0 "The $CONTINENT$ Alliance"
  FACTION_NAME_NONALIGNED_4:0 "Confederate $CONTINENT_ADJ$ Nations"
  FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
- 
- SHA_democratic:0 "Shangdong Republic"
- SHA_communism:0 "Shangdong People's Republic"
- SHA_fascism:0 "Shangdong State"
- SHA_neutrality:0 "Shangdong Clique"
-
-

@@ -619,6 +619,21 @@ NAP = {
 	color_ui = rgb { 147  92  178 }
 }
 ANH = {
-color = rgb { 255 141 72 }
-color_ui = rgb { 255 141 72 }
+	color = rgb { 255 141 72 }
+	color_ui = rgb { 255 141 72 }
+}
+
+SVN = {
+	color = rgb { 93 116 124 }
+	color_ui = rgb { 93 116 124 }
+}
+
+MAC = {
+	color = rgb { 215 221 37 }
+	color_ui = rgb { 215 221 37 }
+}
+
+MTN = {
+	color = rgb { 194 196 135 }
+	color_ui = rgb { 194 196 135 }
 }
