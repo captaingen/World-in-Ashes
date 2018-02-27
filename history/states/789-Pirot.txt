@@ -7,11 +7,12 @@ state={
 	history = {
 		owner = SER
 		add_core_of = SER
-	}
 	buildings = {
 			infrastructure = 3
 
 		}
+	}
 	manpower=84100
 	buildings_max_level_factor=1.000
+	state_category=town
 }
