@@ -1,0 +1,21 @@
+state={
+	id=795
+	name="STATE_795"
+	manpower = 200110
+	
+	state_category = town
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR
+
+	}
+
+
+	provinces={
+		1606 1634 3942 6883 13219 13220 
+	}
+}

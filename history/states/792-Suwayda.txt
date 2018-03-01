@@ -1,0 +1,25 @@
+
+state={
+	id=792
+	name="STATE_792"
+	manpower = 57797
+	
+	state_category = rural
+
+	history={
+		owner = SYR
+		victory_points = {
+			4111 15 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR	
+
+	}
+
+
+	provinces={
+		4486 13217 
+	}
+}
