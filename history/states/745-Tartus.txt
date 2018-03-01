@@ -8,7 +8,7 @@ state={
 	state_category = town
 
 	history={
-		owner = SYR
+		owner = ALA
 		victory_points = {
 			10087 5 
 		}
@@ -20,7 +20,7 @@ state={
 			}
 		}
 
-		add_core_of = SYR
+		add_core_of = ALA
 	}
 
 	provinces={
