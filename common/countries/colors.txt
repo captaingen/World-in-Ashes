@@ -637,3 +637,23 @@ BOS = {
 	color = rgb { 194 196 135 }
 	color_ui = rgb { 194 196 135 }
 }
+
+ALE = {
+	color = rgb { 237  141  109 }
+	color_ui = rgb { 237  141  109 }
+}
+
+DAM = {
+	color = rgb { 196  168  90 }
+	color_ui = rgb { 196  168  90 }
+}
+
+DRU = {
+	color = rgb { 90  130  196 }
+	color_ui = rgb { 90  130  196 }
+}
+
+ALA = {
+	color = rgb { 150  226  120 }
+	color_ui = rgb { 150  226  120 }
+}
