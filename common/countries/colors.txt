@@ -639,8 +639,8 @@ BOS = {
 }
 
 ALE = {
-	color = rgb { 237  141  109 }
-	color_ui = rgb { 237  141  109 }
+	color = rgb { 100  100  150 }
+	color_ui = rgb { 100  100  150 }
 }
 
 DAM = {
