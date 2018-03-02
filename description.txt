@@ -1,0 +1,51 @@
+[h1]VERSION 0.4[/h1]
+[url=https://discord.gg/5uJQQNA]DISCORD[/url]
+
+[b]The map is being majorly overhauled (All the world) and the lore is being rewritten. We are currently looking for experienced devs to help us with the map change to get you this update as soon as possible! If you wish to join the team, join the discord and let me (Captain Gen) know![/b]
+
+The Ottomans lost WWI and had to leave the Middle East due to increased revolutions. The British and the French were so preoccupied with other parts of the World that they did not colonize the Middle East. Countries started to rise and became independant right after the Ottomans left. Will you play to become an Old Empire? Or will you become a new Empire? Or will you fight for the freedoms of humanity? Find out in Ottoman Ashes!
+
+For more information and more insight into the developpement stages make sure you join our discord:
+[url=https://discord.gg/5uJQQNA]DISCORD[/url]
+
+Country List:
+ - Lebanon (needs some fixing)
+ - Syria
+ - Turkey (Completed)
+ - Jordan
+ - Israel / Palestine
+ - Iraq
+ - Basrah
+ - Assyria
+ - Hejaz
+ - And much more to come...
+
+What to expect towards the future:
+ - Many more focus trees
+ - Flavor events
+ - More leaders
+ - More countries
+ - More Flavor
+ - Map Changed
+
+V 0.1:
+ - Lebanon Focus Tree
+ - Lebanese Party Leaders
+ - Created Kuwait and UAE
+ - Lebanese and Syrian OOB (not completed)
+
+V.0.2:
+- Arabian peninsula borders and map changes
+- OOB expansion and fixes
+
+V.0.4:
+ - Turkish Flavor
+ - Turkish Focus tree
+ - GFX additions
+
+Coming in V0.5:
+- Egyptian Flavor
+
+Thanks to [url=http://steamcommunity.com/profiles/76561198028857103]Jarkazzo[/url] for the Main Picture idea!
+
+Portrait ideas taken from the Kaiserreich mod
