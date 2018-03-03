@@ -657,3 +657,7 @@ ALA = {
 	color = rgb { 150  226  120 }
 	color_ui = rgb { 150  226  120 }
 }
+SIC = {
+color = rgb { 169 233 155 }
+color_ui = rgb { 169 233 155 }
+}
