@@ -346,6 +346,19 @@
  SVN_democratic_ADJ:0 "Slovenian"
  SVN_neutrality_ADJ:0 "Slovenian"
  SVN_communism_ADJ:0 "Slovenian"
+ SZC_democratic:0 "Republic of Sichuan"
+ SZC_communism:0 "People's Republic of Sichuan"
+ SZC_fascism:0 "State of Sichuan"
+ SZC_neutrality:0 "Sichuan Clique"
+ SZC_democratic_DEF:0 "The Republic of Sichuan"
+ SZC_communism_DEF:0 "The People's Republic of Sichuan"
+ SZC_fascism_DEF:0 "The State of Sichuan"
+ SZC_neutrality_DEF:0 "The Sichuan Clique"
+ SZC_neutrality:0 "Sichuan Clique"
+ SZC_democratic_ADJ:0 "Sichuan"
+ SZC_communism_ADJF:0 "Sichuan"
+ SZC_fascism_ADJF:0 "Sichuan"
+ SZC_neutrality_ADJ:0 "Sichuan"
  
  
  
@@ -372,4 +385,6 @@
  FACTION_NAME_NONALIGNED_2:0 "The $LEADER_COUNTRY$ Congress"
  FACTION_NAME_NONALIGNED_3:0 "The $CONTINENT$ Alliance"
  FACTION_NAME_NONALIGNED_4:0 "Confederate $CONTINENT_ADJ$ Nations"
- FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
+ FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition" 
+ 
+
