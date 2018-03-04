@@ -88,3 +88,13 @@ set_politics = {
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	name = "Mar'i Pasha Al Mallah"
+	desc = ""
+	picture = "gfx/leaders/ALE/Mallah.tga"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
