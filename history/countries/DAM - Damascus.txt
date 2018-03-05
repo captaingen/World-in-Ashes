@@ -93,7 +93,18 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/DAM/Haqqi.tga"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Faisal I"
+	desc = ""
+	picture = "gfx/leaders/DAM/Faisal.tga"
+	expire = "1965.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}
