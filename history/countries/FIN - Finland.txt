@@ -172,6 +172,12 @@ add_ideas = {
 	sisu
 }
 
+create_field_marshal = {
+	name = "Carl Gustaf Emil Mannerheim"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { winter_specialist ranger }
+	skill = 5
+}
 create_corps_commander = {
 	name = "Erik Heinrichs"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
