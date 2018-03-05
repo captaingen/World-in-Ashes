@@ -88,3 +88,13 @@ set_politics = {
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	name = "Pasha al-Atrash"
+	desc = ""
+	picture = "gfx/leaders/DRU/Al-Atrash.tga"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
