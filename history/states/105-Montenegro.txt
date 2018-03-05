@@ -1,14 +1,10 @@
 
 state={
 	id=105
-	name="STATE_105" # Montenegro
-	manpower = 895500
-	
-	state_category = rural
-	
+	name="STATE_105"
 	resources={
-		chromium=36
-		aluminium=112
+		chromium=36.000
+		aluminium=112.000
 	}
 
 	history={
@@ -19,11 +15,17 @@ state={
 			industrial_complex = 1
 			9809 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		833 867 937 3922 6913 6940 9809 9821 9849 9874 11858 
+		937 3922 6913 6940 9809 9821 9849 9874 11858 
 	}
+	manpower=895500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
