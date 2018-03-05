@@ -1,0 +1,22 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		937 3922 6913 6940 9849 9874 
+	}
+	
+	history={
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
