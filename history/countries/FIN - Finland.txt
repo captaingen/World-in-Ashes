@@ -175,7 +175,7 @@ add_ideas = {
 create_field_marshal = {
 	name = "Carl Gustaf Emil Mannerheim"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { winter_specialist ranger }
+	traits = { winter_specialist }
 	skill = 5
 }
 create_corps_commander = {
