@@ -406,6 +406,18 @@
  DRU_democratic_ADJ:0 "Druze"
  DRU_neutrality_ADJ:0 "Druze"
  DRU_communism_ADJ:0 "Druze"
+ KAR_democratic:0 "Karelian Republic"
+ KAR_democratic_DEF:0 "The Karelian Republic"
+ KAR_communism:0 "Communist Karelia"
+ KAR_communism_DEF:0 "Communist Karelia"
+ KAR_fascism:0 "Karelian Empire"
+ KAR_fascism_DEF:0 "The Karelian Empire"
+ KAR_neutrality:0 "Kingdom of Karelia"
+ KAR_neutrality_DEF:0 "The Kingdom of Karelia"
+ KAR_fascism_ADJ:0 "Karelian"
+ KAR_democratic_ADJ:0 "Karelian"
+ KAR_neutrality_ADJ:0 "Karelian"
+ KAR_communism_ADJ:0 "Karelian"
  
  
  
