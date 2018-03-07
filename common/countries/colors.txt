@@ -687,3 +687,8 @@ WIF = {
 	color = rgb { 0  45  130 }
 	color_ui = rgb { 0  45  130 }
 }
+
+TRA = {
+	color = rgb { 232 220 153 }
+	color_ui = rgb { 232 220 153 }
+}
