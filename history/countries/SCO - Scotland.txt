@@ -248,3 +248,17 @@ create_country_leader = {
 		
 	}
 }
+
+create_corps_commander = {
+	name = "Sir Neil Ritchie"
+	portrait_path = "gfx/leaders/SCO/richie.tga"
+	traits = { trickster }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Sir Gordon MacMillan"
+	portrait_path = "gfx/leaders/SCO/gordon.tga"
+	traits = { ranger urban_assault_specialist }
+	skill = 2
+}

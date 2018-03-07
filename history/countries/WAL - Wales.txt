@@ -243,3 +243,10 @@ create_country_leader = {
 		
 	}
 }
+
+create_corps_commander = {
+	name = "Gerard Bucknall"
+	portrait_path = "gfx/leaders/WAL/gerard.tga"
+	traits = { naval_invader }
+	skill = 2
+}
