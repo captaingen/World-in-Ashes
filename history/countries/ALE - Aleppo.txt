@@ -98,3 +98,10 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+	name = "Erik Heinrichs"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { desert_fox ranger }
+	skill = 3
+}
