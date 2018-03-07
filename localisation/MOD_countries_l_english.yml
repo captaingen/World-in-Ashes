@@ -418,7 +418,18 @@
  KAR_democratic_ADJ:0 "Karelian"
  KAR_neutrality_ADJ:0 "Karelian"
  KAR_communism_ADJ:0 "Karelian"
- 
+ BOS_democratic:0 "Bosnia"
+ BOS_democratic_DEF:0 "Bosnia"
+ BOS_communism:0 "Communist Bosnia"
+ BOS_communism_DEF:0 "Communist Bosnia"
+ BOS_fascism:0 "Bosnian Empire"
+ BOS_fascism_DEF:0 "The Bosnian Empire"
+ BOS_neutrality:0 "Kingdom of Bosnia"
+ BOS_neutrality_DEF:0 "The Kingdom of Bosnia"
+ BOS_fascism_ADJ:0 "Bosnian"
+ BOS_democratic_ADJ:0 "Bosnian"
+ BOS_neutrality_ADJ:0 "Bosnian"
+ BOS_communism_ADJ:0 "Bosnian"
  
  
  
