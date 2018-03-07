@@ -561,7 +561,22 @@ KUR = {
 
 TRM = {
 	color = rgb { 0  204  255  }
-	color_ui = rgb { 0  204  255 } 
+	color_ui = rgb { 0  204  255 }
+}
+
+SHA = {
+	color = rgb { 97  21  142 }
+	color_ui = rgb { 97  21  142 }
+}
+
+SZC = {
+	color = rgb { 169  233  155 }
+	color_ui = rgb { 169  233  155 }
+}
+
+HEJ = {
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152 }
 }
 
 ASS = {
