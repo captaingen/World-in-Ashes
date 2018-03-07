@@ -619,8 +619,8 @@ NAP = {
 	color_ui = rgb { 147  92  178 }
 }
 ANH = {
-	color = rgb { 255 141 72 }
-	color_ui = rgb { 255 141 72 }
+	color = rgb { 74 153 71 }
+	color_ui = rgb { 74 153 71 }
 }
 
 SVN = {
@@ -666,4 +666,9 @@ SIC = {
 KAR = {
 	color = rgb { 199 219 89 }
 	color_ui = rgb { 199 219 89 }
+}
+
+WIF = {
+	color = rgb { 0  45  130 }
+	color_ui = rgb { 0  45  130 }
 }
