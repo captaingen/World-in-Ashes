@@ -84,7 +84,7 @@ set_politics = {
 
 }
 
-create_faction = Central Powers
+create_faction = Central_Powers
 add_to_faction = GER
 
 
