@@ -4,7 +4,8 @@ oob = "MOR_1936"
 
 set_research_slots = 3
 
-set_national_unity = 0.8
+set_stability = 0.7
+set_war_support = 0.3
 
 # Starting tech
 set_technology = {

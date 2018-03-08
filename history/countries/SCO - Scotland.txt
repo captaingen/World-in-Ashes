@@ -4,7 +4,8 @@
 
 set_research_slots = 3
 
-set_national_unity = 0.75
+set_stability = 0.5
+set_war_support = 0.8
 
 # Starting tech
 set_technology = {
