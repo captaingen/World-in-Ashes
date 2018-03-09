@@ -183,10 +183,10 @@ news_event = {
 
 #turkey joins Britain
 news_event = {
-	id = news.335
-	title = news.335.t
+	id = news.1005
+	title = news.1005.t
 	picture = GFX_news_event_churchill_degaulle
-	desc = news.335.d
+	desc = news.1005.d
 
 	major = yes
 
@@ -194,7 +194,7 @@ news_event = {
 
 	#We stand together.
 	option = {
-		name = news.335.a
+		name = news.1005.a
 		trigger = {
 			OR = {
 				tag = ENG
