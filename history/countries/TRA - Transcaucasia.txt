@@ -1,4 +1,4 @@
-﻿capital = 104
+﻿capital = 232
 
 #oob = "SLO_1939"
 

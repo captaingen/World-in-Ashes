@@ -1064,7 +1064,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_national_unity = -0.05
+			add_stability = -0.05
 			add_popularity = { ideology = fascism popularity = 0.1 }
 			add_ideas = TUR_return_of_the_empire_focus
 		}
