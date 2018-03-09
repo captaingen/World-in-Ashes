@@ -11,14 +11,8 @@ bookmarks = {
 			history = "TUR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				ottoman_ashes
-				TUR_lost_ww1
-				TUR_no_airforce
 			}
 			focuses = {
-				TUR_return_of_the_empire
-				TUR_nation_assembly_of_turkey
-				TUR_communist_opportunity
 			}
 		}
 		"LEB"={
@@ -28,9 +22,6 @@ bookmarks = {
 				
 			}
 			focuses = {
-				LEB_a_dictatorship
-				LEB_stay_democratic
-				LEB_our_roots
 			}
 		}
 		"USA"={
