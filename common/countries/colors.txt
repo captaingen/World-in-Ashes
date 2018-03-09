@@ -692,3 +692,8 @@ TRA = {
 	color = rgb { 232 220 153 }
 	color_ui = rgb { 232 220 153 }
 }
+
+RUS = {
+	color = rgb { 60  132  53 }
+	color_ui = rgb { 60  132  53 }
+}
