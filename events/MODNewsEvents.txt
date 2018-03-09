@@ -30,10 +30,10 @@ news_event = {
 
 #Lebanon joins Britain
 news_event = {
-	id = news.331
-	title = news.331.t
+	id = news.1001
+	title = news.1001.t
 	picture = GFX_news_event_churchill_degaulle
-	desc = news.331.d
+	desc = news.1001.d
 
 	major = yes
 
@@ -41,7 +41,7 @@ news_event = {
 
 	#We stand together.
 	option = {
-		name = news.331.a
+		name = news.1001.a
 		trigger = {
 			OR = {
 				tag = ENG
@@ -52,7 +52,7 @@ news_event = {
 
 	#They are preparing for the worst.
 	option = {
-		name = news.331.b
+		name = news.1001.b
 		trigger = {
 			LEB = {
 				has_war = no
@@ -69,7 +69,7 @@ news_event = {
 
 	#Britain has thrown in their lot.
 	option = {
-		name = news.331.c
+		name = news.1001.c
 		trigger = {
 			LEB = {
 				has_war = yes
@@ -90,10 +90,10 @@ news_event = {
 
 #Britain rejects Lebanese alliance
 news_event = {
-	id = news.332
-	title = news.332.t
+	id = news.1002
+	title = news.1002.t
 	picture = GFX_news_event_churchill_degaulle
-	desc = news.332.d
+	desc = news.1002.d
 
 	major = yes
 
@@ -103,7 +103,7 @@ news_event = {
 
 	#They should have asked more nicely.
 	option = {
-		name = news.332.a
+		name = news.1002.a
 		trigger = {
 			tag = ENG
 		}
@@ -111,7 +111,7 @@ news_event = {
 
 	#Our old enemies stand divided.
 	option = {
-		name = news.332.b
+		name = news.1002.b
 		trigger = {
 			tag = GER
 		}
@@ -119,7 +119,7 @@ news_event = {
 
 	#A dark day for the old allies.
 	option = {
-		name = news.332.c
+		name = news.1002.c
 		trigger = {
 			NOT = {
 				OR = {
@@ -133,9 +133,9 @@ news_event = {
 
 # Phoenicia takes land
 news_event = {
-	id = news.333
-	title = news.333.t
-	desc = news.333.d
+	id = news.1003
+	title = news.1003.t
+	desc = news.1003.d
 	picture = GFX_news_event_romanian_soldiers
 	
 	major = yes
@@ -143,7 +143,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = news.333.a
+		name = news.1003.a
 		trigger = {
 			NOT = {
 				TAG = LEB
@@ -151,16 +151,16 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.333.b
+		name = news.1003.b
 		trigger = { TAG = LEB }
 	}
 }
 
 # Phoenicia gets rejected
 news_event = {
-	id = news.334
-	title = news.334.t
-	desc = news.334.d
+	id = news.1004
+	title = news.1004.t
+	desc = news.1004.d
 	picture = GFX_news_event_romanian_soldiers
 	
 	major = yes
@@ -168,7 +168,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = news.334.a
+		name = news.1004.a
 		trigger = {
 			NOT = {
 				TAG = LEB
@@ -176,7 +176,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.334.b
+		name = news.1004.b
 		trigger = { TAG = LEB }
 	}
 }
