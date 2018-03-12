@@ -697,3 +697,13 @@ RUS = {
 	color = rgb { 60  132  53 }
 	color_ui = rgb { 60  132  53 }
 }
+
+UZB = {
+	color = rgb { 102  122  115 }
+	color_ui = rgb { 102  122  115 }
+}
+
+TKM = {
+	color = rgb { 71  91  38 }
+	color_ui = rgb { 71  91  38 }
+}
