@@ -1,0 +1,52 @@
+﻿l_english:
+ #Focuses
+  #Politics
+   PER_subdue_iraqis:0 "Subdue the Iraqis"
+   PER_subdue_iraqis_desc:0 "Ever since Irani military occupation began in Iraq in 1923, there has been devestating unrest in the region. Buildings have been destroyed and farms have been burned. It is time to stomp down on these ungrateful acts."
+   PER_discuss_authority:0 "Discuss Authority"
+   PER_discuss_authority_desc:0 "Our country is torn between Fascism and Monarchism. Will we continue with tradition, or go down a new path that not many other countries have traversed?"
+   PER_order:0 "Order"
+   PER_order_desc:0 "It seems that in the debate of the authority of our ruler, the Fascistic side is winning. The Monarchists do not like this, and will seek to preserve their power for as long as possible."
+   PER_tradition:0 "Tradition"
+   PER_tradition_desc:0 "It seems that in the debate of the authority of our ruler, the Monarchist side is winning. The Fascists do not like this, and will seek to preserve their power for as long as possible."
+   PER_minority_rights:0 "Minority Rights"
+   PER_minority_rights_desc:0 "Ever since Irani military occupation began in Iraq in 1923, there has been devestating unrest in the region. This can only be explained by ruthless suppression of Iraqis' rights. We must end this policy before unrest causes more problems."
+   PER_discuss_freedom:0 "Discuss Freedom"
+   PER_discuss_freedom_desc:0 "Our country is torn between Fascism and Monarchism; however, these two ideologies are inheritely oppressive. This leaves only two options, newborn Communism or the Democratic old guard?"
+   PER_equality:0 "Equality"
+   PER_equality_desc:0 "It seems that in the debate of freedom for our people, the Communist side has won. The Monarchists and Fascists will surely oppose all forms of Communism, especially the Fascists."
+   PER_liberty:0 "Liberty"
+   PER_liberty_desc:0 "It seems that in the debate of freedom for our people, the Democratic side has won. The Monarchists and Fascists will surely oppose all forms of Democratism, especially the Fascists."
+   PER_kurdish_threat:0 "The Kurdish Threat"
+   PER_kurdish_threat_desc:0 "The Kurds in our western territories have always been quite uppity. Ever since the foundation of an actual Kurdish state, they have started riots, and once openly revolted in 1933, during the Persian Civil War, but that was put down. It is time to sort out the fate of the Kurds."
+   PER_punishment:0 "Punishment"
+   PER_punishment_desc:0 "It is time we stomp out resistance in the Kurdish region."
+   PER_light_sentences:0 "Light Sentences"
+   PER_light_sentences_desc:0 "Giving the Kurds harsh sentences will only lead to further revolts."
+   PER_azerbaijani_threat:0 "The Azerbaijani Threat"
+   PER_azerbaijani_threat_desc:0 "The Azerbaijani region has never been the most loyal. In several instances, there have been mass protest and riots all across our Azerbaijani territory, but they have been put to rest. In this brief period of stability, let us deal with the Azerbaijanis."
+ #Custom Tooltips
+  PER_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
+ #Localized country Flags
+  harsh_punishments:0 "Punish the Kurds"
+  light_sentences:0 "Give the Kurds light sentences"
+ #Opinion mods
+ #Events
+  persiaft.0.t:0 "The Kurdish Threat"
+  persiaft.0.d:0 "For centuries, the eastern Kurds have been under the foot of Persia. It is, only now, they cite their want for independence, at such an unstable time in Iranian history. While the changing of the name of Persia to Iran has helped cool tensions in the region, it is uncertain whether the Iranian Kurds will rise up again, like they did on Sept. 16th, 1933. This revolt was squashed on Oct. 14th of the same year, but we cannot risk another revolt.\n\nWhat shall we do with these dissenters?"
+  persiaft.0.a:0 "Give them harsh punishments"
+  persiaft.0.b:0 "Give them light sentences"
+  persiaft.1.t:0 "Kurdish Riots"
+  persiaft.1.d:0 "The Kurds have rosen up in riots! They appear to want independence, so it only seems like a matter of time until they try to break away. We can either punish the Kurds, which may lead to an uprising, or we can let these incidents go, though that would certainly decrease stability in the region.\n\nWhat shall we do with these riots?"
+  persiaft.1.a:0 "Punish the culprits!"
+  persiaft.1.b:0 "Let it slide"
+  persiaft.2.t:0 "Kurdish Riots End"
+  persiaft.2.d:0 "It seems like the Kurdish riots have ended. Buildings and infrastructure within Iranian Kurdistan have stopped being torched and there are no longer open calls for the Kurds there to join Kurdistan. We can now rest in peace knowing that we no longer have to deal with the Kurdish threat."
+  persiaft.2.a:0 "Let us rejoice"
+  persiaft.3.t:0 "Kurdish Uprising"
+  persiaft.3.d:0 "It seems like the Kurdish riots have escalated into all out war! Kurdistan has issued a declaration stating that they now control Iranian Kurdistan. Our advisors implore you to do an armed intervention, however, a diplomatic solution may yield better results for Iran.\n\nWhat shall we do?"
+  persiaft.3.a:0 "Squash the rebellion!"
+  persiaft.3.b:0 "Work towards a diplomatic solution"
+  persiaft.3.c:0 "Let it go"
+  #News
+ #National Spirits

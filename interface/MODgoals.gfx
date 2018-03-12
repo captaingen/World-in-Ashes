@@ -130,5 +130,12 @@ spriteTypes = {
 		name = "GFX_sefik"
 		texturefile = "gfx/interface/goals/sefik.dds"
 	}
-
+	spriteType = {
+		name = "GFX_focus_PER_flag"
+		textureFile = "gfx/interface/goals/focus_PER_flag.dds"			
+	}	
+	spriteType = {
+		name = "GFX_focus_generic_govt"
+		textureFile = "gfx/interface/goals/focus_generic_govt.dds"			
+	}	
 }
