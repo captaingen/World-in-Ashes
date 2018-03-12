@@ -7,7 +7,7 @@ state=
 	
 	state_category = rural
 	
-	history = {
+	history = GER
 		owner = LIT
 		victory_points = {
 			3288 5
@@ -19,12 +19,8 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = LIT
+		add_core_of = GER
 		
-		1939.3.22 = {
-			owner = GER
-			controller = GER
-		}
 	}
 	provinces={
 		3288 	
