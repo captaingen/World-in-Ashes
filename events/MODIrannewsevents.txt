@@ -1,0 +1,123 @@
+﻿###########################
+# Iranian News Events
+###########################
+
+add_namespace = irannews
+
+#War between Kurds and Iran
+news_event = {
+	id = irannews.0
+	title = irannews.0.t
+	picture = GFX_news_event_057
+	desc = irannews.0.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#They shall be squashed!
+	option = {
+		name = irannews.0.a
+		trigger = {
+			tag = PER
+		}
+	}
+
+	#We shall triumph over the invaders!
+	option = {
+		name = irannews.0.b
+		trigger = {
+			tag = KUR
+		}
+	}
+
+	#Will the Middle East ever stabilize?
+	option = {
+		name = irannews.0.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = PER
+					tag = KUR
+				}
+			}
+		}
+	}
+}
+
+#Iranian Kurdistan Seperates From Iran
+news_event = {
+	id = irannews.1
+	title = irannews.1.t
+	picture = GFX_news_event_canada_patriation
+	desc = irannews.1.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#That land is rightfully ours!
+	option = {
+		name = irannews.1.a
+		trigger = {
+			OR = {
+				tag = PER
+				tag = KUR
+			}
+		}
+	}
+	
+	#Let's hope for a peacefull solution
+	option = {
+		name = irannews.1.b
+		trigger = {
+			NOT = {
+				OR = {
+					tag = PER
+					tag = KUR
+				}
+			}
+		}
+	}
+}
+
+#Iran lets go of Iranian Kurdistan
+news_event = {
+	id = irannews.2
+	title = irannews.2.t
+	picture = GFX_news_event_009
+	desc = irannews.2.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#This was the right move
+	option = {
+		name = irannews.2.a
+		trigger = {
+			tag = PER
+		}
+	}
+
+	#We give our gratitude to Iran
+	option = {
+		name = irannews.2.b
+		trigger = {
+			tag = KUR
+		}
+	}
+
+	#At least there is no war
+	option = {
+		name = irannews.2.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = PER
+					tag = KUR
+				}
+			}
+		}
+	}
+}

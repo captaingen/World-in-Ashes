@@ -167,7 +167,7 @@ country_event = {
 				random_list = {
 					35 = {
 						clr_country_flag = potential_kurdish_uprising
-						#country_event = { days = 15 id = persiaft.3 }
+						country_event = { days = 15 id = persiaft.3 }
 					}
 					65 = {
 					}
@@ -222,7 +222,7 @@ country_event = {
 				random_list = {
 					5 = {
 						clr_country_flag = potential_kurdish_uprising
-						#country_event = { days = 15 id = persiaft.3 }
+						country_event = { days = 15 id = persiaft.3 }
 					}
 					15 = {
 						clr_country_flag = potential_kurdish_uprising
@@ -326,7 +326,7 @@ country_event = {
 			}
 		}
 		add_political_power = 50
-		add_war_support = 0.05
+		add_war_support = 0.15
 		421 = {add_core_of = KUR}
 		421 = {remove_core_of = PER}
 		KUR = { 
@@ -334,6 +334,9 @@ country_event = {
 			load_oob = "KUR_rebellion"
 		}
 		declare_war_on = { target = KUR type = annex_everything }
+		hidden_effect = {
+			news_event = { hours = 6 id = irannews.0 }
+		}
 	}
 	option = { #Work towards a diplomatic solution
 		name = persiaft.3.b
@@ -370,6 +373,9 @@ country_event = {
 		KUR = { 
 			transfer_state = 421
 		}
+		hidden_effect = {
+			news_event = { hours = 6 id = irannews.1 }
+		}
 	}
 	option = { #Let it go
 		name = persiaft.3.c
@@ -382,5 +388,8 @@ country_event = {
 		KUR = { 
 			transfer_state = 421
 		}	
+		hidden_effect = {
+			news_event = { hours = 6 id = irannews.2 }
+		}
 	}
 }
