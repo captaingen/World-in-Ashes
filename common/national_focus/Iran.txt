@@ -45,7 +45,7 @@ focus_tree = {
 	
 	focus = {
 		id = PER_discuss_authority
-		icon = GFX_focus_PER_govt
+		icon = GFX_focus_generic_govt
 		prerequisite = { focus = PER_subdue_iraqis}
 
 		available = {
