@@ -279,7 +279,7 @@ country_event = {
 	id = persiaft.3
 	title = persiaft.3.t
 	desc = persiaft.3.d
-	picture = GFX_report_event_generic_riot
+	picture = GFX_report_event_spain_civil_war_soldiers
 
 	is_triggered_only = yes
 
@@ -288,7 +288,6 @@ country_event = {
 	hidden = no
 
 	trigger = {
-		has_country_flag = kurdish_unrest
 	}
 
 	immediate = {
@@ -316,6 +315,15 @@ country_event = {
 					}
 				}
 			}
+			modifier = {
+				factor = 0
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+			}
 		}
 		add_political_power = 50
 		add_war_support = 0.05
@@ -323,6 +331,7 @@ country_event = {
 		421 = {remove_core_of = PER}
 		KUR = { 
 			transfer_state = 421
+			load_oob = "KUR_rebellion"
 		}
 		declare_war_on = { target = KUR type = annex_everything }
 	}
@@ -360,7 +369,6 @@ country_event = {
 		421 = {remove_core_of = PER}
 		KUR = { 
 			transfer_state = 421
-			load_oob = KUR_rebellion
 		}
 	}
 	option = { #Let it go
