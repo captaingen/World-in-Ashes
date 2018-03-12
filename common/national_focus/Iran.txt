@@ -156,6 +156,7 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {
+			focus = PER_subdue_iraqis
 		}			
 		
 		x = 14

@@ -78,6 +78,7 @@ country_event = {
 			set_country_flag = kurdish_unrest
 			set_country_flag = potential_kurdish_uprising
 			set_country_flag = harsh_punishments
+			complete_national_focus = PER_punishment
 		}
 	}
 	option = { #Give them light sentences
@@ -104,6 +105,7 @@ country_event = {
 		add_political_power = -100
 		hidden_effect = {
 			set_country_flag = light_sentences
+			complete_national_focus = PER_light_sentences
 			random_list = {
 				10 = {
 					set_country_flag = kurdish_unrest
