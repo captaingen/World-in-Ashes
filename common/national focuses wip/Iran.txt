@@ -7,7 +7,6 @@ focus_tree = {
 			tag = PER
 		}
 	}
-	default = yes
 
 	##########Politics##########
 	
