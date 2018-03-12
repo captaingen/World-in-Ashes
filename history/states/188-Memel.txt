@@ -8,7 +8,7 @@ state=
 	state_category = rural
 	
 	history = GER
-		owner = LIT
+		owner = GER
 		victory_points = {
 			3288 5
 		}
