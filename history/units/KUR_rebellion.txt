@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Militia"
+	name = "Kurdish Militia"
 	is_locked = yes
 
 	division_names_group = AUS_INF_01
@@ -17,47 +17,47 @@ units = {
 	division = {
 		name = "1st Erbil Militia"
 		location = 3916
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "2nd Erbil Militia"
 		location = 3916
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "Sulaymaniyah Militia"
 		location = 6826
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_equipment_factor = 0.1
 
 	}
 	division = {
 		name = "Sanandaj Militia"
 		location = 4943
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_equipment_factor = 0.1
 
 	}
 	division = {
 		name = "1st Kermanshah Militia"
 		location = 12773
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_equipment_factor = 0.1
 
 	}
 	division = {
 		name = "2nd Kermanshah Militia"
 		location = 12773
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_equipment_factor = 0.1
 
 	}
 	division = {
 		name = "Khorramabad Militia"
 		location = 5050
-		division_template = "Militia"
+		division_template = "Kurdish Militia"
 		start_equipment_factor = 0.1
 
 	}
