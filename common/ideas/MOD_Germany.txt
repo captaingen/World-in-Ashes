@@ -12,7 +12,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = idea_generic_reserve_divisions
+			picture = generic_reserve_divisions
 			
 			modifier = {
 				army_org_Factor = 0.05
