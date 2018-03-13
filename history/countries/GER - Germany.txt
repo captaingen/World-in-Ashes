@@ -89,11 +89,10 @@ add_to_faction = GER
 
 
 add_ideas = {
-	sour_loser
 	general_staff
 	army_with_a_state
+	german_nationalism
 	limited_exports
-	limited_conscription
 	partial_economic_mobilisation
 }
 
@@ -131,13 +130,24 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = GFX_portrait_ger_wilhelm_iii
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		popular_figurehead2
+	}
+}
+
+create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/wilhelm_ii.tga"
 	expire = "1941.6.4"
 	ideology = despotism
 	traits = {
-		dictator
+		anti_democrat imperial_connections
 	}
 }
 
