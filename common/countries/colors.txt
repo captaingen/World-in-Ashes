@@ -707,3 +707,13 @@ TKM = {
 	color = rgb { 71  91  38 }
 	color_ui = rgb { 71  91  38 }
 }
+
+TAJ = {
+	color = rgb { 114  128  150 }
+	color_ui = rgb { 114  128  150 }
+}
+
+KYR = {
+	color = rgb { 114  150  116 }
+	color_ui = rgb { 114  150  116 }
+}
