@@ -1,7 +1,9 @@
 
 state={
-	id=419
-	name="STATE_419"
+	id=416
+	name="STATE_416"
+	manpower = 1059739
+	state_category = pastoral
 
 	history={
 		owner = PER
@@ -10,16 +12,12 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			1896 3 
+			5029 1 
 		}
 		add_core_of = PER
-
 	}
 
 	provinces={
-		1636 1896 2071 4755 4825 7604 12793 12861 13120 
+		1521 1888 1957 2000 5029 5073 7573 10351 10806 
 	}
-	manpower=1431714
-	buildings_max_level_factor=1.000
-	state_category=town
 }

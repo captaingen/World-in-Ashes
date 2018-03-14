@@ -4,7 +4,7 @@ state={
 	name="STATE_791"
 	manpower = 137797
 	
-	state_category = rural
+	state_category = pastoral
 
 	history={
 		owner = DAM

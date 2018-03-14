@@ -5,7 +5,7 @@ state={
 	manpower = 320000
 
 	
-	state_category = town
+	state_category = rural
 
 	history= {
 		owner = DAM
