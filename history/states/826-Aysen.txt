@@ -1,0 +1,24 @@
+state={
+	id=826
+	name="STATE_826"
+	provinces={
+		2161 5159 8198 10961 
+	}
+	
+	history={
+		owner = CHL
+		victory_points = {
+			2161 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHL
+
+	}
+	
+	manpower=25420
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
