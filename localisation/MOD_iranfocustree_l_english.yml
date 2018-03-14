@@ -33,6 +33,7 @@
   light_sentences:0 "Give the Kurds light sentences"
  #Opinion mods
  #Events
+  #Kurdish Threat
   persiaft.0.t:0 "The Kurdish Threat"
   persiaft.0.d:0 "For centuries, the eastern Kurds have been under the foot of Persia. It is, only now, they cite their want for independence, at such an unstable time in Iranian history. While the changing of the name of Persia to Iran has helped cool tensions in the region, it is uncertain whether the Iranian Kurds will rise up again, like they did on Sept. 16th, 1933. This revolt was squashed on Oct. 14th of the same year, but we cannot risk another revolt.\n\nWhat shall we do with these dissenters?"
   persiaft.0.a:0 "Give them harsh punishments"
@@ -69,6 +70,7 @@
   persiaft.8.d:0 "The Kurds have once again refused our, even fairer, offer. We cannot engage in further diplomacy. We must either abandon Kurdistan all together, or fight the Kurds to get it back."
   persiaft.8.a:0 "This diplomatic process has yielded us nothing!"
   persiaft.8.b:0 "Back down"
+  #Azerbaijani Threat
   #News
    irannews.0.t:0 "War Between Kurds and Iran"
    irannews.0.d:0 "Over the past few months, there have been extreme riots within Iranian Kurdistan. Earlier today, leaders of the Free Kurdistan movement within Iran have proclaimed a rebellion, and the Kurdistan government has acted quickly with this remark, incorperating the large territory into their country.\n\nThe Iranian government has decided to go to war over this. So now, these two countries are at war."
