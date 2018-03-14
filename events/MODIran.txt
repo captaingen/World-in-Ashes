@@ -74,6 +74,7 @@ country_event = {
 		}
 		add_political_power = 150
 		add_stability = 0.05
+		add_war_support = 0.05
 		hidden_effect = {
 			set_country_flag = kurdish_unrest
 			set_country_flag = potential_kurdish_uprising
@@ -111,6 +112,7 @@ country_event = {
 					set_country_flag = kurdish_unrest
 				}
 				90 = {
+					remove_ideas = PER_kurdish_seperatism
 				}
 			}
 		}
@@ -273,6 +275,12 @@ country_event = {
 		name = persiaft.2.a
 		add_political_power = 25
 		add_stability = 0.05
+		if = {
+			limit = {
+				has_idea = PER_kurdish_seperatism
+			}
+			remove_ideas = PER_kurdish_seperatism
+		}
 	}
 }
 
@@ -328,17 +336,21 @@ country_event = {
 			}
 		}
 		add_political_power = 50
-		add_war_support = 0.15
+		add_war_support = 0.05
 		421 = {add_core_of = KUR}
 		421 = {remove_core_of = PER}
 		KUR = { 
 			transfer_state = 421
-			load_oob = "KUR_rebellion"
 		}
+		remove_ideas = PER_kurdish_seperatism
 		declare_war_on = { target = KUR type = annex_everything }
 		hidden_effect = {
 			news_event = { hours = 6 id = irannews.0 }
+			KUR = {
+				load_oob = "KUR_rebellion"
+			}
 		}
+		custom_effect_tooltip = PER_uprising_tooltip
 	}
 	option = { #Work towards a diplomatic solution
 		name = persiaft.3.b
@@ -374,7 +386,9 @@ country_event = {
 		421 = {remove_core_of = PER}
 		KUR = { 
 			transfer_state = 421
+			country_event = { hours = 6 id = persiaft.4 }
 		}
+		remove_ideas = PER_kurdish_seperatism
 		hidden_effect = {
 			news_event = { hours = 6 id = irannews.1 }
 		}
@@ -390,8 +404,423 @@ country_event = {
 		KUR = { 
 			transfer_state = 421
 		}	
+		remove_ideas = PER_kurdish_seperatism
 		hidden_effect = {
 			news_event = { hours = 6 id = irannews.2 }
+		}
+	}
+}
+
+#Iranians Want to Talk
+country_event = {
+	id = persiaft.4
+	title = persiaft.4.t
+	desc = persiaft.4.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Don't Budge
+		name = persiaft.4.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				PER = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				PER = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 4
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				PER = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 5
+					}
+				}
+			}
+		}
+		add_political_power = 50
+		PER = {
+			country_event = { hours = 6 id = persiaft.6 }
+		}
+	}
+	option = { #Agree to the Demands
+		name = persiaft.4.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_political_power > 100
+			}
+			modifier = {
+				factor = 1.5
+				has_political_power > 50
+			}
+			modifier = {
+				factor = 0.75
+				has_political_power < 25
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 0
+			}
+		}
+		add_political_power = -50
+		421 = {add_core_of = PER}
+		421 = {remove_core_of = KUR}
+		add_timed_idea = { idea = KUR_iranian_aid_1 days = 365 }
+		PER = { 
+			transfer_state = 421
+			add_timed_idea = { idea = PER_kurdish_aid_1 days = 365 }
+			country_event = { hours = 6 id = persiaft.5 }
+		}
+	}
+}
+
+#Kurdistan Accepts Our Offer
+country_event = {
+	id = persiaft.5
+	title = persiaft.5.t
+	desc = persiaft.5.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Now we can continue in peace
+		name = persiaft.5.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = 25
+		hidden_effect = {
+			news_event = { hours = 6 id = irannews.5 }
+		}
+	}
+}
+
+#Kurdistan Refuses Our Offer!
+country_event = {
+	id = persiaft.6
+	title = persiaft.6.t
+	desc = persiaft.6.d
+	picture = GFX_report_event_hungary_refused
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Attack!
+		name = persiaft.6.a
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.4
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.2
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+			}
+		}
+		declare_war_on = { target = KUR type = annex_everything }
+		hidden_effect = {
+			KUR = {
+				load_oob = "KUR_rebellion"
+			}
+			news_event = { hours = 6 id = irannews.4 }
+		}
+		custom_effect_tooltip = PER_uprising_tooltip
+	}
+	option = { #Offer another, better, deal
+		name = persiaft.6.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				has_political_power > 100
+			}
+			modifier = {
+				factor = 2
+				has_political_power > 50
+			}
+			modifier = {
+				factor = 0.5
+				has_political_power < 25
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 0
+			}
+			modifier = {
+				factor = 0.5
+				has_stability < 0.45
+			}
+			modifier = {
+				factor = 0.5
+				has_stability < 0.35
+			}
+		}
+		add_political_power = -50
+		KUR = {
+			country_event = { hours = 6 id = persiaft.7 }
+		}
+	}
+	option = { #Let it go
+		name = persiaft.6.c
+		ai_chance = {
+			factor = 0 #AI should never give up, it's just for the player
+		}
+		add_political_power = -100
+		hidden_effect = {
+			news_event = { hours = 6 id = irannews.3 }
+		}
+	}
+}
+
+#The Iranians Sent Another Offer
+country_event = {
+	id = persiaft.7
+	title = persiaft.7.t
+	desc = persiaft.7.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Refuse
+		name = persiaft.7.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				PER = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				PER = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 4
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				PER = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 5
+					}
+				}
+			}
+		}
+		add_political_power = 25
+		PER = {
+			country_event = { hours = 6 id = persiaft.8 }
+		}
+	}
+	option = { #Accept
+		name = persiaft.7.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				has_political_power > 100
+			}
+			modifier = {
+				factor = 2
+				has_political_power > 50
+			}
+			modifier = {
+				factor = 1
+				has_political_power < 25
+			}
+			modifier = {
+				factor = 0.5
+				has_political_power < 0
+			}
+		}
+		add_political_power = -25
+		421 = {add_core_of = PER}
+		421 = {remove_core_of = KUR}
+		add_timed_idea = { idea = KUR_iranian_aid_2 days = 365 }
+		PER = { 
+			transfer_state = 421
+			add_timed_idea = { idea = PER_kurdish_aid_2 days = 365 }
+			country_event = { hours = 6 id = persiaft.5 }
+		}
+	}
+}
+
+#The Kurds Have Refused Again!
+country_event = {
+	id = persiaft.8
+	title = persiaft.8.t
+	desc = persiaft.8.d
+	picture = GFX_report_event_soviet_finnish_pact
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #This Diplomatic Process Has Yielded us Nothing!
+		name = persiaft.8.a
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.4
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.2
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				KUR = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+			}
+		}
+		declare_war_on = { target = KUR type = annex_everything }
+		add_war_support = 0.05
+		hidden_effect = {
+			set_country_flag = dislikes_diplomacy
+			news_event = { hours = 6 id = irannews.4 }
+			KUR = {
+				load_oob = "KUR_rebellion"
+			}
+		}
+		custom_effect_tooltip = PER_uprising_tooltip
+	}
+	option = { #Back Down
+		name = persiaft.8.b
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 3
+				has_political_power > 100
+			}
+			modifier = {
+				factor = 1.5
+				has_political_power > 50
+			}
+			modifier = {
+				factor = 0.25
+				has_political_power < 25
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 0
+			}
+			modifier = {
+				factor = 0.5
+				has_stability < 0.45
+			}
+			modifier = {
+				factor = 0.5
+				has_stability < 0.35
+			}
+		}
+		add_political_power = -150
+		add_stability = -0.05
+		hidden_effect = {
+			news_event = { hours = 6 id = irannews.3 }
 		}
 	}
 }

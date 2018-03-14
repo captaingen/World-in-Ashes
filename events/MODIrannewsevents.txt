@@ -121,3 +121,126 @@ news_event = {
 		}
 	}
 }
+
+#Iran lets go of Iranian Kurdistan; After diplomacy happen
+news_event = {
+	id = irannews.3
+	title = irannews.3.t
+	picture = GFX_news_event_bose_meeting
+	desc = irannews.3.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#That's not the reason why!
+	option = {
+		name = irannews.3.a
+		trigger = {
+			tag = PER
+		}
+	}
+
+	#We give our gratitude to Iran
+	option = {
+		name = irannews.3.b
+		trigger = {
+			tag = KUR
+		}
+	}
+
+	#At least there is no war
+	option = {
+		name = irannews.3.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = PER
+					tag = KUR
+				}
+			}
+		}
+	}
+}
+
+#Iran goes to war after talks break down
+news_event = {
+	id = irannews.4
+	title = irannews.4.t
+	picture = GFX_news_event_057
+	desc = irannews.4.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#That land is ours!
+	option = {
+		name = irannews.4.a
+		trigger = {
+			tag = PER
+		}
+	}
+
+	#This land is ours!
+	option = {
+		name = irannews.4.b
+		trigger = {
+			tag = KUR
+		}
+	}
+
+	#At least there was an attempt...
+	option = {
+		name = irannews.4.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = PER
+					tag = KUR
+				}
+			}
+		}
+	}
+}
+
+#Talks between Iran and Kurds are successful
+news_event = {
+	id = irannews.5
+	title = irannews.5.t
+	picture = GFX_news_event_partition_of_india
+	desc = irannews.5.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#We thank the Kurds for their co-operation
+	option = {
+		name = irannews.5.a
+		trigger = {
+			tag = PER
+		}
+	}
+
+	#We thank the Iranians for their money
+	option = {
+		name = irannews.5.b
+		trigger = {
+			tag = KUR
+		}
+	}
+
+	#Let's hope the rest of the Middle East follows their example
+	option = {
+		name = irannews.5.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = PER
+					tag = KUR
+				}
+			}
+		}
+	}
+}

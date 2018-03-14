@@ -1,0 +1,134 @@
+ideas = {
+	country = {
+		PER_kurdish_aid_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills_payment
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+		}
+		PER_kurdish_aid_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills_payment
+			
+			modifier = {
+				consumer_goods_factor = 0.04
+			}
+		}
+		KUR_iranian_aid_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.5
+			}
+		}
+		KUR_iranian_aid_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills
+			
+			modifier = {
+				consumer_goods_factor = -0.20
+				industrial_capacity_factory = 1
+			}
+		}
+		PER_iraqi_unrest = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		PER_kurdish_seperatism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.05
+			}
+		}
+		PER_azerbaijani_protests = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_volunteer_expedition_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = -0.20
+				conscription_factor = -0.10
+			}
+		}
+	}
+}

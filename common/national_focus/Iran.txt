@@ -40,6 +40,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
+			add_war_support = 0.05
+			remove_ideas = PER_iraqi_unrest
 		}
 	}
 	
@@ -71,6 +73,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+			add_war_support = 0.05
 		}
 	}
 	
@@ -173,6 +176,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = -50
+			add_stability = 0.05
+			remove_ideas = PER_iraqi_unrest
 		}
 	}
 
@@ -204,6 +209,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+			add_stability = 0.05
 		}
 	}
 	
