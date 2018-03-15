@@ -1,0 +1,30 @@
+﻿###########################
+# Generic mod events added in by WIA
+###########################
+
+add_namespace = genericmod
+
+#Unstable Country
+country_event = {
+    id = genericmod.0
+    title = genericmod.0.t
+    desc = genericmod.0.d
+    picture = GFX_report_event_worker_protests
+
+    trigger = {
+		has_political_power < 0
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = genericmod.0.a
+		add_political_power = 10
+		add_stability = -0.01
+    }
+}

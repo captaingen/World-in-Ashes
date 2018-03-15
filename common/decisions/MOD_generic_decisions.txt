@@ -1,0 +1,82 @@
+political_actions = {
+	
+	increase_stability = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_political_power > 250
+		}
+
+		visible = {
+			has_political_power > 0
+			has_stability < 1
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		days_remove = 60
+		days_re_enable = 60
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = 0.01
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.8
+			}
+			modifier = {
+				add = 1
+				has_political_power > 300
+			}
+		}
+	}
+
+	increase_stability_2 = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_political_power > 400
+		}
+
+		visible = {
+			has_political_power > 0
+			has_stability < 0.95
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		days_remove = 60
+		days_re_enable = 60
+
+		cost = 200
+
+		complete_effect = {
+			add_stability = 0.05
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+			}
+			modifier = {
+				add = 1
+				has_political_power > 500
+			}
+		}
+	}
+}
