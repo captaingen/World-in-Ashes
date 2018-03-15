@@ -13,7 +13,6 @@ state={
 		}
 		add_core_of = CHL
 		add_core_of = PRU
-		add_core_of = BOL
 
 	}
 	
