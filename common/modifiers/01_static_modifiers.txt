@@ -25,7 +25,9 @@ war_support_good_modifier = {
 
 war_support_bad_modifier = {
 	mobilization_speed = -0.750 # Reduce mobilization speed by three quarters.
-	army_noncore_attack_factor = -0.50  # Attacking or defending on non-core takes a huge penalty.
-	army_noncore_defence_factor = -0.50
-	command_power_gain_mult = -0.95 
+	army_core_attack_factor = 0.25  # Attacking or defending on non-core takes a huge penalty.
+	army_core_defence_factor = 0.25 #
+	army_defence_factor = -0.25     #
+	army_attack_factor = -0.25      #
+	command_power_gain_mult = -0.95
 }

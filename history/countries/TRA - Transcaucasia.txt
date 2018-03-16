@@ -1,6 +1,8 @@
 ﻿capital = 232
 
 #oob = "SLO_1939"
+set_stability = 0.4
+set_war_support = 0.15
 
 set_technology = {
 	gw_artillery = 1

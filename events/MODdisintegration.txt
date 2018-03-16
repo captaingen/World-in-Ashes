@@ -1,0 +1,30 @@
+﻿###########################
+# Events for Disintegrating countries
+###########################
+
+add_namespace = disintegrate
+
+#Disintegrating Country
+country_event = {
+    id = disintegrate.0
+    title = disintegrate.0.t
+    desc = disintegrate.0.d
+    picture = GFX_report_event_worker_protests
+
+    trigger = {
+		has_idea = disintegrating_country
+    }
+
+    mean_time_to_happen = {
+        days = 20
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = disintegrate.0.a
+		add_political_power = -5
+		add_stability = -0.02
+    }
+}

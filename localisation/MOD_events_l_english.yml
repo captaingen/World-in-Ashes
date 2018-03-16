@@ -530,3 +530,7 @@
  turkey.65.d:0 "Lebanon has rejected to join our faction, their loss!"
  turkey.65.a:0 "What can we do?"
  
+ #Disintegration
+ disintegrate.0.t:0 "Our Country Decends Furthur into Disintegration"
+ disintegrate.0.d:0 "Riots in the streets of every city, nationalistic movements popping up left and right, terrorism all over our country. The country is going to collapse, and there is little we can do to stop it."
+ disintegrate.0.a:0 "Will someone help us?"
