@@ -71,6 +71,17 @@
   persiaft.8.a:0 "This diplomatic process has yielded us nothing!"
   persiaft.8.b:0 "Back down"
   #Azerbaijani Threat
+  persiaft.9.t:0 "The Azerbaijani Threat"
+  persiaft.9.d:0 "The Azerbaijanis have been protesting ever since the Tabriz Massacre occured on November 23rd, 1935. These protests have been relatively non-violent, however their refusal to give us crucial machine tools from their factories is giving the rest of our country headaches. We could increase police presence, or we could let our military do the policing."
+  persiaft.9.a:0 "Send in the Police"
+  persiaft.9.b:0 "Establish a permanant military presence"
+  persiaft.9.c:0 "Establish an extensive military presence"
+  persiaft.10.t:0 "Breakup of the Caucusus"
+  persiaft.10.d:0 "The communist Caucusus nation is breaking apart. We can use this opportunity to take some of their land before rebels secure it for themselves, if we properly prepared."
+  persiaft.10.a:0 "If only we could take advantage of this..."
+  persiaft.10.b:0 "Use this opportunity"
+  persiaft.10.c:0 "Abuse this opportunity"
+  persiaft.10.e:0 "Let this pass"
   #News
    irannews.0.t:0 "War Between Kurds and Iran"
    irannews.0.d:0 "Over the past few months, there have been extreme riots within Iranian Kurdistan. Earlier today, leaders of the Free Kurdistan movement within Iran have proclaimed a rebellion, and the Kurdistan government has acted quickly with this remark, incorperating the large territory into their country.\n\nThe Iranian government has decided to go to war over this. So now, these two countries are at war."

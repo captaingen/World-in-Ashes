@@ -44,6 +44,7 @@ add_namespace = persiaft
 #    }
 #}
 
+######################Kurdish Threat Event Chain######################
 #The Kurdish Threat
 country_event = {
 	id = persiaft.0
@@ -821,6 +822,194 @@ country_event = {
 		add_stability = -0.05
 		hidden_effect = {
 			news_event = { hours = 6 id = irannews.3 }
+		}
+	}
+}
+
+###################Azerbaijani Threat Event Chain######################
+#The Azerbaijani Threat
+country_event = {
+	id = persiaft.9
+	title = persiaft.9.t
+	desc = persiaft.9.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Send in the Police
+		name = persiaft.9.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_stability < 0.5
+			}
+			modifier = {
+				factor = 2
+				has_stability < 0.30
+			}
+		}
+		add_political_power = 50
+		add_stability = 0.05
+		remove_ideas = PER_azerbaijani_protests
+		hidden_effect = {
+			set_country_flag = police_azerbaijan
+		}
+	}
+	option = { #Establish a permanant military presence
+		name = persiaft.9.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 5
+				has_political_power > 200
+			}
+			modifier = {
+				factor = 2
+				has_political_power > 100
+			}
+			modifier = {
+				factor = 0.5
+				has_political_power < 50
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 0
+			}
+			modifier = {
+				factor = 0.5
+				has_war_support < 0.15
+			}
+		}
+		add_political_power = -50
+		add_manpower = -3000
+		remove_ideas = PER_azerbaijani_protests
+		hidden_effect = {
+			set_country_flag = military_azerbaijan
+		}
+	}
+	option = { #Establish an extensive military presence
+		name = persiaft.9.c
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 5
+				has_political_power > 200
+			}
+			modifier = {
+				factor = 2
+				has_political_power > 100
+			}
+			modifier = {
+				factor = 0.5
+				has_political_power < 50
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 0
+			}
+			modifier = {
+				factor = 0.5
+				has_war_support < 0.20
+			}
+		}
+		trigger = {
+			NOT = {
+				has_war_support < 0.05
+			}
+		}
+		add_political_power = -100
+		add_war_support = -0.05
+		add_manpower = -6000
+		remove_ideas = PER_azerbaijani_protests
+		hidden_effect = {
+			set_country_flag = extensive_military_azerbaijan
+		}
+	}
+}
+
+#Breakup of the Caucusus
+country_event = {
+	id = persiaft.10
+	title = persiaft.10.t
+	desc = persiaft.10.d
+	picture = GFX_report_event_german_reichstag_bombed
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #If only we could take advantage of this...
+		name = persiaft.10.a
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_flag = military_azerbaijan
+					has_country_flag = extensive_military_azerbaijan
+				}
+			}
+		}
+	}
+	option = { #Use this opportunity
+		name = persiaft.10.b
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_country_flag = extensive_military_azerbaijan
+			}
+		}
+		trigger = {
+			has_country_flag = military_azerbaijan
+		}
+		add_political_power = 25
+		add_manpower = -100
+		transfer_state = 828
+	}
+	option = { #Abuse this opportunity
+		name = persiaft.10.c
+		ai_chance = {
+			factor = 10
+		}
+		trigger = {
+			has_country_flag = extensive_military_azerbaijan
+		}
+		add_political_power = 50
+		add_manpower = -500
+		transfer_state = 828
+		transfer_state = 229
+	}
+	option = { #Let this pass
+		name = persiaft.10.e
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			OR = {
+				has_country_flag = military_azerbaijan
+				has_country_flag = extensive_military_azerbaijan
+			}
 		}
 	}
 }
