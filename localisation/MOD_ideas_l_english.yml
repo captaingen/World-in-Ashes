@@ -53,3 +53,7 @@
  army_with_a_state_desc:0 "Germany has always been militaristic from its founding in 1870. It's predecessor, Prussia, was named an 'Army with a State.' After the 1848 Revolution shook Germany, it was no question that the military held unresonable power within Germany. This has many positive effects, as the Army is more efficiently led, and can punch far above its weight. However, the toll on the economy could not be understated. Also, if a Kaiser wishes to go against the military, he or she may face a coup."
  german_nationalism:0 "German Nationalism"
  german_nationalism_desc:0 "German Nationalism was what united the Prussians and the rest of Germany into one country. It's influence is still strong, evident in many places around Germany. The Army may have a state, but the Germans make up that army."
+ 
+ #Transcaucasia
+ disintegrating_country:0 "Disintegrating Country"
+ disintegrating_country:0 "Our country is disintegrating before our very eyes. There is little we can do to stop it. We can only delay it for as long as possible."

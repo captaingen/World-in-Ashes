@@ -21,6 +21,10 @@ set_technology = {
 	CAS1 = 1
 }
 
+add_ideas = {
+	disintegrating_country
+}
+
 set_politics = {
 
 	parties = {
