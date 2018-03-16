@@ -406,7 +406,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 25
+			country_event = { hours = 3 id = persiaft.9 }
 		}
 	}
 
