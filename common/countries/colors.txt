@@ -717,3 +717,13 @@ KYR = {
 	color = rgb { 114  150  116 }
 	color_ui = rgb { 114  150  116 }
 }
+
+TLE = {
+	color = rgb { 94  129  186 }
+	color_ui = rgb { 94  129  186 }
+}
+
+ALG = {
+	color = rgb { 188  201  114 }
+	color_ui = rgb { 188  201  114 }
+}
