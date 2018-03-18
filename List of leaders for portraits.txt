@@ -1,0 +1,8 @@
+Germany:
+	Wilhelm II 
+	Wilhelm III
+	Konrad Adenauer
+	Wilhelm Pieck
+
+
+	
