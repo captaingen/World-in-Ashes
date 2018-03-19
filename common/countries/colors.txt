@@ -727,3 +727,23 @@ ALG = {
 	color = rgb { 188  201  114 }
 	color_ui = rgb { 188  201  114 }
 }
+
+MAU = {
+	color = rgb { 242  202  94 }
+	color_ui = rgb { 242  202  94 }
+}
+
+NIG = {
+	color = rgb { 165  148  101 }
+	color_ui = rgb { 165  148  101 }
+}
+
+NGR = {
+	color = rgb { 206  164  47 }
+	color_ui = rgb { 206  164  47 }
+}
+
+GUI = {
+	color = rgb { 169  178  133 }
+	color_ui = rgb { 169  178  133 }
+}
