@@ -1,4 +1,4 @@
-﻿capital = 745
+﻿capital = 272
 
 #oob = "LEB_1936"
 
