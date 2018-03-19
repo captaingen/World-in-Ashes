@@ -84,7 +84,7 @@ set_politics = {
 
 }
 
-create_faction = Central_Powers
+create_faction = north_sea_pact
 add_to_faction = GER
 add_to_faction = DEN
 
