@@ -1,0 +1,25 @@
+
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		1975 2056 5101 
+	}
+	
+	history={
+		owner = NGR
+		add_core_of = NGR
+		victory_points = {
+			2056 5
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	manpower=805000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,11 +1,14 @@
 
 state={
-	id=515
-	name="STATE_515"
+	id=836
+	name="STATE_836"
 
 	history={
 		owner = NGR
 		add_core_of = NGR
+		victory_points = {
+			8028 2
+		}
 		buildings = {
 			infrastructure = 1
 
@@ -14,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1956 2068 4902 4913 5136 7939 8128 10893 10917 
+		8028 10758 10780 10805 13138 
 	}
-	manpower=382744
+	manpower=1100360
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }
