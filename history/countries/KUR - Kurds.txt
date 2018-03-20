@@ -64,13 +64,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Khalid Bakdash"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_communism1.dds"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
