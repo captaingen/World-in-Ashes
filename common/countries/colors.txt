@@ -752,3 +752,8 @@ CAF = {
 	color = rgb { 117  90  58 }
 	color_ui = rgb { 117  90  58 }
 }
+
+MLI = {
+	color = rgb { 125  165  145 }
+	color_ui = rgb { 125  165  145 }
+}
