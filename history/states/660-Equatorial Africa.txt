@@ -7,10 +7,12 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = CAF
+		add_core_of = CAF
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
+			
 		}
 
 	}
@@ -20,5 +22,5 @@ state={
 	}
 	manpower=2572456
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

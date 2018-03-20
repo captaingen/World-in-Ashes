@@ -747,3 +747,8 @@ GUI = {
 	color = rgb { 169  178  133 }
 	color_ui = rgb { 169  178  133 }
 }
+
+CAF = {
+	color = rgb { 117  90  58 }
+	color_ui = rgb { 117  90  58 }
+}
