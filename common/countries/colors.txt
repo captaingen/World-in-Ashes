@@ -729,8 +729,8 @@ ALG = {
 }
 
 MAU = {
-	color = rgb { 242  202  94 }
-	color_ui = rgb { 242  202  94 }
+	color = rgb { 112  150  40 }
+	color_ui = rgb { 112  150  40 }
 }
 
 NIG = {
@@ -756,4 +756,9 @@ CAF = {
 MLI = {
 	color = rgb { 125  165  145 }
 	color_ui = rgb { 125  165  145 }
+}
+
+BUR = {
+	color = rgb { 60  150  40 }
+	color_ui = rgb { 60  150  40 }
 }
