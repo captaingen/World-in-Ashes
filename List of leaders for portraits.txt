@@ -5,29 +5,29 @@ Germany:
 	Wilhelm Pieck
 
 Turkey:
-	Mustafa Kemal Atatürk #Leader
-	Sefik Hüsnü
-	Abdulmejid II
+	Mustafa Kemal Atatürk #Leader (priority)
+	Sefik Hüsnü (priority)
+	Abdulmejid II (priority)
 
 Scotland:
-	Walter Elliot #Leader
+	Walter Elliot #Leader (priority)
 	Arthur Henderson
 	Archibald Maule Ramsay
 	Harry Pollitt
 
 Poland:
-	Ignacy Mościcki
+	Ignacy Mościcki (priority)
 	Władysław Gomułka
 	Wincenty Witos
 	Bolesław Piasecki
 
 Karelia:
 	Arvo Manner
-	Alexander Frederick #leader
+	Alexander Frederick #leader (priority) [COMPLETED]
 
 Finland:
 	Risto Heikki Ryti
-	Aimo Aaltonen
+	Aimo Aaltonen (priority)
 	Vilho Annala
 	Wolfgang of Hesse (priority)
 	Frederick Charles #leader (priority)
@@ -39,7 +39,7 @@ Denmark:
 	Christian X #leader (priority)
 
 Baltic Union:
-	Konstantin Päts #leader
+	Konstantin Päts #leader (priority)
 
 Wales:
 	Charles Green
@@ -54,7 +54,7 @@ Czechoslovakia:
 	Vojtěch Luža
 	
 Lebanon:
-	Émile Eddé #Leader
+	Émile Eddé #Leader (priority)
 	Pierre Gemayel
 	Alfred Naqqash
 	Khalid Bakdash #still not fully decided
@@ -72,7 +72,7 @@ Alawites:
 Egypt:
 	Mostafa El-Nahas
 	Farouk Muhammad Ali
-	King Farouk I #leader
+	King Farouk I #leader (priority)
 	Hosni al-Arabi
 
 Jabal al druze:
