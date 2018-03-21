@@ -1,0 +1,178 @@
+﻿###########################
+# Startup Events
+###########################
+
+add_namespace = wia
+
+
+###########################
+#INTRODUCTION EVENTS
+###########################
+
+#Welcome to the mod!
+country_event = {
+    id = wia.0
+    title = wia.0.t
+    desc = wia.0.d
+    picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+	
+    option = { #Our beloved Developer team!
+        name = wia.0.a
+		country_event = { id = wia.1 }
+    }
+	option = { #Q&A
+        name = wia.0.b
+		country_event = { id = wia.2 }
+    }
+	option = { # I don't need your pesky help!
+        name = wia.0.c
+    }
+}
+
+#Our dev team
+country_event = {
+    id = wia.1
+    title = wia.1.t
+    desc = wia.1.d
+    picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+	
+    option = { #Captain Gen
+        name = wia.1.a
+		country_event = { id = wia.4 }
+    }
+	option = { #Kstar234
+        name = wia.1.b
+		country_event = { id = wia.5 }
+    }
+	option = { #Strategy Gamer
+        name = wia.1.c
+		country_event = { id = wia.6 }
+    }
+	option = { #Nicolas Eskubi
+		name = wia.1.e
+		country_event = { id = wia.7 }
+    }
+	option = { #return to menu
+		name = wia.1.f
+		country_event = { id = wia.0 }
+    }
+}
+
+#Q&A  [UNFINISHED
+country_event = {
+    id = wia.2
+    title = wia.2.t
+    desc = wia.2.d
+    picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+	
+    option = { #question1
+        name = wia.2.a
+    }
+	option = { #question2
+        name = wia.2.b
+    }
+	option = { #question, etc.
+        name = wia.2.c
+    }
+	option = { #return to the main screen
+		name = wia.2.e
+		country_event = { id = wia.0 }
+    }
+	option = { #leave me alone!
+        name = wia.2.f
+    }
+}
+
+#Captain Gen
+country_event = {
+    id = wia.4
+    title = wia.4.t
+    desc = wia.4.d
+    picture = GFX_captain_gen
+
+	is_triggered_only = yes
+	
+    option = { #Go back to main screen
+        name = wia.4.a
+		country_event = { id = wia.0 }
+    }
+	option = { #back to dev screen
+        name = wia.4.b
+		country_event = { id = wia.1 }
+    }
+	option = { #leave me alone!
+        name = wia.4.c
+    }
+}
+
+#Kstar
+country_event = {
+    id = wia.5
+    title = wia.5.t
+    desc = wia.5.d
+    picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+	
+    option = { #Go back to main screen
+        name = wia.5.a
+		country_event = { id = wia.0 }
+    }
+	option = { #back to dev screen
+        name = wia.5.b
+		country_event = { id = wia.1 }
+    }
+	option = { #leave me alone!
+        name = wia.5.c
+    }
+}
+
+#strat gamer
+country_event = {
+    id = wia.6
+    title = wia.6.t
+    desc = wia.6.d
+    picture = GFX_strat
+
+	is_triggered_only = yes
+	
+    option = { #Go back to main screen
+        name = wia.6.a
+		country_event = { id = wia.0 }
+    }
+	option = { #back to dev screen
+        name = wia.6.b
+		country_event = { id = wia.1 }
+    }
+	option = { #leave me alone!
+        name = wia.6.c
+    }
+}
+
+#nicolas eskubi
+country_event = {
+    id = wia.7
+    title = wia.7.t
+    desc = wia.7.d
+    picture = GFX_eskubi
+
+	is_triggered_only = yes
+	
+    option = { #Go back to main screen
+        name = wia.7.a
+		country_event = { id = wia.0 }
+    }
+	option = { #back to dev screen
+        name = wia.7.b
+		country_event = { id = wia.1 }
+    }
+	option = { #leave me alone!
+        name = wia.7.c
+    }
+}

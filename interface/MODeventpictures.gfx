@@ -24,6 +24,18 @@ spriteTypes = {
 		name = "GFX_report_event_syrian_crossover"
 		texturefile = "gfx/event_pictures/report_event_syrian_crossover.dds"
 	}
+	spriteType = {
+		name = "GFX_eskubi"
+		texturefile = "gfx/event_pictures/eskubi.dds"
+	}
+	spriteType = {
+		name = "GFX_captain_gen"
+		texturefile = "gfx/event_pictures/captain_gen.dds"
+	}
+	spriteType = {
+		name = "GFX_strat"
+		texturefile = "gfx/event_pictures/strat.dds"
+	}
 }
 	#### END DoD EVENTS ####
 	
