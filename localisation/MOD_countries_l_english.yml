@@ -574,6 +574,28 @@
  CAF_democratic_ADJ:0 "Central African"
  CAF_neutrality_ADJ:0 "Central African"
  CAF_communism_ADJ:0 "Central African"
+ MLI_democratic:0 "Mali"
+ MLI_democratic_DEF:0 "Mali"
+ MLI_communism:0 "Malian Commune"
+ MLI_communism_DEF:0 "The Malian Commune"
+ MLI_fascism:0 "Malian Empire"
+ MLI_fascism_DEF:0 "The Malian Empire"
+ MLI_neutrality:0 "Tribal Mali"
+ MLI_neutrality_DEF:0 "Tribal Mali"
+ MLI_fascism_ADJ:0 "Malian"
+ MLI_democratic_ADJ:0 "Malian"
+ MLI_neutrality_ADJ:0 "Malian"
+ MLI_communism_ADJ:0 "Malian"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
