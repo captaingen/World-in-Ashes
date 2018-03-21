@@ -31,7 +31,7 @@ country_event = {
     }
 }
 
-#Our dev team
+#Our dev team [INCOMPLETE]
 country_event = {
     id = wia.1
     title = wia.1.t
