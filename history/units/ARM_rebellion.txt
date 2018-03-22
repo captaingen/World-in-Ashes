@@ -1,0 +1,93 @@
+﻿division_template = {
+	name = "Militia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Conscripts"
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	#Militia Units
+	division = {
+		name = "1st Yerevan Militia"
+		location = 12320
+		division_template = "Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Yerevan Militia"
+		location = 12320
+		division_template = "Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Yerevan Militia"
+		location = 12320
+		division_template = "Militia"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Countryside Militia"
+		location = 11704
+		division_template = "Militia"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Mountain Militia"
+		location = 12380
+		division_template = "Militia"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Conscripts"
+		location = 12441
+		division_template = "Conscripts"
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Conscripts"
+		location = 11708
+		division_template = "Conscripts"
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Conscripts"
+		location = 11674
+		division_template = "Conscripts"
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Conscripts"
+		location = 1539
+		division_template = "Conscripts"
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Conscripts"
+		location = 1610
+		division_template = "Conscripts"
+		start_experience_factor = 0.0
+
+	}
+}
