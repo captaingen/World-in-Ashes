@@ -28,3 +28,115 @@ country_event = {
 		add_stability = -0.02
     }
 }
+
+#Georgia Declares Independence! #Transcaucasia#
+country_event = {
+    id = disintegrate.1
+    title = disintegrate.1.t
+    desc = disintegrate.1.d
+    picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+	
+    trigger = {
+		has_idea = disintegrating_country
+		tag = TRA
+		has_stability < 0.3
+    }
+
+    mean_time_to_happen = {
+        days = 60
+    }
+
+    immediate = {
+    }
+
+    option = { #Try to stabilize our country! Not destabilize it!
+        name = disintegrate.1.a
+		add_political_power = -5
+		add_stability = 0.05
+		GEO = { 
+			transfer_state = 233
+			transfer_state = 231
+		}
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			GEO = {
+				load_oob = "GEO_rebellion"
+			}
+		}
+    }
+
+    option = { #To War!
+        name = disintegrate.1.b
+		add_political_power = -50
+		add_stability = 0.10
+		add_war_support = 0.05
+		GEO = { 
+			transfer_state = 233
+			transfer_state = 231
+		}
+		declare_war_on = { target = GEO type = annex_everything }
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			GEO = {
+				load_oob = "GEO_rebellion"
+			}
+		}
+    }
+}
+
+#Armenia Declares Independence! #Transcaucasia#
+country_event = {
+    id = disintegrate.2
+    title = disintegrate.2.t
+    desc = disintegrate.2.d
+    picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+
+    trigger = {
+		has_idea = disintegrating_country
+		tag = TRA
+		has_stability < 0.2
+    }
+
+    mean_time_to_happen = {
+        days = 60
+    }
+
+    immediate = {
+    }
+
+    option = { #Try to stabilize our country! Not destabilize it!
+        name = disintegrate.2.a
+		add_political_power = -5
+		add_stability = 0.05
+		ARM = { 
+			transfer_state = 230
+		}
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			ARM = {
+				load_oob = "ARM_rebellion"
+			}
+		}
+    }
+
+    option = { #To War!
+        name = disintegrate.2.b
+		add_political_power = -50
+		add_stability = 0.05
+		add_war_support = 0.05
+		ARM = { 
+			transfer_state = 230
+		}
+		declare_war_on = { target = GEO type = annex_everything }
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			ARM = {
+				load_oob = "ARM_rebellion"
+			}
+		}
+    }
+}

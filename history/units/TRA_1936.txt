@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Cavalry"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	#Infantry Units
+	division = {
+		name = "1st Infantry"
+		location = 3734
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Infantry"
+		location = 3720
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Infantry"
+		location = 3672
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "4th Infantry"
+		location = 7661
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "5th Infantry"
+		location = 12320
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "6th Infantry"
+		location = 1599
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "7th Infantry"
+		location = 3653
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+
+	}
+	#Cavalry Units
+	division = {
+		name = "1st Cavalry"
+		location = 12434
+		division_template = "Cavalry"
+		start_experience_factor = 0.5
+
+	}
+	division = {
+		name = "2nd Cavalry"
+		location = 719
+		division_template = "Cavalry"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "3rd Cavalry"
+		location = 3672
+		division_template = "Cavalry"
+		start_experience_factor = 0.5
+	}
+}
