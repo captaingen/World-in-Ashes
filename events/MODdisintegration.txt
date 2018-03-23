@@ -197,3 +197,55 @@ country_event = {
 		}
     }
 }
+
+##################PEACE DEALS###################
+
+#Transcaucasia needs peace deal with georgia
+country_event = {
+    id = disintegrate.4
+    title = disintegrate.4.t
+    desc = disintegrate.4.d
+    picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+
+    trigger = {
+		tag = TRA
+		has_stability < 0.2
+		OR = {
+			GEO = { controls_state = 234 }
+			GEO = { controls_state = 232 }
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    immediate = {
+    }
+
+    option = { #Send them a proposal for a white peace
+        name = disintegrate.4.a
+		add_political_power = -20
+		add_stability = 0.05
+		GEO = { 
+			country_event = { days = 1 id = geo.0 }
+		}
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			set_country_flag = tra_white_peace_proposal_geo
+		}
+    }
+
+    option = { #Continue War!
+        name = disintegrate.4.b
+		add_political_power = -50
+		add_stability = 0.05
+		add_war_support = 0.15
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			set_country_flag = tra_continue_war_geo
+		}
+    }
+}

@@ -1,0 +1,55 @@
+﻿###########################
+# Georgian Events
+###########################
+
+add_namespace = geo
+
+#Transcaucasian send peace offering
+country_event = {
+	id = geo.0
+	title = geo.0.t
+	desc = geo.0.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Accept
+		name = geo.0.a
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.1
+				AND = {
+					controls_state = 234
+					controls_state = 232
+				}
+			}
+		}
+		add_political_power = 100
+		add_stability = 0.1
+		add_war_support = -0.05
+		white_peace = TRA
+		hidden_effect = {
+			set_country_flag = white_peace_tra
+		}
+	}
+	option = { #Refuse
+		name = tra.0.b
+		ai_chance = {
+			factor = 20
+		}
+		add_political_power = -100
+		add_stability = -0.05
+		add_war_support = 0.1
+	}
+}

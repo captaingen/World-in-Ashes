@@ -542,3 +542,25 @@
  disintegrate.2.d:0 "Yesterday, the leading Armenian Nationalist movement, the Independence for Armenia movement, declared to Armenia to rise up against us. Right now, our country is extremely unstable, so it would be unwise to fight this rebellion. What shall we do?"
  disintegrate.2.a:0 "Try to stabilize our country! Not destabilize it!"
  disintegrate.2.b:0 "To War!"
+ disintegrate.3.t:0 "Azerbaijan Declares Independence"
+ disintegrate.3.d:0 "Yesterday, the leading Azerbaijani Nationalist movement, the Independence for Azerbaijan movement, declared to Azerbaijan to rise up against us. Right now, our country is extremely unstable, so it would be unwise to fight this rebellion. What shall we do?"
+ disintegrate.3.a:0 "Try to stabilize our country! Not destabilize it!"
+ disintegrate.3.b:0 "To War!"
+ disintegrate.4.t:0 "Proposal of white peace..."
+ disintegrate.4.d:0 "Approximately 2 weeks ago, the georgians marched into our major cities and gained control over a vast majority of our land. To survive all we can do is propose to end the war in white peace. Will we do it?"
+ disintegrate.4.a:0 "Send them the proposal!"
+ disintegrate.4.b:0 "We must fight on..."
+
+ 
+ 
+ #Georgia
+ geo.0.t:0 "Transcaucasia sends peace proposal"
+ geo.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?
+ geo.0.a:0 "We must accept!"
+ geo.0.b:0 "We must fight on..."
+ 
+ 
+ 
+ 
+ 
+ 
