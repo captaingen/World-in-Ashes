@@ -864,6 +864,7 @@ country_event = {
 		remove_ideas = PER_azerbaijani_protests
 		hidden_effect = {
 			set_country_flag = police_azerbaijan
+			country_event = { days = 21 id = persiaft.10 }
 		}
 	}
 	option = { #Establish a permanant military presence
@@ -896,6 +897,7 @@ country_event = {
 		remove_ideas = PER_azerbaijani_protests
 		hidden_effect = {
 			set_country_flag = military_azerbaijan
+			country_event = { days = 30 id = persiaft.10 }
 		}
 	}
 	option = { #Establish an extensive military presence
@@ -934,6 +936,7 @@ country_event = {
 		remove_ideas = PER_azerbaijani_protests
 		hidden_effect = {
 			set_country_flag = extensive_military_azerbaijan
+			country_event = { days = 40 id = persiaft.10 }
 		}
 	}
 }
@@ -981,7 +984,10 @@ country_event = {
 			}
 		}
 		trigger = {
-			has_country_flag = military_azerbaijan
+			OR = {
+				has_country_flag = military_azerbaijan
+				has_country_flag = extensive_military_azerbaijan
+			}
 		}
 		add_political_power = 25
 		add_manpower = -100
