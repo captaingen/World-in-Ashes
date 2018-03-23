@@ -266,7 +266,6 @@ country_event = {
 			has_country_flag = tra_white_peace_proposal_geo
 			has_country_flag = tra_continue_war_geo
 		}
-		}
     }
 
     mean_time_to_happen = {
@@ -297,6 +296,57 @@ country_event = {
 		hidden_effect = {
 			#news_event = { hours = 6 id = irannews.0 }
 			set_country_flag = tra_continue_war_arm
+		}
+    }
+}
+
+#Transcaucasia needs peace deal with azerbaijan
+country_event = {
+    id = disintegrate.6
+    title = disintegrate.6.t
+    desc = disintegrate.6.d
+    picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+
+    trigger = {
+		tag = TRA
+		has_stability < 0.2
+		country_exists = AZR
+		OR = {
+			has_country_flag = tra_white_peace_proposal_geo
+			has_country_flag = tra_continue_war_geo
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 5
+    }
+
+    immediate = {
+    }
+
+    option = { #Send them a proposal for a white peace
+        name = disintegrate.6.a
+		add_political_power = -20
+		add_stability = 0.05
+		AZR = { 
+			country_event = { days = 1 id = azr.0 }
+		}
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			set_country_flag = tra_white_peace_proposal_azr
+		}
+    }
+
+    option = { #Continue War!
+        name = disintegrate.6.b
+		add_political_power = -50
+		add_stability = 0.05
+		add_war_support = 0.15
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			set_country_flag = tra_continue_war_azr
 		}
     }
 }
