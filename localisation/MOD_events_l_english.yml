@@ -550,6 +550,10 @@
  disintegrate.4.d:0 "Approximately 2 weeks ago, the georgians marched into our major cities and gained control over a vast majority of our land. To survive all we can do is propose to end the war in white peace. Will we do it?"
  disintegrate.4.a:0 "Send them the proposal!"
  disintegrate.4.b:0 "We must fight on..."
+ disintegrate.5.t:0 "Propose white peace..."
+ disintegrate.5.d:0 "The Armenians are at war with us but the georgians are in the way and continuing the war is seemingless. We need to propose a white peace. We are too weak to attack them."
+ disintegrate.5.a:0 "Send them the proposal!"
+ disintegrate.5.b:0 "We must fight on..."
 
  
  
@@ -559,7 +563,11 @@
  geo.0.a:0 "We must accept!"
  geo.0.b:0 "We must fight on..."
  
- 
+ #Armenia
+ armenia.0.t:0 "Transcaucasia sends peace proposal"
+ armenia.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?
+ armenia.0.a:0 "We must accept!"
+ armenia.0.b:0 "We must fight on..."
  
  
  
