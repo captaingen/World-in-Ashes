@@ -1,0 +1,11 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_fuel_0_medium"
+		texturefile = "gfx/interface/fuel_0.png"
+	}
+
+	SpriteType = {
+		name = "GFX_fuel_0"
+		texturefile = "gfx/interface/fuel_0.png"
+		}
