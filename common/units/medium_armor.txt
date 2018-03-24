@@ -25,8 +25,10 @@ sub_units = {
 		need = {
 			medium_tank_equipment = 50
 			fuel_eq = 50
+			infantry_equipment = 200
+			light_ammo_eq = 200
 		}
-		manpower = 500
+		manpower = 200
 		max_organisation = 10
 		max_strength = 2
 		default_morale = 0.3

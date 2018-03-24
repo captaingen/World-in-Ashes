@@ -41,7 +41,8 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 1100
+			light_ammo_eq = 1100
 		}
 	}
 
@@ -83,7 +84,8 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 1100
+			light_ammo_eq = 1100
 			support_equipment = 10			
 		}
 
@@ -156,7 +158,8 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 150
+			infantry_equipment = 1500
+			light_ammo_eq = 1500
 		}
 
 		marsh = {
@@ -211,7 +214,8 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 140
+			infantry_equipment = 1400
+			light_ammo_eq = 1400
 		}
 
 		hills = {
@@ -266,7 +270,8 @@ sub_units = {
 		can_be_parachuted = yes
 	
 		need = {
-			infantry_equipment = 130
+			infantry_equipment = 1300
+			light_ammo_eq = 1300
 		}
 	}
 
@@ -308,7 +313,8 @@ sub_units = {
 		transport = motorized_equipment
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 1100
+			light_ammo_eq = 1100
 			motorized_equipment = 50
 			fuel_eq = 50
 		}
@@ -390,8 +396,9 @@ sub_units = {
 
 		need = {
 			mechanized_equipment = 50
-			infantry_equipment = 100
-			fuel_eq = 50
+			infantry_equipment = 1100
+			light_ammo_eq = 1100
+			fuel_eq = 75
 		}
 
 		forest = {

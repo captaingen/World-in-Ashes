@@ -30,4 +30,36 @@ equipments = {
 		priority = 30	
 		visual_level = 0		
 	}
+	
+	light_ammo_eq = {
+		year = 1918
+
+		is_archetype = yes
+		picture = light_ammo_0		
+		is_buildable = no
+		type = {
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.1
+
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.1
+		resources = {
+			steel = 1
+		}
+	}
+
+	light_ammo_0 = {
+		archetype = light_ammo_eq
+		active = yes
+		priority = 30	
+		visual_level = 0		
+	}
 }

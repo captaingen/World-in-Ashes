@@ -4,3 +4,8 @@
   fuel_0:0 "Fuel"
   fuel:0 "Fuel"
   fuel_0_desc:0 "Fuel for trucks and tanks"
+  light_ammo_eq:0 "Ammo Magazine "
+  light_ammo_eq_desc:0 "Light Ammo Mag for the rifles"
+  light_ammo_0:0 "Ammo Magazine"
+  light_ammo:0 "Ammo Magazine"
+  light_ammo_0_desc:0 "Light Ammo Mag for the rifles"
