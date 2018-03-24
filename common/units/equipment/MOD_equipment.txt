@@ -1,0 +1,33 @@
+equipments = {
+	fuel_eq = {
+		year = 1918
+
+		is_archetype = yes
+		picture = fuel_0		
+		is_buildable = no
+		type = {
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.1
+
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.3
+		resources = {
+			oil = 2
+		}
+	}
+
+	fuel_0 = {
+		archetype = fuel_eq
+		active = yes
+		priority = 30	
+		visual_level = 0		
+	}
+}
