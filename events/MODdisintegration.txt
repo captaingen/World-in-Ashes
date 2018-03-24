@@ -335,7 +335,6 @@ country_event = {
 		}
 		hidden_effect = {
 			#news_event = { hours = 6 id = irannews.0 }
-			set_country_flag = tra_white_peace_proposal_azr
 		}
     }
 
@@ -347,6 +346,46 @@ country_event = {
 		hidden_effect = {
 			#news_event = { hours = 6 id = irannews.0 }
 			set_country_flag = tra_continue_war_azr
+		}
+    }
+}
+
+#Transcaucasia not in disintegration anymore
+country_event = {
+    id = disintegrate.7
+    title = disintegrate.7.t
+    desc = disintegrate.7.d
+    picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+
+    trigger = {
+		tag = TRA
+		country_exists = GEO
+		country_exists = ARM
+		AND = {
+			has_country_flag = tra_white_peace_proposal_geo
+			has_country_flag = tra_white_peace_proposal_arm
+			has_country_flag = tra_white_peace_proposal_azr
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+
+    immediate = {
+    }
+
+    option = { #We finally are free of this
+        name = disintegrate.7.a
+		remove_ideas = disintegrating_country
+		#TRA = { 
+		#	country_event = { days = 1 id = tra.0 }
+		#}
+		hidden_effect = {
+			#news_event = { hours = 6 id = irannews.0 }
+			set_country_flag = tra_end_disintegration
 		}
     }
 }

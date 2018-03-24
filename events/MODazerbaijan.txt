@@ -34,6 +34,9 @@ country_event = {
 		white_peace = TRA
 		hidden_effect = {
 			set_country_flag = azr_white_peace_tra
+			TRA = { 
+				set_country_flag = tra_white_peace_proposal_azr
+			}
 		}
 	}
 	option = { #Refuse
