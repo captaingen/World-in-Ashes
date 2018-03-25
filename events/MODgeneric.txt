@@ -16,7 +16,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 10
+        days = 20
     }
 
     immediate = {
@@ -24,7 +24,37 @@ country_event = {
 
     option = {
         name = genericmod.0.a
+		trigger = {
+			has_political_power < 0
+			has_political_power > -20
+		}
 		add_political_power = 10
 		add_stability = -0.01
+    }
+    option = {
+        name = genericmod.0.a
+		trigger = {
+			has_political_power < -19.99
+			has_political_power > -50
+		}
+		add_political_power = 20
+		add_stability = -0.02
+    }
+    option = {
+        name = genericmod.0.a
+		trigger = {
+			has_political_power < -49.99
+			has_political_power > -100
+		}
+		add_political_power = 50
+		add_stability = -0.05
+    }
+    option = {
+        name = genericmod.0.a
+		trigger = {
+			has_political_power < -99.99
+		}
+		add_political_power = 100
+		add_stability = -0.10
     }
 }
