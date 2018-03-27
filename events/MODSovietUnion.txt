@@ -1,0 +1,28 @@
+﻿###########################
+# Soviet Events
+###########################
+
+add_namespace = soviet
+
+#TEST EVENT
+country_event = {
+    id = soviet.0
+    title = soviet.0.t
+    desc = soviet.0.d
+    picture = GFX_report_event_worker_protests
+
+    trigger = {
+		has_political_power < 0
+    }
+
+    mean_time_to_happen = {
+        days = 20
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = soviet.0.a
+    }
+}

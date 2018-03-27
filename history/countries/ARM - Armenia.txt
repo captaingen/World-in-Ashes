@@ -1,6 +1,6 @@
-﻿capital = 231 #Tbilisi
+﻿capital = 230 #Yerevan, Armenia
 
-oob = "GEO_1936"
+oob = "AZR_1936"
 
 set_research_slots = 3
 
@@ -40,13 +40,17 @@ set_technology = {
 set_politics = {
 
 	parties = {
+		fascism = { 
+			popularity = 34
+		}	
+	
 		democratic = { 
-			popularity = 55
+			popularity = 30
 		}
 		
 		communism = {
-			popularity = 45
-		}
+			popularity = 36
+		}	
 	}
 	ruling_party = democratic
 	last_election = "1937.7.1"
@@ -55,20 +59,31 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Noe Zhordania"
+	name = "Drastamat Kanayan"
 	desc = ""
-	picture = "gfx/leaders/GEO/noe.tga"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = liberalism
+	ideology = fascism_ideology
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Kandid Charkviani"
+	name = "Avetik Hovhannesi Sahakian"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	picture = "gfx/leaders/ARM/avetik.tga"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Grigor Harutyunyan"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
@@ -76,7 +91,15 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything else, the commies simply forced everyone else into exile
-
+create_country_leader = {
+	name = "Avetis Aharonian"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
 
 

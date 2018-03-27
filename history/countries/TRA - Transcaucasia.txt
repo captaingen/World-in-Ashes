@@ -48,3 +48,25 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Akaki Chkhenkeli"
+	desc = ""
+	picture = "gfx/leaders/TRA/akaki.tga"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Josef Stalin"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

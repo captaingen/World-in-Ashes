@@ -384,6 +384,9 @@ country_event = {
 		#	country_event = { days = 1 id = tra.0 }
 		#}
 		hidden_effect = {
+			RUS = { 
+				country_event = { days = 1 id = russia.0 }
+			}
 			#news_event = { hours = 6 id = irannews.0 }
 			set_country_flag = tra_end_disintegration
 		}
