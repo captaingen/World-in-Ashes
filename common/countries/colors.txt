@@ -762,3 +762,13 @@ BUR = {
 	color = rgb { 60  150  40 }
 	color_ui = rgb { 60  150  40 }
 }
+
+SPK = {
+	color = rgb { 106 96 64 }
+	color_ui = rgb { 106 96 64 }
+}
+
+SPA = {
+	color = rgb { 188 145 94 }
+	color_ui = rgb { 188 145 94 }
+}
