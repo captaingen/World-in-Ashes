@@ -26,29 +26,28 @@ country_event = {
 	immediate = {
 	}
 
-	option = { #Accept
+	option = { #Try to take land
 		name = russia.0.a
 		ai_chance = {
-			factor = 25
+			factor = 50
 		}
-		add_political_power = 100
-		add_stability = 0.1
-		add_war_support = -0.05
-		white_peace = TRA
-		hidden_effect = {
-			set_country_flag = arm_white_peace_tra
-			TRA = { 
-				set_country_flag = tra_white_peace_proposal_arm
+		add_political_power = -100
+		add_stability = -0.02
+		add_war_support = -0.01
+		TRA = { 
+				country_event = { days = 1 id = disintegrate.8 }
 			}
+		hidden_effect = {
+			
 		}
 	}
-	option = { #Refuse
+	option = { #Leave them alone
 		name = russia.0.b
 		ai_chance = {
 			factor = 5
 		}
-		add_political_power = -100
-		add_stability = -0.05
-		add_war_support = 0.1
+		add_political_power = 50
+		add_stability = 0.05
+		add_war_support = 0.05
 	}
 }
