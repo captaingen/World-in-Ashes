@@ -558,9 +558,6 @@
  disintegrate.6.d:0 "We cannot be in a war with more than one front! Shall we send a peace proposal to the Azerbaijanis?"
  disintegrate.6.a:0 "Send them the proposal!"
  disintegrate.6.b:0 "We must fight on..."
- disintegrate.7.t:0 "End of Disintegration"
- disintegrate.7.d:0 "Now that our country is a little bit more stable, the days of disintegration are behind us!"
- disintegrate.7.a:0 "Now we can live a new chapter!"
 
  
  
@@ -581,5 +578,39 @@
  azr.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?
  azr.0.a:0 "We must accept!"
  azr.0.b:0 "We must fight on..."
- 
+
+ #Spain
+ spain.1.t:0 "Civil War"
+ spain.1.d:0 ""
+ spain.1.a:0 "For the Monarchy!"
+ spain.1.b:0 "For Falange!"
+ spain.1.c:0 "For the Republic!"
+ spaink.1.t:0 "Intervention?"
+ spaink.1.d:0 "The Spanish civil war has broken out and we must decide whether to help or stay out."
+ spaink.1.a:0 "We should Help the Royalists."
+ spaink.1.b:0 "It's not our business."
+ spaink.2.t:0 "Other Nations Offers Help."
+ spaink.2.d:0 "After debating among themselves other Nations has decided to offer us help."
+ spaink.2.a:0 "Help is appreciated."
+ spaink.2.b:0 "We don't need them."
+ spaink.3.t:0 "Other Nations will not help."
+ spaink.3.d:0 "After debating among themselves other Nations has decided not to offer us help."
+ spaink.3.a:0 "We don't need them anyway."
+ spaink.4.t:0 "Monarchist Spain accepts the offer."
+ spaink.4.d:0 "Monarchist Spain has accepted our offer to help them."
+ spaink.4.a:0 "Send the volunteers."
+ spaink.5.t:0 "Monarchist Spain denys the offer."
+ spaink.5.d:0 "They have denyed our offer to help them."
+ spaink.5.a:0 "Their loss."
+ spaink.6.t:0 "Volunteers arrive."
+ spaink.6.d:0 "Today the german volunteers have arrived from Germany."
+ spaink.6.a:0 "Maravilloso."
+ spaink.7.t:0 "Volunteers arrive."
+ spaink.7.d:0 "Today the Italian volunteers have arrived from Italy."
+ spaink.7.a:0 "Maravilloso.
+ spain.2.t:0 "1936 Elections"
+ spain.2.d:0 "The 1936 Elections are upon us and we must choose the best candidate for the job."
+ spain.2.a:0 "Keep The CEDA in power."
+ spain.2.b:0 "Azana and the Popular Front."
+  
  
