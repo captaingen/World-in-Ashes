@@ -394,43 +394,43 @@ country_event = {
 }
 
 #Russia demands land
-country_event = {
-    id = disintegrate.8
-    title = disintegrate.8.t
-    desc = disintegrate.8.d
-    picture = GFX_report_event_worker_protests
-
-	fire_only_once = yes
-
-    option = { #Accept
-        name = disintegrate.8.a
-		ai_chance = {
-			factor = 50
-		}
-		RUS = { transfer_state = 234 }
-		hidden_effect = {
-			#RUS = { 
+#country_event = {
+#    id = disintegrate.8
+#   title = disintegrate.8.t
+#   desc = disintegrate.8.d
+#    picture = GFX_report_event_worker_protests
+#
+#	fire_only_once = yes
+#
+#   option = { #Accept
+#       name = disintegrate.8.a
+#		ai_chance = {
+#			factor = 50
+#		}
+#		RUS = { transfer_state = 234 }
+#		hidden_effect = {
+#			#RUS = { 
 			#	country_event = { days = 1 id = russia.0 }
 			#}
 			#news_event = { hours = 6 id = irannews.0 }
 			#set_country_flag = tra_end_disintegration
-		}
-    }
+#		}
+#   }
 	
-	option = { #Reject
-        name = disintegrate.8.a
-		ai_chance = {
-			factor = 20
-		}
-		RUS = { 
-			create_wargoal = { type = annex_everything target = TRA }
-		}
-		hidden_effect = {
+#	option = { #Reject
+ #       name = disintegrate.8.a
+	#	ai_chance = {
+	#		factor = 20
+	#	}
+	#	RUS = { 
+	#		create_wargoal = { type = annex_everything target = TRA }
+	#	}
+	#	hidden_effect = {
 			#RUS = { 
 			#	country_event = { days = 1 id = russia.0 }
 			#}
 			#news_event = { hours = 6 id = irannews.0 }
 			#set_country_flag = tra_end_disintegration
-		}
-    }
-}
+	#	}
+ #   }
+#}
