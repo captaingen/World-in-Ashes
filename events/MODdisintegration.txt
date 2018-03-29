@@ -64,6 +64,7 @@ country_event = {
 			GEO = {
 				load_oob = "GEO_rebellion"
 			}
+			set_country_flag = tra_stabilize_geo
 		}
     }
 
@@ -120,6 +121,7 @@ country_event = {
 			ARM = {
 				load_oob = "ARM_rebellion"
 			}
+			set_country_flag = tra_stabilize_arm
 		}
     }
 
@@ -176,6 +178,7 @@ country_event = {
 			AZR = {
 				load_oob = "AZR_rebellion"
 			}
+			set_country_flag = tra_stabilize_azr
 		}
     }
 
@@ -363,10 +366,17 @@ country_event = {
 		tag = TRA
 		country_exists = GEO
 		country_exists = ARM
-		AND = {
+		OR = {
+			OR = {
 			has_country_flag = tra_white_peace_proposal_geo
 			has_country_flag = tra_white_peace_proposal_arm
 			has_country_flag = tra_white_peace_proposal_azr
+			}
+			AND = {
+			has_country_flag = tra_stabilize_azr
+			has_country_flag = tra_stabilize_arm
+			has_country_flag = tra_stabilize_azr
+			}
 		}
     }
 
