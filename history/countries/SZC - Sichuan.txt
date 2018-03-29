@@ -1,4 +1,4 @@
-﻿capital = 601
+﻿capital = 605
 
 oob = "SZC_1936"
 
