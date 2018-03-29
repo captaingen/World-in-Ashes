@@ -1,17 +1,12 @@
 state={
-	id=817
-	name="STATE_817"
-	provinces={
-		1778 2028 4783 5076 7727 7803 7971 8102 10770 10899 12596 12820 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category = wasteland
+	id=616
+	name="STATE_616"
+
 	history={
 		owner = XSM
 		add_core_of = XSM
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		1938.10.25 = {
@@ -32,4 +27,11 @@ state={
 		}
 
 	}
+
+	provinces={
+		3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12750 12776 
+	}
+	manpower=2077600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
