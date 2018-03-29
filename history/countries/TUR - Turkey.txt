@@ -51,12 +51,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-add_ideas = {
-	ottoman_ashes
-	TUR_lost_ww1
-	TUR_no_airforce
-}
-
 set_convoys = 20
 
 # Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)

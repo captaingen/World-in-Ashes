@@ -626,7 +626,18 @@
  SPA_neutrality_ADJ:0 "Spanish"
  SPA_communism_ADJ:0 "Spanish"
  
- 
+ SOV_fascism:0 "Russian Empire"
+ SOV_fascism_DEF:0 "The Russian Empire"
+ SOV_democratic:0 "Russia"
+ SOV_democratic_DEF:0 "Russia"
+ SOV_neutrality:0 "Second Tsardom of Russia"
+ SOV_neutrality_DEF:0 "The Second Tsardom of Russia"
+ SOV_communism:0 "Bolshevik Russia"
+ SOV_communism_DEF:0 "Bolshevik Russia"
+ SOV_fascism_ADJ:0 "Russian"
+ SOV_democratic_ADJ:0 "Russian"
+ SOV_neutrality_ADJ:0 "Russian"
+ SOV_communism_ADJ:0 "Russian"
  
  
  
