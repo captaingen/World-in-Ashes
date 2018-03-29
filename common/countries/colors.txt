@@ -263,8 +263,8 @@ MON = {
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {
-	color = rgb { 185  255  152 }
-	color_ui = rgb { 165  230  132 }
+	color = rgb { 119  95  55 }
+	color_ui = rgb { 119  95  55 }
 }
 TAN = {
 	color = rgb { 152 130 191 }
@@ -423,8 +423,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 114  216  152 }
+	color_ui = rgb { 114  216  152 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -771,4 +771,9 @@ SPK = {
 SPA = {
 	color = rgb { 188 145 94 }
 	color_ui = rgb { 188 145 94 }
+}
+
+QUI = {
+	color = rgb { 160 209 48 }
+	color_ui = rgb { 160 209 48 }
 }
