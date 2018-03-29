@@ -665,9 +665,31 @@
  MEN_neutrality_ADJ:0 "Mengjiang"
  MEN_communism_ADJ:0 "Mengjiang"
  
+ CHI_fascism:0 "Reorganized Nationalist China"
+ CHI_fascism_DEF:0 "Reorganized Nationalist China"
+ CHI_democratic:0 "Republic of China"
+ CHI_democratic_DEF:0 "the Republic of China"
+ CHI_neutrality:0 "Changde Clique"
+ CHI_neutrality_DEF:0 "China"
+ CHI_communism:0 "Chinese People's Republic"
+ CHI_communism_DEF:0 "the Chinese People's Republic"
+ CHI_fascism_ADJ:0 "Chinese"
+ CHI_democratic_ADJ:0 "Chinese"
+ CHI_neutrality_ADJ:0 "Chinese"
+ CHI_communism_ADJ:0 "Chinese"
  
- 
- 
+ QUI_fascism:0 "Quing Empire"
+ QUI_fascism_DEF:0 "the Quing Empire"
+ QUI_democratic:0 "Quing Republic"
+ QUI_democratic_DEF:0 "the Quing Republic"
+ QUI_neutrality:0 "Quing"
+ QUI_neutrality_DEF:0 "Quing"
+ QUI_communism:0 "Quing People's Republic"
+ QUI_communism_DEF:0 "the Quing People's Republic"
+ QUI_fascism_ADJ:0 "Chinese"
+ QUI_democratic_ADJ:0 "Chinese"
+ QUI_neutrality_ADJ:0 "Chinese"
+ QUI_communism_ADJ:0 "Chinese"
  
  
  
