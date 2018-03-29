@@ -99,7 +99,7 @@ country_event = {
     trigger = {
 		has_idea = disintegrating_country
 		tag = TRA
-		has_stability < 0.2
+		has_stability < 0.25
     }
 
     mean_time_to_happen = {
@@ -155,7 +155,7 @@ country_event = {
     trigger = {
 		has_idea = disintegrating_country
 		tag = TRA
-		has_stability < 0.2
+		has_stability < 0.25
     }
 
     mean_time_to_happen = {
