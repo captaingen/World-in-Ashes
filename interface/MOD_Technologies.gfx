@@ -8,7 +8,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_fuel_0"
 		texturefile = "gfx/interface/fuel_0.png"
-		}
+	}
 	
 	SpriteType = {
 		name = "GFX_light_ammo_0_medium"
@@ -18,4 +18,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_light_ammo_0"
 		texturefile = "gfx/interface/light_ammo_0.png"
-		}
+	}
+}

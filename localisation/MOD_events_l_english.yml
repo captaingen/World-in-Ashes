@@ -563,19 +563,19 @@
  
  #Georgia
  geo.0.t:0 "Transcaucasia sends peace proposal"
- geo.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?
+ geo.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?"
  geo.0.a:0 "We must accept!"
  geo.0.b:0 "We must fight on..."
  
  #Armenia
  armenia.0.t:0 "Transcaucasia sends peace proposal"
- armenia.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?
+ armenia.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?"
  armenia.0.a:0 "We must accept!"
  armenia.0.b:0 "We must fight on..."
  
  #Azerbaijan
  azr.0.t:0 "Transcaucasia sends peace proposal"
- azr.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?
+ azr.0.d:0 "Yesterday, Transcaucasia sent us a formal letter proposing to end hostilities between the two countries. Should we listen to them?"
  azr.0.a:0 "We must accept!"
  azr.0.b:0 "We must fight on..."
 
@@ -607,7 +607,7 @@
  spaink.6.a:0 "Maravilloso."
  spaink.7.t:0 "Volunteers arrive."
  spaink.7.d:0 "Today the Italian volunteers have arrived from Italy."
- spaink.7.a:0 "Maravilloso.
+ spaink.7.a:0 "Maravilloso."
  spain.2.t:0 "1936 Elections"
  spain.2.d:0 "The 1936 Elections are upon us and we must choose the best candidate for the job."
  spain.2.a:0 "Keep The CEDA in power."

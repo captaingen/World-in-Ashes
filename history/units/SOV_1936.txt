@@ -103,7 +103,7 @@ division_template = {
 ##### OOB #####
 units = {
 	##### 9 #####					
-	division= {	# "18ya Strelkovaya Diviziya"		
+	division= {	# "1ya Strelkovaya Diviziya"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -114,7 +114,7 @@ units = {
 		start_equipment_factor = 0.85
 
 	}			
-	division= {	# "54ya Strelkovaya Diviziya"		
+	division= {	# "2ya Strelkovaya Diviziya"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2

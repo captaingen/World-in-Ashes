@@ -108,7 +108,6 @@ create_country_leader = {
 }
 
 set_convoys = 100
-set_stability = 0.75
 
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
