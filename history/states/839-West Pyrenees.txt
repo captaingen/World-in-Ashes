@@ -1,0 +1,21 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		743 9882 9884 11697 
+	}
+	
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SPR
+
+	}
+	
+	manpower=159862
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

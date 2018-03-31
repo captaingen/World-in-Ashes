@@ -1,0 +1,21 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		3915 3946 6917 6931 
+	}
+	
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SPR
+
+	}
+	
+	manpower=259630
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
