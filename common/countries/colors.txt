@@ -777,3 +777,33 @@ QUI = {
 	color = rgb { 160 209 48 }
 	color_ui = rgb { 160 209 48 }
 }
+
+BAN = {
+	color = rgb { 140  88  32 }
+	color_ui = rgb { 140  88  32 }
+}
+
+KAN = {
+	color = rgb { 232  186  136 }
+	color_ui = rgb { 232  186  136 }
+}
+
+BAY = {
+	color = rgb { 160  127  122 }
+	color_ui = rgb { 160  127  122 }
+}
+
+SOK = {
+	color = rgb { 209  190  150 }
+	color_ui = rgb { 209  190  150 }
+}
+
+IGB = {
+	color = rgb { 109  78  112 }
+	color_ui = rgb { 109  78  112 }
+}
+
+YOU = {
+	color = rgb { 38  61  96 }
+	color_ui = rgb { 38  61  96 }
+}
