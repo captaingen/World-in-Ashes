@@ -8,6 +8,11 @@ set_technology = {
 	mass_assault = 1
 }
 
+set_stability = 0.2
+set_war_support = 0.8
+set_convoys = 0
+set_research_slots = 2
+
 set_politics = {
 
 	parties = {
@@ -21,7 +26,6 @@ set_politics = {
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 		
 		neutrality = { 
@@ -43,4 +47,3 @@ create_country_leader = {
 		#
 	}
 }
-
