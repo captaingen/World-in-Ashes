@@ -108,10 +108,263 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_ideas = nationalism
+		}
+	}
+	
+	focus = {
+		id = PER_coup_detat
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = PER_order}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+			focus = PER_tradition
+		}			
+		
+		x = 9
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
 			add_political_power = 25
 		}
 	}
 	
+	focus = {
+		id = PER_launch_the_30_day_offensive
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = PER_coup_detat}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 10
+		y = 5
+		
+		cost = 2.2
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = PER_fascist_request_assistance
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = PER_coup_detat}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 8
+		y = 5
+		
+		cost = 2.2
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = PER_secure_the_new_state
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = PER_launch_the_30_day_offensive}
+		prerequisite = { focus = PER_fascist_request_assistance}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 9
+		y = 6
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	#both fascism and monarchism#
+	
+	focus = {
+		id = PER_iranian_nationalism
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_tradition focus = PER_order}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 5
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
+		id = PER_military_youth
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_iranian_nationalism}
+		prerequisite = { focus = PER_order}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 6
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_ideas = military_youth_focus
+		}
+	}
+	
+	focus = {
+		id = PER_royal_military
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_iranian_nationalism}
+		prerequisite = { focus = PER_tradition}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 4
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
+		id = PER_iranian_ambition
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_military_youth focus = PER_royal_military}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 5
+		y = 6
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
 	#keep the monarchy#
 	
 	focus = {
@@ -143,6 +396,131 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = PER_strengthen_the_shah
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_tradition}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 1
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
+		id = PER_british_support
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_strengthen_the_shah}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 0
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = PER_sanctuary_for_jews
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_strengthen_the_shah}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 2
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
+		id = PER_second_cyrus
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = PER_sanctuary_for_jews}
+		prerequisite = { focus = PER_british_support}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 1
+		y = 6
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_political_power = 150
 		}
 	}
 	
@@ -243,7 +621,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 25
+			add_ideas = internationalism
 		}
 	}
 	
