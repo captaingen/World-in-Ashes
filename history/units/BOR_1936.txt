@@ -1,0 +1,374 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
+		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		# Division Légère Mécanique
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
+	}
+}
+division_template = {
+	name = "Brigade de Patrouille"			# Represents: 2xRgt colonial forces and , usually with old equipment
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	
+	##### Front line Troops #####
+	
+	# 1ere Armée
+	division= {	
+		name = "1ere Division d'Infanterie"
+		location = 3655
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "2ème Division d'Infanterie"
+		location = 11600
+		division_template = "Division d'Infanterie" 	# Frontline, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "3ème Division d'Infanterie"
+		location = 9631
+		division_template = "Division d'Infanterie" 	# Frontline, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "4ème Division d'Infanterie"
+		location = 3659
+		division_template = "Division d'Infanterie" 	# Frontline, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "5ème Division d'Infanterie"
+		location = 11596
+		division_template = "Division d'Infanterie" 	# Frontline, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "6ème Division d'Infanterie"
+		location = 669
+		division_template = "Division d'Infanterie" 	# Frontline, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "7ème Division d'Infanterie"
+		location = 9629
+		division_template = "Division d'Infanterie" 	# Frontline, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	
+	# 2eme Armée
+	division= {	
+		name = "8ème Division d'Infanterie"
+		location = 6644
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+
+	}
+	division= {	
+		name = "9ème Division d'Infanterie"
+		location = 9607
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division= {	
+		name = "10ème Division d'Infanterie"
+		location = 3594
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division= {	
+		name = "11ème Division d'Infanterie"
+		location = 11593
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division= {	
+		name = "12ème Division d'Infanterie"
+		location = 11794
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division= {	
+		name = "13ème Division d'Infanterie"
+		location = 3650
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division= {	
+		name = "14ème Division d'Infanterie"
+		location = 6668
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.4
+	}
+	
+	
+	##### Patrol Units #####
+	
+	# 1er Corps de Patrouille (Région Militaire in 1936) -- Région de Bordeaux
+	
+	division= {	
+		name = "Patrouille de Bordeaux - Section Nord"
+		location = 9737
+		division_template = "Brigade de Patrouille" 	# Bordeaux Patrols, best equipment
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "Patrouille de Bordeaux - Section Sud"
+		location = 6762
+		division_template = "Brigade de Patrouille" 	# Bordeaux Patrols, best equipment
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "1ère Division Légère Mécanique"
+		location = 9737
+		division_template = "Division Légère Mécanique" 	#US supply
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "USA" } }
+		force_equipment_variants = { motorized_equipment = { owner = "USA" } }
+	}
+	division= {	
+		name = "2ème Division Légère Mécanique"
+		location = 6775
+		division_template = "Division Légère Mécanique" 	#US supply	
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "USA" } }
+		force_equipment_variants = { motorized_equipment = { owner = "USA" } }
+	}
+
+	# 2ème Corps de Patrouille (Région Militaire in 1936) -- Marseille
+	
+	division= {	
+		name = "Patrouille Marseillaise"
+		location = 911
+		division_template = "Brigade de Patrouille" 	# Marseille Patrols, half equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Patrouille de Nice"
+		location = 9909
+		division_template = "Brigade de Patrouille" 	# Nice Patrol, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	
+	# 3ème Corps de Patrouille (Région Militaire in 1936) -- Sud de France
+	
+	division= {	
+		name = "Patrouille Rurale - Secteur A"
+		location = 620
+		division_template = "Brigade de Patrouille" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Patrouille Rurale - Secteur B"
+		location = 3754
+		division_template = "Brigade de Patrouille" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "1ere Division de Cavalerie"
+		location = 780
+		division_template = "Division de Cavalerie" 	# Cavalry patrols in rural areas
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	
+	# 1er Corps d'Alpine (Région Militaire in 1936) -- Frontière Italienne
+	
+	division= {	
+		name = "1ère Division d'Alpines"
+		location = 9745
+		division_template = "Division d'Infanterie Alpine" 	
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2ème Division d'Alpines"
+		location = 3764
+		division_template = "Division d'Infanterie Alpine" 	
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "3ème Division d'Alpines"
+		location = 3595
+		division_template = "Division d'Infanterie Alpine" 	
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "4ème Division d'Alpines"
+		location = 778
+		division_template = "Division d'Infanterie Alpine" 	
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+
+	}
+
+	#1ère Armée Mécanique
+	
+	division= {	
+		name = "1ère Div. d'Infanterie Motorisée"
+		location = 6789
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "2ème Division Légère Mécanique"
+		location = 629
+		division_template = "Division Légère Mécanique" 	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3ème Division Légère Mécanique"
+		location = 11576
+		division_template = "Division Légère Mécanique" 	
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "USA" } }
+	}
+	division= {	
+		name = "4ème Division Légère Mécanique"
+		location = 6613
+		division_template = "Division Légère Mécanique" 	
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "USA" } }
+	}
+	
+	# 4ème Corps de Patrouille -- Patrouille Americaine
+	
+	division= {	
+		name = "Patrouille Américaine - Section A"
+		location = 11702
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	division= {	
+		name = "Patrouille Américaine - Section B"
+		location = 11711
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	division= {	
+		name = "Patrouille Américaine - Section C"
+		location = 6777
+		division_template = "Division de Cavalerie" 	#Fully Equipped by USA
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+
+	}
+	division= {	
+		name = "Patrouille Américaine - Section D"
+		location = 9597
+		division_template = "Division de Cavalerie" 	#Fully Equipped by USA
+		start_experience_factor = 0.45
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+
+	}
+	division= {	
+		name = "Patrouille Américaine - Section E"
+		location = 9898
+		division_template = "Division de Cavalerie" 	#Fully Equipped by USA
+		start_experience_factor = 0.47
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+
+	}
