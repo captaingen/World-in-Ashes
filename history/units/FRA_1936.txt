@@ -296,21 +296,21 @@ units = {
 	
 	division= {	
 		name = "Patrouille Allemande - Section A"
-		location = 11548
+		location = 5291
 		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
 	division= {	
 		name = "Patrouille Allemande - Section B"
-		location = 575
+		location = 11516
 		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
 	division= {	
 		name = "Patrouille Allemande - Section C"
-		location = 454
+		location = 521
 		division_template = "Division de Cavalerie" 	#Fully Equipped by Germany
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
