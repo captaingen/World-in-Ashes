@@ -52,6 +52,7 @@
  #Custom Tooltips
   PER_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
   PER_uprising_tooltip:0 "§RKurds will get additional divisions to defend against you, and if you do not defeat them within 6 months, then they will win.§!"
+  PER_iranian_ambition_tooltip:0 "Unlocks decisions to conquer historical Persian Empire territories."
  #Localized country Flags
   harsh_punishments:0 "Punish the Kurds"
   light_sentences:0 "Give the Kurds light sentences"
@@ -106,6 +107,17 @@
   persiaft.10.b:0 "Use this opportunity"
   persiaft.10.c:0 "Abuse this opportunity"
   persiaft.10.e:0 "Let this pass"
+  #Asking for British Help
+  persiaft.11.t:0 "Iranians Desire Help"
+  persiaft.11.d:0 "The Irani monarchy has decided to ask for us for some help. Providing them help could allow us to foster relations with them, but it will take up valuable time and resources to do so."
+  persiaft.11.a:0 "Give them support"
+  persiaft.11.b:0 "Just give them some vocal support"
+  persiaft.12.t:0 "The British Give Support"
+  persiaft.12.d:0 "After recieving a letter, asking for support from the British Government to help us stay in power, they decided to agree to our request."
+  persiaft.12.a:0 "We thank our new British friends!"
+  persiaft.13.t:0 "The British Refused Support"
+  persiaft.13.d:0 "After recieving a letter, asking for support from the British Government to help us stay in power, they decided to reject to our minute request."
+  persiaft.13.a:0 "Oh well..."
   #News
    irannews.0.t:0 "War Between Kurds and Iran"
    irannews.0.d:0 "Over the past few months, there have been extreme riots within Iranian Kurdistan. Earlier today, leaders of the Free Kurdistan movement within Iran have proclaimed a rebellion, and the Kurdistan government has acted quickly with this remark, incorperating the large territory into their country.\n\nThe Iranian government has decided to go to war over this. So now, these two countries are at war."
@@ -151,3 +163,11 @@
   PER_kurdish_seperatism_desc:0 "On September 16th, 1933, the Kurds attempted to rebel from us to join Kurdistan across the border. While this rebellion was put down on October the 14th of the same year, one cannot say that these people won't try again."
   PER_azerbaijani_protests:0 "Azerbaijani Protests"
   PER_azerbaijani_protests_desc:0 "For a while now, the Azerbaijanis have wanted independence, and have been peacefully protesting in order to gain said independence. However, granting them independence would mean we give up a very important industrial region, and we simply cannot give that away."
+  PER_tradition_idea:0 "Tradition"
+  PER_tradition_idea_desc:0 "Let us go with our Persian tradition, and continue monarchial rule."
+  PER_strengthen_the_shah_idea:0 "Strengthen The Shah"
+  PER_strengthen_the_shah_idea_desc:0 "The Shah is the ruler of Persia. Strengthening his power allows more decisive action to take place more quickly."
+  PER_iranian_nationalism_idea:0 "Iranian Nationalism"
+  PER_iranian_nationalism_idea_desc:0 "Ensuring our people are supportive of our government is of the utmost priority. Nationalism is the way to do it."
+  PER_royal_military_idea:0 "Royal Military"
+  PER_royal_military_idea_desc:0 "By having our military be controlled directly by the Shah, we can circumvent the bureaucracy and appoint competent and loyal officers to our officer corps."

@@ -135,6 +135,7 @@ country_event = {
 
 	trigger = {
 		has_country_flag = kurdish_unrest
+		has_idea = PER_kurdish_seperatism
 	}
 
 	immediate = {
@@ -1016,6 +1017,182 @@ country_event = {
 				has_country_flag = military_azerbaijan
 				has_country_flag = extensive_military_azerbaijan
 			}
+		}
+	}
+}
+
+#Iranians want help
+country_event = {
+	id = persiaft.11
+	title = persiaft.11.t
+	desc = persiaft.11.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Give them support
+		name = persiaft.11.a
+		ai_chance = {
+			factor = 5
+		}
+		add_political_power = -25
+		PER = {
+			country_event = { days = 7 id = persiaft.12 }
+		}
+	}
+	option = { #Send them some vocal support
+		name = persiaft.11.b
+		ai_chance = {
+			factor = 1
+		}
+		PER = {
+			country_event = { days = 7 id = persiaft.13 }
+		}
+	}
+}
+
+#British gave support
+country_event = {
+	id = persiaft.12
+	title = persiaft.12.t
+	desc = persiaft.12.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #We thank our British friends
+		name = persiaft.12.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = 25
+		add_stability = 0.10
+	}
+}
+
+#British refused support
+country_event = {
+	id = persiaft.13
+	title = persiaft.13.t
+	desc = persiaft.13.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Oh well...
+		name = persiaft.13.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Fascist Coup d'etat!
+country_event = {
+	id = persiaft.14
+	title = persiaft.14.t
+	desc = persiaft.14.d
+	picture = GFX_report_event_canadian_tank
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Onwards! To victory!
+		name = persiaft.14.a
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			set_capital = 412
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = neutrality
+				size = 0.5
+				capital = 266
+				states = { 266 413 417 419 420 421 }
+			}
+			set_party_name = { ideology = neutrality long_name = PER_fascism_party_civil_war name = PER_fascism_party_civil_war }
+			#load_oob = "PER_fascism_civil_war"
+			random_other_country = {
+				limit = {
+					original_tag = GER
+					has_government = neutrality
+				}
+				set_stability = 0.9
+				set_war_support = 0.8
+				#load_oob = "PER_neutrality_fascism_civil_war"
+			}
+			hidden_effect = { news_event = { id = wtt_news.1 hours = 6 } }
+			
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.75
+			}	
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.25
+			}
+			set_stability = 0.7
+			set_war_support = 0.35
+		}
+		custom_effect_tooltip = PER_fascism_civil_war_tooltip
+		hidden_effect = { set_cosmetic_tag = PER_provisional_gvt }
+		random_other_country = {
+			limit = {
+				original_tag = GER
+				has_government = neutrality
+			}
+			set_cosmetic_tag = PER_civil_war
+		}
+		create_country_leader = {
+			name = "Hasan Arfa"
+			desc = "POLITICS_HASAN_ARFA_DESC"
+			picture = GFX_portrait_ger_august_von_mackensen
+			expire = "1965.1.1"
+			ideology = fascism_ideology
 		}
 	}
 }

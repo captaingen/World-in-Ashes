@@ -29,7 +29,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 5
+		cost = 2.9
 		
 		#ai_will_do = {
 		#	factor = 1
@@ -114,7 +114,7 @@ focus_tree = {
 	
 	focus = {
 		id = PER_coup_detat
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_generic_attack_allies
 		prerequisite = { focus = PER_order}
 
 		available = {
@@ -146,7 +146,7 @@ focus_tree = {
 	
 	focus = {
 		id = PER_launch_the_30_day_offensive
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = PER_coup_detat}
 
 		available = {
@@ -177,7 +177,7 @@ focus_tree = {
 	
 	focus = {
 		id = PER_fascist_request_assistance
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_generic_axis_build_infantry
 		prerequisite = { focus = PER_coup_detat}
 
 		available = {
@@ -208,9 +208,8 @@ focus_tree = {
 	
 	focus = {
 		id = PER_secure_the_new_state
-		icon = GFX_goal_support_fascism
-		prerequisite = { focus = PER_launch_the_30_day_offensive}
-		prerequisite = { focus = PER_fascist_request_assistance}
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = PER_launch_the_30_day_offensive focus = PER_fascist_request_assistance}
 
 		available = {
 		}
@@ -242,7 +241,7 @@ focus_tree = {
 	
 	focus = {
 		id = PER_iranian_nationalism
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_focus_PER_flag
 		prerequisite = { focus = PER_tradition focus = PER_order}
 
 		available = {
@@ -267,13 +266,13 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 150
+			add_ideas = PER_iranian_nationalism_idea
 		}
 	}
 	
 	focus = {
 		id = PER_military_youth
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { focus = PER_iranian_nationalism}
 		prerequisite = { focus = PER_order}
 
@@ -305,7 +304,7 @@ focus_tree = {
 	
 	focus = {
 		id = PER_royal_military
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = PER_iranian_nationalism}
 		prerequisite = { focus = PER_tradition}
 
@@ -331,13 +330,13 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 150
+			add_ideas = PER_royal_military_idea
 		}
 	}
 	
 	focus = {
 		id = PER_iranian_ambition
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = PER_military_youth focus = PER_royal_military}
 
 		available = {
@@ -362,14 +361,14 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 150
+			custom_effect_tooltip = PER_iranian_ambition_tooltip
 		}
 	}
 	#keep the monarchy#
 	
 	focus = {
 		id = PER_tradition
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		prerequisite = { focus = PER_discuss_authority}
 
 		available = {
@@ -395,7 +394,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 25
+			add_ideas = PER_tradition_idea
 		}
 	}
 	
@@ -426,13 +425,17 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 150
+			add_political_power = 50
+			swap_ideas = {
+				add_idea = PER_strengthen_the_shah_idea
+				remove_idea = PER_tradition_idea
+			}
 		}
 	}
 	
 	focus = {
 		id = PER_british_support
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = PER_strengthen_the_shah}
 
 		available = {
@@ -457,13 +460,24 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 25
+			ENG = {
+				country_event = { id = persiaft.11 days = 1 }
+				custom_effect_tooltip = needs_approval
+			}
+			# Actual reward effects added in event if British approve
+			effect_tooltip = {
+				ENG = {
+					add_political_power = -25
+				}
+				add_political_power = 25
+				add_stability = 0.10
+			}		
 		}
 	}
 	
 	focus = {
 		id = PER_sanctuary_for_jews
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_focus_research
 		prerequisite = { focus = PER_strengthen_the_shah}
 
 		available = {
@@ -488,15 +502,14 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_political_power = 150
+			add_research_slot = 1
 		}
 	}
 	
 	focus = {
 		id = PER_second_cyrus
-		icon = GFX_focus_rom_royal_dictatorship
-		prerequisite = { focus = PER_sanctuary_for_jews}
-		prerequisite = { focus = PER_british_support}
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = PER_sanctuary_for_jews focus = PER_british_support}
 
 		available = {
 		}
@@ -677,7 +690,7 @@ focus_tree = {
 		x = 11
 		y = 1
 		
-		cost = 10
+		cost = 4.3
 		
 		#ai_will_do = {
 		#	factor = 1
@@ -774,7 +787,7 @@ focus_tree = {
 		x = 11
 		y = 3
 		
-		cost = 5
+		cost = 2.9
 		
 		#ai_will_do = {
 		#	factor = 1
