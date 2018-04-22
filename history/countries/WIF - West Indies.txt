@@ -70,3 +70,13 @@ set_politics = {
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 
+create_country_leader = {
+	name = "Marcus Garvey"
+	desc = "POLITICS_GARVEY_DESC"
+	picture = "gfx/leaders/WIF/Portrait_Garvey.png"
+	expire = "1958.1.8"
+	ideology = conservatism
+	traits = {
+	}
+}
+
