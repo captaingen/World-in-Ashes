@@ -205,34 +205,12 @@ units = {
 		division_template = "Brigade de Patrouille" 	# Bordeaux Patrols, best equipment
 		start_experience_factor = 0.5
 	}
-	division= {	
-		name = "Patrouille de Bordeaux - Section Sud"
-		location = 6762
-		division_template = "Brigade de Patrouille" 	# Bordeaux Patrols, best equipment
-		start_experience_factor = 0.5
-	}
-	division= {	
-		name = "1ère Division Légère Mécanique"
-		location = 9737
-		division_template = "Division Légère Mécanique" 	#US supply
-		start_experience_factor = 0.2
-		force_equipment_variants = { gw_tank_equipment = { owner = "USA" } }
-		force_equipment_variants = { motorized_equipment = { owner = "USA" } }
-	}
-	division= {	
-		name = "2ème Division Légère Mécanique"
-		location = 6775
-		division_template = "Division Légère Mécanique" 	#US supply	
-		start_experience_factor = 0.2
-		force_equipment_variants = { gw_tank_equipment = { owner = "USA" } }
-		force_equipment_variants = { motorized_equipment = { owner = "USA" } }
-	}
 
 	# 2ème Corps de Patrouille (Région Militaire in 1936) -- Marseille
 	
 	division= {	
 		name = "Patrouille Marseillaise"
-		location = 911
+		location = 11834
 		division_template = "Brigade de Patrouille" 	# Marseille Patrols, half equipment
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -280,13 +258,6 @@ units = {
 		start_equipment_factor = 0.5
 	}
 	division= {	
-		name = "2ème Division d'Alpines"
-		location = 3764
-		division_template = "Division d'Infanterie Alpine" 	
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.6
-	}
-	division= {	
 		name = "3ème Division d'Alpines"
 		location = 3595
 		division_template = "Division d'Infanterie Alpine" 	
@@ -310,12 +281,6 @@ units = {
 		location = 6789
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.5
-	}
-	division= {	
-		name = "2ème Division Légère Mécanique"
-		location = 629
-		division_template = "Division Légère Mécanique" 	
-		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "3ème Division Légère Mécanique"
@@ -351,7 +316,7 @@ units = {
 	division= {	
 		name = "Patrouille Américaine - Section C"
 		location = 6777
-		division_template = "Division de Cavalerie" 	#Fully Equipped by USA
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
 		start_experience_factor = 0.4
 		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 
@@ -359,7 +324,7 @@ units = {
 	division= {	
 		name = "Patrouille Américaine - Section D"
 		location = 9597
-		division_template = "Division de Cavalerie" 	#Fully Equipped by USA
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
 		start_experience_factor = 0.45
 		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 
@@ -367,7 +332,7 @@ units = {
 	division= {	
 		name = "Patrouille Américaine - Section E"
 		location = 9898
-		division_template = "Division de Cavalerie" 	#Fully Equipped by USA
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
 		start_experience_factor = 0.47
 		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 
