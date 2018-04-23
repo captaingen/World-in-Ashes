@@ -70,23 +70,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-add_ideas = {
-	limited_conscription
-}
-
-
-#Order matters here Daladier will start as leaders because added last
-create_country_leader = {
-	name = "Charles de Gaulle"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
@@ -95,27 +78,5 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		stout_defender
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = 	stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
 	}
 }
