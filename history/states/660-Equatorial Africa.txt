@@ -7,20 +7,20 @@ state={
 	}
 
 	history={
-		owner = CAF
-		add_core_of = CAF
+		owner = KAN
+		add_core_of = KAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			
+
 		}
 
 	}
 
 	provinces={
-		1473 1883 1974 2081 3123 3165 3181 4897 4978 5084 7919 8078 9152 11108 12719 12830 
+		1473 1883 2081 3123 3181 4897 4978 7919 9152 
 	}
-	manpower=2572456
+	manpower=1312456
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

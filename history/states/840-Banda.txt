@@ -1,0 +1,23 @@
+
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		1974 3165 5084 11108 12719 
+	}
+	
+	history={
+		owner = BAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = BAN
+
+	}
+	
+	manpower=786250
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,29 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		2050 4952 12731 12817 12900 
+	}
+	
+	history={
+		owner = YOU
+		add_core_of = YOU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			2050 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			2050 1 
+		}
+
+	}
+	
+	manpower=6250149
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

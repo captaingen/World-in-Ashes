@@ -1,0 +1,29 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		1992 4889 7978 8034 10831 
+	}
+	
+	history={
+		owner = IGB
+		add_core_of = IGB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10831 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			10831 1 
+		}
+
+	}
+	
+	manpower=4890635
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
