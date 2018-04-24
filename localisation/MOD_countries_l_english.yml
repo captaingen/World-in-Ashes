@@ -434,6 +434,8 @@
  TRA_democratic_DEF:0 "The Transcaucasian Federation"
  TRA_communism:0 "Transcaucasian Union"
  TRA_communism_DEF:0 "The Transcaucasian Union"
+ TRA_socialism:0 "Transcaucasian Union"
+ TRA_socialism_DEF:0 "The Transcaucasian Union"
  TRA_fascism:0 "Transcaucasian Empire"
  TRA_fascism_DEF:0 "The Transcaucasian Empire"
  TRA_neutrality:0 "Kingdom of Transcaucasia"
