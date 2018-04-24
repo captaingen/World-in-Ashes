@@ -2,6 +2,10 @@
  ####################################################
  neutrality:0 "Authoritarian"
  neutrality_desc:0 "Authoritarian Regime"
+ communism:0 "Bolshevism"
+ communism_noun:0 "Bolshevism"
+ socialism:0 "Socialism"
+ socialism_noun:0 "Socialism"
  
  
  ####################################################
