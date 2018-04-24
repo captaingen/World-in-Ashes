@@ -22,13 +22,13 @@ set_politics = {
 			popularity = 5
 		}
 		
-		communism = {
-			popularity = 5
+		socialism = {
+			popularity = 10
 			#banned = no #default is no
 		}
 		
 		neutrality = { 
-			popularity = 35
+			popularity = 30
 		}
 	}
 	

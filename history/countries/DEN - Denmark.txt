@@ -28,7 +28,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 35
+			popularity = 25
 		}
 		
 		neutrality = {
@@ -39,8 +39,8 @@ set_politics = {
 			popularity = 2
 		}
 		
-		communism = {
-			popularity = 3
+		socialism = {
+			popularity = 13
 		}
 	}
 	
@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = progressive
 	traits = {
 		#
 	}

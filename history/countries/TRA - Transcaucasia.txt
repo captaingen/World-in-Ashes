@@ -38,12 +38,12 @@ set_politics = {
 			popularity = 0
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,7 +54,7 @@ create_country_leader = {
 	desc = "DESC_AKAKI"
 	picture = "gfx/leaders/TRA/akaki.tga"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}

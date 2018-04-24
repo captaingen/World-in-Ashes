@@ -71,13 +71,6 @@ add_ideas = {
 	home_of_the_free
 }
 
-
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
-
 create_faction = NADA
 add_to_faction = CAN
 

@@ -45,75 +45,21 @@ set_technology = {
 	radio_detection = 1
 }
 
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
-
-set_convoys = 800
-
-# DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-		puppet = EGY
-	}
-}
-
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
+set_convoys = 500
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 97
+			popularity = 80
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 3
 		}
 		
-		communism = {
-			popularity = 1
+		socialism = {
+			popularity = 17
 		}
 	}
 	
@@ -127,17 +73,7 @@ set_politics = {
 
 create_faction = Allies
 add_to_faction = ENG
-#add_to_faction = FRA
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
 
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-add_to_faction = MAL
-add_to_faction = EGY
-
-#give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
 

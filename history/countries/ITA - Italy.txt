@@ -43,9 +43,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-# DIPLOMACY / WAR 36
-	give_guarantee = ALB
-
 set_convoys = 200
 
 set_politics = {
@@ -100,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = progressive
 	traits = {
 		
 	}
@@ -111,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_ita_palmiro_togliatti"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		
 	}

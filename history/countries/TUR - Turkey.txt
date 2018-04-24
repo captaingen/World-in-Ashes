@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}

@@ -65,11 +65,15 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 12
+		}
+		
+		socialism = {
+			popularity = 11
 		}
 		
 		communism = {
-			popularity = 10
+			popularity = 2
 		}
 		
 		neutrality = {
@@ -95,17 +99,6 @@ add_ideas = {
 	german_nationalism
 	limited_exports
 	partial_economic_mobilisation
-}
-
-create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		dictator
-	}
 }
 
 create_country_leader = {
