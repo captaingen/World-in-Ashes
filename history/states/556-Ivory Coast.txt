@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = MLI
-		add_core_of = MLI
+		owner = IVO
+		add_core_of = IVO
 		buildings = {
 			infrastructure = 3
 
@@ -19,7 +19,7 @@ state={
 	provinces={
 		5013 5070 7983 8065 8122 10762 10803 
 	}
-	manpower=12044500
+	manpower=5044500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -807,3 +807,18 @@ YOU = {
 	color = rgb { 38  61  96 }
 	color_ui = rgb { 38  61  96 }
 }
+
+IVO = {
+	color = rgb { 66 134 244 }
+	color_ui = rgb { 66 134 244 }
+}
+
+MOS = {
+	color = rgb { 48 181 99 }
+	color_ui = rgb { 48 181 99 }
+}
+
+SON = {
+	color = rgb { 110 181 48 }
+	color_ui = rgb { 110 181 48 }
+}

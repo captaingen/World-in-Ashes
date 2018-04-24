@@ -4,6 +4,18 @@ state={
 	provinces={
 		4957 5039 8008 12802 
 	}
-	manpower=0
+	
+	history={
+		owner = MLI
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	
+	manpower=985365
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
