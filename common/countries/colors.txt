@@ -822,3 +822,8 @@ SON = {
 	color = rgb { 110 181 48 }
 	color_ui = rgb { 110 181 48 }
 }
+
+CEY = {
+	color = rgb { 71  66  54 }
+	color_ui = rgb { 71  66  54 }
+}
