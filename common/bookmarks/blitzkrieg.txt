@@ -57,15 +57,8 @@ bookmarks = {
 			history = GER_BLITZKRIEG_DESC
 			ideology = fascism
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_15
-				GER_autarky_idea
 			}
 			focuses = {
-				GER_weserubung
-				GER_plan_z
-				GER_ussr_war_goal
 			}
 		}
 		ITA = {

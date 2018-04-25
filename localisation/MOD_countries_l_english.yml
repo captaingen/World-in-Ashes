@@ -11,6 +11,7 @@
  GER_democratic_ADJ:0 "German"
  GER_neutrality_ADJ:0 "German"
  GER_communism_ADJ:0 "German"
+ 
  SYR_democratic:0 "Syria"
  SYR_democratic_DEF:0 "Syria"
  SYR_neutrality:0 "Kingdom of Syria"
@@ -23,6 +24,7 @@
  SYR_communism_ADJ:0 "Syrian"
  SYR_neutrality_ADJ:0 "Syrian"
  SYR_democratic_ADJ:0 "Syrian"
+ 
  LEB_democratic:0 "Republic of Lebanon"
  LEB_democratic_DEF:0 "The Republic of Lebanon"
  LEB_neutrality:0 "Phoenicia"
@@ -35,6 +37,7 @@
  LEB_communism_ADJ:0 "Lebanese"
  LEB_neutrality_ADJ:0 "Phoenician"
  LEB_democratic_ADJ:0 "Lebanese"
+ 
  BSH_democratic:0 "Basrah"
  BSH_democratic_DEF:0 "Basrah"
  BSH_neutrality:0 "Kingdom of Basrah"
@@ -47,6 +50,7 @@
  BSH_communism_ADJ:0 "Basrawi"
  BSH_neutrality_ADJ:0 "Basrawi"
  BSH_democratic_ADJ:0 "Basrawi"
+ 
  UAE_democratic:0 "Abu Dhabian Republic"
  UAE_democratic_DEF:0 "The Repulic of Abu Dhabi"
  UAE_neutrality:0 "Abu Dhabi"
@@ -59,6 +63,7 @@
  UAE_communism_ADJ:0 "Emirati"
  UAE_neutrality_ADJ:0 "Abu Dhabian"
  UAE_democratic_ADJ:0 "Abu Dhabian"
+ 
  CAR_democratic:0 "Carthage"
  CAR_democratic_DEF:0 "Carthage"
  CAR_neutrality:0 "Carthage"
@@ -71,6 +76,7 @@
  CAR_communism_ADJ:0 "Carthagian"
  CAR_neutrality_ADJ:0 "Carthagian"
  CAR_democratic_ADJ:0 "Carthagian"
+ 
  SAU_fascism:0 "Arabic Empire"
  SAU_fascism_DEF:0 "The Arabic Empire"
  SAU_democratic:0 "Arabian Republic"
@@ -83,6 +89,7 @@
  SAU_democratic_ADJ:0 "Arabian"
  SAU_neutrality_ADJ:0 "Saudi Nedji"
  SAU_communism_ADJ:0 "Arabian"
+ 
  HEJ_fascism:0 "Hejazi Caliphate"
  HEJ_fascism_DEF:0 "The Hejazi Caliphate"
  HEJ_democratic:0 "Hejazi Republic"
@@ -95,6 +102,7 @@
  HEJ_democratic_ADJ:0 "Hejazi"
  HEJ_neutrality_ADJ:0 "Hejazi"
  HEJ_communism_ADJ:0 "Hejazi"
+ 
  OMA_fascism:0 "Omani Empire"
  OMA_fascism_DEF:0 "The Omani Empire"
  OMA_democratic:0 "Republic of Oman"
@@ -107,6 +115,7 @@
  OMA_democratic_ADJ:0 "Oman"
  OMA_neutrality_ADJ:0 "Oman"
  OMA_communism_ADJ:0 "Oman" 
+ 
  KER_fascism:0 "Karbala Empire"
  KER_fascism_DEF:0 "The Caliphate of Karbala"
  KER_democratic:0 "Karbala IR"
@@ -119,6 +128,7 @@
  KER_democratic_ADJ:0 "Karbalaei"
  KER_neutrality_ADJ:0 "Karbalaei"
  KER_communism_ADJ:0 "Karbalaei"
+ 
  KUR_fascism:0 "Greater Kurdistan"
  KUR_democratic:0 "Kurdish Republic"
  KUR_democratic_DEF:0 "The Kurdish Republic"
@@ -130,6 +140,7 @@
  KUR_democratic_ADJ:0 "Kurdish"
  KUR_neutrality_ADJ:0 "Kurdish"
  KUR_communism_ADJ:0 "Kurdish"
+ 
  TRM_democratic:0 "Republic of Turkmeneli"
  TRM_democratic_DEF:0 "The Republic of Turkmeneli"
  TRM_neutrality:0 "Turkmeneli"
@@ -142,6 +153,7 @@
  TRM_communism_ADJ:0 "Turkmen"
  TRM_neutrality_ADJ:0 "Turkmen"
  TRM_democratic_ADJ:0 "Turkmen"
+ 
  ASS_democratic:0 "Republic of Assyria"
  ASS_democratic_DEF:0 "The Republic of Assyria"
  ASS_neutrality:0 "Assyria"
@@ -154,6 +166,7 @@
  ASS_communism_ADJ:0 "Assyrian"
  ASS_neutrality_ADJ:0 "Assyrian"
  ASS_democratic_ADJ:0 "Assyrian"
+ 
  TUR_fascism:0 "Ottoman Empire"
  TUR_fascism_DEF:0 "The Ottoman Empire"
  TUR_democratic:0 "Republic of Turkey"
@@ -166,6 +179,7 @@
  TUR_democratic_ADJ:0 "Turkish"
  TUR_neutrality_ADJ:0 "Turkish"
  TUR_communism_ADJ:0 "Turkish"
+ 
  BOR_fascism:0 "Empire of Bordeaux"
  BOR_fascism_DEF:0 "The Empire of Bordeaux"
  BOR_democratic:0 "Bordeaux Republic"
@@ -178,6 +192,7 @@
  BOR_democratic_ADJ:0 "Bordelais"
  BOR_neutrality_ADJ:0 "Bordelais"
  BOR_communism_ADJ:0 "Bordelais"
+ 
  SCO_fascism:0 "Scottish Empire"
  SCO_fascism_DEF:0 "The Scottish Empire"
  SCO_democratic:0 "Scotland"
@@ -190,6 +205,7 @@
  SCO_democratic_ADJ:0 "Scottish"
  SCO_neutrality_ADJ:0 "Scottish"
  SCO_communism_ADJ:0 "Scottish"
+ 
  WAL_fascism:0 "Welsh Empire"
  WAL_fascism_DEF:0 "The Welsh Empire"
  WAL_democratic:0 "Wales"
@@ -202,6 +218,7 @@
  WAL_democratic_ADJ:0 "Welsh"
  WAL_neutrality_ADJ:0 "Welsh"
  WAL_communism_ADJ:0 "Welsh"
+ 
  MOR_fascism:0 "Moravian Empire"
  MOR_fascism_DEF:0 "The Moravian Empire"
  MOR_democratic:0 "Moravia"
@@ -214,6 +231,7 @@
  MOR_democratic_ADJ:0 "Moravian"
  MOR_neutrality_ADJ:0 "Moravian"
  MOR_communism_ADJ:0 "Moravian"
+ 
  BAL_fascism:0 "Baltic Empire"
  BAL_fascism_DEF:0 "The Baltic Empire"
  BAL_democratic:0 "United Baltic Republic"
@@ -226,6 +244,7 @@
  BAL_democratic_ADJ:0 "Baltic"
  BAL_neutrality_ADJ:0 "Baltic"
  BAL_communism_ADJ:0 "Baltic"
+ 
  WIF_democratic:0 "West Indian Federation"
  WIF_democratic_DEF:0 "The West Indian Federation"
  WIF_neutrality:0 "West Indian Kingdom"
@@ -238,6 +257,7 @@
  WIF_communism_ADJ:0 "West Indian"
  WIF_neutrality_ADJ:0 "West Indian"
  WIF_democratic_ADJ:0 "West Indian"
+ 
  MED_fascism:0 "Mediterranean Empire"
  MED_fascism_DEF:0 "The Mediterranean Empire"
  MED_democratic:0 "Mediterranean Federation"
@@ -250,6 +270,7 @@
  MED_democratic_ADJ:0 "Mediterranean"
  MED_neutrality_ADJ:0 "Mediterranean"
  MED_communism_ADJ:0 "Mediterranean"
+ 
  SIC_democratic:0 "Sicily"
  SIC_democratic_DEF:0 "Sicily"
  SIC_neutrality:0 "Kingdom of Sicily"
@@ -262,6 +283,7 @@
  SIC_communism_ADJ:0 "Sicilian"
  SIC_neutrality_ADJ:0 "Sicilian"
  SIC_democratic_ADJ:0 "Sicilian"
+ 
  MLT_fascism:0 "Maltese Empire"
  MLT_fascism_DEF:0 "The Maltese Empire"
  MLT_democratic:0 "Republic of Malta"
@@ -274,6 +296,7 @@
  MLT_democratic_ADJ:0 "Maltese"
  MLT_neutrality_ADJ:0 "Maltese"
  MLT_communism_ADJ:0 "Maltese"
+ 
  NAP_democratic:0 "Naples"
  NAP_democratic_DEF:0 "Naples"
  NAP_neutrality:0 "Kingdom of Naples"
@@ -286,6 +309,7 @@
  NAP_communism_ADJ:0 "Neapolitan"
  NAP_neutrality_ADJ:0 "Neapolitan"
  NAP_democratic_ADJ:0 "Neapolitan"
+ 
  ANH_fascism:0 "Anhui State"
  ANH_fascism_DEF:0 "The Anhui State"
  ANH_democratic:0 "Anhui Republic"
@@ -298,6 +322,7 @@
  ANH_democratic_ADJ:0 "Anhui"
  ANH_neutrality_ADJ:0 "Anhui"
  ANH_communism_ADJ:0 "Anhui"
+ 
  SHA_democratic:0 "Shandong Republic"
  SHA_democratic_DEF:0 "Shandong Republic"
  SHA_communism:0 "Shandong People's Republic"
@@ -310,6 +335,7 @@
  SHA_democratic_ADJ:0 "Shandong"
  SHA_neutrality_ADJ:0 "Shandong"
  SHA_communism_ADJ:0 "Shandong"
+ 
  MAC_democratic:0 "Macedonia"
  MAC_democratic_DEF:0 "Macedonia"
  MAC_communism:0 "Macedonian Red Order"
@@ -322,6 +348,7 @@
  MAC_democratic_ADJ:0 "Macedonian"
  MAC_neutrality_ADJ:0 "Macedonian"
  MAC_communism_ADJ:0 "Macedonian"
+ 
  MTN_democratic:0 "Montenegro"
  MTN_democratic_DEF:0 "Montenegro"
  MTN_communism:0 "Montenegro"
@@ -334,6 +361,7 @@
  MTN_democratic_ADJ:0 "Montenegran"
  MTN_neutrality_ADJ:0 "Montenegran"
  MTN_communism_ADJ:0 "Montenegran"
+ 
  SVN_democratic:0 "Slovenia"
  SVN_democratic_DEF:0 "Slovenia"
  SVN_communism:0 "People's Republic of Slovenia"
@@ -346,6 +374,7 @@
  SVN_democratic_ADJ:0 "Slovenian"
  SVN_neutrality_ADJ:0 "Slovenian"
  SVN_communism_ADJ:0 "Slovenian"
+ 
  SZC_democratic:0 "Republic of Sichuan"
  SZC_communism:0 "People's Republic of Sichuan"
  SZC_fascism:0 "State of Sichuan"
@@ -358,6 +387,7 @@
  SZC_communism_ADJF:0 "Sichuan"
  SZC_fascism_ADJF:0 "Sichuan"
  SZC_neutrality_ADJ:0 "Sichuan"
+ 
  ALE_democratic:0 "Aleppo"
  ALE_democratic_DEF:0 "Aleppo"
  ALE_communism:0 "Communist Aleppo"
@@ -370,6 +400,7 @@
  ALE_democratic_ADJ:0 "Aleppian"
  ALE_neutrality_ADJ:0 "Aleppian"
  ALE_communism_ADJ:0 "Aleppian"
+ 
  DAM_democratic:0 "Damascus"
  DAM_communism:0 "Comune of Damascus"
  DAM_fascism:0 "Empire of Damascus"
@@ -382,6 +413,7 @@
  DAM_communism_ADJF:0 "Damascan"
  DAM_fascism_ADJF:0 "Damascan"
  DAM_neutrality_ADJ:0 "Damascan"
+ 
  ALA_democratic:0 "Alawite Republic"
  ALA_democratic_DEF:0 "Alawite Republic"
  ALA_communism:0 "Alawite Comune"
@@ -394,6 +426,7 @@
  ALA_democratic_ADJ:0 "Alawite"
  ALA_neutrality_ADJ:0 "Alawite"
  ALA_communism_ADJ:0 "Alawite"
+ 
  DRU_democratic:0 "Jabal al Druze"
  DRU_democratic_DEF:0 "Jabal al Druze"
  DRU_communism:0 "Jabal al Druze"
@@ -406,6 +439,7 @@
  DRU_democratic_ADJ:0 "Druze"
  DRU_neutrality_ADJ:0 "Druze"
  DRU_communism_ADJ:0 "Druze"
+ 
  KAR_democratic:0 "Karelian Republic"
  KAR_democratic_DEF:0 "The Karelian Republic"
  KAR_communism:0 "Communist Karelia"
@@ -418,6 +452,7 @@
  KAR_democratic_ADJ:0 "Karelian"
  KAR_neutrality_ADJ:0 "Karelian"
  KAR_communism_ADJ:0 "Karelian"
+ 
  BOS_democratic:0 "Bosnia"
  BOS_democratic_DEF:0 "Bosnia"
  BOS_communism:0 "Communist Bosnia"
@@ -430,6 +465,7 @@
  BOS_democratic_ADJ:0 "Bosnian"
  BOS_neutrality_ADJ:0 "Bosnian"
  BOS_communism_ADJ:0 "Bosnian"
+ 
  TRA_democratic:0 "Transcaucasian Federation"
  TRA_democratic_DEF:0 "The Transcaucasian Federation"
  TRA_communism:0 "Transcaucasian Union"
@@ -444,6 +480,7 @@
  TRA_democratic_ADJ:0 "Transcaucasian"
  TRA_neutrality_ADJ:0 "Transcaucasian"
  TRA_communism_ADJ:0 "Transcaucasian"
+ 
  RUS_democratic:0 "Tsarist Republic"
  RUS_democratic_DEF:0 "The Tsarist Republic"
  RUS_communism:0 "Soviet Union"
@@ -456,6 +493,7 @@
  RUS_democratic_ADJ:0 "Russian"
  RUS_neutrality_ADJ:0 "Russian"
  RUS_communism_ADJ:0 "Russian"
+ 
  KYR_democratic:0 "Kyrgistan"
  KYR_democratic_DEF:0 "Kyrgistan"
  KYR_communism:0 "Socialist Republic of Kyrgistan"
@@ -468,6 +506,7 @@
  KYR_democratic_ADJ:0 "Kyrgyz"
  KYR_neutrality_ADJ:0 "Kyrgyz"
  KYR_communism_ADJ:0 "Kyrgyz"
+ 
  TAJ_democratic:0 "Tajikistan"
  TAJ_democratic_DEF:0 "Tajikistan"
  TAJ_communism:0 "Socialist Republic of Tajikistan"
@@ -480,18 +519,20 @@
  TAJ_democratic_ADJ:0 "Tajik"
  TAJ_neutrality_ADJ:0 "Tajik"
  TAJ_communism_ADJ:0 "Tajik"
- UZB_democratic:0 "Uzbekistan"
- UZB_democratic_DEF:0 "Uzbekistan"
- UZB_communism:0 "Socialist Republic of Uzbekistan"
- UZB_communism_DEF:0 "The Socialist Republic of Uzbekistan"
- UZB_fascism:0 "Empire of Uzbekistan"
- UZB_fascism_DEF:0 "The Empire of Uzbekistan"
- UZB_neutrality:0 "Kingdom of Uzbekistan"
- UZB_neutrality_DEF:0 "The Kingdom of Uzbekistan"
+ 
+ UZB_democratic:0 "Uzbek"
+ UZB_democratic_DEF:0 "Uzbek"
+ UZB_communism:0 "Uzbek"
+ UZB_communism_DEF:0 "Uzbek"
+ UZB_fascism:0 "Uzbek"
+ UZB_fascism_DEF:0 "Uzbek"
+ UZB_neutrality:0 "Uzbek"
+ UZB_neutrality_DEF:0 "Uzbek"
  UZB_fascism_ADJ:0 "Uzbek"
  UZB_democratic_ADJ:0 "Uzbek"
  UZB_neutrality_ADJ:0 "Uzbek"
  UZB_communism_ADJ:0 "Uzbek"
+ 
  TKM_democratic:0 "Turkmenistan"
  TKM_democratic_DEF:0 "Turkmenistan"
  TKM_communism:0 "Socialist Republic of Turkmenistan"
@@ -504,6 +545,7 @@
  TKM_democratic_ADJ:0 "Turkmen"
  TKM_neutrality_ADJ:0 "Turkmen"
  TKM_communism_ADJ:0 "Turkmen"
+ 
  MAU_democratic:0 "Mauritania"
  MAU_democratic_DEF:0 "Mauritania"
  MAU_communism:0 "Mauritania"
@@ -516,6 +558,7 @@
  MAU_democratic_ADJ:0 "Mauritanian"
  MAU_neutrality_ADJ:0 "Mauritanian"
  MAU_communism_ADJ:0 "Mauritanian"
+ 
  NIG_democratic:0 "Nigeria"
  NIG_democratic_DEF:0 "Nigeria"
  NIG_communism:0 "Nigeria"
@@ -528,6 +571,7 @@
  NIG_democratic_ADJ:0 "Nigerian"
  NIG_neutrality_ADJ:0 "Nigerian"
  NIG_communism_ADJ:0 "Nigerian"
+ 
  NGR_democratic:0 "Niger"
  NGR_democratic_DEF:0 "Niger"
  NGR_communism:0 "Niger"
@@ -540,6 +584,7 @@
  NGR_democratic_ADJ:0 "Nigerien"
  NGR_neutrality_ADJ:0 "Nigerien"
  NGR_communism_ADJ:0 "Nigerien"
+ 
  GUI_democratic:0 "Guinea"
  GUI_democratic_DEF:0 "Guinea"
  GUI_communism:0 "Guinea"
@@ -552,6 +597,7 @@
  GUI_democratic_ADJ:0 "Guinean"
  GUI_neutrality_ADJ:0 "Guinean"
  GUI_communism_ADJ:0 "Guinean"
+ 
  ALG_democratic:0 "Algeria"
  ALG_democratic_DEF:0 "Algeria"
  ALG_communism:0 "Algeria"
@@ -564,6 +610,7 @@
  ALG_democratic_ADJ:0 "Algerian"
  ALG_neutrality_ADJ:0 "Algerian"
  ALG_communism_ADJ:0 "Algerian"
+ 
  CAF_democratic:0 "Central African Republic"
  CAF_democratic_DEF:0 "The Central African Republic"
  CAF_communism:0 "Central African Commune"
@@ -576,6 +623,7 @@
  CAF_democratic_ADJ:0 "Central African"
  CAF_neutrality_ADJ:0 "Central African"
  CAF_communism_ADJ:0 "Central African"
+ 
  MLI_democratic:0 "Malinke"
  MLI_democratic_DEF:0 "Malinke"
  MLI_communism:0 "Malinke"
@@ -836,6 +884,88 @@
  KAN_neutrality_ADJ:0 "Bornoan"
  KAN_communism_ADJ:0 "Bornoan"
  KAN_socialism_ADJ:0 "Bornoan"
+ 
+ BUR_fascism:0 "Burma"
+ BUR_fascism_DEF:0 "Burma"
+ BUR_democratic:0 "Burma"
+ BUR_democratic_DEF:0 "Burma"
+ BUR_neutrality:0 "Burma"
+ BUR_neutrality_DEF:0 "Burma"
+ BUR_communism:0 "Burma"
+ BUR_communism_DEF:0 "Burma"
+ BUR_socialism:0 "Burma"
+ BUR_socialism_DEF:0 "Burma"
+ BUR_fascism_ADJ:0 "Burman"
+ BUR_democratic_ADJ:0 "Burman"
+ BUR_neutrality_ADJ:0 "Burman"
+ BUR_communism_ADJ:0 "Burman"
+ BUR_socialism_ADJ:0 "Burman"
+ 
+ CEY_fascism:0 "Ceylon"
+ CEY_fascism_DEF:0 "Ceylon"
+ CEY_democratic:0 "Ceylon"
+ CEY_democratic_DEF:0 "Ceylon"
+ CEY_neutrality:0 "Ceylon"
+ CEY_neutrality_DEF:0 "Ceylon"
+ CEY_communism:0 "Ceylon"
+ CEY_communism_DEF:0 "Ceylon"
+ CEY_socialism:0 "Ceylon"
+ CEY_socialism_DEF:0 "Ceylon"
+ CEY_fascism_ADJ:0 "Ceylan"
+ CEY_democratic_ADJ:0 "Ceylan"
+ CEY_neutrality_ADJ:0 "Ceylan"
+ CEY_communism_ADJ:0 "Ceylan"
+ CEY_socialism_ADJ:0 "Ceylan"
+ 
+ BEN_fascism:0 "Bengal Empire"
+ BEN_fascism_DEF:0 "The Bengal Empire"
+ BEN_democratic:0 "Bangladesh"
+ BEN_democratic_DEF:0 "Bangladesh"
+ BEN_neutrality:0 "Kingdom of Bengal"
+ BEN_neutrality_DEF:0 "The Kingdom of Bengal"
+ BEN_communism:0 "Bolshevik Bengal"
+ BEN_communism_DEF:0 "Bolshevik Bengal"
+ BEN_socialism:0 "Republic of Bangladesh"
+ BEN_socialism_DEF:0 "The Republic of Bangladesh"
+ BEN_fascism_ADJ:0 "Bengali"
+ BEN_democratic_ADJ:0 "Bengali"
+ BEN_neutrality_ADJ:0 "Bengali"
+ BEN_communism_ADJ:0 "Bengali"
+ BEN_socialism_ADJ:0 "Bengali"
+ 
+ ASA_fascism:0 "Assam"
+ ASA_fascism_DEF:0 "Assam"
+ ASA_democratic:0 "Assam"
+ ASA_democratic_DEF:0 "Assam"
+ ASA_neutrality:0 "Assam"
+ ASA_neutrality_DEF:0 "Assam"
+ ASA_communism:0 "Assam"
+ ASA_communism_DEF:0 "Assam"
+ ASA_socialism:0 "Assam"
+ ASA_socialism_DEF:0 "Assam"
+ ASA_fascism_ADJ:0 "Assami"
+ ASA_democratic_ADJ:0 "Assami"
+ ASA_neutrality_ADJ:0 "Assami"
+ ASA_communism_ADJ:0 "Assami"
+ ASA_socialism_ADJ:0 "Assami"
+ 
+ KKP_fascism:0 "Karakalpakstan"
+ KKP_fascism_DEF:0 "Karakalpakstan"
+ KKP_democratic:0 "Karakalpakstan"
+ KKP_democratic_DEF:0 "Karakalpakstan"
+ KKP_neutrality:0 "Karakalpakstan"
+ KKP_neutrality_DEF:0 "Karakalpakstan"
+ KKP_communism:0 "Karakalpakstan"
+ KKP_communism_DEF:0 "Karakalpakstan"
+ KKP_socialism:0 "Karakalpakstan"
+ KKP_socialism_DEF:0 "Karakalpakstan"
+ KKP_fascism_ADJ:0 "Karakalpakstani"
+ KKP_democratic_ADJ:0 "Karakalpakstani"
+ KKP_neutrality_ADJ:0 "Karakalpakstani"
+ KKP_communism_ADJ:0 "Karakalpakstani"
+ KKP_socialism_ADJ:0 "Karakalpakstani"
+ 
+ 
  
  
  

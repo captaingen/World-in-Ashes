@@ -827,3 +827,18 @@ CEY = {
 	color = rgb { 71  66  54 }
 	color_ui = rgb { 71  66  54 }
 }
+
+BEN = {
+	color = rgb { 89  74  37 }
+	color_ui = rgb { 89  74  37 }
+}
+
+ASA = {
+	color = rgb { 132  47  54 }
+	color_ui = rgb { 132  47  54 }
+}
+
+KKP = {
+	color = rgb { 65  117  163 }
+	color_ui = rgb { 65  117  163 }
+}
