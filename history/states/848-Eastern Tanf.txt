@@ -1,0 +1,21 @@
+state={
+	id=848
+	name="STATE_848"
+	provinces={
+		10383 13239 13240 
+	}
+	
+	history={
+		owner = JOR
+		add_core_of = JOR
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	manpower=54231
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

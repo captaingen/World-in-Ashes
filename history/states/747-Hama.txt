@@ -2,25 +2,24 @@
 state={
 	id=747
 	name="STATE_747"
-	manpower = 320000
 
-	
-	state_category = rural
-
-	history= {
+	history={
 		owner = DAM
 		victory_points = {
 			1056 3 
 		}
 		buildings = {
 			infrastructure = 3
-			}
-		
 
+		}
 		add_core_of = DAM
+
 	}
 
-	provinces= {
+	provinces={
 		1056 12442 13218 
 	}
+	manpower=320000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
