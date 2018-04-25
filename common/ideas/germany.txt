@@ -1410,7 +1410,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_west_wall
+				
 			}
 			
 			traits = { fortification_engineer }
@@ -1437,7 +1437,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_four_year_plan
+				
 			}
 			
 			traits = { captain_of_industry }
@@ -2112,7 +2112,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_army_innovation
+				
 			}
 
 					
@@ -2154,7 +2154,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation
+				
 			}
 						
 			traits = { air_chief_all_weather_2 }
@@ -2233,7 +2233,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-					has_completed_focus = GER_army_innovation
+					
 				}
 			
 			traits = { army_armored_3 }
@@ -2278,7 +2278,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-					has_completed_focus = GER_air_innovation
+					
 			}
 			
 			traits = { air_close_air_support_2 }
