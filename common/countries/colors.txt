@@ -394,8 +394,8 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 128  158  118 }
-	color_ui = rgb { 128  158  118 }
+	color = rgb { 99  99  99 }
+	color_ui = rgb { 99  99  99 }
 }
 
 VIN = {
@@ -841,4 +841,14 @@ ASA = {
 KKP = {
 	color = rgb { 65  117  163 }
 	color_ui = rgb { 65  117  163 }
+}
+
+JAV = {
+	color = rgb { 186  147  20 }
+	color_ui = rgb { 186  147  20 }
+}
+
+SUM = {
+	color = rgb { 44  153  96 }
+	color_ui = rgb { 44  153  96 }
 }
