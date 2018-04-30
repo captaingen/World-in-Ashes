@@ -49,4 +49,25 @@ ideas = {
 			}
 		}
 	}
+	
+	country = {
+		memories_holland = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = prc_low_popular_support2
+			
+			modifier = {
+				war_support_factor = -0.1
+			}
+		}
+	}
 }

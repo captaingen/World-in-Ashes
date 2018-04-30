@@ -44,6 +44,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
+add_ideas = {
+	recovery
+}
+
 set_convoys = 500
 
 create_country_leader = {

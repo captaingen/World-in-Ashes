@@ -28,4 +28,8 @@ spriteTypes = {
 		name = "GFX_idea_TUR_power_to_the_sultan_focus"
 		texturefile = "gfx/interface/ideas/TUR_power_to_the_sultan_focus.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_rebuild_holland"
+		texturefile = "gfx/interface/ideas/rebuild_holland.dds"
+	}
 }

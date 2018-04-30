@@ -53,6 +53,13 @@
  army_with_a_state_desc:0 "Germany has always been militaristic from its founding in 1870. It's predecessor, Prussia, was named an 'Army with a State.' After the 1848 Revolution shook Germany, there was no question that the military held unresonable power within Germany. This has many positive effects, as the Army is more efficiently led, and can punch far above its weight. However, the toll on the economy could not be understated. Also, if a Kaiser wishes to go against the military, he or she may face a coup'd etat."
  german_nationalism:0 "German Nationalism"
  german_nationalism_desc:0 "German Nationalism was what united the Prussians and the rest of Germany into one country. Its influence is still strong, evident in many places around Germany. The Army may have a state, but the Germans make up that army."
+ memories_holland:0 "Memories from Holland"
+ memories_holland_desc:0 "A story from one soldier describes it all: 'The Dutch flooded their polders, and halted us. We battled for a good month, constant barrage everyday. It was almost like World War One, but at least the conditions were better. After two years, I heard there were peace negotiations. I can only say this: I don't want to fight anymore.'"
+ 
+ #Holland
+ recovery:0 "Recovery from the German War"
+ recovery_desc:0 "To save the homeland, we had to build many forts and flood most of our fields, and because of that, we are now spending a lot of money to rebuild our country from the times of war."
+ 
  
  #Transcaucasia
  disintegrating_country:0 "Disintegrating Country"

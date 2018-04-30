@@ -97,6 +97,7 @@ add_ideas = {
 	general_staff
 	army_with_a_state
 	german_nationalism
+	memories_holland
 	limited_exports
 	partial_economic_mobilisation
 }
