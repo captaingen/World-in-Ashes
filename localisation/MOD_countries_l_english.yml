@@ -965,6 +965,40 @@
  KKP_communism_ADJ:0 "Karakalpakstani"
  KKP_socialism_ADJ:0 "Karakalpakstani"
  
+ JAV_fascism:0 "Java"
+ JAV_fascism_DEF:0 "Java"
+ JAV_democratic:0 "Java"
+ JAV_democratic_DEF:0 "Java"
+ JAV_neutrality:0 "Java"
+ JAV_neutrality_DEF:0 "Java"
+ JAV_communism:0 "Java"
+ JAV_communism_DEF:0 "Java"
+ JAV_socialism:0 "Java"
+ JAV_socialism_DEF:0 "Java"
+ JAV_fascism_ADJ:0 "Javan"
+ JAV_democratic_ADJ:0 "Javan"
+ JAV_neutrality_ADJ:0 "Javan"
+ JAV_communism_ADJ:0 "Javan"
+ JAV_socialism_ADJ:0 "Javan"
+ 
+ SUM_fascism:0 "Sumatra"
+ SUM_fascism_DEF:0 "Sumatra"
+ SUM_democratic:0 "Sumatra"
+ SUM_democratic_DEF:0 "Sumatra"
+ SUM_neutrality:0 "Sumatra"
+ SUM_neutrality_DEF:0 "Sumatra"
+ SUM_communism:0 "Sumatra"
+ SUM_communism_DEF:0 "Sumatra"
+ SUM_socialism:0 "Sumatra"
+ SUM_socialism_DEF:0 "Sumatra"
+ SUM_fascism_ADJ:0 "Sumatran"
+ SUM_democratic_ADJ:0 "Sumatran"
+ SUM_neutrality_ADJ:0 "Sumatran"
+ SUM_communism_ADJ:0 "Sumatran"
+ SUM_socialism_ADJ:0 "Sumatran"
+ 
+ 
+ 
  
  
  

@@ -35,7 +35,7 @@ set_politics = {
 		}
 		
 		socialism = {
-			popularity = 25
+			popularity = 22
 		}
 		
 		communism = {
@@ -43,9 +43,13 @@ set_politics = {
 		}
 		
 		neutrality = {
-			popularity = 50
+			popularity = 53
 		}
 	}
+	ruling_party = neutrality
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
 }
 
 create_country_leader = {
