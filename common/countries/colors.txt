@@ -852,3 +852,8 @@ SUM = {
 	color = rgb { 44  153  96 }
 	color_ui = rgb { 44  153  96 }
 }
+
+HYD = {
+	color = rgb { 225  130  10 }
+	color_ui = rgb { 225  130  10 }
+}
