@@ -1,0 +1,34 @@
+###########################
+# Swedish Focus Tree
+# By General Evergreen
+###########################
+
+focus_tree = {
+	id = swedish_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWE
+		}
+	}
+
+###########################
+### Political Tree	###
+###########################
+
+	focus = {# The June Coup
+		id = SWE_the_june_coup
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		available = { always = no }
+		bypass = { has_country_flag = the_june_coup }
+		x = 5
+		y = 0
+		completion_reward = {
+			country_event = { id = sweden_junecoup.2 }
+		}
+	}
+}

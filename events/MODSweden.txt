@@ -1,0 +1,73 @@
+﻿###########################
+# Swedish Events
+# By General Evergreen
+###########################
+
+add_namespace = sweden
+
+add_namespace = sweden_junecoup
+
+#########################################################################
+# The June Coup
+#########################################################################
+country_event = {
+	id = sweden_junecoup.1
+	title = sweden_junecoup.1.t
+	desc = sweden_junecoup.1.d
+	picture = GFX_report_event_bose_meeting
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SWE
+		date > 1936.6.1
+		date < 1936.6.20
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = sweden_junecoup.1.a
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = the_june_coup
+			country_event = { days = 5 id = sweden_junecoup.2 }
+		}
+	}
+}
+
+country_event = { # The June Coup Itself
+	id = sweden_junecoup.2
+	title = sweden_junecoup.2.t
+	desc = sweden_junecoup.2.d
+	picture = GFX_report_event_canadian_soldiers
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	# The coup succeeds
+	option = {
+		name = sweden_junecoup.2.a
+		add_political_power = -100
+		add_stability = -0.20
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		add_popularity = { 
+			ideology = fascism 
+			popularity = 0.5
+		}
+	}
+	# The coup fails
+	option = {
+		name = sweden_junecoup.2.b
+		add_political_power = -200
+		add_stability = -0.25
+		add_popularity = { 
+			ideology = fascism 
+			popularity = -0.2
+		}
+	}
+}

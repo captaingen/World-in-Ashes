@@ -36,7 +36,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 60
+			popularity = 50
 		}
 
 		communism = {
@@ -45,6 +45,10 @@ set_politics = {
 
 		fascism = {
 			popularity = 29
+		}
+		
+		neutrality = {
+			popularity = 10
 		}
 		
 	}
@@ -62,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "SWE_Per_Albin_Hansson.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = progressive
 	traits = {
 		#
 	}
