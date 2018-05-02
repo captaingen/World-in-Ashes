@@ -50,11 +50,12 @@ country_event = {
     }
 }
 
+#what to do?
 country_event = {
     id = nasi.2
     title = nasi.2.t
     desc = nasi.2.d
-    picture = GFX_report_event_worker_protests
+    picture = GFX_FRA_what_to_do
 
     is_triggered_only = yes
 	
