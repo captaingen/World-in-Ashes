@@ -1,10 +1,10 @@
 ﻿l_english:
  #News Events
- news.334.t:0 "French Ceasefire Broken"
- news.334.d:0 "Its already been a long time since the French Civil War ceasefire. Officials from both sides had high hopes in securing a swift victory but that did not happen. \n Last night, French soldiers from the southern located government, know as the Bordeaux Republic staged a stealth attack on defending Nasi Soldiers near the Swiss border. \n The casualties are yet unknown but sources claim they stack at around 30 Nasi deaths and over 200 injured. \n This attack surely angered the Nasi Regime. The ceasefire has been broken, will the civil war rage on again? "
- news.334.a:0 "The South has made a grave mistake..."
- news.334.b:0 "How could we accept such a thing?"
- news.334.c:0 "These Nasis deserve it!"
+ news.500.t:0 "French Ceasefire Broken"
+ news.500.d:0 "Its already been a long time since the French Civil War ceasefire. Officials from both sides had high hopes in securing a swift victory but that did not happen. \n Last night, French soldiers from the southern located government, know as the Bordeaux Republic staged a stealth attack on defending Nasi Soldiers near the Swiss border. \n The casualties are yet unknown but sources claim they stack at around 30 Nasi deaths and over 200 injured. \n This attack surely angered the Nasi Regime. The ceasefire has been broken, will the civil war rage on again? "
+ news.500.a:0 "The South has made a grave mistake..."
+ news.500.b:0 "How could we accept such a thing?"
+ news.500.c:0 "These Nasis deserve it!"
  
  #France
  nasi.1.t:0 "Ceasefire Broken"

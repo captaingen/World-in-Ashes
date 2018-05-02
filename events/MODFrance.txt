@@ -29,7 +29,7 @@ country_event = {
     id = nasi.1
     title = nasi.1.t
     desc = nasi.1.d
-    picture = GFX_report_event_worker_protests
+    picture = GFX_FRA_broken_truce
 
     is_triggered_only = yes
 	
@@ -43,6 +43,34 @@ country_event = {
     option = {
         name = nasi.1.a
 		add_political_power = 5
-		news_event = { days = 2 id = news.334}
+		news_event = { days = 1 id = news.500}
+		hidden = {
+			country_event = { days = 1 id = nasi.2}
+		}
+    }
+}
+
+country_event = {
+    id = nasi.2
+    title = nasi.2.t
+    desc = nasi.2.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = { #Continue the Ceasefire
+        name = nasi.2.a
+		add_political_power = -150
+		#news_event = { days = 1 id = news.501}
+		#hidden = {
+		#	country_event = { days = 1 id = nasi.3}
+		#}
     }
 }

@@ -6,17 +6,17 @@ add_namespace = news
 
 # French Ceasefire Disrespected
 news_event = {
-	id = news.334
-	title = news.334.t
-	desc = news.334.d
-	picture = GFX_news_event_001
+	id = news.500
+	title = news.500.t
+	desc = news.500.d
+	picture = GFX_news_event_500
 	
 	major = yes
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = news.334.a
+		name = news.500.a
 		trigger = {
 			NOT = {
 				TAG = FRA
@@ -25,11 +25,11 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.334.b
+		name = news.500.b
 		trigger = { TAG = FRA }
 	}
 	option = {
-		name = news.334.c
+		name = news.500.c
 		trigger = { TAG = BOR }
 	}
 }

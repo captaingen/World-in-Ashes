@@ -1,12 +1,12 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_news_event_1000"
-		texturefile = "gfx/event_pictures/news_event_1000.dds"
+		name = "GFX_news_event_500"
+		texturefile = "gfx/event_pictures/news_event_500.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_turkish_retreat"
-		texturefile = "gfx/event_pictures/report_event_turkish_retreat.dds"
+		name = "GFX_FRA_broken_truce"
+		texturefile = "gfx/event_pictures/broken_truce_FRA.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_train_women"
@@ -37,6 +37,5 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/strat.dds"
 	}
 }
-	#### END DoD EVENTS ####
 	
 	
