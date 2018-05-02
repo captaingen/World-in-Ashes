@@ -45,6 +45,9 @@ set_technology = {
 
 set_convoys = 300
 
+add_ideas = {
+FRA_Civil_War
+}
 
 set_politics = {
 

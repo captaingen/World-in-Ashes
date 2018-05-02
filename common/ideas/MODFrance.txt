@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		FRA_Civil_War = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills_payment
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_bunker_factor = 0.3
+				production_speed_naval_base_factor = 0.2
+				
+			}
+		}
+	}
+}

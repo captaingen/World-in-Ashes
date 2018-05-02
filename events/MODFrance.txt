@@ -1,0 +1,48 @@
+﻿###########################
+# Events for Fascist France
+###########################
+
+add_namespace = nasi
+
+#hidden starting event for fascist france
+country_event = {
+    id = nasi.0
+    title = nasi.0.t
+    desc = nasi.0.d
+    picture = GFX_report_event_worker_protests
+
+    hidden = yes
+	
+	fire_only_once = yes
+
+    immediate = {
+    }
+
+    option = {
+        name = nasi.0.a
+		country_event = { days = 1 id = nasi.1}
+    }
+}
+
+#Ceasefire disrespected
+country_event = {
+    id = nasi.1
+    title = nasi.1.t
+    desc = nasi.1.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = {
+        name = nasi.1.a
+		add_political_power = 5
+		news_event = { days = 2 id = news.334}
+    }
+}

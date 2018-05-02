@@ -1,0 +1,35 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# French Ceasefire Disrespected
+news_event = {
+	id = news.334
+	title = news.334.t
+	desc = news.334.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.334.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = BOR
+			}
+		}
+	}
+	option = {
+		name = news.334.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.334.c
+		trigger = { TAG = BOR }
+	}
+}

@@ -1,9 +1,11 @@
 on_actions = {
 	on_startup = {
 		effect = {
-		every_country = {
+			every_country = {
 				country_event = wia.0
 			}
+			FRA = {
+				country_event = nasi.0
 		}
 	}
 }
