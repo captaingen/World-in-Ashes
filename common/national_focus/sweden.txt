@@ -20,7 +20,7 @@ focus_tree = {
 ###########################
 
 	focus = {# The June Coup
-		id = SWE_the_june_coup
+		id = SWE_june_coup
 		icon = GFX_focus_generic_self_management
 		cost = 10.00
 		available = { always = no }
@@ -29,6 +29,44 @@ focus_tree = {
 		y = 0
 		completion_reward = {
 			country_event = { id = sweden_junecoup.2 }
+		}
+	}
+	
+	focus = {# We Put Him Down
+		id = SWE_put_down
+		icon = GFX_focus_rom_abdicate
+		cost = 10.00
+		available = { always = no }
+		bypass = { has_country_flag = coup_fails }
+		prerequisite = {
+			focus = SWE_june_coup
+		}
+		mutually_exclusive = {
+			focus = SWE_monarchs_will
+		}
+		x = 4
+		y = 1
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = {# The Monarch's Will
+		id = SWE_monarchs_will
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		available = { always = no }
+		bypass = { has_country_flag = coup_succeeds }
+		prerequisite = {
+			focus = SWE_june_coup
+		}
+		mutually_exclusive = {
+			focus = SWE_put_down
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			#
 		}
 	}
 }

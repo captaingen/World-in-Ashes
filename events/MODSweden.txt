@@ -10,7 +10,7 @@ add_namespace = sweden_junecoup
 #########################################################################
 # The June Coup
 #########################################################################
-country_event = {
+country_event = { # Plotting
 	id = sweden_junecoup.1
 	title = sweden_junecoup.1.t
 	desc = sweden_junecoup.1.d
@@ -57,7 +57,10 @@ country_event = { # The June Coup Itself
 		}
 		add_popularity = { 
 			ideology = fascism 
-			popularity = 0.5
+			popularity = 0.3
+		}
+		hidden_effect = {
+			set_country_flag = coup_succeeds
 		}
 	}
 	# The coup fails
@@ -67,7 +70,10 @@ country_event = { # The June Coup Itself
 		add_stability = -0.25
 		add_popularity = { 
 			ideology = fascism 
-			popularity = -0.2
+			popularity = -0.25
+		}
+		hidden_effect = {
+			set_country_flag = coup_fails
 		}
 	}
 }
