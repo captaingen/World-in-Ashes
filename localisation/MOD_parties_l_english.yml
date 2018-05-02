@@ -51,5 +51,14 @@
  SPK_fascism_party:0 "Falange"
  SPK_fascism_party_long:0 "Falange Española de las JONS"
  SPK_neutrality_party:0 "Bourbon"
-
+ CHL_neutrality_party:0 "JMCh"
+ CHL_neutrality_party_long:0 "Junta Militar de Chile"
+ CHL_fascism_party:0 "VPS"
+ CHL_fascism_party_long:0 "Vanguardia Popular Socialista"
+ CHL_democratic_party:0 "PL"
+ CHL_democratic_party_long:0 "Partido Liberal"
+ CHL_communism_party:0 "PCCh"
+ CHL_communism_party_long:0 "Partido Comunista de Chile"
+ CHL_socialism_party:0 "PSCh"
+ CHL_socialism_party_long:- "Partido Socialista de Chile"
 
