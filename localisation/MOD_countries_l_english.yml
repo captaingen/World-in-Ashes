@@ -1029,7 +1029,21 @@
  SWE_communism_ADJ:0 "Swedish"
  SWE_socialism_ADJ:0 "Swedish"
  
- 
+ HYD_fascism:0 "Hyderabad"
+ HYD_fascism_DEF:0 "Hyderabad"
+ HYD_democratic:0 "Hyderabad"
+ HYD_democratic_DEF:0 "Hyderabad"
+ HYD_neutrality:0 "Hyderabad"
+ HYD_neutrality_DEF:0 "Hyderabad"
+ HYD_communism:0 "Hyderabad"
+ HYD_communism_DEF:0 "Hyderabad"
+ HYD_socialism:0 "Hyderabad"
+ HYD_socialism_DEF:0 "Hyderabad"
+ HYD_fascism_ADJ:0 "Hyderabadi"
+ HYD_democratic_ADJ:0 "Hyderabadi"
+ HYD_neutrality_ADJ:0 "Hyderabadi"
+ HYD_communism_ADJ:0 "Hyderabadi"
+ HYD_socialism_ADJ:0 "Hyderabadi"
  
  
  
