@@ -1013,6 +1013,22 @@
  SUM_communism_ADJ:0 "Sumatran"
  SUM_socialism_ADJ:0 "Sumatran"
  
+ SWE_fascism:0 "Kingdom of Sweden"
+ SWE_fascism_DEF:0 "the Kingdom of Sweden"
+ SWE_democratic:0 "Sweden"
+ SWE_democratic_DEF:0 "Sweden"
+ SWE_neutrality:0 "Kingdom of Sweden"
+ SWE_neutrality_DEF:0 "the Kingdom of Sweden"
+ SWE_communism:0 "People's Sweden"
+ SWE_communism_DEF:0 "the People's Sweden"
+ SWE_socialism:0 "People's Sweden"
+ SWE_socialism_DEF:0 "the People's Sweden"
+ SWE_fascism_ADJ:0 "Swedish"
+ SWE_democratic_ADJ:0 "Swedish"
+ SWE_neutrality_ADJ:0 "Swedish"
+ SWE_communism_ADJ:0 "Swedish"
+ SWE_socialism_ADJ:0 "Swedish"
+ 
  
  
  
