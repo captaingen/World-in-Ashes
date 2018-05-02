@@ -10,12 +10,24 @@
  nasi.1.t:0 "Ceasefire Broken"
  nasi.1.d:0 "The Bordelais broke the ceasefire just like we expected it would happen. The only question now is what to do..."
  nasi.1.a:0 "What should we do?"
+ nasi.2.t:0 "What should we do?"
+ nasi.2.d:0 "There are only two valid options here..."
+ nasi.2.a:0 "We should keep the ceasefire going from out side"
+ nasi.2.b:0 "Send in a counterattack!"
+ nasi.3.t:0 "Successful Counterattack"
+ nasi.3.d:0 "We have sent a lot of men in a counterattack effort and we succeeded!"
+ nasi.3.a:0 "We will beat Bordeaux!"
+ nasi.4.t:0 "Failed Counterattack"
+ nasi.4.d:0 "We have sent a lot of men in a counterattack effort, but we failed."
+ nasi.4.a:0 "It will be a struggle..."
  
- #Spain
- spain.2000.t:0 "Phoenicia demands Spanish Africa"
- spain.2000.d:0 "The empire of Phoenicia has sent us a demand to return to them our North African land as they say it was their colony in the old ages. Should we give up this state?"
- spain.2000.a:0 "It will be wise to do so."
- spain.2000.b:0 "This is nonesense, mierda!"
+ #Bordeaux
+ bordeaux.0.t:0 "The Nasis launch a successful counterattack!"
+ bordeaux.0.d:0 "The Nasis launched an attack and beat our entrenched men..."
+ bordeaux.0.a:0 "It will be a struggle..."
+ bordeaux.1.t:0 "The Nasis launch a failed counterattack!"
+ bordeaux.1.d:0 "The Nasis launched an attack and lost against our entrenched men..."
+ bordeaux.1.a:0 "We will beat the Nasis!"
  
  #Italy
  italy.2000.t:0 "Phoenicia demands Tripoli"

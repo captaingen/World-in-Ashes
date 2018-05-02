@@ -1,0 +1,107 @@
+﻿###########################
+# Events for democratic France
+###########################
+
+add_namespace = bordeaux
+
+#The Nasis push back and win
+country_event = {
+    id = bordeaux.0
+    title = bordeaux.0.t
+    desc = bordeaux.0.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    immediate = {
+    }
+
+    option = {
+		if = {
+			limit = { 
+				20 = { 
+					AND = {
+						is_owned_by = BOR
+						any_neighbor_state = { is_owned_by = FRA } 
+					}
+				}
+			}
+			20 = { add_manpower = -30000 }
+		}		
+		if = {
+			limit = {
+				NOT = {
+					20 = {
+						AND = {
+							is_owned_by = BOR
+							any_neighbor_state = { is_owned_by = FRA } 
+						} 
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { any_neighbor_state = { is_owned_by = FRA } }
+				add_manpower = -30000
+			}
+		}
+
+		army_experience = 5
+		name = bordeaux.0.a
+		FRA = {
+			country_event = { id = nasi.3 }
+		}
+	}
+}
+
+#The Nasis push back and lose
+country_event = {
+    id = bordeaux.1
+    title = bordeaux.1.t
+    desc = bordeaux.1.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    immediate = {
+    }
+
+    option = {
+		if = {
+			limit = { 
+				20 = { 
+					AND = {
+						is_owned_by = BOR
+						any_neighbor_state = { is_owned_by = FRA } 
+					}
+				}
+			}
+			20 = { add_manpower = -15000 }
+		}		
+		if = {
+			limit = {
+				NOT = {
+					20 = {
+						AND = {
+							is_owned_by = BOR
+							any_neighbor_state = { is_owned_by = FRA } 
+						} 
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { any_neighbor_state = { is_owned_by = FRA } }
+				add_manpower = -15000
+			}
+		}
+
+		army_experience = 15
+		name = bordeaux.1.a
+		FRA = {
+			country_event = { id = nasi.4 }
+		}
+	}
+}

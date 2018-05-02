@@ -44,7 +44,7 @@ country_event = {
         name = nasi.1.a
 		add_political_power = 5
 		news_event = { days = 1 id = news.500}
-		hidden = {
+		hidden_effect = {
 			country_event = { days = 1 id = nasi.2}
 		}
     }
@@ -70,7 +70,123 @@ country_event = {
 		add_political_power = -150
 		#news_event = { days = 1 id = news.501}
 		#hidden = {
-		#	country_event = { days = 1 id = nasi.3}
+		#	country_event = { days = 5 id = nasi.3}
 		#}
     }
+	
+	option = { #Counterattack
+        name = nasi.2.b
+		hidden_effect = {
+			random_list = {
+				70 = {
+					BOR = {
+						country_event = { days = 1 id = bordeaux.0 }
+					}
+				}
+				30 = {
+					BOR = {
+						country_event = { days = 1 id = bordeaux.1 }
+					}
+				}
+			}
+		}
+		
+		effect_tooltip = {
+			random_list = {
+				70 = {
+					country_event = nasi.3
+				}
+				30 = {
+					country_event = nasi.4
+				}
+			}
+		}
+    }
+}
+
+# Successful Counterattack
+country_event = {
+	id = nasi.3
+	title = nasi.3.t
+	desc = nasi.3.d
+	picture = GFX_report_event_dead_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nasi.3.a
+		if = {
+			limit = { 
+				17 = { 
+					AND = {
+						is_owned_by = FRA
+						any_neighbor_state = { is_owned_by = BOR } 
+					}
+				}
+			}
+			17 = { add_manpower = -30000 }
+		}		
+		if = {
+			limit = {
+				NOT = {
+					17 = {
+						AND = {
+							is_owned_by = FRA
+							any_neighbor_state = { is_owned_by = BOR } 
+						} 
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { any_neighbor_state = { is_owned_by = BOR } }
+				add_manpower = -30000
+			}
+		}
+
+		army_experience = 30
+	}
+}
+
+# Failed Counterattack
+country_event = {
+	id = nasi.4
+	title = nasi.4.t
+	desc = nasi.4.d
+	picture = GFX_report_event_dead_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = { 
+				17 = { 
+					AND = {
+						is_owned_by = FRA
+						any_neighbor_state = { is_owned_by = BOR } 
+					}
+				}
+			}
+			17 = { add_manpower = -15000 }
+		}		
+		if = {
+			limit = {
+				NOT = {
+					17 = {
+						AND = {
+							is_owned_by = FRA
+							any_neighbor_state = { is_owned_by = BOR } 
+						} 
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { any_neighbor_state = { is_owned_by = BOR } }
+				add_manpower = -15000
+			}
+		}
+
+		add_political_power = -25
+		army_experience = 10
+		name = nasi.4.a
+	}
 }
