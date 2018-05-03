@@ -62,11 +62,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas = {
-	trotskyite_plot
-	home_of_revolution
-}
-
 create_country_leader = {
 	name = "Mikhail Kalinin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"

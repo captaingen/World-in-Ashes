@@ -1238,20 +1238,6 @@ ideas = {
 		generic_electronics_concern = {
 			
 			picture = generic_electronics_concern_1
-
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
-				NOT = {
-					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
-				}
-				NOT = {
-					has_DLC = "Waking the Tiger"
-					OR = {
-						original_tag = MAN
-						is_literally_china = yes
-					}
-				}
-			}
 			
 			cost = 150
 			removal_cost = 10
