@@ -68,6 +68,9 @@ country_event = {
 
     option = { #Continue the Ceasefire
         name = nasi.2.a
+		ai_chance = {
+			factor = 5
+		}
 		add_political_power = -150
 		#news_event = { days = 1 id = news.501}
 		#hidden = {
@@ -77,6 +80,9 @@ country_event = {
 	
 	option = { #Counterattack
         name = nasi.2.b
+		ai_chance = {
+			factor = 95
+		}
 		hidden_effect = {
 			random_list = {
 				70 = {
@@ -145,6 +151,11 @@ country_event = {
 		}
 
 		army_experience = 30
+		hidden_effect = {
+			BOR = {
+				country_event = { days = 1 id = bordeaux.2 }
+			}
+		}
 	}
 }
 
@@ -189,5 +200,10 @@ country_event = {
 		add_political_power = -25
 		army_experience = 10
 		name = nasi.4.a
+		hidden_effect = {
+			BOR = {
+				country_event = { days = 1 id = bordeaux.3 }
+			}
+		}
 	}
 }
