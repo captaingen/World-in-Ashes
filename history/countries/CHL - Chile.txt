@@ -74,7 +74,7 @@ set_convoys = 20
 	}
 }
 
-set_convoys = 5
+set_convoys = 25
 set_politics = {
 
 	parties = {
@@ -104,7 +104,7 @@ set_politics = {
 create_country_leader = {
 	name = "Arturo Alessandri"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "GFX_Portrait_chile_arturo_alessandri"
+	picture = "Arturo_Alessandri.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {

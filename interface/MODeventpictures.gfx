@@ -9,8 +9,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/broken_truce_FRA.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_train_women"
-		texturefile = "gfx/event_pictures/report_event_train_women.dds"
+		name = "GFX_FRA_what_to_do"
+		texturefile = "gfx/event_pictures/FRA_what_to_do.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_joint_army"
