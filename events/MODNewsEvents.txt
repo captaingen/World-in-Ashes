@@ -15,8 +15,6 @@ news_event = {
 	
 	is_triggered_only = yes
 	
-	fire_only_once = yes
-	
 	option = {
 		name = news.500.a
 		trigger = {
@@ -47,8 +45,6 @@ news_event = {
 	
 	is_triggered_only = yes
 	
-	fire_only_once = yes
-	
 	option = {
 		name = news.501.a
 		trigger = {
@@ -78,8 +74,6 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
-	
-	fire_only_once = yes
 	
 	option = {
 		name = news.502.a

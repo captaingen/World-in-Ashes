@@ -20,7 +20,10 @@ country_event = {
 
     option = {
         name = nasi.0.a
-		country_event = { days = 1 id = nasi.1}
+		country_event = { days = 30 id = nasi.1}
+		BOR = {
+			country_event = { days = 2 id = bordeaux.1 }
+		}
     }
 }
 

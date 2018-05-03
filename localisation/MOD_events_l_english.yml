@@ -46,6 +46,9 @@
  bordeaux.3.d:0 "We need to see what the best decision is..."
  bordeaux.3.a:0 "War is inevitable"
  bordeaux.3.b:0 "We are not prepared yet..."
+ bordeaux.4.t:0 "Stealth Attack"
+ bordeaux.4.d:0 "We have been preparing for this for months, our special forces are fully trained to launch this secret attack, they won't know it was us... surely, they won't..."
+ bordeaux.4.a:0 "Send in the troops..."
  
  #Italy
  italy.2000.t:0 "Phoenicia demands Tripoli"
