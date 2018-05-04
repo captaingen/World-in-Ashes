@@ -602,5 +602,13 @@
  spain.2.d:0 "The 1936 Elections are upon us and we must choose the best candidate for the job."
  spain.2.a:0 "Keep The CEDA in power."
  spain.2.b:0 "Azana and the Popular Front."
+
+ #WIF
+ wif.0.t:0 "February Strike"
+ wif.0.d:0 "The Workers have expressed their anger for the government's incompetence in a nation-wide strike."
+ wif.0.a:0 "It's a dark day"
+ wif.1.t:0 "Socialist Rally"
+ wif.1.d:0 "One month after the nation-wide stike the socialist party holds a rally promising the working-class better lives if they are elected."
+ wif.1.a:0 "Interesting development..."
   
  
