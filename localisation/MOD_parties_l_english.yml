@@ -29,6 +29,8 @@
  WIF_democratic_party:0 "Democratic Labour Party"
  WIF_communism_party:0 "WICP"
  WIF_communism_party:0 "West Indies Communist Party"
+ WIF_socialism_party:0 "WISP"
+ WIF_socialism_party:0 "West Indies Socialist Party"
  WIF_neutrality_party:0 "WIFLP"
  WIF_neutrality_party:0 "West Indies Federal Labour Party"
  SPR_democratic_party:0 "CEDA"

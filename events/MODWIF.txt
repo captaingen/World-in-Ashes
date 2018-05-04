@@ -1,0 +1,76 @@
+﻿add_namespace = wif
+
+#February Strike
+country_event = {
+    id = wif.0
+    title = wif.0.t
+    desc = wif.0.d
+    picture = GFX_report_event_worker_protests
+    fire_only_once = yes
+
+    trigger = {
+		tag = WIF
+        date > 1936.2.9
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wif.0.a
+		add_political_power = -50
+		add_stability = -0.2
+    }
+}
+
+#Socialist Rally
+country_event = {
+    id = wif.1
+    title = wif.1.t
+    desc = wif.1.d
+    picture = GFX_report_event_worker_protests
+    fire_only_once = yes
+
+    trigger = {
+        tag = WIF
+        date > 1936.3.9
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wif.1.a
+        add_popularity = {
+             ideology = socialism
+            popularity = 0.1
+        }
+    }
+}
+
+country_event = {
+    id = wif.2
+    title = wif.2.t
+    desc = wif.2.d
+    picture = GFX_report_event_election_vote
+    fire_only_once = yes
+
+    trigger = {
+        tag = WIF
+        date > 1936.7.9
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wif.2.a
+        add_popularity = {
+             ideology = socialism
+            popularity = 0.1
+        }
+    }
+}
