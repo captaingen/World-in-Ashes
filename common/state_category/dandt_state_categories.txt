@@ -1,0 +1,87 @@
+state_categories={
+	utterly_sparse = { #<200k
+		local_building_slots = 0
+	
+		color = { 40 40 40 }
+
+	}
+	extremely_sparse = { #200k - 400k
+		local_building_slots = 1
+	
+		color = { 180 0 0 }
+
+	}
+	highly_sparse = { #400k - 700k
+		local_building_slots = 2
+	
+		color = { 240 0 0 }
+
+	}
+	very_sparse = { #700k - 1,000k
+		local_building_slots = 3
+	
+		color = { 216 93 0 }
+
+	}
+	sparse = { #1,000k - 1,400k
+		local_building_slots = 4
+	
+		color = { 214 132 0 }
+
+	}
+	slightly_sparse = { #1,400k - 2,000k
+		local_building_slots = 6
+	
+		color = { 214 189 0 }
+
+	}
+
+	slightly_dense = { #2,000k - 2,500k
+		local_building_slots = 7
+	
+		color = { 178 216 0 }
+
+	}
+	dense = { #2,500k - 3,000k
+		local_building_slots = 8
+	
+		color = { 145 235 0 }
+
+	}
+	very_dense = { #3,000k - 4,000k
+		local_building_slots = 10
+	
+		color = { 35 214 0 }
+
+	}
+	highly_dense = { #4,000k - 5,500k
+		local_building_slots = 13
+	
+		color = { 0 255 0 }
+
+	}
+	extremely_dense = { #5,500k - 9,000k
+		local_building_slots = 20
+	
+		color = { 0 214 182 }
+
+	}
+	immensely_dense = { #9,000k - 15,000k
+		local_building_slots = 30
+	
+		color = { 0 134 255 }
+
+	}
+	utterly_dense = { #15,000k - 25,000k
+		local_building_slots = 40
+	
+		color = { 209 43 255 }
+
+	}
+	overcrowded = { #>25,000k
+		local_building_slots = 50
+	
+		color = { 255 0 255 }
+
+	}
+}
