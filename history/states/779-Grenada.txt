@@ -5,7 +5,7 @@ state={
 		11106 
 	}
 
-	state_category = town
+	state_category = utterly_sparse
 	history={
 		owner = WIF
 		buildings = {
@@ -14,8 +14,6 @@ state={
 			}
 		
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
 			air_base = 1
 		}
 		add_core_of = WIF

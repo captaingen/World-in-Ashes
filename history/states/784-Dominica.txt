@@ -22,5 +22,5 @@ state={
 	}
 	manpower=50600
 	buildings_max_level_factor=1.000
-	state_category=tiny_island
+	state_category=utterly_sparse
 }
