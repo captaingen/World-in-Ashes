@@ -1,0 +1,47 @@
+WIF_social_laws_category = {
+	stricterracelaws = {
+		allowed = {
+			tag = WIF
+		}
+		available = {
+			has_country_flag = febstrike
+			NOT = { has_country_flag = lighterracelaws}
+		}
+		visible = {
+		tag = WIF
+		has_country_flag = febstrike
+			NOT = { has_country_flag = lighterracelaws}
+		}
+		complete_effect = {
+			WIF = { country_event = { days = 1 id = wif.2} }
+		}
+		cost = 50
+		days_remove = -1
+		ai_will_do = {
+		10
+		}
+	}
+
+	lighterracelaws = {
+		allowed = {
+			tag = WIF
+		}
+		available = {
+			has_country_flag = febstrike
+			NOT = { has_country_flag = stricterracelaws}
+		}
+		visible = {
+		tag = WIF
+		has_country_flag = febstrike
+			NOT = { has_country_flag = stricterracelaws}
+		}
+		complete_effect = {
+			WIF = { country_event = { days = 1 id = wif.3} }
+		}
+		cost = 50
+		days_remove = -1
+		ai_will_do = {
+		10
+		}
+	}
+}

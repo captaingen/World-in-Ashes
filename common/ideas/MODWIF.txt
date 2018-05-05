@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		stricter_race_laws = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills_payment
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+				
+			}
+		}
+
+		lighter_race_laws = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_mefo_bills_payment
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = 0.1
+				
+			}
+		}
+	}
+}

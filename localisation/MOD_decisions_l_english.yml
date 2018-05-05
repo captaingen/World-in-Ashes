@@ -4,3 +4,9 @@
   increase_stability_desc:0 "Stability is important, but it takes a lot of political manuvering to get that stability"
   increase_stability_2:0 "Increase National Stability"
   increase_stability_2_desc:0 "Stability is important, but it takes a lot of political manuvering to get that stability"
+
+  #WIF
+  stricterracelaws:0 "Stricter Race Laws"
+  stricterracelaws_desc:0 "While it's not the best policy Ultranationalists see this as some kind of revenge."
+  lighterracelaws:0 "Lighter Race Laws"
+  lighterracelaws_desc:0 "This will definitely ease tensions in this unstable country."
