@@ -1,0 +1,17 @@
+﻿l_english:
+ #State Category Names
+  utterly_sparse:0 "Utterly Sparse"
+  extremely_sparse:0 "Extremely Sparse"
+  highly_sparse:0 "Highly Sparse"
+  very_sparse:0 "Very Sparse"
+  sparse:0 "Sparse"
+  slightly_sparse:0 "Slightly Sparse"
+
+  slightly_dense:0 "Slightly Dense"
+  dense:0 "Dense"
+  very_dense:0 "Very Dense"
+  highly_dense:0 "Highly Dense"
+  extremely_dense:0 "Extremely Dense"
+  immensely_dense:0 "Immensely Dense"
+  utterly_dense:0 "Utterly Dense"
+  overcrowded:0 "Overcrowded"
