@@ -20,6 +20,6 @@ state={
 	}
 	manpower=214858
 	
-	state_category = rural
+	state_category = extremely_sparse
 	buildings_max_level_factor=1.000
 }

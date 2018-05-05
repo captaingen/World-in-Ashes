@@ -4,7 +4,7 @@ state={
 	name="STATE_785" # Kymi
 	manpower = 270190
 	
-	state_category = rural
+	state_category = extremely_sparse
 	
 	history={
 		owner = FIN

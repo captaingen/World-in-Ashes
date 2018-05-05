@@ -4,7 +4,7 @@ state={
 	name="STATE_111" # Uusimaa
 	manpower = 1070190
 	
-	state_category = city
+	state_category = sparse
 	
 	history={
 		owner = FIN
