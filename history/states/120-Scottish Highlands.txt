@@ -3,7 +3,7 @@ state= {
 	name="STATE_120"
 	manpower = 265873
 	
-	state_category = rural
+	state_category = extremely_sparse
 
 	resources={
 		chromium=2

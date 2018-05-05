@@ -4,7 +4,7 @@ state={
 	name="STATE_121" # Lothian
 	manpower = 1431624
 	
-	state_category = city
+	state_category = slightly_sparse
 
 	history={
 		owner = SCO
