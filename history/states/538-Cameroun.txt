@@ -4,7 +4,7 @@ state={
 	name="STATE_538" # Central Congo
 	manpower = 1693974
 	
-	state_category = wasteland
+	state_category = slightly_sparse
 	resources={
 		rubber=5 # was: 5
 	}

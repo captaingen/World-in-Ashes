@@ -4,7 +4,7 @@ state={
 	manpower = 85232
 
 
-	state_category = enclave
+	state_category = utterly_sparse
 
 	history={
 		owner = ETH

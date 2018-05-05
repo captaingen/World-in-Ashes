@@ -4,7 +4,7 @@ state={
 	name="STATE_295" # Leopoldville
 	manpower = 3540948
 	
-	state_category = rural
+	state_category = very_dense
 	
 	resources={
 		tungsten=2 # was: 2

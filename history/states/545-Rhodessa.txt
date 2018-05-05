@@ -1,7 +1,7 @@
 state={
 	id=545
 	
-	state_category = rural
+	state_category = highly_dense
 	
 	name="STATE_545"
 	resources={
