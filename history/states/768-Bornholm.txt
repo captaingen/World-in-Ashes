@@ -3,7 +3,7 @@ state= {
 	name="STATE_768"
 	manpower = 34114
 
-	state_category = rural
+	state_category = utterly_sparse
 
 	history=
 	{

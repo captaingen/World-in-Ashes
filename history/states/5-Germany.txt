@@ -3,7 +3,7 @@ state={
 	id=5
 	name="STATE_5"
 	manpower = 1378108
-	state_category = large_city
+	state_category = slightly_sparse
 
 	history={
 		owner = GER

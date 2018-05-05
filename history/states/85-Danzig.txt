@@ -3,7 +3,7 @@ state={
 	name="STATE_85"
 	manpower = 1080100
 	
-	state_category = city
+	state_category = sparse
 	history={
 		owner = GER
 		victory_points = {

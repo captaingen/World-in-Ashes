@@ -4,7 +4,7 @@ state={
 	name="STATE_138"
 	manpower = 1047701
 	
-	state_category = city
+	state_category = sparse
 
 	history={
 		owner = DEN
