@@ -70,7 +70,7 @@ country_event = {
         add_ideas = {
             stricter_race_laws
         }
-        manpower = -300000
+        add_manpower = -300000
         add_stability = -0.1
     }
 }
@@ -92,7 +92,7 @@ country_event = {
         add_ideas = {
             lighter_race_laws
         }
-        manpower = 300000
+        add_manpower = 300000
         add_stability = -0.1
 
         add_popularity = {
