@@ -4,7 +4,7 @@ state=
 	name="STATE_764"
 	manpower = 56596
 	
-	state_category = pastoral
+	state_category = utterly_sparse
 
 	history=
 	{
