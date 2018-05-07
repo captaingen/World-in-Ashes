@@ -4,7 +4,7 @@ state={
 	name="STATE_240" # Belgorod
 	manpower = 1364537
 	
-	state_category = town
+	state_category = slightly_sparse
 
 	history={
 		owner = RUS

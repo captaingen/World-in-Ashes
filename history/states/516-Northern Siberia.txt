@@ -4,7 +4,7 @@ state={
 	name="STATE_516" # Northwestern Siberia
 	manpower = 43948
 	
-	state_category = wasteland
+	state_category = utterly_sparse
 
 	history={
 		owner = RUS

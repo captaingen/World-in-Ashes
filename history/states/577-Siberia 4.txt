@@ -7,7 +7,7 @@ state={
 		oil=13 # was: 14
 	}
 	
-	state_category = wasteland
+	state_category = utterly_sparse
 
 	history={
 		owner = RUS

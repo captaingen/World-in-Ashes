@@ -4,7 +4,7 @@ state={
 	name="STATE_260" # Voronezh
 	manpower = 2567983
 	
-	state_category = town
+	state_category = dense
 
 	history={
 		owner = RUS

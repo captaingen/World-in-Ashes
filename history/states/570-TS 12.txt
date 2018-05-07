@@ -4,7 +4,7 @@ state={
 	name="STATE_570" # Novosibirsk
 	manpower = 1765369
 
-	state_category = town
+	state_category = slightly_sparse
 
 	history={
 		owner = RUS

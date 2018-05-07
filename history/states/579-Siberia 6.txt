@@ -4,7 +4,7 @@ state={
 	name="STATE_579" # Salekhard
 	manpower = 45484
 	
-	state_category = wasteland
+	state_category = utterly_sparse
 
 	history={
 		owner = RUS

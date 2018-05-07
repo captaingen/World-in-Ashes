@@ -4,7 +4,7 @@ state={
 	name="STATE_560" # Nikolayevsk
 	manpower = 97663
 	
-	state_category = rural
+	state_category = utterly_sparse
 	resources={
 		steel=18 # was: 24
 	}

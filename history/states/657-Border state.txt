@@ -8,7 +8,7 @@ state={
 	}
 
 
-	state_category = pastoral
+	state_category = extremely_sparse
 
 	history={
 		owner = RUS

@@ -4,7 +4,7 @@ state={
 	name="STATE_575" # Kirensk
 	manpower = 146494
 	
-	state_category = wasteland
+	state_category = utterly_sparse
 
 	history={
 		owner = RUS

@@ -4,7 +4,7 @@ state={
 	name="STATE_561" # Amur
 	manpower = 454281
 	
-	state_category = rural
+	state_category = highly_sparse
 
 	history={
 		owner = RUS
