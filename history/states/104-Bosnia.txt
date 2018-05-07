@@ -5,7 +5,7 @@ state={
 	manpower =2457400
 	
 	
-	state_category = town
+	state_category = dense
 	
 	resources={
 		aluminium=10

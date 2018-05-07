@@ -4,7 +4,7 @@ state=
 	name="STATE_118"
 	manpower=21372
 	
-	state_category = enclave
+	state_category = utterly_sparse
 	history={
 		owner = SPR
 		victory_points = { 4135 10 }

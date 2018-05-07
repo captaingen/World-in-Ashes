@@ -4,7 +4,7 @@ state={
 	name="STATE_226" # Dnipropertovsk
 	manpower = 2391047
 	
-	state_category = town
+	state_category = dense
 	
 	resources={
 		oil=6

@@ -4,7 +4,7 @@ state={
 	name="STATE_773" # Serbia
 	manpower = 164700
 	
-	state_category = large_city
+	state_category = extremely_sparse
 	history={
 		owner = HUN
 		buildings = {

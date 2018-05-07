@@ -4,7 +4,7 @@ state=
 	name="STATE_751"
 	manpower = 691921
 	
-	state_category = town
+	state_category = very_sparse
 	
 	history=
 	{

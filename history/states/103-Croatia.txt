@@ -4,7 +4,7 @@ state={
 	name="STATE_103" # Eastern Dalmatia
 	manpower = 931700
 
-	state_category = large_town
+	state_category = sparse
 
 
 	history={

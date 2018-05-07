@@ -8,7 +8,7 @@ state={
 		aluminium=72
 	}
 
-	state_category = city
+	state_category = very_dense
 
 	history={
 		owner = BOR

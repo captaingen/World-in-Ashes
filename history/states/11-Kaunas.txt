@@ -4,7 +4,7 @@ state={
 	name="STATE_11"
 	manpower = 1323130
 	
-	state_category = town
+	state_category = slightly_sparse
 	
 	history={
 		owner = LIT

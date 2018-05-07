@@ -4,7 +4,7 @@ state={
 	name="STATE_152"
 	manpower = 1375377
 	
-	state_category = city
+	state_category = sparse
 	
 	resources={
 		steel=5

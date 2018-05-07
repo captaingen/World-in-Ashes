@@ -4,7 +4,7 @@ state={
 	name="STATE_115"
 	manpower = 3836571
 	
-	state_category = city
+	state_category = highly_dense
 	history={
 		owner = MED
 		victory_points = {

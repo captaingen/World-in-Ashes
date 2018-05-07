@@ -5,7 +5,7 @@ state={
 	manpower = 1691200
 	
 	
-	state_category = town
+	state_category = slightly_sparse
 	
 	resources={
 		steel=136

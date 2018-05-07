@@ -4,7 +4,7 @@ state={
 	name="STATE_109" # Croatia
 	manpower = 2224400
 	
-	state_category = large_town
+	state_category = slightly_dense
 
 	history={
 		owner = CRO

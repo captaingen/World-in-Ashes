@@ -7,7 +7,7 @@ state={
 		oil = 4
 	}
 
-	state_category = city
+	state_category = dense
 
 	history={
 		owner = MOR

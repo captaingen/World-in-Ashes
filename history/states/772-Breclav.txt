@@ -2,9 +2,9 @@ state=
 {
 	id=772
 	name="STATE_772"
-	manpower = 2830000
+	manpower = 530000
 	
-	state_category = town
+	state_category = highly_sparse
 	
 	resources={
 		steel=2

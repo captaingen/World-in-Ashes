@@ -4,7 +4,7 @@ state={
 	name="STATE_76"
 	manpower=2352700
 	
-	state_category = town
+	state_category = dense
 	
 	history={
 		owner = HUN
