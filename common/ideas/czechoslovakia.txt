@@ -46,12 +46,6 @@ ideas = {
 			allowed = {
 				original_tag = CZE
 			}
-			available = {
-				if = { 
-					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_democratic_bastion
-				}
-			}
 			
 			traits = { democratic_reformer }
 
@@ -67,13 +61,6 @@ ideas = {
 			allowed = {
 				original_tag = CZE
 			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_go_left
-				}
-			}
 			
 			traits = { communist_revolutionary }
 
@@ -88,13 +75,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CZE
-			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_go_right
-				}
 			}
 			
 			traits = { fascist_demagogue }

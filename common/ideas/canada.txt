@@ -9,13 +9,6 @@ ideas = {
 				
 			}
 
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = CAN_swastika_clubs
-				}
-			}
-
 			picture = generic_fascist_demagogue_commonwealth_2d
 			
 			traits = { fascist_demagogue }
@@ -36,16 +29,6 @@ ideas = {
 			allowed = {
 				original_tag = CAN
 				
-			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					OR = {
-						has_completed_focus = CAN_strengthen_the_commonwealth_ties
-						has_completed_focus = CAN_permanent_joint_defense_board
-					}
-				}
 			}
 			
 			picture = generic_democratic_reformer_commonwealth_2d
@@ -68,13 +51,6 @@ ideas = {
 			allowed = {
 				original_tag = CAN
 				
-			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = CAN_burn_the_royal_portraits
-				}
 			}
 
 			picture = generic_communist_revolutionary_commonwealth_2d
@@ -132,7 +108,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 			traits = { popular_figurehead }
@@ -144,7 +119,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 			traits = { war_industrialist }
@@ -156,11 +130,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
-			}
-
-			available = {
-				has_completed_focus = CAN_forced_quebec_conscription
 			}
 			
 			traits = { compassionate_gentleman }
@@ -174,11 +143,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
-			}
-
-			available = {
-				has_completed_focus = CAN_crown_corporations
 			}
 			
 			traits = { captain_of_industry }
@@ -207,7 +171,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 			research_bonus = {
@@ -322,7 +285,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -338,7 +300,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -389,7 +350,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -498,7 +458,6 @@ ideas = {
 			
 			allowed = {
 				original_TAG = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -519,7 +478,6 @@ ideas = {
 				
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 			research_bonus = {
@@ -542,7 +500,6 @@ ideas = {
 
 			allowed = {
 				original_TAG = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -562,7 +519,6 @@ ideas = {
 			
 			allowed = {
 				original_TAG = CAN
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -673,11 +629,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
-			}
-
-			available = {
-				has_completed_focus = CAN_fund_fairchilds_development
 			}
 			
 			research_bonus = {
@@ -700,11 +651,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
-			}
-
-			available = {
-				has_completed_focus = CAN_cookie_carriers
 			}
 			
 			research_bonus = {

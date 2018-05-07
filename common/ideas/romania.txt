@@ -17,15 +17,6 @@ ideas = {
 
 			picture = generic_communist_europe
 
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					has_completed_focus = ROM_appoint_soviet_friendly_government
-				}
-			}
-
 			allowed = {
 				original_tag = ROM
 			}
@@ -50,7 +41,6 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			traits = { captain_of_industry }
@@ -83,16 +73,7 @@ ideas = {
 
 		ROM_mihail_sturdza = {
 
-			picture = generic_fascist_demagogue_eastern_european_2d
-
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					has_completed_focus = ROM_appoint_german_friendly_government
-				}
-			}			
+			picture = generic_fascist_demagogue_eastern_european_2d			
 
 			allowed = {
 				original_tag = ROM
@@ -355,14 +336,9 @@ ideas = {
 			picture = generic_tank_manufacturer_3
 
 			cost = 50
-
-			available = {
-				has_completed_focus = ROM_mobile_tank_destroyers
-			}
 			
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
@@ -404,7 +380,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
@@ -454,10 +429,6 @@ ideas = {
 			allowed = {
 				original_tag = ROM
 			}
-
-			available = {
-				has_completed_focus = ROM_coastal_defense_navy
-			}
 			
 			research_bonus = {
 				naval_equipment = 0.10
@@ -500,10 +471,6 @@ ideas = {
 			allowed = {		
 				original_tag = ROM
 			}
-
-			available = {
-				has_completed_focus = ROM_black_sea_dominance
-			}
 			
 			research_bonus = {
 				naval_equipment = 0.10
@@ -545,7 +512,6 @@ ideas = {
 
 			allowed = {
 				original_TAG = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			cost = 75
 
@@ -578,7 +544,6 @@ ideas = {
 
 			allowed = {
 				original_TAG = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 
@@ -666,7 +631,6 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 
 			available = {
@@ -702,9 +666,6 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
-				NOT = {
-					has_dlc = "Death or Dishonor"
-				}
 			}
 			
 			research_bonus = {
@@ -726,20 +687,10 @@ ideas = {
 			
 			picture = generic_air_manufacturer_2
 
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					has_completed_focus = ROM_invest_in_the_iar
-				}
-			}
-
 			cost = 50
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
@@ -773,7 +724,6 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
@@ -804,7 +754,6 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
