@@ -4,7 +4,7 @@ state={
 	name="STATE_234"
 	manpower = 2903371
 	
-	state_category = city
+	state_category = very_dense
 	resources={
 		tungsten=26
 		oil=18

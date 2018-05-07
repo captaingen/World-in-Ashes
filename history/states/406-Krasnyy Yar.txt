@@ -4,7 +4,7 @@ state={
 	name="STATE_406" # Gurev
 	manpower = 146494
 	
-	state_category = wasteland
+	state_category = utterly_sparse
 
 	history={
 		owner = KAZ

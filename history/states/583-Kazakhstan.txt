@@ -4,7 +4,7 @@ state={
 	name="STATE_583" # Kustanay
 	manpower = 315450
 	
-	state_category = rural
+	state_category = highly_sparse
 
 	history={
 		owner = KAZ

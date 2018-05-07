@@ -4,7 +4,7 @@ state={
 	name="STATE_410"
 	manpower = 341053
 	
-	state_category = pastoral
+	state_category = extremely_sparse
 
 	history={
 		owner = PER

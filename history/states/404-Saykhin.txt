@@ -3,7 +3,7 @@ state={
 	name="STATE_404" # Kzyl Orda
 	manpower = 667036
 	
-	state_category = wasteland
+	state_category = very_sparse
 
 	history={
 		owner = KAZ

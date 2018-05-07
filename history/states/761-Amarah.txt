@@ -7,12 +7,12 @@ state={
 		oil=1
 	}
 	
-	state_category = pastoral
+	state_category = utterly_sparse
 
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 
 		add_core_of = BSH
