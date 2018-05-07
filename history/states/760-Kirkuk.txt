@@ -2,12 +2,12 @@
 state={
 	id=760
 	name="STATE_760"
-	manpower = 150000
+	manpower = 250000
 	resources={
 		steel=2
 	}
 	
-	state_category = rural
+	state_category = extremely_sparse
 
 	history={
 		owner = TRM

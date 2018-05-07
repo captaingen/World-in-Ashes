@@ -1,9 +1,9 @@
 state={
 	id=656
 	name="STATE_656"
-	manpower = 80000
+	manpower = 100000
 	
-	state_category = rural
+	state_category = extremely_sparse
 	
 	history={
 		owner = BSH

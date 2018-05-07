@@ -2,9 +2,9 @@
 state={
 	id=291
 	name="STATE_291"
-	manpower = 2044165
+	manpower = 1444165
 	
-	state_category = town
+	state_category = slightly_sparse
 	
 	resources={
 		oil=22
