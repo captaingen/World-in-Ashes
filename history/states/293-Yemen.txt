@@ -4,7 +4,7 @@ state={
 	name="STATE_293"
 	manpower = 2489500
 	
-	state_category = rural
+	state_category = dense
 	
 	resources={
 		oil=1 # was: 1

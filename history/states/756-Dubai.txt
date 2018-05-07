@@ -7,7 +7,7 @@ state={
 		oil=2
 	}
 	
-	state_category = pastoral
+	state_category = extremely_sparse
 
 
 	history={

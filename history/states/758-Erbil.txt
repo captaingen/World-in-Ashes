@@ -1,9 +1,9 @@
 state={
 	id=758
 	name="STATE_758"
-	manpower = 482741
+	manpower = 532741
 	
-	state_category = rural
+	state_category = highly_sparse
 	
 	resources={
 		oil=4
