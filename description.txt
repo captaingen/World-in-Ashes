@@ -1,4 +1,4 @@
-[h1]VERSION 0.4[/h1]
+[h1]VERSION 0.4[/h1] 
 [url=https://discord.gg/5uJQQNA]DISCORD[/url]
 
 [b]The map is being majorly overhauled (All the world) and the lore is being rewritten. We are currently looking for experienced devs to help us with the map change to get you this update as soon as possible! If you wish to join the team, join the discord and let me (Captain Gen) know![/b]
