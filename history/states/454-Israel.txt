@@ -4,7 +4,7 @@ state={
 	name="STATE_454" #Palestine
 	manpower = 433142
 	
-	state_category = rural
+	state_category = highly_sparse
 
 	history={
 		owner = PAL

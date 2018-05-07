@@ -4,7 +4,7 @@ state={
 	name="STATE_753"
 	manpower = 200000
 	
-	state_category = rural
+	state_category = extremely_sparse
 	
 	history={
 		owner = JOR
