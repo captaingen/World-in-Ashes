@@ -4,7 +4,7 @@ state={
 	name="STATE_423" # Madurai
 	manpower = 29147500
 	
-	state_category = rural
+	state_category = overcrowded
 	
 	resources={
 		rubber=19 # was: 28

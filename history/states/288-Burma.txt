@@ -4,7 +4,7 @@ state={
 	name="STATE_288"
 	manpower = 10722500
 	
-	state_category = town
+	state_category = immensely_dense
 	
 	resources={
 		rubber=3 # was: 4

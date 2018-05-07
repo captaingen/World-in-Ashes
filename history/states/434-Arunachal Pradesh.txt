@@ -4,7 +4,7 @@ state={
 	name="STATE_434"
 	manpower = 200000
 	
-	state_category = wasteland
+	state_category = extremely_sparse
 	resources={
 		tungsten=49 # was: 54
 	}
