@@ -4,7 +4,7 @@ state=
 	name="STATE_622" # Shaanxi
 	manpower = 6906200
 	
-	state_category = city
+	state_category = extremely_dense
 	
 	resources={
 		steel=4

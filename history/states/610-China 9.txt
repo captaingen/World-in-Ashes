@@ -18,5 +18,5 @@ state={
 	}
 	manpower=1975377
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=slightly_dense
 }
