@@ -4,7 +4,7 @@ state=
 	name="STATE_605" # Sichuan
 	manpower = 45963300
 	
-	state_category = city
+	state_category = overcrowded
 	
 	resources={
 		steel = 20

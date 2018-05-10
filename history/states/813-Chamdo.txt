@@ -6,7 +6,7 @@ state={
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000
-	state_category = pastoral
+	state_category = extremely_sparse
 	history={
 		owner = SZC
 		add_core_of = SZC
