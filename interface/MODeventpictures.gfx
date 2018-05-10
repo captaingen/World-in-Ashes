@@ -13,16 +13,12 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/FRA_what_to_do.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_joint_army"
-		texturefile = "gfx/event_pictures/report_event_joint_army.dds"
+		name = "GFX_news_event_501"
+		texturefile = "gfx/event_pictures/news_event_501.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_national_guard"
-		texturefile = "gfx/event_pictures/report_event_national_guard.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_syrian_crossover"
-		texturefile = "gfx/event_pictures/report_event_syrian_crossover.dds"
+		name = "GFX_news_event_502"
+		texturefile = "gfx/event_pictures/news_event_502.dds"
 	}
 	spriteType = {
 		name = "GFX_eskubi"
