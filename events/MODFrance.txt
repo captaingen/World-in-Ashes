@@ -210,3 +210,36 @@ country_event = {
 		}
 	}
 }
+
+#Bordeaux steps back
+country_event = {
+    id = nasi.5
+    title = nasi.5.t
+    desc = nasi.5.d
+    picture = GFX_FRA_do_it_ourselves
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = { #do it oursleves
+        name = nasi.5.a
+		add_political_power = -100
+		add_stability = -0.05
+		add_war_support = 0.05
+		declare_war_on = { target = BOR type = annex_everything }
+		news_event = { days = 1 id = news.501}
+    }
+	option = { #leave it be
+        name = nasi.5.b
+		add_political_power = 100
+		add_stability = 0.05
+		add_war_support = -0.1
+		news_event = { days = 1 id = news.502}
+    }
+}

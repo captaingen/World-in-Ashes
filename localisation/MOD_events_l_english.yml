@@ -30,6 +30,10 @@
  nasi.4.t:0 "Failed Counterattack"
  nasi.4.d:0 "We have sent a lot of men in a counterattack effort, but we failed."
  nasi.4.a:0 "It will be a struggle..."
+ nasi.5.t:0 "Bordeaux does not declare war."
+ nasi.5.d:0 "Bordeaux sent us an official document stating that they do not wish to start violence between the two of us. We suspect it might be only because they know they are not ready for war againsts us. In that case, what should we do?"
+ nasi.5.a:0 "We'll do it ourselves!"
+ nasi.5.b:0 "We should let it go..."
  
  #Bordeaux
  bordeaux.0.t:0 "The Nasis launch a successful counterattack!"

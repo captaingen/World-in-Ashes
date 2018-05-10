@@ -141,6 +141,9 @@ country_event = {
 		add_stability = 0.05
 		add_war_support = -0.05
 		news_event = { days = 1 id = news.502}
+		FRA = {
+			country_event = { days = 1 id = nasi.5 }
+		}
 	}
 }
 
@@ -179,6 +182,9 @@ country_event = {
 		add_stability = 0.1
 		add_war_support = -0.1
 		news_event = { days = 1 id = news.502}
+		FRA = {
+			country_event = { days = 1 id = nasi.5 }
+		}
 	}
 }
 
