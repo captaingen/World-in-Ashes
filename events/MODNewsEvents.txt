@@ -93,3 +93,53 @@ news_event = {
 		trigger = { TAG = BOR }
 	}
 }
+
+# Pétain survives assasination
+news_event = {
+	id = news.503
+	title = news.503.t
+	desc = news.503.d
+	picture = GFX_news_event_503
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.503.a
+		trigger = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+	}
+	option = {
+		name = news.503.b
+		trigger = { has_government = fascism }
+	}
+}
+
+# Pétain gets assasinated
+news_event = {
+	id = news.504
+	title = news.504.t
+	desc = news.504.d
+	picture = GFX_news_event_504
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.504.a
+		trigger = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+	}
+	option = {
+		name = news.504.b
+		trigger = { has_government = fascism }
+	}
+}

@@ -15,6 +15,14 @@
  news.502.a:0 "At least there is no war..."
  news.502.b:0 "These fools!"
  news.502.c:0 "We will prepare for later on..."
+ news.503.t:0 "Pétain survives assassination"
+ news.503.d:0 "On an official visit to the frontlines of the civil war, Pétain passed through a trench that seemed to have been booby trapped by a small group of french soldiers who have committed mutiny. One of his guards saw the trap and jumped in front of him and died saving the life of his leader. He will be decorated as a hero in France."
+ news.503.a:0 "We honor the death of the soldier!"
+ news.503.b:0 "That was close..."
+ news.504.t:0 "Pétain assassinated"
+ news.504.d:0 "On an official visit to the frontlines of the civil war, Pétain passed through a trench that seemed to have been booby trapped by a small group of french soldiers who have committed mutiny. One of his guards saw the trap and jumped in front of him but that was not enough to save the life of French leader Philippe Pétain."
+ news.504.a:0 "Rest in Peace"
+ news.504.b:0 "Rest in Peace"
  
  #France
  nasi.1.t:0 "Ceasefire Broken"
@@ -34,6 +42,15 @@
  nasi.5.d:0 "Bordeaux sent us an official document stating that they do not wish to start violence between the two of us. We suspect it might be only because they know they are not ready for war againsts us. In that case, what should we do?"
  nasi.5.a:0 "We'll do it ourselves!"
  nasi.5.b:0 "We should let it go..."
+ nasi.6.t:0 "Pétain Visits the Frontlines"
+ nasi.6.d:0 "Philippe Pétain recently visited the frontlines in an effort to motivate the troops who have been there for a few years. This is the first time Pétain visits the trenches since the chaotic first World War. This is a great morale boost for the soldiers who havent seen their families."
+ nasi.6.a:0 "Our troops are now motivated"
+ nasi.7.t:0 "Pétain Alive!"
+ nasi.7.d:0 "Mutinous soldiers attempted to assassinate Pétain but failed to do so..."
+ nasi.7.a:0 "We will imprison the soldiers who did this!"
+ nasi.8.t:0 "Pétain Dead!"
+ nasi.8.d:0 "Mutinous soldiers attempted to assassinate Pétain and succeeded..."
+ nasi.8.a:0 "We will execute the soldiers who did this!"
  
  #Bordeaux
  bordeaux.0.t:0 "The Nasis launch a successful counterattack!"

@@ -21,6 +21,7 @@ country_event = {
     option = {
         name = nasi.0.a
 		country_event = { days = 30 id = nasi.1}
+		country_event = { days = 1 id = nasi.6}
 		BOR = {
 			country_event = { days = 10 id = bordeaux.4 }
 		}
@@ -46,7 +47,7 @@ country_event = {
     option = {
         name = nasi.1.a
 		add_political_power = 5
-		news_event = { days = 1 id = news.500}
+		news_event = { days = 0 id = news.500}
 		hidden_effect = {
 			country_event = { days = 1 id = nasi.2}
 		}
@@ -241,5 +242,89 @@ country_event = {
 		add_stability = 0.05
 		add_war_support = -0.1
 		news_event = { days = 1 id = news.502}
+    }
+}
+
+#Pétain visits the frontlines
+country_event = {
+    id = nasi.6
+    title = nasi.6.t
+    desc = nasi.6.d
+	picture = GFX_FRA_do_it_ourselves
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = {
+        name = nasi.6.a
+		add_war_support = 0.03
+		add_political_power = -50
+		hidden_effect = {
+			random_list = {
+				95 = {
+					country_event = { days = 1 id = nasi.7 }
+				}
+				5 = {
+					country_event = { days = 1 id = nasi.8 }
+				}
+			}
+		}
+    }
+}
+
+#Pétain survives assassination
+country_event = {
+    id = nasi.7
+    title = nasi.7.t
+    desc = nasi.7.d
+	picture = GFX_FRA_do_it_ourselves
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = {
+        name = nasi.7.a
+		add_political_power = 10
+		hidden_effect = {
+			news_event = { days = 0 id = news.503}
+		}
+    }
+}
+
+#Pétain dies
+country_event = {
+    id = nasi.8
+    title = nasi.8.t
+    desc = nasi.8.d
+	picture = GFX_FRA_do_it_ourselves
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = {
+        name = nasi.8.a
+		kill_country_leader = yes
+		add_political_power = -150
+		hidden_effect = {
+			news_event = { days = 0 id = news.504}
+		}
     }
 }
