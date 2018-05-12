@@ -36,6 +36,18 @@ spriteTypes = {
 		name = "GFX_strat"
 		texturefile = "gfx/event_pictures/strat.dds"
 	}
+	spriteType = {
+		name = "GFX_semppu"
+		texturefile = "gfx/event_pictures/semppu.dds"
+	}
+	spriteType = {
+		name = "GFX_kstar"
+		texturefile = "gfx/event_pictures/kstar.dds"
+	}
+	spriteType = {
+		name = "GFX_wia"
+		texturefile = "gfx/event_pictures/wia.dds"
+	}
 }
 	
 	

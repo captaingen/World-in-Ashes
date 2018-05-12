@@ -14,7 +14,7 @@ country_event = {
     id = wia.0
     title = wia.0.t
     desc = wia.0.d
-    picture = GFX_report_event_worker_protests
+    picture = GFX_wia
 
 	is_triggered_only = yes
 	
@@ -36,7 +36,7 @@ country_event = {
     id = wia.1
     title = wia.1.t
     desc = wia.1.d
-    picture = GFX_report_event_worker_protests
+    picture = GFX_wia
 
 	is_triggered_only = yes
 	
@@ -44,20 +44,16 @@ country_event = {
         name = wia.1.a
 		country_event = { id = wia.4 }
     }
-	option = { #Kstar234
+	option = { #Other coders
         name = wia.1.b
 		country_event = { id = wia.5 }
     }
-	option = { #Strategy Gamer
-        name = wia.1.c
-		country_event = { id = wia.6 }
-    }
-	option = { #Nicolas Eskubi
-		name = wia.1.e
-		country_event = { id = wia.7 }
+	option = { #GFX people
+		name = wia.1.c
+		country_event = { id = wia.9 }
     }
 	option = { #return to menu
-		name = wia.1.f
+		name = wia.1.e
 		country_event = { id = wia.0 }
     }
 }
@@ -67,7 +63,7 @@ country_event = {
     id = wia.2
     title = wia.2.t
     desc = wia.2.d
-    picture = GFX_report_event_worker_protests
+    picture = GFX_wia
 
 	is_triggered_only = yes
 	
@@ -111,25 +107,29 @@ country_event = {
     }
 }
 
-#Kstar
+#Other coders
 country_event = {
     id = wia.5
     title = wia.5.t
     desc = wia.5.d
-    picture = GFX_report_event_worker_protests
+    picture = GFX_wia
 
 	is_triggered_only = yes
 	
-    option = { #Go back to main screen
+    option = { #Kstar
         name = wia.5.a
+		country_event = { id = wia.8 }
+    }
+	option = { #Strat
+        name = wia.5.b
+		country_event = { id = wia.6 }
+    }
+	option = { #Back to main menu
+        name = wia.5.c
 		country_event = { id = wia.0 }
     }
-	option = { #back to dev screen
-        name = wia.5.b
-		country_event = { id = wia.1 }
-    }
-	option = { #leave me alone!
-        name = wia.5.c
+	option = { #leave
+        name = wia.5.e
     }
 }
 
@@ -174,5 +174,75 @@ country_event = {
     }
 	option = { #leave me alone!
         name = wia.7.c
+    }
+}
+
+#kstar
+country_event = {
+    id = wia.8
+    title = wia.8.t
+    desc = wia.8.d
+    picture = GFX_kstar
+
+	is_triggered_only = yes
+	
+    option = { #Go back to main screen
+        name = wia.8.a
+		country_event = { id = wia.0 }
+    }
+	option = { #back to dev screen
+        name = wia.8.b
+		country_event = { id = wia.1 }
+    }
+	option = { #leave me alone!
+        name = wia.8.c
+    }
+}
+
+#GFX people
+country_event = {
+    id = wia.9
+    title = wia.9.t
+    desc = wia.9.d
+    picture = GFX_wia
+
+	is_triggered_only = yes
+	
+    option = { #Main GFX person (nicholas)
+        name = wia.9.a
+		country_event = { id = wia.7 }
+    }
+	option = { #Semppu (main flag person)
+        name = wia.9.b
+		country_event = { id = wia.10 }
+    }
+	option = { #main menu
+        name = wia.9.b
+		country_event = { id = wia.0 }
+    }
+	option = { #leave me alone!
+        name = wia.9.c
+    }
+}
+
+#semppu
+country_event = {
+    id = wia.10
+    title = wia.10.t
+    desc = wia.10.d
+    picture = GFX_semppu
+
+	is_triggered_only = yes
+	
+    option = { #Go back to main screen
+        name = wia.10.a
+		country_event = { id = wia.0 }
+    }
+	option = { #back to dev screen
+        name = wia.10.b
+		country_event = { id = wia.1 }
+    }
+	option = { #leave me alone!
+        name = wia.10.c
     }
 }
