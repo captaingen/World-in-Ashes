@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_westernization_button"
+		texturefile = "gfx/westernization_gui/icon.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_westernization_button_max"
+		texturefile = "gfx/natideas_gui/icon.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}
+	
+	

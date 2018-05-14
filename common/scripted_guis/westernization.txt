@@ -1,0 +1,24 @@
+scripted_gui = {
+
+    westernization = {
+        context_type = player_context
+        
+        window_name = "westernization_container"
+        
+        visible = {
+            always = yes
+        }
+		
+		effects = {
+			westernization_button_bg_click = {
+				if = {
+					limit = { NOT = { has_country_flag = westernization_opened } }
+					set_country_flag = westernization_opened
+				}
+				else = {
+					clr_country_flag = westernization_opened
+				}
+			}
+		}
+    }
+}

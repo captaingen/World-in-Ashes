@@ -1,0 +1,68 @@
+guiTypes = {
+    containerWindowType = {
+        name = "westernization_container"
+        position = { x = 900 y = 4 }
+        
+		buttonType ={
+			name ="westernization_button_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+			shortcut = "ctrl+k"
+		}
+        
+        iconType = {
+            name ="westernization_icon"
+            spriteType = "GFX_westernization_button"
+            position = { x= 7 y = 6 }
+        }
+        
+        instantTextBoxType = {
+            name ="westernization_text"
+            position = { x= 15 y = 4 }
+            font = "hoi_18mbs"
+            text = "[?yearly_revenue]"
+            format = center
+            maxWidth = 46
+            maxHeight = 24
+            fixedsize = yes
+            
+            pdx_tooltip = "WESTERNIZATION_TOOLTIP"
+            pdx_tooltip_delayed = "WESTERNIZATION_TOOLTIP_DELAYED"
+        }
+    }
+	
+	containerWindowType = {
+		name = "westernization_level_container"
+		position = {x=375 y=150}
+		size = { width=750 height=100 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_achievements_bg"
+		}
+
+		instantTextboxType = {
+			name = "westernization_headline"
+			position = {x=-110 y=19}
+			font = "hoi_18mbs"
+			text = "Westernization Level"
+			maxWidth = 1000
+			maxHeight = 23
+			format = center
+		}
+		
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = {x=-68 y=12}	
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "WESTERNIZATIONCLOSE_TOOLTIP"
+		}
+	}
+}
