@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"
 	regiments = {
@@ -108,13 +108,6 @@ units = {
 		start_equipment_factor = 0.7
 	}
 	division= {	
-		name = "3ème Division d'Infanterie"
-		location = 9631
-		division_template = "Division d'Infanterie" 	# Frontline, good equipment
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division= {	
 		name = "4ème Division d'Infanterie"
 		location = 3659
 		division_template = "Division d'Infanterie" 	# Frontline, good equipment
@@ -160,13 +153,6 @@ units = {
 		start_equipment_factor = 0.95
 	}
 	division= {	
-		name = "10ème Division d'Infanterie"
-		location = 3594
-		division_template = "Division d'Infanterie" 	# Frontline, best equipment
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.95
-	}
-	division= {	
 		name = "11ème Division d'Infanterie"
 		location = 11593
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
@@ -186,12 +172,6 @@ units = {
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.95
-	}
-	division= {	
-		name = "14ème Division d'Infanterie"
-		location = 6668
-		division_template = "Division d'Infanterie" 	# Frontline, best equipment
-		start_experience_factor = 0.4
 	}
 	
 	
@@ -238,14 +218,6 @@ units = {
 		division_template = "Brigade de Patrouille" 	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
-	}
-	division= {	
-		name = "1ere Division de Cavalerie"
-		location = 780
-		division_template = "Division de Cavalerie" 	# Cavalry patrols in rural areas
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 	
 	# 1er Corps d'Alpine (Région Militaire in 1936) -- Frontière Italienne

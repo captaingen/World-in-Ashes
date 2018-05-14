@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"
 	regiments = {
@@ -300,7 +300,6 @@ units = {
 		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
-		force_equipment_variants = { light_ammo_eq = { owner = "GER" } }
 	}
 	division= {	
 		name = "Patrouille Allemande - Section B"
@@ -308,7 +307,6 @@ units = {
 		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
-		force_equipment_variants = { light_ammo_eq = { owner = "GER" } }
 	}
 	division= {	
 		name = "Patrouille Allemande - Section C"
@@ -316,7 +314,6 @@ units = {
 		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
-		force_equipment_variants = { light_ammo_eq = { owner = "GER" } }
 
 	}
 
