@@ -56,39 +56,52 @@ guiTypes = {
 		buttonType = {
 			name = "westernization_button_close"
 			spriteType = "GFX_closebutton"
-			position = {x=-60 y=14}
+			position = {x=-52 y=14}
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = click_close
 			pdx_tooltip = "WESTERNIZATIONCLOSE_TOOLTIP"
 		}
+		
+		containerWindowType = {
+			name = "westernization_missions_container"
+			position = { x=15 y=50 }
+			size = { width = 1078 height = 620 }
 			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_fullborder_tiled"
+				position = { x=0 y=0 }					
+			}
+					
 			iconType = {
 				name = "westernization_1_unavailable" 
-				position = {x=23 y=15}	
+				position = {x=425 y=17}	
 				spriteType = "GFX_westernization_idea_button_unavailable"
 				pdx_tooltip = "westernization_1_tt"
 			}
 			buttonType = {
 				name = "westernization_1_available" 
-				position = {x=23 y=15}	
+				position = {x=465 y=38}	
 				spriteType = "GFX_westernization_idea_button_available"
 				pdx_tooltip = "westernization_1_tt"
 			}
 			iconType = {
 				name = "westernization_1_completed" 
-				position = {x=23 y=15}	
+				position = {x=465 y=38}	
 				spriteType = "GFX_westernization_idea_button_completed"
 				pdx_tooltip = "westernization_1_tt"
 			}
 			instantTextboxType = {
 				name = "westernization_1"
-				position = {x=465 y=90}
+				position = {x=465 y=50}
 				font = "hoi_18mbs"
 				text = "westernization_1"
 				maxWidth = 180
 				maxHeight = 23
 				format = center
+				allwaystransparent = yes
 			}
+		}
 	}
 }
