@@ -1,6 +1,6 @@
 scripted_gui = {
 
-    westernization = {
+    westernization_opened = {
         context_type = player_context
         
         window_name = "westernization_container"

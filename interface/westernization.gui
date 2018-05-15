@@ -8,6 +8,7 @@ guiTypes = {
 			spriteType = "GFX_generic_box_smallest"
 			position = { x=0 y=0 }
 			shortcut = "ctrl+k"
+            pdx_tooltip = "WESTERNIZATION_TOOLTIP"
 		}
         
         iconType = {
@@ -25,16 +26,13 @@ guiTypes = {
             maxWidth = 46
             maxHeight = 24
             fixedsize = yes
-            
-            pdx_tooltip = "WESTERNIZATION_TOOLTIP"
-            pdx_tooltip_delayed = "WESTERNIZATION_TOOLTIP_DELAYED"
         }
     }
 	
 	containerWindowType = {
 		name = "westernization_level_container"
-		position = {x=375 y=150}
-		size = { width=750 height=100 }
+		position = {x=250 y=125}
+		size = { width=1108 height=720 }
 
 		fade_time = 300
 		fade_type = linear
@@ -42,13 +40,13 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			spriteType = "GFX_achievements_bg"
+			spriteType = "GFX_browser_bg"
 		}
 
 		instantTextboxType = {
 			name = "westernization_headline"
-			position = {x=-110 y=19}
-			font = "hoi_18mbs"
+			position = {x=50 y=12}
+			font = "hoi_36header"
 			text = "Westernization Level"
 			maxWidth = 1000
 			maxHeight = 23
@@ -56,13 +54,41 @@ guiTypes = {
 		}
 		
 		buttonType = {
-			name = "close_button"
+			name = "westernization_button_close"
 			spriteType = "GFX_closebutton"
-			position = {x=-68 y=12}	
+			position = {x=-60 y=14}
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = click_close
 			pdx_tooltip = "WESTERNIZATIONCLOSE_TOOLTIP"
 		}
+			
+			iconType = {
+				name = "westernization_1_unavailable" 
+				position = {x=23 y=15}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "westernization_1_tt"
+			}
+			buttonType = {
+				name = "westernization_1_available" 
+				position = {x=23 y=15}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "westernization_1_tt"
+			}
+			iconType = {
+				name = "westernization_1_completed" 
+				position = {x=23 y=15}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "westernization_1_tt"
+			}
+			instantTextboxType = {
+				name = "westernization_1"
+				position = {x=465 y=90}
+				font = "hoi_18mbs"
+				text = "westernization_1"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+			}
 	}
 }

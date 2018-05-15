@@ -6,8 +6,20 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_westernization_button_max"
-		texturefile = "gfx/natideas_gui/icon.dds"
+		name = "GFX_westernization_idea_button_unavailable"
+		texturefile = "gfx/natideas_gui/westernization_idea_button_unavailable.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_westernization_idea_button_available"
+		texturefile = "gfx/natideas_gui/westernization_idea_button_available.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_westernization_idea_button_completed"
+		texturefile = "gfx/natideas_gui/westernization_idea_button_completed.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 }

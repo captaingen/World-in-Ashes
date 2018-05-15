@@ -13,6 +13,13 @@ scripted_gui = {
 			westernization_button_close_click = {
 				clr_country_flag = westernization_opened
 			}
+			
+			#####Missions####
+			
+			westernization_1_available_click = {
+				set_country_flag = westernization_1_completed
+				add_political_power = -150
+			}
 		}
     }
 }
