@@ -268,27 +268,172 @@ guiTypes = {
 			
 			iconType = {
 				name = "industrialization_1_unavailable" 
-				position = {x=409 y=450}	
+				position = {x=100 y=200}	
 				spriteType = "GFX_westernization_idea_button_unavailable"
 				pdx_tooltip = "industrialization_1_tt"
 			}
 			buttonType = {
 				name = "industrialization_1_available" 
-				position = {x=409 y=450}	
+				position = {x=100 y=200}	
 				spriteType = "GFX_westernization_idea_button_available"
 				pdx_tooltip = "industrialization_1_tt"
 			}
 			iconType = {
 				name = "industrialization_1_completed" 
-				position = {x=409 y=450}	
+				position = {x=100 y=200}	
 				spriteType = "GFX_westernization_idea_button_completed"
 				pdx_tooltip = "industrialization_1_tt"
 			}
 			instantTextboxType = {
 				name = "industrialization_1"
-				position = {x=456 y=477}
+				position = {x=145 y=237}
 				font = "hoi_18mbs"
 				text = "industrialization_1"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "industrialization_2_unavailable" 
+				position = {x=100 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_2_tt"
+			}
+			buttonType = {
+				name = "industrialization_2_available" 
+				position = {x=100 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_2_tt"
+			}
+			iconType = {
+				name = "industrialization_2_completed" 
+				position = {x=100 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_2_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_2"
+				position = {x=145 y=363}
+				font = "hoi_18mbs"
+				text = "industrialization_2"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "industrialization_3_unavailable" 
+				position = {x=409 y=200}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_3_tt"
+			}
+			buttonType = {
+				name = "industrialization_3_available" 
+				position = {x=409 y=200}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_3_tt"
+			}
+			iconType = {
+				name = "industrialization_3_completed" 
+				position = {x=409 y=200}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_3_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_3"
+				position = {x=454 y=237}
+				font = "hoi_18mbs"
+				text = "industrialization_3"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "industrialization_4_unavailable" 
+				position = {x=409 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_4_tt"
+			}
+			buttonType = {
+				name = "industrialization_4_available" 
+				position = {x=409 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_4_tt"
+			}
+			iconType = {
+				name = "industrialization_4_completed" 
+				position = {x=409 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_4_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_4"
+				position = {x=454 y=355}
+				font = "hoi_18mbs"
+				text = "industrialization_4"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "industrialization_5_unavailable" 
+				position = {x=718 y=200}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_5_tt"
+			}
+			buttonType = {
+				name = "industrialization_5_available" 
+				position = {x=718 y=200}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_5_tt"
+			}
+			iconType = {
+				name = "industrialization_5_completed" 
+				position = {x=718 y=200}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_5_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_5"
+				position = {x=763 y=237}
+				font = "hoi_18mbs"
+				text = "industrialization_5"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "industrialization_6_unavailable" 
+				position = {x=718 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_6_tt"
+			}
+			buttonType = {
+				name = "industrialization_6_available" 
+				position = {x=718 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_6_tt"
+			}
+			iconType = {
+				name = "industrialization_6_completed" 
+				position = {x=718 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_6_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_6"
+				position = {x=763 y=363}
+				font = "hoi_18mbs"
+				text = "industrialization_6"
 				maxWidth = 180
 				maxHeight = 23
 				format = center
