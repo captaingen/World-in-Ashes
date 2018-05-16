@@ -76,27 +76,143 @@ guiTypes = {
 					
 			iconType = {
 				name = "westernization_1_unavailable" 
-				position = {x=412 y=17}	
+				position = {x=409 y=50}	
 				spriteType = "GFX_westernization_idea_button_unavailable"
 				pdx_tooltip = "westernization_1_tt"
 			}
 			buttonType = {
 				name = "westernization_1_available" 
-				position = {x=412 y=17}	
+				position = {x=409 y=50}	
 				spriteType = "GFX_westernization_idea_button_available"
 				pdx_tooltip = "westernization_1_tt"
 			}
 			iconType = {
 				name = "westernization_1_completed" 
-				position = {x=412 y=17}	
+				position = {x=409 y=50}	
 				spriteType = "GFX_westernization_idea_button_completed"
 				pdx_tooltip = "westernization_1_tt"
 			}
 			instantTextboxType = {
 				name = "westernization_1"
-				position = {x=459 y=44}
+				position = {x=456 y=77}
 				font = "hoi_18mbs"
 				text = "westernization_1"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "westernization_2_unavailable" 
+				position = {x=74 y=250}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "westernization_2_tt"
+			}
+			buttonType = {
+				name = "westernization_2_available" 
+				position = {x=74 y=250}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "westernization_2_tt"
+			}
+			iconType = {
+				name = "westernization_2_completed" 
+				position = {x=74 y=250}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "westernization_2_tt"
+			}
+			instantTextboxType = {
+				name = "westernization_2"
+				position = {x=112 y=287}
+				font = "hoi_18mbs"
+				text = "westernization_2"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "westernization_3_unavailable" 
+				position = {x=409 y=250}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "westernization_3_tt"
+			}
+			buttonType = {
+				name = "westernization_3_available" 
+				position = {x=409 y=250}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "westernization_3_tt"
+			}
+			iconType = {
+				name = "westernization_3_completed" 
+				position = {x=409 y=250}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "westernization_3_tt"
+			}
+			instantTextboxType = {
+				name = "westernization_3"
+				position = {x=456 y=287}
+				font = "hoi_18mbs"
+				text = "westernization_3"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "westernization_4_unavailable" 
+				position = {x=744 y=250}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "westernization_4_tt"
+			}
+			buttonType = {
+				name = "westernization_4_available" 
+				position = {x=744 y=250}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "westernization_4_tt"
+			}
+			iconType = {
+				name = "westernization_4_completed" 
+				position = {x=744 y=250}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "westernization_4_tt"
+			}
+			instantTextboxType = {
+				name = "westernization_4"
+				position = {x=788 y=287}
+				font = "hoi_18mbs"
+				text = "westernization_4"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "westernization_5_unavailable" 
+				position = {x=409 y=450}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "westernization_5_tt"
+			}
+			buttonType = {
+				name = "westernization_5_available" 
+				position = {x=409 y=450}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "westernization_5_tt"
+			}
+			iconType = {
+				name = "westernization_5_completed" 
+				position = {x=409 y=450}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "westernization_5_tt"
+			}
+			instantTextboxType = {
+				name = "westernization_5"
+				position = {x=456 y=477}
+				font = "hoi_18mbs"
+				text = "westernization_5"
 				maxWidth = 180
 				maxHeight = 23
 				format = center

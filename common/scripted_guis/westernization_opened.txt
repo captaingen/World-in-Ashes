@@ -20,12 +20,28 @@ scripted_gui = {
 				set_country_flag = westernization_1_completed_flag
 				add_political_power = -150
 			}
+			westernization_2_available_click = {
+				set_country_flag = westernization_2_completed_flag
+				add_political_power = -150
+			}
+			westernization_3_available_click = {
+				set_country_flag = westernization_3_completed_flag
+				add_political_power = -150
+			}
+			westernization_4_available_click = {
+				set_country_flag = westernization_4_completed_flag
+				add_political_power = -150
+			}
+			westernization_5_available_click = {
+				set_country_flag = westernization_5_completed_flag
+				add_political_power = -150
+			}
 		}
 		
 		triggers = {
 			
 			#Begin Westernization
-			westernization_idea_button_unavailable_visible = {
+			westernization_1_unavailable_visible = {
 						NOT = {
 							has_country_flag = westernization_1_completed_flag
 						}
@@ -39,6 +55,73 @@ scripted_gui = {
 					}
 					westernization_1_completed_visible = {
 						has_country_flag = westernization_1_completed_flag
+					}
+					
+			westernization_2_unavailable_visible = {
+						NOT = {
+							has_country_flag = westernization_2_completed_flag
+						}
+					}
+					westernization_2_available_visible = {
+						NOT = {
+							has_country_flag = westernization_2_completed_flag
+						}
+						has_country_flag = westernization_1_completed_flag
+						has_political_power > 149
+					}
+					westernization_2_completed_visible = {
+						has_country_flag = westernization_2_completed_flag
+					}
+					
+			westernization_3_unavailable_visible = {
+						NOT = {
+							has_country_flag = westernization_3_completed_flag
+						}
+					}
+					westernization_3_available_visible = {
+						NOT = {
+							has_country_flag = westernization_3_completed_flag
+						}
+						has_country_flag = westernization_1_completed_flag
+						has_political_power > 149
+					}
+					westernization_3_completed_visible = {
+						has_country_flag = westernization_3_completed_flag
+					}
+					
+			westernization_4_unavailable_visible = {
+						NOT = {
+							has_country_flag = westernization_4_completed_flag
+						}
+					}
+					westernization_4_available_visible = {
+						NOT = {
+							has_country_flag = westernization_4_completed_flag
+						}
+						has_country_flag = westernization_1_completed_flag
+						has_political_power > 149
+					}
+					westernization_4_completed_visible = {
+						has_country_flag = westernization_4_completed_flag
+					}
+					
+			westernization_5_unavailable_visible = {
+						NOT = {
+							has_country_flag = westernization_5_completed_flag
+						}
+					}
+					westernization_5_available_visible = {
+						NOT = {
+							has_country_flag = westernization_5_completed_flag
+						}
+						has_country_flag = westernization_1_completed_flag
+						has_country_flag = westernization_2_completed_flag
+						has_country_flag = westernization_3_completed_flag
+						has_country_flag = westernization_4_completed_flag
+						has_political_power > 149
+					}
+					westernization_5_completed_visible = {
+						has_country_flag = westernization_5_completed_flag
 					}
 		}
     }
