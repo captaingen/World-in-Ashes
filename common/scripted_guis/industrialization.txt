@@ -1,0 +1,26 @@
+scripted_gui = {
+
+    industrialization = {
+        context_type = player_context
+        
+        window_name = "industrialization_container"
+        
+        visible = {
+            has_country_flag = open_industry_flag
+        }
+		
+		effects = {
+			industrialization_button_close_click = {
+				clr_country_flag = open_industry_flag
+			}
+			
+			#####Missions####
+			
+			
+		}
+		
+		triggers = {
+			
+		}
+    }
+}

@@ -220,4 +220,80 @@ guiTypes = {
 			}
 		}
 	}
+	
+	containerWindowType = {
+		name = "industrialization_container"
+		position = {x=250 y=125}
+		size = { width=1108 height=720 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_browser_bg"
+		}
+
+		instantTextboxType = {
+			name = "industrialization_headline"
+			position = {x=50 y=12}
+			font = "hoi_36header"
+			text = "Industrialization"
+			maxWidth = 1000
+			maxHeight = 23
+			format = center
+		}
+		
+		buttonType = {
+			name = "industrialization_button_close"
+			spriteType = "GFX_closebutton"
+			position = {x=-52 y=14}
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "WESTERNIZATIONCLOSE_TOOLTIP"
+		}
+		
+		containerWindowType = {
+			name = "industrialization_missions_container"
+			position = { x=15 y=50 }
+			size = { width = 1078 height = 620 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_fullborder_tiled"
+				position = { x=0 y=0 }					
+			}
+			
+			iconType = {
+				name = "industrialization_1_unavailable" 
+				position = {x=409 y=450}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_1_tt"
+			}
+			buttonType = {
+				name = "industrialization_1_available" 
+				position = {x=409 y=450}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_1_tt"
+			}
+			iconType = {
+				name = "industrialization_1_completed" 
+				position = {x=409 y=450}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_1_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_1"
+				position = {x=456 y=477}
+				font = "hoi_18mbs"
+				text = "industrialization_1"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+		}
+	}
 }
