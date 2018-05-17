@@ -71,7 +71,7 @@ scripted_gui = {
 						has_political_power > 149
 					}
 					westernization_2_completed_visible = {
-						has_country_flag = open_industry_flag
+						has_country_flag = completed_industry_flag
 					}
 					
 			westernization_3_unavailable_visible = {
@@ -87,7 +87,7 @@ scripted_gui = {
 						has_political_power > 149
 					}
 					westernization_3_completed_visible = {
-						has_country_flag = open_modern_flag
+						has_country_flag = completed_modern_flag
 					}
 					
 			westernization_4_unavailable_visible = {
@@ -103,7 +103,7 @@ scripted_gui = {
 						has_political_power > 149
 					}
 					westernization_4_completed_visible = {
-						has_country_flag = open_diplo_flag
+						has_country_flag = completed_diplo_flag
 					}
 					
 			westernization_5_unavailable_visible = {

@@ -440,5 +440,24 @@ guiTypes = {
 				allwaystransparent = yes
 			}
 		}
+		
+		buttonType = {
+			name = "back_button"
+			spriteType = "GFX_back_button"
+			position = {x=504 y=680}
+			shortcut = "backspace"
+			clicksound = click_close
+			pdx_tooltip = "WESTERNIZATIONBLACK_TOOLTIP"
+		}
+		instantTextboxType = {
+				name = "back"
+				position = {x=465 y=681}
+				font = "hoi_18mbs"
+				text = "Back"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
 	}
 }
