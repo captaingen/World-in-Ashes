@@ -71,16 +71,24 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 2
 		}
 
 		fascism = {
-			popularity = 75
+			popularity = 44
+		}
+
+		communism = {
+			popularity = 28
 		}
 		
-		communism = {
-			popularity = 10
-		}
+	    socialism = {
+	        popularity = 25
+	    }
+		
+	    neutrality = {
+	        popularity = 1
+	    }
 	}
 	
 	ruling_party = fascism
@@ -94,7 +102,7 @@ create_country_leader = {
 	desc = "POLITICS_LUIS_MIGUEL_SANCHEZ_CERRO_DESC"
 	picture = "Luis_Sanchez_Cerro.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = falangism
 	traits = {
 		#
 	}
