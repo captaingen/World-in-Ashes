@@ -23,15 +23,12 @@ scripted_gui = {
 			westernization_2_available_click = {
 				set_country_flag = open_industry_flag
 				clr_country_flag = westernization_opened
-				add_political_power = -150
 			}
 			westernization_3_available_click = {
 				set_country_flag = open_modern_flag
-				add_political_power = -150
 			}
 			westernization_4_available_click = {
 				set_country_flag = open_diplo_flag
-				add_political_power = -150
 			}
 			westernization_5_available_click = {
 				set_country_flag = westernization_5_completed_flag
