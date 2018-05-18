@@ -25,3 +25,5 @@
  industrialization_5_tt:0 "Cost: §R-150 RP§!"
  industrialization_6:0 "Assembly Line Production"
  industrialization_6_tt:0 "Cost: §R-150 RP§!"
+ industrialization_7:0 "Finish Industrialization"
+ industrialization_7_tt:0 "Finish Industrialization \n§RRequires  Railroads  Steel and Cement Factories  Assembly Line Production§!"

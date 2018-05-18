@@ -439,6 +439,35 @@ guiTypes = {
 				format = center
 				allwaystransparent = yes
 			}
+			
+			iconType = {
+				name = "industrialization_7_unavailable" 
+				position = {x=409 y=452}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "industrialization_7_tt"
+			}
+			buttonType = {
+				name = "industrialization_7_available" 
+				position = {x=409 y=452}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "industrialization_7_tt"
+			}
+			iconType = {
+				name = "industrialization_7_completed" 
+				position = {x=409 y=452}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "industrialization_7_tt"
+			}
+			instantTextboxType = {
+				name = "industrialization_7"
+				position = {x=454 y=489}
+				font = "hoi_18mbs"
+				text = "industrialization_7"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
 		}
 		
 		buttonType = {

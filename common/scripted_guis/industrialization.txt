@@ -13,10 +13,6 @@ scripted_gui = {
 			industrialization_button_close_click = {
 				clr_country_flag = open_industry_flag
 			}
-			back_button_click = {
-				clr_country_flag = open_industry_flag
-				set_country_flag = westernization_opened
-			}
 			
 			#####Missions####
 			
@@ -44,7 +40,14 @@ scripted_gui = {
 				set_country_flag = industrialization_6_completed_flag
 				add_political_power = -150
 			}
+			industrialization_7_available_click = {
+				set_country_flag = completed_industry_flag
+			}
 			
+			back_button_click = {
+				clr_country_flag = open_industry_flag
+				set_country_flag = westernization_opened
+			}
 		}
 		
 		triggers = {
@@ -70,7 +73,7 @@ scripted_gui = {
 				NOT = {
 					has_country_flag = industrialization_2_completed_flag
 				}
-				has_political_power < 150
+				has_country_flag = open_industry_flag
 			}
 			industrialization_2_available_visible = {
 				NOT = {
@@ -79,8 +82,99 @@ scripted_gui = {
 				has_country_flag = industrialization_1_completed_flag
 				has_political_power > 149
 			}
-			industrialization_1_completed_visible = {
+			industrialization_2_completed_visible = {
 				has_country_flag = industrialization_2_completed_flag
+			}
+			
+			
+			industrialization_3_unavailable_visible = {
+				NOT = {
+					has_country_flag = industrialization_3_completed_flag
+				}
+				has_country_flag = open_industry_flag
+				has_political_power < 150
+			}
+			industrialization_3_available_visible = {
+				NOT = {
+					has_country_flag = industrialization_3_completed_flag
+				}
+				has_political_power > 149
+			}
+			industrialization_3_completed_visible = {
+				has_country_flag = industrialization_3_completed_flag
+			}
+			
+			
+			industrialization_4_unavailable_visible = {
+				NOT = {
+					has_country_flag = industrialization_4_completed_flag
+				}
+				has_country_flag = open_industry_flag
+			}
+			industrialization_4_available_visible = {
+				NOT = {
+					has_country_flag = industrialization_4_completed_flag
+				}
+				has_country_flag = industrialization_3_completed_flag
+				has_political_power > 149
+			}
+			industrialization_4_completed_visible = {
+				has_country_flag = industrialization_4_completed_flag
+			}
+			
+			
+			industrialization_5_unavailable_visible = {
+				NOT = {
+					has_country_flag = industrialization_5_completed_flag
+				}
+				has_country_flag = open_industry_flag
+				has_political_power < 150
+			}
+			industrialization_5_available_visible = {
+				NOT = {
+					has_country_flag = industrialization_5_completed_flag
+				}
+				has_political_power > 149
+			}
+			industrialization_5_completed_visible = {
+				has_country_flag = industrialization_5_completed_flag
+			}
+			
+			
+			industrialization_6_unavailable_visible = {
+				NOT = {
+					has_country_flag = industrialization_6_completed_flag
+				}
+				has_country_flag = open_industry_flag
+			}
+			industrialization_6_available_visible = {
+				NOT = {
+					has_country_flag = industrialization_6_completed_flag
+				}
+				has_country_flag = industrialization_5_completed_flag
+				has_political_power > 149
+			}
+			industrialization_6_completed_visible = {
+				has_country_flag = industrialization_6_completed_flag
+			}
+			
+			
+			industrialization_7_unavailable_visible = {
+				NOT = {
+					has_country_flag = completed_industry_flag
+				}
+				has_country_flag = open_industry_flag
+			}
+			industrialization_7_available_visible = {
+				NOT = {
+					has_country_flag = completed_industry_flag
+				}
+				has_country_flag = industrialization_2_completed_flag
+				has_country_flag = industrialization_4_completed_flag
+				has_country_flag = industrialization_6_completed_flag
+			}
+			industrialization_7_completed_visible = {
+				has_country_flag = completed_industry_flag
 			}
 		}
     }
