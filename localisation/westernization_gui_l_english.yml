@@ -26,7 +26,7 @@
  industrialization_6:0 "Assembly Line Production"
  industrialization_6_tt:0 "Cost: §R-150 RP§!"
  industrialization_7:0 "Finish Industrialization"
- industrialization_7_tt:0 "Finish Industrialization \n§RRequires  Railroads  Steel and Cement Factories  Assembly Line Production§!"
+ industrialization_7_tt:0 "Finish Industrialization \n§RRequires  Railroads - Steel and Cement Factories - Assembly Line Production§!"
  
  modern_1:0 "National Universities"
  modern_1_tt:0 "Cost: §R-150 RP§!"
@@ -41,4 +41,25 @@
  modern_6:0 "International Debt"
  modern_6_tt:0 "Cost: §R-150 RP§!"
  modern_7:0 "Finish Modernization"
- modern_7_tt:0 "Finish Industrialization \n§RRequires  Railroads  Steel and Cement Factories  Assembly Line Production§!"
+ modern_7_tt:0 "Finish Modernization \n§RRequires  Universal Literacy - Crack down on Corruption - International Debt§!"
+ 
+ diplo_1:0 "American Foreign Aid"
+ diplo_1_tt:0 "Cost: §R-150 RP§!"
+ diplo_2:0 "Land Reform"
+ diplo_2_tt:0 "Cost: §R-150 RP§!"
+ diplo_3:0 "Modern Farming Techniques"
+ diplo_3_tt:0 "Cost: §R-150 RP§!"
+ diplo_4:0 "German Military Aid"
+ diplo_4_tt:0 "Cost: §R-150 RP§!"
+ diplo_5:0 "Foreign Training Techniques"
+ diplo_5_tt:0 "Cost: §R-150 RP§!"
+ diplo_6:0 "Modern Weaponry"
+ diplo_6_tt:0 "Cost: §R-150 RP§!"
+ diplo_7:0 "Finish Diplomacy"
+ diplo_7_tt:0 "Finish Diplomacy \n§RRequires  Land Reform - Modern Farming Techniques - Foreign Training Techniques - Modern Weaponry§!"
+ 
+ 
+ 
+ 
+ 
+ 

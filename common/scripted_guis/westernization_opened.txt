@@ -115,10 +115,9 @@ scripted_gui = {
 						NOT = {
 							has_country_flag = westernization_5_completed_flag
 						}
-						has_country_flag = westernization_1_completed_flag
-						has_country_flag = open_industry_flag
-						has_country_flag = open_modern_flag
-						has_country_flag = open_diplo_flag
+						has_country_flag = completed_industry_flag
+						has_country_flag = completed_modern_flag
+						has_country_flag = completed_diplo_flag
 						has_political_power > 149
 					}
 					westernization_5_completed_visible = {

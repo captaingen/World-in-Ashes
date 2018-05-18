@@ -758,4 +758,273 @@ guiTypes = {
 				allwaystransparent = yes
 			}
 	}
+	
+	containerWindowType = {
+		name = "diplo_container"
+		position = {x=250 y=125}
+		size = { width=1108 height=720 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_browser_bg"
+		}
+
+		instantTextboxType = {
+			name = "diplo_headline"
+			position = {x=50 y=12}
+			font = "hoi_36header"
+			text = "Diplomacy"
+			maxWidth = 1000
+			maxHeight = 23
+			format = center
+		}
+		
+		buttonType = {
+			name = "diplo_button_close"
+			spriteType = "GFX_closebutton"
+			position = {x=-52 y=14}
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "WESTERNIZATIONCLOSE_TOOLTIP"
+		}
+		
+		containerWindowType = {
+			name = "diplo_missions_container"
+			position = { x=15 y=50 }
+			size = { width = 1078 height = 620 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_fullborder_tiled"
+				position = { x=0 y=0 }					
+			}
+			
+			iconType = {
+				name = "diplo_1_unavailable" 
+				position = {x=140 y=200}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_1_tt"
+			}
+			buttonType = {
+				name = "diplo_1_available" 
+				position = {x=140 y=200}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_1_tt"
+			}
+			iconType = {
+				name = "diplo_1_completed" 
+				position = {x=140 y=200}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_1_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_1"
+				position = {x=185 y=237}
+				font = "hoi_18mbs"
+				text = "diplo_1"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "diplo_2_unavailable" 
+				position = {x=10 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_2_tt"
+			}
+			buttonType = {
+				name = "diplo_2_available" 
+				position = {x=10 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_2_tt"
+			}
+			iconType = {
+				name = "diplo_2_completed" 
+				position = {x=10 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_2_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_2"
+				position = {x=55 y=363}
+				font = "hoi_18mbs"
+				text = "diplo_2"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "diplo_3_unavailable" 
+				position = {x=276 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_3_tt"
+			}
+			buttonType = {
+				name = "diplo_3_available" 
+				position = {x=276 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_3_tt"
+			}
+			iconType = {
+				name = "diplo_3_completed" 
+				position = {x=276 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_3_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_3"
+				position = {x=321 y=363}
+				font = "hoi_18mbs"
+				text = "diplo_3"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "diplo_4_unavailable" 
+				position = {x=678 y=200}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_4_tt"
+			}
+			buttonType = {
+				name = "diplo_4_available" 
+				position = {x=678 y=200}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_4_tt"
+			}
+			iconType = {
+				name = "diplo_4_completed" 
+				position = {x=678 y=200}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_4_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_4"
+				position = {x=723 y=237}
+				font = "hoi_18mbs"
+				text = "diplo_4"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "diplo_5_unavailable" 
+				position = {x=542 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_5_tt"
+			}
+			buttonType = {
+				name = "diplo_5_available" 
+				position = {x=542 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_5_tt"
+			}
+			iconType = {
+				name = "diplo_5_completed" 
+				position = {x=542 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_5_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_5"
+				position = {x=587 y=363}
+				font = "hoi_18mbs"
+				text = "diplo_5"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "diplo_6_unavailable" 
+				position = {x=808 y=326}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_6_tt"
+			}
+			buttonType = {
+				name = "diplo_6_available" 
+				position = {x=808 y=326}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_6_tt"
+			}
+			iconType = {
+				name = "diplo_6_completed" 
+				position = {x=808 y=326}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_6_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_6"
+				position = {x=853 y=363}
+				font = "hoi_18mbs"
+				text = "diplo_6"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "diplo_7_unavailable" 
+				position = {x=409 y=452}	
+				spriteType = "GFX_westernization_idea_button_unavailable"
+				pdx_tooltip = "diplo_7_tt"
+			}
+			buttonType = {
+				name = "diplo_7_available" 
+				position = {x=409 y=452}	
+				spriteType = "GFX_westernization_idea_button_available"
+				pdx_tooltip = "diplo_7_tt"
+			}
+			iconType = {
+				name = "diplo_7_completed" 
+				position = {x=409 y=452}	
+				spriteType = "GFX_westernization_idea_button_completed"
+				pdx_tooltip = "diplo_7_tt"
+			}
+			instantTextboxType = {
+				name = "diplo_7"
+				position = {x=454 y=489}
+				font = "hoi_18mbs"
+				text = "diplo_7"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+		}
+		
+		buttonType = {
+			name = "back_button"
+			spriteType = "GFX_back_button"
+			position = {x=504 y=680}
+			shortcut = "backspace"
+			clicksound = click_close
+			pdx_tooltip = "WESTERNIZATIONBLACK_TOOLTIP"
+		}
+		instantTextboxType = {
+				name = "back"
+				position = {x=465 y=681}
+				font = "hoi_18mbs"
+				text = "Back"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+	}
 }
