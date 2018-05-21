@@ -267,6 +267,22 @@ guiTypes = {
 			}
 			
 			iconType = {
+				name = "industrialization_0_completed" 
+				position = {x=409 y=74}	
+				spriteType = "GFX_westernization_idea_button_completed"
+			}
+			instantTextboxType = {
+				name = "industrialization_0"
+				position = {x=454 y=111}
+				font = "hoi_18mbs"
+				text = "Industrialization"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
 				name = "industrialization_1_unavailable" 
 				position = {x=100 y=200}	
 				spriteType = "GFX_westernization_idea_button_unavailable"
@@ -503,7 +519,7 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_browser_bg"
 		}
-
+		
 		instantTextboxType = {
 			name = "modern_headline"
 			position = {x=50 y=12}
@@ -533,6 +549,22 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_fullborder_tiled"
 				position = { x=0 y=0 }					
+			}
+			
+			iconType = {
+				name = "modern_0_completed" 
+				position = {x=409 y=74}	
+				spriteType = "GFX_westernization_idea_button_completed"
+			}
+			instantTextboxType = {
+				name = "modern_0"
+				position = {x=454 y=111}
+				font = "hoi_18mbs"
+				text = "Modernization"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
 			}
 			
 			iconType = {
@@ -805,6 +837,22 @@ guiTypes = {
 			}
 			
 			iconType = {
+				name = "diplo_0_completed" 
+				position = {x=409 y=74}	
+				spriteType = "GFX_westernization_idea_button_completed"
+			}
+			instantTextboxType = {
+				name = "diplo_0"
+				position = {x=454 y=111}
+				font = "hoi_18mbs"
+				text = "Diplomacy"
+				maxWidth = 180
+				maxHeight = 23
+				format = center
+				allwaystransparent = yes
+			}
+			
+			iconType = {
 				name = "diplo_1_unavailable" 
 				position = {x=140 y=200}	
 				spriteType = "GFX_westernization_idea_button_unavailable"
@@ -882,7 +930,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "diplo_3"
-				position = {x=321 y=363}
+				position = {x=321 y=355}
 				font = "hoi_18mbs"
 				text = "diplo_3"
 				maxWidth = 180
@@ -940,7 +988,7 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "diplo_5"
-				position = {x=587 y=363}
+				position = {x=587 y=355}
 				font = "hoi_18mbs"
 				text = "diplo_5"
 				maxWidth = 180
