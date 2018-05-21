@@ -21,7 +21,7 @@ guiTypes = {
             name ="westernization_text"
             position = { x= 15 y = 4 }
             font = "hoi_18mbs"
-            text = "[?yearly_revenue]"
+            text = "[?reform_points]"
             format = center
             maxWidth = 46
             maxHeight = 24

@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				
+			set_variable = { reform_points = 10 }
+			set_variable = { reform_points_rate = 3 }
+			set_variable = { reform_points_max = 1000 }
+			}
+		}
+	}
+}
