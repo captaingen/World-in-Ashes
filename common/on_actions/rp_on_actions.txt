@@ -4,9 +4,15 @@ on_actions = {
 			every_country = {
 				
 			set_variable = { reform_points = 10 }
-			set_variable = { reform_points_rate = 3 }
-			set_variable = { reform_points_max = 1000 }
+			set_variable = { reform_points_rate = 2 }
+			set_variable = { reform_points_max = 500 }
 			}
+		}
+	}
+	
+	on_daily = {
+		effect = {
+			add_to_variable = { reform_points = reform_points_rate }
 		}
 	}
 }

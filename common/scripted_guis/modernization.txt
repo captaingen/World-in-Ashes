@@ -18,7 +18,7 @@ scripted_gui = {
 			
 			modern_1_available_click = {
 				set_country_flag = modern_1_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			modern_2_available_click = {
 				set_country_flag = modern_2_completed_flag
