@@ -1,0 +1,71 @@
+ideas = {
+	country = {
+		unfinished_industrialization = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_reserve_divisions
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.075
+				production_factory_efficiency_gain_factor = -0.45
+				production_speed_buildings_factor = -0.35
+				equipment_conversion_speed = -0.25
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.025
+			}
+		}
+		
+		unfinished_modernization = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_reserve_divisions
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.075
+				research_time_factor = 0.5
+			}
+		}
+		
+		unfinished_diplomacy = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_reserve_divisions
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.35
+				drift_defence_factor = 0.2
+				subversive_activites_upkeep = 0.1
+				join_faction_tension = 0.25
+				justify_war_goal_time = -0.1
+				generate_wargoal_tension = -0.4
+			}
+		}
+	}
+}
