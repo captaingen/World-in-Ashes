@@ -18,7 +18,7 @@ scripted_gui = {
 			
 			westernization_1_available_click = {
 				set_country_flag = westernization_1_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			westernization_2_available_click = {
 				set_country_flag = open_industry_flag
@@ -32,7 +32,7 @@ scripted_gui = {
 			}
 			westernization_5_available_click = {
 				set_country_flag = westernization_5_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 		}
 		
@@ -43,7 +43,6 @@ scripted_gui = {
 						NOT = {
 							has_country_flag = westernization_1_completed_flag
 						}
-						has_political_power < 150
 					}
 					westernization_1_available_visible = {
 						NOT = {

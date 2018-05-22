@@ -18,27 +18,27 @@ scripted_gui = {
 			
 			diplo_1_available_click = {
 				set_country_flag = diplo_1_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			diplo_2_available_click = {
 				set_country_flag = diplo_2_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			diplo_3_available_click = {
 				set_country_flag = diplo_3_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			diplo_4_available_click = {
 				set_country_flag = diplo_4_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			diplo_5_available_click = {
 				set_country_flag = diplo_5_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			diplo_6_available_click = {
 				set_country_flag = diplo_6_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			diplo_7_available_click = {
 				set_country_flag = completed_diplo_flag
@@ -56,13 +56,12 @@ scripted_gui = {
 					has_country_flag = diplo_1_completed_flag
 				}
 				has_country_flag = open_diplo_flag
-				has_political_power < 150
 			}
 			diplo_1_available_visible = {
 				NOT = {
 					has_country_flag = diplo_1_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			diplo_1_completed_visible = {
 				has_country_flag = diplo_1_completed_flag
@@ -80,7 +79,7 @@ scripted_gui = {
 					has_country_flag = diplo_2_completed_flag
 				}
 				has_country_flag = diplo_1_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			diplo_2_completed_visible = {
 				has_country_flag = diplo_2_completed_flag
@@ -98,7 +97,7 @@ scripted_gui = {
 					has_country_flag = diplo_3_completed_flag
 				}
 				has_country_flag = diplo_1_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			diplo_3_completed_visible = {
 				has_country_flag = diplo_3_completed_flag
@@ -115,7 +114,7 @@ scripted_gui = {
 				NOT = {
 					has_country_flag = diplo_4_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			diplo_4_completed_visible = {
 				has_country_flag = diplo_4_completed_flag
@@ -133,7 +132,7 @@ scripted_gui = {
 					has_country_flag = diplo_5_completed_flag
 				}
 				has_country_flag = diplo_4_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			diplo_5_completed_visible = {
 				has_country_flag = diplo_5_completed_flag
@@ -151,7 +150,7 @@ scripted_gui = {
 					has_country_flag = diplo_6_completed_flag
 				}
 				has_country_flag = diplo_4_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			diplo_6_completed_visible = {
 				has_country_flag = diplo_6_completed_flag

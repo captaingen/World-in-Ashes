@@ -18,27 +18,27 @@ scripted_gui = {
 			
 			industrialization_1_available_click = {
 				set_country_flag = industrialization_1_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			industrialization_2_available_click = {
 				set_country_flag = industrialization_2_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			industrialization_3_available_click = {
 				set_country_flag = industrialization_3_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			industrialization_4_available_click = {
 				set_country_flag = industrialization_4_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			industrialization_5_available_click = {
 				set_country_flag = industrialization_5_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			industrialization_6_available_click = {
 				set_country_flag = industrialization_6_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			industrialization_7_available_click = {
 				set_country_flag = completed_industry_flag
@@ -56,13 +56,12 @@ scripted_gui = {
 					has_country_flag = industrialization_1_completed_flag
 				}
 				has_country_flag = open_industry_flag
-				has_political_power < 150
 			}
 			industrialization_1_available_visible = {
 				NOT = {
 					has_country_flag = industrialization_1_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			industrialization_1_completed_visible = {
 				has_country_flag = industrialization_1_completed_flag
@@ -80,7 +79,7 @@ scripted_gui = {
 					has_country_flag = industrialization_2_completed_flag
 				}
 				has_country_flag = industrialization_1_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			industrialization_2_completed_visible = {
 				has_country_flag = industrialization_2_completed_flag
@@ -92,13 +91,12 @@ scripted_gui = {
 					has_country_flag = industrialization_3_completed_flag
 				}
 				has_country_flag = open_industry_flag
-				has_political_power < 150
 			}
 			industrialization_3_available_visible = {
 				NOT = {
 					has_country_flag = industrialization_3_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			industrialization_3_completed_visible = {
 				has_country_flag = industrialization_3_completed_flag
@@ -116,7 +114,7 @@ scripted_gui = {
 					has_country_flag = industrialization_4_completed_flag
 				}
 				has_country_flag = industrialization_3_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			industrialization_4_completed_visible = {
 				has_country_flag = industrialization_4_completed_flag
@@ -128,13 +126,12 @@ scripted_gui = {
 					has_country_flag = industrialization_5_completed_flag
 				}
 				has_country_flag = open_industry_flag
-				has_political_power < 150
 			}
 			industrialization_5_available_visible = {
 				NOT = {
 					has_country_flag = industrialization_5_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			industrialization_5_completed_visible = {
 				has_country_flag = industrialization_5_completed_flag
@@ -152,7 +149,7 @@ scripted_gui = {
 					has_country_flag = industrialization_6_completed_flag
 				}
 				has_country_flag = industrialization_5_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			industrialization_6_completed_visible = {
 				has_country_flag = industrialization_6_completed_flag

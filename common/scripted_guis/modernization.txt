@@ -22,23 +22,23 @@ scripted_gui = {
 			}
 			modern_2_available_click = {
 				set_country_flag = modern_2_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			modern_3_available_click = {
 				set_country_flag = modern_3_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			modern_4_available_click = {
 				set_country_flag = modern_4_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			modern_5_available_click = {
 				set_country_flag = modern_5_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			modern_6_available_click = {
 				set_country_flag = modern_6_completed_flag
-				add_political_power = -150
+				subtract_from_variable = { ROOT.reform_points = 150 }
 			}
 			modern_7_available_click = {
 				set_country_flag = completed_modern_flag
@@ -56,13 +56,12 @@ scripted_gui = {
 					has_country_flag = modern_1_completed_flag
 				}
 				has_country_flag = open_modern_flag
-				has_political_power < 150
 			}
 			modern_1_available_visible = {
 				NOT = {
 					has_country_flag = modern_1_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			modern_1_completed_visible = {
 				has_country_flag = modern_1_completed_flag
@@ -80,7 +79,7 @@ scripted_gui = {
 					has_country_flag = modern_2_completed_flag
 				}
 				has_country_flag = modern_1_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			modern_2_completed_visible = {
 				has_country_flag = modern_2_completed_flag
@@ -92,13 +91,12 @@ scripted_gui = {
 					has_country_flag = modern_3_completed_flag
 				}
 				has_country_flag = open_modern_flag
-				has_political_power < 150
 			}
 			modern_3_available_visible = {
 				NOT = {
 					has_country_flag = modern_3_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			modern_3_completed_visible = {
 				has_country_flag = modern_3_completed_flag
@@ -116,7 +114,7 @@ scripted_gui = {
 					has_country_flag = modern_4_completed_flag
 				}
 				has_country_flag = modern_3_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			modern_4_completed_visible = {
 				has_country_flag = modern_4_completed_flag
@@ -128,13 +126,12 @@ scripted_gui = {
 					has_country_flag = modern_5_completed_flag
 				}
 				has_country_flag = open_modern_flag
-				has_political_power < 150
 			}
 			modern_5_available_visible = {
 				NOT = {
 					has_country_flag = modern_5_completed_flag
 				}
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			modern_5_completed_visible = {
 				has_country_flag = modern_5_completed_flag
@@ -152,7 +149,7 @@ scripted_gui = {
 					has_country_flag = modern_6_completed_flag
 				}
 				has_country_flag = modern_5_completed_flag
-				has_political_power > 149
+				check_variable = { ROOT.reform_points > 149 }
 			}
 			modern_6_completed_visible = {
 				has_country_flag = modern_6_completed_flag
