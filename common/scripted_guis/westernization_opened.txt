@@ -19,6 +19,7 @@ scripted_gui = {
 			westernization_1_available_click = {
 				set_country_flag = westernization_1_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				country_event = { id = westernization.0 }
 			}
 			westernization_2_available_click = {
 				set_country_flag = open_industry_flag
@@ -48,7 +49,7 @@ scripted_gui = {
 						NOT = {
 							has_country_flag = westernization_1_completed_flag
 						}
-						has_political_power > 149
+						check_variable = { ROOT.reform_points > 149 }
 					}
 					westernization_1_completed_visible = {
 						has_country_flag = westernization_1_completed_flag
@@ -64,7 +65,6 @@ scripted_gui = {
 							has_country_flag = open_industry_flag
 						}
 						has_country_flag = westernization_1_completed_flag
-						has_political_power > 149
 					}
 					westernization_2_completed_visible = {
 						has_country_flag = completed_industry_flag
@@ -80,7 +80,6 @@ scripted_gui = {
 							has_country_flag = open_modern_flag
 						}
 						has_country_flag = westernization_1_completed_flag
-						has_political_power > 149
 					}
 					westernization_3_completed_visible = {
 						has_country_flag = completed_modern_flag
@@ -96,7 +95,6 @@ scripted_gui = {
 							has_country_flag = open_diplo_flag
 						}
 						has_country_flag = westernization_1_completed_flag
-						has_political_power > 149
 					}
 					westernization_4_completed_visible = {
 						has_country_flag = completed_diplo_flag
