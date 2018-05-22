@@ -19,10 +19,12 @@ scripted_gui = {
 			industrialization_1_available_click = {
 				set_country_flag = industrialization_1_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				country_event = { id = westernization.1 }
 			}
 			industrialization_2_available_click = {
 				set_country_flag = industrialization_2_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				country_event = { id = westernization.2 }
 			}
 			industrialization_3_available_click = {
 				set_country_flag = industrialization_3_completed_flag
