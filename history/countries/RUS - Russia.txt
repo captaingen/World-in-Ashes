@@ -24,7 +24,6 @@ set_technology = {
 	CAS1 = 1
 }
 
-
 set_politics = {
 
 	parties = {
