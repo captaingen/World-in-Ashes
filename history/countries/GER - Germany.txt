@@ -54,6 +54,12 @@ set_convoys = 200
 set_stability = 0.8
 set_war_support = 0.9
 
+#puppets
+set_autonomy = {
+	target = INS
+	autonomous_state = autonomy_puppet
+}
+
 #Trade
 create_import = {
 		resource = tungsten
