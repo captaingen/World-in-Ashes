@@ -60,6 +60,7 @@ scripted_gui = {
 			diplo_1_available_visible = {
 				NOT = {
 					has_country_flag = diplo_1_completed_flag
+					has_country_flag = diplo_4_completed_flag
 				}
 				check_variable = { ROOT.reform_points > 149 }
 			}
@@ -113,6 +114,7 @@ scripted_gui = {
 			diplo_4_available_visible = {
 				NOT = {
 					has_country_flag = diplo_4_completed_flag
+					has_country_flag = diplo_1_completed_flag
 				}
 				check_variable = { ROOT.reform_points > 149 }
 			}
@@ -167,14 +169,35 @@ scripted_gui = {
 				NOT = {
 					has_country_flag = completed_diplo_flag
 				}
-				has_country_flag = diplo_2_completed_flag
-				has_country_flag = diplo_3_completed_flag
-				has_country_flag = diplo_5_completed_flag
-				has_country_flag = diplo_6_completed_flag
+				OR = {
+					AND = {
+						has_country_flag = diplo_2_completed_flag
+						has_country_flag = diplo_3_completed_flag
+					}
+					AND = {
+						has_country_flag = diplo_5_completed_flag
+						has_country_flag = diplo_6_completed_flag
+					}
+				}
 			}
 			diplo_7_completed_visible = {
 				has_country_flag = completed_diplo_flag
 			}
+			
+			mutually_exclusive_icon_visible = {
+				NOT = {
+					has_country_flag = diplo_1_completed_flag
+					has_country_flag = diplo_4_completed_flag
+				}
+			}
+			
+			#chose_right_icon_visible = {
+			#	has_country_flag = diplo_4_completed_flag
+			#}
+			
+			#chose_left_icon_visible = {
+			#	has_country_flag = diplo_1_completed_flag
+			#}
 		}
     }
 }

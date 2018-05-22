@@ -44,19 +44,19 @@
  modern_7_tt:0 "Finish Modernization \n§RRequires  Universal Literacy - Crack down on Corruption - International Debt§!"
  
  diplo_1:0 "American Foreign Aid"
- diplo_1_tt:0 "Cost: §R-150 RP§!"
+ diplo_1_tt:0 "§RMutually exclusive with German Military Aid§! \nCost: §R-150 RP§!"
  diplo_2:0 "Land Reform"
  diplo_2_tt:0 "Cost: §R-150 RP§!"
  diplo_3:0 "Modern Farming Techniques"
  diplo_3_tt:0 "Cost: §R-150 RP§!"
  diplo_4:0 "German Military Aid"
- diplo_4_tt:0 "Cost: §R-150 RP§!"
+ diplo_4_tt:0 "§RMutually exclusive with American Foreign Aid§! \nCost: §R-150 RP§!"
  diplo_5:0 "Foreign Training Techniques"
  diplo_5_tt:0 "Cost: §R-150 RP§!"
  diplo_6:0 "Modern Weaponry"
  diplo_6_tt:0 "Cost: §R-150 RP§!"
  diplo_7:0 "Finish Diplomacy"
- diplo_7_tt:0 "Finish Diplomacy \n§RRequires  Land Reform - Modern Farming Techniques - Foreign Training Techniques - Modern Weaponry§!"
+ diplo_7_tt:0 "Finish Diplomacy \n§RRequires  Land Reform and Modern Farming Techniques -OR- Foreign Training Techniques and Modern Weaponry§!"
  
  
  
