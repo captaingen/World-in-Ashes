@@ -29,19 +29,19 @@
  industrialization_7_tt:0 "Finish Industrialization \n§RRequires  Railroads - Steel and Cement Factories - Assembly Line Production§! \n\n§HThis will remove the debuffs of the Idea of unfinished industrialization§!"
  
  modern_1:0 "National Universities"
- modern_1_tt:0 "Cost: §R-150 RP§!"
+ modern_1_tt:0 "§HThis will give you §Gone§! extra research slot§! \nCost: §R-150 RP§!"
  modern_2:0 "Universal Literacy"
- modern_2_tt:0 "Cost: §R-150 RP§!"
+ modern_2_tt:0 "§HThis will give you slightly faster research§! \nCost: §R-150 RP§!"
  modern_3:0 "Administrative Reforms"
- modern_3_tt:0 "Cost: §R-150 RP§!"
+ modern_3_tt:0 "§HThis will give you a small political power boost per day§! \nCost: §R-150 RP§!"
  modern_4:0 "Crack Down \non Corruption"
- modern_4_tt:0 "Cost: §R-150 RP§!"
+ modern_4_tt:0 "§HThis will give you a small political power boost per day. Possible corruption will be removed§! \nCost: §R-150 RP§!"
  modern_5:0 "Banking"
- modern_5_tt:0 "Cost: §R-150 RP§!"
+ modern_5_tt:0 "§HThis will give a bonus to economy and trade laws cost§! \nCost: §R-150 RP§!"
  modern_6:0 "International Debt"
- modern_6_tt:0 "Cost: §R-150 RP§!"
+ modern_6_tt:0 "§HThis will give a bonus to trade opinions internationally§! \nCost: §R-150 RP§!"
  modern_7:0 "Finish Modernization"
- modern_7_tt:0 "Finish Modernization \n§RRequires  Universal Literacy - Crack down on Corruption - International Debt§!"
+ modern_7_tt:0 "Finish Modernization \n§RRequires  Universal Literacy - Crack down on Corruption - International Debt§! \n\n§HThis will remove the debuffs of the Idea of unfinished modernization§!"
  
  diplo_1:0 "American Foreign Aid"
  diplo_1_tt:0 "§RMutually exclusive with German Military Aid§! \nCost: §R-150 RP§!"
@@ -56,7 +56,7 @@
  diplo_6:0 "Modern Weaponry"
  diplo_6_tt:0 "Cost: §R-150 RP§!"
  diplo_7:0 "Finish Diplomacy"
- diplo_7_tt:0 "Finish Diplomacy \n§RRequires  Land Reform and Modern Farming Techniques -OR- Foreign Training Techniques and Modern Weaponry§!"
+ diplo_7_tt:0 "Finish Diplomacy \n§RRequires  Land Reform and Modern Farming Techniques -OR- Foreign Training Techniques and Modern Weaponry§! \n\n§HThis will remove the debuffs of the Idea of unfinished diplomacy§!"
  
  
  

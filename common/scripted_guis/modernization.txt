@@ -19,29 +19,37 @@ scripted_gui = {
 			modern_1_available_click = {
 				set_country_flag = modern_1_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_research_slot = 1
 			}
 			modern_2_available_click = {
 				set_country_flag = modern_2_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = modern2
 			}
 			modern_3_available_click = {
 				set_country_flag = modern_3_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = modern3
 			}
 			modern_4_available_click = {
 				set_country_flag = modern_4_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = modern4
+				remove_ideas = possible_corruption
 			}
 			modern_5_available_click = {
 				set_country_flag = modern_5_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = modern_banking
 			}
 			modern_6_available_click = {
 				set_country_flag = modern_6_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = modern_trade
 			}
 			modern_7_available_click = {
 				set_country_flag = completed_modern_flag
+				remove_ideas = unfinished_modernization
 			}
 			
 			back_button_click = {
