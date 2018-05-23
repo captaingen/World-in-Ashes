@@ -227,5 +227,43 @@ ideas = {
 			}
 		}
 		
+		us_diplo = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_reserve_divisions
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		foreign_training = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_reserve_divisions
+			
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.05
+			}
+		}
+		
 	}
 }

@@ -19,29 +19,94 @@ scripted_gui = {
 			diplo_1_available_click = {
 				set_country_flag = diplo_1_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = us_diplo
 			}
 			diplo_2_available_click = {
 				set_country_flag = diplo_2_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
 			}
 			diplo_3_available_click = {
 				set_country_flag = diplo_3_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = synthetic_refinery
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = synthetic_refinery
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
+				}
 			}
 			diplo_4_available_click = {
 				set_country_flag = diplo_4_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				army_experience = 20
 			}
 			diplo_5_available_click = {
 				set_country_flag = diplo_5_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_ideas = foreign_training
 			}
 			diplo_6_available_click = {
 				set_country_flag = diplo_6_completed_flag
 				subtract_from_variable = { ROOT.reform_points = 150 }
+				add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
 			}
 			diplo_7_available_click = {
 				set_country_flag = completed_diplo_flag
+				remove_ideas = unfinished_diplomacy
 			}
 			
 			back_button_click = {
