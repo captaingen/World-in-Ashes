@@ -1,5 +1,7 @@
 ﻿l_english:
  WESTERNIZATION_START_TT:0 "§HWhen starting westernization, you will recieve slight §Gadvantages§!, but also small §Rdisadvantages§!. At the end of each development, you will §Gget rid of the disadvantages§! of not being westernized.§!"
- INDUSTRY1_TT:0 "§HThis will add to a random state, one level of infrastructure§!"
- INDUSTRY2_TT:0 "§HThis will add to a random state, two levels of infrastructure§!"
+ INDUSTRY1_TT:0 "§HThis will add to a random state, §Gone§! level of infrastructure§!"
+ INDUSTRY2_TT:0 "§HThis will add to a random state, §Gtwo§! levels of infrastructure§!"
+ INDUSTRY3_TT:0 "§HThis will add to a random state, §Gone§! Civilian Factory§!"
+ INDUSTRY4_TT:0 "§HThis will add to a random state, §Gtwo§! Civilian Factories§!"
  
