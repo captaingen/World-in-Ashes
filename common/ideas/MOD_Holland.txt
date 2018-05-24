@@ -12,7 +12,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GFX_idea_rebuild_holland
+			picture = rebuild_holland
 			
 			modifier = {
 				consumer_goods_factor = 0.1
