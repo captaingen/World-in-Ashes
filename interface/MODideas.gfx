@@ -32,4 +32,8 @@ spriteTypes = {
 		name = "GFX_idea_rebuild_holland"
 		texturefile = "gfx/interface/ideas/rebuild_holland.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_generic_socialism_drift_bonus"
+		texturefile = "gfx/interface/ideas/generic_socialism_drift_bonus.dds"			
+	}
 }

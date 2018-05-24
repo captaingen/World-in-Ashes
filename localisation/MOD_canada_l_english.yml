@@ -1,0 +1,17 @@
+﻿l_english:
+ #Focuses
+  #Politics
+ #Custom Tooltips
+  USA_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
+ #Localized country Flags
+  republican_primary:0 "Republican Primary has Occured"
+  democratic_primary:0 "Democratic Primary has Occured"
+  james_wadsworth_1936:0 "James Wadsworth has won the election"
+  thomas_dewey_1936:0 "Thomas Dewey has won the election"
+  franklin_roosevelt_1936:0 "Franklin Roosevelt has won the election"
+  huey_long_1936:0 "Huey Long has won the election"
+ #Opinion mods
+ #Events
+  #News
+ #National Spirits
+  canadian_isolationism:0 "Canadian Isolationism"

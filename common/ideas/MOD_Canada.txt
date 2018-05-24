@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		canadian_isolationism = {
+
+			picture = neutrality_idea
+		
+			allowed = {
+				original_tag = CAN
+				has_war = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				ai_join_ally_desire_factor = -50
+				war_support_factor = -0.05
+				join_faction_tension = 0.20
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.50
+				guarantee_tension = 0.75
+			}
+		}
+	}
+}

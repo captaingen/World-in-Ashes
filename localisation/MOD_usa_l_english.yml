@@ -1,0 +1,18 @@
+﻿l_english:
+ #Focuses
+  #Politics
+ #Custom Tooltips
+  USA_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
+ #Localized country Flags
+  republican_primary:0 "Republican Primary has Occured"
+  democratic_primary:0 "Democratic Primary has Occured"
+  james_wadsworth_1936:0 "James Wadsworth has won the election"
+  thomas_dewey_1936:0 "Thomas Dewey has won the election"
+  franklin_roosevelt_1936:0 "Franklin Roosevelt has won the election"
+  huey_long_1936:0 "Huey Long has won the election"
+ #Opinion mods
+ #Events
+  #News
+ #National Spirits
+  socialist_tensions:0 "Socialist Tensions"
+  socialist_tensions_desc:0 "Socialism has been growing in the United States ever since the beginning of this century. It only started becoming hugely popular in the roaring 20's. After the New York Stock Extange crash of 1933, socialism started soaring in popularity, especially the Steel Belt and Northeast where unemployment was at its highest.\n\nSocialists and Communists now openly fight on the streets with Republicans and Democrats. Democrats, however, seized on this opportunity and are now sporting much more social policies. Republicans remain entrenched in their capitalist values. With North and South once again divided, it seems that Civil War is, once again, inevitable."
