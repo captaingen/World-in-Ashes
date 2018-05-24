@@ -76,11 +76,6 @@ set_politics = {
 }
 
 
-
-create_faction = Allies
-add_to_faction = ENG
-
-
 # Order matters - here Chamberlain becomes starting leader
 
 create_country_leader = {

@@ -7,6 +7,12 @@ set_war_support = 0.8
 
 set_research_slots = 4
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
+set_country_flag = completed_modern_flag
+set_country_flag = completed_diplo_flag
+set_country_flag = westernization_5_completed_flag
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -616,45 +622,5 @@ create_navy_leader = {
 				sub_torpedo_upgrade = 2
 			}
 			obsolete = yes
-		}	
-
-	# 1939 Start #			
-	1939.1.1 = {
-		### Carrier Variants
-		create_equipment_variant = {
-			name = "Hiryu Class"
-			type = carrier_2
-			parent_version = 0
-			upgrades = {
-				ship_deckspace_upgrade = 1
-				carrier_armor_upgrade = 0
-				ship_engine_upgrade = 0
-				ship_reliability_upgrade = 1
-			}
 		}
-		### Destroyer Variants
-		#create_equipment_variant = {
-		#	name = "Fubuki Class"
-		#	type = destroyer_1
-		#	parent_version = 0
-		#	upgrades = {
-		#		ship_torpedo_upgrade = 2
-		#		destroyer_engine_upgrade = 4
-		#		ship_ASW_upgrade = 2
-		#		ship_anti_air_upgrade = 2
-		#	}
-		#	obsolete = yes
-		#}	
-		create_equipment_variant = {
-			name = "Kagero Class"
-			type = destroyer_2
-			parent_version = 0
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 3
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}	
-	}
 	

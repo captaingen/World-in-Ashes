@@ -18,6 +18,9 @@ set_technology = {
 	early_light_cruiser = 1
 }
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
+
 set_politics = {
 
 	parties = {

@@ -8,6 +8,9 @@ set_technology = {
 	gwtank = 1
 }
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
+
 set_convoys = 5
 
 set_politics = {

@@ -10,6 +10,8 @@ set_technology = {
 set_stability = 0.6
 set_war_support = 0.7
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
 
 save_global_event_target_as = WTT_communist_china
 

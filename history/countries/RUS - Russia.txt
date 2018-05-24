@@ -5,6 +5,12 @@
 set_stability = 0.4
 set_war_support = 0.4
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
+set_country_flag = completed_modern_flag
+set_country_flag = completed_diplo_flag
+set_country_flag = westernization_5_completed_flag
+
 set_technology = {
 	gw_artillery = 1
 	interwar_artillery = 1

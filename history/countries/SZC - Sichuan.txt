@@ -8,6 +8,9 @@ set_technology = {
 	mass_assault = 1
 }
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
+
 set_stability = 0.2
 set_war_support = 0.8
 set_convoys = 0

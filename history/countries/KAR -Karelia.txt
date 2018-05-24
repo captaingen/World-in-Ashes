@@ -21,6 +21,8 @@ set_technology = {
 	early_submarine = 1
 }
 
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_modern_flag
 
 set_convoys = 20
 
