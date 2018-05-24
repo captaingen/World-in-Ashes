@@ -50,7 +50,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 68
 		}
 
 		fascism = {
@@ -58,8 +58,12 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 9
 			#banned = no #default is no
+		}
+		
+		socialism = {
+			popularity = 23
 		}
 	}
 	

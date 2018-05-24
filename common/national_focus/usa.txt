@@ -1,1 +1,930 @@
-#blank
+focus_tree = {
+	id = usa
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	continuous_focus_position = { x = 20 y = 1200 }
+	
+
+	##########Politics##########
+	
+	###1936 Election###
+
+	focus = {
+		id = USA_1936_election
+		icon = GFX_goal_generic_political_pressure
+
+		available = {
+		}
+		
+		bypass = {
+			has_country_flag = skip_election
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 7
+		y = 0
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			#event
+			add_stability = 0.05
+			add_war_support = -0.05
+		}
+	}
+	
+	##Republicans##
+
+	focus = {
+		id = USA_republican_primary
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_1936_election}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_country_flag = republican_primary
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 3
+		y = 1
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	#Wadsworth
+	
+	focus = {
+		id = USA_james_wadsworth_1936
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_republican_primary}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_country_flag = james_wadsworth_1936
+		}
+		
+		mutually_exclusive = {
+			focus = USA_thomas_dewey_1936
+			focus = USA_franklin_roosevelt_1936
+			focus = USA_huey_long_1936
+		}			
+		
+		x = 1
+		y = 2
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_ensure_individual_rights
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_james_wadsworth_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 0
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_a_smaller_government
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_ensure_individual_rights}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 0
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_never_compromise
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_james_wadsworth_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 2
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_fight_the_socialists
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_never_compromise}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 2
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = USA_the_american_way
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_a_smaller_government}
+		prerequisite = { focus = USA_fight_the_socialists}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 1
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_thomas_dewey_1936
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_republican_primary}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_country_flag = thomas_dewey_1936
+		}
+		
+		mutually_exclusive = {
+			focus = USA_james_wadsworth_1936
+			focus = USA_franklin_roosevelt_1936
+			focus = USA_huey_long_1936
+		}			
+		
+		x = 5
+		y = 2
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_crush_the_mafia
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_thomas_dewey_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 4
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_increased_fbi_funding
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_crush_the_mafia}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 4
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_labor_rights
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_thomas_dewey_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 6
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_a_better_deal
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_labor_rights}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 6
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_socialism_tamed
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_increased_fbi_funding}
+		prerequisite = { focus = USA_a_better_deal}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 5
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	##Democrats##
+	
+	focus = {
+		id = USA_democratic_primary
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_1936_election}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_country_flag = democratic_primary
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 11
+		y = 1
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	#Franklin Roosevelt
+	
+	focus = {
+		id = USA_franklin_roosevelt_1936
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_democratic_primary}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_country_flag = franklin_roosevelt_1936
+		}
+		
+		mutually_exclusive = {
+			focus = USA_james_wadsworth_1936
+			focus = USA_thomas_dewey_1936	
+			focus = USA_huey_long_1936
+		}
+		x = 9
+		y = 2
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_nira
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_franklin_roosevelt_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 8
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_wpa
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_nira}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 8
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_the_new_deal
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_franklin_roosevelt_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 10
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_social_security
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_the_new_deal}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 10
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_the_second_new_deal
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_wpa}
+		prerequisite = { focus = USA_social_security}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 9
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	#Huey Long
+	
+	focus = {
+		id = USA_huey_long_1936
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_democratic_primary}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_country_flag = franklin_roosevelt_1936
+		}
+		
+		mutually_exclusive = {
+			focus = USA_james_wadsworth_1936
+			focus = USA_thomas_dewey_1936	
+			focus = USA_franklin_roosevelt_1936
+		}
+		x = 13
+		y = 2
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_improve_rural_life
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_huey_long_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 12
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_a_better_education
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_improve_rural_life}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 12
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_ease_the_tensions
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_huey_long_1936}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 14
+		y = 3
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_presidental_dictator
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_ease_the_tensions}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 14
+		y = 4
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_share_our_wealth
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_a_better_education}
+		prerequisite = { focus = USA_presidental_dictator}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 13
+		y = 5
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	## End of the potential presidents
+	
+	focus = {
+		id = USA_stabilize_the_economy
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_the_american_way focus = USA_socialism_tamed focus = USA_the_second_new_deal focus = USA_share_our_wealth}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 7
+		y = 6
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_civil_war_avoided
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_stabilize_the_economy}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 7
+		y = 7
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+}
