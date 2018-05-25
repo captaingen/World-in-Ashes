@@ -30,6 +30,7 @@ idea_categories = {
 		slot = head_of_government
 		slot = foreign_minister
 		slot = minister_national_defense
+		slot = economy_minister
 		slot = construction_minister
 		slot = intel_minister
 		
