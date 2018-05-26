@@ -42,42 +42,46 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_franz_von_papen"
-		texturefile = "gfx/interface/ideas/ministers/franz_von_papen.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/franz_von_papen.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_hitler_idea"
-		texturefile = "gfx/interface/ideas/ministers/hitler.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/hitler.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_richard_von_kuhlmann_idea"
-		texturefile = "gfx/interface/ideas/ministers/richard_von_kuhlmann.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/richard_von_kuhlmann.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_hjalmar_idea"
-		texturefile = "gfx/interface/ideas/ministers/hjalmar.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/hjalmar.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_dernburg_idea"
-		texturefile = "gfx/interface/ideas/ministers/dernburg.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/dernburg.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_hohmann_idea"
-		texturefile = "gfx/interface/ideas/ministers/hohmann.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/hohmann.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_jarres_idea"
-		texturefile = "gfx/interface/ideas/ministers/jarres.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/jarres.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_todt_idea"
-		texturefile = "gfx/interface/ideas/ministers/todt.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/todt.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_leonhardt_idea"
-		texturefile = "gfx/interface/ideas/ministers/leonhardt.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/leonhardt.dds"			
 	}
 	spriteType = {
 		name = "GFX_idea_keitel_idea"
-		texturefile = "gfx/interface/ideas/ministers/keitel.dds"			
+		texturefile = "gfx/interface/ideas/ministers/germany/keitel.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_neurath_idea"
+		texturefile = "gfx/interface/ideas/ministers/germany/neurath.dds"			
 	}
 }

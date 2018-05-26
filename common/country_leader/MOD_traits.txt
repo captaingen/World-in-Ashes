@@ -2449,4 +2449,10 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	business_minister = {
+		trade_opinion_factor = 0.15
+		opinion_gain_monthly_factor = 0.05
+		political_power_gain = -0.05
+	}
+	
 }

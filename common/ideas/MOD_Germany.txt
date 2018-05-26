@@ -100,6 +100,19 @@ ideas = {
 
 			cost = 150
 		}
+		
+		neurath_hog = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = neurath_idea
+
+			cost = 150
+		}
 	}
 	
 	foreign_minister = {
@@ -113,6 +126,20 @@ ideas = {
 			cancel_if_invalid = yes
 			
 			picture = richard_von_kuhlmann_idea
+
+			cost = 150
+		}
+		
+		ribbentrop_fm = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+				business_minister
+			}
+			cancel_if_invalid = no
+			
+			picture = ribbentrop_idea
 
 			cost = 150
 		}

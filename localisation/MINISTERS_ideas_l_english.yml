@@ -1,5 +1,6 @@
 ﻿l_english:
  
+ #Germany
  walter_hohmann_cm:0 "Walter Hohmann"
  hjalmar_schacht_em:0 "Hjalmar Schacht"
  bernhard_dernburg_em:0 "Bernhard Dernburg"
@@ -10,3 +11,5 @@
  fritz_todt_cm:0 "Fritz Todt"
  fritz_leanhardt_cm:0 "Fritz Leonhardt"
  wilhelm_keitel_mnd:0 "Wilhelm Keitel"
+ ribbentrop_fm:0 "Joachim von Ribbentrop"
+ neurath_hog:0 "Konstantin von Neurath"
