@@ -4,7 +4,7 @@ oob = "USA_1936"
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0.35
+set_war_support = 0.5
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -73,11 +73,17 @@ set_politics = {
 	elections_allowed = yes
 }
 
+set_variable = { debt_reserves = -13100 }
 add_ideas = {
 	great_depression
 	free_trade
 	home_of_the_free
 	socialist_tensions
+	dandt_40_debt
+	free_fall
+	well_developed
+	high_taxes_high_income
+	internal_security_only
 }
 
 create_faction = NADA

@@ -3306,15 +3306,6 @@ get_tax_and_expenses = {
 #Sets up for specific countries
 
 setup_country = {
-	USA = {
-		add_ideas = {
-			dandt_40_debt
-			depression
-			well_developed
-			high_taxes_high_income
-			internal_security_only
-		}
-	}
 	GER = {
 		set_variable = { debt_reserves = -13050 }
 		add_ideas = {

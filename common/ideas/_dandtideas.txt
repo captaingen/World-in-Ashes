@@ -1863,6 +1863,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}			
@@ -1883,6 +1884,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}
@@ -1898,11 +1900,12 @@ ideas = {
 			}
 		}
 		recession = {
-			default = no
+			default = yes
 			level = 3
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}
@@ -1918,11 +1921,12 @@ ideas = {
 			}
 		}
 		stagnant_growth = {
-			default = yes
+			default = no
 			level = 4
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}
@@ -1941,6 +1945,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}
@@ -1956,6 +1961,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}
@@ -1973,6 +1979,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
+				always = no
 			}
 			on_add = {
 			}
