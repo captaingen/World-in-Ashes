@@ -76,4 +76,8 @@ spriteTypes = {
 		name = "GFX_idea_leonhardt_idea"
 		texturefile = "gfx/interface/ideas/ministers/leonhardt.dds"			
 	}
+	spriteType = {
+		name = "GFX_idea_keitel_idea"
+		texturefile = "gfx/interface/ideas/ministers/keitel.dds"			
+	}
 }

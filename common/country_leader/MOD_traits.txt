@@ -2433,14 +2433,16 @@ leader_traits = {
 	######NEW ONES##########
 	
 	civil_engineer = {}
-	democratic_economist = {}
+	democratic_economist = {
+		democratic_drift = 0.01
+	}
 	financial_analyst = {}
 	militaristic_minister = {}
 	strategic_genius = {}
-	tactical_incompetence = {}
+	tactical_incompetence = {
+		attrition = 0.02
+	}
 	highway_engineer = {
-		sprite = 10
-		random = yes
 		production_speed_infrastructure_factor = 0.15
 		
 		ai_will_do = {

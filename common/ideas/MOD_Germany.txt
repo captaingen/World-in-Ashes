@@ -133,6 +133,19 @@ ideas = {
 
 			cost = 150
 		}
+		
+		wilhelm_keitel_mnd = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = keitel_idea
+
+			cost = 150
+		}
 	}
 	
 	economy_minister = {
