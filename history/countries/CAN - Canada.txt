@@ -10,6 +10,7 @@ set_war_support = 0.1
 add_ideas = {
 	undisturbed_isolation
 	disarmed_nation
+	canadian_isolationism
 }
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
