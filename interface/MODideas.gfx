@@ -36,4 +36,8 @@ spriteTypes = {
 		name = "GFX_idea_generic_socialism_drift_bonus"
 		texturefile = "gfx/interface/ideas/generic_socialism_drift_bonus.dds"			
 	}
+	spriteType = {
+		name = "GFX_idea_generic_socialism_outrage"
+		texturefile = "gfx/interface/ideas/generic_socialism_outrage.dds"			
+	}
 }

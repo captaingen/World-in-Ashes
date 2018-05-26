@@ -1,0 +1,190 @@
+﻿###########################
+# USA Events
+###########################
+
+add_namespace = modusa
+
+#country_event = {
+#   id = modusa.0
+#    title = modusa.0.t
+#    desc = modusa.0.d
+#    picture = GFX_USA_flag
+#
+#	is_triggered_only = no
+#
+#    fire_only_once = no
+#
+#    hidden = no
+#
+#    trigger = {
+#    }
+#
+#    mean_time_to_happen = {
+#       days = 1
+#    }
+#
+#    immediate = {
+#    }
+#
+#    option = {
+#       name = modusa.0.a
+#		ai_chance = {
+#			factor = 25 
+#			modifier = {
+#				factor = 50
+#				has_war = yes
+#				any_enemy_country = {
+#					strength_ratio = { 
+#						tag = ROOT 
+#						ratio < 0.4
+#					}
+#				}
+#			}
+#		}
+#    }
+#}
+
+######################Civil War Event Chain######################
+#Riots in Chicago
+country_event = {
+	id = modusa.0
+	title = modusa.0.t
+	desc = modusa.0.d
+	picture = GFX_report_event_generic_riot
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+		date > 1936.12.1
+		has_idea = socialist_tensions
+	}
+
+	immediate = {
+	}
+
+	option = { #Send in the National Guard!
+		name = modusa.0.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		395 = { 
+			damage_building = { type = industrial_complex damage = 10 } 
+			damage_building = { type = infrastructure damage = 3 } 
+		}
+		hidden_effect = {
+			country_event = { days = 2 id = modusa.1 }
+		}
+	}
+}
+
+#Chicago Massacre
+country_event = {
+	id = modusa.1
+	title = modusa.1.t
+	desc = modusa.1.d
+	picture = GFX_report_event_generic_riot
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	hidden = no
+
+	immediate = {
+	}
+
+	option = { #We've made a fatal error...
+		name = modusa.1.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = -100
+		add_stability = -0.15
+		add_popularity = { ideology = democratic popularity = -0.10 }
+		395 = { 
+			damage_building = { type = industrial_complex damage = 5 } 
+			damage_building = { type = infrastructure damage = 1 } 
+		}
+		swap_ideas = {
+			remove_idea = socialist_tensions
+			add_idea = socialist_conflict
+		}
+		hidden_effect = {
+			set_country_flag = chicago_massacre
+			country_event = { days = 30 id = modusa.2 }
+		}
+	}
+}
+
+#Widespread Protests in the North
+country_event = {
+	id = modusa.2
+	title = modusa.2.t
+	desc = modusa.2.d
+	picture = GFX_report_event_generic_riot
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	hidden = no
+
+	immediate = {
+	}
+
+	option = { #It's getting worse.
+		name = modusa.2.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = -25
+		add_stability = -0.05
+		391 = { 
+			damage_building = { type = industrial_complex damage = 2 } 
+			damage_building = { type = infrastructure damage = 1 } 
+		}
+		394 = { 
+			damage_building = { type = industrial_complex damage = 3 } 
+			damage_building = { type = infrastructure damage = 1 } 
+		}
+		393 = { 
+			damage_building = { type = industrial_complex damage = 6 } 
+			damage_building = { type = infrastructure damage = 2 } 
+		}
+		396 = { 
+			damage_building = { type = industrial_complex damage = 3 } 
+			damage_building = { type = infrastructure damage = 1 } 
+		}
+		261 = { 
+			damage_building = { type = industrial_complex damage = 5 } 
+			damage_building = { type = infrastructure damage = 3 } 
+		}
+		360 = { 
+			damage_building = { type = industrial_complex damage = 4 } 
+			damage_building = { type = infrastructure damage = 2 } 
+		}
+		359 = { 
+			damage_building = { type = industrial_complex damage = 3 } 
+			damage_building = { type = infrastructure damage = 1 } 
+		}
+		358 = { 
+			damage_building = { type = industrial_complex damage = 8 } 
+			damage_building = { type = infrastructure damage = 5 } 
+		}
+		357 = { 
+			damage_building = { type = industrial_complex damage = 4 } 
+			damage_building = { type = infrastructure damage = 3 } 
+		}
+		361 = { 
+			damage_building = { type = industrial_complex damage = 1 } 
+		}
+	}
+}
