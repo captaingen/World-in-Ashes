@@ -1,0 +1,98 @@
+
+guiTypes = {
+	containerWindowType = {
+		name = "yearly_revenue_container"
+		position = { x = 900 y = 4 }
+		
+		iconType ={
+			name ="yearly_revenue_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+			
+		}
+		
+		iconType = {
+			name ="yearly_revenue_icon"
+			spriteType = "GFX_yearly_revenue"
+			position = { x= 7 y = 6 }
+		}
+		
+		instantTextBoxType = {
+			name ="yearly_revenue_text"
+			position = { x= 28 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?yearly_revenue]%"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "YEARLY_REVENUE_TOOLTIP"
+			pdx_tooltip_delayed = "YEARLY_REVENUE_TOOLTIP_DELAYED"
+		}
+	}
+	
+	containerWindowType = {
+		name = "yearly_expenses_container"
+		position = { x = 975 y = 4 }
+		
+		iconType ={
+			name ="yearly_expenses_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+			
+		}
+		
+		iconType = {
+			name ="yearly_expenses_icon"
+			spriteType = "GFX_yearly_expenses"
+			position = { x= 7 y = 6 }
+		}
+		
+		instantTextBoxType = {
+			name ="yearly_expenses_text"
+			position = { x= 28 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?yearly_expenses]%"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "YEARLY_EXPENSES_TOOLTIP"
+			pdx_tooltip_delayed = "YEARLY_EXPENSES_TOOLTIP_DELAYED"
+		}
+	}
+	
+	containerWindowType = {
+		name = "money_amount_container"
+		position = { x = 1056 y = 4 }
+		
+		iconType ={
+			name ="money_amount_bg"
+			spriteType = "GFX_generic_box_small"
+			position = { x=0 y=0 }
+			
+		}
+		
+		iconType = {
+			name ="money_amount_icon"
+			spriteType = "GFX_money_amount"
+			position = { x= 7 y = 6 }
+		}
+		
+		instantTextBoxType = {
+			name ="money_amount_text"
+			position = { x= 40 y = 4 }
+			font = "hoi_18mbs"
+			text = "$[?money_amount]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "MONEY_AMOUNT_TOOLTIP"
+			pdx_tooltip_delayed = "MONEY_AMOUNT_TOOLTIP_DELAYED"
+		}
+	}
+}

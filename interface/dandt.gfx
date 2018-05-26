@@ -1,0 +1,513 @@
+spriteTypes = {	
+	
+### Death and Taxes ###
+	spriteType = {
+		name = "GFX_idea_no_taxes_high_income"
+		texturefile = "gfx/interface/ideas/taxes/no_taxes_high_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_taxes_high_income"
+		texturefile = "gfx/interface/ideas/taxes/low_taxes_high_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_medium_taxes_high_income"
+		texturefile = "gfx/interface/ideas/taxes/medium_taxes_high_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_high_taxes_high_income"
+		texturefile = "gfx/interface/ideas/taxes/high_taxes_high_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_exorbitant_taxes_high_income"
+		texturefile = "gfx/interface/ideas/taxes/exorbitant_taxes_high_income.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_no_taxes_medium_income"
+		texturefile = "gfx/interface/ideas/taxes/no_taxes_medium_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_taxes_medium_income"
+		texturefile = "gfx/interface/ideas/taxes/low_taxes_medium_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_medium_taxes_medium_income"
+		texturefile = "gfx/interface/ideas/taxes/medium_taxes_medium_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_high_taxes_medium_income"
+		texturefile = "gfx/interface/ideas/taxes/high_taxes_medium_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_exorbitant_taxes_medium_income"
+		texturefile = "gfx/interface/ideas/taxes/exorbitant_taxes_medium_income.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_no_taxes_low_income"
+		texturefile = "gfx/interface/ideas/taxes/no_taxes_low_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_taxes_low_income"
+		texturefile = "gfx/interface/ideas/taxes/low_taxes_low_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_medium_taxes_low_income"
+		texturefile = "gfx/interface/ideas/taxes/medium_taxes_low_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_high_taxes_low_income"
+		texturefile = "gfx/interface/ideas/taxes/high_taxes_low_income.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_exorbitant_taxes_low_income"
+		texturefile = "gfx/interface/ideas/taxes/exorbitant_taxes_low_income.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_extremely_impoverished"
+		texturefile = "gfx/interface/ideas/development/extremely_impoverished.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_impoverished"
+		texturefile = "gfx/interface/ideas/development/very_impoverished.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_impoverished"
+		texturefile = "gfx/interface/ideas/development/impoverished.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slightly_impoverished"
+		texturefile = "gfx/interface/ideas/development/slightly_impoverished.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_developing"
+		texturefile = "gfx/interface/ideas/development/developing.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slightly_developed"
+		texturefile = "gfx/interface/ideas/development/slightly_developed.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_developed"
+		texturefile = "gfx/interface/ideas/development/developed.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_well_developed"
+		texturefile = "gfx/interface/ideas/development/well_developed.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extremely_developed"
+		texturefile = "gfx/interface/ideas/development/extremely_developed.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rich"
+		texturefile = "gfx/interface/ideas/development/rich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_dandt_zero_balanced"
+		texturefile = "gfx/interface/ideas/dandt_zero_balanced.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dandt_5_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_5_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_10_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_10_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_15_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_15_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_20_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_20_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_25_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_25_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_30_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_30_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_35_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_35_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_40_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_40_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_45_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_45_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_50_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_50_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_55_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_55_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_60_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_60_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_65_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_65_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_70_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_70_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_75_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_75_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_80_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_80_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_85_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_85_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_90_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_90_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_95_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_95_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_100_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_100_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_105_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_105_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_110_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_110_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_115_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_115_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_120_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_120_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_125_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_125_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_130_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_130_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_135_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_135_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_140_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_140_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_145_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_145_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_150_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_150_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_155_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_155_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_160_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_160_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_165_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_165_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_170_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_170_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_175_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_175_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_180_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_180_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_185_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_185_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_190_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_190_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_195_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_195_debt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_200_debt"
+		texturefile = "gfx/interface/ideas/debt/dandt_200_debt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dandt_5_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_5_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_10_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_10_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_15_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_15_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_20_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_20_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_25_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_25_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_30_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_30_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_35_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_35_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_40_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_40_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_45_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_45_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_50_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_50_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_55_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_55_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_60_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_60_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_65_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_65_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_70_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_70_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_75_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_75_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_80_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_80_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_85_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_85_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_90_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_90_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_95_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_95_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_100_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_100_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_105_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_105_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_110_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_110_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_115_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_115_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_120_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_120_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_125_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_125_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_130_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_130_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_135_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_135_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_140_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_140_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_145_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_145_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_150_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_150_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_155_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_155_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_160_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_160_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_165_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_165_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_170_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_170_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_175_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_175_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_180_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_180_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_185_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_185_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_190_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_190_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_195_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_195_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandt_200_reserves"
+		texturefile = "gfx/interface/ideas/reserves/dandt_200_reserves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_free_fall"
+		texturefile = "gfx/interface/ideas/situation/free_fall.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_depression"
+		texturefile = "gfx/interface/ideas/situation/depression.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_recession"
+		texturefile = "gfx/interface/ideas/situation/recession.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stagnant_growth"
+		texturefile = "gfx/interface/ideas/situation/stagnant_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_steady_growth"
+		texturefile = "gfx/interface/ideas/situation/steady_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fast_growth"
+		texturefile = "gfx/interface/ideas/situation/fast_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_boom"
+		texturefile = "gfx/interface/ideas/situation/economic_boom.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_yearly_revenue"
+		texturefile = "gfx/interface/ideas/yearly_revenue.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_yearly_expenses"
+		texturefile = "gfx/interface/ideas/yearly_expenses.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_yearly_income"
+		texturefile = "gfx/interface/ideas/yearly_income.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_money_amount"
+		texturefile = "gfx/interface/ideas/money_amount.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_idea_internal_security_only"
+		texturefile = "gfx/interface/ideas/army_expenditure/internal_security_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_peacetime_army_expenditure"
+		texturefile = "gfx/interface/ideas/army_expenditure/peacetime_army_expenditure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_peacetime_buildup_army_expenditure"
+		texturefile = "gfx/interface/ideas/army_expenditure/peacetime_buildup_army_expenditure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_army_expenditure"
+		texturefile = "gfx/interface/ideas/army_expenditure/small_army_expenditure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_medium_army_expenditure"
+		texturefile = "gfx/interface/ideas/army_expenditure/medium_army_expenditure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_large_army_expenditure"
+		texturefile = "gfx/interface/ideas/army_expenditure/large_army_expenditure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_huge_army_expenditure"
+		texturefile = "gfx/interface/ideas/army_expenditure/huge_army_expenditure.dds"
+	}
+}

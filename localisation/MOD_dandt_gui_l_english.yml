@@ -1,0 +1,7 @@
+﻿l_english:
+ YEARLY_REVENUE_TOOLTIP:0 "Your yearly tax revenue is [?yearly_revenue]% of GDP."
+ YEARLY_REVENUE_TOOLTIP_DELAYED:0 "Taxes are essential to any government. High taxes lower economic growth, while low taxes limit the ability of the government to do certain tasks."
+ YEARLY_EXPENSES_TOOLTIP:0 "Your yearly expenses is [?yearly_expenses]% of GDP."
+ YEARLY_EXPENSES_TOOLTIP_DELAYED:0 "Expenses is simply money spent. Governments spend money on many things, like education or the military.\n\n If expenses becomes larger than revenue, then you will gain debt. If expenses is smaller than revenue, then you can pay back debt, or even get some cash reserves."
+ MONEY_AMOUNT_TOOLTIP:0 "You currently have $[?money_amount]."
+ MONEY_AMOUNT_TOOLTIP_DELAYED:0 "Placeholder."

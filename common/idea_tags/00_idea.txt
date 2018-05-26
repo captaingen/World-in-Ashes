@@ -62,4 +62,28 @@ idea_categories = {
 		cost = 150
 		removal_cost = 0
 	}
+	
+	economy_and_taxes = {
+		slot = tax_high_income
+		slot = tax_medium_income
+		slot = tax_low_income
+		slot = economic_development
+		slot = economic_debt_reserves_to_gdp
+		slot = economic_situation
+		
+		cost = 50
+		removal_cost = -1
+	}
+	
+	expenses = {
+		slot = expenses_army
+		#slot = expenses_navy
+		#slot = expenses_airforce
+		#slot = expenses_police_intelligence
+		#slot = expenses_education
+		#slot = expenses_welfare
+		
+		cost = 50
+		removal_cost = -1
+	}
 }

@@ -1,0 +1,2167 @@
+ideas = {
+	tax_high_income = {
+		no_taxes_high_income = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}			
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		low_taxes_high_income = {
+			default = no
+			level = 2
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		medium_taxes_high_income = {
+			default = yes
+			level = 3
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.08
+				political_power_factor	= 0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		high_taxes_high_income = {
+			default = no
+			level = 4
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.12
+				political_power_factor	= 0.10
+				stability_factor = -0.01
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		exorbitant_taxes_high_income = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.18
+				political_power_factor	= 0.15
+				stability_factor = -0.04
+				war_support_factor = -0.03
+				monthly_population = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	tax_medium_income = {
+		no_taxes_medium_income = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}			
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		low_taxes_medium_income = {
+			default = no
+			level = 2
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		medium_taxes_medium_income = {
+			default = yes
+			level = 3
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.09
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		high_taxes_medium_income = {
+			default = no
+			level = 4
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.03
+				war_support_factor = -0.02
+				monthly_population = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		exorbitant_taxes_medium_income = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.20
+				stability_factor = -0.07
+				war_support_factor = -0.05
+				monthly_population = -0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	tax_low_income = {
+		no_taxes_low_income = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}			
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		low_taxes_low_income = {
+			default = yes
+			level = 2
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.01
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		medium_taxes_low_income = {
+			default = no
+			level = 3
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		high_taxes_low_income = {
+			default = no
+			level = 4
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				communism_drift = 0.02
+				war_support_factor = -0.04
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		exorbitant_taxes_low_income = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.07
+				communism_drift = 0.05
+				stability_factor = -0.05
+				war_support_factor = -0.09
+				monthly_population = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	economic_development = {
+		extremely_impoverished = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}			
+			modifier = {
+				consumer_goods_factor = 0.3
+				monthly_population = -0.5
+				research_time_factor = 0.15
+				global_building_slots_factor = -0.8
+				local_resources_factor = -0.5
+				production_oil_factor = -0.5
+				stability_factor = -0.2
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		very_impoverished = {
+			default = no
+			level = 2
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.25
+				monthly_population = -0.4
+				research_time_factor = 0.12
+				global_building_slots_factor = -0.7
+				local_resources_factor = -0.4
+				production_oil_factor = -0.4
+				stability_factor = -0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		impoverished = {
+			default = no
+			level = 3
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.2
+				monthly_population = -0.25
+				research_time_factor = 0.10
+				global_building_slots_factor = -0.6
+				local_resources_factor = -0.25
+				production_oil_factor = -0.25
+				stability_factor = -0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		slightly_impoverished = {
+			default = no
+			level = 4
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+				research_time_factor = 0.075
+				global_building_slots_factor = -0.45
+				production_speed_buildings_factor = -0.05
+				local_resources_factor = -0.15
+				production_oil_factor = -0.05
+				stability_factor = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		developing = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				monthly_population = 0.25
+				research_time_factor = 0.05
+				global_building_slots_factor = -0.3
+				production_speed_buildings_factor = -0.15
+				local_resources_factor = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		slightly_developed = {
+			default = no
+			level = 6
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				monthly_population = 0.33
+				global_building_slots_factor = -0.15
+				production_speed_buildings_factor = -0.25
+				stability_factor = 0.025
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		developed = {
+			default = yes
+			level = 7
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				monthly_population = 0.1
+				research_time_factor = -0.01
+				production_speed_buildings_factor = -0.33
+				stability_factor = 0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		well_developed = {
+			default = no
+			level = 8
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				monthly_population = -0.1
+				research_time_factor = -0.02
+				global_building_slots_factor = 0.2
+				production_speed_buildings_factor = -0.4
+				stability_factor = 0.075
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		extremely_developed = {
+			default = no
+			level = 9
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				monthly_population = -0.2
+				research_time_factor = -0.03
+				global_building_slots_factor = 0.5
+				production_speed_buildings_factor = -0.5
+				stability_factor = 0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		rich = {
+			default = no
+			level = 10
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				monthly_population = -0.3
+				research_time_factor = -0.05
+				global_building_slots_factor = 1
+				production_speed_buildings_factor = -0.6
+				stability_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	economic_debt_reserves_to_gdp = {
+		dandt_200_debt = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}			
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				political_power_cost = 0.4
+				war_support_factor = -0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_195_debt = {
+			default = no
+			level = 2
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.24
+				political_power_cost = 0.39
+				war_support_factor = -0.095
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_190_debt = {
+			default = no
+			level = 3
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.23
+				political_power_cost = 0.38
+				war_support_factor = -0.09
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_185_debt = {
+			default = no
+			level = 4
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.22
+				political_power_cost = 0.37
+				war_support_factor = -0.085
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_180_debt = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.21
+				political_power_cost = 0.36
+				war_support_factor = -0.08
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_175_debt = {
+			default = no
+			level = 6
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.20
+				political_power_cost = 0.35
+				war_support_factor = -0.075
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_170_debt = {
+			default = no
+			level = 7
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.19
+				political_power_cost = 0.34
+				war_support_factor = -0.07
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_165_debt = {
+			default = no
+			level = 8
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.18
+				political_power_cost = 0.33
+				war_support_factor = -0.065
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_160_debt = {
+			default = no
+			level = 9
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.17
+				political_power_cost = 0.32
+				war_support_factor = -0.06
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_155_debt = {
+			default = no
+			level = 10
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.16
+				political_power_cost = 0.31
+				war_support_factor = -0.055
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_150_debt = {
+			default = no
+			level = 11
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				political_power_cost = 0.30
+				war_support_factor = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_145_debt = {
+			default = no
+			level = 12
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.14
+				political_power_cost = 0.29
+				war_support_factor = -0.045
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_140_debt = {
+			default = no
+			level = 13
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.13
+				political_power_cost = 0.28
+				war_support_factor = -0.04
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_135_debt = {
+			default = no
+			level = 14
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.12
+				political_power_cost = 0.27
+				war_support_factor = -0.035
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_130_debt = {
+			default = no
+			level = 15
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.11
+				political_power_cost = 0.26
+				war_support_factor = -0.03
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_125_debt = {
+			default = no
+			level = 16
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.10
+				political_power_cost = 0.25
+				war_support_factor = -0.025
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_120_debt = {
+			default = no
+			level = 17
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.09
+				political_power_cost = 0.24
+				war_support_factor = -0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_115_debt = {
+			default = no
+			level = 18
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.08
+				political_power_cost = 0.23
+				war_support_factor = -0.015
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_110_debt = {
+			default = no
+			level = 19
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.07
+				political_power_cost = 0.22
+				war_support_factor = -0.01
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_105_debt = {
+			default = no
+			level = 20
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.06
+				political_power_cost = 0.21
+				war_support_factor = -0.005
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_100_debt = {
+			default = no
+			level = 21
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				political_power_cost = 0.20
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_95_debt = {
+			default = no
+			level = 22
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.04
+				political_power_cost = 0.19
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_90_debt = {
+			default = no
+			level = 23
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.03
+				political_power_cost = 0.18
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_85_debt = {
+			default = no
+			level = 24
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.02
+				political_power_cost = 0.17
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_80_debt = {
+			default = no
+			level = 25
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.01
+				political_power_cost = 0.16
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_75_debt = {
+			default = no
+			level = 26
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_70_debt = {
+			default = no
+			level = 27
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.14
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_65_debt = {
+			default = no
+			level = 28
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.13
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_60_debt = {
+			default = no
+			level = 29
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.12
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_55_debt = {
+			default = no
+			level = 30
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.11
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_50_debt = {
+			default = no
+			level = 31
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_45_debt = {
+			default = no
+			level = 32
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.09
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_40_debt = {
+			default = no
+			level = 33
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.08
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_35_debt = {
+			default = no
+			level = 34
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.07
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_30_debt = {
+			default = no
+			level = 35
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.06
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_25_debt = {
+			default = no
+			level = 36
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_20_debt = {
+			default = no
+			level = 37
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.04
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_15_debt = {
+			default = no
+			level = 38
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.03
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_10_debt = {
+			default = no
+			level = 39
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_5_debt = {
+			default = no
+			level = 40
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = 0.01
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_zero_balanced = {
+			default = yes
+			level = 41
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_5_reserves = {
+			default = no
+			level = 42
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.01
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_10_reserves = {
+			default = no
+			level = 43
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_15_reserves = {
+			default = no
+			level = 44
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.03
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_20_reserves = {
+			default = no
+			level = 45
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.04
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_25_reserves = {
+			default = no
+			level = 46
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_30_reserves = {
+			default = no
+			level = 47
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.06
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_35_reserves = {
+			default = no
+			level = 48
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.07
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_40_reserves = {
+			default = no
+			level = 49
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.08
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_45_reserves = {
+			default = no
+			level = 50
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.09
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_50_reserves = {
+			default = no
+			level = 51
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_55_reserves = {
+			default = no
+			level = 52
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.11
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_60_reserves = {
+			default = no
+			level = 53
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.12
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_65_reserves = {
+			default = no
+			level = 54
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.13
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_70_reserves = {
+			default = no
+			level = 55
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.14
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_75_reserves = {
+			default = no
+			level = 56
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_80_reserves = {
+			default = no
+			level = 57
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.16
+				production_speed_buildings_factor = 0.01
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_85_reserves = {
+			default = no
+			level = 58
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.17
+				production_speed_buildings_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_90_reserves = {
+			default = no
+			level = 59
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.18
+				production_speed_buildings_factor = 0.03
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_95_reserves = {
+			default = no
+			level = 60
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.19
+				production_speed_buildings_factor = 0.04
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_100_reserves = {
+			default = no
+			level = 61
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.20
+				production_speed_buildings_factor = 0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_105_reserves = {
+			default = no
+			level = 62
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.21
+				production_speed_buildings_factor = 0.06
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_110_reserves = {
+			default = no
+			level = 63
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.22
+				production_speed_buildings_factor = 0.07
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_115_reserves = {
+			default = no
+			level = 64
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.23
+				production_speed_buildings_factor = 0.08
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_120_reserves = {
+			default = no
+			level = 65
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.24
+				production_speed_buildings_factor = 0.09
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_125_reserves = {
+			default = no
+			level = 66
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.25
+				production_speed_buildings_factor = 0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_130_reserves = {
+			default = no
+			level = 67
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.26
+				production_speed_buildings_factor = 0.11
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_135_reserves = {
+			default = no
+			level = 68
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.27
+				production_speed_buildings_factor = 0.12
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_140_reserves = {
+			default = no
+			level = 69
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.28
+				production_speed_buildings_factor = 0.13
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_145_reserves = {
+			default = no
+			level = 70
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.29
+				production_speed_buildings_factor = 0.14
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_150_reserves = {
+			default = no
+			level = 71
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.30
+				production_speed_buildings_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_155_reserves = {
+			default = no
+			level = 72
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.31
+				production_speed_buildings_factor = 0.16
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_160_reserves = {
+			default = no
+			level = 73
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.32
+				production_speed_buildings_factor = 0.17
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_165_reserves = {
+			default = no
+			level = 74
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.33
+				production_speed_buildings_factor = 0.18
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_170_reserves = {
+			default = no
+			level = 75
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.34
+				production_speed_buildings_factor = 0.19
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_175_reserves = {
+			default = no
+			level = 76
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.35
+				production_speed_buildings_factor = 0.20
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_180_reserves = {
+			default = no
+			level = 77
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.36
+				production_speed_buildings_factor = 0.21
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_185_reserves = {
+			default = no
+			level = 78
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.37
+				production_speed_buildings_factor = 0.22
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_190_reserves = {
+			default = no
+			level = 79
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.38
+				production_speed_buildings_factor = 0.23
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_195_reserves = {
+			default = no
+			level = 80
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.39
+				production_speed_buildings_factor = 0.24
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		dandt_200_reserves = {
+			default = no
+			level = 81
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				political_power_cost = -0.40
+				production_speed_buildings_factor = 0.25
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	economic_situation = {
+		free_fall = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}			
+			modifier = {
+				consumer_goods_factor = 0.20
+				production_speed_buildings_factor = -1
+				stability_factor = -0.15
+				war_support_factor = -0.25
+				monthly_population = -0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		depression = {
+			default = no
+			level = 2
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.65
+				stability_factor = -0.08
+				war_support_factor = -0.15
+				monthly_population = -0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		recession = {
+			default = no
+			level = 3
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.35
+				stability_factor = -0.04
+				war_support_factor = -0.07
+				monthly_population = -0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		stagnant_growth = {
+			default = yes
+			level = 4
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.2
+				war_support_factor = -0.03
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		steady_growth = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		fast_growth = {
+			default = no
+			level = 6
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				monthly_population = 0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		economic_boom = {
+			default = no
+			level = 7
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.25
+				monthly_population = 0.10
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	expenses_army = {
+		internal_security_only = {
+			default = no
+			level = 1			
+			allowed = {
+			}
+			available = {
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}			
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		peacetime_army_expenditure = {
+			default = yes
+			level = 2
+			allowed = {
+			}
+			available = {
+				OR = {
+					has_war_support > 0.09
+					has_war = yes
+					has_government = fascism
+					has_government = communism
+				}
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		peacetime_buildup_army_expenditure = {
+			default = no
+			level = 3
+			allowed = {
+			}
+			available = {
+				OR = {
+					has_war_support > 0.49
+					has_war = yes
+					AND = {
+						OR = {
+							has_government = fascism
+							has_government = communism
+						}
+						has_war_support > 0.24
+					}
+				}	
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		small_army_expenditure = {
+			default = no
+			level = 4
+			allowed = {
+			}
+			available = {
+				has_war_support > 0.24
+				OR = {
+					has_war_support > 0.65
+					has_war = yes
+					AND = {
+						OR = {
+							has_government = fascism
+							has_government = communism
+						}
+						has_war_support > 0.49
+					}
+				}
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		medium_army_expenditure = {
+			default = no
+			level = 5
+			allowed = {
+			}
+			available = {
+				has_war_support > 0.49
+				OR = {
+					has_war_support > 0.79
+					has_war = yes
+					AND = {
+						OR = {
+							has_government = fascism
+							has_government = communism
+						}
+						has_war_support > 0.65
+					}
+				}
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		large_army_expenditure = {
+			default = no
+			level = 6
+			allowed = {
+			}
+			available = {
+				has_war_support > 0.65
+				OR = {
+					has_war_support > 0.99
+					has_war = yes
+					AND = {
+						OR = {
+							has_government = fascism
+							has_government = communism
+						}
+						has_war_support > 0.79
+					}
+				}
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		huge_army_expenditure = {
+			default = no
+			level = 7
+			allowed = {
+			}
+			available = {
+				has_war_support > 0.79
+				OR = {
+					has_war = yes
+					AND = {
+						OR = {
+							has_government = fascism
+							has_government = communism
+						}
+						has_war_support > 0.99
+					}
+				}
+			}
+			on_add = {
+				get_tax_and_expenses = yes
+			}
+			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

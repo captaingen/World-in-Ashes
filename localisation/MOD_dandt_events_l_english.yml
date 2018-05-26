@@ -1,0 +1,14 @@
+﻿l_english:
+ #Debt And Taxes
+  dandt.0.t:0 "Variables Testing Event"
+  dandt.0.d:0 "Value of the Variable: [?Root.variable]"
+  dandt.0.a:0 "Add one"
+  dandt.0.b:0 "Multiply by two"
+  dandt.0.c:0 "Subtract one"
+  dandt.0.e:0 "Is the variable greater than 5? Yes gives 10 pp"
+  dandt.1.t:0 "Setup"
+  dandt.1.d:0 "This event is for setup only. Enjoy Death and Taxes!"
+  dandt.1.a:0 "I hate this mod already"
+  dandt.2.t:0 "The Economy of [Root.GetName]"
+  dandt.2.d:0 "The current revenue of taxes is currently [?Root.yearly_revenue]% of GDP per year.\n\nThe current expenses are [?Root.yearly_expenses]% of GDP per year.\n\nThe current variable I'm testing is [?Root.money_income]."
+  dandt.2.a:0 "Interesting"

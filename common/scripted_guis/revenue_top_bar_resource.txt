@@ -1,0 +1,34 @@
+scripted_gui = {
+
+	yearly_revenue = {
+		context_type = player_context
+		
+		window_name = "yearly_revenue_container"
+		
+		visible = {
+            always = yes
+		}
+	}
+	
+	yearly_expenses = {
+		context_type = player_context
+		
+		window_name = "yearly_expenses_container"
+		
+		visible = {
+            always = yes
+		}
+	}
+	
+	money_amount = {
+		context_type = player_context
+		
+		window_name = "money_amount_container"
+		
+		visible = {
+            always = yes
+		}
+	}
+    
+}
+
