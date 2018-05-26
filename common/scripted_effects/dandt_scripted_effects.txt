@@ -65,18 +65,19 @@ get_tax_and_expenses = {
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
+				var = debt_percentage
 				value = -0.05
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_zero_balanced
+		
 	}
-	else_if	 = {
+	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_200_reserves }
 			check_variable = {
-				var = debt_reserves
+				var = debt_percentage
 				value = 2
 				compare = greater_than_or_equals
 			}
@@ -92,7 +93,7 @@ get_tax_and_expenses = {
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
+				var = debt_percentage
 				value = 1.95
 				compare = greater_than_or_equals
 			}
@@ -108,2543 +109,1235 @@ get_tax_and_expenses = {
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
+				var = debt_percentage
 				value = 1.9
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_190_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 190
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 185
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_185_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.9
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.85
 				compare = greater_than_or_equals
 			}
 		}
-		add_ideas = dandt_185_reserves
+		add_ideas = dandt_190_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 185
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 180
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_180_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.85
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.8
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_180_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 180
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 175
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_175_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.8
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.75
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_175_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 175
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 170
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_170_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.75
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.7
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_170_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 170
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 165
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_165_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.7
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.65
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_165_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 165
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 160
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_160_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.65
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.6
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_160_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 160
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 155
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_155_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.6
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.55
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_155_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 155
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 150
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_150_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.55
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.5
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_150_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 150
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 145
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_145_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.5
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.45
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_145_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 145
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 140
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_140_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.45
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.4
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_140_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 140
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 135
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_135_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.4
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.35
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_135_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 135
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 130
-	}
-
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_130_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.35
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.3
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_130_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 130
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 125
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_125_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.3
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
-				compare = greater_than_or_equals
-			}
-		}
-		add_ideas = dandt_125_reserves
-	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 125
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 120
-	}
-	else_if = {
-		limit = {
-			NOT = { has_idea = dandt_120_reserves }
-			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
-				compare = less_than
-			}
-			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
-				compare = greater_than_or_equals
-			}
-		}
-		add_ideas = dandt_120_reserves
-	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 120
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 115
-	}
-	else_if = {
-		limit = {
-			NOT = { has_idea = dandt_115_reserves }
-			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
-				compare = less_than
-			}
-			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.25
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_115_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
+	else_if = {
+		limit = {
+			NOT = { has_idea = dandt_120_reserves }
+			check_variable = {
+				var = debt_percentage
+				value = 1.25
+				compare = less_than
+			}
+			check_variable = {
+				var = debt_percentage
+				value = 1.2
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = dandt_120_reserves
 	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 115
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 110
+	else_if = {
+		limit = {
+			NOT = { has_idea = dandt_115_reserves }
+			check_variable = {
+				var = debt_percentage
+				value = 1.2
+				compare = less_than
+			}
+			check_variable = {
+				var = debt_percentage
+				value = 1.15
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = dandt_115_reserves
 	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_110_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.15
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.1
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_110_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 110
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 105
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_105_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.1
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.05
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_105_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 105
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 100
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_100_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.05
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 1.0
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_100_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 100
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 95
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_95_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 1.0
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.95
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_95_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 95
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 90
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_90_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.95
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.9
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_90_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 90
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 85
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_85_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.9
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.85
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_85_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 85
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 80
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_80_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.85
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.8
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_80_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 80
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 75
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_75_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.8
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.75
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_75_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 75
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 70
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_70_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.75
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.7
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_70_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 70
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 65
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_65_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.7
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.65
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_65_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 65
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 60
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_60_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.65
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.6
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_60_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 60
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 55
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_55_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.6
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.55
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_55_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 55
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 50
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_50_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.55
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.5
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_50_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 50
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 45
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_45_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.5
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.45
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_45_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 45
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 40
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_40_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.45
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.4
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_40_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 40
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 35
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_35_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.4
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.35
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_35_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 35
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 30
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_30_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.35
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.3
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_30_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 30
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 25
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_25_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.3
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.25
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_25_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 25
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 20
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_20_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.25
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.2
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_20_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 20
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 15
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_15_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.2
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.15
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_15_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 15
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 10
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_10_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.15
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.1
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_10_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = 10
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = 5
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_5_reserves }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = 0.1
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = 0.05
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_5_reserves
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -5
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -10
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_5_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.05
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.1
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_5_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -10
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -15
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_10_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.1
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.15
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_10_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -15
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -20
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_15_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.15
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.2
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_15_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -20
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -25
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_20_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.2
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.25
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_20_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -25
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -30
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_25_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.25
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.3
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_25_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -30
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -35
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_30_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.3
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.35
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_30_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -35
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -40
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_35_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.35
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.4
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_35_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -40
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -45
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_40_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.4
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.45
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_40_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -45
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -50
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_45_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.45
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.5
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_45_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -50
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -55
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_50_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.5
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.55
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_50_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -55
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -60
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_55_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.55
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.6
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_55_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -60
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -65
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_60_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.6
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.65
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_60_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -65
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -70
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_65_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.65
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.7
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_65_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -70
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -75
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_70_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.7
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.75
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_70_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -75
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -80
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_75_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.75
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.8
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_75_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -80
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -85
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_80_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.8
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.85
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_85_debt
-	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -85
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -90
 	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_85_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.85
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.9
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_85_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -90
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -95
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_90_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.9
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -0.95
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_90_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -95
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -100
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_95_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -0.95
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_95_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -100
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -105
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_100_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.05
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_100_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -105
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -110
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_105_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.05
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.1
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_105_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -110
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -115
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_110_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.1
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.15
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_110_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -115
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -120
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_115_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.15
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.2
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_115_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -120
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -125
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_120_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.2
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.25
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_120_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -125
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -130
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_125_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.25
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.3
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_125_debt
-	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -130
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -135
 	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_130_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.3
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.35
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_125_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -135
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -140
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_135_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.35
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.4
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_135_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -140
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -145
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_140_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.4
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.45
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_140_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -145
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -150
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_145_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.45
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.5
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_145_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -150
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -155
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_150_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.5
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.55
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_150_debt
-	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -155
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -160
 	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_155_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.55
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.6
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_155_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -160
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -165
-	}
 	else_if = {
 		limit = {
-			NOT = { has_idea = dandt_150_debt }
+			NOT = { has_idea = dandt_160_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.6
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.65
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_150_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -165
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -170
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_165_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.65
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.7
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_165_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -170
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -175
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_170_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.7
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.75
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_170_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -175
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -180
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_175_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.75
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.8
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_175_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -180
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -185
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_180_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.8
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.85
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_180_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -185
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -190
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_185_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.85
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.9
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_185_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -190
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -195
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_190_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.9
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -1.95
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_195_debt
-	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	set_variable = {
-		var = debt_level_lower
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -195
-	}
-	multiply_variable = {
-		var = debt_level_lower
-		value = -200
 	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_195_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -1.95
 				compare = less_than
 			}
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_lower
+				var = debt_percentage
+				value = -2
 				compare = greater_than_or_equals
 			}
 		}
 		add_ideas = dandt_195_debt
 	}
-	
-	set_variable = {
-		var = debt_level_upper
-		value = ROOT.num_of_factories
-	}
-	multiply_variable = {
-		var = debt_level_upper
-		value = -200
-	}
 	else_if = {
 		limit = {
 			NOT = { has_idea = dandt_200_debt }
 			check_variable = {
-				var = debt_reserves
-				value = debt_level_upper
+				var = debt_percentage
+				value = -2
 				compare = less_than
 			}
 		}

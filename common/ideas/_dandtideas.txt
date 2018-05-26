@@ -1863,7 +1863,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = free_fall
 			}
 			on_add = {
 			}			
@@ -1884,7 +1884,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = depression
 			}
 			on_add = {
 			}
@@ -1905,7 +1905,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = recession
 			}
 			on_add = {
 			}
@@ -1926,7 +1926,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = stagnant_growth
 			}
 			on_add = {
 			}
@@ -1945,7 +1945,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = steady_growth
 			}
 			on_add = {
 			}
@@ -1961,7 +1961,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = fast_growth
 			}
 			on_add = {
 			}
@@ -1979,7 +1979,7 @@ ideas = {
 			allowed = {
 			}
 			available = {
-				always = no
+				has_idea = economic_boom
 			}
 			on_add = {
 			}

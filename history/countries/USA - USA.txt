@@ -82,7 +82,8 @@ add_ideas = {
 	dandt_40_debt
 	free_fall
 	well_developed
-	high_taxes_high_income
+	medium_taxes_high_income
+	low_taxes_medium_income
 	internal_security_only
 }
 
