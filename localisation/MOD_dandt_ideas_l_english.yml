@@ -147,3 +147,12 @@
   medium_army_expenditure:0 "Medium Army Expenditure"
   large_army_expenditure:0 "Large Army Expenditure"
   huge_army_expenditure:0 "Huge Army Expenditure"
+  
+  ministers:0 "Ministers"
+ 
+  head_of_government:0 "Second in Power"
+  foreign_minister:0 "Foreign Minister"
+  minister_national_defense:0 "Minister of National Defense"
+  construction_minister:0 "Construction Minister"
+  intel_minister:0 "Intelligence Minister"
+  economy_minister:0 "Economy Minister"
