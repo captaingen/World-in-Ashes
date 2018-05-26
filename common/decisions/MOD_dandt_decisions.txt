@@ -1,0 +1,131 @@
+economy_decisions = {
+	
+	set_initial_variable = {
+
+		icon = generic_political_discourse
+
+		available = {
+		}
+
+		visible = {
+			is_ai = no
+			always = no
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+		}
+
+		cost = 0
+
+		complete_effect = {
+			set_variable = { variable = 0 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	view_variables = {
+
+		icon = generic_political_discourse
+
+		available = {
+		}
+
+		visible = {
+			is_ai = no
+			always = no
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		cost = 0
+
+		complete_effect = {
+			country_event = { id = dandt.0 hours = 0 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	view_economy = {
+
+		icon = generic_industry
+
+		available = {
+		}
+
+		visible = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = {
+				var = money_amount
+				value = money_income
+			}
+			country_event = { id = dandt.2 hours = 0 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	increase_reserves = {
+
+		icon = generic_industry
+
+		available = {
+			check_variable = {
+				var = money_amount
+				value = money_req_5_percent
+				compare = greater_than_or_equals
+			}
+		}
+
+		visible = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		cost = 5
+
+		complete_effect = {
+			hidden_effect = {
+				subtract_from_variable = {
+					var = money_amount
+					value = money_req_5_percent
+				}
+				add_to_variable = {
+					var = debt_reserves
+					value = money_req_5_percent
+				}
+				get_tax_and_expenses = yes
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
