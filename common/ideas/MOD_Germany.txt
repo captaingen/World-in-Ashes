@@ -124,7 +124,6 @@ ideas = {
 			available = {
 			}
 			traits = {
-			militaristic_minister
 			strategic_genius
 			tactical_incompetence
 			}

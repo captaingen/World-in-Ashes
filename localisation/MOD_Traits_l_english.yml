@@ -5,3 +5,14 @@
  construction_minister:0 "Construction Minister"
  intel_minister:0 "Intelligence Minister"
  economy_minister:0 "Economy Minister"
+ 
+ 
+ 
+ 
+ 
+ civil_engineer:0 "Civil Engineer"
+ democratic_economist:0 "Democratic Economist"
+ financial_analyst:0 "Financial Analyst"
+ militaristic_minister:0 "Militaristic Minister"
+ strategic_genius:0 "Strategic Genius"
+ tactical_incompetence:0 "Tactically Incompetent"
