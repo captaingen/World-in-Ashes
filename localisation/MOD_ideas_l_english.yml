@@ -1,4 +1,22 @@
 ﻿l_english:
+ 
+ ministers:0 "Ministers"
+ 
+ head_of_government:0 "Second in Power"
+ foreign_minister:0 "Foreign Minister"
+ minister_national_defense:0 "Minister of National Defense"
+ construction_minister:0 "Construction Minister"
+ intel_minister:0 "Intelligence Minister"
+ economy_minister:0 "Economy Minister"
+ 
+ idea_category_army_chief:0 "Chief of Army"
+ idea_category_head_of_government:0 "Second in Power"
+ idea_category_foreign_minister:0 "Foreign Minister"
+ idea_category_minister_national_defense:0 "Minister of National Defense"
+ idea_category_construction_minister:0 "Construction Minister"
+ idea_category_intel_minister:0 "Intelligence Minister"
+ idea_category_economy_minister:0 "Economy Minister"
+
  #France
  FRA_Civil_War:0 "French Civil War"
  FRA_Civil_War_desc:0 "The french civil war has been raging on for quite a while, and we have to be at our best to be able to win this war."
