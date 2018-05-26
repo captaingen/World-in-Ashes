@@ -86,4 +86,117 @@ ideas = {
 			}
 		}
 	}
+	
+	head_of_government = {
+		franz_von_papen_hog = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+	}
+	
+	foreign_minister = {
+		richard_von_kuhlmann_fm = {
+			allowed = {original_tag = GER}
+			available = {
+				date < 1948.5.26
+			}
+			traits = {
+			}
+			cancel_if_invalid = yes
+			
+			picture = richard_von_kuhlmann_idea
+
+			cost = 150
+		}
+	}
+	
+	minister_national_defense = {
+		adolf_hitler_mnd = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+			militaristic_minister
+			strategic_genius
+			tactical_incompetence
+			}
+			cancel_if_invalid = no
+			
+			picture = hitler_idea
+
+			cost = 150
+		}
+	}
+	
+	economy_minister = {
+		hjalmar_schacht_em  = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+				democratic_economist
+			}
+			cancel_if_invalid = no
+			
+			picture = hjalmar_idea
+
+			cost = 150
+		}
+		
+		bernhard_dernburg_em  = {
+			allowed = {original_tag = GER}
+			available = {
+				date < 1937.10.14
+			}
+			traits = {
+				financial_analyst
+			}
+			cancel_if_invalid = yes
+			
+			picture = dernburg_idea
+
+			cost = 150
+		}
+		
+	}
+	
+	construction_minister = {
+		walter_hohmann_cm = {
+			allowed = {original_tag = GER}
+			available = {
+				has_government = neutrality
+			}
+			traits = {
+				civil_engineer
+			}
+			cancel_if_invalid = no
+			
+			picture = hohmann_idea
+
+			cost = 150
+		}
+	}
+	
+	intel_minister = {
+		karl_jarres_im = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = jarres_idea
+
+			cost = 150
+		}
+	}
 }

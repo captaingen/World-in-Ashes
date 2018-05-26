@@ -40,4 +40,32 @@ spriteTypes = {
 		name = "GFX_idea_generic_socialism_outrage"
 		texturefile = "gfx/interface/ideas/generic_socialism_outrage.dds"			
 	}
+	spriteType = {
+		name = "GFX_idea_franz_von_papen"
+		texturefile = "gfx/interface/ideas/ministers/franz_von_papen.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_hitler_idea"
+		texturefile = "gfx/interface/ideas/ministers/hitler.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_richard_von_kuhlmann_idea"
+		texturefile = "gfx/interface/ideas/ministers/richard_von_kuhlmann.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_hjalmar_idea"
+		texturefile = "gfx/interface/ideas/ministers/hjalmar.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_dernburg_idea"
+		texturefile = "gfx/interface/ideas/ministers/dernburg.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_hohmann_idea"
+		texturefile = "gfx/interface/ideas/ministers/hohmann.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_jarres_idea"
+		texturefile = "gfx/interface/ideas/ministers/jarres.dds"			
+	}
 }
