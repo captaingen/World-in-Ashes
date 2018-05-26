@@ -182,6 +182,34 @@ ideas = {
 
 			cost = 150
 		}
+		
+		fritz_todt_cm = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+				highway_engineer
+			}
+			cancel_if_invalid = no
+			
+			picture = todt_idea
+
+			cost = 175
+		}
+		
+		fritz_leanhardt_cm = {
+			allowed = {original_tag = GER}
+			available = {
+			}
+			traits = {
+				fortification_engineer
+			}
+			cancel_if_invalid = no
+			
+			picture = leonhardt_idea
+
+			cost = 150
+		}
 	}
 	
 	intel_minister = {

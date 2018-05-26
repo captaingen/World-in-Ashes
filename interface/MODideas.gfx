@@ -68,4 +68,12 @@ spriteTypes = {
 		name = "GFX_idea_jarres_idea"
 		texturefile = "gfx/interface/ideas/ministers/jarres.dds"			
 	}
+	spriteType = {
+		name = "GFX_idea_todt_idea"
+		texturefile = "gfx/interface/ideas/ministers/todt.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_leonhardt_idea"
+		texturefile = "gfx/interface/ideas/ministers/leonhardt.dds"			
+	}
 }
