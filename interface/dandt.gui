@@ -2,7 +2,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "yearly_revenue_container"
-		position = { x = 900 y = 4 }
+		position = { x = 990 y = 4 }
 		
 		iconType ={
 			name ="yearly_revenue_bg"
@@ -34,7 +34,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "yearly_expenses_container"
-		position = { x = 975 y = 4 }
+		position = { x = 1065 y = 4 }
 		
 		iconType ={
 			name ="yearly_expenses_bg"
@@ -66,7 +66,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "money_amount_container"
-		position = { x = 1056 y = 4 }
+		position = { x = 1146 y = 4 }
 		
 		iconType ={
 			name ="money_amount_bg"
