@@ -857,3 +857,8 @@ HYD = {
 	color = rgb { 225  130  10 }
 	color_ui = rgb { 225  130  10 }
 }
+
+SSA = {
+	color = rgb { 226  54  71 }
+	color_ui = rgb { 226  54  71 }
+}
