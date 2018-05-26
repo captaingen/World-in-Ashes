@@ -50,7 +50,7 @@ country_event = {
 	id = modusa.0
 	title = modusa.0.t
 	desc = modusa.0.d
-	picture = GFX_report_event_generic_riot
+	picture = GFX_report_event_worker_protests
 
 	mean_time_to_happen = {
 		days = 1
@@ -76,7 +76,7 @@ country_event = {
 		add_political_power = -50
 		add_stability = -0.05
 		395 = { 
-			damage_building = { type = industrial_complex damage = 10 } 
+			damage_building = { type = industrial_complex damage = 5 } 
 			damage_building = { type = infrastructure damage = 3 } 
 		}
 		hidden_effect = {
@@ -90,7 +90,7 @@ country_event = {
 	id = modusa.1
 	title = modusa.1.t
 	desc = modusa.1.d
-	picture = GFX_report_event_generic_riot
+	picture = GFX_report_event_dead_soldiers
 
 	is_triggered_only = yes
 
@@ -110,7 +110,7 @@ country_event = {
 		add_stability = -0.15
 		add_popularity = { ideology = democratic popularity = -0.10 }
 		395 = { 
-			damage_building = { type = industrial_complex damage = 5 } 
+			damage_building = { type = industrial_complex damage = 2 } 
 			damage_building = { type = infrastructure damage = 1 } 
 		}
 		swap_ideas = {

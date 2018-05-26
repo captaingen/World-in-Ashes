@@ -4,7 +4,7 @@ oob = "USA_1936"
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0
+set_war_support = 0.35
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -82,6 +82,7 @@ add_ideas = {
 
 create_faction = NADA
 add_to_faction = CAN
+add_to_faction = PHI
 
 create_country_leader = {
 	name = "Franklin Delano Roosevelt"
@@ -106,11 +107,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Norman Thomas"
+	desc = "POLITICS_NORMAN_THOMAS_DESC"
+	picture = "Portrait_USA_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Earl Browder"
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = stalinism
 	traits = {
 		
 	}

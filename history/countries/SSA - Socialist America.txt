@@ -1,10 +1,10 @@
-﻿capital = 361
+﻿capital = 358
 
 #oob = "USA_1936"
 
 set_research_slots = 4
-set_stability = 0.75
-set_war_support = 0
+set_stability = 0.9
+set_war_support = 0.7
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -50,20 +50,20 @@ set_politics = {
 
 	parties = {
 		socialism = { 
-			popularity = 68
+			popularity = 58
 		}
 
 		democratic = {
-			popularity = 15
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 9
+			popularity = 22
 			#banned = no #default is no
 		}
 		
 		fascism = {
-			popularity = 8
+			popularity = 0
 		}
 	}
 	
