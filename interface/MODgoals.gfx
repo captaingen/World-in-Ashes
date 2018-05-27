@@ -138,4 +138,36 @@ spriteTypes = {
 		name = "GFX_focus_generic_govt"
 		textureFile = "gfx/interface/goals/focus_generic_govt.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_USA_election"
+		textureFile = "gfx/interface/goals/focus_USA_election.dds"			
+	}	
+	spriteType = {
+		name = "GFX_focus_generic_election"
+		textureFile = "gfx/interface/goals/focus_generic_election.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_republican_primary"
+		textureFile = "gfx/interface/goals/focus_USA_republican_primary.dds"			
+	}	
+	spriteType = {
+		name = "GFX_focus_USA_democratic_primary"
+		textureFile = "gfx/interface/goals/focus_USA_democratic_primary.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_james_wadsworth"
+		textureFile = "gfx/interface/goals/focus_USA_james_wadsworth.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_thomas_dewey"
+		textureFile = "gfx/interface/goals/focus_USA_thomas_dewey.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_franklin_roosevelt"
+		textureFile = "gfx/interface/goals/focus_USA_franklin_roosevelt.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_god"
+		textureFile = "gfx/interface/goals/focus_USA_god.dds"			
+	}
 }

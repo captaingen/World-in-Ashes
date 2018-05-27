@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_1936_election
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_election
 
 		available = {
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_republican_primary
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_republican_primary
 		prerequisite = { focus = USA_1936_election}
 
 		available = {
@@ -87,7 +87,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_james_wadsworth_1936
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_james_wadsworth
 		prerequisite = { focus = USA_republican_primary}
 
 		available = {
@@ -274,7 +274,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_thomas_dewey_1936
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_thomas_dewey
 		prerequisite = { focus = USA_republican_primary}
 
 		available = {
@@ -461,7 +461,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_democratic_primary
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_democratic_primary
 		prerequisite = { focus = USA_1936_election}
 
 		available = {
@@ -496,7 +496,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_franklin_roosevelt_1936
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_franklin_roosevelt
 		prerequisite = { focus = USA_democratic_primary}
 
 		available = {
@@ -683,7 +683,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_huey_long_1936
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_god #Don't doubt our god
 		prerequisite = { focus = USA_democratic_primary}
 
 		available = {
