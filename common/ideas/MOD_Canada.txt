@@ -25,4 +25,180 @@ ideas = {
 			}
 		}
 	}
+	
+	##############################################
+	#################MINISTERS####################
+	##############################################
+	
+	head_of_government = {
+		tommy_douglas_hog = { #socialist
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+				christian_socialist
+			}
+			cancel_if_invalid = no
+			
+			picture = tommy_douglas_idea
+
+			cost = 150
+		}
+		
+		maurice_duplessis_hog = { #french canadian
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+				french_canadian
+			}
+			cancel_if_invalid = no
+			
+			picture = duplessis_idea
+
+			cost = 150
+		}
+	}
+	
+	foreign_minister = {
+		louis_st_laurent_fm = { #french canadian
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+				french_ambassador
+			}
+			cancel_if_invalid = no
+			
+			picture = st_laurent_idea
+
+			cost = 150
+		}
+		
+		richard_bennett_fm = { 
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+				lawyer
+			}
+			cancel_if_invalid = no
+			
+			picture = bennett_idea
+
+			cost = 150
+		}
+	}
+	
+	minister_national_defense = {
+		ian_mackenzie_mnd = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+		
+		grote_stirling_mnd = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+	}
+	
+	economy_minister = {
+		charles_dunning_em = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+		
+		james_ralston_em = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+	}
+	
+	construction_minister = {
+		maxwell_kalman_cm = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+		
+		ernest_cormier_cm = { #french canadian
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+	}
+	
+	intel_minister = {
+		stuart_wood_im = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+		
+		william_stephenson_im = {
+			allowed = {original_tag = CAN}
+			available = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+			
+			picture = franz_von_papen
+
+			cost = 150
+		}
+	}
 }

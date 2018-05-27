@@ -84,4 +84,21 @@ spriteTypes = {
 		name = "GFX_idea_neurath_idea"
 		texturefile = "gfx/interface/ideas/ministers/germany/neurath.dds"			
 	}
+	
+	spriteType = {
+		name = "GFX_idea_tommy_douglas_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/tommy_douglas.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_duplessis_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/duplessis.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_st_laurent_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/st_laurent.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_bennett_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/bennett.dds"			
+	}
 }
