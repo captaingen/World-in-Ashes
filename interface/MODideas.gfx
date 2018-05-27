@@ -101,4 +101,28 @@ spriteTypes = {
 		name = "GFX_idea_bennett_idea"
 		texturefile = "gfx/interface/ideas/ministers/canada/bennett.dds"			
 	}
+	spriteType = {
+		name = "GFX_idea_mackenzie_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/mackenzie.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_stirling_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/stirling.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_dunning_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/dunning.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_ralston_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/ralston.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_kalman_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/kalman.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_cormier_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/cormier.dds"	
+	}
 }
