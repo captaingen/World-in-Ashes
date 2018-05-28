@@ -806,7 +806,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = USA_presidental_dictator
+		id = USA_presidential_dictator
 		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = { focus = USA_ease_the_tensions}
 
@@ -839,7 +839,7 @@ focus_tree = {
 		id = USA_share_our_wealth
 		icon = GFX_focus_generic_concessions
 		prerequisite = { focus = USA_a_better_education}
-		prerequisite = { focus = USA_presidental_dictator}
+		prerequisite = { focus = USA_presidential_dictator}
 
 		available = {
 		}
