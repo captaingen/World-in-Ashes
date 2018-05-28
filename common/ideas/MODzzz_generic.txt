@@ -1,0 +1,70 @@
+ideas = {
+
+	head_of_government = {
+		generic_hog_democratic = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				democratic_hog
+			}
+
+			cost = 150
+		}
+		
+		generic_hog_communism = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				communist_hog
+			}
+
+			cost = 150
+		}
+		
+		generic_hog_fascism = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				fascist_hog
+			}
+
+			cost = 150
+		}
+		
+		generic_hog_neutrality = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				monarchist_hog
+			}
+
+			cost = 150
+		}
+		
+		generic_hog_socialism = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				socialist_hog
+			}
+
+			cost = 150
+		}
+	}
+
+}
