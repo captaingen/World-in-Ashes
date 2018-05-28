@@ -170,4 +170,24 @@ spriteTypes = {
 		name = "GFX_focus_USA_god"
 		textureFile = "gfx/interface/goals/focus_USA_god.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_USA_flag"
+		textureFile = "gfx/interface/goals/focus_USA_flag.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_clamp_down_on_corruption"
+		textureFile = "gfx/interface/goals/focus_USA_clamp_down_on_corruption.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_new_deal"
+		textureFile = "gfx/interface/goals/focus_USA_new_deal.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_second_new_deal"
+		textureFile = "gfx/interface/goals/focus_USA_second_new_deal.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_better_deal"
+		textureFile = "gfx/interface/goals/focus_USA_better_deal.dds"			
+	}
 }

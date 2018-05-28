@@ -122,7 +122,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_ensure_individual_rights
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_support_democracy
 		prerequisite = { focus = USA_james_wadsworth_1936}
 
 		available = {
@@ -152,7 +152,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_a_smaller_government
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = USA_ensure_individual_rights}
 
 		available = {
@@ -182,7 +182,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_never_compromise
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = USA_james_wadsworth_1936}
 
 		available = {
@@ -212,7 +212,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_fight_the_socialists
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_ger_bulwark_against_bolshevism
 		prerequisite = { focus = USA_never_compromise}
 
 		available = {
@@ -243,7 +243,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_the_american_way
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_flag
 		prerequisite = { focus = USA_a_smaller_government}
 		prerequisite = { focus = USA_fight_the_socialists}
 
@@ -309,7 +309,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_crush_the_mafia
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_clamp_down_on_corruption
 		prerequisite = { focus = USA_thomas_dewey_1936}
 
 		available = {
@@ -339,7 +339,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_increased_fbi_funding
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_govt
 		prerequisite = { focus = USA_crush_the_mafia}
 
 		available = {
@@ -369,7 +369,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_labor_rights
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_generic_defence
 		prerequisite = { focus = USA_thomas_dewey_1936}
 
 		available = {
@@ -399,7 +399,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_a_better_deal
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_better_deal
 		prerequisite = { focus = USA_labor_rights}
 
 		available = {
@@ -429,7 +429,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_socialism_tamed
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = USA_increased_fbi_funding}
 		prerequisite = { focus = USA_a_better_deal}
 
@@ -530,7 +530,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_nira
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_industry_2
 		prerequisite = { focus = USA_franklin_roosevelt_1936}
 
 		available = {
@@ -560,7 +560,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_wpa
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = USA_nira}
 
 		available = {
@@ -590,7 +590,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_the_new_deal
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_new_deal
 		prerequisite = { focus = USA_franklin_roosevelt_1936}
 
 		available = {
@@ -620,7 +620,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_social_security
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_generic_defence
 		prerequisite = { focus = USA_the_new_deal}
 
 		available = {
@@ -650,7 +650,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_the_second_new_deal
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_USA_second_new_deal
 		prerequisite = { focus = USA_wpa}
 		prerequisite = { focus = USA_social_security}
 
@@ -717,7 +717,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_improve_rural_life
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_focus_generic_industry_1
 		prerequisite = { focus = USA_huey_long_1936}
 
 		available = {
@@ -747,7 +747,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_a_better_education
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_tfv_generic_tech_sharing
 		prerequisite = { focus = USA_improve_rural_life}
 
 		available = {
@@ -777,7 +777,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_ease_the_tensions
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = USA_huey_long_1936}
 
 		available = {
@@ -807,7 +807,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_presidental_dictator
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = { focus = USA_ease_the_tensions}
 
 		available = {
@@ -837,7 +837,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_share_our_wealth
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_generic_concessions
 		prerequisite = { focus = USA_a_better_education}
 		prerequisite = { focus = USA_presidental_dictator}
 
@@ -870,7 +870,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_stabilize_the_economy
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = USA_the_american_way focus = USA_socialism_tamed focus = USA_the_second_new_deal focus = USA_share_our_wealth}
 
 		available = {
@@ -900,7 +900,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_civil_war_avoided
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = USA_stabilize_the_economy}
 
 		available = {

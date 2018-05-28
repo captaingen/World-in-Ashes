@@ -64,7 +64,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.15
 				war_support_factor = -0.10
-				daily_political_power_cost = 0.25
+				political_power_cost = 0.25
 				socialism_drift = 0.10
 				communism_drift = 0.05
 			}
@@ -86,7 +86,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.25
 				war_support_factor = -0.15
-				daily_political_power_cost = 0.5
+				political_power_cost = 0.5
 				socialism_drift = 0.20
 				communism_drift = 0.10
 			}
