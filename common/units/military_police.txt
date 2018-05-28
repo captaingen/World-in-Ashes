@@ -43,8 +43,8 @@ sub_units = {
 		
 		need = {
 			support_equipment = 20
-			infantry_equipment = 1000
-			light_ammo_eq = 1000
+			infantry_equipment = 100
+			light_ammo_eq = 100
 		}
 
 	}

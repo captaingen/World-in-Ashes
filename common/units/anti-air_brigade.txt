@@ -37,8 +37,8 @@ sub_units = {
 
 		need = {
 			anti_air_equipment = 30
-			infantry_equipment = 120
-			light_ammo_eq = 120
+			infantry_equipment = 12
+			light_ammo_eq = 12
 		}
 
 		forest = {

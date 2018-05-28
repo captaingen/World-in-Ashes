@@ -29,8 +29,8 @@ sub_units = {
 
 		need = {
 			anti_air_equipment = 20
-			infantry_equipment = 100
-			light_ammo_eq = 100
+			infantry_equipment = 10
+			light_ammo_eq = 10
 		}
 
 		can_be_parachuted = yes

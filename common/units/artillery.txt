@@ -71,7 +71,8 @@ sub_units = {
 
 		need = {
 			rocket_artillery_equipment = 24
-			infantry_equipment = 48
+			infantry_equipment = 5
+			light_ammo_eq = 5
 		}
 
 		manpower = 48

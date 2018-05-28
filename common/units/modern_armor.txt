@@ -27,8 +27,8 @@ sub_units = {
 		need = {
 			modern_tank_equipment = 50
 			fuel_eq = 50
-			infantry_equipment = 200
-			light_ammo_eq = 200
+			infantry_equipment = 20
+			light_ammo_eq = 20
 		}
 		manpower = 200
 		max_organisation = 10
