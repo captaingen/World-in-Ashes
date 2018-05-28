@@ -103,13 +103,35 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Huey Pierce Long Jr."
+	desc = "POLITICS_HUEY_LONG_DESC"
+	picture = "Portrait_USA_God.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Thomas Edmund Dewey"
+	desc = "POLITICS_THOMAS_DEWEY_DESC"
+	picture = "Portrait_USA_Thomas_Dewey.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "James Wolcott Wadsworth Jr."
 	desc = "POLITICS_JAMES_WADSWORTH_HOOVER_DESC"
 	picture = "Portrait_USA_James_Wadsworth.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		
+		dislikes_germany
 	}
 }
 
