@@ -177,4 +177,13 @@ leader_traits = {
 		democratic_drift = -0.05
 		surrender_limit = -0.5
 	}
+	violent_minister = {
+		political_power_factor = -0.15
+		justify_war_goal_time = -0.15
+	}
+	pacifist_minister = {
+		guarantee_cost = -0.35
+		send_volunteers_tension = -0.2
+		send_volunteer_divisions_required = -0.3
+	}
 }

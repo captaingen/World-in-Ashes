@@ -66,5 +66,46 @@ ideas = {
 			cost = 150
 		}
 	}
+	
+	foreign_minister = {
+		generic_fm_business = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				business_minister
+			}
+
+			cost = 150
+		}
+		
+		generic_fm_war = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				violent_minister
+			}
+
+			cost = 150
+		}
+		
+		generic_fm_defensive = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				pacifist_minister
+			}
+
+			cost = 150
+		}
+	}
 
 }
