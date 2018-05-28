@@ -6,10 +6,15 @@
  intel_minister:0 "Intelligence Minister"
  economy_minister:0 "Economy Minister"
  
+ #generic traits
+ democratic_hog:0 "Democratic Minister"
+ communist_hog:0 "Communist Minister"
+ fascist_hog:0 "Fascist Minister"
+ monarchist_hog:0 "Authoritarian Minister"
+ socialist_hog:0 "Socialist Minister"
  
  
- 
- 
+ #Specific Traits
  civil_engineer:0 "Civil Engineer"
  democratic_economist:0 "Democratic Economist"
  financial_analyst:0 "Financial Analyst"

@@ -1,4 +1,51 @@
 leader_traits = {	
+	##Ideology drift
+	democratic_hog = {
+		random = no
+		# Boosts Democracy
+		democratic_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	fascist_hog = {
+		random = no
+		# Boosts Fascism
+		fascism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	monarchist_hog = {
+		random = no
+		# Boosts authoritarianism
+		neutrality_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	communist_hog = {
+		random = no
+		# Boosts bolshevism
+		communism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	socialist_hog = {
+		random = no
+		# Boosts bolshevism
+		socialism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	######NEW ONES##########
 	
 	civil_engineer = {}
