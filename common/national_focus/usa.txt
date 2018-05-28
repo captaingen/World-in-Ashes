@@ -559,7 +559,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = USA_wpa
+		id = USA_wpa_2
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = USA_nira}
 
@@ -651,7 +651,7 @@ focus_tree = {
 	focus = {
 		id = USA_the_second_new_deal
 		icon = GFX_focus_USA_second_new_deal
-		prerequisite = { focus = USA_wpa}
+		prerequisite = { focus = USA_wpa_2}
 		prerequisite = { focus = USA_social_security}
 
 		available = {

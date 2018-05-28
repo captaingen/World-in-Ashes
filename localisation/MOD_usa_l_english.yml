@@ -19,7 +19,7 @@
    USA_a_better_deal:0 "A Better Deal"
    USA_socialism_tamed:0 "Socialism Tamed"
    USA_nira:0 "National Industrial Recovery Act"
-   USA_wpa:0 "Works Progress Administration"
+   USA_wpa_2:0 "Works Progress Administration"
    USA_the_new_deal:0 "The New Deal"
    USA_social_security:0 "Social Security"
    USA_the_second_new_deal:0 "The Second New Deal"
@@ -39,6 +39,7 @@
   thomas_dewey_1936:0 "Thomas Dewey has won the election"
   franklin_roosevelt_1936:0 "Franklin Roosevelt has won the election"
   huey_long_1936:0 "Huey Long has won the election"
+  skip_election:0 "Skipped the Election"
  #Opinion mods
  #Events
   #Civil War event chain
