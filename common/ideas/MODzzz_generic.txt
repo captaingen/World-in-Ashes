@@ -107,5 +107,33 @@ ideas = {
 			cost = 150
 		}
 	}
+	
+	minister_national_defense = {
+		generic_mnd_training = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				business_minister
+			}
+
+			cost = 150
+		}
+		
+		generic_mnd_political = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				ambassador
+			}
+
+			cost = 150
+		}
+	}
 
 }
