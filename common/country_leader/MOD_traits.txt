@@ -128,5 +128,6 @@ leader_traits = {
 		stability_factor = -0.10
 		stability_weekly = -0.2
 		democratic_drift = -0.05
+		surrender_limit = -0.5
 	}
 }
