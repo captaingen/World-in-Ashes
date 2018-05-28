@@ -338,7 +338,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = USA_increased_fbi_funding
+		id = USA_increase_fbi_funding
 		icon = GFX_focus_generic_govt
 		prerequisite = { focus = USA_crush_the_mafia}
 
@@ -430,7 +430,7 @@ focus_tree = {
 	focus = {
 		id = USA_socialism_tamed
 		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = USA_increased_fbi_funding}
+		prerequisite = { focus = USA_increase_fbi_funding}
 		prerequisite = { focus = USA_a_better_deal}
 
 		available = {
