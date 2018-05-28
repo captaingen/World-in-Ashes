@@ -3,9 +3,9 @@ leader_traits = {
 	
 	civil_engineer = {}
 	businessman = {
-		trade_laws_cost_factor = -0.2
-		mobilization_laws_cost_factor = -0.2
-		economy_cost_factor = -0.2
+		trade_laws_cost_factor = -0.05
+		mobilization_laws_cost_factor = -0.05
+		economy_cost_factor = -0.05
 		
 		ai_will_do = {
 			factor = 1
@@ -42,7 +42,6 @@ leader_traits = {
 	}
 	christian_socialist = {
 		socialism_drift = 0.02
-		socialism_acceptance = 20
 		stability_factor = 0.02
 		political_power_gain = 0.1
 		
@@ -67,7 +66,7 @@ leader_traits = {
 		}
 	}
 	lawyer = {
-		subversive_activites_upkeep = -0.2
+		subversive_activites_upkeep = -0.15
 		
 		ai_will_do = {
 			factor = 1
