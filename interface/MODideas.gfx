@@ -125,4 +125,12 @@ spriteTypes = {
 		name = "GFX_idea_cormier_idea"
 		texturefile = "gfx/interface/ideas/ministers/canada/cormier.dds"	
 	}
+	spriteType = {
+		name = "GFX_idea_wood_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/wood.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_stephenson_idea"
+		texturefile = "gfx/interface/ideas/ministers/canada/stephenson.dds"	
+	}
 }

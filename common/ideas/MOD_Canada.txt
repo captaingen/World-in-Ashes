@@ -186,10 +186,11 @@ ideas = {
 			available = {
 			}
 			traits = {
+				rcmp_commander
 			}
 			cancel_if_invalid = no
 			
-			picture = franz_von_papen
+			picture = wood_idea
 
 			cost = 150
 		}
@@ -199,10 +200,11 @@ ideas = {
 			available = {
 			}
 			traits = {
+				business_spy
 			}
 			cancel_if_invalid = no
 			
-			picture = franz_von_papen
+			picture = stephenson_idea
 
 			cost = 150
 		}

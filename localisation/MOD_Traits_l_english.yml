@@ -24,6 +24,8 @@
  businessman:0 "Businessman"
  scandalous:0 "Scandalous"
  conservative:0 "Conservative"
+ rcmp_commander:0 "RCMP Commander"
+ business_spy:0 "Business Spy"
  french_architect:0 "French Architect"
  civilian_architect:0 "Civilian Architect"
  business_minister:0 "Business Minister"
