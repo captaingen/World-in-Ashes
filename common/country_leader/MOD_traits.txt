@@ -98,7 +98,7 @@ leader_traits = {
 	}
 	french_canadian = {
 		democratic_drift = 0.01
-		stability_factor = 0.03
+		stability_factor = 0.02
 		war_support_factor = -0.05
 		
 		ai_will_do = {
@@ -121,7 +121,7 @@ leader_traits = {
 	}
 	scandalous = {
 		political_power_gain = 0.15
-		stability_factor = -0.01
+		stability_factor = -0.02
 		
 		
 		ai_will_do = {
@@ -182,9 +182,11 @@ leader_traits = {
 		justify_war_goal_time = -0.15
 	}
 	pacifist_minister = {
-		sprite = 13
 		guarantee_cost = -0.35
 		send_volunteers_tension = -0.2
 		send_volunteer_divisions_required = -0.3
+	}
+	drill_sergeant = {
+		training_time_factor = -0.05
 	}
 }

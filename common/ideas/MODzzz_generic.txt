@@ -116,7 +116,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				business_minister
+				drill_sergeant
 			}
 
 			cost = 150
@@ -130,6 +130,60 @@ ideas = {
 			}
 			traits = {
 				ambassador
+			}
+
+			cost = 150
+		}
+		
+		generic_mnd_business = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				business_minister
+			}
+
+			cost = 150
+		}
+	}
+	
+	economy_minister = {
+		generic_em_business = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				businessman
+			}
+
+			cost = 150
+		}
+		
+		generic_em_lawyer = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				lawyer
+			}
+
+			cost = 150
+		}
+		
+		generic_em_scandalous = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				scandalous
 			}
 
 			cost = 150
