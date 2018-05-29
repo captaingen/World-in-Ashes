@@ -188,6 +188,153 @@ ideas = {
 
 			cost = 150
 		}
+		
+		generic_em_expert = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				financial_genius
+			}
+
+			cost = 150
+		}
+	}
+	
+	construction_minister = {
+		generic_cm_road = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				highway_engineer
+			}
+
+			cost = 150
+		}
+		
+		generic_cm_civilian = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				industrial_engineer
+			}
+
+			cost = 150
+		}
+		
+		generic_cm_military = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				military_engineer
+			}
+
+			cost = 150
+		}
+		
+		generic_cm_dockyard = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				navy_architect
+			}
+
+			cost = 150
+		}
+		
+		generic_cm_fort = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				forts_engineer
+			}
+
+			cost = 150
+		}
+		
+		generic_cm_general = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				architectural_genius
+			}
+
+			cost = 150
+		}
+		
+		generic_cm_conversion = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				smart_engineer
+			}
+
+			cost = 150
+		}
+	}
+	
+	intel_minister = {
+		generic_im_ambassador = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				ambassador
+			}
+
+			cost = 150
+		}
+		
+		generic_im_spymaster = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				business_spy
+			}
+
+			cost = 150
+		}
+		
+		generic_im_spy = {
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+			}
+			available = {
+			}
+			traits = {
+				stealthy_spy
+			}
+
+			cost = 150
+		}
 	}
 
 }
