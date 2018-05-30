@@ -3,7 +3,7 @@ ideas = {
 	head_of_government = {
 		generic_hog_democratic = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -16,7 +16,7 @@ ideas = {
 		
 		generic_hog_communism = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -29,7 +29,7 @@ ideas = {
 		
 		generic_hog_fascism = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -42,7 +42,7 @@ ideas = {
 		
 		generic_hog_neutrality = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -55,7 +55,7 @@ ideas = {
 		
 		generic_hog_socialism = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -70,7 +70,7 @@ ideas = {
 	foreign_minister = {
 		generic_fm_business = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -83,7 +83,7 @@ ideas = {
 		
 		generic_fm_war = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -96,7 +96,7 @@ ideas = {
 		
 		generic_fm_defensive = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -111,7 +111,7 @@ ideas = {
 	minister_national_defense = {
 		generic_mnd_training = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -124,7 +124,7 @@ ideas = {
 		
 		generic_mnd_political = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -137,7 +137,7 @@ ideas = {
 		
 		generic_mnd_business = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -152,7 +152,7 @@ ideas = {
 	economy_minister = {
 		generic_em_business = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -165,7 +165,7 @@ ideas = {
 		
 		generic_em_lawyer = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -178,7 +178,7 @@ ideas = {
 		
 		generic_em_scandalous = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -191,7 +191,7 @@ ideas = {
 		
 		generic_em_expert = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -206,7 +206,7 @@ ideas = {
 	construction_minister = {
 		generic_cm_road = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -219,7 +219,7 @@ ideas = {
 		
 		generic_cm_civilian = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -232,7 +232,7 @@ ideas = {
 		
 		generic_cm_military = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -245,7 +245,7 @@ ideas = {
 		
 		generic_cm_dockyard = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -258,7 +258,7 @@ ideas = {
 		
 		generic_cm_fort = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -271,7 +271,7 @@ ideas = {
 		
 		generic_cm_general = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -284,7 +284,7 @@ ideas = {
 		
 		generic_cm_conversion = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -299,7 +299,7 @@ ideas = {
 	intel_minister = {
 		generic_im_ambassador = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -312,7 +312,7 @@ ideas = {
 		
 		generic_im_spymaster = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
@@ -325,7 +325,7 @@ ideas = {
 		
 		generic_im_spy = {
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = PRU } }
 			}
 			available = {
 			}
