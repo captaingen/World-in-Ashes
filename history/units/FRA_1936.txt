@@ -390,12 +390,12 @@ units = {
 ### Air Wings
 air_wings = {
 	# Z.d'Op. Aériennes Nord -- Lille
-	29 = { 
+	16 = { 
 		# Groupement de Chasse 21 
 		# Groupement de Chasse 23
 		fighter_equipment_0 = {
 			owner = "FRA" 
-			amount = 100
+			amount = 90
 		}
 		# Groupement de Bombardment 6
 		# Groupement de Bombardment 9
@@ -406,20 +406,20 @@ air_wings = {
 	}
 
 	# Z.d'Op. Aériennes Est -- Reims
-	18 = {
+	30 = {
 		# Groupement de Chasse 22
 		fighter_equipment_0 = {
 			owner = "FRA" 
-			amount = 100
+			amount = 50
 		}
 	}
 
 	# Aeronautique Navale -- Cherbourg
-	15 = {
+	14 = {
 		# Flotille F1
 		nav_bomber_equipment_1 = {
 			owner = "FRA" 
-			amount = 25
+			amount = 10
 		}
 	}
 }

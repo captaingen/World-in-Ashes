@@ -309,3 +309,74 @@ units = {
 		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 
 	}
+	
+	###NAVY#####
+	
+	navy = {				
+		name = "1ère Flotte Bordelaise"			
+		base = 11834 
+		location = 11834 # Marseille
+		# 2e Division des Contre-Torpilleurs
+		ship = { name = "Milanaise" definition = battleship experience = 10 strength = 20 equipment = { battleship_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Bordeaux" definition = battleship experience = 30 strength = 50 equipment = { battleship_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Chapelais" definition = battleship experience = 50 strength = 10 equipment = { battleship_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Chacal" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Léopard" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Panthère" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }
+		# 2e Légère Division des Contre-Torpilleurs
+		ship = { name = "Fougueux" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }	
+		ship = { name = "Frondeur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }	
+		ship = { name = "L'Adroit" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }	
+		# 4e Légère Division des Contre-Torpilleurs
+		ship = { name = "Bourrasque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }	
+		ship = { name = "Ouragan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Orage" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }
+	}
+
+	navy = {				
+		name = "2ème Escadron Sous-Marins"			
+		base = 11834 
+		location = 6449 # Toulon			
+		# 1e Division des Sous-Marins
+		ship = { name = "Le Glorieux" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+		# 3 Division des Sous-Marins
+		ship = { name = "Protée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+		ship = { name = "Actéon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+	}				
+	navy = {				
+		name = "3ème Escadron Sous-Marins"			
+		base = 9737 
+		location = 3552 # Brest			
+		# 2e Division des Sous-Marins
+		ship = { name = "Pasteur" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+		ship = { name = "Achille" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+	}
+
+	######Airforce######
+	
+air_wings = {
+	20 = { 
+		# Groupement de Chasse 21 
+		# Groupement de Chasse 23
+		fighter_equipment_0 = {
+			owner = "BOR" 
+			amount = 78
+		}
+		# Groupement de Bombardment 6
+		# Groupement de Bombardment 9
+		tac_bomber_equipment_1 =  {
+			owner = "BOR" 
+			amount = 43
+		}
+	}
+
+	# Aeronautique Navale -- Cherbourg
+	21 = {
+		# Flotille F1
+		nav_bomber_equipment_1 = {
+			owner = "BOR" 
+			amount = 22
+		}
+	}
+}
+	
