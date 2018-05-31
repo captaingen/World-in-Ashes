@@ -79,6 +79,8 @@ add_ideas = {
 	free_trade
 	home_of_the_free
 	socialist_tensions
+	outdated_military
+	military_doctrine_confusion
 	dandt_40_debt
 	free_fall
 	well_developed

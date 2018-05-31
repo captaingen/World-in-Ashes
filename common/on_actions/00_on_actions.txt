@@ -1,5 +1,12 @@
 on_actions = {
 
+	# Not exactly sure what event will be the US election event
+	#on_new_term_election = {
+	#	random_events = {
+	#		100 = modusa.100
+	#	}
+	#}
+
 	# Ace pilots
 	# country, FROM = ace
 	on_ace_promoted = {
