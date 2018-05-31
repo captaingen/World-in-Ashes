@@ -379,4 +379,31 @@ air_wings = {
 		}
 	}
 }
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BOR"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 25
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_ammo_eq
+			creator = "BOR" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+}
+###################
 	
