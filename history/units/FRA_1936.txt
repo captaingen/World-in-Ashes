@@ -1,4 +1,4 @@
-##### Division Templates #####
+﻿##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"
 	regiments = {
@@ -384,7 +384,8 @@ units = {
 		ship = { name = "Achille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 		# 8e Division des Sous-Marins
 		ship = { name = "Phénix" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
-	}				
+	}
+}	
 	
 	
 ### Air Wings
@@ -407,7 +408,7 @@ air_wings = {
 
 	# Z.d'Op. Aériennes Est -- Reims
 	17 = {
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "FRA" 
 			amount = 50
 			creator = "GER"
@@ -449,4 +450,3 @@ instant_effect = {
 		efficiency = 75
 	}
 }
-###################

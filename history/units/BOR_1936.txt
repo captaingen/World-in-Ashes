@@ -1,4 +1,4 @@
-##### Division Templates #####
+﻿##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"
 	regiments = {
@@ -338,19 +338,20 @@ units = {
 		base = 11834 
 		location = 6449 # Toulon			
 		# 1e Division des Sous-Marins
-		ship = { name = "Le Glorieux" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+		ship = { name = "Le Glorieux" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR } } }
 		# 3 Division des Sous-Marins
-		ship = { name = "Protée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
-		ship = { name = "Actéon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+		ship = { name = "Protée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Actéon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR } } }
 	}				
 	navy = {				
 		name = "3ème Escadron Sous-Marins"			
 		base = 9737 
 		location = 3552 # Brest			
 		# 2e Division des Sous-Marins
-		ship = { name = "Pasteur" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
-		ship = { name = "Achille" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR version_name = "Redoutable Class" } } }
+		ship = { name = "Pasteur" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR } } }
+		ship = { name = "Achille" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR } } }
 	}
+}
 
 	######Airforce######
 	
@@ -385,6 +386,7 @@ air_wings = {
 #########################
 
 instant_effect = {
+
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
@@ -405,5 +407,4 @@ instant_effect = {
 		efficiency = 50
 	}
 }
-###################
 	
