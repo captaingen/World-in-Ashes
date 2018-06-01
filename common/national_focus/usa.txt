@@ -25,7 +25,7 @@ focus_tree = {
 		bypass = {
 			OR = {
 				has_country_flag = skip_election
-				date > 1936.1.5
+				date > 1936.5.1
 			}
 		}
 		
