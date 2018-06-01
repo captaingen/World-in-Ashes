@@ -23,7 +23,10 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_country_flag = skip_election
+			OR = {
+				has_country_flag = skip_election
+				date > 1936.1.5
+			}
 		}
 		
 		mutually_exclusive = {
@@ -42,9 +45,14 @@ focus_tree = {
 
 
 		completion_reward = {
-			#event
 			add_stability = 0.05
 			add_war_support = -0.05
+			country_event = { days = 0 id = modusa.100 }
+			hidden_effect = {
+				country_event = { days = 50 id = modusa.101 }
+				country_event = { days = 98 id = modusa.102 }
+			}
+			
 		}
 	}
 	

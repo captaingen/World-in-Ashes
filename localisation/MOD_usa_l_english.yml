@@ -52,7 +52,25 @@
    modusa.2.t:0 "Widespread Protests in the North"
    modusa.2.d:0 "After the Chicago Massacre, radical socialists have taken to the streets in protest, with rioters amongst them. Their numbers are large, and unstoppable, and they are causing countless economic damage to the North and Midwest. This must be stopped."
    modusa.2.a:0 "It's getting worse."
-  #News
+  #Election event chain
+   modusa.100.t:0 "Elections are to go Ahead"
+   modusa.100.d:0 "Due to the extreme political turmoil in the country, there were talks in Congress to cancel the next election. Those talks had ceased after Herbert Hoover, the president, voiced passionate concerns over this sparking a civil war. It appears American Democracy will remain, and elections will go ahead in November."
+   modusa.100.a:0 "For once, Hoover stood up..."
+   modusa.101.t:0 "Republican Primary Results"
+   modusa.101.d:0 "The Republican Primary this year has been a quick one. Only two contestants stand, James Wolcott Wadsworth Jr. and Thomas Edmund Dewey. Wadsworth advocates for continued Republican doctrine with additional anti-socialist sentiment and a interventionist attitude, while Dewey proposes a different path for the Republican Party, a more socialistic one, though he still supports interventionism like Wadsworth. Right now, it's anyone's game, so who will win?"
+   modusa.101.a:0 "No Deal! (James Wadsworth)"
+   modusa.101.b:0 "Dewey or Don't We! (Thomas Dewey)"
+   modusa.102.t:0 "Democratic Primary Results"
+   modusa.102.d:0 "The Democratic Primary, unlike the Republican Primary, has taken far longer to whittle down to two main canidates. Both Canidates offer radically different agendas than previous Democrats. Franklin Delano Roosevelt advocates for government intervention into the economy to help aleviate the depression.\n\nHis opposition, Huey Long offers a much more radical plan, and has been accused of being a socialist by many Republicans. He proposes to calm the Socialists by giving them conocessions in the form of laws. His effective dictatorship over his time as governor in Louisiana has lead to huge concern by many. Socialists back Huey Long due to his socialistic agenda. Even Norman Thomas, the radical socialist leader of Socialist Party USA, has stated that he'd be satisfied if Huey Long won the presidency.\n\nJust like the Republican primaries, it's anyone's game. So who will win?"
+   modusa.102.a:0 "Happy Days are Here Again! (Franklin Roosevelt)"
+   modusa.102.b:0 "Every Man a King! (Huey Long)"
+   modusa.103.t:0 "The 1936 Election"
+   modusa.103.d:0 "This election season has been a turbulent affair. In the shadows, Socialism has gained much traction, and is now threatening the country with Civil War. Solutions have been offered, from passing socalist lawsto giving them nothing at all. Thomas Norman openly threatens civil war if the election result doesn't result in a socialistic candidate. Who will win the 1936 Election? Whoever you pick, it will affect the United States for years to come."
+   modusa.103.a:0 "No Deal! (James Wadsworth)"
+   modusa.103.b:0 "Dewey or Don't We! (Thomas Dewey)"
+   modusa.103.c:0 "Happy Days are Here Again! (Franklin Roosevelt)"
+   modusa.103.e:0 "Every Man a King! (Huey Long)"
+   #News
  #National Spirits
   socialist_tensions:0 "Socialist Tensions"
   socialist_tensions_desc:0 "Socialism has been growing in the United States ever since the beginning of this century. It only started becoming hugely popular in the roaring 20's. After the New York Stock Exchange crash of 1933, socialism started soaring in popularity, especially the Steel Belt and Northeast where unemployment was at its highest.\n\nSocialists and Communists now openly fight on the streets with Republicans and Democrats. Democrats, however, seized on this opportunity and are now sporting much more social policies. Republicans remain entrenched in their capitalist values. With North and South once again divided, it seems that Civil War is, once again, inevitable."
