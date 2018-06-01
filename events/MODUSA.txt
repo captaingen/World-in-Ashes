@@ -208,6 +208,7 @@ country_event = {
 
 	option = {
 		name = modusa.100.a
+		set_country_flag = election
 	}
 }
 
