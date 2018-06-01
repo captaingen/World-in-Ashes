@@ -67,6 +67,8 @@ ideas = {
 			traits = {
 				socialist_hog
 			}
+			
+			picture = generic_political_advisor_europe_4
 
 			cost = 150
 		}
@@ -81,6 +83,8 @@ ideas = {
 			traits = {
 				business_minister
 			}
+			
+			picture = generic_political_advisor_arab_2
 
 			cost = 150
 		}
@@ -93,6 +97,8 @@ ideas = {
 			traits = {
 				violent_minister
 			}
+			
+			picture = generic_political_advisor_europe_5
 
 			cost = 150
 		}
@@ -105,6 +111,8 @@ ideas = {
 			traits = {
 				pacifist_minister
 			}
+			
+			picture = generic_political_advisor_europe_2
 
 			cost = 150
 		}
@@ -119,6 +127,8 @@ ideas = {
 			traits = {
 				drill_sergeant
 			}
+			
+			picture = generic_political_advisor_europe_1
 
 			cost = 150
 		}
@@ -131,6 +141,8 @@ ideas = {
 			traits = {
 				ambassador
 			}
+			
+			picture = generic_political_advisor_europe_6
 
 			cost = 150
 		}
@@ -143,6 +155,8 @@ ideas = {
 			traits = {
 				business_minister
 			}
+			
+			picture = generic_political_advisor_europe_4
 
 			cost = 150
 		}
@@ -157,6 +171,8 @@ ideas = {
 			traits = {
 				businessman
 			}
+			
+			picture = generic_political_advisor_arab_2
 
 			cost = 150
 		}
@@ -169,6 +185,8 @@ ideas = {
 			traits = {
 				lawyer
 			}
+			
+			picture = generic_political_advisor_south_america_1
 
 			cost = 150
 		}
@@ -181,6 +199,8 @@ ideas = {
 			traits = {
 				scandalous
 			}
+			
+			picture = generic_political_advisor_arab_1
 
 			cost = 150
 		}
@@ -193,6 +213,8 @@ ideas = {
 			traits = {
 				financial_genius
 			}
+			
+			picture = generic_political_advisor_south_america_2
 
 			cost = 150
 		}
@@ -207,6 +229,8 @@ ideas = {
 			traits = {
 				highway_engineer
 			}
+			
+			generic_political_advisor_arab_2
 
 			cost = 150
 		}
@@ -219,6 +243,8 @@ ideas = {
 			traits = {
 				industrial_engineer
 			}
+			
+			picture = generic_political_advisor_europe_3
 
 			cost = 150
 		}
@@ -231,6 +257,8 @@ ideas = {
 			traits = {
 				military_engineer
 			}
+			
+			picture = generic_political_advisor_europe_6
 
 			cost = 150
 		}
@@ -243,6 +271,8 @@ ideas = {
 			traits = {
 				navy_architect
 			}
+			
+			picture = generic_political_advisor_europe_5
 
 			cost = 150
 		}
@@ -255,6 +285,8 @@ ideas = {
 			traits = {
 				forts_engineer
 			}
+			
+			picture = generic_political_advisor_europe_2
 
 			cost = 150
 		}
@@ -267,6 +299,8 @@ ideas = {
 			traits = {
 				architectural_genius
 			}
+			
+			picture = generic_political_advisor_europe_1
 
 			cost = 150
 		}
@@ -279,6 +313,8 @@ ideas = {
 			traits = {
 				smart_engineer
 			}
+			
+			picture = generic_political_advisor_europe_4
 
 			cost = 150
 		}
@@ -293,6 +329,8 @@ ideas = {
 			traits = {
 				ambassador
 			}
+			
+			picture = generic_political_advisor_africa_1
 
 			cost = 150
 		}
@@ -305,6 +343,8 @@ ideas = {
 			traits = {
 				business_spy
 			}
+			
+			picture = generic_political_advisor_south_america_3
 
 			cost = 150
 		}
@@ -317,6 +357,8 @@ ideas = {
 			traits = {
 				stealthy_spy
 			}
+			
+			picture = generic_political_advisor_south_america_2
 
 			cost = 150
 		}
