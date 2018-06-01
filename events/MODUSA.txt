@@ -235,6 +235,7 @@ country_event = {
 	}
 	option = {
 		name = modusa.101.b
+		add_political_power = 50
 		complete_national_focus = USA_republican_primary
 		set_country_flag = thomas_dewey_primary_1936
 	}
@@ -262,7 +263,8 @@ country_event = {
 		set_country_flag = franklin_roosevelt_primary_1936
 	}
 	option = {
-		name = modusa.102.b
+		name = modusa.102.b'
+		add_political_power = 50
 		complete_national_focus = USA_democratic_primary
 		set_country_flag = huey_long_primary_1936
 	}
@@ -324,6 +326,7 @@ country_event = {
 				
 			}
 		}
+		add_stability = 0.05
 		complete_national_focus = USA_thomas_dewey_1936
 	}
 	option = {
@@ -342,6 +345,7 @@ country_event = {
 				dislikes_germany
 			}
 		}
+		add_stability = 0.10
 		complete_national_focus = USA_franklin_roosevelt_1936
 	}
 	option = {
@@ -360,6 +364,7 @@ country_event = {
 				
 			}
 		}
+		add_stability = 0.15
 		complete_national_focus = USA_huey_long_1936
 	}
 }
