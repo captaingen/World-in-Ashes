@@ -293,22 +293,6 @@ units = {
 		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 
 	}
-	division= {	
-		name = "Patrouille Américaine - Section D"
-		location = 9597
-		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
-		start_experience_factor = 0.45
-		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
-
-	}
-	division= {	
-		name = "Patrouille Américaine - Section E"
-		location = 9898
-		division_template = "Brigade de Patrouille" 	#Fully Equipped by USA
-		start_experience_factor = 0.47
-		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
-
-	}
 	
 	###NAVY#####
 	
@@ -318,7 +302,6 @@ units = {
 		location = 11834 # Marseille
 		# 2e Division des Contre-Torpilleurs
 		ship = { name = "Milanaise" definition = battleship experience = 10 strength = 20 equipment = { battleship_1 = { amount = 1 owner = BOR } } }
-		ship = { name = "Bordeaux" definition = battleship experience = 30 strength = 50 equipment = { battleship_1 = { amount = 1 owner = BOR } } }
 		ship = { name = "Chapelais" definition = battleship experience = 50 strength = 10 equipment = { battleship_1 = { amount = 1 owner = BOR } } }
 		ship = { name = "Chacal" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BOR } } }
 		ship = { name = "Léopard" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BOR } } }
@@ -330,7 +313,6 @@ units = {
 		# 4e Légère Division des Contre-Torpilleurs
 		ship = { name = "Bourrasque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }	
 		ship = { name = "Ouragan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }
-		ship = { name = "Orage" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BOR } } }
 	}
 
 	navy = {				

@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		FRA_Civil_War = {
+		BOR_Civil_War = {
 			
 			allowed = {
 				always = no

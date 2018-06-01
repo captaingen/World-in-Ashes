@@ -51,6 +51,10 @@ set_convoys = 300
 set_stability = 0.5
 set_war_support = 0.9
 
+add_ideas = {
+FRA_Civil_War
+}
+
 set_politics = {
 
 	parties = {
