@@ -23,7 +23,7 @@ country_event = {
 		country_event = { days = 30 id = nasi.1}
 		country_event = { days = 1 id = nasi.6}
 		BOR = {
-			country_event = { days = 10 id = bordeaux.4 }
+			country_event = { days = 25 id = bordeaux.4 }
 		}
     }
 }
@@ -297,9 +297,6 @@ country_event = {
     option = {
         name = nasi.7.a
 		add_political_power = 10
-		hidden_effect = {
-			news_event = { days = 0 id = news.503}
-		}
     }
 }
 
@@ -323,8 +320,5 @@ country_event = {
         name = nasi.8.a
 		kill_country_leader = yes
 		add_political_power = -150
-		hidden_effect = {
-			news_event = { days = 0 id = news.504}
-		}
     }
 }

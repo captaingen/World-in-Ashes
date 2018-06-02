@@ -1,0 +1,42 @@
+focus_tree = {
+	id = bordeaux_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = BOR
+		}
+	}
+
+	default = no
+	
+	focus = {
+		id = BOR_attack_them
+		icon = 
+		x = 10
+		y = 0
+		cost = 2.9
+		
+		available = {
+			has_country_flag = BOR_attack_yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		immediate = {
+			declare_war_on = { target = FRA type = annex_everything }
+		}
+		
+		completion_reward = {
+			hidden_effect = {
+				create_wargoal = { type = annex_everything target = FRA }
+			}
+			declare_war_on = { target = FRA type = annex_everything }
+		}
+	}
+	
+}

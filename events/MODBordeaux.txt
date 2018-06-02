@@ -126,10 +126,12 @@ country_event = {
 		ai_chance = {
 			factor = 60
 		}
-		declare_war_on = { target = FRA type = annex_everything }
+		set_country_flag = BOR_attack_yes
 		add_stability = -0.05
 		add_war_support = 0.025
-		news_event = { days = 1 id = news.501}
+		hidden_effect = {
+			news_event = { days = 15 id = news.501}
+		}
 	}
 	
 	option = { #we are not prepared yet
@@ -137,10 +139,13 @@ country_event = {
 		ai_chance = {
 			factor = 20
 		}
+		set_country_flag = BOR_attack_no
 		add_political_power = -50
 		add_stability = 0.05
 		add_war_support = -0.05
-		news_event = { days = 1 id = news.502}
+		hidden_effect = {
+			news_event = { days = 1 id = news.502}
+		}
 		FRA = {
 			country_event = { days = 1 id = nasi.5 }
 		}
@@ -167,10 +172,12 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		declare_war_on = { target = FRA type = annex_everything }
+		set_country_flag = BOR_attack_yes
 		add_stability = -0.1
 		add_war_support = 0.05
-		news_event = { days = 1 id = news.501}
+		hidden_effect = {
+			news_event = { days = 15 id = news.501}
+		}
 	}
 	
 	option = { #we are not prepared yet
@@ -178,10 +185,13 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		set_country_flag = BOR_attack_no
 		add_political_power = -150
 		add_stability = 0.1
 		add_war_support = -0.1
-		news_event = { days = 1 id = news.502}
+		hidden_effect = {
+			news_event = { days = 1 id = news.502}
+		}
 		FRA = {
 			country_event = { days = 1 id = nasi.5 }
 		}
