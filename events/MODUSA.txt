@@ -265,7 +265,7 @@ country_event = {
 		set_country_flag = franklin_roosevelt_primary_1936
 	}
 	option = {
-		name = modusa.102.b'
+		name = modusa.102.b
 		add_political_power = 50
 		complete_national_focus = USA_democratic_primary
 		set_country_flag = huey_long_primary_1936
