@@ -290,5 +290,47 @@ ideas = {
 				communism_drift = 0.05
 			}
 		}
+		new_deal_1 = {
+		
+			picture = new_deal
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				production_speed_infrastructure_factor = 0.10
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		new_deal_2 = {
+		
+			picture = new_deal
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_infrastructure_factor = 0.25
+				production_speed_industrial_complex_factor = 0.20
+				production_speed_buildings_factor = 0.05
+			}
+		}
 	}
 }
