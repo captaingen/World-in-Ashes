@@ -874,6 +874,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_ideas = improve_rural_life
 		}
 	}
 
@@ -904,6 +905,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = improve_rural_life
+				add_idea = better_education
+			}
 		}
 	}
 
@@ -934,6 +939,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = socialist_tensions
+				add_idea = ease_the_tensions
+			}
 		}
 	}
 
@@ -964,6 +973,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_country_leader_trait = dictator
 		}
 	}
 
@@ -995,6 +1005,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = better_education
+				add_idea = share_our_wealth
+			}
 		}
 	}
 	
@@ -1027,6 +1041,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_ideas = depression
 		}
 	}
 	
@@ -1057,6 +1072,12 @@ focus_tree = {
 
 
 		completion_reward = {
+			remove_ideas = {
+				socialist_conflict
+				fight_socialism
+				socialism_tamed
+				ease_the_tensions
+			}
 		}
 	}
 }

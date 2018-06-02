@@ -332,5 +332,88 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 			}
 		}
+		improve_rural_life = {
+		
+			picture = generic_production_bonus
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_infrastructure_factor = 0.30
+				production_speed_industrial_complex_factor = 0.20
+			}
+		}
+		better_education = {
+		
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_infrastructure_factor = 0.30
+				production_speed_industrial_complex_factor = 0.20
+				research_time_factor = -0.10
+			}
+		}
+		ease_the_tensions = {
+		
+			picture = USA_socialism
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.10
+				socialism_drift = 0.10
+				communism_drift = 0.05
+			}
+		}
+		share_our_wealth = {
+		
+			picture = generic_local_self_management
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_infrastructure_factor = 0.35
+				production_speed_industrial_complex_factor = 0.25
+				research_time_factor = -0.15
+				socialism_drift = -0.05	
+			}
+		}
 	}
 }

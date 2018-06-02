@@ -141,4 +141,8 @@ spriteTypes = {
 		name = "GFX_idea_USA_socialism_handled"
 		texturefile = "gfx/interface/ideas/socialism_handled.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_USA_socialism"
+		texturefile = "gfx/interface/ideas/socialism.dds"
+	}
 }
