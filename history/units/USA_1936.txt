@@ -909,6 +909,16 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "USA"
 		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_ammo_eq
+			creator = "USA"
+		}
 		requested_factories = 2
 		progress = 0.1
 		efficiency = 50
