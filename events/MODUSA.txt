@@ -62,7 +62,9 @@ country_event = {
 
 	trigger = {
 		date > 1936.12.1
+		date < 1937.6.1
 		has_idea = socialist_tensions
+		NOT = { has_country_leader = { ruling_only = yes name = "Huey Pierce Long Jr." } }
 	}
 
 	immediate = {
