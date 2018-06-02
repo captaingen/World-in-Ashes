@@ -133,4 +133,12 @@ spriteTypes = {
 		name = "GFX_idea_stephenson_idea"
 		texturefile = "gfx/interface/ideas/ministers/canada/stephenson.dds"	
 	}
+	spriteType = {
+		name = "GFX_idea_USA_flag"
+		texturefile = "gfx/interface/ideas/USA_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_socialism_handled"
+		texturefile = "gfx/interface/ideas/socialism_handled.dds"
+	}
 }

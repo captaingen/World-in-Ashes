@@ -155,6 +155,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_stability = 0.15
 		}
 	}
 	
@@ -185,6 +186,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_ideas = smaller_government
 		}
 	}
 	
@@ -215,6 +217,8 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_popularity = { ideology = socialism popularity = -0.15 }
+			add_popularity = { ideology = communism popularity = -0.1 }
 		}
 	}
 	
@@ -245,6 +249,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = socialist_conflict
+				add_idea = fight_socialism
+			}
 		}
 	}
 
@@ -277,6 +285,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = smaller_government
+				add_idea = american_way
+			}
 		}
 	}
 	
@@ -342,6 +354,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_ideas = mafia_crushed
 		}
 	}
 
@@ -372,6 +385,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = mafia_crushed
+				add_idea = expanded_fbi
+			}
 		}
 	}
 
@@ -402,6 +419,8 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_popularity = { ideology = democratic popularity = 0.05 }
+			add_political_power = 250
 		}
 	}
 
@@ -432,6 +451,8 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_popularity = { ideology = democratic popularity = 0.10 }
+			add_ideas = better_deal
 		}
 	}
 
@@ -463,6 +484,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = socialist_conflict
+				add_idea = socialism_tamed
+			}
 		}
 	}
 	##Democrats##
