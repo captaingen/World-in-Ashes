@@ -1,0 +1,26 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		610 781 3588 3644 4331 6482 6665 10159 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			610 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+
+	}
+	
+	manpower=159866
+	buildings_max_level_factor=1.000
+	state_category=extremely_sparse
+}

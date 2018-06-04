@@ -1,0 +1,23 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		823 1651 4657 4727 7667 7986 10387 12303 12374 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = USA
+
+	}
+	
+	manpower=268953
+	buildings_max_level_factor=1.000
+	state_category=extremely_sparse
+}

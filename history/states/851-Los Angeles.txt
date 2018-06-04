@@ -1,0 +1,39 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		1562 7517 9814 9855 10483 11757 11795 11859 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 7
+			dockyard = 1
+			air_base = 5
+			1562 = {
+				naval_base = 10
+
+			}
+			9814 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9814 30 
+		}
+		victory_points = {
+			1562 15 
+		}
+
+	}
+	
+	manpower=2776535
+	buildings_max_level_factor=1.000
+	state_category=very_dense
+}
