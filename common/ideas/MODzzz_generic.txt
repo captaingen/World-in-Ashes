@@ -230,7 +230,7 @@ ideas = {
 				highway_engineer
 			}
 			
-			generic_political_advisor_arab_2
+			picture = generic_political_advisor_arab_2
 
 			cost = 150
 		}

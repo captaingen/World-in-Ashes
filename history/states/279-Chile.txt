@@ -15,20 +15,23 @@ state={
 			air_base = 3
 			8222 = {
 				naval_base = 5
+
 			}
 			650 = {
 				bunker = 1
+
 			}
+
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 15
+			650 15 
 		}
 
 	}
 
 	provinces={
-		650 8222 
+		650 5191 8222 8229 8251 12984 
 	}
 	manpower=3335146
 	buildings_max_level_factor=1.000

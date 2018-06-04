@@ -2,14 +2,13 @@
 state={
 	id=396
 	name="STATE_396"
-	manpower = 3238501
-	state_category = very_dense
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 12
+			industrial_complex = 5
+
 		}
 		add_core_of = USA
 		victory_points = {
@@ -19,6 +18,9 @@ state={
 	}
 
 	provinces={
-		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+		870 4437 6713 9653 9654 11637 
 	}
+	manpower=1438501
+	buildings_max_level_factor=1.000
+	state_category=slightly_sparse
 }

@@ -1,0 +1,25 @@
+state={
+	id=825
+	name="STATE_825"
+	provinces={
+		1595 1881 4527 4531 7551 9796 9810 10448 11621 11635 12437 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 7
+
+		}
+		add_core_of = USA
+		victory_points = {
+			1595 5 
+		}
+
+	}
+	
+	manpower=1865976
+	buildings_max_level_factor=1.000
+	state_category=slightly_dense
+}

@@ -1,23 +1,26 @@
+
 state={
 	id=821
 	name="STATE_821"
-	provinces={
-		5228 8194 12914 
-	}
-	
+
 	history={
 		owner = CHL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-            5228 = {
+			5228 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = CHL
 
 	}
-	
+
+	provinces={
+		5171 5192 5228 8194 11000 12914 
+	}
 	manpower=38000
 	buildings_max_level_factor=1.000
 	state_category=rural

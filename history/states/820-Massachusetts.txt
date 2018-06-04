@@ -1,0 +1,39 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 12
+			dockyard = 3
+			air_base = 9
+			6732 = {
+				naval_base = 8
+
+			}
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			6732 20 
+		}
+		victory_points = {
+			9832 1 
+		}
+
+	}
+	
+	manpower=6421563
+	buildings_max_level_factor=1.000
+	state_category=extremely_dense
+}

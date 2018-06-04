@@ -1,0 +1,26 @@
+state={
+	id=823
+	name="STATE_823"
+	provinces={
+		827 831 971 3829 4601 6855 7528 9760 9775 9808 11760 11776 11890 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 8
+
+		}
+		add_core_of = USA
+		victory_points = {
+			6855 5 
+		}
+
+	}
+	
+	manpower=2986975
+	buildings_max_level_factor=1.000
+	state_category=very_dense
+}
