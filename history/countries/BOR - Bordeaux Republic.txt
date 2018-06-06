@@ -53,6 +53,7 @@ set_war_support = 0.9
 
 add_ideas = {
 FRA_Civil_War
+BOR_very_incompetent_staff
 }
 
 set_politics = {

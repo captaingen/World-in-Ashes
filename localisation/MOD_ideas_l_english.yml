@@ -22,8 +22,12 @@
  FRA_Civil_War_desc:0 "The french civil war has been raging on for quite a while, and we have to be at our best to be able to win this war."
  
  #Bordeaux
- FRA_Civil_War:0 "French Civil War"
- FRA_Civil_War_desc:0 "The french civil war has been raging on for quite a while, and we have to be at our best to be able to win this war."
+ BOR_Civil_War:0 "French Civil War"
+ BOR_Civil_War_desc:0 "The french civil war has been raging on for quite a while, and we have to be at our best to be able to win this war."
+ BOR_very_incompetent_staff:0 "Very Incompetent Staff"
+ BOR_very_incompetent_staff_desc:0 "The french generals that joined our cause are mostly very inexperienced and incompetent. They have been planning too many unsuccessful strategies in this war..."
+ BOR_slightly_incompetent_staff:0 "Slightly Incompetent Staff"
+ BOR_slightly_incompetent_staff_desc:0 "After completing a nation wide staff training program led by the Americans, our staff is now slightly less incompetent"
  
  
  #Germany

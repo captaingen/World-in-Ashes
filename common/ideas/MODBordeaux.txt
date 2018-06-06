@@ -22,5 +22,89 @@ ideas = {
 				
 			}
 		}
+		
+		BOR_very_incompetent_staff = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				military_leader_cost_factor = 0.50
+				experience_gain_army_factor = -0.3
+				experience_gain_air_factor = -0.6
+				experience_gain_navy_factor = -0.2
+			}
+		}
+		
+		BOR_slightly_incompetent_staff = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				military_leader_cost_factor = 0.3
+				experience_gain_army_factor = -0.2
+				experience_gain_air_factor = -0.45
+				experience_gain_navy_factor = -0.12
+			}
+		}
+		
+		BOR_guards = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = HUN_secret_rearmament
+			
+			modifier = {
+				army_infantry_defence_factor = 0.025
+				
+			}
+		}
+		
+		BOR_snipers = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				recon_factor = 0.013
+				
+			}
+		}
 	}
 }

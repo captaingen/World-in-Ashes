@@ -330,7 +330,7 @@ ideas = {
 				ambassador
 			}
 			
-			picture = generic_political_advisor_africa_1
+			picture = generic_political_advisor_south_america_1
 
 			cost = 150
 		}

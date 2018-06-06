@@ -23,7 +23,7 @@ country_event = {
 		country_event = { days = 30 id = nasi.1}
 		country_event = { days = 1 id = nasi.6}
 		BOR = {
-			country_event = { days = 25 id = bordeaux.4 }
+			country_event = { days = 16 id = bordeaux.4 }
 		}
     }
 }
@@ -230,6 +230,9 @@ country_event = {
 
     option = { #do it oursleves
         name = nasi.5.a
+		ai_chance = {
+			factor = 1000
+		}
 		add_political_power = -100
 		add_stability = -0.05
 		add_war_support = 0.05
@@ -238,6 +241,9 @@ country_event = {
     }
 	option = { #leave it be
         name = nasi.5.b
+		ai_chance = {
+			factor = 1
+		}
 		add_political_power = 100
 		add_stability = 0.05
 		add_war_support = -0.1
