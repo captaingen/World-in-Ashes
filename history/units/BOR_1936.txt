@@ -318,7 +318,7 @@ units = {
 	navy = {				
 		name = "2ème Escadron Sous-Marins"			
 		base = 11834 
-		location = 6449 # Toulon			
+		location = 11834 # Marseille			
 		# 1e Division des Sous-Marins
 		ship = { name = "Le Glorieux" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BOR } } }
 		# 3 Division des Sous-Marins
@@ -328,7 +328,7 @@ units = {
 	navy = {				
 		name = "3ème Escadron Sous-Marins"			
 		base = 9737 
-		location = 3552 # Brest			
+		location = 9737 # Bordeaux			
 		# 2e Division des Sous-Marins
 		ship = { name = "Pasteur" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR } } }
 		ship = { name = "Achille" definition = submarine strength = 10 equipment = { submarine_1 = { amount = 1 owner = BOR } } }
