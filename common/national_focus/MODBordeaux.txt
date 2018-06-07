@@ -348,4 +348,261 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = BOR_send_envoy
+		icon = unknown
+		x = 11
+		y = 1
+		cost = 0.8
+		
+		prerequisite = {
+			focus = BOR_peace_talks
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_compromises
+		icon = unknown
+		x = 10
+		y = 2
+		cost = 5.8
+		
+		prerequisite = {
+			focus = BOR_send_envoy
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_improve_relations
+		icon = unknown
+		x = 9
+		y = 3
+		cost = 3
+		
+		prerequisite = {
+			focus = BOR_compromises
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_two_state_solution
+		icon = unknown
+		x = 11
+		y = 3
+		cost = 8
+		
+		prerequisite = {
+			focus = BOR_compromises
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_start_plans
+		icon = unknown
+		x = 10
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_two_state_solution
+		}
+		prerequisite = {
+			focus = BOR_improve_relations
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = BOR_promises
+		icon = unknown
+		x = 12
+		y = 2
+		cost = 5.8
+		
+		prerequisite = {
+			focus = BOR_send_envoy
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_referendum
+		icon = unknown
+		x = 12
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_promises
+		}
+		prerequisite = {
+			focus = BOR_start_plans
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_start_integration
+		icon = unknown
+		x = 12
+		y = 6
+		cost = 21.5
+		
+		prerequisite = {
+			focus = BOR_referendum
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_complete_negotiations
+		icon = unknown
+		x = 12
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_start_integration
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_one_state
+		icon = unknown
+		x = 11
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_complete_negotiations
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_two_state
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BOR_two_state
+		icon = unknown
+		x = 13
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_complete_negotiations
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_one_state
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+	
 }
