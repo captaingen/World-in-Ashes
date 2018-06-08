@@ -1,0 +1,37 @@
+﻿l_english:
+ head_of_government:0 "Head of Government"
+ foreign_minister:0 "Foreign Minister"
+ minister_national_defense:0 "Minister of National Defense"
+ economy_minister:0 "Economy Minister"
+ construction_minister:0 "Construction Minister"
+ intel_minister:0 "Intelligence Minister"
+
+ #WIF
+ WIF_CLR_James_hog_soc:0 "Cyril Lionel Robert James"
+ WIF_Amy_Ashwood_Garvey_fm_auth:0 "Amy Ashwood Garvey"
+ WIF_Amy_Jaques_Garvey_mdn_dem:0 "Amy Jaques Garvey"
+ WIF_Donald_Sangster_ec_dem:0 "Donald Sangster"
+ WIF_Tubal_Uriah_Butler_cc_soc:0 "Tubal Uriah Butler"
+ WIF_Arthur_Andrew_Cipriani_im_dem:0 "Arthur Andrew Cipriani"
+
+ WIF_democratic_party:0 "Democratic Labour Party"
+ WIF_communism_party:0 "WICP"
+ WIF_communism_party:0 "West Indies Communist Party"
+ WIF_socialism_party:0 "WISP"
+ WIF_socialism_party:0 "West Indies Socialist Party"
+ WIF_neutrality_party:0 "WIFLP"
+ WIF_neutrality_party:0 "West Indies Federal Labour Party"
+
+  #WIF
+ wif.0.t:0 "February Strike"
+ wif.0.d:0 "The Workers have expressed their anger for the government's incompetence in a nation-wide strike."
+ wif.0.a:0 "It's a dark day"
+ wif.1.t:0 "Socialist Rally"
+ wif.1.d:0 "One month after the nation-wide stike the socialist party holds a rally promising the working-class better lives if they are elected."
+ wif.1.a:0 "Interesting development..."
+ wif.2.t:0 "Stricter Race Laws"
+ wif.2.d:0 "While it's no secret that the February Strike was not race related the Garveyist Regime has made it look so and has convinced parliament to pass a law that further increases the racial divide."
+ wif.2.a:0 "Let the whites be DAMNED!"
+ wif.3.t:0 "Lighter Race Laws"
+ wif.3.d:0 "While it's no secret that the February Strike was not race related the Garveyist Regime has made it look so, but the opposition has convinced a majority in parliament to pass a law that decreases the racial divide."
+ wif.3.a:0 "A step towards an equal society?"
