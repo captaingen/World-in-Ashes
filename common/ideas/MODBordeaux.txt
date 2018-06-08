@@ -110,5 +110,28 @@ ideas = {
 				
 			}
 		}
+		
+		BOR_unorganized_airforce = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_air_payment
+			
+			modifier = {
+				enemy_army_bonus_air_superiority_factor = 0.048
+				air_interception_attack_factor = -0.014
+				air_interception_defence_factor = -0.027
+				air_interception_agility_factor = -0.011
+				
+			}
+		}
 	}
 }

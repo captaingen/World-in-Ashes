@@ -221,6 +221,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = BOR_desperate_airforce_tt
 		}
 	}
 	

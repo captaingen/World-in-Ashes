@@ -52,8 +52,9 @@ set_stability = 0.5
 set_war_support = 0.9
 
 add_ideas = {
-FRA_Civil_War
+BOR_Civil_War
 BOR_very_incompetent_staff
+BOR_unorganized_airforce
 }
 
 set_politics = {
