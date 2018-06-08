@@ -1,0 +1,37 @@
+spriteTypes = {
+
+
+    ###### Ministers #####
+
+
+
+	SpriteType = {
+		name = "GFX_idea_WIF_CLR_James_hog_soc"
+		texturefile = "gfx/ministers/WIF/CLR.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_idea_WIF_Arthur_Andrew_Cipriani_im_dem"
+		texturefile = "gfx/ministers/WIF/Cipriani.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_WIF_Tubal_Uriah_Butler_cc_soc"
+		texturefile = "gfx/ministers/WIF/Butler.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_WIF_Donald_Sangster_ec_dem"
+		texturefile = "gfx/ministers/WIF/Sangster.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_idea_WIF_Amy_Ashwood_Garvey_fm_auth"
+		texturefile = "gfx/ministers/WIF/Ashwood.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_WIF_Amy_Jaques_Garvey_mdn_dem"
+		texturefile = "gfx/ministers/WIF/Jaques.png"
+	}
+}
