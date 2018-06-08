@@ -1,3 +1,6 @@
 ﻿l_english:
- BOR_attack_them_tt:0 "§HWill declare war on the Nasis immediately!§!"
+
+#Bordeaux
+ war_on_france_tt:0 "§RThis focus will make you declare war on the Nasis immediately!§!"
+ BOR_peace_talks_tt:0 "§RThis focus will start the peace talks between the Bordeaux Republic and Nasi France!§!"
  
