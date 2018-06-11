@@ -789,7 +789,182 @@ focus_tree = {
 	}
 	
 	
+	focus = {
+		id = BOR_mediterranean_fed
+		icon = unknown
+		x = 22
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_focus_south
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
 	
+	focus = {
+		id = BOR_corsican_claim
+		icon = unknown
+		x = 21
+		y = 3
+		cost = 14.3
+		
+		prerequisite = {
+			focus = BOR_mediterranean_fed
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_state_claim = 1
+		}
+	}
+	
+	focus = {
+		id = BOR_secret_plan_invasion
+		icon = unknown
+		x = 21
+		y = 4
+		cost = 14.3
+		
+		
+		
+		prerequisite = {
+			focus = BOR_corsican_claim
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_declare_war
+		icon = unknown
+		x = 21
+		y = 5
+		cost = 0.2
+		
+		mutually_exclusive = {
+			focus = BOR_start_talks_med
+		}
+		
+		prerequisite = {
+			focus = BOR_secret_plan_invasion
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			declare_war_on = {
+				target = MED
+				type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = BOR_send_envoy_med
+		icon = unknown
+		x = 23
+		y = 3
+		cost = 1
+		
+		prerequisite = {
+			focus = BOR_mediterranean_fed
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_start_talks_med
+		icon = unknown
+		x = 23
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_send_envoy_med
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_form_union
+		icon = unknown
+		x = 23
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_start_talks_med
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
 	
 	
 	
