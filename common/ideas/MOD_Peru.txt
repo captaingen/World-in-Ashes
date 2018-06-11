@@ -9,7 +9,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			
-			picture = tommy_douglas_idea
+			picture = manzanilla_idea
 
 			cost = 150
 		}
@@ -26,7 +26,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			
-			picture = st_laurent_idea
+			picture = carlos_zavala_idea
 
 			cost = 150
 		}
@@ -43,7 +43,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			
-			picture = dunning_idea
+			picture = luis_flores_idea
 
 			cost = 150
 		}
@@ -59,7 +59,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			
-			picture = dunning_idea
+			picture = ignacio_brandariz_idea
 
 			cost = 150
 		}
@@ -75,7 +75,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			
-			picture = kalman_idea
+			picture = manuel_rodriguez_idea
 
 			cost = 150
 		}
