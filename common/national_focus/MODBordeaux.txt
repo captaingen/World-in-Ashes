@@ -610,4 +610,258 @@ focus_tree = {
 		}
 	}
 	
+	
+	
+	
+	
+	#Civil War ended
+	
+	focus = {
+		id = BOR_end_civil_war
+		icon = unknown
+		x = 20
+		y = 0
+		cost = 1
+		
+		prerequisite = {
+			
+		}
+		
+		available = {
+			has_country_flag = french_civil_war_over
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_focus_south
+		icon = unknown
+		x = 20
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_end_civil_war
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_italian_war
+		icon = unknown
+		x = 18
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_focus_south
+		}
+		
+		available = {
+			ITA = { has_war_with = NAP }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_send_help
+		icon = unknown
+		x = 17
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_italian_war
+		}
+		
+		available = {
+			ITA = { has_war_with = NAP }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_volunteering
+		icon = unknown
+		x = 19
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_italian_war
+		}
+		
+		available = {
+			ITA = { has_war_with = NAP }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_italian_factories
+		icon = unknown
+		x = 18
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_volunteering
+		}
+		prerequisite = {
+			focus = BOR_send_help
+		}
+		
+		available = {
+			ITA = { has_war_with = NAP }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_democratic_influence
+		icon = unknown
+		x = 18
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_volunteering
+		}
+		
+		available = {
+			ITA = { has_war_with = NAP }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			ITA = {
+				add_ideas = ITA_democratic_drift_france
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	focus = {
+		id = BOR_focus_north
+		icon = unknown
+		x = 25
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_end_civil_war
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	
+	focus = {
+		id = BOR_media_de_france
+		icon = unknown
+		x = 15
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_end_civil_war
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_cultural_integration
+		icon = unknown
+		x = 15
+		y = 2
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_media_de_france
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 }
