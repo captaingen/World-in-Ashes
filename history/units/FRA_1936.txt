@@ -1,3 +1,4 @@
+
 ﻿##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"
@@ -450,3 +451,510 @@ instant_effect = {
 		efficiency = 75
 	}
 }
+=======
+##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
+		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		# Division Légère Mécanique
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
+	}
+}
+division_template = {
+	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigade de Patrouille"			# Represents: 2xRgt colonial forces and , usually with old equipment
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	
+	##### Front line Troops #####
+	
+	# 1ere Armée
+	division= {	
+		name = "1ere Division d'Infanterie"
+		location = 3646
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		name = "2ème Division d'Infanterie"
+		location = 817
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "3ème Division d'Infanterie"
+		location = 648
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "4ème Division d'Infanterie"
+		location = 9625
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5ème Division d'Infanterie"
+		location = 9609
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6ème Division d'Infanterie"
+		location = 11611
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	
+	# 2eme Armée
+	division= {	
+		name = "8ème Division d'Infanterie"
+		location = 6688
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "9ème Division d'Infanterie"
+		location = 11631
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10ème Division d'Infanterie"
+		location = 3671
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11ème Division d'Infanterie"
+		location = 11613
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12ème Division d'Infanterie"
+		location = 9478
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13ème Division d'Infanterie"
+		location = 9867
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14ème Division d'Infanterie"
+		location = 11616
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	
+	
+	##### Patrol Units #####
+	
+	# 1er Corps de Patrouille (Région Militaire in 1936) -- Ile-de-france
+	
+	division= {	
+		name = "Patrouille Parisienne - Section Nord"
+		location = 9523
+		division_template = "Brigade de Patrouille" 	# Paris Patrols, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Patrouille Parisienne - Section Sud"
+		location = 9523
+		division_template = "Brigade de Patrouille" 	# Paris Patrols, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1ère Brigade de Chars de Combat"
+		location = 9523
+		division_template = "Brigade de Chars de Combat" 		
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "GER" } }
+	}
+
+	# 2ème Corps de Patrouille (Région Militaire in 1936) -- Brittany
+	
+	division= {	
+		name = "Patrouille St.Malo"
+		location = 11508
+		division_template = "Brigade de Patrouille" 	# St.Malo Patrols, half equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Patrouille de Brest"
+		location = 3552
+		division_template = "Brigade de Patrouille" 	# Brest Patrol, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	
+	# 3ème Corps de Patrouille (Région Militaire in 1936) -- Calais
+	
+	division= {	
+		name = "Patrouille de Calais"
+		location = 11548
+		division_template = "Brigade de Patrouille" 	# Calais Patrols, half equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Patrouille de Dunkirk"
+		location = 575
+		division_template = "Brigade de Patrouille" 	# Dunkirk Patrol, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "1ere Division de Cavalerie"
+		location = 454
+		division_template = "Division de Cavalerie" 	# Cavalry patrols in rural areas
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	
+	# 4ème Corps de Patrouille (Région Militaire in 1936) -- Normandy
+	
+	division= {	
+		name = "Patrouille de Cherbourg"
+		location = 6449
+		division_template = "Brigade de Patrouille" 	# Cherbourg Patrols, good equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Patrouille de Normandy"
+		location = 11535
+		division_template = "Brigade de Patrouille" 	# Dunkirk Patrol, half equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2eme Division de Cavalerie"
+		location = 9578
+		division_template = "Division de Cavalerie" 	# Cavalry patrols in rural areas
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	#1ère Armée Mécanique
+	
+	division= {	
+		name = "2ème Brigade de Chars de Combat"
+		location = 503
+		division_template = "Brigade de Chars de Combat" 		
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "GER" } }
+	}
+	division= {	
+		name = "3ème Brigade de Chars de Combat"
+		location = 9492
+		division_template = "Brigade de Chars de Combat" 		
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "GER" } }
+	}
+	division= {	
+		name = "1ère Div. d'Infanterie Motorisée"
+		location = 9490
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "1ère Division Légère Mécanique"
+		location = 680
+		division_template = "Division Légère Mécanique" 	
+		start_experience_factor = 0.3
+	}
+	
+	# 4ème Corps de Patrouille -- Frontière Allemande
+	
+	division= {	
+		name = "Patrouille Allemande - Section A"
+		location = 5291
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+	}
+	division= {	
+		name = "Patrouille Allemande - Section B"
+		location = 11516
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+	}
+	division= {	
+		name = "Patrouille Allemande - Section C"
+		location = 521
+		division_template = "Brigade de Patrouille" 	#Fully Equipped by Germany
+		start_experience_factor = 0.2
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+
+	}
+
+
+	### METRPOLITAN FRANCE ###				
+	navy = {				
+		name = "2ème Région Navale"			
+		base = 3552 
+		location = 3552 # Brest
+		# 2e Division des Contre-Torpilleurs
+		ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Chacal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Léopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Panthère" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 2e Légère Division des Contre-Torpilleurs
+		ship = { name = "Fougueux" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Frondeur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "L'Adroit" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 4e Légère Division des Contre-Torpilleurs
+		ship = { name = "Bourrasque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Ouragan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Orage" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 5e Légère Division des Contre-Torpilleurs
+		ship = { name = "Brestois" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Le Foudroyant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Boulonnais" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 6e Légère Division des Contre-Torpilleurs
+		ship = { name = "Cyclone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Siroco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Mistral" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+	}				
+	navy = {				
+		name = "1ère Région Navale"			
+		base = 575 
+		location = 575 # Dunkirk	
+		ship = { name = "Courbet" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Aigle" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } }	}			
+		ship = { name = "Foch" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		# 4e Division des Contre-Torpilleurs
+		ship = { name = "Lynx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Tigre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 5e Division des Contre-Torpilleurs
+		ship = { name = "Tartu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Chevalier Paul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		# 7e Division des Contre-Torpilleurs
+		ship = { name = "Gerfaut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		# 9e Division des Contre-Torpilleurs
+		ship = { name = "Cassard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Maillé Brézé" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+	}				
+	navy = {				
+		name = "3ème Escadron Sous-Marins"			
+		base = 6449 
+		location = 6449 # Toulon			
+		# 1e Division des Sous-Marins
+		ship = { name = "Le Glorieux" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 3 Division des Sous-Marins
+		ship = { name = "Protée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Actéon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+	}				
+	navy = {				
+		name = "4ème Escadron Sous-Marins"			
+		base = 3552 
+		location = 3552 # Brest			
+		# 2e Division des Sous-Marins
+		ship = { name = "Pasteur" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Achille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 8e Division des Sous-Marins
+		ship = { name = "Phénix" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+	}				
+	
+	
+### Air Wings
+air_wings = {
+	# Z.d'Op. Aériennes Nord -- Lille
+	29 = { 
+		# Groupement de Chasse 21 
+		# Groupement de Chasse 23
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 100
+		}
+		# Groupement de Bombardment 6
+		# Groupement de Bombardment 9
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 50
+		}
+	}
+
+	# Z.d'Op. Aériennes Est -- Reims
+	18 = {
+		# Groupement de Chasse 22
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 100
+		}
+	}
+
+	# Aeronautique Navale -- Cherbourg
+	15 = {
+		# Flotille F1
+		nav_bomber_equipment_1 = {
+			owner = "FRA" 
+			amount = 25
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	# Ship Production
+
+	# BC: Dunkerque (Comm. 16-Apr, 1937)	# REVISIT -- class vs. ship type vs. starting techs inconsistent
+	add_equipment_production = {
+		equipment = {
+			type = battle_cruiser_2
+			creator = "FRA" 
+		}
+		requested_factories = 5
+		progress = 0.20
+		amount = 2
+	}
+	 # CL: La Galissonnière class (x5) ("Jean de Vienne" "Marseillaise" "Gloire" "Montcalm" "Georges Leygues")
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_2
+			creator = "FRA" 
+		}
+		requested_factories = 3
+		progress = 0.10
+		amount = 5
+	}
+}
+###################
+
