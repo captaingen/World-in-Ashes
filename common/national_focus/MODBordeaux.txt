@@ -302,7 +302,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_total_war
-		icon = unknown
+		icon = GFX_focus_BOR_total_war
 		x = 5
 		y = 5
 		cost = 10
