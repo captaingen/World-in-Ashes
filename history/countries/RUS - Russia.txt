@@ -54,14 +54,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Nicholas II"
-	desc = ""
-	picture = "gfx/leaders/RUS/nicholas_II.tga"
-	expire = "1937.8.21"
-	ideology = despotism
-	traits = {
-		
-	}
-}

@@ -24,25 +24,6 @@ ideas = {
 				guarantee_tension = 0.75
 			}
 		}
-		
-		fascism_quebec = {
-
-			picture = nationalism_quebec
-		
-			allowed = {
-				original_tag = CAN
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				stability_factor = -0.10
-			}
-		}
 	}
 	
 	##############################################

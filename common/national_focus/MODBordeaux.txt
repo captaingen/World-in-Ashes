@@ -15,7 +15,7 @@ focus_tree = {
 	####Go to war
 	focus = {
 		id = BOR_attack_them
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = unknown
 		x = 4
 		y = 0
 		cost = 2.9
@@ -33,9 +33,9 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = war_on_france_tt
 			hidden_effect = {
-				declare_war_on = { target = FRA type = annex_everything }
-				news_event = { days = 1 id = news.501}
-			}
+			declare_war_on = { target = FRA type = annex_everything }
+			news_event = { days = 1 id = news.501}
+		}
 		}
 	}
 	
@@ -65,7 +65,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_national_guard
-		icon = GFX_focus_generic_military_mission
+		icon = unknown
 		x = 1
 		y = 2
 		cost = 5
@@ -88,7 +88,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_sniper_platoon
-		icon = GFX_focus_sniper
+		icon = unknown
 		x = 1
 		y = 3
 		cost = 5
@@ -111,7 +111,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_smart_army
-		icon = GFX_focus_generic_military_academy
+		icon = unknown
 		x = 2
 		y = 4
 		cost = 10
@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_naval_rearmament
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = unknown
 		x = 3
 		y = 1
 		cost = 1.5
@@ -158,7 +158,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_rebuild
-		icon = GFX_focus_focus_generic_industry_1
+		icon = unknown
 		x = 3
 		y = 2
 		cost = 10
@@ -180,7 +180,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_faster_repairs
-		icon = GFX_focus_generic_industry_2
+		icon = unknown
 		x = 4
 		y = 3
 		cost = 5
@@ -227,7 +227,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_ask_england
-		icon = GFX_focus_chi_british_cooperation
+		icon = unknown
 		x = 5
 		y = 2
 		cost = 5
@@ -253,7 +253,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_ask_usa
-		icon = GFX_focus_chi_mission_to_the_us
+		icon = unknown
 		x = 7
 		y = 2
 		cost = 5
@@ -279,7 +279,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_plane_integration
-		icon = GFX_focus_BOR_planes
+		icon = unknown
 		x = 6
 		y = 3
 		cost = 10
@@ -302,7 +302,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_total_war
-		icon = GFX_focus_BOR_total_war
+		icon = unknown
 		x = 5
 		y = 5
 		cost = 10
@@ -579,7 +579,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = BOR_one_state_tt
 		}
 	}
 	
@@ -606,717 +605,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = BOR_two_state_tt
-		}
-	}
-	
-	
-	
-	
-	
-	#Civil War ended
-	
-	focus = {
-		id = BOR_end_civil_war
-		icon = unknown
-		x = 20
-		y = 0
-		cost = 1
-		
-		prerequisite = {
-			
-		}
-		
-		available = {
-			has_country_flag = french_civil_war_over
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_focus_south
-		icon = unknown
-		x = 20
-		y = 1
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_end_civil_war
-		}
-		
-		available = {
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_italian_war
-		icon = unknown
-		x = 18
-		y = 2
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_focus_south
-		}
-		
-		available = {
-			ITA = { has_war_with = NAP }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_send_help
-		icon = unknown
-		x = 17
-		y = 3
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_italian_war
-		}
-		
-		available = {
-			ITA = { has_war_with = NAP }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_volunteering
-		icon = unknown
-		x = 19
-		y = 3
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_italian_war
-		}
-		
-		available = {
-			ITA = { has_war_with = NAP }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_italian_factories
-		icon = unknown
-		x = 18
-		y = 4
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_volunteering
-		}
-		prerequisite = {
-			focus = BOR_send_help
-		}
-		
-		available = {
-			ITA = { has_war_with = NAP }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_democratic_influence
-		icon = unknown
-		x = 18
-		y = 5
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_volunteering
-		}
-		
-		available = {
-			ITA = { has_war_with = NAP }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			ITA = {
-				add_ideas = ITA_democratic_drift_france
-			}
-		}
-	}
-	
-	focus = {
-		id = BOR_meeting_in_nice
-		icon = unknown
-		x = 16
-		y = 6
-		cost = 2.2
-		
-		prerequisite = {
-			focus = BOR_democratic_influence
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_invite_italian_commanders
-		icon = unknown
-		x = 16
-		y = 7
-		cost = 2.2
-		
-		prerequisite = {
-			focus = BOR_meeting_in_nice
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = { #construction company LaFarge
-		id = BOR_lafarge
-		icon = unknown
-		x = 18
-		y = 6
-		cost = 8.7
-		
-		prerequisite = {
-			focus = BOR_democratic_influence
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			158 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			735 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = { #construction company Vinci SA
-		id = BOR_vinci
-		icon = unknown
-		x = 18
-		y = 7
-		cost = 8.7
-		
-		prerequisite = {
-			focus = BOR_lafarge
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			158 = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			735 = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = { 
-		id = BOR_ask_italian_support
-		icon = unknown
-		x = 18
-		y = 8
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_invite_italian_commanders
-		}
-		prerequisite = {
-			focus = BOR_vinci
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	
-	
-	focus = {
-		id = BOR_mediterranean_fed
-		icon = unknown
-		x = 22
-		y = 2
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_focus_south
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_corsican_claim
-		icon = unknown
-		x = 21
-		y = 3
-		cost = 14.3
-		
-		prerequisite = {
-			focus = BOR_mediterranean_fed
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			add_state_claim = 1
-		}
-	}
-	
-	focus = {
-		id = BOR_secret_plan_invasion
-		icon = unknown
-		x = 21
-		y = 4
-		cost = 14.3
-		
-		
-		
-		prerequisite = {
-			focus = BOR_corsican_claim
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_declare_war
-		icon = unknown
-		x = 21
-		y = 5
-		cost = 0.2
-		
-		mutually_exclusive = {
-			focus = BOR_start_talks_med
-		}
-		
-		prerequisite = {
-			focus = BOR_secret_plan_invasion
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			declare_war_on = {
-				target = MED
-				type = annex_everything
-				}
-		}
-	}
-	
-	focus = {
-		id = BOR_send_envoy_med
-		icon = unknown
-		x = 23
-		y = 3
-		cost = 1
-		
-		prerequisite = {
-			focus = BOR_mediterranean_fed
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_start_talks_med
-		icon = unknown
-		x = 23
-		y = 5
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_send_envoy_med
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_form_union
-		icon = unknown
-		x = 23
-		y = 6
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_start_talks_med
-		}
-		
-		available = {
-			NOT = { has_country_flag = european_union_formed }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			create_faction = european_union
-			#Make event chain so med joins or doesnt join faction
-		}
-	}
-	
-	focus = {
-		id = BOR_invite_italy
-		icon = unknown
-		x = 22
-		y = 7
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_form_union
-		}
-		
-		available = {
-			ITA = {
-				has_country_flag = ITA_won_civil_war
-			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_invite_britain
-		icon = unknown
-		x = 24
-		y = 7
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_form_union
-		}
-		
-		available = {
-			ENG = {
-				has_offensive_war = no
-			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_invite_more2
-		icon = unknown
-		x = 24
-		y = 8
-		cost = 14.4
-		
-		prerequisite = {
-			focus = BOR_invite_britain
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_invite_more1
-		icon = unknown
-		x = 22
-		y = 8
-		cost = 14.4
-		
-		prerequisite = {
-			focus = BOR_invite_italy
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_bordeaux_conference
-		icon = unknown
-		x = 18
-		y = 9
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_ask_italian_support
-		}
-		prerequisite = {
-			focus = BOR_invite_more1
-		}
-		prerequisite = {
-			focus = BOR_invite_more2
-		}
-		
-		available = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	
-	
-	focus = {
-		id = BOR_focus_north
-		icon = unknown
-		x = 25
-		y = 1
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_end_civil_war
-		}
-		
-		available = {
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	
-	
-	focus = {
-		id = BOR_media_de_france
-		icon = unknown
-		x = 15
-		y = 1
-		cost = 10
-		
-		prerequisite = {
-			focus = BOR_end_civil_war
-		}
-		
-		available = {
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = BOR_cultural_integration
-		icon = unknown
-		x = 15
-		y = 2
-		cost = 14.4
-		
-		prerequisite = {
-			focus = BOR_media_de_france
-		}
-		
-		available = {
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			
 		}
 	}
 	
