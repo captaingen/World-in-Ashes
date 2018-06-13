@@ -25,6 +25,8 @@ set_technology = {
 	transport = 1
 }
 
+set_variable = { var = monarchist_anger value = 2 }
+set_variable = { var = falanage_anger value = 1 }
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 set_country_flag = completed_modern_flag
@@ -35,18 +37,18 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 51
+			popularity = 56
 		}
 
 		communism = {
-			popularity = 49
+			popularity = 44
 		}
 		
 	}
 	
 	ruling_party = democratic
 	last_election = "1933.2.16"
-	election_frequency = 36
+	election_frequency = 50
 	elections_allowed = yes
 }
 

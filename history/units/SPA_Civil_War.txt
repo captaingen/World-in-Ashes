@@ -1,43 +1,45 @@
 ﻿division_template = {
 	name = "Milicia Legionario"
 	is_locked = yes
-	division_names_group = SPAN_INF_01
+	division_names_group = SPA_INF_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		irregulars = { x = 0 y = 0 }
+		irregulars = { x = 0 y = 1 }
+		irregulars = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 }
 
 units = { 
 	division = {
 		name = "17a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 1176  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "18a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 1090  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "19a Milicia Legionario"
-		location = 875  # Cordoba
+		location = 3799  # Cordoba
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "20a Milicia Legionario"
-		location = 875  # Cordoba
+		location = 3799  # Cordoba
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "21a Milicia Legionario"
-		location = 3816  # Zaragoza
+		location = 3799  # Zaragoza
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "22a Milicia Legionario"
-		location = 3816  # Zaragoza
+		location = 3799  # Zaragoza
 		division_template = "Milicia Legionario"
 	}
 	division = {
@@ -53,7 +55,7 @@ units = {
 	}
 	division = {
 		name = "25a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 3799  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
@@ -63,7 +65,7 @@ units = {
 	}
 	division = {
 		name = "27a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 3799  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {

@@ -24,7 +24,7 @@ set_technology = {
 	early_battleship = 1
 	transport = 1
 }
-
+set_variable = { var = people_anger value = 0 }
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 set_country_flag = completed_modern_flag
@@ -61,6 +61,17 @@ create_country_leader = {
 	picture = "gfx/leaders/Spain/Portrait_Juan.png"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Xavier I"
+	desc = ""
+	picture = "gfx/leaders/Spain/Portrait_Xavier.png"
+	expire = "1965.1.1"
+	ideology = fascism
 	traits = {
 		#
 	}
