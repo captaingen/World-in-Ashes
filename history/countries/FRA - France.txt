@@ -82,11 +82,11 @@ set_politics = {
 create_country_leader = {
 	name = "Philippe Pétain"
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "gfx/leaders/FRA/Portrait_France_Philippe_Petain.png"
+	picture = "gfx/leaders/FRA/France_Philippe_Petain.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+		warmonger
 	}
 }
 

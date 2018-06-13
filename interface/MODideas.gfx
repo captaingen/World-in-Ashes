@@ -145,4 +145,28 @@ spriteTypes = {
 		name = "GFX_idea_USA_socialism"
 		texturefile = "gfx/interface/ideas/socialism.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nationalism_quebec"
+		texturefile = "gfx/interface/ideas/nationalism_quebec.dds"
+	}
+	spriteType = {
+	    name = "GFX_idea_manzanilla_idea"
+		texturefile = "gfx/interface/ideas/ministers/peru/manzanilla.dds"
+	}
+	spriteType = {
+	    name = "GFX_idea_carlos_zavala_idea"
+		texturefile = "gfx/interface/ideas/ministers/peru/carlos_zavala.dds"
+	}
+	spriteType = {
+	    name = "GFX_idea_luis_flores_idea"
+		texturefile = "gfx/interface/ideas/ministers/peru/luis_flores.dds"
+	}
+	spriteType = {
+	    name = "GFX_idea_ignacio_brandariz_idea"
+		texturefile = "gfx/interface/ideas/ministers/peru/ignacio_brandariz.dds"
+	}
+	spriteType = {
+	    name = "GFX_idea_manuel_rodriguez_idea"
+		texturefile = "gfx/interface/ideas/ministers/peru/manuel_rodriguez.dds"
+	}
 }

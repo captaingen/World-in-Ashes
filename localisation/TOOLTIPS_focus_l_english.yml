@@ -4,3 +4,5 @@
  war_on_france_tt:0 "§RThis focus will make you declare war on the Nasis immediately!§!"
  BOR_peace_talks_tt:0 "§RThis focus will start the peace talks between the Bordeaux Republic and Nasi France!§!"
  BOR_desperate_airforce_tt:0 "§RThis focus will slowly start the path to organizing your airforce...§!"
+ BOR_one_state_tt:0 "§G\nThis will unite France and the player will play as the United Federation of France. \n\n§RNasi France must accept the terms for this to take place.§!§!"
+ BOR_two_state_tt:0 "§G\nBoth Frances will unite under one union with both governments operating seperatly. \n\n§RNasi France must accept the terms for this to take place.§!§! \n\n§gWill cost 300 political Power§!"

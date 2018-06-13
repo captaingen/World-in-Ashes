@@ -45,25 +45,30 @@ set_technology = {
 	radio_detection = 1
 }
 
+add_ideas = {
+	WIF_CLR_James_hog_soc
+	WIF_Amy_Ashwood_Garvey_fm_auth
+	WIF_Amy_Jaques_Garvey_mdn_dem
+	WIF_Donald_Sangster_ec_dem
+	WIF_Tubal_Uriah_Butler_cc_soc
+	WIF_Arthur_Andrew_Cipriani_im_dem
+}
+
 set_convoys = 50
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 60
+			popularity = 50
 		}
 		
-		communism = { 
-			popularity = 20
-		}
-		
-		fascism = { 
-			popularity = 10
+		socialism = { 
+			popularity = 33.3
 		}
 
 		neutrality = {
-			popularity = 10
+			popularity = 16.7
 		}
 	}
 	
