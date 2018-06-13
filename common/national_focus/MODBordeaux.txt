@@ -15,7 +15,7 @@ focus_tree = {
 	####Go to war
 	focus = {
 		id = BOR_attack_them
-		icon = unknown
+		icon = GFX_focus_generic_strike_at_democracy1
 		x = 4
 		y = 0
 		cost = 2.9
@@ -65,7 +65,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_national_guard
-		icon = unknown
+		icon = GFX_focus_generic_military_mission
 		x = 1
 		y = 2
 		cost = 5
@@ -88,7 +88,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_sniper_platoon
-		icon = unknown
+		icon = GFX_focus_sniper
 		x = 1
 		y = 3
 		cost = 5
@@ -111,7 +111,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_smart_army
-		icon = unknown
+		icon = GFX_focus_generic_military_academy
 		x = 2
 		y = 4
 		cost = 10
@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_naval_rearmament
-		icon = unknown
+		icon = GFX_focus_generic_construct_naval_dockyard
 		x = 3
 		y = 1
 		cost = 1.5
@@ -158,7 +158,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_rebuild
-		icon = unknown
+		icon = GFX_focus_generic_industry_1
 		x = 3
 		y = 2
 		cost = 10
@@ -180,7 +180,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_faster_repairs
-		icon = unknown
+		icon = GFX_focus_generic_industry_2
 		x = 4
 		y = 3
 		cost = 5
@@ -227,7 +227,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_ask_england
-		icon = unknown
+		icon = GFX_focus_chi_british_cooperation
 		x = 5
 		y = 2
 		cost = 5
@@ -253,7 +253,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_ask_usa
-		icon = unknown
+		icon = GFX_focus_chi_mission_to_the_us
 		x = 7
 		y = 2
 		cost = 5
@@ -279,7 +279,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_plane_integration
-		icon = unknown
+		icon = GFX_focus_BOR_planes
 		x = 6
 		y = 3
 		cost = 10

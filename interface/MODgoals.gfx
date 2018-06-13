@@ -61,4 +61,12 @@ spriteTypes = {
 		name = "GFX_focus_BOR_total_war"
 		textureFile = "gfx/interface/goals/BOR/total_war.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_sniper"
+		textureFile = "gfx/interface/goals/sniper.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_BOR_planes"
+		textureFile = "gfx/interface/goals/BOR/BOR_planes.dds"
+	}
 }
