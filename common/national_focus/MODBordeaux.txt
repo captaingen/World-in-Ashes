@@ -788,6 +788,156 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = BOR_meeting_in_nice
+		icon = unknown
+		x = 16
+		y = 6
+		cost = 2.2
+		
+		prerequisite = {
+			focus = BOR_democratic_influence
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_invite_italian_commanders
+		icon = unknown
+		x = 16
+		y = 7
+		cost = 2.2
+		
+		prerequisite = {
+			focus = BOR_meeting_in_nice
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = { #construction company LaFarge
+		id = BOR_lafarge
+		icon = unknown
+		x = 18
+		y = 6
+		cost = 8.7
+		
+		prerequisite = {
+			focus = BOR_democratic_influence
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			158 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			735 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = { #construction company Vinci SA
+		id = BOR_vinci
+		icon = unknown
+		x = 18
+		y = 7
+		cost = 8.7
+		
+		prerequisite = {
+			focus = BOR_lafarge
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			158 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			735 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = { 
+		id = BOR_ask_italian_support
+		icon = unknown
+		x = 18
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_invite_italian_commanders
+		}
+		prerequisite = {
+			focus = BOR_vinci
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
 	
 	focus = {
 		id = BOR_mediterranean_fed
@@ -951,6 +1101,137 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = BOR_start_talks_med
+		}
+		
+		available = {
+			NOT = { has_country_flag = european_union_formed }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			create_faction = european_union
+			#Make event chain so med joins or doesnt join faction
+		}
+	}
+	
+	focus = {
+		id = BOR_invite_italy
+		icon = unknown
+		x = 22
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_form_union
+		}
+		
+		available = {
+			ITA = {
+				has_country_flag = ITA_won_civil_war
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_invite_britain
+		icon = unknown
+		x = 24
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_form_union
+		}
+		
+		available = {
+			ENG = {
+				has_offensive_war = no
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_invite_more2
+		icon = unknown
+		x = 24
+		y = 8
+		cost = 14.4
+		
+		prerequisite = {
+			focus = BOR_invite_britain
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_invite_more1
+		icon = unknown
+		x = 22
+		y = 8
+		cost = 14.4
+		
+		prerequisite = {
+			focus = BOR_invite_italy
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_bordeaux_conference
+		icon = unknown
+		x = 18
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_ask_italian_support
+		}
+		prerequisite = {
+			focus = BOR_invite_more1
+		}
+		prerequisite = {
+			focus = BOR_invite_more2
 		}
 		
 		available = {
