@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
+oob = "empty"
 
 set_research_slots = 3
 

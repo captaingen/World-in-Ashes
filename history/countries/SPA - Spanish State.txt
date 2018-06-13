@@ -1,6 +1,6 @@
 ﻿capital = 169
 
-oob = "empty"
+oob = "SPA_Civil_War"
 
 set_research_slots = 3
 
