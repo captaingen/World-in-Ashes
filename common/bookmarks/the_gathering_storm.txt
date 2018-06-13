@@ -32,13 +32,13 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-			}	
+			}
 			focuses = {
-			}		
+			}
 		}
 
 		"GER"={
@@ -52,9 +52,9 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"RUS"={
-			history = ""
-			ideology = neutrality
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
 			}	
 			focuses = {
