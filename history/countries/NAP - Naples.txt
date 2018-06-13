@@ -79,3 +79,24 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 
+create_country_leader = {
+	name = "Rodolfo Graziani"
+	desc = ""
+	picture = "graziani.tga"
+	expire = "1955.1.11"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Rodolfo Graziani"
+	picture = "portrait_italy_radolfo_graziani.dds"
+	traits = { offensive_doctrine politically_connected trait_cautious }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

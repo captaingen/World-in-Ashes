@@ -22,6 +22,14 @@ set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 set_country_flag = completed_diplo_flag
 
+add_ideas = {
+	jose_matias_manzanilla_hog
+	carlos_zavala_fm
+	luis_flores_mnd
+	ignacio_brandariz_em
+	manuel_rodriguez_cm
+}
+
 set_politics = {
 
 	parties = {
