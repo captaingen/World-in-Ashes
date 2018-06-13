@@ -1,0 +1,83 @@
+ideas = {
+    head_of_government = {
+	    jose_matias_manzanilla_hog = { #Gabinete de Manzanilla Fascismo
+		    allowed = {original_tag = PRU}
+			available = {
+			}
+			traits = {
+				financial_genius
+			}
+			cancel_if_invalid = no
+			
+			picture = manzanilla_idea
+
+			cost = 150
+		}
+	}
+	
+	foreign_minister = {
+		carlos_zavala_fm = { #Gabinete de Manzanilla Fascismo
+			allowed = {original_tag = PRU}
+			available = {
+			}
+			traits = {
+				ambassador
+				pacifist_minister
+			}
+			cancel_if_invalid = no
+			
+			picture = carlos_zavala_idea
+
+			cost = 150
+		}
+	}
+	
+	minister_national_defense = {
+		luis_flores_mnd = { #Gabinete de Manzanilla Fascismo
+			allowed = {original_tag = PRU}
+			available = {
+			}
+			traits = {
+				lawyer
+				military_engineer
+			}
+			cancel_if_invalid = no
+			
+			picture = luis_flores_idea
+
+			cost = 150
+		}
+	}
+	
+	economy_minister = {
+		ignacio_brandariz_em = { #Gabinete de Manzanilla Fascismo
+			allowed = {original_tag = PRU}
+			available = {
+			}
+			traits = {
+				businessman
+			}
+			cancel_if_invalid = no
+			
+			picture = ignacio_brandariz_idea
+
+			cost = 150
+		}
+	}
+	
+	construction_minister = {
+		manuel_rodriguez_cm = { #Gabinete de Manzanilla Fascismo
+			allowed = {original_tag = PRU}
+			available = {
+			}
+			traits = {
+				civilian_architect
+			}
+			cancel_if_invalid = no
+			
+			picture = manuel_rodriguez_idea
+
+			cost = 150
+		}
+	}
+}
