@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_naval_rearmament
-		icon = GFX_focus_generic_construct_naval_dockyard
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 3
 		y = 1
 		cost = 1.5
@@ -158,7 +158,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_rebuild
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_focus_generic_industry_1
 		x = 3
 		y = 2
 		cost = 10
@@ -1302,7 +1302,7 @@ focus_tree = {
 		icon = unknown
 		x = 15
 		y = 2
-		cost = 5
+		cost = 14.4
 		
 		prerequisite = {
 			focus = BOR_media_de_france
