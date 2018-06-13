@@ -1,6 +1,6 @@
 ﻿capital = 171
 
-oob = "empty"
+oob = "SPK_war"
 
 set_research_slots = 3
 
@@ -35,11 +35,12 @@ set_politics = {
 
 	parties = {
 		communism = { 
-			popularity = 10
+			popularity = 1
+			banned = yes 
 		}
 
 		neutrality = {
-			popularity = 90
+			popularity = 99
 		}
 	}
 	

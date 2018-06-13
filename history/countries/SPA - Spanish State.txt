@@ -41,6 +41,7 @@ set_politics = {
 		
 		communism = {
 			popularity = 7
+			banned = yes 
 		}
 	}
 	
