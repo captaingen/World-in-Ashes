@@ -204,7 +204,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_desperate_airforce
-		icon = unknown
+		icon = GFX_focus_BOR_unorganized_planes
 		x = 5
 		y = 1
 		cost = 1.5

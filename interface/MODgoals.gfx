@@ -69,4 +69,8 @@ spriteTypes = {
 		name = "GFX_focus_BOR_planes"
 		textureFile = "gfx/interface/goals/BOR/BOR_planes.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_BOR_unorganized_planes"
+		textureFile = "gfx/interface/goals/BOR/BOR_unorganized_planes.dds"
+	}
 }
