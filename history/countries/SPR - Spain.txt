@@ -26,24 +26,29 @@ set_technology = {
 }
 
 set_variable = { var = monarchist_anger value = 2 }
-set_variable = { var = falanage_anger value = 1 }
+set_variable = { var = falanage_anger value = 3 }
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 set_country_flag = completed_modern_flag
 set_country_flag = completed_diplo_flag
 set_country_flag = westernization_5_completed_flag
 
+add_ideas = {
+		SPR_national_disaster
+	}
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 56
+			popularity = 52
 		}
 
 		communism = {
-			popularity = 44
+			popularity = 39
 		}
-		
+		socialism = {
+			popularity = 9
+		}
 	}
 	
 	ruling_party = democratic
@@ -66,22 +71,22 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = {
-#	name = "José Díaz"
-#	desc = "POLITICS_JOSE_DIAZ_DESC"
-#	picture = "Portrait_Spain_Jose_Diaz.dds"
-#	expire = "1965.1.1"
-#	ideology = stalinism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Francisco Ascaso"
+	desc = ""
+	picture = "Portrait_Ascaso.png"
+	expire = "1965.1.1"
+	ideology = anarcho_syndicalism
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "José María Gil-Robles y Quiñones"
 	desc = ""
 	picture = "gfx/leaders/Spain/Portrait_Jose.png"
-	expire = "1965.1.1"
+	expire = "1980.9.13"
 	ideology = conservatism
 	traits = {
 		catholic_extremist

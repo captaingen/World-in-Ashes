@@ -1,6 +1,6 @@
 ﻿capital = 169
 
-oob = "SPA_Civil_War"
+oob = "SPA_war"
 
 set_research_slots = 3
 
@@ -36,18 +36,18 @@ set_politics = {
 	parties = {
 
 		fascism = {
-			popularity = 93
+			popularity = 97
 		}
 		
 		communism = {
-			popularity = 7
+			popularity = 3
 			banned = yes 
 		}
 	}
 	
 	ruling_party = fascism
 	last_election = "1933.2.16"
-	election_frequency = 36
+	election_frequency = 90
 	elections_allowed = no
 }
 
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Spain/Portrait_Rivera.png"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = falangism
 	traits = {
 		#
 	}

@@ -63,6 +63,9 @@ ideologies = {
 		
 			socialism = {
 			}
+			
+			anarcho_syndicalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -117,8 +120,7 @@ ideologies = {
 			anti_revisionism = {
 			}
 			
-			anarchist_communism = {
-			}
+			
 		}
 		
 		dynamic_faction_names = {
@@ -169,6 +171,12 @@ ideologies = {
 			}
 			
 			ultra_nationalism = {
+			}
+			
+			integrism = {
+			}
+			
+			nationalist_monarchism = {
 			}
 		}
 		

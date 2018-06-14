@@ -34,13 +34,12 @@ set_country_flag = westernization_5_completed_flag
 set_politics = {
 
 	parties = {
-		communism = { 
-			popularity = 1
-			banned = yes 
+		fascism = { 
+			popularity = 7 
 		}
 
 		neutrality = {
-			popularity = 99
+			popularity = 93
 		}
 	}
 	
@@ -71,7 +70,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Spain/Portrait_Xavier.png"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalist_monarchism
 	traits = {
 		catholic_extremist
 	}
