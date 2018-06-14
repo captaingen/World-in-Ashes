@@ -62,7 +62,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		#
+		christian_socialist
 	}
 }
 
@@ -84,7 +84,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
+		catholic_extremist
 	}
 }
 

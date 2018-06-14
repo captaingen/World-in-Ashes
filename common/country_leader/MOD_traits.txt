@@ -87,6 +87,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	catholic_extremist = (
+	    fascism_drift = 0.01
+		stability_factor = 0.02
+		political_power_gain = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	christian_socialist = {
 		socialism_drift = 0.02
 		stability_factor = 0.02
