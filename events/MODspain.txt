@@ -22,11 +22,11 @@ country_event = {
 		tag = SPR
 		has_defensive_war = no
 		NOT = { has_government = fascism }
-		date > 1936.2.16 # Trigger at some point after 1936 elections
+		date > 1936.1.15 # Trigger at some point after 1936 elections
 	}
 
 	mean_time_to_happen = {
-		days = 151	# Historical outbreak time after elections
+		days = 3	# Historical outbreak time after elections
 	}
 
 	option = { #For Monarchy
@@ -282,7 +282,7 @@ country_event = {#Elections- Yes i know this should've been first
 		tag = SPR
 		has_defensive_war = no
 		NOT = { has_government = fascism }
-		date > 1936.2.16 # Trigger at some point after 1936 elections
+		date > 1936.1.15 # Trigger at some point after 1936 elections
 	}
 
 	mean_time_to_happen = {
@@ -326,11 +326,11 @@ country_event = {#Republican Guards
 		NOT = { has_global_flag = scw_over }
 		tag = SPR
 		has_defensive_war = yes
-		date > 1936.2.16 # Trigger at some point after 1936 elections
+		date > 1936.1.15 # Trigger at some point after 1936 elections
 	}
 
 	mean_time_to_happen = {
-		days = 152	# Historical outbreak time after elections
+		days = 4	# Historical outbreak time after elections
 	}
 
 	option = {
