@@ -13,18 +13,99 @@
 
 units = { 
     division = {
-		name = "1ST Milicia Monárquica Española"
+		name = "1a Milicia Monárquica Española"
 		location = 1176  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
-		name = "2ND Milicia Monárquica Española"
+		name = "2a Milicia Monárquica Española"
 		location = 1090  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
-		name = "3RD Milicia Monárquica Española"
+		name = "3a Milicia Monárquica Española"
 		location = 3799  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
+	 division = {
+		name = "4a Milicia Monárquica Española"
+		location = 1176  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "5a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "6a Milicia Monárquica Española"
+		location = 3799  # Cordoba
+		division_template = "Milicia Monárquica Española"
+	}
+	 division = {
+		name = "7 Milicia Monárquica Española"
+		location = 1176  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "8a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "9a Milicia Monárquica Española"
+		location = 3799  # Cordoba
+		division_template = "Milicia Monárquica Española"
+	}
+	 division = {
+		name = "10a Milicia Monárquica Española"
+		location = 1176  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "12a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "13a Milicia Monárquica Española"
+		location = 3799  # Cordoba
+		division_template = "Milicia Monárquica Española"
+	}
+	 division = {
+		name = "14a Milicia Monárquica Española"
+		location = 1176  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "15a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "16a Milicia Monárquica Española"
+		location = 3799  # Cordoba
+		division_template = "Milicia Monárquica Española"
+	}
+	 division = {
+		name = "17a Milicia Monárquica Española"
+		location = 1176  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "18a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "19a Milicia Monárquica Española"
+		location = 3799  # Cordoba
+		division_template = "Milicia Monárquica Española"
+	}
+	division = {
+		name = "20a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+        
+    } 
 }

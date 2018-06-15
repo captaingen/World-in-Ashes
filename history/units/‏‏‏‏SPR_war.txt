@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Milicia Comunista Española"
+	name = "Guardias Republicanos"
 	is_locked = yes
 	division_names_group = SPA_INF_01
 	regiments = {
@@ -13,18 +13,128 @@
 
 units = { 
     division = {
-		name = "1ST Milicia Comunista Española"
-		location = 1176  # Sevilla
-		division_template = "Milicia Comunista Española"
+		name = "1a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
 	}
 	division = {
-		name = "2ND Milicia Comunista Española"
-		location = 1090  # Sevilla
-		division_template = "Milicia Comunista Española"
+		name = "2a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
 	}
 	division = {
-		name = "3RD Milicia Comunista Española"
-		location = 3799  # Cordoba
-		division_template = "Milicia Comunista Española"
+		name = "3a Guardias Republicanos"
+		location = 3938  # Cordoba
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "4a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "5a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "6a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "7a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "8a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "9a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "10a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "11a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "12a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "13a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "14a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "15a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "16a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "17a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "18a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "19a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "20a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "21a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "22a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "23a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "24a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
+	}
+	division = {
+		name = "25a Guardias Republicanos"
+		location = 3938  # Sevilla
+		division_template = "Guardias Republicanos"
 	}
 }

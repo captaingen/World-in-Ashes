@@ -38,7 +38,7 @@ leader_traits = {
 	}
 	socialist_hog = {
 		random = no
-		# Boosts bolshevism
+		# Boosts socialism
 		socialism_drift = 0.1
 		
 		ai_will_do = {

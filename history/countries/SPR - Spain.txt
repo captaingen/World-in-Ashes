@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "empty"
+oob = "SPR_zpeace"
 
 set_research_slots = 3
 
@@ -67,7 +67,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		christian_socialist
+		#
 	}
 }
 
@@ -78,7 +78,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = anarcho_syndicalism
 	traits = {
-		
+		#
 	}
 }
 

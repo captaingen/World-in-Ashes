@@ -314,6 +314,32 @@ country_event = {#Elections- Yes i know this should've been first
 	
 }
 
+country_event = {#Republican Guards
+	id = spain.3
+	title = spain.3.t
+	desc = spain.3.d
+	picture = GFX_report_event_SPR_force
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_global_flag = scw_over }
+		tag = SPR
+		has_defensive_war = yes
+		date > 1936.2.16 # Trigger at some point after 1936 elections
+	}
+
+	mean_time_to_happen = {
+		days = 152	# Historical outbreak time after elections
+	}
+
+	option = {
+		ai_chance = { factor = 1 }
+		name = spain.3.a
+		load_oob = SPR_war
+	}
+
+}
 #########Spanish Kingdom#############
 country_event = { #Intervention?
 	id = spaink.1
