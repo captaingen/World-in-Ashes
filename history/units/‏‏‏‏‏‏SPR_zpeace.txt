@@ -4,22 +4,18 @@
 	division_names_group = SPA_INF_01
 	regiments = {
 		irregulars = { x = 0 y = 0 }
-		irregulars = { x = 0 y = 1 }
-		irregulars = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
 	}
 }
 
 units = { 
     division = {
 		name = "1a Cuerpo De Defensa"
-		location = 3938  
+		location = 977  
 		division_template = "Cuerpo De Defensa"
 	}
 	division = {
 		name = "2a Cuerpo De Defensa"
-		location = 3938 
+		location = 977 
 		division_template = "Cuerpo De Defensa"
 	}
 	division = {
