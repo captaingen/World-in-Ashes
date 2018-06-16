@@ -107,4 +107,34 @@ units = {
 		division_template = "Milicia Monárquica Española"
         
     } 
+    division = {
+		name = "21a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+        
+    } 
+    division = {
+		name = "22a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+        
+    } 
+    division = {
+		name = "23a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+        
+    } 
+    division = {
+		name = "24a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+        
+    } 
+    division = {
+		name = "25a Milicia Monárquica Española"
+		location = 1090  # Sevilla
+		division_template = "Milicia Monárquica Española"
+        
+    } 
 }
