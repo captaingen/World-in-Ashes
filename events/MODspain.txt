@@ -26,7 +26,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 151	# Historical outbreak time after elections
+		days = 2	# Historical outbreak time after elections
 	}
 
 	option = { #For Monarchy
