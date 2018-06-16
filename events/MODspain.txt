@@ -22,7 +22,7 @@ country_event = {
 		tag = SPR
 		has_defensive_war = no
 		NOT = { has_government = fascism }
-		date > 1936.1.15 # Trigger at some point after 1936 elections
+		date > 1936.2.16 # Trigger at some point after 1936 elections
 	}
 
 	mean_time_to_happen = {
@@ -317,7 +317,7 @@ country_event = {#Elections- Yes i know this should've been first
 		tag = SPR
 		has_defensive_war = no
 		NOT = { has_government = fascism }
-		date > 1936.1.15 # Trigger at some point after 1936 elections
+		date > 1936.2.16 # Trigger at some point after 1936 elections
 	}
 
 	mean_time_to_happen = {
