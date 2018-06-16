@@ -120,7 +120,7 @@ ideologies = {
 			anti_revisionism = {
 			}
 			
-			anarchist_communist = {
+			anarchist_communism = {
 			}
 			
 		}

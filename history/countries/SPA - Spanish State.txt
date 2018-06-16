@@ -1,6 +1,6 @@
 ﻿capital = 169
 
-oob = "SPA_war"
+#oob = "SPA_war"
 
 set_research_slots = 3
 
