@@ -13,127 +13,127 @@
 units = { 
     division = {
 		name = "1a Milicia Monárquica Española"
-		location = 1176  # Sevilla
+		location = 6941  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "2a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 877  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "3a Milicia Monárquica Española"
-		location = 3799  # Cordoba
+		location = 6907  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
 	 division = {
 		name = "4a Milicia Monárquica Española"
-		location = 1176  # Sevilla
+		location = 9846  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "5a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 9800  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "6a Milicia Monárquica Española"
-		location = 3799  # Cordoba
+		location = 3820  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
 	 division = {
 		name = "7 Milicia Monárquica Española"
-		location = 1176  # Sevilla
+		location = 11806  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "8a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 3859  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "9a Milicia Monárquica Española"
-		location = 3799  # Cordoba
+		location = 11766  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
 	 division = {
 		name = "10a Milicia Monárquica Española"
-		location = 1176  # Sevilla
+		location = 3887  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "12a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 6903  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "13a Milicia Monárquica Española"
-		location = 3799  # Cordoba
+		location = 9857  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
 	 division = {
 		name = "14a Milicia Monárquica Española"
-		location = 1176  # Sevilla
+		location = 3737  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "15a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 3931  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "16a Milicia Monárquica Española"
-		location = 3799  # Cordoba
+		location = 3859  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
 	 division = {
 		name = "17a Milicia Monárquica Española"
-		location = 1176  # Sevilla
+		location = 9857  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "18a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 877  # Sevilla
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "19a Milicia Monárquica Española"
-		location = 3799  # Cordoba
+		location = 11806  # Cordoba
 		division_template = "Milicia Monárquica Española"
 	}
 	division = {
 		name = "20a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 9800  # Sevilla
 		division_template = "Milicia Monárquica Española"
         
     } 
     division = {
 		name = "21a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 6903  # Sevilla
 		division_template = "Milicia Monárquica Española"
         
     } 
     division = {
 		name = "22a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 3859  # Sevilla
 		division_template = "Milicia Monárquica Española"
         
     } 
     division = {
 		name = "23a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 9846  # Sevilla
 		division_template = "Milicia Monárquica Española"
         
     } 
     division = {
 		name = "24a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 6941  # Sevilla
 		division_template = "Milicia Monárquica Española"
         
     } 
     division = {
 		name = "25a Milicia Monárquica Española"
-		location = 1090  # Sevilla
+		location = 11806  # Sevilla
 		division_template = "Milicia Monárquica Española"
         
     } 

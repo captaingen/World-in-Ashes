@@ -95,10 +95,10 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Juan Hernández Saravia"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { offensive_doctrine }
+	traits = { reckless }
 	skill = 2
     attack_skill = 4
     defense_skill = 2
@@ -106,10 +106,10 @@ create_field_marshal = {
     logistics_skill = 0
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "José Miaja La Menant"
 	portrait_path = "gfx/leaders/Spain/Portrait_Miaja.png"
-	traits = { }
+	traits = { offensive_doctrine }
 	skill = 3
     attack_skill = 1
     defense_skill = 3

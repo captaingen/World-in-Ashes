@@ -76,6 +76,29 @@ create_country_leader = {
 	}
 }
 
+create_corps_commander = {
+	name = "Leopoldo Saro y Marín"
+	portrait_path = ""
+	traits = { reckless }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+	#death in 1949
+}
+
+create_field_marshal = {
+	name = "Manuel Silvestre"
+	portrait_path = ""
+	traits = { offensive_doctrine }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 1 
+	#death in 1942
+}
 ### Ship Variants ###
 
 create_equipment_variant = {

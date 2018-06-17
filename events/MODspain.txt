@@ -39,6 +39,7 @@ country_event = {
 			transfer_state = 176
 			transfer_state = 174
 			transfer_state = 171
+			transfer_state = 827
 			declare_war_on = { target = SPA type = civil_war }
 			declare_war_on = { target = SPR type = civil_war }
 		}
@@ -68,7 +69,8 @@ country_event = {
 					state = 174 
 					state = 171 
 					state = 176
-					state = 172  
+					state = 172 
+                    state = 827					
 				}
 			}
 			remove_claim_by = SPK
