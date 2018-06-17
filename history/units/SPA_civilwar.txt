@@ -13,83 +13,83 @@
 units = { 
 	division = {
 		name = "1a Milicia Legionario"
-		location = 1176  # Sevilla
+		location = 3940  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "2a Milicia Legionario"
-		location = 1090  # Sevilla
+		location = 11749  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "3a Milicia Legionario"
-		location = 3799  # Cordoba
+		location = 7098  # Cordoba
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "4a Milicia Legionario"
-		location = 3799  # Cordoba
+		location = 9891  # Cordoba
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "5a Milicia Legionario"
-		location = 3799  # Zaragoza
+		location = 879  # Zaragoza
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "6 Milicia Legionario"
-		location = 3799  # Zaragoza
+		location = 3810  # Zaragoza
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "7a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 3871  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 
 	division = {
 		name = "8a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 950  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "9a Milicia Legionario"
-		location = 3799  # Sevilla
+		location = 12083  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "10a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 11807  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "11a Milicia Legionario"
-		location = 3799  # Sevilla
+		location = 832  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "12a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 3835  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "13a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 9896  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "14a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 6906  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "15a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 6817  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "16a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 3873  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
@@ -104,13 +104,42 @@ units = {
 	}
 	division = {
 		name = "19a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 875  # Sevilla
 		division_template = "Milicia Legionario"
 	}
 	division = {
 		name = "20a Milicia Legionario"
-		location = 7183  # Sevilla
+		location = 875  # Sevilla
 		division_template = "Milicia Legionario"
 	}
-
+    division = {
+		name = "21a Milicia Legionario"
+		location = 875  # Sevilla
+		division_template = "Milicia Legionario"
+        
+    } 
+    division = {
+		name = "22a Milicia Legionario"
+		location = 7183  # Sevilla
+		division_template = "Milicia Legionario"
+        
+    } 
+    division = {
+		name = "23a Milicia Legionario"
+		location = 10024  # Sevilla
+		division_template = "Milicia Legionario"
+        
+    } 
+    division = {
+		name = "24a Milicia Legionario"
+		location = 9979  # Sevilla
+		division_template = "Milicia Legionario"
+        
+    } 
+    division = {
+		name = "25a Milicia Legionario"
+		location = 3799  # Sevilla
+		division_template = "Milicia Legionario"
+        
+    } 
 }

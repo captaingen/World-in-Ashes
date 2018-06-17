@@ -69,7 +69,7 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Francisco Franco"
 	portrait_path = "Portrait_Spain_Francisco_Franco.dds"
-	traits = { defensive_doctrine }
+	traits = { offensive_doctrine trickster }
 	skill = 2
     attack_skill = 2
     defense_skill = 3
@@ -77,13 +77,58 @@ create_field_marshal = {
     logistics_skill = 2
 }
 
+create_field_marshal = {
+	name = "Miguel Cabanellas y Ferrer"
+	portrait_path = "gfx/leaders/Spain/Portrait_Ferrer.png"
+	traits = { organizer trait_cautious defensive_doctrine }
+	skill = 4
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+	#death in 1938 due to old age
+}
+
+create_corps_commander = {
+	name = "Juan Yagüe y Blanco" #Butcher of badajoz
+	portrait_path = "gfx/leaders/Spain/Portrait_Yague.png"
+	traits = { harsh_leader }
+	skill = 2
+    attack_skill = 5
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 0 
+}
+
 create_corps_commander = {
 	name = "José Sanjurjo y Sacanell"
 	portrait_path = "gfx/leaders/Spain/Portrait_Sanjurjo.png"
 	traits = { }
 	skill = 3
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "José Millán Astray"
+	portrait_path = "gfx/leaders/Spain/Portrait_Astray.png"
+	traits = { reckless }
+	skill = 3
     attack_skill = 1
-    defense_skill = 3
+    defense_skill = 5
     planning_skill = 2
-    logistics_skill = 0 
+    logistics_skill = 3 
+}
+
+create_corps_commander = {
+	name = "Gonzalo Queipo de Llano y Sierra"
+	portrait_path = "gfx/leaders/Spain/Portrait_Sierra.png"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 3 
 }
