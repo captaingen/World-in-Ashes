@@ -99,6 +99,30 @@ create_field_marshal = {
     logistics_skill = 1 
 	#death in 1942
 }
+
+create_corps_commander = {
+	name = "Manuel Fal Conde"
+	portrait_path = ""
+	traits = { }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+	#death in 1975
+}
+
+create_corps_commander = {
+	name = "Emilio Mola y Vidal"
+	portrait_path = ""
+	traits = { reckless }
+	skill = 2
+    attack_skill = 4
+    defense_skill = 0
+    planning_skill = 2
+    logistics_skill = 1
+	#death in 1949
+}
 ### Ship Variants ###
 
 create_equipment_variant = {
