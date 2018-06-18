@@ -24,4 +24,34 @@ units = {
 		location = 3938  
 		division_template = "Cuerpo De Defensa"
 	}
+	division = {
+		name = "4a Cuerpo De Defensa"
+		location = 877  
+		division_template = "Cuerpo De Defensa"
+	}
+	division = {
+		name = "5a Cuerpo De Defensa"
+		location = 3938  
+		division_template = "Cuerpo De Defensa"
+	}
+	division = {
+		name = "6a Cuerpo De Defensa"
+		location = 3938  
+		division_template = "Cuerpo De Defensa"
+	}
+	division = {
+		name = "7a Cuerpo De Defensa"
+		location = 950  
+		division_template = "Cuerpo De Defensa"
+	}
+	division = {
+		name = "8a Cuerpo De Defensa"
+		location = 3938  
+		division_template = "Cuerpo De Defensa"
+	}
+	division = {
+		name = "9a Cuerpo De Defensa"
+		location = 3940  
+		division_template = "Cuerpo De Defensa"
+	}
 }
