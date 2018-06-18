@@ -1247,12 +1247,237 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = BOR_spanish_question
+		icon = unknown
+		x = 25
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_focus_south
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_interfere_cw
+		icon = unknown
+		x = 25
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_spanish_question
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_send_help_spain
+		}
+		
+		available = {
+			has_global_flag = spanish_cw
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_reclaim_our_land
+		icon = unknown
+		x = 25
+		y = 4
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_interfere_cw
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			838 = { add_core_of = ROOT }
+			839 = { add_core_of = ROOT }
+		}
+	}
+	
+	focus = {
+		id = BOR_plan_attack_spain
+		icon = unknown
+		x = 26
+		y = 6
+		cost = 1
+		
+		prerequisite = {
+			focus = BOR_reclaim_our_land
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_pyrenees_conflict1
+		icon = unknown
+		x = 26
+		y = 7
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_plan_attack_spain
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BOR_pyrenees_conflict2
+		icon = unknown
+		x = 28
+		y = 7
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_plan_attack_spain
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_send_help_spain
+		icon = unknown
+		x = 28
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_spanish_question
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_interfere_cw
+		}
+		
+		available = {
+			has_global_flag = spanish_cw
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_send_equipment_spain
+		icon = unknown
+		x = 28
+		y = 4
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_send_help_spain
+		}
+		
+		available = {
+			has_global_flag = spanish_cw
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_ask_for_land_back_spain
+		icon = unknown
+		x = 28
+		y = 5
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_send_equipment_spain
+		}
+		
+		available = {
+			SPR = {
+				has_country_flag = spanish_cw_won
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 	
 	
 	focus = {
 		id = BOR_focus_north
 		icon = unknown
-		x = 25
+		x = 30
 		y = 1
 		cost = 10
 		

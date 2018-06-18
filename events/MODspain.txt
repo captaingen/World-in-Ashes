@@ -47,13 +47,13 @@ country_event = {
 		hidden_effect = {
 			
 			SPK = {
-				load_oob = "SPK_civilwar"
+				load_oob = SPK_civilwar
 			}
 			SPA = {
-				load_oob = "SPA_civilwar"
+				load_oob = SPA_civilwar
 			}
 			SPR = {
-				load_oob = "SPR_civilwar"
+				load_oob = SPR_civilwar
 			}
 			
 			
@@ -142,14 +142,14 @@ country_event = {
 			
 			
 			
+			SPK = {
+				load_oob = SPK_civilwar
+			}
 			SPA = {
-				load_oob = "‏‏SPA_civilwar"
+				load_oob = SPA_civilwar
 			}
 			SPR = {
-				load_oob = "‏‏SPR_civilwar"
-			}
-			SPK = {
-				load_oob = "SPK_civilwar"
+				load_oob = SPR_civilwar
 			}
 		
 			SPA = {
@@ -234,14 +234,14 @@ country_event = {
 		hidden_effect = {
 
 		
-			SPR = {
-				load_oob = "SPR_civilwar"
-			}
 			SPK = {
-				load_oob = "SPK_civilwar"
+				load_oob = SPK_civilwar
 			}
 			SPA = {
-				load_oob = "SPA_civilwar"
+				load_oob = SPA_civilwar
+			}
+			SPR = {
+				load_oob = SPR_civilwar
 			}
 			
 		

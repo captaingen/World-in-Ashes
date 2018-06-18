@@ -73,4 +73,8 @@ spriteTypes = {
 		name = "GFX_focus_BOR_unorganized_planes"
 		textureFile = "gfx/interface/goals/BOR/BOR_unorganized_planes.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_rebuild_1"
+		textureFile = "gfx/interface/goals/rebuild_1.dds"
+	}
 }
