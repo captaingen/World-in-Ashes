@@ -1,0 +1,29 @@
+﻿division_template = {
+	name = "Furqat Almasha"				
+	regiments = {
+		irregulars = { x = 0 y = 0 }
+		irregulars = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Furqat Alqabeelah"				
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+division= {	
+		name = "Hesn Dakkar"
+		location = 4948
+		division_template = "Furqat Almasha"
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "Qabeelat Dakkar"
+		location = 5034
+		division_template = "Furqat Alqabeela"
+		start_experience_factor = 0.3
+	}
+}
