@@ -1880,4 +1880,29 @@ focus_tree = {
 		}
 	}
 	
+	
+	
+	focus = {
+		id = BOR_lost_land_up_north
+		icon = unknown
+		x = 34
+		y = 3
+		cost = 3.7
+		
+		prerequisite = {
+			focus = BOR_focus_north
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 }
