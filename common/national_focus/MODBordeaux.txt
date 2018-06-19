@@ -1905,4 +1905,62 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = BOR_military_approach
+		icon = unknown
+		x = 34
+		y = 4
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_focus_north
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_diplomatic_approach
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	
+	
+	
+	focus = {
+		id = BOR_diplomatic_approach
+		icon = unknown
+		x = 40
+		y = 4
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_focus_north
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_military_approach
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 }
