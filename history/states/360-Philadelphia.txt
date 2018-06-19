@@ -10,7 +10,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 3
+			industrial_complex = 8
 			dockyard = 7
 			air_base = 2
 			6845 = {
@@ -29,7 +29,7 @@ state={
 	provinces={
 		891 894 3824 3897 6845 6869 9820 11785 11799 
 	}
-	manpower=2831346
+	manpower=4298362
 	buildings_max_level_factor=1.000
-	state_category=very_dense
+	state_category=highly_dense
 }

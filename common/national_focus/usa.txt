@@ -23,16 +23,13 @@ focus_tree = {
 		}
 		
 		bypass = {
-			OR = {
-				has_country_flag = skip_election
-				date > 1936.5.1
-			}
 		}
 		
 		mutually_exclusive = {
+			focus = USA_postpone_the_election
 		}			
 		
-		x = 7
+		x = 6
 		y = 0
 		
 		cost = 10
@@ -45,7 +42,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_stability = 0.05
+			add_stability = 0.10
 			add_war_support = -0.05
 			country_event = { days = 0 id = modusa.100 }
 			hidden_effect = {
@@ -56,12 +53,48 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = USA_postpone_the_election
+		icon = GFX_focus_generic_support_the_left_right
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+			focus = USA_1936_election
+		}			
+		
+		x = 8
+		y = 0
+		
+		cost = 10
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			#country_event = { days = 0 id = modusa.100 }
+			hidden_effect = {
+				country_event = { days = 416 id = modusa.101 }
+				country_event = { days = 452 id = modusa.102 }
+			}
+			
+		}
+	}
+	
 	##Republicans##
 
 	focus = {
 		id = USA_republican_primary
 		icon = GFX_focus_USA_republican_primary
-		prerequisite = { focus = USA_1936_election}
+		prerequisite = { focus = USA_1936_election focus = USA_postpone_the_election}
 
 		available = {
 			always = no
@@ -495,7 +528,7 @@ focus_tree = {
 	focus = {
 		id = USA_democratic_primary
 		icon = GFX_focus_USA_democratic_primary
-		prerequisite = { focus = USA_1936_election}
+		prerequisite = { focus = USA_1936_election focus = USA_postpone_the_election}
 
 		available = {
 			always = no
