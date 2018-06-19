@@ -77,4 +77,12 @@ spriteTypes = {
 		name = "GFX_focus_rebuild_1"
 		textureFile = "gfx/interface/goals/rebuild_1.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_USA_save_the_republic"
+		textureFile = "gfx/interface/goals/focus_save_the_republic.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_USA_second_civil_war"
+		textureFile = "gfx/interface/goals/focus_USA_second_civil_war.dds"			
+	}
 }
