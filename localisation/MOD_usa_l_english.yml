@@ -31,6 +31,9 @@
    USA_share_our_wealth:0 "Share Our Wealth"
    USA_stabilize_the_economy:0 "Stabilize the Economy"
    USA_civil_war_avoided:0 "Civil War Avoided"
+   USA_second_american_civil_war:0 "Second American Civil War"
+   USA_save_america:0 "Save America!"
+   USA_save_the_republic:0 "Save the Republic!"
  #Custom Tooltips
   USA_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
  #Localized country Flags

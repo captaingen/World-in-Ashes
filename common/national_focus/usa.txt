@@ -58,6 +58,7 @@ focus_tree = {
 		icon = GFX_focus_generic_support_the_left_right
 
 		available = {
+			always = no
 		}
 		
 		bypass = {
@@ -70,7 +71,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 10
+		cost = 0
 		
 		#ai_will_do = {
 		#	factor = 1
@@ -80,12 +81,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			#country_event = { days = 0 id = modusa.100 }
-			hidden_effect = {
-				country_event = { days = 416 id = modusa.101 }
-				country_event = { days = 452 id = modusa.102 }
-			}
-			
 		}
 	}
 	
@@ -1111,6 +1106,102 @@ focus_tree = {
 				socialism_tamed
 				ease_the_tensions
 			}
+		}
+	}
+	
+	##CIVIL WAR >:D
+	
+	focus = {
+		id = USA_second_american_civil_war
+		icon = GFX_focus_USA_second_civil_war
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 20
+		y = 0
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_save_america
+		icon = GFX_focus_USA_save_america
+		prerequisite = { focus = USA_second_american_civil_war}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+			focus = USA_save_the_republic
+		}			
+		
+		x = 18
+		y = 1
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_save_the_republic
+		icon = GFX_focus_USA_save_the_republic
+		prerequisite = { focus = USA_second_american_civil_war}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+			focus = USA_save_america
+		}			
+		
+		x = 22
+		y = 1
+		
+		cost = 0
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
 		}
 	}
 }
