@@ -1719,7 +1719,7 @@ focus_tree = {
 	focus = {
 		id = BOR_hungry_population
 		icon = unknown
-		x = 34
+		x = 32
 		y = 3
 		cost = 0.2
 		
@@ -1913,7 +1913,7 @@ focus_tree = {
 		cost = 2
 		
 		prerequisite = {
-			focus = BOR_focus_north
+			focus = BOR_lost_land_up_north
 		}
 		
 		mutually_exclusive = {
@@ -1925,6 +1925,199 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 3
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_the_nancy_line
+		icon = unknown
+		x = 34
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_military_approach
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_slow_planning
+		icon = unknown
+		x = 34
+		y = 6
+		cost = 15
+		
+		prerequisite = {
+			focus = BOR_the_nancy_line
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_faster_planning
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_train_a_worthy_army
+		icon = unknown
+		x = 34
+		y = 7
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_slow_planning
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_train_the_officers
+		icon = unknown
+		x = 34
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_train_a_worthy_army
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_alsace
+		icon = unknown
+		x = 35
+		y = 9
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_train_the_officers
+			focus = BOR_prepare_troops
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_faster_planning
+		icon = unknown
+		x = 36
+		y = 6
+		cost = 7
+		
+		prerequisite = {
+			focus = BOR_the_nancy_line
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_slow_planning
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_prepare_troops
+		icon = unknown
+		x = 36
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_faster_planning
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = { #attack germany
+		id = BOR_operation_fallen_empire
+		icon = unknown
+		x = 35
+		y = 10
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_alsace
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
 		}
 		
 		completion_reward = {
@@ -1944,7 +2137,7 @@ focus_tree = {
 		cost = 2
 		
 		prerequisite = {
-			focus = BOR_focus_north
+			focus = BOR_lost_land_up_north
 		}
 		
 		mutually_exclusive = {
