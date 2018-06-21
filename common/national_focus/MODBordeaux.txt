@@ -2090,6 +2090,9 @@ focus_tree = {
 		prerequisite = {
 			focus = BOR_faster_planning
 		}
+		prerequisite = {
+			focus = BOR_start_operation_benelux
+		}
 		
 		available = {
 		}
@@ -2108,7 +2111,7 @@ focus_tree = {
 		icon = unknown
 		x = 35
 		y = 10
-		cost = 5
+		cost = 7
 		
 		prerequisite = {
 			focus = BOR_alsace
@@ -2133,7 +2136,7 @@ focus_tree = {
 	focus = {
 		id = BOR_diplomatic_approach
 		icon = unknown
-		x = 40
+		x = 42
 		y = 4
 		cost = 2
 		
@@ -2146,6 +2149,135 @@ focus_tree = {
 		}
 		
 		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_benelux
+		icon = unknown
+		x = 39
+		y = 5
+		cost = 1.5
+		
+		prerequisite = {
+			focus = BOR_diplomatic_approach
+			focus = BOR_military_approach
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_around_the_rhine
+		icon = unknown
+		x = 38
+		y = 6
+		cost = 1.5
+		
+		prerequisite = {
+			focus = BOR_benelux
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_brussels_summit
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_start_operation_benelux
+		icon = unknown
+		x = 38
+		y = 7
+		cost = 1.5
+		
+		prerequisite = {
+			focus = BOR_around_the_rhine
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	
+	
+	
+	focus = {
+		id = BOR_brussels_summit
+		icon = unknown
+		x = 40
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_benelux
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_around_the_rhine
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_invite_to_union
+		icon = unknown
+		x = 40
+		y = 7
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_brussels_summit
+		}
+		
+		available = {
+			has_completed_focus = BOR_form_union
 		}
 		
 		ai_will_do = {
