@@ -2017,6 +2017,7 @@ focus_tree = {
 		}
 		
 		available = {
+		
 		}
 		
 		ai_will_do = {
