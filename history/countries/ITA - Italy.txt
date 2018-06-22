@@ -55,11 +55,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 18
 		}
 
 		fascism = {
-			popularity = 3
+			popularity = 5
 		}
 		
 		neutrality = {
@@ -77,10 +77,10 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
-	expire = "1965.1.1"
+	name = "Rodolfo Graziani"
+	desc = ""
+	picture = "gfx/leaders/NAP/graziani.tga"
+	expire = "1955.1.11"
 	ideology = fascism_ideology
 	traits = {
 		
@@ -88,7 +88,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Victor Emmanuel"
+	name = "Victor Emmanuel III"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "gfx/leaders/ITA/victor.tga"
 	expire = "1947.12.28"

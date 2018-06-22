@@ -27,7 +27,7 @@ division= {
 	}
 
 division= {	
-		name = "Alquwwat Alkuwaitiyya"
+		name = "Quwwat Alkuwaitiyya"
 		location = 8085
 		division_template = "Militia"
 		start_experience_factor = 0.3

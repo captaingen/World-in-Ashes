@@ -25,9 +25,6 @@ set_technology = {
 	interwar_antiair = 1
 	gwtank = 1
 	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
@@ -61,11 +58,11 @@ set_politics = {
 		}
 		
 		socialism = { 
-			popularity = 20
+			popularity = 10
 		}
 		
 		fascism = { 
-			popularity = 70
+			popularity = 80
 		}
 
 		neutrality = {
