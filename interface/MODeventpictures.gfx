@@ -48,6 +48,11 @@ spriteTypes = {
 		name = "GFX_wia"
 		texturefile = "gfx/event_pictures/wia.dds"
 	}
+
+	spriteType = {
+		name = "GFX_WIF_Intro"
+		texturefile = "gfx/event_pictures/GFX_WIF_Intro"
+	}
 }
 	
 	

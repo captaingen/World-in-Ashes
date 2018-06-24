@@ -113,3 +113,21 @@ country_event = {
     }
 }
 
+country_event = {
+    id = wif.4
+    title = wif.4.t
+    desc = wif.4.d
+    picture = GFX_WIF_Intro
+    fire_only_once = yes
+    is_trigered_only = yes
+
+    trigger = {
+        tag = WIF
+    }
+
+
+    option = {
+        name = wif.4.a
+    }
+}
+
