@@ -34,6 +34,23 @@
    USA_second_american_civil_war:0 "Second American Civil War"
    USA_save_america:0 "Save America!"
    USA_save_the_republic:0 "Save the Republic!"
+   USA_communist_crackdowns:0 "Communist Crackdowns"
+   USA_war_propaganda_2:0 "War Propaganda"
+   USA_fight_against_tyranny:0 "Fight Against Tyranny"
+   USA_allied_support:0 "Allied Support"
+   USA_call_upon_the_national_guard:0 "Call upon the National Guard"`
+   USA_defense_of_washington:0 "Defense of Washington"
+   USA_fortify_the_ohio:0 "Fortify the Ohio"
+   USA_western_industry:0 "Western Industry"
+   USA_expand_the_transcontinental_railroads:0 "Expand the Trans - Continental Railroads"
+   USA_tank_production:0 "Tank Production"
+   USA_southern_will:0 "Southern Will"
+   USA_eastern_manpower:0 "Eastern Manpower"
+   USA_reinstate_the_anaconda_plan:0 "Reinstate the Anaconda Plan"
+   USA_naval_blockade:0 "Naval Blockade"
+   USA_marine_raids:0 "Marine Raids"
+   USA_blockade_by_air:0 "Blockade by Air"
+   USA_logistics_bombing:0 "Logistics Bombing"
  #Custom Tooltips
   USA_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
  #Localized country Flags

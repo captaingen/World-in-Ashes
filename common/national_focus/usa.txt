@@ -1174,6 +1174,66 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = USA_communist_crackdowns
+		icon = GFX_goal_anti_comintern_pact
+		prerequisite = { focus = USA_save_america}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 18
+		y = 2
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_war_propaganda_2
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = USA_communist_crackdowns}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 18
+		y = 3
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = USA_save_the_republic
 		icon = GFX_focus_USA_save_the_republic
 		prerequisite = { focus = USA_second_american_civil_war}
@@ -1204,4 +1264,456 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+	focus = {
+		id = USA_fight_against_tyranny
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = USA_save_the_republic}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 22
+		y = 2
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_allied_support
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = USA_fight_against_tyranny}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 22
+		y = 3
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_call_upon_the_national_guard
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = USA_save_america focus = USA_save_the_republic}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 20
+		y = 2
+		
+		cost = 2.2
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_defense_of_washington
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = USA_call_upon_the_national_guard}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 20
+		y = 3
+		
+		cost = 1.5
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_fortify_the_ohio
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = USA_defense_of_washington}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 20
+		y = 4
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_western_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = USA_defense_of_washington}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 18
+		y = 4
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = USA_expand_the_transcontinental_railroads
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = USA_western_industry}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 17
+		y = 5
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_tank_production
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = USA_expand_the_transcontinental_railroads}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 17
+		y = 6
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_southern_will
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = USA_western_industry}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 19
+		y = 5
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_eastern_manpower
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = USA_southern_will}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 19
+		y = 6
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_reinstate_the_anaconda_plan
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = USA_defense_of_washington}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 22
+		y = 4
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_naval_blockade
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = USA_reinstate_the_anaconda_plan}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 21
+		y = 5
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_marine_raids
+		icon = GFX_focus_prc_infiltration
+		prerequisite = { focus = USA_naval_blockade}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 21
+		y = 6
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_blockade_by_air
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = USA_reinstate_the_anaconda_plan}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 23
+		y = 5
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_logistics_bombing
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = USA_blockade_by_air}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		mutually_exclusive = {
+		}			
+		
+		x = 23
+		y = 6
+		
+		cost = 4.3
+		
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
 }
