@@ -862,3 +862,8 @@ SSA = {
 	color = rgb { 226  54  71 }
 	color_ui = rgb { 226  54  71 }
 }
+
+SIN = {
+	color = rgb { 99  99  99 }
+	color_ui = rgb { 99  99  99 }
+}

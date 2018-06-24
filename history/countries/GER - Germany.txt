@@ -57,7 +57,11 @@ set_war_support = 0.9
 #puppets
 set_autonomy = {
 	target = INS
-	autonomous_state = autonomy_puppet
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = SIN
+	autonomous_state = autonomy_colony
 }
 
 #Trade
