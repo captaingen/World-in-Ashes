@@ -2289,4 +2289,220 @@ focus_tree = {
 		}
 	}
 	
+	
+	focus = {
+		id = BOR_reichstag_visit
+		icon = unknown
+		x = 42
+		y = 5
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_diplomatic_approach
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_negotiate_deal_GER
+		icon = unknown
+		x = 42
+		y = 6
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_reichstag_visit
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_germans_accept
+		icon = unknown
+		x = 42
+		y = 7
+		cost = 3.5
+		
+		prerequisite = {
+			focus = BOR_negotiate_deal_GER
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_germans_deny
+		}
+		
+		available = {
+			has_country_flag = GER_accepted_negotiations_BOR
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_dmz_alsace
+		icon = unknown
+		x = 42
+		y = 8
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_germans_accept
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_no_dmz_alsace
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = { #will start event chain germans angered
+		id = BOR_no_dmz_alsace
+		icon = unknown
+		x = 44
+		y = 8
+		cost = 5
+		
+		prerequisite = {
+			focus = BOR_germans_accept
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_dmz_alsace
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_complete_alsace_transition
+		icon = unknown
+		x = 43
+		y = 9
+		cost = 15
+		
+		prerequisite = {
+			focus = BOR_no_dmz_alsace
+		}
+		prerequisite = {
+			focus = BOR_dmz_alsace
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	focus = {
+		id = BOR_germans_deny
+		icon = unknown
+		x = 46
+		y = 7
+		cost = 2
+		
+		prerequisite = {
+			focus = BOR_negotiate_deal_GER
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_germans_accept
+		}
+		
+		available = {
+			has_country_flag = GER_denied_negotiations_BOR
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			declare_war_on = {
+				target = GER
+				generator = { 28 }
+			}
+		}
+	}
+	
+	focus = {
+		id = BOR_take_by_force
+		icon = unknown
+		x = 46
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_germans_deny
+		}
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 }
