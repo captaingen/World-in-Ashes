@@ -396,13 +396,13 @@ air_wings = {
 		# Groupement de Chasse 23
 		fighter_equipment_0 = {
 			owner = "FRA" 
-			amount = 90
+			amount = 80
 		}
 		# Groupement de Bombardment 6
 		# Groupement de Bombardment 9
 		tac_bomber_equipment_1 =  {
 			owner = "FRA" 
-			amount = 50
+			amount = 42
 		}
 	}
 
@@ -410,7 +410,7 @@ air_wings = {
 	17 = {
 		fighter_equipment_1 = {
 			owner = "FRA" 
-			amount = 50
+			amount = 85
 			creator = "GER"
 		}
 	}
@@ -420,7 +420,7 @@ air_wings = {
 		# Flotille F1
 		nav_bomber_equipment_1 = {
 			owner = "FRA" 
-			amount = 10
+			amount = 13
 		}
 	}
 }
