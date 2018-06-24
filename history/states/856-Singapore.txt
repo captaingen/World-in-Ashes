@@ -1,0 +1,36 @@
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		12113 12299 
+	}
+	resources={
+		rubber=159.000
+		steel=20.000
+		tungsten=80.000
+	}
+	
+	history={
+		owner = SIA
+		victory_points = {
+			12299 12 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+
+		}
+		add_core_of = SIA
+
+	}
+	
+	manpower=1689532
+	buildings_max_level_factor=1.000
+	state_category=slightly_sparse
+}
