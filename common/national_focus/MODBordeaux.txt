@@ -687,6 +687,29 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = BOR_join_america
+		icon = unknown
+		x = 27
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_end_civil_war
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
 		id = BOR_italian_war
 		icon = unknown
 		x = 18
@@ -2527,6 +2550,186 @@ focus_tree = {
 				target = GER
 				generator = { 28 }
 			}
+		}
+	}
+	
+	
+	
+	focus = {
+		id = BOR_colonial_empire
+		icon = unknown
+		x = 46
+		y = 0
+		cost = 10
+		
+		prerequisite = {
+			
+		}
+		
+		available = {
+			has_completed_focus = BOR_cultural_integration
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BOR_algerian_question
+		icon = unknown
+		x = 44
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_colonial_empire
+		}
+		
+		available = {
+			country_exists = ALG
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	focus = { 
+		id = BOR_moroccon_question
+		icon = unknown
+		x = 46
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_colonial_empire
+		}
+		
+		available = {
+			country_exists = MRC
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = { 
+		id = BOR_african_tribes
+		icon = unknown
+		x = 48
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_colonial_empire
+		}
+		
+		available = {
+			has_completed_focus = BOR_bordeaux_conference
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = { 
+		id = BOR_subjugation
+		icon = unknown
+		x = 47
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_african_tribes
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_attack_tribes
+		}
+		
+		available = {
+			#we need to add something here
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = { 
+		id = BOR_attack_tribes
+		icon = unknown
+		x = 49
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+			focus = BOR_african_tribes
+		}
+		
+		mutually_exclusive = {
+			focus = BOR_subjugation
+		}
+		
+		available = {
+			#we need to add something here
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	focus = { 
+		id = BOR_armee_nationale
+		icon = unknown
+		x = 52
+		y = 0
+		cost = 10
+		
+		prerequisite = {
+			
+		}
+		
+		available = {
+			has_country_flag = french_civil_war_over
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
 		}
 	}
 	

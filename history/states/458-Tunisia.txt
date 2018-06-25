@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = CAR
+		owner = ALG
 		victory_points = {
 			11969 10 
 		}
