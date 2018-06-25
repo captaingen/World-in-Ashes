@@ -1200,6 +1200,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_stability = 0.15
 		}
 	}
 	
@@ -1230,6 +1231,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_war_support = 0.15
 		}
 	}
 	
@@ -1322,6 +1324,9 @@ focus_tree = {
 
 
 		completion_reward = {
+			CAN = {
+				remove_ideas = canadian_isolationism
+			}
 		}
 	}
 	
@@ -1382,6 +1387,7 @@ focus_tree = {
 
 
 		completion_reward = {
+			361 = { add_building_construction = { type = bunker province = 3957 level = 6 instant_build = yes } }
 		}
 	}
 	
@@ -1391,6 +1397,11 @@ focus_tree = {
 		prerequisite = { focus = USA_defense_of_washington}
 
 		available = {
+			OR = {
+				controls_state = 819
+				controls_state = 362
+				controls_state = 369
+			}
 		}
 		
 		bypass = {
@@ -1412,6 +1423,47 @@ focus_tree = {
 
 
 		completion_reward = {
+			if = {
+				limit = {
+					controls_state = 819 #Pennsylvania
+				}
+				hidden_effect = {
+					819 = { add_building_construction = { type = bunker province = 3802 level = 3 instant_build = yes } }
+					819 = { add_building_construction = { type = bunker province = 3880 level = 3 instant_build = yes } }
+					819 = { add_building_construction = { type = bunker province = 6899 level = 3 instant_build = yes } }
+					819 = { add_building_construction = { type = bunker province = 880 level = 3 instant_build = yes } }
+					819 = { add_building_construction = { type = bunker province = 11789 level = 3 instant_build = yes } }
+					362 = { add_building_construction = { type = bunker province = 6850 level = 3 instant_build = yes } }
+				}
+				custom_effect_tooltip = USA_pennsylvania_forts_tooltip
+			}
+			if = {
+				limit = {
+					controls_state = 362 #Virginia
+				}
+				hidden_effect = {
+					362 = { add_building_construction = { type = bunker province = 801 level = 3 instant_build = yes } }
+					362 = { add_building_construction = { type = bunker province = 3975 level = 3 instant_build = yes } }
+					362 = { add_building_construction = { type = bunker province = 10441 level = 3 instant_build = yes } }
+					362 = { add_building_construction = { type = bunker province = 6971 level = 3 instant_build = yes } }
+				}
+				custom_effect_tooltip = USA_virginia_forts_tooltip
+			}
+			if = {
+				limit = {
+					controls_state = 369 #Kentucky
+				}
+				hidden_effect = {
+					369 = { add_building_construction = { type = bunker province = 7547 level = 3 instant_build = yes } }
+					369 = { add_building_construction = { type = bunker province = 4452 level = 3 instant_build = yes } }
+					369 = { add_building_construction = { type = bunker province = 1445 level = 3 instant_build = yes } }
+					369 = { add_building_construction = { type = bunker province = 6696 level = 3 instant_build = yes } }
+					369 = { add_building_construction = { type = bunker province = 10727 level = 3 instant_build = yes } }
+					369 = { add_building_construction = { type = bunker province = 4402 level = 3 instant_build = yes } }
+					369 = { add_building_construction = { type = bunker province = 10586 level = 3 instant_build = yes } }
+				}
+				custom_effect_tooltip = USA_kentucky_forts_tooltip
+			}
 		}
 	}
 	
@@ -1421,6 +1473,12 @@ focus_tree = {
 		prerequisite = { focus = USA_defense_of_washington}
 
 		available = {
+			OR = {
+				controls_state = 851
+				controls_state = 378
+				controls_state = 385
+				controls_state = 386
+			}
 		}
 		
 		bypass = {
@@ -1442,6 +1500,58 @@ focus_tree = {
 
 
 		completion_reward = {
+			if = {
+				limit = {
+					controls_state = 851
+				}
+				851 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 378
+				}
+				378 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 385
+				}
+				385 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 386
+				}
+				386 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	
@@ -1452,6 +1562,25 @@ focus_tree = {
 		prerequisite = { focus = USA_western_industry}
 
 		available = {
+			OR = {
+				controls_state = 852
+				controls_state = 377
+				controls_state = 376
+				controls_state = 375
+				controls_state = 853
+				controls_state = 385
+				controls_state = 387
+				controls_state = 379
+				controls_state = 380
+				controls_state = 381
+				controls_state = 384
+				controls_state = 383
+				controls_state = 373
+				controls_state = 386
+				controls_state = 388
+				controls_state = 389
+				controls_state = 391
+			}
 		}
 		
 		bypass = {
@@ -1473,6 +1602,210 @@ focus_tree = {
 
 
 		completion_reward = {
+			if = {
+				limit = {
+					controls_state = 852
+				}
+				852 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 377
+				}
+				377 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 376
+				}
+				376 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 375
+				}
+				375 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 853
+				}
+				853 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 385
+				}
+				385 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 387
+				}
+				387 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 379
+				}
+				379 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 380
+				}
+				380 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 381
+				}
+				381 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 384
+				}
+				384 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 383
+				}
+				383 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 373
+				}
+				373 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 386
+				}
+				386 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 388
+				}
+				388 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 389
+				}
+				389 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 391
+				}
+				391 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	

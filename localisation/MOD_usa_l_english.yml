@@ -53,6 +53,9 @@
    USA_logistics_bombing:0 "Logistics Bombing"
  #Custom Tooltips
   USA_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
+  USA_pennsylvania_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to five provinces in §YPennsylvania§! and to one province in §YVirginia§!\n"
+  USA_virginia_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to four provinces in §YVirginia§!\n"
+  USA_kentucky_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to seven provinces in §YKentucky§!"
  #Localized country Flags
   republican_primary:0 "Republican Primary has Occured"
   democratic_primary:0 "Democratic Primary has Occured"
