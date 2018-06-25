@@ -7,6 +7,10 @@ on_actions = {
 			FRA = {
 				country_event = nasi.0
 			}
+
+			WIF = {
+				country_event = wif.4
+			}
 		}
 	}
 	on_new_term_election = {
