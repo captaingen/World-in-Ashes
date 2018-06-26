@@ -15,7 +15,7 @@ ideas = {
 			picture = SPA_crisis
 			
 			modifier = {
-				consumer_goods_factor = 5.0
+				consumer_goods_factor = 0.5
 				fascism_drift = 0.05
 				neutrality_drift = 0.05
 			}

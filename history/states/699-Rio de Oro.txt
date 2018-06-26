@@ -7,6 +7,7 @@ state={
 
 	history={
 		owner = SPR
+		add_core_of = MRC
 		buildings = {
 			infrastructure = 1
 			8038 = {

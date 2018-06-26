@@ -867,3 +867,8 @@ SIN = {
 	color = rgb { 99  99  99 }
 	color_ui = rgb { 99  99  99 }
 }
+
+MRC = {
+	color = rgb { 150  148  115 }
+	color_ui = rgb { 150  148  115 }
+}
