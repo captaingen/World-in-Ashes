@@ -41,7 +41,7 @@ focus_tree = {
 	
 	focus = {
 		id = BOR_fortify_capital
-		icon = unknown
+		icon = GFX_goal_generic_fortify_city
 		x = 1
 		y = 1
 		cost = 5
