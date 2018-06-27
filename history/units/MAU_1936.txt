@@ -1,8 +1,8 @@
 ﻿division_template = {
 	name = "Furqat Almasha"				
 	regiments = {
-		irregulars = { x = 0 y = 0 }
-		irregulars = { x = 0 y = 1 }
+		irregular = { x = 0 y = 0 }
+		irregular = { x = 0 y = 1 }
 	}
 }
 
@@ -23,7 +23,7 @@ division= {
 	division= {	
 		name = "Qabeelat Dakkar"
 		location = 5034
-		division_template = "Furqat Alqabeela"
+		division_template = "Furqat Alqabeelah"
 		start_experience_factor = 0.3
 	}
 }

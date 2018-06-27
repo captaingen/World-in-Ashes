@@ -2733,4 +2733,33 @@ focus_tree = {
 		}
 	}
 	
+	
+	
+	
+	
+	
+	focus = { 
+		id = BOR_industrie_francaise
+		icon = unknown
+		x = 60
+		y = 0
+		cost = 10
+		
+		prerequisite = {
+			
+		}
+		
+		available = {
+			has_country_flag = french_civil_war_over
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 }

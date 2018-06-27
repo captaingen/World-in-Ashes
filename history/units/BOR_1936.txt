@@ -259,14 +259,12 @@ units = {
 		location = 11576
 		division_template = "Division Légère Mécanique" 	
 		start_experience_factor = 0.2
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "USA" } }
 	}
 	division= {	
 		name = "4ème Division Légère Mécanique"
 		location = 6613
 		division_template = "Division Légère Mécanique" 	
 		start_experience_factor = 0.2
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "USA" } }
 	}
 	
 	# 4ème Corps de Patrouille -- Patrouille Americaine
@@ -377,16 +375,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.1
 		efficiency = 25
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = light_ammo_eq
-			creator = "BOR" 
-		}
-		requested_factories = 2
-		progress = 0.3
-		efficiency = 50
 	}
 }
 	

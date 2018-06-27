@@ -1,4 +1,4 @@
-﻿capital = 840
+﻿capital = 847
 
 oob = "MOS_1936"
 
