@@ -356,7 +356,7 @@ focus_tree = {
 	####Not going to war
 	focus = {
 		id = BOR_peace_talks
-		icon = unknown
+		icon = GFX_focus_peace_talks
 		x = 11
 		y = 0
 		cost = 2.9
