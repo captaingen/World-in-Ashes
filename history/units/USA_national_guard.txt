@@ -1,0 +1,272 @@
+﻿##### Division Template #####
+division_template = {
+	name = "National Guard"  	# Militia Division
+	is_locked = yes
+
+	division_names_group = USA_INF_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	priority = 0
+}
+
+###### OOB ######
+units = {
+	### Midwest, Northeast ###
+	
+	#New England#
+	division = {			
+		name = "Vermont National Guard"
+		location = 4445 #Montpellier
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "New Hampshire National Guard"
+		location = 3712 #Concord
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Maine National Guard"
+		location = 12459 #Bangor
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#Pennsylvania, Virginia and Maryland#
+	division = {			
+		name = "Deleware National Guard"
+		location = 9786 #Dover
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Maryland National Guard"
+		location = 6986 #Baltimore
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Washington DC National Guard"
+		location = 12459 #Washinton DC
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Pennsylvania National Guard"
+		location = 12405 #Altoona
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Virginia National Guard"
+		location = 788 #Norfolk
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "West Virginia National Guard"
+		location = 7588 #Charleston
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#Midwest#
+	division = {			
+		name = "Kentucky National Guard"
+		location = 6696 #Louisville
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Ohio National Guard"
+		location = 4601 #Cincinnati
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Indiana National Guard"
+		location = 1595 #Indianapolis
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Illinois National Guard"
+		location = 12697 #Springfield
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#Midwest but west of the Mississippi#
+	division = {			
+		name = "Missouri National Guard"
+		location = 4569 #St. Louis
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Iowa National Guard"
+		location = 7306 #Cedar Rapids
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Minnesota National Guard"
+		location = 1866 #Minneapolis
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	
+	### South ###
+	
+	#East of the Appalachians#
+	division = {			
+		name = "North Carolina National Guard"
+		location = 7138 #Charlotte
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "South Carolina National Guard"
+		location = 7202 #Charleston
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}'
+	division = {			
+		name = "1st Georgia National Guard"
+		location = 12384 #Atlanta
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "2nd Georgia National Guard"
+		location = 11975 #Savannah
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Florida National Guard"
+		location = 12381 #Jacksonville
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#West of the Appalachians#
+	division = {			
+		name = "Tennessee National Guard"
+		location = 12501 #Nashville
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Alabama National Guard"
+		location = 12735 #Birmingham
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Mississippi National Guard"
+		location = 4565 #Jackson
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Louisiana National Guard"
+		location = 7552 #New Orleans
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#West of the Mississippi
+	division = {			
+		name = "Arkansas National Guard"
+		location = 12489 #Little Rock
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "1st Texas National Guard"
+		location = 3960 #Dallas
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "2nd Texas National Guard"
+		location = 10337 #Houston
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	### Western Half of the US ###
+	
+	#Great Plains#
+	division = {			
+		name = "Kansas National Guard"
+		location = 1352 #Topeka
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Nebraska National Guard"
+		location = 12586 #Omaha
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Dakotas National Guard"
+		location = 1836 #Bismark
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#Mountains
+	division = {			
+		name = "Colarado National Guard"
+		location = 1827 #Denver
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Northern National Guard"
+		location = 10556 #Boise
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Southwestern National Guard"
+		location = 853 #Phoenix
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	#Pacific
+	division = {			
+		name = "1st California National Guard"
+		location = 9814 #Los Angeles
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "2nd California National Guard"
+		location = 9617 #San Fransisco
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "Washington National Guard"
+		location = 7315 #Seattle
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+
+}
+#####################

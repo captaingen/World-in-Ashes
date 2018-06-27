@@ -32,7 +32,7 @@
    USA_stabilize_the_economy:0 "Stabilize the Economy"
    USA_civil_war_avoided:0 "Civil War Avoided"
    USA_second_american_civil_war:0 "Second American Civil War"
-   USA_save_america:0 "Save America!"
+   USA_save_america:0 "Save the USA!"
    USA_save_the_republic:0 "Save the Republic!"
    USA_communist_crackdowns:0 "Communist Crackdowns"
    USA_war_propaganda_2:0 "War Propaganda"
@@ -56,6 +56,7 @@
   USA_pennsylvania_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to five provinces in §YPennsylvania§! and to one province in §YVirginia§!\n"
   USA_virginia_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to four provinces in §YVirginia§!\n"
   USA_kentucky_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to seven provinces in §YKentucky§!"
+  USA_national_guard_tooltip:0 "Places §Y36 National Guard Divisions§! in certain locations around the United States"
  #Localized country Flags
   republican_primary:0 "Republican Primary has Occured"
   democratic_primary:0 "Democratic Primary has Occured"

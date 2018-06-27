@@ -1357,6 +1357,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			hidden_effect = {
+				load_oob = "USA_national_guard"
+			}
+			custom_effect_tooltip = USA_national_guard_tooltip
 		}
 	}
 	
