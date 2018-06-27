@@ -257,7 +257,7 @@ units = {
 	}
 	division = {			
 		name = "2nd California National Guard"
-		location = 9617 #San Fransisco
+		location = 9671 #San Fransisco
 		division_template = "National Guard"
 		start_experience_factor = 0.1
 	}
