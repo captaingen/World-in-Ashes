@@ -19,15 +19,11 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			12384 10 
+			12384 20 
 		}
-
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
+		victory_points = {
+			11975 10 
 		}
-
 	}
 
 	provinces={

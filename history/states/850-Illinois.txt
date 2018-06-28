@@ -14,7 +14,9 @@ state={
 
 		}
 		add_core_of = USA
-
+		victory_points = {
+			12697 10
+		}
 	}
 	
 	manpower=3359863

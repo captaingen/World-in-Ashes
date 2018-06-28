@@ -68,7 +68,7 @@ units = {
 	}
 	division = {			
 		name = "Virginia National Guard"
-		location = 788 #Norfolk
+		location = 3823 #Richmond
 		division_template = "National Guard"
 		start_experience_factor = 0.1
 	}

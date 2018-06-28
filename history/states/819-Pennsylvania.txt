@@ -1,6 +1,9 @@
 state={
 	id=819
 	name="STATE_819"
+	resources={
+		steel=22.000
+	}
 	provinces={
 		702 822 847 862 880 3697 3802 3847 3850 3880 6872 6885 6899 9789 9804 9836 11758 11769 11789 11817 12405 
 	}
@@ -13,6 +16,12 @@ state={
 
 		}
 		add_core_of = USA
+		victory_points = {
+			12405 5 
+		}
+		victory_points = {
+			11817 3 
+		}
 
 	}
 	

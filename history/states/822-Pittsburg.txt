@@ -1,6 +1,9 @@
 state={
 	id=822
 	name="STATE_822"
+	resources={
+		steel=12.000
+	}
 	provinces={
 		3687 6705 9662 11648 11800 
 	}
@@ -16,6 +19,9 @@ state={
 		add_core_of = USA
 		victory_points = {
 			11800 15 
+		}
+		victory_points = {
+			3687 3	
 		}
 
 	}

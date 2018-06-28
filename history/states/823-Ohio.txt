@@ -1,6 +1,10 @@
 state={
 	id=823
 	name="STATE_823"
+	resources={
+		steel=28.000
+		aluminium=9.000
+	}
 	provinces={
 		827 831 971 3829 4601 6855 7528 9760 9775 9808 11760 11776 11890 
 	}
@@ -17,7 +21,9 @@ state={
 		victory_points = {
 			6855 5 
 		}
-
+		victory_points = {
+			4601 20
+		}
 	}
 	
 	manpower=2986975

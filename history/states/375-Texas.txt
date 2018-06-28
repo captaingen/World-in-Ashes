@@ -29,15 +29,17 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			10337 10
+			10337 20
 		}
 		victory_points = {
-			3960 10 
+			3960 15
 		}
 		victory_points = {
-			12782 1 
+			12782 10
 		}
-
+		victory_points = {
+			10740 3
+		}
 	}
 
 	provinces={

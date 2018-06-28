@@ -1,6 +1,9 @@
 state={
 	id=851
 	name="STATE_851"
+	resources={
+		oil=20.000
+	}
 	provinces={
 		1562 7517 9814 9855 10483 11757 11795 11859 
 	}
@@ -28,7 +31,7 @@ state={
 			9814 30 
 		}
 		victory_points = {
-			1562 15 
+			1562 10 
 		}
 
 	}

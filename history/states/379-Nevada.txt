@@ -7,8 +7,8 @@ state={
 	state_category = utterly_sparse
 	
 	resources={
-		steel=70 # was: 136
-		tungsten=32 # was: 62
+		steel=50 # was: 136
+		tungsten=30 # was: 62
 		aluminium=25 # was: 44
 	}
 
@@ -18,6 +18,12 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = USA
+		victory_points = {
+			4799 1
+		}
+		victory_points = {
+			4607 2
+		}
 	}
 
 	provinces={

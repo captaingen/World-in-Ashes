@@ -17,10 +17,11 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = USA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
+		victory_points = {
+			1352 1
+		}
+		victory_points = {
+			4740 3
 		}
 	}
 
