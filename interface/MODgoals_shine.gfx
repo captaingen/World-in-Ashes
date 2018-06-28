@@ -68,10 +68,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_election_shine"
-		texturefile = "gfx/interface/goals/focus_USA_election.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_election.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_election.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_election.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -84,7 +84,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_election.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_election.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -100,10 +100,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_republican_primary_shine"
-		texturefile = "gfx/interface/goals/focus_USA_republican_primary.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_republican_primary.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_republican_primary.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_republican_primary.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -116,7 +116,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_republican_primary.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_republican_primary.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -132,10 +132,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_democratic_primary_shine"
-		texturefile = "gfx/interface/goals/focus_USA_democratic_primary.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_democratic_primary.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_democratic_primary.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_democratic_primary.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -148,7 +148,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_democratic_primary.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_democratic_primary.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -164,10 +164,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_USA_thomas_dewey_shine"
-		texturefile = "gfx/interface/goals/focus_USA_thomas_dewey.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_thomas_dewey.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_thomas_dewey.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_thomas_dewey.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -180,7 +180,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_thomas_dewey.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_thomas_dewey.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -196,10 +196,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_james_wadsworth_shine"
-		texturefile = "gfx/interface/goals/focus_USA_james_wadsworth.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_james_wadsworth.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_james_wadsworth.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_james_wadsworth.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -212,7 +212,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_james_wadsworth.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_james_wadsworth.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -228,10 +228,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_franklin_roosevelt_shine"
-		texturefile = "gfx/interface/goals/focus_USA_franklin_roosevelt.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_franklin_roosevelt.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_franklin_roosevelt.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_franklin_roosevelt.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -244,7 +244,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_franklin_roosevelt.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_franklin_roosevelt.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -260,10 +260,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_god_shine"
-		texturefile = "gfx/interface/goals/focus_USA_god.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_god.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_god.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_god.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -276,7 +276,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_god.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_god.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -292,10 +292,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_flag_shine"
-		texturefile = "gfx/interface/goals/focus_USA_flag.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_flag.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_flag.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_flag.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -308,7 +308,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_flag.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_flag.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -324,10 +324,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_clamp_down_on_corruption_shine"
-		texturefile = "gfx/interface/goals/focus_USA_clamp_down_on_corruption.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_clamp_down_on_corruption.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_clamp_down_on_corruption.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_clamp_down_on_corruption.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -340,7 +340,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_clamp_down_on_corruption.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_clamp_down_on_corruption.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -356,10 +356,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_new_deal_shine"
-		texturefile = "gfx/interface/goals/focus_USA_new_deal.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_new_deal.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_new_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_new_deal.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -372,7 +372,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_new_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_new_deal.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -388,10 +388,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_USA_second_new_deal_shine"
-		texturefile = "gfx/interface/goals/focus_USA_second_new_deal.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_second_new_deal.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_second_new_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_second_new_deal.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -404,7 +404,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_second_new_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_second_new_deal.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -420,10 +420,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_better_deal_shine"
-		texturefile = "gfx/interface/goals/focus_USA_better_deal.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_better_deal.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_better_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_better_deal.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -436,7 +436,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_better_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_better_deal.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -612,10 +612,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_second_civil_war_shine"
-		texturefile = "gfx/interface/goals/focus_USA_second_civil_war.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_second_civil_war.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_second_civil_war.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_second_civil_war.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -628,7 +628,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_second_civil_war.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_second_civil_war.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -644,10 +644,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_USA_save_the_republic_shine"
-		texturefile = "gfx/interface/goals/focus_USA_save_the_republic.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_save_the_republic.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_save_the_republic.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_save_the_republic.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -660,7 +660,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_save_the_republic.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_save_the_republic.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -676,10 +676,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_USA_save_america_shine"
-		texturefile = "gfx/interface/goals/focus_USA_save_america.dds"			
+		texturefile = "gfx/interface/goals/USA/focus_USA_save_america.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_save_america.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_save_america.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -692,7 +692,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_USA_save_america.dds"			
+			animationmaskfile = "gfx/interface/goals/USA/focus_USA_save_america.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
