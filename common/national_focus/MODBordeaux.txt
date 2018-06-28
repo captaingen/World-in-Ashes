@@ -2711,7 +2711,7 @@ focus_tree = {
 	
 	focus = { 
 		id = BOR_armee_nationale
-		icon = unknown
+		icon = GFX_focus_french_army
 		x = 52
 		y = 0
 		cost = 10
