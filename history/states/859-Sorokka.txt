@@ -1,11 +1,11 @@
 
 state={
-	id=215
-	name="STATE_215"
-	resources={
-		steel=52.000
+	id=859
+	name="STATE_859"
+	provinces={
+		86 94 170 176 3008 3189 6029 9045 9195 11045 
 	}
-
+	
 	history={
 		owner = KAR
 		buildings = {
@@ -15,11 +15,8 @@ state={
 		add_core_of = KAR
 
 	}
-
-	provinces={
-		36 80 134 2998 3067 6096 6098 6175 9074 9119 9198 11054 11096 11146 11181 
-	}
-	manpower=110235
+	
+	manpower=57841
 	buildings_max_level_factor=1.000
 	state_category=extremely_sparse
 }
