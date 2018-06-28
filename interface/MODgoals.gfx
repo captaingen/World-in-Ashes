@@ -6,56 +6,56 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/focus_generic_govt.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_election"
-		textureFile = "gfx/interface/goals/focus_USA_election.dds"			
+		name = "GFX_USA/focus_USA_election"
+		textureFile = "gfx/interface/goals/USA/focus_USA_election.dds"			
 	}	
 	spriteType = {
 		name = "GFX_focus_generic_election"
 		textureFile = "gfx/interface/goals/focus_generic_election.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_republican_primary"
-		textureFile = "gfx/interface/goals/focus_USA_republican_primary.dds"			
+		name = "GFX_USA/focus_USA_republican_primary"
+		textureFile = "gfx/interface/goals/USA/focus_USA_republican_primary.dds"			
 	}	
 	spriteType = {
-		name = "GFX_focus_USA_democratic_primary"
-		textureFile = "gfx/interface/goals/focus_USA_democratic_primary.dds"			
+		name = "GFX_USA/focus_USA_democratic_primary"
+		textureFile = "gfx/interface/goals/USA/focus_USA_democratic_primary.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_james_wadsworth"
-		textureFile = "gfx/interface/goals/focus_USA_james_wadsworth.dds"			
+		name = "GFX_USA/focus_USA_james_wadsworth"
+		textureFile = "gfx/interface/goals/USA/focus_USA_james_wadsworth.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_thomas_dewey"
-		textureFile = "gfx/interface/goals/focus_USA_thomas_dewey.dds"			
+		name = "GFX_USA/focus_USA_thomas_dewey"
+		textureFile = "gfx/interface/goals/USA/focus_USA_thomas_dewey.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_franklin_roosevelt"
-		textureFile = "gfx/interface/goals/focus_USA_franklin_roosevelt.dds"			
+		name = "GFX_USA/focus_USA_franklin_roosevelt"
+		textureFile = "gfx/interface/goals/USA/focus_USA_franklin_roosevelt.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_god"
-		textureFile = "gfx/interface/goals/focus_USA_god.dds"			
+		name = "GFX_USA/focus_USA_god"
+		textureFile = "gfx/interface/goals/USA/focus_USA_god.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_flag"
-		textureFile = "gfx/interface/goals/focus_USA_flag.dds"			
+		name = "GFX_USA/focus_USA_flag"
+		textureFile = "gfx/interface/goals/USA/focus_USA_flag.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_clamp_down_on_corruption"
-		textureFile = "gfx/interface/goals/focus_USA_clamp_down_on_corruption.dds"			
+		name = "GFX_USA/focus_USA_clamp_down_on_corruption"
+		textureFile = "gfx/interface/goals/USA/focus_USA_clamp_down_on_corruption.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_new_deal"
-		textureFile = "gfx/interface/goals/focus_USA_new_deal.dds"			
+		name = "GFX_USA/focus_USA_new_deal"
+		textureFile = "gfx/interface/goals/USA/focus_USA_new_deal.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_second_new_deal"
-		textureFile = "gfx/interface/goals/focus_USA_second_new_deal.dds"			
+		name = "GFX_USA/focus_USA_second_new_deal"
+		textureFile = "gfx/interface/goals/USA/focus_USA_second_new_deal.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_better_deal"
-		textureFile = "gfx/interface/goals/focus_USA_better_deal.dds"			
+		name = "GFX_USA/focus_USA_better_deal"
+		textureFile = "gfx/interface/goals/USA/focus_USA_better_deal.dds"			
 	}
 	spriteType = {
 		name = "GFX_focus_BOR_total_war"
@@ -78,16 +78,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/rebuild_1.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_USA_save_the_republic"
-		textureFile = "gfx/interface/goals/focus_USA_save_the_republic.dds"			
+		name = "GFX_USA/focus_USA_save_the_republic"
+		textureFile = "gfx/interface/goals/USA/focus_USA_save_the_republic.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_second_civil_war"
-		textureFile = "gfx/interface/goals/focus_USA_second_civil_war.dds"			
+		name = "GFX_USA/focus_USA_second_civil_war"
+		textureFile = "gfx/interface/goals/USA/focus_USA_second_civil_war.dds"			
 	}
 	spriteType = {
-		name = "GFX_focus_USA_save_america"
-		textureFile = "gfx/interface/goals/focus_USA_save_america.dds"			
+		name = "GFX_USA/focus_USA_save_america"
+		textureFile = "gfx/interface/goals/USA/focus_USA_save_america.dds"			
 	}
 	spriteType = {
 		name = "GFX_focus_peace_talks"
