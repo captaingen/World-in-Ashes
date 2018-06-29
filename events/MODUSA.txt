@@ -535,3 +535,40 @@ country_event = {
 		set_country_flag = usa_election
 	}
 }
+
+country_event = { #bordeaux requests staff training
+	id = modusa.104
+	title = modusa.104.t
+	desc = modusa.104.d
+	picture = GFX_USA_train_bor_officers
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	immediate = {
+	}
+
+	option = { #reject
+		name = modusa.104.a
+		add_political_power = 15
+		BOR = {
+			add_relation_modifier = {
+				target = USA
+				modifier = BOR_USA_rejected_request
+			}
+		}
+	}
+	option = { #teach them strategies
+		name = modusa.104.b
+		army_experience = -5
+		BOR = {
+			country_event = {
+					id = bordeaux.5
+					days = 5
+				}
+		}
+	}
+}

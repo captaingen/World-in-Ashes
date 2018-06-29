@@ -12,40 +12,8 @@ opinion_modifiers = {
 	
 	###LEBANESE FOCUS TREE###
 	
-	leb_ger_diplomacy_focus = {
-		value = 50
-	}
-
-	supported_the_lebanese = {
-		value = 70
-	}
-	
-	leb_jap_diplomacy_focus = {
-		value = 50
-	}
-	
-	supported_lebanon = {
-		value = 70
-	}
-	
-	LEB_go_with_britain_reject = {
-		value = -20
-	}
-	
-	TUR_spies_tortured = {
-		value = -50
-	}
-	
-	TUR_spies_released = {
-		value = 50
-	}
-	
-	TUR_SOV_diplomacy_focus = {
-		value = 60
-	}
-	
-	TUR_SOV_supported_turkey = {
-		value = 40
+	BOR_USA_rejected_request = {
+		value = -10
 	}
 	
 }	

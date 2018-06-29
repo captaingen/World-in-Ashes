@@ -51,6 +51,9 @@
  bordeaux.4.t:0 "Stealth Attack"
  bordeaux.4.d:0 "We have been preparing for this for months, our special forces are fully trained to launch this secret attack, they won't know it was us... surely, they won't..."
  bordeaux.4.a:0 "Send in the troops..."
+ bordeaux.5.t:0 "Americans Train our Officers"
+ bordeaux.5.d:0 "The Americans agreed to train our officers, in hopes of turning the tide of war against the Nasis. "
+ bordeaux.5.a:0 "Finish Training"
  
  #Disintegration
  disintegrate.0.t:0 "Our Country Decends Furthur into Disintegration"

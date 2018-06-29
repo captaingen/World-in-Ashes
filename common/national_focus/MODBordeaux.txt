@@ -130,7 +130,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = { remove_idea = BOR_very_incompetent_staff add_idea = BOR_slightly_incompetent_staff }
+			USA = {
+				country_event = {
+					id = modusa.104
+					days = 1
+				}
+			}
 		}
 	}
 	

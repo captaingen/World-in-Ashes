@@ -106,6 +106,10 @@
    modusa.103.b:0 "Dewey or Don't We! (Thomas Dewey)"
    modusa.103.c:0 "Happy Days are Here Again! (Franklin Roosevelt)"
    modusa.103.e:0 "Every Man a King! (Huey Long)"
+   modusa.104.t:0 "Bordeaux requests Officer Training"
+   modusa.104.d:0 "Bordeaux has a very inneffective officer corps, and that will not help them in their civil war. They have requested for us to train them. Should we help one of the last standing democracies in Europe?"
+   modusa.104.a:0 "We have too much to handle in here already..."
+   modusa.104.b:0 "We need to train them!"
    #News
  #National Spirits
   socialist_tensions:0 "Socialist Tensions"

@@ -213,3 +213,25 @@ country_event = {
 		add_manpower = -100
 	}
 }
+
+#usa accepts to train us
+country_event = {
+    id = bordeaux.5
+    title = bordeaux.5.t
+    desc = bordeaux.5.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    immediate = {
+		
+    }
+
+    option = { #finish training
+		name = bordeaux.5.a
+		army_experience = 5
+		swap_ideas = { remove_idea = BOR_very_incompetent_staff add_idea = BOR_slightly_incompetent_staff }
+	}
+}
