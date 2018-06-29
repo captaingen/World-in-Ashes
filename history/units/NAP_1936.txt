@@ -64,175 +64,175 @@ units = {
      
     division = { 
 	    name = "6a Divisione di Fanteria"
-		location = 6939 
+		location = 11803 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "7a Divisione di Fanteria"
-		location = 6939 
+		location = 11803 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "8a Divisione di Fanteria"
-		location = 6939 
+		location = 11803 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "9a Divisione di Fanteria"
-		location = 6939 
+		location = 11803 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "10a Divisione di Fanteria"
-		location = 6969 
+		location = 11803 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "11a Divisione di Fanteria"
-		location = 11803 
+		location = 9826 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "12a Divisione di Fanteria"
-		location = 11803 
+		location = 9826 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "13a Divisione di Fanteria"
-		location = 11803 
+		location = 9826 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "14a Divisione di Fanteria"
-		location = 11803 
+		location = 9826 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "15a Divisione di Fanteria"
-		location = 11803 
+		location = 9826 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "16a Divisione di Fanteria"
-		location = 11803 
+		location = 819 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "17a Divisione di Fanteria"
-		location = 11803 
+		location = 819 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
      
     division = { 
 	    name = "18a Divisione di Fanteria"
-		location = 11803 
+		location = 819 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "19a Divisione di Fanteria"
-		location = 11803 
+		location = 819 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "20a Divisione di Fanteria"
-		location = 11803 
+		location = 819 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "21a Divisione di Fanteria"
-		location = 9826 
+		location = 11837 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "22a Divisione di Fanteria"
-		location = 9826 
+		location = 11837 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
     division = { 
 	    name = "23a Divisione di Fanteria"
-		location = 9826 
+		location = 11837 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "24a Divisione di Fanteria"
-		location = 9826 
+		location = 11837 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "25a Divisione di Fanteria"
-		location = 9826 
+		location = 11837 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "26a Divisione di Fanteria"
-		location = 9826 
+		location = 851 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "27a Divisione di Fanteria"
-		location = 9826 
+		location = 851 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "28a Divisione di Fanteria"
-		location = 9826 
+		location = 851 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "29a Divisione di Fanteria"
-		location = 9826 
+		location = 851 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
 	
 	division = { 
 	    name = "30a Divisione di Fanteria"
-		location = 9826 
+		location = 851 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
