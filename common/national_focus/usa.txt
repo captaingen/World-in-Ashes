@@ -245,8 +245,8 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_popularity = { ideology = socialism popularity = -0.15 }
-			add_popularity = { ideology = communism popularity = -0.1 }
+			add_popularity = { ideology = socialism popularity = -0.10 }
+			add_popularity = { ideology = communism popularity = -0.05 }
 		}
 	}
 	
@@ -1079,6 +1079,8 @@ focus_tree = {
 		prerequisite = { focus = USA_stabilize_the_economy}
 
 		available = {
+			NOT = { has_country_flag = usa_civil_war }
+			NOT = { country_exists = SSA }
 		}
 		
 		bypass = {
@@ -1120,6 +1122,7 @@ focus_tree = {
 		}
 		
 		bypass = {
+			has_country_flag = usa_civil_war
 		}
 		
 		mutually_exclusive = {
@@ -1294,6 +1297,15 @@ focus_tree = {
 
 
 		completion_reward = {
+			every_other_country = {
+				limit = {
+					has_government = democratic
+				}
+				add_opinion_modifier = {
+					target = USA
+					modifier = fight_against_tyranny_opinion_mod
+				}	
+			}
 		}
 	}
 

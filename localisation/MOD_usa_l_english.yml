@@ -56,16 +56,18 @@
   USA_pennsylvania_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to five provinces in §YPennsylvania§! and to one province in §YVirginia§!\n"
   USA_virginia_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to four provinces in §YVirginia§!\n"
   USA_kentucky_forts_tooltip:0 "Add §YLevel 3 Land Forts§! to seven provinces in §YKentucky§!"
-  USA_national_guard_tooltip:0 "Places §Y37 National Guard Divisions§! in certain locations around the United States"
+  USA_national_guard_tooltip:0 "Places §Y37 National Guard Divisions§! in cities around the continental United States"
  #Localized country Flags
   republican_primary:0 "Republican Primary has Occured"
   democratic_primary:0 "Democratic Primary has Occured"
   james_wadsworth_1936:0 "James Wadsworth has won the election"
-  thomas_dewey_1936:0 "Thomas Dewey has won the election"
+  thomas_dewey_1936:0 "Thomas Dewey has won the postponed election"
   franklin_roosevelt_1936:0 "Franklin Roosevelt has won the election"
   huey_long_1936:0 "Huey Long has won the election"
   skip_election:0 "Skipped the Election"
+  usa_civil_war:0 "The Second American Civil War has started"
  #Opinion mods
+  fight_against_tyranny_opinion_mod:0 "Fighting against Tyranny"
  #Events
   #Civil War event chain
    modusa.0.t:0 "Riots in Chicago"
@@ -77,6 +79,15 @@
    modusa.2.t:0 "Widespread Protests in the North"
    modusa.2.d:0 "After the Chicago Massacre, radical socialists have taken to the streets in protest, with rioters amongst them. Their numbers are large, and unstoppable, and they are causing countless economic damage to the North and Midwest. This must be stopped."
    modusa.2.a:0 "It's getting worse."
+   modusa.3.t:0 "Rhode Island, Connecticut, New York, and Michigan succeed from the Union!"
+   modusa.3.d:0 "Rhode Island, Connecticut, New York, and Michigan now ride in open rebellion as their state governments have ignored the Federal government's control and joined together forming the 'Socialist States of America.' Local national guard troops have defected to their cause, and they seem to be mobilizing. They are also assisted by fellow socialists across the US-Canada border. Any wrong move now can spark a civil war."
+   modusa.3.a:0 "This is the United States! Not the Disunited States!"
+   modusa.4.t:0 "Declare National State of Emergency"
+   modusa.4.d:0 "With the succession of states, we are now able to declare a state of emergency, as granted by the Constitution. If you are to declare a state of emergency, it will mean that war is inevitable. A diplomatic path, however, is available to you. Choose wisely."
+   modusa.4.a:0 "Squash these rebel scum!"
+   modusa.5.t:0 "Socialist Strongholds defect to the SSA!"
+   modusa.5.d:0 "Larges areas in Wisconsin, Chicago, Indiana, Ohio, Pennsylvania, and New Jersey have all joined the SSA. While the state governments are still loyal to the Federal government, their people clearly aren't."
+   modusa.5.a:0 "Damn it, Thomas!"
   #Election event chain
    modusa.100.t:0 "Elections are to go Ahead"
    modusa.100.d:0 "Due to the extreme political turmoil in the country, there were talks in Congress to cancel the next election. Those talks had ceased after Herbert Hoover, the president, voiced passionate concerns over this sparking a civil war. It appears American Democracy will remain, and elections will go ahead in November."
