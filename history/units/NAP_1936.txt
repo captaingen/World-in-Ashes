@@ -92,7 +92,7 @@ units = {
      
     division = { 
 	    name = "10a Divisione di Fanteria"
-		location = 11803 
+		location = 6969 
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.3 
 	} 
