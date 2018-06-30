@@ -15,3 +15,42 @@
  INS_GER_autonomy_colony_DEF:1 "The German East Indies"
  SIN_GER_autonomy_colony:1 "German Singapore"
  SIN_GER_autonomy_colony_DEF:1 "German Singapore"
+
+ #################################################
+ #   If England Abolishes the Monarchy
+ #################################################
+ ENG_anti_monarchist_democratic:0 "Republic of Great Britain"
+ ENG_anti_monarchist_democratic_DEF:0 "the Republic of Great Britain"
+
+ ENG_anti_monarchist_fascism:0 "British Empire"
+ ENG_anti_monarchist_fascism_DEF:0 "the British Empire"
+
+ ENG_anti_monarchist_communism:0 "Commune of Britain"
+ ENG_anti_monarchist_communism_DEF:0 "the Commune of Britain"
+
+ ENG_anti_monarchist_fascism_ADJ:0 "British"
+ ENG_anti_monarchist_democratic_ADJ:0 "British"
+ ENG_anti_monarchist_communism_ADJ:0 "British"
+ #################################################
+ #   The Initial English Military Junta
+ #################################################
+ ENG_military_junta_neutrality:0 "English Military Junta"
+ ENG_military_junta_neutrality_DEF:0 "the English Military Junta"
+
+ ENG_military_junta_neutrality_ADJ:0 "English"
+ #################################################
+ #   If England Keeps the Monarchy
+ #################################################
+ ENG_monarchist_neutrality:0 "Kingdom of Great Britain"
+ ENG_monarchist_neutrality_DEF:0 "the Kingdom of Great Britain"
+
+ ENG_monarchist_fascism:0 "Empire of Saints" ## Play on British Theocracy & St George, St Andrew, St David & St Patrick
+ ENG_monarchist_fascism_DEF:0 "the Empire of Saints"
+
+ ENG_monarchist_democratic:0 "United Kingdom"
+ ENG_monarchist_democratic_DEF:0 "the United Kingdom"
+ 
+ ENG_monarchist_fascism_ADJ:0 "British"
+ ENG_monarchist_neutrality_ADJ:0 "British"
+ ENG_monarchist_democratic_ADJ:0 "British"
+ #################################################
