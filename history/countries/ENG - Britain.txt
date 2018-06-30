@@ -51,11 +51,11 @@ set_technology = {
 	radio_detection = 1
 }
 
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
+#add_ideas = {
+#	stiff_upper_lip
+#	ENG_the_war_to_end_all_wars
+#	george_v
+#}
 
 set_convoys = 800
 
