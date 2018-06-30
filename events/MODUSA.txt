@@ -317,7 +317,17 @@ country_event = {
 	trigger = {
 		NOT = { has_country_leader = { ruling_only = yes name = "Huey Pierce Long Jr." } }
 		has_country_flag = civil_war_close
-		democratic < 0.6
+		OR = {
+				democratic < 0.8
+			AND = {
+				democratic < 0.7
+				has_stability < 0.5
+			}			
+			AND = {
+				democratic < 0.6
+				has_stability < 0.4
+			}
+		}
 	}
 
 	option = { #Damn it, Thomas!
@@ -349,6 +359,54 @@ country_event = {
 			ideology = communism
 			popularity = -0.1
 		}
+	}
+}
+
+#Dealing with the SSA threat
+country_event = {
+	id = modusa.5
+	title = modusa.5.t
+	desc = modusa.5.d
+	picture = GFX_report_event_generic_riot
+
+	mean_time_to_happen = {
+		days = 90
+		modifier = {
+			factor = 0.5
+			has_idea = fight_socialism
+		}
+	}
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+		has_country_flag = civil_war_close
+	}
+
+	option = { #Reinforce Fort Hamilton
+		name = modusa.5.a
+		ai_chance = {
+			factor = 10
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -50
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = light_ammo_eq
+			amount = -50
+			producer = USA
+		}
+	}
+	option = { #Spit at them!
+		name = modusa.5.a
+		ai_chance = {
+			factor = 3
+		}
+		add_political_power = 25
 	}
 }
 
@@ -536,10 +594,11 @@ country_event = {
 	}
 }
 
-country_event = { #bordeaux requests staff training
-	id = modusa.104
-	title = modusa.104.t
-	desc = modusa.104.d
+############### FOREIGN AFFAIRS ###################
+country_event = { #Bordeaux requests staff training
+	id = modusa.1000
+	title = modusa.1000.t
+	desc = modusa.1000.d
 	picture = GFX_USA_train_bor_officers
 
 	is_triggered_only = yes
@@ -552,17 +611,18 @@ country_event = { #bordeaux requests staff training
 	}
 
 	option = { #reject
-		name = modusa.104.a
+		name = modusa.1000.a
 		add_political_power = 15
-		BOR = {
-			add_relation_modifier = {
-				target = USA
-				modifier = BOR_USA_rejected_request
-			}
+#		reverse_add_opinion_modifier = {
+#			target = BOR
+#			modifier = BOR_USA_rejected_request #Crashes the game
 		}
 	}
 	option = { #teach them strategies
-		name = modusa.104.b
+		name = modusa.1000.b
+		trigger = {
+			has_army_experience > 5
+		}
 		army_experience = -5
 		BOR = {
 			country_event = {

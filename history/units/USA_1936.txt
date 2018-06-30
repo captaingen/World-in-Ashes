@@ -888,7 +888,7 @@ instant_effect = {
 	
 	add_equipment_production = {
 		equipment = {
-			type = light_ammo_eq
+			type = light_ammo_0
 			creator = "USA"
 		}
 		requested_factories = 2

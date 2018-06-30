@@ -12,11 +12,11 @@ country_event = {
     picture = GFX_report_event_worker_protests
 
     trigger = {
-		has_political_power < 0
+		has_political_power < -10
     }
 
     mean_time_to_happen = {
-        days = 20
+        days = 60
     }
 
     immediate = {
@@ -25,7 +25,7 @@ country_event = {
     option = {
         name = genericmod.0.a
 		trigger = {
-			has_political_power < 0
+			has_political_power < -10
 			has_political_power > -20
 		}
 		add_political_power = 10

@@ -132,7 +132,7 @@ focus_tree = {
 		completion_reward = {
 			USA = {
 				country_event = {
-					id = modusa.104
+					id = modusa.1000
 					days = 1
 				}
 			}
