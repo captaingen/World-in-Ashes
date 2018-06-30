@@ -364,9 +364,9 @@ country_event = {
 
 #Dealing with the SSA threat
 country_event = {
-	id = modusa.5
-	title = modusa.5.t
-	desc = modusa.5.d
+	id = modusa.6
+	title = modusa.6.t
+	desc = modusa.6.d
 	picture = GFX_report_event_generic_riot
 
 	mean_time_to_happen = {
@@ -386,7 +386,7 @@ country_event = {
 	}
 
 	option = { #Reinforce Fort Hamilton
-		name = modusa.5.a
+		name = modusa.6.a
 		ai_chance = {
 			factor = 10
 		}
@@ -402,7 +402,7 @@ country_event = {
 		}
 	}
 	option = { #Spit at them!
-		name = modusa.5.a
+		name = modusa.6.a
 		ai_chance = {
 			factor = 3
 		}
