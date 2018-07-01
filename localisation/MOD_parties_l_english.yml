@@ -83,3 +83,31 @@
  PRU_democratic_party:0 "CC"
  PRU_democratic_party_long:0 "Coalicion Conservadora"
 
+######### Starts as subdivisions of the Military Junta, party names changed later by event
+ ENG_neutrality_party:0 "Military Government"
+ ENG_neutrality_party_long:0 "Military Government"
+
+ ENG_fascism_party:0 "Military Government"
+ ENG_fascism_party_long:0 "Military Government"
+
+ ENG_democratic_party:0 "Military Government"
+ ENG_democratic_party_long:0 "Military Government"
+
+ ENG_communism_party:0 "Military Government"
+ ENG_communism_party_long:0 "Military Government"
+########## Post new Government
+ ENG_replaced_democratic_party:0 "Roundheads"
+ ENG_replaced_democratic_party_long:0 "Parliamentarian Democrats"
+
+ ENG_replaced_fascism_party:0 "NPB"
+ ENG_replaced_fascism_party_long:0 "Nationalist Party of Britain"
+
+ ENG_replaced_neutrality_party:0 "Cavaliers"
+ ENG_replaced_neutrality_party_long:0 "Royalist Aristocracy"
+
+ ENG_replaced_communism_party:0 "BSU"
+ ENG_replaced_communism_party_long:0 "British Socialist Union"
+
+ ENG_republican_democratic_party:0 "Republicans"
+ ENG_republican_democratic_party_long:0 "Republican Democratic Party"
+ #################################
