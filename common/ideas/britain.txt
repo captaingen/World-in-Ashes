@@ -2,6 +2,20 @@ ideas = {
 
 	country = {
 
+		ENG_nation_divided = {
+			allowed = {
+				original_tag = ENG
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.45
+				stability_factor = -0.25
+			}
+		}
+
 		ENG_autocracy = {
 			allowed = {
 				original_tag = ENG

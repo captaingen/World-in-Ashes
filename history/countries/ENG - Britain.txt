@@ -46,21 +46,34 @@ set_technology = {
 }
 
 set_convoys = 800
+
+######### Setup new political parties
 set_party_name = {
 	ideology = democratic
-	long_name = ENG_democratic_party_long
-	name = ENG_democratic_party
+	long_name = ENG_new_democratic_party_long
+	name = ENG_new_democratic_party
 }
 set_party_name = {
 	ideology = fascism
-	long_name = ENG_fascism_long
-	name = ENG_fascism_party
+	long_name = ENG_new_fascism_long
+	name = ENG_new_fascism_party
 }
 set_party_name = {
 	ideology = communism
-	long_name = ENG_communism_party_long
-	name = ENG_communism_party
+	long_name = ENG_new_communism_party_long
+	name = ENG_new_communism_party
 }
+set_party_name = {
+	ideology = neutrality
+	long_name = ENG_new_neutrality_party_long
+	name = ENG_new_neutrality_party
+}
+set_party_name = {
+	ideology = socialism
+	long_name = ENG_new_socialism_party_long
+	name = ENG_new_socialism_party
+}
+###########
 
 # DIPLOMACY
 
@@ -70,16 +83,16 @@ set_party_name = {
 	
 	#adding ministers
 		
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
+	create_country_leader = {
+		name = "Neville Chamberlain"
+		desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+		picture = "Portrait_Britain_Neville_Chamberlain.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			
+		}
 	}
-}
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -168,6 +181,8 @@ create_country_leader = {
 	set_convoys = 200
 }
 
+
+################ Politics ###################
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
@@ -182,12 +197,27 @@ if = {
 	}
 }
 
+add_ideas = {
+	ENG_nation_divided
+}
 
 set_politics = {
 
 	parties = {
 		neutrality = {
-			popularity = 100
+			popularity = 40
+		}
+		democratic = {
+			popularity = 15
+		}
+		fascism = {
+			populairty = 15
+		}
+		socialism = {
+			popularity = 15
+		}
+		communism = {
+			popularity = 15
 		}
 	}
 	
@@ -197,9 +227,10 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 
+############# England starts under martial law ############
 set_cosmetic_tag = ENG_military_junta
 
-# Order matters - here Chamberlain becomes starting leader
+#################################### Leaders ################################################
 
 create_country_leader = {
 	name = "Winston Churchill"
@@ -221,6 +252,7 @@ create_country_leader = {
 		#
 	}
 }
+
 create_country_leader = {
 	name = "Oswald Mosley"
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
@@ -253,6 +285,18 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Harold Laski"
+	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+##################### Military ######################
 create_field_marshal = {
 	name = "Alan Brooke"
 	picture = "Portrait_Britain_Alan_Brooke.dds"

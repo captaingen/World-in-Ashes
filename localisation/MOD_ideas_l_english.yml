@@ -54,5 +54,7 @@
  disintegrating_country_desc:0 "Our country is disintegrating before our very eyes. There is little we can do to stop it. We can only try to delay it for as long as possible."
 
  #England
- ENG_autocracy:0 "Autocratic Reformation"
- ENG_democracy:0 "Democratic Ideals"
+ ENG_nation_divided:0 "A Divided Nation"
+
+ ENG_autocracy:0 "Autocratic Revisionism"
+ ENG_democracy:0 "Democratic Idealism"
