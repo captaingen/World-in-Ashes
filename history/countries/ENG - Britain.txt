@@ -1,17 +1,11 @@
 ﻿capital = 126
 
-oob = "ENG_1936"
+#oob = "ENG_1936"
 
 set_research_slots = 4
 
 set_stability = 0.5
 set_war_support = 0.1
-
-set_country_flag = westernization_1_completed_flag
-set_country_flag = completed_industry_flag
-set_country_flag = completed_modern_flag
-set_country_flag = completed_diplo_flag
-set_country_flag = westernization_5_completed_flag
 
 # Starting tech
 set_technology = {
@@ -51,42 +45,16 @@ set_technology = {
 	radio_detection = 1
 }
 
-#add_ideas = {
-#	stiff_upper_lip
-#	ENG_the_war_to_end_all_wars
-#	george_v
-#}
-
 set_convoys = 800
 
 # DIPLOMACY
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
 
 1939.1.1 = {
 
 	add_political_power = 1198
 	
 	#adding ministers
-	add_ideas = {
-		ENG_ernest_bevin
-		bernard_montgomery
-		rsaf_enfield
-		archibald_wavell
-		charles_portal
-		english_electric		
-
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-
-		ENG_george_vi
-	}
-
-	
+		
 create_country_leader = {
 	name = "Neville Chamberlain"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
@@ -148,7 +116,7 @@ create_country_leader = {
 		home_defence = 1
 		naval_strike_tactics = 1
 
-		grand_battle_plan = 1
+			grand_battle_plan = 1
 
 		prepared_defense = 1
 		battlefleet_concentration = 1
@@ -181,6 +149,7 @@ create_country_leader = {
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 	}
+
 	set_convoys = 200
 }
 
@@ -191,7 +160,7 @@ if = {
 	set_autonomy = {
 		target = WAL
 		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.30
+		freedom_level = 0.35
 	}
 	else = {
 		puppet = WAL
@@ -237,29 +206,6 @@ create_country_leader = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		
-#	}
-#}
-
 create_country_leader = {
 	name = "Oswald Mosley"
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
@@ -267,7 +213,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+		#
 	}
 }
 
@@ -278,10 +224,20 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		
+		#
 	}
 }
 
+create_country_leader = {
+	name = "Stanley Baldwin"
+	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1938.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 create_field_marshal = {
 	name = "Alan Brooke"
 	picture = "Portrait_Britain_Alan_Brooke.dds"

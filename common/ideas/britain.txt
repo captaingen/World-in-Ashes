@@ -1,6 +1,34 @@
 ideas = {
 
 	country = {
+
+		ENG_autocracy = {
+			allowed = {
+				original_tag = ENG
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				neutrality_drift = 0.1
+				fascism_drift = 0.1
+			}
+		}
+
+		ENG_democracy = {
+			allowed = {
+				original_tag = ENG
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				democratic_drift = 0.1
+			}
+		}
+
 		george_v = {
 			
 			allowed = {
