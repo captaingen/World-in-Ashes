@@ -203,7 +203,13 @@ focus_tree = {
 		ai_will_do = { factor = 1 } 
 	 	x = 5
 		y = 2 
-		available = { }
+		available = {
+			country_exists = SCO
+			NOT = {
+				has_war_with = SCO
+			}
+			is_puppet = no
+		}
 		mutually_exclusive = { } 
 		prerequisite = {
 			focus = ENG_form_provisional_government
@@ -213,16 +219,27 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_dlc = "Together for Victory"
+					AND = {
+						country_exists = SCO
+						NOT = {
+							has_war_with = SCO
+						}
+						is_puppet = no
+					}
 				}
-				set_autonomy = {
-					target = SCO
-					autonomous_state = autonomy_integrated_puppet
-					freedom_level = 0.35
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = SCO
+						autonomous_state = autonomy_integrated_puppet
+						freedom_level = 0.35
+					}
 				}
-			}
-			else = {
-				puppet = SCO
+				else = {
+					puppet = SCO
+				}
 			}
 			add_stability = 0.05
 		}
@@ -235,7 +252,14 @@ focus_tree = {
 		ai_will_do = { factor = 1 } 
 	 	x = 5
 		y = 5 
-		available = { }
+		available = { 
+			SCO = {
+				OR = {
+					is_puppet_of = ENG
+					country_exists = no
+				}
+			}
+		}
 		mutually_exclusive = { } 
 		prerequisite = {
 			focus = ENG_renew_acts_of_union

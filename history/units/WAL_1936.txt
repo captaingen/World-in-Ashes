@@ -1,0 +1,59 @@
+division_template = {
+	name = "Riflau Cymreig"
+
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+    	engineer = { x = 0 y = 0 }
+   		recon = { x = 0 y = 1 }
+    }
+}
+division_template = {
+	name = "Dreigiau Cymreig"
+
+	priority = 2
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Dreigiau Caernarfon"
+		location = 6363
+		division_template = "Dreigiau Cymreig" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 377
+		division_template = "Riflau Cymreig"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+
+	navy = {
+		name = "Fflyd Cymru"			
+			base = 377
+			location = 377 # Cardiff
+		ship = { name = "Cymru" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = WAL } } }
+	}
+}
+

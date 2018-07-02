@@ -14,7 +14,7 @@
 	}
 }
 division_template = {
-	name = "Rifle Division"
+	name = "Rifles Division"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -142,6 +142,27 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
+	##### Remaining Standing Army
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6103
+		division_template = "Rifles Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6103
+		division_template = "Rifles Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
 
 	
 	##### NAVAL UNITS #####
@@ -178,27 +199,7 @@ units = {
 		ship = { name = "HMS Volunteer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Witherington" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Wolverine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-	}											
-	navy = {				
-		name = "Nore Fleet"
-		base = 3501
-		location = 3501 # Dover
-		ship = { name = "HMS London" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
-		ship = { name = "HMS Curacoa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		# Nore Destroyer Division
-		ship = { name = "HMS Campbell" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Vivien" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Worcester" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Woolston" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Wolfhound" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		### 14th Destroyer Flotilla
-		ship = { name = "HMS Codrington" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
-		# Destroyer Division 27
-		ship = { name = "HMS Basilisk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
-		ship = { name = "HMS Beagle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
-		ship = { name = "HMS Boreas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
-		ship = { name = "HMS Bulldog" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
-	}											
+	}																						
 }
 
 

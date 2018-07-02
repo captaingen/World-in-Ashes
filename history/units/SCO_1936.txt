@@ -1,0 +1,117 @@
+division_template = {
+	name = "Rifle Division"
+
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Caledonian Highlanders"
+
+	priority = 2
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Glaswegian Rifles"
+		location = 3273
+		division_template = "Rifle Division" 	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Edinburgh Rifles"
+		location = 9392
+		division_template = "Rifle Division" 	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6300
+		division_template = "Rifle Division" 	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11064
+		division_template = "Rifle Division" 	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11378
+		division_template = "Caledonian Highlanders" 	
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9314
+		division_template = "Caledonian Highlanders" 	
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11218
+		division_template = "Caledonian Highlanders" 	
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+	}
+
+	navy = {
+		name = "Scottish Freedom Fleet"			
+			base = 6300
+			location = 6300 # Rosyth
+			ship = { name = "SFS Flower of Scotland" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SCO } } }		
+			ship = { name = "SFS Freedom's Call" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "SFS Spirit of Rosyth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "SFS Glaswegian Kiss" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "SFS Sutherland Supreme" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "SFS Firth of Fife" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "SFS Sheild of Skye" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+	}
+}
