@@ -1,4 +1,4 @@
-Possible music for the mod:
+﻿Possible music for the mod:
 
 #Germany
 https://www.youtube.com/watch?v=y5yWcAiADDU #The Great Electors Cavalry March
@@ -59,6 +59,8 @@ https://www.youtube.com/watch?v=MKRHWT6xdEU # Jerusalem
 https://www.youtube.com/watch?v=tN9EC3Gy6Nk #God Save the Queen
 https://www.youtube.com/watch?v=yHNfvJc99YY #Rule Britannia
 https://www.youtube.com/watch?v=o6ZvylOSy5A #I Vow to Thee, My Country
+
+https://www.youtube.com/watch?v=PSH0eRKq1lE Scotland the Brave
 
 #WIF
 https://en.wikipedia.org/wiki/File:National_Anthem_of_Trinidad_and_Tobago_by_US_Navy_Band.ogg #WIF Propsed Anthem
