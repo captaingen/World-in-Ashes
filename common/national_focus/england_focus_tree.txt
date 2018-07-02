@@ -157,7 +157,7 @@ focus_tree = {
 				limit = {
 					AND = {
 						has_country_flag = "autocracy"
-						has_contry_flag = "antimonarchist"
+						has_country_flag = "antimonarchist"
 					}
 				}
 				set_politics = {
@@ -171,7 +171,7 @@ focus_tree = {
 				limit = {
 					AND = {
 						has_country_flag = "autocracy"
-						has_contry_flag = "monarchist"
+						has_country_flag = "monarchist"
 					}
 				}
 				set_politics = {
@@ -210,11 +210,16 @@ focus_tree = {
 		} 
 		cost = 10  
 		available_if_capitulated = yes
-		completion_reward = { 
-			set_autonomy = {
-				target = SCO
-				autonomous_state = autonomy_integrated_puppet
-				freedom_level = 0.35
+		completion_reward = {
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = {
+					target = SCO
+					autonomous_state = autonomy_integrated_puppet
+					freedom_level = 0.35
+				}
 			}
 			else = {
 				puppet = SCO
