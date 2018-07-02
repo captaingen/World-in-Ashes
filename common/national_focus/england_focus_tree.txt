@@ -228,7 +228,7 @@ focus_tree = {
 		id = ENG_restore_great_britain
 		icon = GFX_goal_unknown 
 		ai_will_do = { factor = 1 } 
-	 	x = 4
+	 	x = 5
 		y = 5 
 		available = { }
 		mutually_exclusive = { } 

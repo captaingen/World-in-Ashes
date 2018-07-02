@@ -14,6 +14,7 @@ state= {
 	{
 		owner = WAL
 		victory_points = { 377 5 }
+		victory_points = { 6363 1 }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
