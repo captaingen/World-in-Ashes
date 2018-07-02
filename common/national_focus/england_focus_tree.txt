@@ -193,6 +193,17 @@ focus_tree = {
 				}
 			}
 
+			create_field_marshal = {
+				name = "Bernard Montgomery"
+				picture = "Portrait_Britain_Bernard_Montgomery.dds"
+				traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+				skill = 4 
+				attack_skill = 2
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 4
+			}
+
 		}
 	}
 

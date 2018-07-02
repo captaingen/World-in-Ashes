@@ -93,3 +93,14 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "Richard O'Connor"
+	picture = "Portrait_Britain_Richard_OConnor.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}

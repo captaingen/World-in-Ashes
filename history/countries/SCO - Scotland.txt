@@ -71,6 +71,10 @@ set_politics = {
 		neutrality = {
 			popularity = 50
 		}
+
+		socialism = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = neutrality
@@ -142,4 +146,33 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/SCO/gordon.tga"
 	traits = { ranger urban_assault_specialist }
 	skill = 2
+}
+
+create_field_marshall = {
+	name = "Alan Cunningham"
+	picture = "Portrait_Britain_Alan_Cunningham.dds"
+	traits = {}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Jock Campbell"
+	picture = "Portrait_Britain_Jock_Campbell.dds"
+	traits = { armor_officer  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Andrew Cunningham"
+		picture = "Portrait_Britain_Andrew_Cunningham.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 5
 }
