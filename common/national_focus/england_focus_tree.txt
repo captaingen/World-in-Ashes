@@ -1,0 +1,317 @@
+focus_tree = {
+	id = wia_britain_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ENG
+		}
+	}
+	default = no
+	#Custom focuses start here
+
+	# Form a Provisional Government 
+	focus = { 
+		id = ENG_form_provisional_government
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 1 } 
+		x = 3 
+	 	y = 0 
+	 	available = { }
+	 	prerequisite = { } 
+	 	cost = 5  
+	  	available_if_capitulated = yes 
+	  	completion_reward = { 
+			add_stability = 0.1
+		}
+	}
+
+	# Autocracy
+	focus = { 
+		id = ENG_favour_autocracy
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 1 } 
+		x = 1 
+		y = 1 
+		available = { }
+		mutually_exclusive = { focus = ENG_favour_democracy } 
+		prerequisite = { focus = ENG_form_provisional_government } 
+		cost = 5  
+		available_if_capitulated = yes
+		completion_reward = { 
+			add_ideas = {
+				ENG_autocracy
+			}
+		}
+	}
+
+	# Democracy
+		focus = { 
+		id = ENG_favour_democracy 
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 2 } 
+		x = 3 
+		y = 1 
+		available = { }
+		mutually_exclusive = { focus = ENG_favour_autocracy } 
+		prerequisite = { focus = ENG_form_provisional_government } 
+		cost = 5  
+		available_if_capitulated = yes
+		completion_reward = { 
+			add_ideas = {
+				ENG_democracy
+			}
+		}
+	}
+
+	# Return of the King
+	focus = { 
+		id = ENG_return_of_the_king
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 2 } 
+		x = 1
+		y = 2
+		available = { }
+		mutually_exclusive = { focus = ENG_no_more_kings } 
+		prerequisite = {
+			focus = ENG_favour_autocracy
+			focus = ENG_favour_democracy
+		} 
+		cost = 5  
+		available_if_capitulated = yes
+		completion_reward = {
+			set_country_flag = "monarchist"
+			set_party_name = {
+				ideology = democratic
+				long_name = ENG_replaced_democratic_party_long
+				name = ENG_replaced_democratic_party
+			}
+		}
+	}
+
+	# Abolish Monarchy
+	focus = { 
+		id = ENG_no_more_kings
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 1 } 
+		x = 3
+		y = 2
+		available = { }
+		mutually_exclusive = { focus = ENG_return_of_the_king } 
+		prerequisite = {
+			focus = ENG_favour_autocracy
+			focus = ENG_favour_democracy
+		} 
+		cost = 5 
+		available_if_capitulated = yes
+		completion_reward = {
+			set_country_flag = "antimonarchist"
+			set_party_name = {
+				ideology = democratic
+				long_name = ENG_republican_democratic_party_long
+				name = ENG_republican_democratic_party
+			}
+		}
+	}
+
+	# One Party State
+	focus = { 
+		id = ENG_one_party_state
+		icon = GFX_goal_generic_support_fascism
+		ai_will_do = { factor = 1 } 
+		x = 1 
+		y = 3 
+		available = { }
+		mutually_exclusive = { focus = ENG_re_establish_political_parties } 
+		prerequisite = {
+			focus = ENG_favour_autocracy
+		}
+		prerequisite = {
+			focus = ENG_no_more_kings
+			focus = ENG_return_of_the_king
+		}
+		cost = 5  
+		available_if_capitulated = yes
+		completion_reward = { 
+			add_political_power = 50
+			if = {
+				limit = {
+					has_country_flag = "monarchist"
+				}
+				set_politics = {
+					parties = {
+						neutrality = { popularity = 80 }
+						fascism = { popularity = 20 }
+					}
+					ruling_party = neutrality
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = "antimonarchist"
+				}
+				set_politics = {
+					parties = {
+						neutrality = { popularity = 20 }
+						fascism = { popularity = 80 }
+					}
+					ruling_party = fascism
+				}
+			}
+		}
+	}
+
+	# Re-establish Political Parties
+	focus = { 
+		id = ENG_re_establish_political_parties
+		icon = GFX_goal_generic_support_democracy
+		ai_will_do = { factor = 1 } 
+		x = 3
+		y = 3
+		available = { }
+		mutually_exclusive = { focus = ENG_one_party_state } 
+		prerequisite = {
+			focus = ENG_favour_democracy
+		}
+		prerequisite = {
+			focus = ENG_no_more_kings
+			focus = ENG_return_of_the_king
+		}
+		cost = 5  
+		available_if_capitulated = yes
+		completion_reward = { 
+			add_political_power = 50
+			set_politics = {
+				parties = {
+					neutrality = { popularity = 20 }
+					fascism = { popularity = 10 }
+					democratic = { popularity = 70 }
+				}
+				ruling_party = democratic
+			}
+		}
+	}
+
+	# Transfer Power to the New Government
+	focus = {
+		id = ENG_transfer_power
+		icon = GFX_goal_unknown
+		ai_will_do = { factor = 1 }
+		x = 2
+		y = 4
+		available = { }
+		mutually_exclusive = { }
+		prerequisite = {
+			focus = ENG_re_establish_political_parties
+			focus = ENG_one_party_state
+		}
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.1
+			if = {
+				limit = {
+					has_country_flag = "monarchist"
+				}
+				set_cosmetic_tag = ENG_monarchist
+			}
+			else_if = {
+				limit = {
+					has_country_flag = "antimonarchist"
+				}
+				set_cosmetic_tag = ENG_anti_monarchist
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = ENG_replaced_neutrality_party_long
+				name = ENG_replaced_neutrality_party
+			}
+
+			retire_country_leader = yes
+
+			create_country_leader = {
+				name = "Edward VIII"
+				desc = "POLITICS_EDWARD_EDWARD_DESC"
+				picture = "Portrait_Britain_Edward_VIII.dds"
+				expire = "1965.1.1"
+				ideology = oligarchism
+				traits = {
+					inexperienced_imperialist				
+				}
+			}
+		}
+	}
+
+	# Renew Acts of Union
+	focus = { 
+		id = ENG_renew_acts_of_union 
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 1 } 
+	 	x = 5
+		y = 1 
+		available = { }
+		mutually_exclusive = { } 
+		prerequisite = {
+			focus = ENG_form_provisional_government
+		} 
+		cost = 10  
+		available_if_capitulated = yes
+		completion_reward = { 
+			annex_country = {
+				target = SCO
+				transfer_troops = yes
+			}
+			add_stability = 0.05
+		}
+	}
+
+	# Re-integrate Wales
+	focus = { 
+		id = ENG_re_integrate_wales
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 1 } 
+	 	x = 5
+		y = 4 
+		available = { }
+		mutually_exclusive = { } 
+		prerequisite = {
+			focus = ENG_renew_acts_of_union
+		} 
+		cost = 10  
+		available_if_capitulated = yes
+		completion_reward = { 
+			annex_country = {
+				target = WAL
+				transfer_troops = yes
+			}
+			add_stability = 0.05
+		}
+	}
+
+	# Restoration
+	focus = { 
+		id = ENG_restore_great_britain
+		icon = GFX_goal_unknown 
+		ai_will_do = { factor = 1 } 
+	 	x = 3
+		y = 5 
+		available = { }
+		mutually_exclusive = { } 
+		prerequisite = {
+			focus = ENG_re_integrate_wales
+		}
+		prerequisite = {
+			focus = ENG_transfer_power
+		}
+		cost = 10  
+		available_if_capitulated = yes
+		completion_reward = { 
+			add_state_core = 120
+			add_state_core = 121
+			add_state_core = 122
+			add_state_core = 133
+			add_state_core = 136
+		}
+	}
+}

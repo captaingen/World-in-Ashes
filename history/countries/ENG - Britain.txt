@@ -46,6 +46,21 @@ set_technology = {
 }
 
 set_convoys = 800
+set_party_name = {
+	ideology = democratic
+	long_name = ENG_democratic_party_long
+	name = ENG_democratic_party
+}
+set_party_name = {
+	ideology = fascism
+	long_name = ENG_fascism_long
+	name = ENG_fascism_party
+}
+set_party_name = {
+	ideology = communism
+	long_name = ENG_communism_party_long
+	name = ENG_communism_party
+}
 
 # DIPLOMACY
 
