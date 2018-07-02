@@ -1,4 +1,4 @@
-name="World in Ashes"
+﻿name="World in Ashes"
 path="mod/wia"
 tags={
 	"Alternative History"
