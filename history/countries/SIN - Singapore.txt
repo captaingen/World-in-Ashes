@@ -11,11 +11,27 @@ set_cosmetic_tag = SIN_GER # German Singapore
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 
+add_ideas = {
+SIN_cultural_tensions
+}
+
 set_politics = {
 
 	parties = {
 		neutrality = { 
-			popularity = 100
+			popularity = 57
+		}
+		fascism = {
+			popularity = 19
+		}
+		democratic = {
+			popularity = 13
+		}
+		communism = {
+			popularity = 3
+		}
+		socialism = {
+			popularity = 8
 		}
 	}
 	

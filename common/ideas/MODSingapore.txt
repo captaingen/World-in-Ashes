@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		SIN_cultural_tensions = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				army_org_Factor = -0.10
+			}
+		}
+	}
+}
