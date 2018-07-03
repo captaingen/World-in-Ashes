@@ -286,15 +286,7 @@ music = {
 
 	chance = {
 		modifier = {
-			if = {
-				limit = {
-					has_war = yes
-				}
-				factor = 500
-			}
-			else = {
-				factor = 2
-			}
+			factor = 20
 			TAG = SCO
 		}
 	}
@@ -305,15 +297,7 @@ music = {
 
 	chance = {
 		modifier = {
-			if = {
-				limit = {
-					has_war = yes
-				}
-				factor = 500
-			}
-			else = {
-				factor = 2
-			}
+			factor = 20
 			TAG = SCO
 		}
 	}
@@ -324,15 +308,7 @@ music = {
 
 	chance = {
 		modifier = {
-			if = {
-				limit = {
-					has_war = yes
-				}
-				factor = 500
-			}
-			else = {
-				factor = 2
-			}
+			factor = 20
 			TAG = SCO
 		}
 	}
@@ -343,15 +319,7 @@ music = {
 
 	chance = {
 		modifier = {
-			if = {
-				limit = {
-					has_war = yes
-				}
-				factor = 500
-			}
-			else = {
-				factor = 2
-			}
+			factor = 20
 			TAG = SCO
 		}
 	}
