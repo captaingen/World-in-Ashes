@@ -1,1 +1,297 @@
-﻿#blank
+﻿add_namespace = sco
+
+country_event = { # England Puppeting Scotland
+	id = sco.0
+	title = sco.0.t
+	desc = sco.0.d
+	picture = GFX_report_event_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = sco.0.a
+		ai_chance = { factor = 100 }
+		ENG = {
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = {
+					target = SCO
+					autonomous_state = autonomy_integrated_puppet
+					freedom_level = 0.35
+				}
+			}
+			else = {
+				puppet = SCO
+			}
+		}
+	}
+
+	option = { # Reject
+		name = sco.0.b
+		ai_chance = { factor = 0 }
+		IRE = {
+			country_event = {
+			    id = sco.1
+			    days = 3
+			    random = 0
+			}
+		}
+		DEN = {
+			country_event = {
+				id = sco.2
+				days = 5
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { # Scotland Seeks Assistance from Ireland
+	id = sco.1
+	title = sco.1.t
+	desc = sco.1.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Send Fighting Men
+		name = sco.1.a
+		ai_chance = { factor = 100 }
+
+		SCO = {
+			country_event = {
+				id = sco.3
+				days = 3
+				random = 0
+			}
+		}
+
+		add_manpower = -200000
+	}
+
+	option = { # Don't help
+		name = sco.1.b
+		ai_chance = { factor = 0 }
+		add_stability = -0.05 
+	}
+}
+
+country_event = { # Scotland Seeks Assistance from Denmark
+	id = sco.2
+	title = sco.2.t
+	desc = sco.2.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Send Equipment
+		name = sco.1.a
+		ai_chance = { factor = 100 }
+
+		SCO = {
+			country_event = {
+				id = sco.4
+				days = 5
+				random = 0
+			}
+		}
+
+		add_equipment_to_stockpile = {
+		    type = infantry_equipment
+		    amount = -10000
+		}
+		add_equipment_to_stockpile = {
+		    type = support_equipment
+		    amount = -1000
+		}
+		add_equipment_to_stockpile = {
+		    type = artillery
+		    amount = -500
+		}
+	}
+
+	option = { # Don't help
+		name = sco.2.b
+		ai_chance = { factor = 0 }
+		add_stability = -0.05 
+	}
+}
+
+country_event = { # Irish Volunteers Arrive
+	id = sco.3
+	title = sco.3.t
+	desc = sco.3.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = sco.3.a
+		ai_chance = { factor = 100 }
+
+		add_manpower = 150000
+		load_oob = "SCO_Irish_Volunteers"
+		set_country_flag = "assisted_by_ireland"
+	}
+}
+
+country_event = { # Danish Equipment Arrives
+	id = sco.4
+	title = sco.4.t
+	desc = sco.4.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sco.4.a
+		ai_chance = { factor = 100 }
+
+		add_equipment_to_stockpile = {
+		    type = infantry_equipment
+		    amount = 10000
+		}
+		add_equipment_to_stockpile = {
+		    type = support_equipment
+		    amount = 1000
+		}
+		add_equipment_to_stockpile = {
+		    type = artillery_equipment
+		    amount = 500
+		}
+		load_oob = "SCO_Danish_Veterans"
+		set_country_flag = "assisted_by_denmark"
+	}
+}
+
+country_event = { # Ireland refuses to help
+	id = sco.5
+	title = sco.5.t
+	desc = sco.5.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sco.5.a
+		ai_chance = { factor = 100 }
+		set_country_flag = "denied_by_ireland"
+	}
+}
+
+country_event = { # Denmark refuses to help
+	id = sco.6
+	title = sco.6.t
+	desc = sco.6.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sco.6.a
+		ai_chance = { factor = 100 }
+		set_country_flag = "denied_by_denmark"
+	}
+}
+
+country_event = { # Time to strike
+	id = sco.7
+	title = sco.7.t
+	desc = sco.7.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		AND = {
+			OR = {
+				has_country_flag = "denied_by_denmark"
+				has_country_flag = "assisted_by_denmark"
+			}
+			OR = {
+				has_country_flag = "denied_by_ireland"
+				has_country_flag = "assisted_by_ireland"
+			}
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = sco.7.a
+		ai_chance = { factor = 0 }
+
+		declare_war_on = {
+		    target = ENG
+		    type = annex_everything
+		}
+	}
+
+	option = {
+		name = sco.7.b
+		ai_chance = { factor = 100 }
+
+		create_wargoal = {
+		    type = annex_everything
+		    target = ENG
+		}
+	}
+}
+
+country_event = {
+	id = sco.8
+	title = sco.8.t
+	desc = sco.8.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		owns_state = 122
+		owns_state = 123
+		owns_state = 125
+		owns_state = 126
+		owns_state = 127
+		owns_state = 128
+		owns_state = 129
+		owns_state = 130
+		owns_state = 131
+		owns_state = 132
+		owns_state = 338
+	}
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = sco.8.a
+		ai_chance = { factor = 100 }
+
+		add_stability = 0.1
+		add_manpower = -130000
+		delete_unit_template_and_units = {
+		    division_template = "Trodaithe Éireannacha"
+		}
+		delete_unit_template_and_units = {
+		    division_template = "Danske marinere"
+		}
+	}
+}

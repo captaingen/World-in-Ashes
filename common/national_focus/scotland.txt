@@ -1,0 +1,296 @@
+focus_tree = {
+	id = wia_scotland_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SCO
+		}
+	}
+	default = no
+
+	focus = {
+		id = SCO_scottish_hegemony
+		icon = GFX_goal_unknown
+
+		ai_will_do = { factor = 2 }
+
+		x = 1
+		y = 1
+
+		available = {
+			owns_state = 122
+			owns_state = 123
+			owns_state = 125
+			owns_state = 126
+			owns_state = 127
+			owns_state = 128
+			owns_state = 129
+			owns_state = 130
+			owns_state = 131
+			owns_state = 132
+			owns_state = 338
+		}
+		prerequisite = {}
+		mutually_exclusive = {}
+
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 122
+			add_state_core = 123
+			add_state_core = 125
+			add_state_core = 126
+			add_state_core = 127
+			add_state_core = 128
+			add_state_core = 129
+			add_state_core = 130
+			add_state_core = 131
+			add_state_core = 132
+			add_state_core = 338
+
+			set_major = yes
+		}
+	}
+
+	focus = {
+		id = SCO_industrial_effort
+		icon = GFX_goal_generic_production
+
+		ai_will_do = { factor = 1 }
+
+		x = 5
+		y = 1
+
+		available = {}
+		prerequisite = {}
+		mutually_exclusive = {}
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_edinburgh_south_east_railway
+		icon = GFX_goal_generic_construct_infrastructure
+
+		ai_will_do = { factor = 1 }
+
+		x = 3
+		y = 2
+
+		available = {}
+		prerequisite = { focus = SCO_scottish_hegemony }
+		prerequisite = { focus = SCO_industrial_effort }
+		mutually_exclusive = {}
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			121 = {
+				set_building_level = {
+				    type = infrastructure
+				    level = 10
+				    instant_build = yes
+				}
+			}
+			131 = {
+				set_building_level = {
+				    type = infrastructure
+				    level = 10
+				    instant_build = yes
+				}
+			}
+			130 = {
+				set_building_level = {
+				    type = infrastructure
+				    level = 10
+				    instant_build = yes
+				}
+			}
+			129 = {
+				set_building_level = {
+				    type = infrastructure
+				    level = 10
+				    instant_build = yes
+				}
+			}
+			126 = {
+				set_building_level = {
+				    type = infrastructure
+				    level = 10
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_arms_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = SCO_industrial_effort }
+		x = 5
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_construction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = SCO_industrial_effort }
+		x = 7
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

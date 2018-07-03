@@ -54,27 +54,6 @@ units = {
 	division= {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 6300
-		division_template = "Rifle Division" 	
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 11064
-		division_template = "Rifle Division" 	
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
-
-	division= {	
-		division_name = {
-			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 11378
@@ -107,12 +86,12 @@ units = {
 		name = "Scottish Freedom Fleet"			
 			base = 6300
 			location = 6300 # Rosyth
-			ship = { name = "SFS Flower of Scotland" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SCO } } }		
-			ship = { name = "SFS Freedom's Call" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCO } } }
-			ship = { name = "SFS Spirit of Rosyth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
-			ship = { name = "SFS Glaswegian Kiss" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
-			ship = { name = "SFS Sutherland Supreme" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
-			ship = { name = "SFS Firth of Forth" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
-			ship = { name = "SFS Sheild of Skye" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "Flower of Scotland" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCO } } }		
+			ship = { name = "Freedom's Call" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "Spirit of Rosyth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "Glaswegian Kiss" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "Sutherland Supreme" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "Firth of Forth" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "Sheild of Skye" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
 	}
 }

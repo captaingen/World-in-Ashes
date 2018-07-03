@@ -1,0 +1,55 @@
+division_template = {
+	name = "Trodaithe Éireannacha"
+
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Galway Volunteers"
+		location = 9392
+		division_template = "Trodaithe Éireannacha" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Limerick Volunteers"
+		location = 9392
+		division_template = "Trodaithe Éireannacha" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Kilkenny Brawlers"
+		location = 9392
+		division_template = "Trodaithe Éireannacha" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Dublin Volunteers"
+		location = 9392
+		division_template = "Trodaithe Éireannacha" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Cork Volunteers"
+		location = 9392
+		division_template = "Trodaithe Éireannacha" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+}

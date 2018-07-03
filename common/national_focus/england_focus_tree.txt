@@ -243,18 +243,12 @@ focus_tree = {
 						is_puppet = no
 					}
 				}
-				if = {
-					limit = {
-						has_dlc = "Together for Victory"
+				SCO = { 
+					country_event = {
+					    id = sco.0
+					    days = 1
+					    random = 0
 					}
-					set_autonomy = {
-						target = SCO
-						autonomous_state = autonomy_integrated_puppet
-						freedom_level = 0.35
-					}
-				}
-				else = {
-					puppet = SCO
 				}
 			}
 			add_stability = 0.05
@@ -268,7 +262,19 @@ focus_tree = {
 		ai_will_do = { factor = 1 } 
 	 	x = 5
 		y = 5 
-		available = { }
+		available = { 
+			OR = {
+				AND = {
+					controls_state = 120
+					controls_state = 121
+					controls_state = 133
+					controls_state = 136
+				}
+				SCO = {
+					is_puppet_of = ENG
+				}
+			}
+		}
 		mutually_exclusive = { } 
 		prerequisite = {
 			focus = ENG_renew_acts_of_union

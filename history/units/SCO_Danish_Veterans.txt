@@ -1,0 +1,34 @@
+division_template = {
+	name = "Danske marinere"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+
+	support = {
+        recon = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1}
+        engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Danish Volunteer Marines"
+		location = 9392
+		division_template = "Danske marinere" 	
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Danish Volunteer Marines"
+		location = 9392
+		division_template = "Danske marinere" 	
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}

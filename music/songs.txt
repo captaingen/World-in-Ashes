@@ -286,7 +286,7 @@ music = {
 
 	chance = {
 		modifier = {
-			factor = 20
+			factor = 2
 			TAG = SCO
 		}
 	}
@@ -297,7 +297,7 @@ music = {
 
 	chance = {
 		modifier = {
-			factor = 20
+			factor = 2
 			TAG = SCO
 		}
 	}
@@ -308,7 +308,7 @@ music = {
 
 	chance = {
 		modifier = {
-			factor = 20
+			factor = 2
 			TAG = SCO
 		}
 	}
@@ -319,7 +319,7 @@ music = {
 
 	chance = {
 		modifier = {
-			factor = 20
+			factor = 2
 			TAG = SCO
 		}
 	}
