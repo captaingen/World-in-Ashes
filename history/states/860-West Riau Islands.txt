@@ -1,0 +1,31 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		12113 13248
+	}
+	resources={
+	}
+	
+	history={
+		owner = SIN
+		victory_points = {
+			13248 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			12113 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+
+		}
+		add_core_of = SIN
+
+	}
+	
+	manpower=8531
+	buildings_max_level_factor=1.000
+	state_category=sparse
+}

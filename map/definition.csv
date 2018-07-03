@@ -13246,3 +13246,6 @@
 13245;150;141;158;land;false;mountain;0
 13246;50;32;71;land;false;mountain;0
 13247;86;161;96;land;false;jungle;0
+13248;172;60;11;land;true;plains;1
+13249;199;225;131;land;true;urban;1
+13250;15;129;24;land;false;urban;1
