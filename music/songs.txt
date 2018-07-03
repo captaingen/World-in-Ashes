@@ -337,3 +337,22 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "Amazing Grace"
+
+	chance = {
+		modifier = {
+			if = {
+				limit = {
+					has_war = yes
+				}
+				factor = 500
+			}
+			else = {
+				factor = 2
+			}
+			TAG = SCO
+		}
+	}
+}
