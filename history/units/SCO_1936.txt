@@ -112,7 +112,7 @@ units = {
 			ship = { name = "SFS Spirit of Rosyth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
 			ship = { name = "SFS Glaswegian Kiss" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
 			ship = { name = "SFS Sutherland Supreme" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
-			ship = { name = "SFS Firth of Fife" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
+			ship = { name = "SFS Firth of Forth" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
 			ship = { name = "SFS Sheild of Skye" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = SCO } } }
 	}
 }

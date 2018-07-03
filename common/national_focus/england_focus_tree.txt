@@ -222,6 +222,11 @@ focus_tree = {
 			is_puppet = no
 		}
 		mutually_exclusive = { } 
+		bypass = {
+			SCO = {
+				country_exists = no
+			}
+		}
 		prerequisite = {
 			focus = ENG_form_provisional_government
 		} 
@@ -263,14 +268,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 } 
 	 	x = 5
 		y = 5 
-		available = { 
-			SCO = {
-				OR = {
-					is_puppet_of = ENG
-					country_exists = no
-				}
-			}
-		}
+		available = { }
 		mutually_exclusive = { } 
 		prerequisite = {
 			focus = ENG_renew_acts_of_union

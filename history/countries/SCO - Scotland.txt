@@ -148,7 +148,7 @@ create_corps_commander = {
 	skill = 2
 }
 
-create_field_marshall = {
+create_field_marshal = {
 	name = "Alan Cunningham"
 	picture = "Portrait_Britain_Alan_Cunningham.dds"
 	traits = {}
