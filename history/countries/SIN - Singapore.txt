@@ -13,6 +13,10 @@ set_country_flag = completed_industry_flag
 
 add_ideas = {
 SIN_cultural_tensions
+SIN_poor_education
+SIN_international_stagnation
+SIN_weak_industry
+SIN_early_military
 }
 
 set_politics = {
@@ -39,4 +43,14 @@ set_politics = {
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Albert Hahl"
+	picture = "Portrait_SIN_Albert_Hahl.tga"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		
+	}
 }
