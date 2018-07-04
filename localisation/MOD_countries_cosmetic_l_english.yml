@@ -81,23 +81,9 @@
  SIN_tamil_culture_ADJ:0 "Singappūr"
 
  #################################################
- #   If England Abolishes the Monarchy
+ #   British Isles Country Names
  #################################################
- ENG_anti_monarchist_democratic:0 "Republic of Great Britain"
- ENG_anti_monarchist_democratic_DEF:0 "the Republic of Great Britain"
-
- ENG_anti_monarchist_fascism:0 "British Empire"
- ENG_anti_monarchist_fascism_DEF:0 "the British Empire"
-
- ENG_anti_monarchist_communism:0 "Commune of Britain"
- ENG_anti_monarchist_communism_DEF:0 "the Commune of Britain"
-
- ENG_anti_monarchist_fascism_ADJ:0 "British"
- ENG_anti_monarchist_democratic_ADJ:0 "British"
- ENG_anti_monarchist_communism_ADJ:0 "British"
- #################################################
- #   The Initial English Military Junta
- #################################################
+ # English Military Junta
  ENG_military_junta_neutrality:0 "English Military Junta"
  ENG_military_junta_neutrality_DEF:0 "the English Military Junta"
 
@@ -114,9 +100,22 @@
  ENG_military_junta_fascism_ADJ:0 "English"
  ENG_military_junta_democratic_ADJ:0 "English"
  ENG_military_junta_communism_ADJ:0 "English"
- #################################################
- #   If England Keeps the Monarchy
- #################################################
+
+ # Anti-Monarchist Great Britain
+ ENG_anti_monarchist_democratic:0 "Republic of Great Britain"
+ ENG_anti_monarchist_democratic_DEF:0 "the Republic of Great Britain"
+
+ ENG_anti_monarchist_fascism:0 "British Empire"
+ ENG_anti_monarchist_fascism_DEF:0 "the British Empire"
+
+ ENG_anti_monarchist_communism:0 "Commune of Britain"
+ ENG_anti_monarchist_communism_DEF:0 "the Commune of Britain"
+
+ ENG_anti_monarchist_fascism_ADJ:0 "British"
+ ENG_anti_monarchist_democratic_ADJ:0 "British"
+ ENG_anti_monarchist_communism_ADJ:0 "British"
+
+ # Monarchist Great Britain
  ENG_monarchist_neutrality:0 "Kingdom of Great Britain"
  ENG_monarchist_neutrality_DEF:0 "the Kingdom of Great Britain"
 
@@ -129,4 +128,36 @@
  ENG_monarchist_fascism_ADJ:0 "British"
  ENG_monarchist_neutrality_ADJ:0 "British"
  ENG_monarchist_democratic_ADJ:0 "British"
+
+ # Monarchist England
+ ENG_solo_monarchist_neutrality:0 "Kingdom of England and Wales"
+ ENG_solo_monarchist_neutrality_DEF:0 "the Kingdom of England and Wales"
+
+ ENG_solo_monarchist_democratic:0 "Kingdom of England and Wales"
+ ENG_solo_monarchist_democratic_DEF:0 "the Kingdom of England and Wales"
+
+ ENG_solo_monarchist_fascism:0 "English Empire"
+ ENG_solo_monarchist_fascism_DEF:0 "the English Empire"
+
+ ENG_solo_monarchist_neutrality_ADJ:0 "English"
+ ENG_solo_monarchist_fascism_ADJ:0 "English"
+ ENG_solo_monarchist_democratic_ADJ:0 "English"
+
+ # Anti-Monarchist England
+
+ ENG_solo_anti_monarchist_neutrality:0 "Anglo-Welsh Union"
+ ENG_solo_anti_monarchist_neutrality_DEF:0 "the Anglo-Welsh Union"
+
+ ENG_solo_anti_monarchist_democratic:0 "Republic of England and Wales"
+ ENG_solo_anti_monarchist_democratic_DEF:0 "the Republic of England and Wales"
+
+ ENG_solo_anti_monarchist_fascism:0 "Anglo-Welsh Empire"
+ ENG_solo_anti_monarchist_fascism_DEF:0 "the Anglo-Welsh Empire"
+
+ ENG_solo_anti_monarchist_neutrality_ADJ:0 "Anglo-Welsh"
+ ENG_solo_anti_monarchist_fascism_ADJ:0 "Anglo-Welsh"
+ ENG_solo_anti_monarchist_democratic_ADJ:0 "Anglo-Welsh"
+
+ #################################################
+ #   
  #################################################

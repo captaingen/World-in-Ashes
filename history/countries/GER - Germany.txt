@@ -63,6 +63,10 @@ set_autonomy = {
 	target = SIN
 	autonomous_state = autonomy_colony
 }
+set_autonomy = {
+	target = NID
+	autonomous_state = autonomy_colony
+}
 
 #Trade
 create_import = {

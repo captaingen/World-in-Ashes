@@ -39,6 +39,8 @@ set_politics = {
 	elections_allowed = yes
 }
 
+add_state_claim = 119
+
 create_country_leader = {
 	name = "Éamon de Valera"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"

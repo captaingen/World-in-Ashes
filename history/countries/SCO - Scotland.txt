@@ -83,6 +83,7 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 
+add_state_claim = 119
 
 
 #give_guarantee = CZE

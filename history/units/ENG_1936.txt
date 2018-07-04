@@ -94,7 +94,7 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "Sherwood Foresters"
+		name = "Trent Guard"
 		location = 6237
 		division_template = "Home Guard" 	
 		start_experience_factor = 0.3
@@ -144,21 +144,29 @@ units = {
 	}
 	##### Remaining Standing Army
 	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
+		name = "Royal Rifles"
 		location = 6103
 		division_template = "Rifles Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
 	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 6103
+		name = "Sherwood Foresters"
+		location = 6237
+		division_template = "Rifles Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Cornish Pasties"
+		location = 6237
+		division_template = "Rifles Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "White Cliff Rifles"
+		location = 6237
 		division_template = "Rifles Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9

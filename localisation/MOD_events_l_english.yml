@@ -161,18 +161,18 @@
  # Britain
 
  sco.0.t:0 "New Acts of Union"
- sco.0.d:0 "England demands a renewal of the 1707 Act of Union. Agreeing to this would secure our future as a member state of a greater unified country, but at the cost of Scottish independence and freedom. Do we surrender our ambitions in the name of cooperation? Or do we fight for our right to be free? We have many potential freinds if we chose to resist."
+ sco.0.d:0 "England requests a renewal of the 1707 Act of Union. If we agreed, we could help rebuild the great nation that one ruled the seas, but at the cost of the freedom and independence we have enjoyed for a decade. Scottish unionists are few and far between, with the overwhelming majority of the Scottish people decrying any form of unification with England. But the decision does not lie with the people, instead it is up to the government to decide. Do we rejoin England to rebuild the United Kingdom? Or do we continue our plight for a strong and independent Scotland?"
  sco.0.a:0 "Rejoin our brothers in the south."
  sco.0.b:0 "Scottish freedom is forever!"
  
- sco.1.t:0 "Scotland Defies English Dominance"
- sco.1.d:0 "Scotland has refused to renew the acts of union that merged them with England over 300 years ago. This is surely a sign that English dominance of the British Isles is coming to an end, if even their oldest friends a turning their backs on them. We could take this opportunity to strengthen Scotland against the English threat, or maybe even support a new Scottish hegemony."
+ sco.1.t:0 "Scotland Proposes A Deal"
+ sco.1.d:0 "Following an anonymous tip, one of our ministers met with a Scottish diplomat in secret. Scotland is offering to publically support our claim to Northern Ireland if we help them fight the English. As a gesture of good will, they have already withdrawn their own claim on the territory. 
  sco.1.a:0 "Send fighting men to aid Scotland"
- sco.1.b:0 "Scotland is no better than England"
+ sco.1.b:0 "Their claim was worthless anyway, we will not help."
 
- sco.2.t:0 "Scotland Defies English Dominance"
- sco.2.d:0 "Scotland has refused to renew the acts of union that merged them with England over 300 years ago. This is surely a sign that English dominance of the British Isles is coming to an end, if even their oldest friends a turning their backs on them. We could take this opportunity to strengthen Scotland against the English threat, or maybe even support a new Scottish hegemony."
- sco.2.a:0 "Send guns and equipment to bolster their arsenal!"
+ sco.2.t:0 "Scotland Seeks Secret Support"
+ sco.2.d:0 "Following an anonymous tip, one of our ministers met with a Scottish diplomat in secret. It appears Scotland has plans to subjugate England, to eliminate them as a world power and place Scotland firmly in control of the British Isles. But they cannot do it alone, the diplomat has requested Danish assistance in their efforts. We could help them, and finally defeat the English once and for all by supporting Scotland, or we could wait and conquer England ourselves."
+ sco.2.a:0 "Send guns and equipment to bolster their arsenal"
  sco.2.b:0 "Are the Scots that different to the English?"
 
  sco.3.t:0 "Ireland Sends Fighting Men"
@@ -180,7 +180,7 @@
  sco.3.a:0 "We grow stronger by the day"
 
  sco.4.t:0 "Denmark Send Equipment!"
- sco.4.d:0 "In the early hours of the morning several large cargo ships, flying Danish colours, docked in Rosyth. The ships brought thousands of rifles, artillery pieces and other support equipment. Not only have these brave Danes delivered such valuable cargo to our shores, but they are also willing to join in the fight against the English. Who are we to deny them that?"
+ sco.4.d:0 "In the early hours of the morning several large cargo ships, flying Danish colours, docked in Rosyth. The ships brought thousands of rifles, artillery pieces and other support equipment. These brave Danes have delivered a valuable cargo to our shores."
  sco.4.a:0 "They clearly have a grudge to settle"
 
  sco.5.t:0 "Ireland Has Forsaken Us!"
@@ -191,11 +191,42 @@
  sco.6.d:0 "The Danish are so blinded by their hatred of the English, they cannot see us through the red haze. No help is coming from Denmark."
  sco.6.a:0 "Bastards!"
 
- sco.7.t:0 "Strike them Early!"
- sco.7.d:0 "While England don't expect a Scottish insurgency, they are vulnerable. We should attack them now before they discover our plans and mobilise. The time for war is now."
- sco.7.a:0 "Make those English bastards crawl!"
- sco.7.b:0 "Patience is a virtue, we should wait for a more oppertune moment to strike."
+ sco.7.t:0 "The War Is Won!"
+ sco.7.d:0 "A new dawn has broken and the sun rises on the new Scottish Empire. We can look forward to a greater Scotland on the world stage. Now that the fighting has subsided, it's time to send the volunteers home, they are truly Scottish in heart."
+ sco.7.a:0 "Freedom."
 
- sco.8.t:0 "The War Is Won!"
- sco.8.d:0 "A new dawn has broken, the sun now rises on the Scottish Empire. We should now work to repair what has been damaged, and look forward to a greater Scotland on the world stage."
- sco.8.a:0 "Freedom."
+ sco.8.t:0 "Scotland Requests Formal Alliance"
+ sco.8.d:0 "Following their heroic subjugation of the English, Scotland now seeks to formalise an alliance with us. Admitting Scotland into the North Sea Pact would further consolidate friendly power in the North Sea, and help to secure our coastline."
+ sco.8.a:0 "Scotland is welcome!"
+ sco.8.b:0 "No, we cannot openly accept them."
+
+ sco.9.t:0 "Germany Accepts Alliance"
+ sco.9.d:0 "The Kaiser has accepted our request to join the North Sea Pact, together we have secured the North Sea and consolidated our power base in Northern Europe."
+ sco.9.a:0 "Excellent!"
+
+ sco.10.t:0 "Germany Refuse Alliance"
+ sco.10.d:0 "Despite support from the North Sea Pact in our war against England, Germany refuses to let us into the North Sea Pact. Maybe they're too cowardly to openly support our noble cause?"
+ sco.10.a:0 "Bastards!"
+
+ sco.11.t:0 "Scotland Seeks Secret Support"
+ sco.11.d:0 "Following an anonymous tip, one of our ministers met with a Scottish diplomat in secret. It appears Scotland has plans to subjugate England, to eliminate them as a world power and place Scotland firmly in control of the British Isles. But they cannot do it alone, the diplomat has requested Danish assistance in their efforts. We could help them, and finally defeat the English once and for all by supporting Scotland, or we could wait and conquer England ourselves."
+ sco.11.a:0 "Send volunteers to help thei cause!"
+ sco.11.b:0 "Are the Scots that different to the English?"
+
+ sco.12.t:0 "German Volunteers Arrive In Edinburgh"
+ sco.12.d:0 "Volunteers have arrived from Germany to assist our war effort, we are truly blessed to have friends like the Kaiser!"
+ sco.12.a:0 "England doesn't stand a chance!"
+
+ sco.13.t:0 "Germany Refuses To Help Us"
+ sco.13.d:0 "Germany have squandered an opportunity to end English dominance once and for all."
+ sco.13.a:0 "Bastards!"
+
+ sco.14.t:0 "Scotland backs Ireland's Claim"
+ sco.14.d:0 "In a, not all that, surprising turn of events, Scotland has both yielded it's claim on Northern Ireland and come out in open support of Ireland's claim. Given recent events, it's becoming much clearer to whom Northern Ireland should be handed over to."
+ sco.14.a:0 "Ireland is the only claimant left standing"
+ sco.14.b:0 "Northern Ireland was never going to be part of Ireland."
+
+ sco.15.t:0 "England Is Stable Again"
+ sco.15.d:0 "England is finally stable enough to retake control of Northern Ireland, given our initial objections have been satisfied, we should return it to their control."
+ sco.15.a:0 "Return Northern Ireland"
+ sco.15.b:0 "We could retain a power base in the British Isles"

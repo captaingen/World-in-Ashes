@@ -1076,7 +1076,22 @@
  USA_neutrality_ADJ:0 "American"
  USA_communism_ADJ:0 "American"
  USA_socialism_ADJ:0 "American"
- 
+
+ NID_neutrality:0 "Northern Ireland"
+ NID_neutrality_DEF:0 "Northern Ireland"
+ NID_fascism:0 "Northern Ireland"
+ NID_fascism_DEF:0 "Northern Ireland"
+ NID_democratic:0 "Northern Ireland"
+ NID_democratic_DEF:0 "Northern Ireland"
+ NID_communism:0 "Northern Ireland" 
+ NID_communism:0 "Northern Ireland"
+ NID_socialism:0 "Northern Ireland"
+ NID_socialism_DEF:0 "Northern Ireland"
+ NID_neutrality_ADJ:0 "Northern Irish"
+ NID_fascism_ADJ:0 "Northern Irish"
+ NID_democratic_ADJ:0 "Northern Irish"
+ NID_communism_ADJ:0 "Northern Irish"
+ NID_socialism_ADJ:0 "Northern Irish"
  
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"

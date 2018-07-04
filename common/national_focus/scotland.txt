@@ -11,13 +11,110 @@ focus_tree = {
 	default = no
 
 	focus = {
+		id = SCO_shadow_pact
+		icon = GFX_goal_unknown
+
+		ai_will_do = { factor = 1 }
+
+		x = 10
+		y = 0
+
+		available = { is_ai = no }
+
+		prerequisite = {}
+		mutually_exclusive = {}
+
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			GER = {
+				country_event = {
+				    id = sco.11
+				    days = 3
+				    random = 0
+				}
+			}
+			DEN = {
+				country_event = {
+					id = sco.2
+					days = 5
+					random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_ulster_pact
+		icon = GFX_goal_unknown
+
+		ai_will_do = { factor = 1 }
+
+		x = 12
+		y = 0
+
+		available = { is_ai = no }
+
+		prerequisite = {}
+		mutually_exclusive = {}
+
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_state_claim = 119
+			IRE = {
+				country_event = {
+				    id = sco.1
+				    days = 3
+				    random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_scottish_insurgency
+		icon = GFX_goal_unknown
+
+		ai_will_do = { factor = 1 }
+
+		x = 11
+		y = 1
+
+		available = { is_ai = no }
+		prerequisite = { 
+			focus = SCO_ulster_pact
+			focus = SCO_shadow_pact
+		}
+		mutually_exclusiv = { }
+
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+
+			add_war_support = 0.1
+
+			create_wargoal = {
+			    type = annex_everything
+			    target = ENG
+			}
+		}
+	}
+
+	focus = {
 		id = SCO_scottish_hegemony
 		icon = GFX_goal_unknown
 
 		ai_will_do = { factor = 2 }
 
-		x = 1
-		y = 1
+		x = 11
+		y = 2
 
 		available = {
 			owns_state = 122
@@ -32,7 +129,7 @@ focus_tree = {
 			owns_state = 132
 			owns_state = 338
 		}
-		prerequisite = {}
+		prerequisite = { focus = SCO_scottish_insurgency }
 		mutually_exclusive = {}
 
 		cost = 10
@@ -52,7 +149,56 @@ focus_tree = {
 			add_state_core = 132
 			add_state_core = 338
 
-			set_major = yes
+			set_major = yes	
+
+			GER = {
+				country_event = {
+					id = sco.14
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_formalise_alliance
+		icon = GFX_goal_unknown
+
+		ai_will_do = { factor = 100 }
+
+		x = 9
+		y = 3
+
+		available = { 
+			SCO = {
+				AND = { 
+					is_in_faction = no
+					is_puppet = no
+				}
+			}
+			OR = {
+				has_country_flag = "Assisted by Denmark"
+			}
+		}
+
+		prerequisite = { focus = SCO_scottish_hegemony }
+		mutually_exclusive = {
+
+		}
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			GER = {
+				country_event = {
+					id = sco.8
+					days = 1
+					random = 0
+				}
+			}
 		}
 	}
 
@@ -62,8 +208,8 @@ focus_tree = {
 
 		ai_will_do = { factor = 1 }
 
-		x = 5
-		y = 1
+		x = 3
+		y = 2
 
 		available = {}
 		prerequisite = {}
@@ -89,8 +235,8 @@ focus_tree = {
 
 		ai_will_do = { factor = 1 }
 
-		x = 3
-		y = 2
+		x = 5
+		y = 3
 
 		available = {}
 		prerequisite = { focus = SCO_scottish_hegemony }
@@ -156,8 +302,8 @@ focus_tree = {
 		id = SCO_arms_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = SCO_industrial_effort }
-		x = 5
-		y = 2
+		x = 1
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes
@@ -227,8 +373,8 @@ focus_tree = {
 		id = SCO_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = SCO_industrial_effort }
-		x = 7
-		y = 2
+		x = 3
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes

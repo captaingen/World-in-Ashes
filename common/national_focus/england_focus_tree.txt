@@ -20,7 +20,7 @@ focus_tree = {
 	 	y = 1 
 	 	available = { }
 	 	prerequisite = { } 
-	 	cost = 5  
+	 	cost = 10  
 	  	available_if_capitulated = yes 
 	  	completion_reward = { 
 			add_stability = 0.1
@@ -51,7 +51,7 @@ focus_tree = {
 		focus = { 
 		id = ENG_favour_democracy 
 		icon = GFX_goal_unknown 
-		ai_will_do = { factor = 2 } 
+		ai_will_do = { factor = 20 } 
 		x = 3 
 		y = 2 
 		available = { }
@@ -71,7 +71,7 @@ focus_tree = {
 	focus = { 
 		id = ENG_return_of_the_king
 		icon = GFX_goal_unknown 
-		ai_will_do = { factor = 2 } 
+		ai_will_do = { factor = 20 } 
 		x = 1
 		y = 3
 		available = { }
@@ -121,7 +121,7 @@ focus_tree = {
 	focus = {
 		id = ENG_transfer_power
 		icon = GFX_goal_unknown
-		ai_will_do = { factor = 1 }
+		ai_will_do = { factor = 20 }
 		x = 2
 		y = 4
 		available = { }
@@ -130,7 +130,7 @@ focus_tree = {
 			focus = ENG_return_of_the_king
 			focus = ENG_no_more_kings
 		}
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		completion_reward = {
 			add_stability = 0.1
@@ -229,7 +229,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = ENG_form_provisional_government
-		} 
+		}
+
+		cancel = {
+			has_war_with = SCO
+		}
+
 		cost = 10  
 		available_if_capitulated = yes
 		completion_reward = {
@@ -257,23 +262,12 @@ focus_tree = {
 
 	# Restoration
 	focus = { 
-		id = ENG_restore_great_britain
+		id = ENG_consolidate_government
 		icon = GFX_goal_unknown 
 		ai_will_do = { factor = 1 } 
 	 	x = 5
 		y = 5 
 		available = { 
-			OR = {
-				AND = {
-					controls_state = 120
-					controls_state = 121
-					controls_state = 133
-					controls_state = 136
-				}
-				SCO = {
-					is_puppet_of = ENG
-				}
-			}
 		}
 		mutually_exclusive = { } 
 		prerequisite = {
@@ -288,6 +282,80 @@ focus_tree = {
 			remove_ideas = {
 				ENG_nation_divided
 			}
+
+			annex_country = {
+				target = WAL
+				transfer_troops = yes
+			}
+
+			add_state_core = 122
+
+			if = {
+				limit = {
+					has_country_flag = "monarchist"
+				}
+				set_cosmetic_tag = ENG_solo_monarchist
+			}
+			else_if = {
+				limit = {
+					has_country_flag = "antimonarchist"
+				}
+				set_cosmetic_tag = ENG_solo_anti_monarchist
+			}
+			GER = {
+				country_event = {
+					id = sco.15
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+
+	# Full Re-integration
+	focus = {
+		id = ENG_fully_re_integrate
+		icon = GFX_goal_unknown
+		ai_will_do = { factor = 1 }
+
+		x = 5
+		y = 6
+
+		available = { 
+			OR = {
+				AND = {
+					owns_state = 120
+					owns_state = 121
+					owns_state = 133
+					owns_state = 136
+					NOT = {
+						country_exists = SCO
+					}
+				}
+				SCO = {
+					is_puppet_of = ENG
+				}
+			}
+		}
+		mutually_exclusive = {}
+
+		prerequisite = { focus = ENG_consolidate_government }
+
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			annex_country = {
+				target = SCO
+				transfer_troops = yes
+			}
+
+			add_state_core = 120
+			add_state_core = 121
+			add_state_core = 133
+			add_state_core = 136
+
 			if = {
 				limit = {
 					has_country_flag = "monarchist"

@@ -120,6 +120,8 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 
+add_state_claim = 119
+
 ############# England starts under martial law ############
 set_cosmetic_tag = ENG_military_junta
 
