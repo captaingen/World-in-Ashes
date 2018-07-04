@@ -72,7 +72,7 @@ country_event = { # Scotland Seeks Assistance from Ireland
 			}
 		}
 
-		add_manpower = -200000
+		add_manpower = -50000
 	}
 
 	option = { # Don't help
@@ -106,11 +106,11 @@ country_event = { # Scotland Seeks Assistance from Denmark
 
 		add_equipment_to_stockpile = {
 		    type = infantry_equipment
-		    amount = -10000
+		    amount = -2000
 		}
 		add_equipment_to_stockpile = {
 		    type = support_equipment
-		    amount = -1000
+		    amount = -500
 		}
 		add_equipment_to_stockpile = {
 		    type = artillery
@@ -139,7 +139,6 @@ country_event = { # Irish Volunteers Arrive
 		name = sco.3.a
 		ai_chance = { factor = 100 }
 
-		add_manpower = 150000
 		load_oob = "SCO_Irish_Volunteers"
 		set_country_flag = "assisted_by_ireland"
 	}
@@ -161,11 +160,11 @@ country_event = { # Danish Equipment Arrives
 
 		add_equipment_to_stockpile = {
 		    type = infantry_equipment
-		    amount = 10000
+		    amount = 2000
 		}
 		add_equipment_to_stockpile = {
 		    type = support_equipment
-		    amount = 1000
+		    amount = 500
 		}
 		add_equipment_to_stockpile = {
 		    type = artillery_equipment
@@ -286,7 +285,6 @@ country_event = {
 		ai_chance = { factor = 100 }
 
 		add_stability = 0.1
-		add_manpower = -130000
 		delete_unit_template_and_units = {
 		    division_template = "Trodaithe Éireannacha"
 		}
