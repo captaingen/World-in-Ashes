@@ -97,4 +97,8 @@ spriteTypes = {
 		name = "GFX_focus_french_army"
 		textureFile = "gfx/interface/goals/BOR/focus_french_army.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_USA_global_interventionism"
+		textureFile = "gfx/interface/goals/USA/focus_USA_global_interventionism.dds"			
+	}
 }
