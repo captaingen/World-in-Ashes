@@ -22,5 +22,48 @@ ideas = {
 				
 			}
 		}
+		
+		FRA_petain = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = petain_idea
+			
+			modifier = {
+				army_artillery_attack_factor = 0.15
+				experience_gain_army_factor = 0.075
+			}
+		}
+		
+		FRA_german_air_support = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ger_rebuild_the_nation
+			
+			modifier = {
+				air_air_superiority_attack_factor = 0.025
+				air_air_superiority_defence_factor = 0.025
+				air_close_air_support_attack_factor = 0.025
+			}
+		}
+	
+	
 	}
 }

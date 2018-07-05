@@ -20,6 +20,10 @@
  #France
  FRA_Civil_War:0 "French Civil War"
  FRA_Civil_War_desc:0 "The french civil war has been raging on for quite a while, and we have to be at our best to be able to win this war."
+ FRA_petain:0 "Maréchal Pétain"
+ FRA_petain_desc:0 "Philippe Pétain, previously a very decorated general in the French Army, has lead successful attacks using artillery against the germans. His expertise will help us immensely again the Bordelais!"
+ FRA_german_air_support:0 "German Air Support"
+ FRA_german_air_support_desc:0 "The germans are on our sides, they sent us a number of their good planes. We will rule the skies over France... The republic cannot beat our planes with their outdated WW1 aircraft!"
  
  #Bordeaux
  BOR_USA_rejected_request:0 "Rejected Request"

@@ -169,4 +169,8 @@ spriteTypes = {
 	    name = "GFX_idea_manuel_rodriguez_idea"
 		texturefile = "gfx/interface/ideas/ministers/peru/manuel_rodriguez.dds"
 	}
+	spriteType = {
+	    name = "GFX_idea_petain_idea"
+		texturefile = "gfx/interface/ideas/petain.dds"
+	}
 }

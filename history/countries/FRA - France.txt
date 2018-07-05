@@ -53,6 +53,8 @@ set_convoys = 300
 
 add_ideas = {
 FRA_Civil_War
+FRA_petain
+FRA_german_air_support
 }
 
 set_politics = {
