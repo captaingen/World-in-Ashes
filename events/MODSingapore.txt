@@ -51,9 +51,11 @@ country_event = { #Anti-German Rally
 		ai_chance = {
 			factor = 1
 		}
-		country_event = {
-			days = 3
-			id = singapore.2
+		hidden_effect = {
+			country_event = {
+				days = 3
+				id = singapore.2
+			}
 		}
 	}
 }
@@ -77,9 +79,192 @@ country_event = { #Rallies Continue
 		ai_chance = {
 			factor = 1
 		}
-		country_event = {
-			days = 5
-			id = singapore.3
+		hidden_effect = {
+			country_event = {
+				days = 2
+				id = singapore.3
+			}
 		}
+	}
+}
+
+country_event = { #Albert Hahl Returns
+	id = singapore.3
+	title = singapore.3.title
+	desc = singapore.3.desc
+	picture = wia
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SIN
+	}
+	
+	option = {
+		name = singapore.3.a
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			country_event = {
+				days = 3
+				id = singapore.4
+			}
+		}
+		create_country_leader = {
+			name = "Albert Hahl"
+			picture = "Portrait_SIN_Albert_Hahl.tga"
+			expire = "1965.1.1"
+			ideology = moderatism
+			traits = {
+			
+			}
+		}
+	}
+}
+
+country_event = { #Rallies Turn Violent
+	id = singapore.4
+	title = singapore.4.title
+	desc = singapore.4.desc
+	picture = wia
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SIN
+	}
+	
+	option = { #Seek peaceful measures
+		name = singapore.4.a
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			country_event = {
+				days = 1
+				id = singapore.5
+			}
+		}
+	}
+	option = { #Seek aggressive measures
+		name = singapore.4.b
+		ai_chance = {
+			factor = 2
+		}
+#		hidden_effect = {
+#			country_event = {
+#				days = 1
+#				id = Pending
+#			}
+#		}
+	}
+}
+
+country_event = { #Peaceful Tactics
+	id = singapore.5
+	title = singapore.5.title
+	desc = singapore.5.desc
+	picture = wia
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SIN
+	}
+	
+	option = { #Wait it out
+		name = singapore.5.a
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			country_event = {
+				days = 3
+				id = singapore.6
+			}
+		}
+	}
+	option = { #Counter-Propaganda
+		name = singapore.5.b
+		ai_chance = {
+			factor = 1
+		}
+#		hidden_effect = {
+#			country_event = {
+#				days = 3
+#				id = Pending
+#			}
+#		}
+	}
+	option = { #Imprison Those Leading the Rallies
+		name = singapore.5.c
+		ai_chance = {
+			factor = 1
+		}
+#		hidden_effect = {
+#			country_event = {
+#				days = 3
+#				id = Pending
+#			}
+#		}
+	}
+}
+
+country_event = { #Vigilantes Rise
+	id = singapore.6
+	title = singapore.6.title
+	desc = singapore.6.desc
+	picture = wia
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SIN
+	}
+	
+	option = { #Leave Them to Fight
+		name = singapore.6.a
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			country_event = {
+				days = 2
+				id = singapore.7
+			}
+		}
+	}
+	option = { #Support the Vigilantes
+		name = singapore.6.b
+		ai_chance = {
+			factor = 1
+		}
+#		hidden_effect = {
+#			country_event = {
+#				days = 2
+#				id = Pending
+#			}
+#		}
+	}
+	option = { #Take Action Against Vigilantes
+		name = singapore.6.c
+		ai_chance = {
+			factor = 1
+		}
+#		hidden_effect = {
+#			country_event = {
+#				days = 2
+#				id = Pending
+#			}
+#		}
 	}
 }

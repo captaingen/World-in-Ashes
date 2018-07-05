@@ -46,8 +46,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Albert Hahl"
-	picture = "Portrait_SIN_Albert_Hahl.tga"
+	name = "Council of Representation"
+	picture = "Portrait_SIN_Council_of_Representation.tga"
 	expire = "1965.1.1"
 	ideology = moderatism
 	traits = {
