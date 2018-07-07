@@ -13,6 +13,7 @@ country_event = {
 
     trigger = {
 		has_idea = disintegrating_country
+		tag = TRA
     }
 
     mean_time_to_happen = {

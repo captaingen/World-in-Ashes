@@ -235,3 +235,57 @@ country_event = {
 		swap_ideas = { remove_idea = BOR_very_incompetent_staff add_idea = BOR_slightly_incompetent_staff }
 	}
 }
+
+#nasis took control of bordeaux
+country_event = {
+    id = bordeaux.6
+    title = bordeaux.6.t
+    desc = bordeaux.6.d
+    picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+
+	trigger = {
+		FRA = {
+			controls_state = 19
+		}
+	}
+	
+    immediate = {
+		
+    }
+
+    option = { #surrender
+		name = bordeaux.6.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = BOR_SURRENDER_TT
+		hidden_effect = {
+			FRA = {
+				transfer_state = 23
+				transfer_state = 33
+				transfer_state = 26
+				transfer_state = 20
+				transfer_state = 735
+				transfer_state = 32
+				transfer_state = 25
+				transfer_state = 19
+				transfer_state = 31
+				transfer_state = 22
+				transfer_state = 21
+			}
+			white_peace = {
+				tag = FRA
+				message = peace_fra_bor_message
+			}
+		}
+	}
+	option = { #keep fighting
+		name = bordeaux.6.b
+		ai_chance = {
+			factor = 50
+		}
+		add_war_support = -0.08
+	}
+}
