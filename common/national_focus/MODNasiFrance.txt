@@ -1,0 +1,62 @@
+focus_tree = {
+	id = nasi_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = FRA_bor_attacked
+		icon = unknown
+		x = 4
+		y = 0
+		cost = 2.9
+		
+		available = {
+			BOR = {
+				has_completed_focus = BOR_attack_them
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_jeunes_de_paris
+		icon = unknown
+		x = 0
+		y = 1
+		cost = 5
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = FRA_bor_attacked
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+}
