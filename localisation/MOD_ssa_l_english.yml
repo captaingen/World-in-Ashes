@@ -1,0 +1,22 @@
+﻿l_english:
+ #Focuses
+ #Custom Tooltips
+  SSA_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
+  SSA_hamilton_wadsworth_siege_threat:0 "Fort Hamilton and Fort Wadsworth Besieged"
+ #Localized country Flags
+ #Opinion mods
+ #Events
+  #Civil War event chain
+   modssa.0.t:0 "US Military Defects to us"
+   modssa.0.d:0 "After the succession of Michigan, Massachussets, Rhode Island, Connecticut, and New York, pro-Socialist military personnel have defected to our cause. Most of these military units are from the National Guard, but some have come from the proffesional army. We have enough of these soldiers to form an elite division of regular infantry, which is good news if we are to fight the Federals."
+   modssa.0.a:0 "We'll put them to good use"
+   modssa.1.t:0 "The United States has Attacked us!"
+   modssa.1.d:0 "Reports are coming in that the Federals are attacking along several key roads in the Midwest and are attempting to cross key bridges across the Susquehanna and Ohio. It appears that our only option now is to fight back. For Socialism!"
+   modssa.1.a:0 "Let them come"
+   modssa.2.t:0 "Fort Hamilton and Fort Wadsworth"
+   modssa.2.d:0 "The United States Navy has been sighted supplying the century old Fort Hamilton and Fort Wadsworth, which guard the entrance into New York Harbor. With their presence at the mouth of the busy port, it is vital we either disable or capture these forts, otherwise they could severely hamper shipping. We could storm the forts, which would result in war. We can also attempt a prolonged siege, however we do risk the response of American Naval forces bombarding our troops and starting full-scale armed conflict, or negotiate with the Federal Government to hand the forts over peacefully, though the chance of acceptance would be extremely low. What shall we do?"
+   modssa.2.a:0 "Storm the forts"
+   modssa.2.b:0 "Enact a siege"
+   modssa.2.c:0 "Try a diplomatic approach"
+   #News
+ #National Spirits

@@ -191,7 +191,7 @@ country_event = {
 	}
 }
 
-#Rhode Island, Connecticut, New York, and Michigan succeed from the union!
+#Rhode Island, Connecticut, New York, and Michigan secede from the union!
 country_event = {
 	id = modusa.3
 	title = modusa.3.t
@@ -367,7 +367,7 @@ country_event = {
 	id = modusa.6
 	title = modusa.6.t
 	desc = modusa.6.d
-	picture = GFX_report_event_generic_riot
+	picture = GFX_report_event_ast_army
 
 	mean_time_to_happen = {
 		days = 90
@@ -385,10 +385,39 @@ country_event = {
 		has_country_flag = civil_war_close
 	}
 
-	option = { #Reinforce Fort Hamilton
+	option = { #Go on the offensive!
 		name = modusa.6.a
 		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_political_power < 50
+			}
+		}
+		add_political_power = -50
+		add_named_threat = { 
+			threat = 10
+			name = USA_civil_war_threat
+		}
+		declare_war_on = {
+			target = SSA
+			type = annex_everything
+		}
+		set_country_flag = usa_civil_war
+		hidden_effect = {
+			SSA = {
+				country_event = { id = modssa.1 days = 0 }
+			}
+		}
+	}
+	option = { #Reinforce Fort Hamilton and Fort Wadsworth
+		name = modusa.6.b
+		ai_chance = {
 			factor = 10
+		}
+		add_named_threat = { 
+			threat = 2
+			name = USA_hamilton_wadsworth_threat
 		}
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
@@ -400,13 +429,65 @@ country_event = {
 			amount = -50
 			producer = USA
 		}
-	}
-	option = { #Spit at them!
-		name = modusa.6.a
-		ai_chance = {
-			factor = 3
+		hidden_effect = {
+			SSA = {
+				country_event = { id = modssa.2 days = 5 }
+			}
 		}
-		add_political_power = 25
+	}
+}
+
+#SSA Assualts Fort Hamilton and Wadsworth!
+country_event = {
+	id = modusa.7
+	title = modusa.7.t
+	desc = modusa.7.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	immediate = {
+	}
+
+	option = { #United we shall stand
+		name = modssa.7.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = 100
+		add_stability = 0.05
+		add_war_support = 0.15
+	}
+}
+
+#SSA besieges Fort Hamilton and Wadsworth
+country_event = {
+	id = modusa.8
+	title = modusa.8.t
+	desc = modusa.8.d
+	picture = GFX_report_event_british_artillery
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	immediate = {
+	}
+
+	option = { #War it is, then
+		name = modssa.8.a
+		ai_chance = {
+			factor = 1
+		}
+		add_political_power = 50
+		add_stability = 0.05
+		add_war_support = 0.05
 	}
 }
 
@@ -626,9 +707,9 @@ country_event = { #Bordeaux requests staff training
 		army_experience = -5
 		BOR = {
 			country_event = {
-					id = bordeaux.5
-					days = 5
-				}
+				id = bordeaux.5
+				days = 5
+			}
 		}
 	}
 }

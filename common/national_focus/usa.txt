@@ -20,6 +20,7 @@ focus_tree = {
 		icon = GFX_focus_USA_election
 
 		available = {
+			always = no
 		}
 		
 		bypass = {
@@ -32,7 +33,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		
-		cost = 10
+		cost = 0
 		
 		#ai_will_do = {
 		#	factor = 1
@@ -42,13 +43,13 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_stability = 0.10
-			add_war_support = -0.05
-			country_event = { days = 0 id = modusa.100 }
-			hidden_effect = {
-				country_event = { days = 50 id = modusa.101 }
-				country_event = { days = 98 id = modusa.102 }
-			}
+			#add_stability = 0.10
+			#add_war_support = -0.05
+			#country_event = { days = 0 id = modusa.100 }
+			#hidden_effect = {
+			#	country_event = { days = 50 id = modusa.101 }
+			#	country_event = { days = 98 id = modusa.102 }
+			#}
 			
 		}
 	}
