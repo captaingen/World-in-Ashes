@@ -230,3 +230,16 @@
  sco.15.d:0 "England is finally stable enough to retake control of Northern Ireland, given our initial objections have been satisfied, we should return it to their control."
  sco.15.a:0 "Return Northern Ireland"
  sco.15.b:0 "We could retain a power base in the British Isles"
+
+ sco.16.t:0 "Scotland Requests Formal Alliance"
+ sco.16.d:0 "Adamant about their independence from England, Scotland desires to be an actor on the global stage. Scottish diplomats have reached us from Edinburgh bringing Scotland's request for formal entry into the North Atlantic Defence Alliance. "
+ sco.16.a:0 "Scotland is welcome!"
+ sco.16.b:0 "No, we cannot openly accept them."
+
+ sco.17.t:0 "USA Accepts Alliance"
+ sco.17.d:0 "The United States have accepted our request to join their Alliance, together we will work to promote democracy throughout the world."
+ sco.17.a:0 "Excellent!"
+
+ sco.18.t:0 "USA Refuses Alliance"
+ sco.18.d:0 "The United States have refused our request to join their alliance, they have abandoned us to the whims of Europe!"
+ sco.18.a:0 "Bastards!"

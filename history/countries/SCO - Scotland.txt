@@ -61,32 +61,29 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 7
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 3
+			popularity = 5
 		}
 		
 		neutrality = {
-			popularity = 60
+			popularity = 40
 		}
 
 		socialism = {
-			popularity = 0
+			popularity = 5
 		}
 	}
 	
 	ruling_party = neutrality
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = no ##suspended through duration of war, which is handled via event
+	elections_allowed = no 
 }
 
 add_state_claim = 119
-
-
-#give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
 

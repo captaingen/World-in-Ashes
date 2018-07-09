@@ -59,13 +59,6 @@ division_template = {
 units = {
 	#### Military Police Units #####
 	division= {	
-		name = "Cornish Guard"
-		location = 540
-		division_template = "Home Guard" 	
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.9
-	}
-	division= {	
 		name = "Bristol Guard"
 		location = 3369
 		division_template = "Home Guard" 	
@@ -115,13 +108,6 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "Steel Guard"
-		location = 9315
-		division_template = "Home Guard" 
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.9
-	}
-	division= {	
 		name = "Humberside Guard"
 		location = 11297
 		division_template = "Home Guard" 	
@@ -158,15 +144,22 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Cornish Pasties"
+		name = "White Cliff Rifles"
 		location = 6237
 		division_template = "Rifles Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "White Cliff Rifles"
-		location = 6237
+		name = "Dartmoor Rifles"
+		location = 9315
+		division_template = "Rifles Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Fens Rifles"
+		location = 540
 		division_template = "Rifles Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9

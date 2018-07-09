@@ -302,13 +302,13 @@ focus_tree = {
 				}
 				set_cosmetic_tag = ENG_solo_anti_monarchist
 			}
-			GER = {
-				country_event = {
-					id = sco.15
-					days = 1
-					random = 0
-				}
-			}
+			#GER = {
+			#	country_event = {
+			#		id = sco.15
+			#		days = 1
+			#		random = 0
+			#	}
+			#}
 		}
 	}
 

@@ -1,0 +1,771 @@
+focus_tree = {
+	id = wia_scotland_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SCO
+		}
+	}
+	default = no
+
+	focus = {
+		id = SCO_future_of_scotland
+		icon = GFX_goal_generic_demand_territory
+
+		available = { }
+		prerequisite = {}
+		mutually_exclusive = {}
+		bypass = {
+			OR = {
+				has_completed_focus = SCO_unstoppable_force
+				has_completed_focus = SCO_immovable_object
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 7
+		y = 1
+
+		
+
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SCO_communo_socialism
+		icon = GFX_goal_support_communism
+
+		available = {}
+		prerequisite = { focus = SCO_future_of_scotland }
+		mutually_exclusive = {
+			focus = SCO_autocratic_revisionism
+			focus = SCO_democratic_idealism
+		}
+
+		x = -6
+		y = 1
+		relative_position_id = SCO_future_of_scotland
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SCO_communo_socialism
+		}
+	}
+
+	focus = {
+		id = SCO_political_correctness
+		icon = GFX_goal_generic_dangerous_deal
+
+		available = {}
+		prerequisite = { focus = SCO_communo_socialism }
+		mutually_exclusive = {}
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_communo_socialism
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = idea_political_correctness
+		}
+	}
+
+	focus = {
+		id = SCO_autocratic_revisionism
+		icon = GFX_goal_support_fascism
+		available = {}
+		prerequisite = { focus = SCO_future_of_scotland }
+		mutually_exclusive = {
+			focus = SCO_communo_socialism
+			focus = SCO_democratic_idealism
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = -4
+		y = 1
+		relative_position_id = SCO_future_of_scotland
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = SCO_autocracy
+		}
+	}
+
+	focus = {
+		id = SCO_military_youth
+		icon = GFX_goal_generic_more_territorial_claims
+		available = {}
+		prerequisite = { focus = SCO_autocratic_revisionism }
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_autocratic_revisionism
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = military_youth_focus
+		}
+	}
+
+	focus = {
+		id = SCO_democratic_idealism
+		icon = GFX_goal_generic_propaganda
+		available = {}
+		prerequisite = { focus = SCO_future_of_scotland }
+		mutually_exclusive = {
+			focus = SCO_autocratic_revisionism
+			focus = SCO_communo_socialism
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = -2
+		y = 1
+		relative_position_id = SCO_future_of_scotland
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SCO_democracy
+		}
+	}
+
+	focus = {
+		id = SCO_champions_of_liberty
+		icon = GFX_goal_support_democracy
+		available = {}
+		prerequisite = { focus = SCO_democratic_idealism }
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_democratic_idealism
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SCO_empower_the_fanatics
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = { 
+			focus = SCO_political_correctness
+			focus = SCO_military_youth
+		}
+		mutually_exclusive = {
+			focus = SCO_find_the_king
+			focus = SCO_modern_republic
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_political_correctness
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = SCO_autocratic_revisionism
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = SCO_communo_socialism
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.1
+				}
+			}
+			hold_election = ROOT
+		}
+	}
+
+	focus = {
+		id = SCO_find_the_king
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = { focus = SCO_military_youth }
+		mutually_exclusive = {
+			focus = SCO_modern_republic
+			focus = SCO_empower_the_fanatics
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_military_youth
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+			hold_election = ROOT
+		}
+	}
+
+	focus = {
+		id = SCO_modern_republic
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = { focus = SCO_champions_of_liberty }
+		mutually_exclusive = {
+			focus = SCO_find_the_king
+			focus = SCO_empower_the_fanatics
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_champions_of_liberty
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.2
+			}
+			hold_election = ROOT
+		}
+	}
+
+	#################################################################
+
+	focus = {
+		id = SCO_unstoppable_force
+		icon = GFX_goal_unknown
+
+		available = { }
+		prerequisite = { focus = SCO_future_of_scotland }
+		mutually_exclusive = { 
+			focus = SCO_immovable_object
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 9
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+
+			add_war_support = 0.1
+
+			create_wargoal = {
+			    type = annex_everything
+			    target = ENG
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_shadow_pact
+		icon = GFX_goal_unknown
+		available = { }
+		prerequisite = { focus = SCO_unstoppable_force }
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = -1
+		y = 1
+		relative_position_id = SCO_unstoppable_force
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			GER = {
+				country_event = {
+				    id = sco.11
+				    days = 3
+				    random = 0
+				}
+			}
+			DEN = {
+				country_event = {
+					id = sco.2
+					days = 5
+					random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_ulster_pact
+		icon = GFX_goal_unknown
+		available = { }
+		prerequisite = { focus = SCO_unstoppable_force }
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 1
+		y = 1
+		relative_position_id = SCO_unstoppable_force
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_state_claim = 119
+			IRE = {
+				country_event = {
+				    id = sco.1
+				    days = 3
+				    random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_scottish_hegemony
+		icon = GFX_goal_unknown
+		available = {
+			owns_state = 122
+			owns_state = 123
+			owns_state = 125
+			owns_state = 126
+			owns_state = 127
+			owns_state = 128
+			owns_state = 129
+			owns_state = 130
+			owns_state = 131
+			owns_state = 132
+			owns_state = 338
+		}
+		prerequisite = {
+			focus = SCO_shadow_pact
+			focus = SCO_ulster_pact
+		}
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 1
+		y = 1
+		relative_position_id = SCO_shadow_pact
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 122
+			add_state_core = 123
+			add_state_core = 125
+			add_state_core = 126
+			add_state_core = 127
+			add_state_core = 128
+			add_state_core = 129
+			add_state_core = 130
+			add_state_core = 131
+			add_state_core = 132
+			add_state_core = 338
+
+			set_major = yes	
+
+			GER = {
+				country_event = {
+					id = sco.14
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_north_sea_pact
+		icon = GFX_goal_unknown
+		available = { 
+			SCO = {
+				AND = { 
+					is_in_faction = no
+					is_puppet = no
+				}
+			}
+		}
+		prerequisite = { focus = SCO_scottish_hegemony }
+		mutually_exclusive = {
+			focus = SCO_NADA
+			focus = SCO_mutual_island_defence
+		}
+
+		ai_will_do = { factor = 100 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_scottish_hegemony
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			GER = {
+				country_event = {
+					id = sco.8
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_immovable_object
+		icon = GFX_goal_generic_defence
+		available = { }
+		prerequisite = { focus = SCO_future_of_scotland }
+		mutually_exclusive = {
+			focus = SCO_unstoppable_force
+		}
+
+		x = 4
+		y = 0
+		relative_position_id = SCO_unstoppable_force
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = deterrence
+		}
+	}
+
+	focus = {
+		id = SCO_fortify_scotland
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = {focus = SCO_immovable_object }
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_immovable_object
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = SCO_scottish_defiance
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = { focus = SCO_fortify_scotland}
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_fortify_scotland
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SCO_scottish_defiance
+		}
+	}
+
+	focus = {
+		id = SCO_NADA
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = { focus = SCO_scottish_defiance }
+		mutually_exclusive = {
+			focus = SCO_mutual_island_defence
+			focus = SCO_north_sea_pact
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 0
+		y = 1
+		relative_position_id = SCO_scottish_defiance
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = { 
+			USA = {
+				country_event = {
+					id = sco.16
+					days = 3
+					random = 0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_mutual_island_defence
+		icon = GFX_goal_unknown
+		available = {}
+		prerequisite = {
+			focus = SCO_scottish_hegemony
+			focus = SCO_scottish_defiance
+		}
+		mutually_exclusive = {
+			focus = SCO_NADA
+			focus = SCO_north_sea_pact
+		}
+
+		ai_will_do = { factor = 1 }
+
+		x = 2
+		y = 1
+		relative_position_id = SCO_scottish_hegemony
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+
+	#################################################################
+
+	focus = {
+		id = SCO_highland_industry
+		icon = GFX_goal_generic_production
+		available = {}
+		prerequisite = {}
+		mutually_exclusive = {}
+
+		ai_will_do = { factor = 1 }
+
+		x = 16
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_arms_effort
+		icon = GFX_goal_generic_construct_mil_factory
+
+		available = {}
+		prerequisite = { focus = SCO_highland_industry }
+		mutually_exclusive = {}
+
+		x = -1
+		y = 1
+		relative_position_id = SCO_highland_industry
+		cost = 10
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCO_construction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+
+		available = { }
+		prerequisite = { focus = SCO_highland_industry }
+		mutually_exclusive = {}
+
+		x = 1
+		y = 1
+		relative_position_id = SCO_highland_industry
+		cost = 10
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#################################################################
+
+	#focus = {
+	#	id = 
+	#	icon = GFX_goal_unknown
+	#	available = {}
+	#	prerequisite = {}
+	#	mutually_exclusive = {}
+	#	ai_will_do = { factor = 1 }
+	#
+	#	x = 
+	#	y = 
+	#	cost = 5
+	#
+	#	available_if_capitulated = no
+	#
+	#	completion_reward = { }
+	#}
+}

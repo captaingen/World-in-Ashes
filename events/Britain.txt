@@ -423,3 +423,67 @@ country_event = { # Give Northern Ireland back to England
 		ai_chance = { factor = 0 }
 	}
 }
+
+country_event = { # Request Entry to North American Defence Alliance
+	id = sco.16
+	title = sco.16.t
+	desc = sco.16.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sco.16.a
+		ai_chance = { factor = 100 }
+		add_to_faction = SCO
+		SCO = {
+			country_event = {
+				id = sco.17
+				days = 1
+				random = 0
+			}
+		}
+
+	}
+
+	option = {
+		name = sco.16.b
+		ai_chance = { factor = 0 }
+		SCO = {
+			country_event = {
+				id = sco.18
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { # Accepted into North American Defence Alliance
+	id = sco.17
+	title = sco.17.t
+	desc = sco.17.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sco.17.a
+	}
+}
+
+country_event = { # Rejected from North American Defence Alliance
+	id = sco.18
+	title = sco.18.t
+	desc = sco.18.d
+	picture = GFX_report_german_troops
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sco.18.a
+	}
+}
