@@ -1,5 +1,31 @@
 ideas = {
-    head_of_government = {
+    country = {
+	    memories_of_peruvian_civil_war = {
+			
+			allowed = {
+			    original_tag = PRU
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.40
+				political_power_cost = 0.05
+				political_power_gain = -2
+			}
+		}
+	}
+	
+	##############################################
+	#################MINISTERS####################
+	##############################################
+	
+	head_of_government = {
 	    jose_matias_manzanilla_hog = { #Gabinete de Manzanilla Fascismo
 		    allowed = {original_tag = PRU}
 			available = {
