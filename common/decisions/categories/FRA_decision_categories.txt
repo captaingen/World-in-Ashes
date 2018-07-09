@@ -1,0 +1,11 @@
+######FRA######
+
+FRA_civil_war_operations = {
+	
+	icon = generic_crisis
+	
+	allowed = {
+		original_tag = FRA
+		has_war = yes
+	}
+}

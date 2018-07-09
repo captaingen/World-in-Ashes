@@ -1,0 +1,35 @@
+war_measures = {
+	
+	FRA_ammo_depot_infiltration = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			original_tag = FRA
+			NOT = {
+				BOR = { divisions_in_state = { state = 735 size > 3 } }
+			}
+			has_political_power > 100
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			original_tag = FRA
+			has_war_with = BOR
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = light_ammo_eq
+				amount = -1000
+				producer = BOR
+			}
+		}
+	}
+	
+}
