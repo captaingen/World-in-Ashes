@@ -15,8 +15,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.25
 				war_support_factor = -0.40
-				political_power_cost = 0.05
-				political_power_gain = -2
+				political_power_cost = 0.08
 			}
 		}
 	}
