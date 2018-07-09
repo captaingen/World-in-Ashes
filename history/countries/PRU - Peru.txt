@@ -28,6 +28,7 @@ add_ideas = {
 	luis_flores_mnd
 	ignacio_brandariz_em
 	manuel_rodriguez_cm
+	memories_of_peruvian_civil_war
 }
 
 set_politics = {
