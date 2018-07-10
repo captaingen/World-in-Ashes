@@ -1,0 +1,27 @@
+
+state={
+	id=863
+	name="STATE_863"
+	manpower = 549000
+	
+	state_category = dense
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10968 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			5117 3 
+		}
+		add_core_of = LUB
+	}
+
+	provinces={
+		988 5117 7931 10071 10883 10968 12741 12824 12925 13252
+	}
+}

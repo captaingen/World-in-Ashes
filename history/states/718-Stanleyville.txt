@@ -3,11 +3,11 @@ state={
 	id=718
 	name="STATE_718"
 	resources={
-		rubber=5.000
+		rubber=4.000
 	}
 
 	history={
-		owner = COG
+		owner = GER
 		buildings = {
 			infrastructure = 2
 
@@ -17,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1181 1950 2034 2073 2154 4201 4941 6027 7161 10766 11934 12783 12808 12847 13176 
+		1181 1950 4201 4941 7161 10766 12783 12847 12907 13176 
 	}
-	manpower=6229078
+	manpower=5798215
 	buildings_max_level_factor=1.000
 	state_category=extremely_dense
 }

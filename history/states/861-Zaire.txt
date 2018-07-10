@@ -1,0 +1,25 @@
+
+state={
+	id=861
+	name="STATE_861"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		2034 2073 2154 6027 11934 12808 
+	}
+	manpower=429163
+	buildings_max_level_factor=1.000
+	state_category=dense
+}
