@@ -243,3 +243,29 @@
  sco.18.t:0 "USA Refuses Alliance"
  sco.18.d:0 "The United States have refused our request to join their alliance, they have abandoned us to the whims of Europe!"
  sco.18.a:0 "Bastards!"
+
+ sco.19.t:0 "Scotland Proposes Joint Rail Venture!"
+ sco.19.d:0 "For almost a century, the railway that joins Edinburgh to London has been a backbone of the United Kingdom. Although the union is gone, the railway can still flourish. [From.GetNameDef] has proposed a joint infrastructure effort to revitalise the railway so that trade can flourish between our nations, and both nations can prosper."
+ sco.19.a:0 "We will join this venture!"
+ sco.19.b:0 "We don't need a faster route for the Scots to reach our capital!"
+
+ sco.20.t:0 "England Joins Rail Venture!"
+ sco.20.d:0 "England has agreed to join us in the reviatalisation of the East Coast Mainline, goods and people now flow more easily between Edinburgh and London."
+ sco.20.a:0 "Hurray!"
+
+ sco.21.t:0 "England Rejects Our Proposal!"
+ sco.21.d:0 "England has rejected our idea to revitalise the East Coast mainline, evidently they're afraid of letting free Scots into the heart of thei country."
+ sco.21.a:0 "Bastards!"
+
+ sco.22.t:0 "Scotland Rejects New Acts of Union"
+ sco.22.d:0 "Scotland has decided not to renew the Acts of Union that joined it to our country in 1707, instead preferring to remain their own sovereign nation."
+ sco.22.a:0 "It's their country, not ours. Let them keep their independence."
+ sco.22.b:0 "It wasn't a request."
+
+ sco.23.t:0 "England Outraged by Scottish Defiance"
+ sco.23.d:0 "Despite presenting the reneal of the Acts of Union as a request, it has become clear that England desires our land whether we like it or not. As such, they appear to be mobilising for a potential war!"
+ sco.23.a:0 "Bastards!"
+
+ sco.24.t:0 "England Respects Our Independence"
+ sco.24.d:0 "England has accepted our decision to remain independent and not join them."
+ sco.23.a:0 "Maybe they're not so bad."
