@@ -1,4 +1,4 @@
-war_measures = {
+FRA_civil_war_operations = {
 	
 	FRA_ammo_depot_infiltration = {
 
@@ -12,22 +12,144 @@ war_measures = {
 			has_political_power > 100
 		}
 
-		cost = 75
+		cost = 100
 
 		ai_will_do = {
-			factor = 100
+			factor = 200
 		}
 
 		visible = {
 			original_tag = FRA
 			has_war_with = BOR
 		}
+		
+		days_remove = 15
+		
+		fire_only_once = yes
 
 		complete_effect = {
+			
+		}
+		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = light_ammo_eq
-				amount = -1000
+				amount = -200
 				producer = BOR
+			}
+			
+			add_equipment_to_stockpile = {
+				type = light_ammo_eq
+				amount = 150
+				producer = FRA
+			}
+			hidden_effect = {
+				set_country_flag = FRA_ammo_depot_infiltration_flag
+			}
+		}
+	}
+	
+	FRA_ammo_depot_infiltration2 = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			original_tag = FRA
+			NOT = {
+				BOR = { divisions_in_state = { state = 735 size > 3 } }
+			}
+			has_political_power > 125
+		}
+
+		cost = 125
+
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 30
+		
+		fire_only_once = yes
+
+		visible = {
+			original_tag = FRA
+			has_war_with = BOR
+			has_country_flag = FRA_ammo_depot_infiltration_flag
+		}
+
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = light_ammo_eq
+				amount = -500
+				producer = BOR
+			}
+			
+			add_equipment_to_stockpile = {
+				type = light_ammo_eq
+				amount = 350
+				producer = FRA
+			}
+			hidden_effect = {
+				set_country_flag = FRA_ammo_depot_infiltration2_flag
+			}
+		}
+	}
+	
+	FRA_destroy_ammo_depot = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			original_tag = FRA
+			NOT = {
+				BOR = { divisions_in_state = { state = 735 size > 3 } }
+			}
+			has_political_power > 150
+		}
+
+		cost = 150
+
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		fire_only_once = yes
+
+		visible = {
+			original_tag = FRA
+			has_war_with = BOR
+			has_country_flag = FRA_ammo_depot_infiltration2_flag
+		}
+
+		complete_effect = {
+			735 = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = light_ammo_eq
+				amount = -650
+				producer = BOR
+			}
+		}
+		
+		remove_effect = {
+			
+			add_equipment_to_stockpile = {
+				type = light_ammo_eq
+				amount = 400
+				producer = FRA
+			}
+			army_experience = 10
+			hidden_effect = {
+				set_country_flag = FRA_ammo_depot_destroyed_flag
 			}
 		}
 	}
