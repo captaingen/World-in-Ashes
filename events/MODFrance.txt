@@ -303,6 +303,9 @@ country_event = {
     option = {
         name = nasi.7.a
 		add_political_power = 10
+		hidden_effect = {
+			set_country_flag = FRA_petain_survives1_flag
+		}
     }
 }
 

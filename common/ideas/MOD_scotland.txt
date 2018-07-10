@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		SCO_democracy = {
+			allowed = {
+				original_tag = SCO
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				democratic_drift = 0.1
+			}
+		}
+
+		SCO_autocracy = {
+			allowed = {
+				original_tag = SCO
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				fascism_drift = 0.1
+				neutrality_drift = 0.1
+			}
+		}
+
+		SCO_communo_socialism = {
+			allowed = {
+				original_tag = SCO
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				communism_drift = 0.1
+				socialism_drift = 0.1
+			}
+		}
+
+		SCO_communism_over_socialism = {
+			allowed = {
+				original_tag = SCO
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				communism_drift = 0.2
+			}
+		}
+
+		SCO_socialism_over_communism = {
+			allowed = {
+				original_tag = SCO
+			}
+
+			picture = king_edward
+			removal_cost = -1
+
+			modifier = {
+				socialism_drift = 0.2
+			}
+		}
+
+		SCO_scottish_defiance = {
+			allowed = {
+				original_tag = SCO
+			}
+			
+			picture = generic_pp_unity_bonus
+			removal_cost = -1
+	
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+	}
+}
