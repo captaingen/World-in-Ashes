@@ -12,6 +12,8 @@
   FRA_ammo_depot_infiltration2_desc:0 "Bordeaux having less Ammunition will help us in the war. If this operation is successful..."
   FRA_destroy_ammo_depot:0 "Destroy Ammunition Depot"
   FRA_destroy_ammo_depot_desc:0 "We need to destroy their ammo depot near the Italian Border."
+  FRA_send_petain_again:0 "Send Pétain Again"
+  FRA_send_petain_again_desc:0 "Even though Pétain almost got killed in his first visit to the Frontline, the troops have been extremely motivated. With the proper defense and location, we shall send him again to further motivate our troops!"
   FRA_civil_war_operations:0 "Civil War Operations"
   
   
