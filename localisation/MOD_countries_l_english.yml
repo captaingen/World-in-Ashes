@@ -1093,6 +1093,22 @@
  NID_communism_ADJ:0 "Northern Irish"
  NID_socialism_ADJ:0 "Northern Irish"
  
+ LUB_fascism:0 "Luba"
+ LUB_fascism_DEF:0 "Luba"
+ LUB_democratic:0 "Luba"
+ LUB_democratic_DEF:0 "Luba"
+ LUB_neutrality:0 "Luba"
+ LUB_neutrality_DEF:0 "Luba"
+ LUB_communism:0 "Luba"
+ LUB_communism_DEF:0 "Luba"
+ LUB_socialism:0 "Luba"
+ LUB_socialism_DEF:0 "Luba"
+ LUB_fascism_ADJ:0 "Luba"
+ LUB_democratic_ADJ:0 "Luba"
+ LUB_neutrality_ADJ:0 "Luba"
+ LUB_communism_ADJ:0 "Luba"
+ LUB_socialism_ADJ:0 "Luba"
+ 
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
