@@ -604,7 +604,11 @@ focus_tree = {
 	focus = {
 		id = SCO_NADA
 		icon = GFX_goal_unknown
-		available = {}
+		available = {
+			NOT = {
+				country_exists = SSA
+			}
+		}
 		prerequisite = { focus = SCO_scottish_defiance }
 		mutually_exclusive = {
 			focus = SCO_mutual_island_defence
