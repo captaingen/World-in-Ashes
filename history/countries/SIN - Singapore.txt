@@ -17,6 +17,7 @@ SIN_poor_education
 SIN_international_stagnation
 SIN_weak_industry
 SIN_early_military
+SIN_undefined_nation
 }
 
 set_politics = {

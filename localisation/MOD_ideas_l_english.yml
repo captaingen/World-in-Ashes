@@ -65,10 +65,14 @@
  
  #Singapore
  SIN_cultural_tensions:0 "Cultural Tensions"
+ SIN_cultural_tensions_desc:0 "Singapore is a nation divided by culture. As the cultures continue to grow apart, tensions begin to rise. From these tensions, the cultures continued to grow apart. Due to this vicious cycle, tensions are at an all time high and many speculate that a fire shall ignite from them, some even say the consequences are unavoidable. To lead a nation from this state will be impossible, however it is how the nation recovers from the aftermath that will define their future."
  SIN_poor_education:0 "Poor Education"
+ SIN_poor_education_desc:0 "Singapore's education system is fundimentally flawed. With low funding, and unqualified teachers, the childern of Singapore are not getting a proper education. In addition to this, Singapore's higher education system is nearly non-existant, with most futher learning being independently done. In turn, the nation has difficulty progressing in technology even when other nations are far ahead."
  SIN_international_stagnation:0 "International Stagnation"
+ SIN_international_stagnation_desc:0 "With the nation not having proper embassies within any nation, Singapore is at a standstill internationally. Beyond this, many nations recognize Singapore as a direct territory of Germany, despite Germany themselves declaring otherwise. This means that despite Germany not being at the negotiation table, neither are we."
  SIN_weak_industry:0 "Weak Industry"
  SIN_early_military:0 "Early Military"
+ SIN_undefined_nation:0 "Undefined Nation"
  
  #Peru
  memories_of_peruvian_civil_war:0 "Memories of the Second Peruvian Civil War"

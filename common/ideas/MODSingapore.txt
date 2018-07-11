@@ -88,5 +88,22 @@ ideas = {
 				supply_consumption_factor = 0.1
 			}
 		}
+		SIN_undefined_nation = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -1
+				political_advisor_cost_factor = 2
+			}
+		}
 	}
 }
