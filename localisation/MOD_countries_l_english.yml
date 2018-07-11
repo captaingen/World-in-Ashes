@@ -1109,6 +1109,19 @@
  LUB_communism_ADJ:0 "Luba"
  LUB_socialism_ADJ:0 "Luba"
  
+ COG_fascism:2 "Zande"
+ COG_fascism_DEF:3 "Zande"
+ COG_democratic:0 "Zande"
+ COG_democratic_DEF:0 "Zande"
+ COG_neutrality:0 "Zande"
+ COG_neutrality_DEF:0 "Zande"
+ COG_communism:1 "Zande"
+ COG_communism_DEF:0 "Zande"
+ COG_fascism_ADJ:0 "Zandian"
+ COG_democratic_ADJ:0 "Zandian"
+ COG_neutrality_ADJ:0 "Zandian"
+ COG_communism_ADJ:0 "Zandian"
+ 
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
