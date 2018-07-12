@@ -12,12 +12,6 @@ state={
 			infrastructure = 2
 
 		}
-		1939.1.1 = {
-			buildings = {
-				infrastructure = 4
-				air_base = 1
-			}
-		}
 	}
 	manpower=1500000
 	state_category=slightly_sparse

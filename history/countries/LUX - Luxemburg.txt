@@ -42,40 +42,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 92
-			}
-
-			fascism = {
-				popularity = 3
-			}
-			
-			communism = {
-				popularity = 5
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1937.6.6"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Pierre Dupong"
-		desc = "POLITICS_PIERRE_DUPONG_DESC"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
-}
 #Pierre Dupong from 37
 create_country_leader = {
 	name = "Joseph Bech"

@@ -21,12 +21,6 @@ state={
 			air_base = 6
 		}
 		add_core_of = GER
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-			}
-		}
 	}
 
 	provinces={

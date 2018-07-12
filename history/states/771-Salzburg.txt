@@ -19,12 +19,6 @@ state={
 			688 7 
 		}
 		add_core_of = GER
-
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
 	}
 
 	provinces={

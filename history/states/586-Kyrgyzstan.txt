@@ -23,12 +23,6 @@ state={
 			1591 3 
 		}
 		add_core_of = KYR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
-
 	}
 
 	provinces={
