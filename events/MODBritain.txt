@@ -1,0 +1,49 @@
+﻿add_namespace = england
+
+country_event = { # Bordeaux wants planes
+	id = england.0
+	title = england.0.t
+	desc = england.0.d
+	picture = GFX_report_event_airplane_factory
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = england.0.a
+		ai_chance = { factor = 100 }
+		add_political_power = -20
+		air_experience = -10
+		BOR = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_1
+				amount = 100
+				producer = ENG
+			}
+			air_experience = 15
+		}
+		hidden_effect = {
+			BOR = {
+				country_event = {
+					id = bordeaux.7
+					days = 1
+				}
+			}
+		}
+	}
+
+	option = { # Reject
+		name = england.0.b
+		ai_chance = { factor = 5 }
+		add_political_power = 20
+		hidden_effect = {
+			BOR = {
+				country_event = {
+					id = bordeaux.8
+					days = 1
+				}
+			}
+		}
+	}
+}

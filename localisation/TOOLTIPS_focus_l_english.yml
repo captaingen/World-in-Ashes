@@ -8,3 +8,5 @@
  BOR_two_state_tt:0 "§G\nBoth Frances will unite under one union with both governments operating seperatly. \n\n§RNasi France must accept the terms for this to take place.§!§! \n\n§gWill cost 300 political Power§!"
  start_rebuild_paris_tt:0 "§H\nThis path will lead to the §Greconstruction of Paris§! and the areas surrounding it. It will cost a lot of time and effort but it needs to be done...§!"
  BOR_hungry_pop_tt:0 "§R\nThe Population is extremely hungry due to the previously ongoing civil war. Supplies have been low and you will need to get through this path to feed the population...§!"
+ BOR_SURRENDER_TT:0 "§R\nThe Game will end if you chose this option§!"
+ BOR_planes_tt:0 "§H\nYou will recieve §G100 planes§! into your national stockpile.§!"

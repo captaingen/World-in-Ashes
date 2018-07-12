@@ -249,6 +249,9 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = BOR_desperate_airforce_tt
+			hidden_effect = {
+				air_experience = 5
+			}
 		}
 	}
 	
@@ -275,6 +278,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			ENG = {
+				country_event = {
+					id = england.0
+					days = 1
+				}
+			}
 		}
 	}
 	

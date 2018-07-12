@@ -286,6 +286,39 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		add_war_support = -0.08
+		add_war_support = -0.5
+	}
+}
+
+#UK agrees to send airplanes
+country_event = {
+    id = bordeaux.7
+    title = bordeaux.7.t
+    desc = bordeaux.7.d
+    picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = { #noice
+		name = bordeaux.7.a
+		custom_effect_tooltip = BOR_planes_tt
+	}
+}
+
+#UK rejects to send airplanes
+country_event = {
+    id = bordeaux.8
+    title = bordeaux.8.t
+    desc = bordeaux.8.d
+    picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = { #boii
+		name = bordeaux.8.a
 	}
 }
