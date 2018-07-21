@@ -322,3 +322,36 @@ country_event = {
 		name = bordeaux.8.a
 	}
 }
+
+#US agrees to send airplanes
+country_event = {
+    id = bordeaux.9
+    title = bordeaux.9.t
+    desc = bordeaux.9.d
+    picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = { #noice
+		name = bordeaux.9.a
+		custom_effect_tooltip = BOR_planes_tt
+	}
+}
+
+#US rejects to send airplanes
+country_event = {
+    id = bordeaux.10
+    title = bordeaux.10.t
+    desc = bordeaux.10.d
+    picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = { #boii
+		name = bordeaux.10.a
+	}
+}

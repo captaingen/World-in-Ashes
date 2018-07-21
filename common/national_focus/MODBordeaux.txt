@@ -310,6 +310,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			USA = {
+				country_event = {
+					id = modusa.1001
+					days = 1
+				}
+			}
 		}
 	}
 	

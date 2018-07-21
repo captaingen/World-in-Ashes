@@ -713,3 +713,51 @@ country_event = { #Bordeaux requests staff training
 		}
 	}
 }
+
+country_event = { # Bordeaux wants planes
+	id = modusa.1001
+	title = modusa.1001.t
+	desc = modusa.1001.d
+	picture = GFX_report_event_airplane_factory
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = modusa.1001.a
+		ai_chance = { factor = 100 }
+		add_political_power = -20
+		air_experience = -10
+		BOR = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_1
+				amount = 100
+				producer = ENG
+			}
+			air_experience = 15
+		}
+		hidden_effect = {
+			BOR = {
+				country_event = {
+					id = bordeaux.9
+					days = 1
+				}
+			}
+		}
+	}
+
+	option = { # Reject
+		name = modusa.1001.b
+		ai_chance = { factor = 5 }
+		add_political_power = 20
+		hidden_effect = {
+			BOR = {
+				country_event = {
+					id = bordeaux.10
+					days = 1
+				}
+			}
+		}
+	}
+}

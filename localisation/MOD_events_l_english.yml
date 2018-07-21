@@ -5,6 +5,12 @@
  westernization.0.d:0 "Our country has been undeveloped for long enough. It is now time to finally start westernizing our country to get closer to the level of development of other major nations."
  westernization.0.a:0 "Start Westernizing"
  
+ #Britain
+ england.0.t:0 "Bordeaux requests planes"
+ england.0.d:0 "Bordeaux has a very dire airforce and air supremacy in their current war against the nasis. Should we send them fighters?"
+ england.0.a:0 "We shall help the republic!"
+ england.0.b:0 "We cannot spare any at the moment"
+ 
  #France
  nasi.1.t:0 "Ceasefire Broken"
  nasi.1.d:0 "The Bordelais broke the ceasefire just like we expected it would happen. The only question now is what to do..."
@@ -64,6 +70,12 @@
  bordeaux.8.t:0 "The British reject sending us Planes"
  bordeaux.8.d:0 "England at this moment is in dire times and has many interior problems and they cannot send anyone military equipment at this time and moment."
  bordeaux.8.a:0 "Dark times fall upon us..."
+ bordeaux.9.t:0 "The Americans agree to send us Planes"
+ bordeaux.9.d:0 "USA saw our need and sent us a formal delegation handing over 100 American Fighters with instructions and proper training help to our pilots. This will be well recieved!"
+ bordeaux.9.a:0 "The Americans have honoured us!"
+ bordeaux.10.t:0 "The Americans reject sending us Planes"
+ bordeaux.10.d:0 "USA at this moment is in dire times and has many interior problems and they cannot send anyone military equipment at this time and moment."
+ bordeaux.10.a:0 "Dark times fall upon us..."
  
  #Disintegration
  disintegrate.0.t:0 "Our Country Decends Furthur into Disintegration"

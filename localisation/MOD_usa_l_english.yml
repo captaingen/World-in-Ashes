@@ -120,6 +120,11 @@
    modusa.1000.d:0 "Bordeaux has a very inneffective officer corps, which is heavily affecting them in the French Civil War. They have requested for us to send military advisors to train their officers to be able to handle their situation much more effectively. It wouldn't come at a great cost to send advisors, but we need every man available at home. Should we send help to one of the last standing democracies on the European Continent?"
    modusa.1000.a:0 "We can't afford to send advisors..."
    modusa.1000.b:0 "Train their officer corps"
+   modusa.1001.t:0 "Bordeaux requests planes"
+   modusa.1001.d:0 "Bordeaux has a very dire airforce and air supremacy in their current war against the nasis. Should we send them fighters?"
+   modusa.1001.a:0 "We shall help the republic!"
+   modusa.1001.b:0 "We cannot spare any at the moment"
+   
    #News
  #National Spirits
   socialist_tensions:0 "Socialist Tensions"
