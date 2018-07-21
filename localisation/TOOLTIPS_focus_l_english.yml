@@ -10,3 +10,5 @@
  BOR_hungry_pop_tt:0 "§R\nThe Population is extremely hungry due to the previously ongoing civil war. Supplies have been low and you will need to get through this path to feed the population...§!"
  BOR_SURRENDER_TT:0 "§R\nThe Game will end if you chose this option§!"
  BOR_planes_tt:0 "§H\nYou will recieve §G100 planes§! into your national stockpile.§!"
+ BOR_compromises_tt:0 "§H\nThis path will lead to both counties coexisting.§!"
+ BOR_promises_tt:0 "§H\nThis path will lead to both counties uniting.§!"

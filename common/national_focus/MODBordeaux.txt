@@ -414,6 +414,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			FRA = {
+				add_opinion_modifier = {
+					target = BOR
+					modifier = sent_envoy_om
+				}
+			}
 		}
 	}
 	
@@ -428,6 +434,10 @@ focus_tree = {
 			focus = BOR_send_envoy
 		}
 		
+		mutually_exclusive = {
+			focus = BOR_promises_of_peace
+		}
+		
 		available = {
 		}
 		
@@ -436,6 +446,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = BOR_compromises_tt
 		}
 	}
 	
@@ -458,6 +469,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			FRA = {
+				add_opinion_modifier = {
+					target = BOR
+					modifier = improve_relations_om
+				}
+			}
+			add_opinion_modifier = {
+					target = FRA
+					modifier = improve_relations_om
+				}
 		}
 	}
 	
@@ -520,6 +541,10 @@ focus_tree = {
 			focus = BOR_send_envoy
 		}
 		
+		mutually_exclusive = {
+			focus = BOR_compromises
+		}
+		
 		available = {
 		}
 		
@@ -528,6 +553,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = BOR_promises_tt
 		}
 	}
 	
