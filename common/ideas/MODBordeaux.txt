@@ -154,5 +154,26 @@ ideas = {
 				
 			}
 		}
+		
+		BOR_total_war = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_morale_bonus
+			
+			modifier = {
+				max_planning = 0.05
+				decryption_factor = 0.1
+				recon_factor = 0.025
+			}
+		}
 	}
 }

@@ -368,6 +368,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_ideas = BOR_total_war
 		}
 	}
 	

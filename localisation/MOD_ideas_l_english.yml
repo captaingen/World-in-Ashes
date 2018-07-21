@@ -37,6 +37,8 @@
  BOR_unorganized_airforce_desc:0 "A story from one pilot describes it all: 'Throughout the war, the Nasis had maintained regular air domination and had put in place smart strategies to counter our fighters. They rammed their sturdier planes into ours, and ripped our weaker and lower quality planes using their german equipped planes. We have no more motivation to fight in the skies, we cannot fight any longer. My fellow pilots are just so disoriented and unoriganized, we cannot counter their planes at this time and moment.'"
  BOR_faster_repairs:0 "Faster Repairs"
  BOR_faster_repairs_desc:0 "Due to the return of the civil war, we have now worked on improving repair efficiency and it seems to be working well!"
+ BOR_total_war:0 "Total War"
+ BOR_total_war_desc:0 "We now have improved our military command. We can now fully focus on total war against the nasis."
  
  
  
