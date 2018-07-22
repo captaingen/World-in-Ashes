@@ -51,10 +51,15 @@ country_event = { #Anti-German Rally
 		ai_chance = {
 			factor = 1
 		}
+		custom_effect_tooltip = singapore.1.a.tooltip
 		hidden_effect = {
 			country_event = {
 				days = 3
 				id = singapore.2
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.01
 			}
 		}
 	}
@@ -79,11 +84,17 @@ country_event = { #Rallies Continue
 		ai_chance = {
 			factor = 1
 		}
+		custom_effect_tooltip = singapore.2.a.tooltip
 		hidden_effect = {
 			country_event = {
 				days = 2
 				id = singapore.3
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.02
+			}
+			add_political_power = -20
 		}
 	}
 }
@@ -112,16 +123,23 @@ country_event = { #Albert Hahl Returns
 				days = 3
 				id = singapore.4
 			}
-		}
-		create_country_leader = {
-			name = "Albert Hahl"
-			picture = "Portrait_SIN_Albert_Hahl.tga"
-			expire = "1965.1.1"
-			ideology = moderatism
-			traits = {
-			
+			create_country_leader = {
+				name = "Albert Hahl"
+				picture = "Portrait_SIN_Albert_Hahl.tga"
+				expire = "1965.1.1"
+				ideology = moderatism
+				traits = {
+				
+				}
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
+			add_political_power = -5
+			add_stability = -0.02
 		}
+		custom_effect_tooltip = singapore.3.a.tooltip
 	}
 }
 
