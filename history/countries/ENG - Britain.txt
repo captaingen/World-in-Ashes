@@ -140,7 +140,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Bernard Montgomery"
-	picture = "Portrait_Britain_Bernard_Montgomery.dds"
+	picture = "gfx/leaders/ENG/monty.tga"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
