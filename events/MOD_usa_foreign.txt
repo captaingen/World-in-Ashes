@@ -1,0 +1,92 @@
+﻿add_namespace = america
+
+############### FOREIGN AFFAIRS ###################
+country_event = { #Bordeaux requests staff training
+	id = america.0
+	title = america.0.t
+	desc = america.0.d
+	picture = GFX_USA_train_bor_officers
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	hidden = no
+
+	immediate = {
+	}
+
+	option = { #reject
+		name = america.0.a
+		add_political_power = 15
+		BOR = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = BOR_USA_rejected_request #Crashes the game
+			}
+		}
+	}
+	option = { #teach them strategies
+		name = america.0.b
+		trigger = {
+			has_army_experience > 5
+		}
+		army_experience = -5
+		BOR = {
+			country_event = {
+				id = bordeaux.5
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { # Bordeaux wants planes
+	id = america.1
+	title = america.1.t
+	desc = america.1.d
+	picture = GFX_report_event_airplane_factory
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	hidden = no
+
+	option = { # Accept
+		name = america.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = -20
+		air_experience = -10
+		BOR = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_1
+				amount = 100
+				producer = USA
+			}
+			air_experience = 15
+		}
+		hidden_effect = {
+			BOR = {
+				country_event = {
+					id = bordeaux.9
+					days = 1
+				}
+			}
+		}
+	}
+
+	option = { # Reject
+		name = america.1.b
+		ai_chance = { factor = 5 }
+		add_political_power = 20
+		hidden_effect = {
+			BOR = {
+				country_event = {
+					id = bordeaux.10
+					days = 1
+				}
+			}
+		}
+	}
+}
