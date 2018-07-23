@@ -959,5 +959,12 @@ instant_effect = {
 		progress = 0.85
 		amount = 1
 	}
+	
+	
+	### Stockpile###
+	add_equipment_to_stockpile = {
+		type = fighter_equipment_1
+		amount = 200
+	}
 }
 #####################

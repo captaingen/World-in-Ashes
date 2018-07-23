@@ -55,6 +55,11 @@ country_event = { # Bordeaux wants planes
 
 	option = { # Accept
 		name = america.1.a
+		trigger = {
+			has_equipment = {
+				fighter_equipment_1 > 99
+			}
+		}
 		ai_chance = { factor = 100 }
 		add_political_power = -20
 		air_experience = -10
