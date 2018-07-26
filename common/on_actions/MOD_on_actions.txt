@@ -11,6 +11,9 @@ on_actions = {
 			WIF = {
 				country_event = wif.4
 			}
+			SIN = {
+				country_event = singapore.0
+			}
 		}
 	}
 	on_new_term_election = {
