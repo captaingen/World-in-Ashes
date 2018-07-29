@@ -76,6 +76,10 @@
  SIN_early_military:0 "Early Military"
  SIN_undefined_nation:0 "Undefined Nation"
  
+ tan_chin_tuan_em:0 "Tan Chin Tuan"
+ lee_kong_chian_em:0 "Lee Kong Chian"
+ tan_kah_kee_em:0 "Tan Kah Kee"
+ 
  #Peru
  memories_of_peruvian_civil_war:0 "Memories of the Second Peruvian Civil War"
  memories_of_peruvian_civil_war_desc:0 "Our people still remembers the civil war, the horrors and the separation of families... and the fight for the control of the country.. probably our people would never forge this.."  

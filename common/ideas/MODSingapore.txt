@@ -106,4 +106,50 @@ ideas = {
 			}
 		}
 	}
+	
+	####Government Officials####
+	economy_minister = {
+		tan_chin_tuan_em = {
+			allowed = {
+				tag = SIN
+			}
+			available = {
+				always = no
+			}
+			traits = {
+				financial_genius
+				business_minister
+			}
+			cancel_if_invalid = no
+			cost = 150
+		}
+		lee_kong_chian_em = {
+			allowed = {
+				tag = SIN
+			}
+			available = {
+				always = no
+			}
+			traits = {
+				financial_genius
+				businessman
+			}
+			cancel_if_invalid = no
+			cost = 150
+		}
+		tan_kah_kee_em = {
+			allowed = {
+				tag = SIN
+			}
+			available = {
+				always = no
+			}
+			traits = {
+				financial_genius
+				compassionate_gentleman
+			}
+			cancel_if_invalid = no
+			cost = 150
+		}
+	}
 }

@@ -18,6 +18,7 @@ SIN_international_stagnation
 SIN_weak_industry
 SIN_early_military
 SIN_undefined_nation
+tan_chin_tuan_em
 }
 
 set_politics = {
