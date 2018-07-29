@@ -126,6 +126,7 @@ country_event = { #Albert Hahl Returns
 			}
 			create_country_leader = {
 				name = "Albert Hahl"
+				desc = "politics_albert_hahl_desc"
 				picture = "Portrait_SIN_Albert_Hahl.tga"
 				expire = "1965.1.1"
 				ideology = moderatism

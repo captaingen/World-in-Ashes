@@ -48,6 +48,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Council of Representation"
+	desc = "politics_council_of_representation_desc"
 	picture = "Portrait_SIN_Council_of_Representation.tga"
 	expire = "1965.1.1"
 	ideology = moderatism
