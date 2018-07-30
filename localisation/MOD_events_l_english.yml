@@ -48,6 +48,10 @@
  nasi.8.t:0 "Pétain Dead!"
  nasi.8.d:0 "Mutinous soldiers attempted to assassinate Pétain and succeeded..."
  nasi.8.a:0 "We will execute the soldiers who did this!"
+ nasi.9.t:0 "Bordeaux Proposes two state solution"
+ nasi.9.d:0 "Bordeaux wants peace. And we both have our differences, so instead of uniting under one flag, they want both of our governments to work together under a french alliance"
+ nasi.9.a:0 "Agree to styart planning"
+ nasi.9.b:0 "We should go to unite, not stay seperate"
  
  #Bordeaux
  bordeaux.0.t:0 "The Nasis launch a successful counterattack!"

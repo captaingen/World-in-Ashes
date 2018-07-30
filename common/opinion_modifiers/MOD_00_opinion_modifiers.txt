@@ -17,11 +17,11 @@ opinion_modifiers = {
 	}
 	
 	sent_envoy_om = {
-		value = 2
+		value = 10
 	}
 	
 	improve_relations_om = {
-		value = 5
+		value = 15
 	}
 	
 }	

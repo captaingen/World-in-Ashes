@@ -331,3 +331,35 @@ country_event = {
 		add_political_power = -150
     }
 }
+
+#Bordeaux Proposes 2 state solution
+country_event = {
+    id = nasi.9
+    title = nasi.9.t
+    desc = nasi.9.d
+	picture = GFX_FRA_do_it_ourselves
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = no
+
+    immediate = {
+    }
+
+    option = { #accept
+        name = nasi.9.a
+		BOR = {
+			set_country_flag = two_state_BOR
+			set_country_flag = BOR_plans_prepared
+		}
+    }
+	
+	option = { #reject
+        name = nasi.9.b
+		BOR = {	
+			set_country_flag = BOR_plans_prepared
+		}
+    }
+}

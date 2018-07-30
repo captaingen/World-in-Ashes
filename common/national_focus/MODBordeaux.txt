@@ -400,7 +400,7 @@ focus_tree = {
 		icon = unknown
 		x = 11
 		y = 1
-		cost = 0.8
+		cost = 2.9
 		
 		prerequisite = {
 			focus = BOR_peace_talks
@@ -442,11 +442,12 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		
 		completion_reward = {
 			custom_effect_tooltip = BOR_compromises_tt
+			set_country_flag = two_state_BOR
 		}
 	}
 	
@@ -501,6 +502,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			FRA = {
+				country_event = {
+					id = nasi.9
+					days = 1
+				}
+			}
 		}
 	}
 	
@@ -519,6 +526,7 @@ focus_tree = {
 		}
 		
 		available = {
+			has_country_flag = BOR_plans_prepared
 		}
 		
 		ai_will_do = {
@@ -554,6 +562,7 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = BOR_promises_tt
+			set_country_flag = one_state_BOR
 		}
 	}
 	
@@ -566,8 +575,6 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = BOR_promises_of_peace
-		}
-		prerequisite = {
 			focus = BOR_start_plans
 		}
 		
@@ -629,7 +636,7 @@ focus_tree = {
 	focus = {
 		id = BOR_one_state
 		icon = unknown
-		x = 11
+		x = 13
 		y = 8
 		cost = 10
 		
@@ -642,6 +649,7 @@ focus_tree = {
 		}
 		
 		available = {
+			has_country_flag = one_state_BOR
 		}
 		
 		ai_will_do = {
@@ -656,7 +664,7 @@ focus_tree = {
 	focus = {
 		id = BOR_two_state
 		icon = unknown
-		x = 13
+		x = 11
 		y = 8
 		cost = 10
 		
@@ -669,6 +677,7 @@ focus_tree = {
 		}
 		
 		available = {
+			has_country_flag = two_state_BOR
 		}
 		
 		ai_will_do = {

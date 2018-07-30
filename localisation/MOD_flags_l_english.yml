@@ -2,3 +2,7 @@
  BOR_attack_no:0 "Civil War Avoided"
  BOR_attack_yes:0 "Ready for Civil War"
  european_union_formed:0 "European Union Formed"
+ one_state_BOR:0 "One State Solution Proposed"
+ two_state_BOR:0 "Two States Solution Proposed"
+ french_civil_war_over:0 "French Civil War Over"
+ BOR_plans_prepared:0 "Planning Ready"
