@@ -350,6 +350,9 @@ country_event = {
 
     option = { #accept
         name = nasi.9.a
+		ai_chance = {
+			factor = 1
+		}
 		BOR = {
 			set_country_flag = two_state_BOR
 			set_country_flag = BOR_plans_prepared
@@ -358,6 +361,9 @@ country_event = {
 	
 	option = { #reject
         name = nasi.9.b
+		ai_chance = {
+			factor = 50
+		}
 		BOR = {	
 			set_country_flag = BOR_plans_prepared
 		}
