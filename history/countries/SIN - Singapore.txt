@@ -11,16 +11,6 @@ set_cosmetic_tag = SIN_GER # German Singapore
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 
-add_ideas = {
-SIN_cultural_tensions
-SIN_poor_education
-SIN_international_stagnation
-SIN_weak_industry
-SIN_early_military
-SIN_undefined_nation
-tan_chin_tuan_em
-}
-
 set_politics = {
 
 	parties = {
@@ -45,15 +35,4 @@ set_politics = {
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Council of Representation"
-	desc = "politics_council_of_representation_desc"
-	picture = "Portrait_SIN_Council_of_Representation.tga"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		
-	}
 }
