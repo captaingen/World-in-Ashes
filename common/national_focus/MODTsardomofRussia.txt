@@ -1,0 +1,740 @@
+focus_tree = {
+	id = tsardom_of_russia_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = RUS
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+		id = RUS_bolsheviks_among_us
+		icon = unknown
+		x = 5
+		y = 0
+		cost = 4
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_let_them_stay
+		icon = unknown
+		x = 2
+		y = 1
+		cost = 6
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_bolsheviks_among_us
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_they_must_go
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_the_exception
+		icon = unknown
+		x = 1
+		y = 2
+		cost = 6
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_let_them_stay
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_seek_reconciliation
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_seek_assimilation
+		icon = unknown
+		x = 1
+		y = 3
+		cost = 13
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_the_exception
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_seek_reconciliation
+		icon = unknown
+		x = 3
+		y = 2
+		cost = 6
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_let_them_stay
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_the_exception
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_reestablish_contact
+		icon = unknown
+		x = 3
+		y = 3
+		cost = 13
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_seek_reconciliation
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_those_who_betrayed
+		icon = unknown
+		x = 0
+		y = 4
+		cost = 3
+		
+		available = {
+			has_country_flag = those_who_betrayed
+		}
+		
+		prerequisite = {
+			focus = RUS_seek_assimilation
+			focus = RUS_reestablish_contact
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_peace_among_us
+			focus = RUS_friendly_rapprochement
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_peace_among_us
+		icon = unknown
+		x = 2
+		y = 4
+		cost = 3
+		
+		available = {
+			has_country_flag = peace_among_us
+		}
+		
+		prerequisite = {
+			focus = RUS_seek_assimilation
+			focus = RUS_reestablish_contact
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_those_who_betrayed
+			focus = RUS_friendly_rapprochement
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_friendly_rapprochement
+		icon = unknown
+		x = 4
+		y = 4
+		cost = 3
+		
+		available = {
+			has_country_flag = friendly_rapprochement
+		}
+		
+		prerequisite = {
+			focus = RUS_seek_assimilation
+			focus = RUS_reestablish_contact
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_those_who_betrayed
+			focus = RUS_peace_among_us
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_they_must_go
+		icon = unknown
+		x = 8
+		y = 1
+		cost = 6
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_bolsheviks_among_us
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_let_them_stay
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_peaceful_measures
+		icon = unknown
+		x = 7
+		y = 2
+		cost = 6
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_they_must_go
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_permanent_solution
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_deport_the_bolsheviks
+		icon = unknown
+		x = 7
+		y = 3
+		cost = 13
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_peaceful_measures
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_permanent_solution
+		icon = unknown
+		x = 9
+		y = 2
+		cost = 6
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_they_must_go
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_peaceful_measures
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_purge_the_bolsheviks
+		icon = unknown
+		x = 9
+		y = 3
+		cost = 13
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_permanent_solution
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_permanent_divide
+		icon = unknown
+		x = 6
+		y = 4
+		cost = 3
+		
+		available = {
+			has_country_flag = permanent_divide
+		}
+		
+		prerequisite = {
+			focus = RUS_purge_the_bolsheviks
+			focus = RUS_deport_the_bolsheviks
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_return_to_status_quo
+			focus = RUS_broken_armistace
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_return_to_status_quo
+		icon = unknown
+		x = 8
+		y = 4
+		cost = 3
+		
+		available = {
+			has_country_flag = return_to_status_quo
+		}
+		
+		prerequisite = {
+			focus = RUS_purge_the_bolsheviks
+			focus = RUS_deport_the_bolsheviks
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_permanent_divide
+			focus = RUS_broken_armistace
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_broken_armistace
+		icon = unknown
+		x = 10
+		y = 4
+		cost = 3
+		
+		available = {
+			has_country_flag = broken_armistace
+		}
+		
+		prerequisite = {
+			focus = RUS_purge_the_bolsheviks
+			focus = RUS_deport_the_bolsheviks
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_permanent_divide
+			focus = RUS_return_to_status_quo
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_succession_crisis
+		icon = unknown
+		x = 5
+		y = 5
+		cost = 4
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_peace_among_us
+			focus = RUS_friendly_rapprochement
+			focus = RUS_permanent_divide
+			focus = RUS_return_to_status_quo
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_reevaluate_the_pauline_laws
+		icon = unknown
+		x = 4
+		y = 6
+		cost = 8
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_succession_crisis
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_stay_true_to_tradition
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_stay_true_to_tradition
+		icon = unknown
+		x = 6
+		y = 6
+		cost = 8
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_succession_crisis
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_reevaluate_the_pauline_laws
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_the_mad_monk
+		icon = unknown
+		x = 3
+		y = 7
+		cost = 8
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_reevaluate_the_pauline_laws
+			focus = RUS_stay_true_to_tradition
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_the_white_army
+		icon = unknown
+		x = 5
+		y = 7
+		cost = 9
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_reevaluate_the_pauline_laws
+			focus = RUS_stay_true_to_tradition
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_the_cossacks
+		icon = unknown
+		x = 7
+		y = 7
+		cost = 8
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_reevaluate_the_pauline_laws
+			focus = RUS_stay_true_to_tradition
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_the_democrats
+		icon = unknown
+		x = 3
+		y = 8
+		cost = 8
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_the_mad_monk
+		}
+		prerequisite = {
+			focus = RUS_the_white_army
+		}
+		prerequisite = {
+			focus = RUS_the_cossacks
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_the_nationalists
+		icon = unknown
+		x = 7
+		y = 8
+		cost = 8
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_the_mad_monk
+		}
+		prerequisite = {
+			focus = RUS_the_white_army
+		}
+		prerequisite = {
+			focus = RUS_the_cossacks
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_safe_succession
+		icon = unknown
+		x = 5
+		y = 9
+		cost = 5
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_the_democrats
+		}
+		prerequisite = {
+			focus = RUS_the_nationalists
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_review_tsars_religious_authority
+		icon = unknown
+		x = 4
+		y = 10
+		cost = 3
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_safe_succession
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_maintain_religious_authority
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_maintain_religious_authority
+		icon = unknown
+		x = 6
+		y = 10
+		cost = 3
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_safe_succession
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_review_tsars_religious_authority
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_old_believers
+		icon = unknown
+		x = 5
+		y = 11
+		cost = 4
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_review_tsars_religious_authority
+			focus = RUS_maintain_religious_authority
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_choosing_new_patriarch
+		icon = unknown
+		x = 3
+		y = 12
+		cost = 5
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_review_tsars_religious_authority
+		}
+		prerequisite = {
+			focus = RUS_old_believers
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_empower_the_synod
+			focus = RUS_abolish_the_synod
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_empower_the_synod
+		icon = unknown
+		x = 5
+		y = 12
+		cost = 5
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_review_tsars_religious_authority
+			focus = RUS_maintain_religious_authority
+		}
+		prerequisite = {
+			focus = RUS_old_believers
+		}
+		
+		mutually_exclusive = {
+			focus = RUS_choosing_new_patriarch
+			focus = RUS_abolish_the_synod
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = RUS_abolish_the_synod
+		icon = unknown
+		x = 7
+		y = 12
+		cost = 5
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_maintain_religious_authority
+		}
+		prerequisite = {
+			focus = RUS_old_believers
+		}
+		
+		mutually_exclusive = {
+			RUS_choosing_new_patriarch
+			RUS_empower_the_synod
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = RUS_god_save_the_tsar
+		icon = unknown
+		x = 5
+		y = 13
+		cost = 13
+		
+		available = {
+		}
+		
+		prerequisite = {
+			focus = RUS_choosing_new_patriarch
+			focus = RUS_empower_the_synod
+			focus = RUS_abolish_the_synod
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
