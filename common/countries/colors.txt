@@ -882,3 +882,8 @@ LUB = {
 	color = rgb { 150 85 0 }
 	color_ui = rgb { 150 85 0 }
 }
+
+SEN = {
+	color = rgb { 109  114  74 }
+	color_ui = rgb { 109  114  74 }
+}

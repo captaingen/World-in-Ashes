@@ -1122,6 +1122,19 @@
  COG_neutrality_ADJ:0 "Zandian"
  COG_communism_ADJ:0 "Zandian"
  
+ SEN_fascism:2 "Senussi Order"
+ SEN_fascism_DEF:3 "The Senussi Order"
+ SEN_democratic:0 "Senussi Order"
+ SEN_democratic_DEF:0 "The Senussi Order"
+ SEN_neutrality:0 "Senussi Order"
+ SEN_neutrality_DEF:0 "The Senussi Order"
+ SEN_communism:1 "Senussi Order"
+ SEN_communism_DEF:0 "The Senussi Order"
+ SEN_fascism_ADJ:0 "Senussi"
+ SEN_democratic_ADJ:0 "Senussi"
+ SEN_neutrality_ADJ:0 "Senussi"
+ SEN_communism_ADJ:0 "Senussi"
+ 
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
