@@ -1,0 +1,15 @@
+RUS_succession_evaluation = {
+	icon = generic_crisis
+	
+	allowed = {
+		tag = RUS
+	}
+}
+
+RUS_cossacks = {
+	icon = generic_crisis
+	
+	allowed = {
+		tag = RUS
+	}
+}

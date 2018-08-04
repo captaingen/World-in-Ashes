@@ -1,0 +1,20 @@
+RUS_succession_evaluation = {
+	RUS_evaluate_succession = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}
+RUS_cossacks = {
+	RUS_evaluate_cossacks = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}

@@ -11,6 +11,13 @@ on_actions = {
 			WIF = {
 				country_event = wif.4
 			}
+			RUS = {
+				set_variable = {
+					var = RUS_cossack_loyalty
+					value = 50
+				}
+				RUS_update_cossacks = yes
+			}
 		}
 	}
 	on_new_term_election = {

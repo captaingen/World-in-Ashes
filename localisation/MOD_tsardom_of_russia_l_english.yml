@@ -1,0 +1,17 @@
+﻿l_english:
+ #Decisions
+  RUS_succession_evaluation:0 "Succession Evaluation"
+  RUS_evaluate_succession:0 "Evaluate Succession"
+  RUS_cossacks:0 "The Cossacks"
+  RUS_cossacks_desc:0 "Current Loyalty: §H[?RUS_cossack_loyalty]%§!\nCurrent Influence: §H[?RUS_cossack_influence]%§!\nCurrent Effects:\n[RUSGetCossackEffects]"
+  RUS_evaluate_cossacks:0 "Evaluate the Cossacks"
+ #Scripted Localization
+  RUS_cossacks_high_loyalty_high_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HConscription Factor:§! §G+0.05§!\n§HCavalry Attack Factor:§! §G+0.10§!\n§HCavalry Defence Factor:§! §G+0.10§!"
+  RUS_cossacks_medium_loyalty_high_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HCavalry Attack Factor:§! §G+0.10§!\n§HCavalry Defence Factor:§! §G+0.10§!"
+  RUS_cossacks_low_loyalty_high_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HCavalry Attack Factor:§! §R-0.05§!\n§HCavalry Defence Factor:§! §R-0.05§!"
+  RUS_cossacks_high_loyalty_medium_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HConscription Factor:§! §G+0.025§!\n§HCavalry Attack Factor:§! §G0.075§!\n§HCavalry Defence Factor:§! §G+0.075§!"
+  RUS_cossacks_medium_loyalty_medium_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HCavalry Attack Factor:§! §G+0.075§!\n§HCavalry Defence Factor:§! §G+0.075§!"
+  RUS_cossacks_low_loyalty_medium_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HCavalry Attack Factor:§! §R-0.033§!\n§HCavalry Defence Factor:§! §R-0.033§!"
+  RUS_cossacks_high_loyalty_low_influence_effect:0 "§HPolitical Power:§! §R-0.01§!\n§HConscription Factor:§! §G+0.01§!\n§HCavalry Attack Factor:§! §G+0.05§!\n§HCavalry Defence Factor:§! §G+0.05§!"
+  RUS_cossacks_medium_loyalty_low_influence_effect:0 "§HPolitical Power:§! §R-0.01§!\n§HCavalry Attack Factor:§! §G+0.05§!\n§HCavalry Defence Factor:§! §G+0.05§!"
+  RUS_cossacks_low_loyalty_low_influence_effect:0 "§HPolitical Power:§! §R-0.01§!\n§HCavalry Attack Factor:§! §R-0.01§!\n§HCavalry Defence Factor:§! §R-0.01§!"

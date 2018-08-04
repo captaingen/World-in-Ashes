@@ -1,0 +1,209 @@
+RUS_update_cossacks = {
+	if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 60
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 40
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 60
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		add_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 0
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 60
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		add_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 40
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		add_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 40
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 40
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		add_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 0
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 40
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		add_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		add_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 40
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		add_ideas = RUS_cossacks_medium_loyalty_low_influence
+		remove_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 0
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = RUS_cossacks_high_loyalty_high_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_high_influence
+		remove_ideas = RUS_cossacks_low_loyalty_high_influence
+		remove_ideas = RUS_cossacks_high_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_low_loyalty_medium_influence
+		remove_ideas = RUS_cossacks_high_loyalty_low_influence
+		remove_ideas = RUS_cossacks_medium_loyalty_low_influence
+		add_ideas = RUS_cossacks_low_loyalty_low_influence
+	}
+}

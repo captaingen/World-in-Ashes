@@ -1,0 +1,106 @@
+ideas = {
+	hidden_ideas = {
+		RUS_cossacks_high_loyalty_high_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.10
+				conscription_factor = 0.05
+				cavalry_attack_factor = 0.10
+				cavalry_defence_factor = 0.10
+			}
+		}
+		RUS_cossacks_medium_loyalty_high_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.10
+				cavalry_attack_factor = 0.10
+				cavalry_defence_factor = 0.10
+			}
+		}
+		RUS_cossacks_low_loyalty_high_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.10
+				cavalry_attack_factor = -0.05
+				cavalry_defence_factor = -0.05
+			}
+		}
+		RUS_cossacks_high_loyalty_medium_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.05
+				conscription_factor = 0.025
+				cavalry_attack_factor = 0.075
+				cavalry_defence_factor = 0.075
+			}
+		}
+		RUS_cossacks_medium_loyalty_medium_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.05
+				cavalry_attack_factor = 0.075
+				cavalry_defence_factor = 0.075
+			}
+		}
+		RUS_cossacks_low_loyalty_medium_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.05
+				cavalry_attack_factor = -0.033
+				cavalry_defence_factor = -0.033
+			}
+		}
+		RUS_cossacks_high_loyalty_low_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.01
+				conscription_factor = 0.01
+				cavalry_attack_factor = 0.05
+				cavalry_defence_factor = 0.05
+			}
+		}
+		RUS_cossacks_medium_loyalty_low_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.01
+				cavalry_attack_factor = 0.05
+				cavalry_defence_factor = 0.05
+			}
+		}
+		RUS_cossacks_low_loyalty_low_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.01
+				cavalry_attack_factor = -0.01
+				cavalry_defence_factor = -0.01
+			}
+		}
+	}
+}

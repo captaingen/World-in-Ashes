@@ -1,0 +1,57 @@
+defined_text = {
+	name = RUSGetCossackEffects
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_high_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_high_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_medium_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_medium_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_low_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_low_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_high_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_high_loyalty_medium_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_medium_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_medium_loyalty_medium_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_low_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_low_loyalty_medium_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_high_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_high_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_medium_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_medium_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_low_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_low_loyalty_low_influence_effect
+	}
+}
