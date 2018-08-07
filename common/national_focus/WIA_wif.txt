@@ -104,8 +104,39 @@ focus_tree = {
 			focus = WIF_work_camps
 			focus = WIF_autarky
 		}
+		prerequisite = {
+			focus = WIF_autarky
+		}
+		prerequisite = {
+			focus = WIF_work_camps
+		}
 		x = 5
 		y = 6
+
+	}
+	focus = {
+		id = WIF_nationalist_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_ban_labour_unions
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = WIF_collective_rule
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_nationalist_government
+		}
+		mutually_exclusive = {
+			focus = WIF_one_man_dictatorship
+		}
+		x = 7
+		y = 8
 
 	}
 	focus = {
@@ -169,6 +200,28 @@ focus_tree = {
 
 	}
 	focus = {
+		id = WIF_lessez_faire
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_lower_taxes
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = WIF_authoritarian
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_lessez_faire
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
 		id = WIF_liberal_democracy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -219,11 +272,19 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_some_state_intervention
 		}
-		prerequisite = {
-			focus = WIF_lower_taxes
-		}
-		x = 11
+		x = 13
 		y = 6
+
+	}
+	focus = {
+		id = WIF_democratic_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_free_market
+		}
+		x = 13
+		y = 7
 
 	}
 	focus = {
@@ -281,7 +342,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_market_socialism
 		}
-		x = 18
+		x = 19
 		y = 4
 
 	}
@@ -298,8 +359,30 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_workplace_democracy
 		}
-		x = 16
+		x = 17
 		y = 5
+
+	}
+	focus = {
+		id = WIF_welfare_state
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_increase_taxes
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = WIF_socialist_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_welfare_state
+		}
+		x = 17
+		y = 7
 
 	}
 	focus = {
@@ -320,7 +403,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_communism
 		}
-		x = 22
+		x = 24
 		y = 3
 
 	}
@@ -331,7 +414,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_socialism_in_one_countru
 		}
-		x = 20
+		x = 22
 		y = 4
 
 	}
@@ -342,19 +425,8 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_labour_unions
 		}
-		x = 20
+		x = 22
 		y = 5
-
-	}
-	focus = {
-		id = WIF_nationalist_government
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = WIF_ban_labour_unions
-		}
-		x = 5
-		y = 7
 
 	}
 	focus = {
@@ -364,7 +436,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_socialism_in_one_countru
 		}
-		x = 24
+		x = 26
 		y = 4
 
 	}
@@ -375,7 +447,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_nationalize_industries
 		}
-		x = 24
+		x = 26
 		y = 5
 
 	}
@@ -387,7 +459,13 @@ focus_tree = {
 			focus = WIF_five_year_plan
 			focus = WIF_monopolies
 		}
-		x = 22
+		prerequisite = {
+			focus = WIF_five_year_plan
+		}
+		prerequisite = {
+			focus = WIF_monopolies
+		}
+		x = 24
 		y = 6
 
 	}
@@ -398,41 +476,78 @@ focus_tree = {
 		prerequisite = {
 			focus = WIF_gulags
 		}
-		x = 22
+		x = 24
 		y = 7
 
 	}
 	focus = {
-		id = WIF_welfare_state
+		id = WIF_full_black_nationalism
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = WIF_increase_taxes
+			focus = WIF_one_man_dictatorship
+			focus = WIF_collective_rule
 		}
-		x = 16
-		y = 6
+		x = 5
+		y = 9
 
 	}
 	focus = {
-		id = WIF_socialist_government
+		id = WIF_white_question
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = WIF_welfare_state
+			focus = WIF_full_black_nationalism
 		}
-		x = 16
-		y = 7
+		x = 5
+		y = 10
 
 	}
 	focus = {
-		id = WIF_democratic_government
+		id = WIF_communism_is_white
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = WIF_free_market
+			focus = WIF_white_question
 		}
-		x = 11
-		y = 7
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = WIF_deportation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_communism_is_white
+		}
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = WIF_one_man_dictatorship
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_nationalist_government
+		}
+		mutually_exclusive = {
+			focus = WIF_collective_rule
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = WIF_purge_dissedents
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_communist_government
+		}
+		x = 24
+		y = 8
 
 	}
 }
