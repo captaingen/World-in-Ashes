@@ -1,0 +1,438 @@
+focus_tree = {
+	id = WIA_wif
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WIF
+		}
+	}
+	default = no
+	focus = {
+		id = WIF_call_snap_election
+		icon = GFX_goal_unknown
+		cost = 1.00
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = WIF_abolish_current_system
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_call_snap_election
+		}
+		mutually_exclusive = {
+			focus = WIF_keep_wi_democracy
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = WIF_Ultranationalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_abolish_current_system
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = WIF_economic_nationalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_Ultranationalism
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = WIF_state_industries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_economic_nationalism
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = WIF_autarky
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_state_industries
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = WIF_corporatism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_economic_nationalism
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = WIF_work_camps
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_corporatism
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = WIF_ban_labour_unions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_work_camps
+			focus = WIF_autarky
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = WIF_keep_wi_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_call_snap_election
+		}
+		mutually_exclusive = {
+			focus = WIF_abolish_current_system
+			focus = WIF_equality_for_all
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = WIF_authoritarian_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_abolish_current_system
+			focus = WIF_keep_wi_democracy
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = WIF_fiscal_conservatism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_authoritarian_democracy
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = WIF_privitization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_fiscal_conservatism
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = WIF_lower_taxes
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_privitization
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = WIF_liberal_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_keep_wi_democracy
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = WIF_market_liberalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_liberal_democracy
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = WIF_ordoliberalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_market_liberalism
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = WIF_some_state_intervention
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_ordoliberalism
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = WIF_free_market
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_some_state_intervention
+		}
+		prerequisite = {
+			focus = WIF_lower_taxes
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = WIF_equality_for_all
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_call_snap_election
+		}
+		mutually_exclusive = {
+			focus = WIF_keep_wi_democracy
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = WIF_socialism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_equality_for_all
+			focus = WIF_keep_wi_democracy
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = WIF_market_socialism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_socialism
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = WIF_workplace_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_market_socialism
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = WIF_protect_workers_rights
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_market_socialism
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = WIF_increase_taxes
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_protect_workers_rights
+		}
+		prerequisite = {
+			focus = WIF_protect_workers_rights
+		}
+		prerequisite = {
+			focus = WIF_workplace_democracy
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = WIF_communism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_equality_for_all
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = WIF_socialism_in_one_countru
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_communism
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = WIF_labour_unions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_socialism_in_one_countru
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = WIF_five_year_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_labour_unions
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = WIF_nationalist_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_ban_labour_unions
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = WIF_nationalize_industries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_socialism_in_one_countru
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = WIF_monopolies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_nationalize_industries
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = WIF_gulags
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_five_year_plan
+			focus = WIF_monopolies
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = WIF_communist_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_gulags
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = WIF_welfare_state
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_increase_taxes
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = WIF_socialist_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_welfare_state
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = WIF_democratic_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = WIF_free_market
+		}
+		x = 11
+		y = 7
+
+	}
+}
