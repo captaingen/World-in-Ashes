@@ -1,0 +1,413 @@
+focus_tree = {
+	id = naples_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = NAP
+		}
+	}
+
+	####Government Control
+	focus = {
+		id = NAP_father_fascism
+		icon = unknown
+		x = 4
+		y = 0
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_duce
+		icon = unknown
+		x = 1
+		y = 1
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_father_fascism
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_senato
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_full_military_control
+		icon = unknown
+		x = 0
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_duce
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_graziani_youth
+		icon = unknown
+		x = 0
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_full_military_control
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_full_political_control
+		icon = unknown
+		x = 2
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_duce
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_unite_south
+		icon = unknown
+		x = 2
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_full_political_control
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_strengthen_training
+		icon = unknown
+		x = 1
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_unite_south
+		}
+		prerequisite = {
+			focus = NAP_graziani_youth
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_enforcing_legge
+		icon = unknown
+		x = 4
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_duce
+			focus = NAP_senato
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_postase
+		icon = unknown
+		x = 4
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_enforcing_legge
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_senato
+		icon = unknown
+		x = 7
+		y = 1
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_father_fascism
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_duce
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_senate_rules
+		icon = unknown
+		x = 6
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_senato
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_italian_corruption
+		icon = unknown
+		x = 6
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_senate_rules
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_senatorial_military
+		icon = unknown
+		x = 8
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_senato
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_special_forces
+		icon = unknown
+		x = 8
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_senatorial_military
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_distribute_wealth
+		icon = unknown
+		x = 7
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_special_forces
+		}
+		prerequisite = {
+			focus = NAP_italian_corruption
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_strengthen_italian_lira
+		icon = unknown
+		x = 4
+		y = 5
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			focus = NAP_distribute_wealth
+			focus = NAP_strengthen_training
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	
+	
+}
