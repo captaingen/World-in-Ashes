@@ -3,6 +3,9 @@ RUS_succession_evaluation = {
 	
 	allowed = {
 		tag = RUS
+		NOT = {
+			has_country_flag = RUS_nicholas_II_dead
+		}
 	}
 }
 

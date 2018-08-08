@@ -55,3 +55,27 @@ defined_text = {
 		localization_key = RUS_cossacks_low_loyalty_low_influence_effect
 	}
 }
+defined_text = {
+	name = RUSGetHeir
+	text = {
+		trigger = {
+			has_country_flag = RUS_heir_is_kirill
+		}
+		localization_key = RUS_heir_is_kirill
+	}
+	text = {
+		trigger = {
+			has_country_flag = RUS_heir_is_michael
+		}
+		localization_key = RUS_heir_is_michael
+	}
+	text = {
+		trigger = {
+			has_country_flag = RUS_heir_is_olga
+		}
+		localization_key = RUS_heir_is_olga
+	}
+	text = {
+		localization_key = RUS_heir_is_alexei
+	}
+}
