@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		weak_currency = {
+
+			picture = neutrality_idea
+		
+			allowed = {
+				OR = {
+					original_tag = NAP
+					original_tag = ITA
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+	
+}
