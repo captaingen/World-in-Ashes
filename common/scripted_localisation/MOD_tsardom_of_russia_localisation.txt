@@ -2,6 +2,60 @@ defined_text = {
 	name = RUSGetCossackEffects
 	text = {
 		trigger = {
+			has_idea = RUS_cossacks_extremely_high_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_extremely_high_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_high_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_very_high_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_high_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_high_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_medium_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_medium_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_low_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_low_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_low_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_very_low_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_low_loyalty_very_high_influence
+		}
+		localization_key = RUS_cossacks_extremely_low_loyalty_very_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_high_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_extremely_high_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_high_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_very_high_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
 			has_idea = RUS_cossacks_high_loyalty_high_influence
 		}
 		localization_key = RUS_cossacks_high_loyalty_high_influence_effect
@@ -17,6 +71,30 @@ defined_text = {
 			has_idea = RUS_cossacks_low_loyalty_high_influence
 		}
 		localization_key = RUS_cossacks_low_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_low_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_very_low_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_low_loyalty_high_influence
+		}
+		localization_key = RUS_cossacks_extremely_low_loyalty_high_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_high_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_extremely_high_loyalty_medium_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_high_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_very_high_loyalty_medium_influence_effect
 	}
 	text = {
 		trigger = {
@@ -38,6 +116,30 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = RUS_cossacks_very_low_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_very_low_loyalty_medium_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_low_loyalty_medium_influence
+		}
+		localization_key = RUS_cossacks_extremely_low_loyalty_medium_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_high_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_extremely_high_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_high_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_very_high_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
 			has_idea = RUS_cossacks_high_loyalty_low_influence
 		}
 		localization_key = RUS_cossacks_high_loyalty_low_influence_effect
@@ -53,6 +155,60 @@ defined_text = {
 			has_idea = RUS_cossacks_low_loyalty_low_influence
 		}
 		localization_key = RUS_cossacks_low_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_low_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_very_low_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_low_loyalty_low_influence
+		}
+		localization_key = RUS_cossacks_extremely_low_loyalty_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_high_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_extremely_high_loyalty_very_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_high_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_very_high_loyalty_very_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_high_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_high_loyalty_very_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_medium_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_medium_loyalty_very_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_low_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_low_loyalty_very_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_very_low_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_very_low_loyalty_very_low_influence_effect
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_cossacks_extremely_low_loyalty_very_low_influence
+		}
+		localization_key = RUS_cossacks_extremely_low_loyalty_very_low_influence_effect
 	}
 }
 defined_text = {
