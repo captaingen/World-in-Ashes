@@ -1,4 +1,58 @@
 RUS_update_cossacks = {
+	#Ensuring that loyalty and influence is not below 0 or above 100
+	if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = RUS_cossack_loyalty
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_loyalty
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = RUS_cossack_loyalty
+			value = 0
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = RUS_cossack_influence
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = RUS_cossack_influence
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = RUS_cossack_influence
+			value = 0
+		}
+	}
+	#Giving proper buffs and debuffs dependent on loyalty and influence
 	if = {
 		limit = {
 			check_variable = {
@@ -208,11 +262,18 @@ RUS_update_cossacks = {
 	}
 }
 
-#Some Notes
-#0-5
-#6-20
-#21-40
-#41-60
-#61-80
-#81-95
-#96-100
+#Some Notes - Not in effect yet
+#Loyalty
+#0-5 #Extremely Low Loyalty
+#6-20 #Very Low Loyalty
+#21-40 #Low Loyalty
+#41-60 #Medium Loyalty
+#61-80 #High Loyalty
+#81-95 #Very High Loyalty
+#96-100 #Extremely High Loyalty
+#Influence
+#0-20 #Very Low Loyalty
+#21-40 #Low Loyalty
+#41-60 #Medium Influence
+#61-80 #High Influence
+#81-100 #Very High Influence
