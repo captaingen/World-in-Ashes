@@ -4,7 +4,7 @@ on_actions = {
 			every_country = {
 				
 			set_variable = { reform_points = 10 }
-			set_variable = { reform_points_rate = 200 }
+			set_variable = { reform_points_rate = 1 }
 			set_variable = { reform_points_max = 500 }
 			}
 		}
@@ -14,6 +14,13 @@ on_actions = {
 		effect = {
 			add_to_variable = { reform_points = reform_points_rate }
 			clamp_variable = { var = reform_points min = 0 max = reform_points_max }
+			if = {
+				limit = {
+					has_country_flag = start_research_flag
+				}
+				add_to_variable = { reform_points = reform_points_rate }
+			}
+				
 		}
 	}
 }

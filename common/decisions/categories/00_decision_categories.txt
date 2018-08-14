@@ -1,3 +1,14 @@
+westernization_actions = {
+	
+	icon = generic
+	
+	allowed = {
+		NOT = {
+			has_country_flag = westernization_5_completed_flag
+		}
+	}
+}
+
 FRA_civil_war_operations = {
 	
 	icon = generic_crisis

@@ -1,0 +1,39 @@
+westernization_actions = {
+	
+	
+	start_research = {
+		
+		icon = generic_research
+		
+		available = {
+			has_country_flag = westernization_1_completed_flag
+			NOT = {
+				has_country_flag = start_research_flag
+			}
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			always = yes
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = start_research_tt
+			hidden_effect = {
+				set_country_flag = start_research_flag
+			}
+		}
+		
+		
+	}
+	
+
+
+}

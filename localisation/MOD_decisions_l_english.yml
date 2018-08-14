@@ -16,6 +16,12 @@
   FRA_send_petain_again_desc:0 "Even though Pétain almost got killed in his first visit to the Frontline, the troops have been extremely motivated. With the proper defense and location, we shall send him again to further motivate our troops!"
   FRA_civil_war_operations:0 "Civil War Operations"
   
+  #westernization
+  westernization_1_completed_flag:0 "Started Westernization"
+  westernization_actions:0 "Westernization Progress"
+  start_research_flag:0 "Started Research Program"
+  start_research:0 "Start the Research Program"
+  start_research_desc:0 "Our country is on the path of westernization. We need a Researching Program to fasten the progress"
   
   
   #WIF
