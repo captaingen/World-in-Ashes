@@ -22,6 +22,18 @@
   start_research_flag:0 "Started Research Program"
   start_research:0 "Start the Research Program"
   start_research_desc:0 "Our country is on the path of westernization. We need a Researching Program to fasten the progress"
+  imported_weapons:0 "Imported Weapons"
+  imported_weapons_desc:0 "Our country is on the path of westernization. We need to import more foreign weapons to fasten the progress"
+  improved_construction:0 "Improved Construction"
+  improved_construction_desc:0 "Our country is on the path of westernization. We need improved construction to fasten the progress"
+  train_officers:0 "Train Officers"
+  train_officers_desc:0 "Our country is on the path of westernization. We need to train our Officers to fasten the progress"
+  industrial_reform_program:0 "Industrial Reform Program"
+  industrial_reform_program_desc:0 "Our country is on the path of westernization. We need an Industrial Reform Program to fasten the progress"
+  finance_reform:0 "Financial Reform Program"
+  finance_reform_desc:0 "Our country is on the path of westernization. We need a Financial Reform Program to fasten the progress"
+  education_program:0 "Educational Reform"
+  education_program_desc:0 "Our country is on the path of westernization. We need better education to fasten the progress"
   
   
   #WIF

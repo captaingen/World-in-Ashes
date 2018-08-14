@@ -2,4 +2,10 @@
     
     #westernization decisions
     
-    start_research_tt:0 "Starting the research Program will give you an additional §G2 Daily Reform Points§! towards your westernization"
+    start_research_tt:0 "Starting the research Program will give you an additional §GDaily Reform Points§! towards your westernization"
+    imported_weapons_tt:0 "Starting to import foreign weapons will give you an additional §G2 Daily Reform Points§! towards your westernization"
+    improved_construction_tt:0 "Improving construction will give you an additional §G2 Daily Reform Points§! towards your westernization"
+    train_officers_tt:0 "Training the Officers will give you an additional §G2 Daily Reform Points§! towards your westernization"
+    industrial_reform_program_tt:0 "Starting the Industrial Reform Program will give you an additional §G2 Daily Reform Points§! towards your westernization"
+    finance_reform_tt:0 "Reforming the Financial Logarithm will give you an additional §G2 Daily Reform Points§! towards your westernization"
+    education_program_tt:0 "Starting a new Educational Improvement Program will give you an additional §G2 Daily Reform Points§! towards your westernization"

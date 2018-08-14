@@ -22,7 +22,7 @@ westernization_actions = {
 			always = yes
 		}
 		
-		days_remove = 30
+		days_remove = 25
 		
 		remove_effect = {
 			custom_effect_tooltip = start_research_tt
@@ -31,6 +31,186 @@ westernization_actions = {
 			}
 		}
 		
+		
+	}
+	
+	imported_weapons = {
+		
+		icon = generic_prepare_civil_war
+		
+		available = {
+			
+		}
+		
+		cost = 75
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_country_flag = westernization_1_completed_flag
+			has_country_flag = start_research_flag
+		}
+		
+		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = imported_weapons_tt
+			hidden_effect = {
+				set_country_flag = imported_weapons_flag
+			}
+		}
+		
+	}
+	
+	improved_construction = {
+		
+		icon = generic_construction
+		
+		available = {
+			
+		}
+		
+		cost = 75
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_country_flag = westernization_1_completed_flag
+			has_country_flag = start_research_flag
+		}
+		
+		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = improved_construction_tt
+			hidden_effect = {
+				set_country_flag = improved_construction_flag
+			}
+		}
+		
+	}
+	
+	train_officers = {
+		
+		icon = generic_army_support
+		
+		available = {
+			
+		}
+		
+		cost = 75
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_country_flag = westernization_1_completed_flag
+			has_country_flag = start_research_flag
+		}
+		
+		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = train_officers_tt
+			hidden_effect = {
+				set_country_flag = train_officers_flag
+			}
+		}
+		
+	}
+	
+	industrial_reform_program = {
+		
+		icon = generic_industry
+		
+		available = {
+			
+		}
+		
+		cost = 75
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_country_flag = westernization_1_completed_flag
+			has_country_flag = start_research_flag
+		}
+		
+		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = industrial_reform_program_tt
+			hidden_effect = {
+				set_country_flag = industrial_reform_program_flag
+			}
+		}
+		
+	}
+	
+	finance_reform = {
+		
+		icon = ger_mefo_bills
+		
+		available = {
+			
+		}
+		
+		cost = 75
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_country_flag = westernization_1_completed_flag
+			has_country_flag = start_research_flag
+		}
+		
+		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = finance_reform_tt
+			hidden_effect = {
+				set_country_flag = finance_reform_flag
+			}
+		}
+		
+	}
+	
+	education_program = {
+		
+		icon = generic_political_discourse
+		
+		available = {
+			
+		}
+		
+		cost = 75
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_country_flag = westernization_1_completed_flag
+			has_country_flag = start_research_flag
+		}
+		
+		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = education_program_tt
+			hidden_effect = {
+				set_country_flag = education_program_flag
+			}
+		}
 		
 	}
 	
