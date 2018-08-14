@@ -709,8 +709,8 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {
-			RUS_choosing_new_patriarch
-			RUS_empower_the_synod
+			focus = RUS_choosing_new_patriarch
+			focus = RUS_empower_the_synod
 		}
 		
 		ai_will_do = {
