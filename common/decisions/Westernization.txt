@@ -39,7 +39,9 @@ westernization_actions = {
 		icon = generic_prepare_civil_war
 		
 		available = {
-			
+			NOT = {
+				has_country_flag = imported_weapons_flag
+			}
 		}
 		
 		cost = 75
@@ -69,7 +71,9 @@ westernization_actions = {
 		icon = generic_construction
 		
 		available = {
-			
+			NOT = {
+				has_country_flag = improved_construction_flag
+			}
 		}
 		
 		cost = 75
@@ -99,7 +103,9 @@ westernization_actions = {
 		icon = generic_army_support
 		
 		available = {
-			
+			NOT = {
+				has_country_flag = train_officers_flag
+			}
 		}
 		
 		cost = 75
@@ -129,7 +135,9 @@ westernization_actions = {
 		icon = generic_industry
 		
 		available = {
-			
+			NOT = {
+				has_country_flag = industrial_reform_program_flag
+			}
 		}
 		
 		cost = 75
@@ -159,7 +167,9 @@ westernization_actions = {
 		icon = ger_mefo_bills
 		
 		available = {
-			
+			NOT = {
+				has_country_flag = finance_reform_flag
+			}
 		}
 		
 		cost = 75
@@ -189,7 +199,9 @@ westernization_actions = {
 		icon = generic_political_discourse
 		
 		available = {
-			
+			NOT = {
+				has_country_flag = education_program_flag
+			}
 		}
 		
 		cost = 75
