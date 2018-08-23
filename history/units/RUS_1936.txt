@@ -30,14 +30,14 @@ division_template = {
 	support = {
 		artillery = { x = 0 y = 0 }
 	}
-	division_template = {
-		name = "Narodnoe Opolcheniye"
+}
+division_template = {
+	name = "Narodnoe Opolcheniye"
 
-		regiments = {
-			irregular = { x = 0 y = 0 }
-			irregular = { x = 0 y = 1 }
-			irregular = { x = 1 y = 0 }
-			irregular = { x = 1 y = 1 }
-		}
+	regiments = {
+		irregular = { x = 0 y = 0 }
+		irregular = { x = 0 y = 1 }
+		irregular = { x = 1 y = 0 }
+		irregular = { x = 1 y = 1 }
 	}
 }
