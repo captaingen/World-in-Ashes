@@ -3,11 +3,16 @@
 oob = "RUS_1936"
 
 add_ideas = {
+	RUS_tsarist_autocracy
+	russian_armistice
+	RUS_conscription_exemptions
 	limited_conscription
 }
 
 set_stability = 0.4
 set_war_support = 0.4
+
+set_country_flag = russian_armistice
 
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
@@ -38,18 +43,21 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 24
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 9
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 1
 		}
 		neutrality = {
-			popularity = 80
+			popularity = 61
+		}
+		socialism = {
+			popularity = 5
 		}
 	}
 	

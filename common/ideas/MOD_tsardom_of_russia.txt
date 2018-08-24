@@ -1,4 +1,46 @@
 ideas = {
+	country = {
+		#Makes rule more absolute to better represent the government of the Russian Empire, plus some flavor text (May need some minor balancing later on)
+		RUS_tsarist_autocracy = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				generate_wargoal_tension = -0.4
+				join_faction_tension = -0.3
+				lend_lease_tension = -0.4
+				send_volunteers_tension = -0.25
+				guarantee_tension = -0.05
+				drift_defence_factor = 0.3
+			}
+		}
+		russian_armistice = {
+			allowed = {
+				OR = {
+					tag = RUS
+					tag = SOV
+				}
+				has_country_flag = russian_armistice
+			}
+			removal_cost = -1
+			modifier = {
+				join_faction_tension = 10
+				ai_get_ally_desire_factor = -100
+				stability_factor = -0.05
+			}
+		}
+		RUS_conscription_exemptions = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.3
+				stability_factor = 0.1
+			}
+		}
+	}
 	hidden_ideas = {
 		#Cossack Effects
 		RUS_cossacks_extremely_high_loyalty_very_high_influence = {
