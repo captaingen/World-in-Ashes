@@ -6,11 +6,12 @@ add_ideas = {
 	RUS_tsarist_autocracy
 	russian_armistice
 	RUS_conscription_exemptions
+	RUS_remaining_bolsheviks
 	limited_conscription
 }
 
-set_stability = 0.4
-set_war_support = 0.4
+set_stability = 0.5
+set_war_support = 0.5
 
 set_country_flag = russian_armistice
 
@@ -71,9 +72,10 @@ create_country_leader = {
 	name = "Nicholas II"
 	desc = ""
 	picture = "gfx/leaders/RUS/nicholas_II.tga"
-	expire = "1937.8.21"
+	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		
+		RUS_unpopular_imperator
+		RUS_incompetent_statesman
 	}
 }

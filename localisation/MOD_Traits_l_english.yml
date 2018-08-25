@@ -46,3 +46,7 @@
  weak_president:0 "Weak President"
  violent_minister:0 "Violent Minister"
  pacifist_minister:0 "Pacifist Minister"
+ #Russian Empire
+  #Nicholas II
+   RUS_unpopular_imperator:0 "Unpopular Imperator"
+   RUS_incompetent_statesman:0 "Incompetent Statesman"

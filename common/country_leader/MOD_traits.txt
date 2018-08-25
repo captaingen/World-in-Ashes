@@ -266,4 +266,20 @@ leader_traits = {
 			factor = 2
 		}
 	}
+	#Russian Empire
+		#Nicolas II
+			RUS_unpopular_imperator = {
+				random = no
+				ai_will_do = {
+					factor = 0
+				}
+				stability_factor = -0.1
+			}
+			RUS_incompetent_statesman = {
+				random = no
+				ai_will_do = {
+					factor = 0
+				}
+				political_power_gain = -0.4
+			}
 }
