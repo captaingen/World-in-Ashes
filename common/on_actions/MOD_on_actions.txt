@@ -12,6 +12,7 @@ on_actions = {
 				country_event = wif.4
 			}
 			RUS = {
+				#country_event = tsarus.0
 				set_variable = {
 					var = RUS_cossack_loyalty
 					value = 50

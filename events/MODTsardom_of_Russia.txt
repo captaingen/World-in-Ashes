@@ -1,0 +1,27 @@
+﻿###########################
+# Russian Events
+###########################
+
+add_namespace = tsarus
+
+######################Intro Events (tsarus.0-4 just to be safe)######################
+#country_event = { #Recent History of the Empire
+#	id = tsarus.0
+#	title = tsarus.0.title
+#	desc = tsarus.0.desc
+#	
+#	is_triggered_only = yes
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		tag = RUS
+#	}
+#	
+#	option = {
+#		name = tsarus.0.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#	}
+#}
