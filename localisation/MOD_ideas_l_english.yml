@@ -1,5 +1,12 @@
 ﻿l_english:
  
+ #westernization ideas
+ unwesternized:0 "Unwesternized"
+ semi_westernized:0 "Westernizing"
+ westernized:0 "Westernized"
+ 
+ 
+ 
  ministers:0 "Ministers"
  
  head_of_government:0 "Second in Power"

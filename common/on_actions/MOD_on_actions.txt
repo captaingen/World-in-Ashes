@@ -19,6 +19,42 @@ on_actions = {
 				}
 				RUS_update_cossacks = yes
 			}
+			every_country = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = westernization_1_completed_flag
+						}
+					}
+					add_ideas = unwesternized
+				}
+			}
+			every_country = {
+				if = {
+					limit = {
+						AND = {
+							has_country_flag = westernization_1_completed_flag
+							OR = {
+								has_country_flag = completed_industry_flag
+								has_country_flag = completed_modern_flag
+								has_country_flag = completed_diplo_flag
+							}
+							NOT = {
+								has_country_flag = westernization_5_completed_flag
+							}
+						}
+					}
+					add_ideas = semi_westernized
+				}
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = westernization_5_completed_flag
+					}
+					add_ideas = westernized
+				}
+			}
 		}
 	}
 	on_new_term_election = {

@@ -265,5 +265,85 @@ ideas = {
 			}
 		}
 		
+		unwesternized = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = chi_army_corruption
+			
+			removal_cost = -1
+			
+			modifier = {
+				set_politics = {
+					parties = {
+						democratic = { 
+							popularity = 0
+							banned = yes
+						}
+
+						fascism = {
+							popularity = 0
+							banned = yes
+						}
+		
+						communism = {
+							popularity = 0
+							banned = yes
+						}
+				
+						neutrality = { 
+							popularity = 100
+						}
+					}
+	
+					ruling_party = neutrality
+				}
+			}
+		}
+		
+		semi_westernized = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = chi_army_corruption2
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		
+		westernized = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = chi_army_corruption3
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		
 	}
 }
