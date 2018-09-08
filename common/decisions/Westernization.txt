@@ -19,7 +19,9 @@ westernization_actions = {
 		}
 		
 		visible = {
-			always = yes
+			NOT = {
+				has_country_flag = westernization_5_completed_flag
+			}
 		}
 		
 		days_remove = 25

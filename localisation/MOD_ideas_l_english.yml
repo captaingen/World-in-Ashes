@@ -2,8 +2,11 @@
  
  #westernization ideas
  unwesternized:0 "Agrarian"
+ unwesternized_desc:0 "This nation hasn't started westernizing yet. It hasnt modernized its army yet, hasn't modernized its diplomatic approaches and still doesn't have a proper industry."
  semi_westernized:0 "Westernizing"
+ semi_westernized_desc:0 "This nation is westernizing. It has started modernizing its army and its diplomatic approaches and is starting to have a good industrial base."
  westernized:0 "Westernized"
+ westernized_desc:0 "This nation is westernized. It has a modern army and uses modern diplomatic approaches. It also has a good industrial base."
  
  
  
