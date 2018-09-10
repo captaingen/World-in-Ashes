@@ -193,7 +193,6 @@ frloc_cosmtags_sg_masc_vow_dansl_03 = {
 		AND = { tag = CZE has_cosmetic_tag = CZE_ONLY has_government = fascism } # CZE_ONLY_fascism
 		AND = { OR = { tag = HUN tag = AUS tag = CZE } has_cosmetic_tag = HUN_EMPIRE has_government = fascism } # HUN_EMPIRE_fascism
 		AND = { original_tag = GER has_cosmetic_tag = GER_german_empire has_government = neutrality } # GER_german_empire_neutrality
-		AND = { tag = MAN is_subject_of = JAP has_government = fascism OR = { has_autonomy_state = autonomy_dominion has_autonomy_state = autonomy_satellite has_autonomy_state = autonomy_wtt_imperial_associate } } # MAN_JAP_fascism_autonomy_dominion OR MAN_JAP_fascism_autonomy_satellite OR MAN_JAP_fascism_autonomy_wtt_imperial_associate
 		AND = { has_cosmetic_tag = SCA_UNIFIED has_government = fascism OR = { original_tag = NOR original_tag = SWE original_tag = DEN } } # SCA_UNIFIED_fascism
 		AND = { has_cosmetic_tag = SCA_UNIFIED has_government = communism OR = { original_tag = NOR original_tag = SWE original_tag = DEN } } # SCA_UNIFIED_communism
 		AND = { has_cosmetic_tag = NDC_UNIFIED has_government = fascism OR = { original_tag = NOR original_tag = SWE original_tag = DEN original_tag = FIN } } # NDC_UNIFIED_fascism
@@ -268,7 +267,6 @@ frloc_cosmtags_sg_fem_cons_dansla_dela_05 = {
 		AND = { has_cosmetic_tag = RAT_UNIFIED original_tag = SIA has_government = democratic } # RAT_UNIFIED_democratic
 		AND = { has_cosmetic_tag = HRE_UNIFIED original_tag = GER has_government = democratic } # HRE_UNIFIED_democratic
 		AND = { has_cosmetic_tag = HRE_UNIFIED original_tag = GER has_government = communism } # HRE_UNIFIED_communism
-		AND = { original_tag = CHI is_subject_of = JAP has_government = fascism has_autonomy_state = autonomy_wtt_imperial_associate } # CHI_JAP_fascism_autonomy_wtt_imperial_associate
 		AND = { tag = MAN has_cosmetic_tag = MAN_kwantung_army has_government = communism } # MAN_kwantung_army_communism
 		AND = { original_tag = PRC has_cosmetic_tag = PRC_proclaimed has_government = communism } # PRC_proclaimed_communism
 		AND = { original_tag = PRC has_cosmetic_tag = PRC_proclaimed has_government = democratic } # PRC_proclaimed_democratic
