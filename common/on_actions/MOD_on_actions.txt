@@ -55,6 +55,16 @@ on_actions = {
 					add_ideas = westernized
 				}
 			}
+			every_country = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = completed_diplo_flag
+						}
+					}
+					country_event = westernization.5
+				}
+			}
 		}
 	}
 	on_new_term_election = {

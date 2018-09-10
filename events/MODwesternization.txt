@@ -237,3 +237,54 @@ country_event = {
 		custom_effect_tooltip = INDUSTRY4_TT
 	}
 }
+
+country_event = {
+	id = westernization.5
+	title = westernization.5.t
+	desc = westernization.5.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+	
+	option = {
+		name = westernization.5.a
+		set_politics = {
+					parties = {
+						democratic = { 
+							popularity = 0
+							banned = yes
+						}
+
+						fascism = {
+							popularity = 0
+							banned = yes
+						}
+		
+						communism = {
+							popularity = 0
+							banned = yes
+						}
+						
+						socialism = {
+							popularity = 0
+							banned = yes
+						}
+				
+						neutrality = { 
+							popularity = 100
+						}
+					}
+	
+					ruling_party = neutrality
+				}
+		add_ideas = inefficient_diplomacy
+	}
+}

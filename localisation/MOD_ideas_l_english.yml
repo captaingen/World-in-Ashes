@@ -7,6 +7,8 @@
  semi_westernized_desc:0 "This nation is westernizing. It has started modernizing its army and its diplomatic approaches and is starting to have a good industrial base."
  westernized:0 "Westernized"
  westernized_desc:0 "This nation is westernized. It has a modern army and uses modern diplomatic approaches. It also has a good industrial base."
+ inefficient_diplomacy:0 "Inefficient Diplomacy"
+ inefficient_diplomacy_desc:0 "This nation has still not developed good diplomatic approaches and has not a good political system set up. There is no such thing as political parties in such a government"
  
  
  

@@ -177,4 +177,8 @@ spriteTypes = {
 	    name = "GFX_idea_memories_of_peruvian_civil_war"
 		texturefile = "gfx/interface/ideas/memories_of_peru_civil_war.dds"
 	}
+	spriteType = {
+	    name = "GFX_idea_no_diplomacy"
+		texturefile = "gfx/interface/ideas/no_diplomacy.dds"
+	}
 }
