@@ -5,7 +5,7 @@ oob = "KAZ_1936"
 set_research_slots = 3
 
 set_country_flag = westernization_1_completed_flag
-set_country_flag = completed_industry_flag
+set_country_flag = completed_diplo_flag
 
 # Starting tech
 set_technology = {

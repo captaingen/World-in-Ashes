@@ -16,7 +16,7 @@ set_autonomy = {
 }
 
 set_country_flag = westernization_1_completed_flag
-set_country_flag = completed_industry_flag
+set_country_flag = completed_diplo_flag
 
 set_politics = {
 

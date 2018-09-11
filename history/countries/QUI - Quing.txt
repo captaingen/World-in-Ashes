@@ -20,7 +20,7 @@ set_convoys = 0
 set_research_slots = 1
 
 set_country_flag = westernization_1_completed_flag
-set_country_flag = completed_industry_flag
+set_country_flag = completed_diplo_flag
 
 set_politics = {
 
