@@ -21,6 +21,8 @@
   westernization_actions:0 "Westernization Progress"
   start_research:0 "Start the Research Program"
   start_research_desc:0 "Our country is on the path of westernization. We need a Researching Program to fasten the progress"
+  local_weapons:0 "Local Weapons"
+  local_weapons_desc:0 "Our country is on the path of westernization. We need to build more weapons to fasten the progress"
   imported_weapons:0 "Imported Weapons"
   imported_weapons_desc:0 "Our country is on the path of westernization. We need to import more foreign weapons to fasten the progress"
   improved_construction:0 "Improved Construction"

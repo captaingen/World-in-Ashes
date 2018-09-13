@@ -36,13 +36,13 @@ westernization_actions = {
 		
 	}
 	
-	imported_weapons = {
+	local_weapons = {
 		
 		icon = generic_prepare_civil_war
 		
 		available = {
 			NOT = {
-				has_country_flag = imported_weapons_flag
+				has_country_flag = local_weapons_flag
 			}
 		}
 		
@@ -58,6 +58,38 @@ westernization_actions = {
 		}
 		
 		days_remove = 50
+		
+		remove_effect = {
+			custom_effect_tooltip = local_weapons_tt
+			hidden_effect = {
+				set_country_flag = local_weapons_flag
+			}
+		}
+		
+	}
+	
+	imported_weapons = {
+		
+		icon = generic_prepare_civil_war
+		
+		available = {
+			NOT = {
+				has_country_flag = imported_weapons_flag
+			}
+			has_country_flag = local_weapons_flag
+		}
+		
+		cost = 125
+		
+		ai_will_do = {
+			factor = 175
+		}
+		
+		visible = {
+			has_country_flag = local_weapons_flag
+		}
+		
+		days_remove = 100
 		
 		remove_effect = {
 			custom_effect_tooltip = imported_weapons_tt

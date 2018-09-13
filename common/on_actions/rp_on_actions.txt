@@ -30,39 +30,39 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					has_country_flag = imported_weapons_flag
+					has_country_flag = local_weapons_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate1 }
+				add_to_variable = { reform_points = reform_points_rate }
 			}
 			if = {
 				limit = {
 					has_country_flag = improved_construction_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate1 }
+				add_to_variable = { reform_points = reform_points_rate }
 			}
 			if = {
 				limit = {
 					has_country_flag = train_officers_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate1 }
+				add_to_variable = { reform_points = reform_points_rate }
 			}
 			if = {
 				limit = {
 					has_country_flag = industrial_reform_program_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate1 }
+				add_to_variable = { reform_points = reform_points_rate }
 			}
 			if = {
 				limit = {
 					has_country_flag = finance_reform_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate1 }
+				add_to_variable = { reform_points = reform_points_rate }
 			}
 			if = {
 				limit = {
 					has_country_flag = education_program_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate1 }
+				add_to_variable = { reform_points = reform_points_rate }
 			}
 				
 		}
