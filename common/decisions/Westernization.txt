@@ -55,6 +55,9 @@ westernization_actions = {
 		visible = {
 			has_country_flag = westernization_1_completed_flag
 			has_country_flag = start_research_flag
+			NOT = {
+				has_country_flag = local_weapons_flag
+			}
 		}
 		
 		days_remove = 50
