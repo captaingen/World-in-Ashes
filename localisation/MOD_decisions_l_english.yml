@@ -27,6 +27,8 @@
   imported_weapons_desc:0 "Our country is on the path of westernization. We need to import more foreign weapons to fasten the progress"
   improved_construction:0 "Improved Construction"
   improved_construction_desc:0 "Our country is on the path of westernization. We need improved construction to fasten the progress"
+  improved_infrastructure:0 "Improved Infrastructure"
+  improved_infrastructure_desc:0 "Our country is on the path of westernization. We need improved infrastructure to fasten the progress"
   train_officers:0 "Train Officers"
   train_officers_desc:0 "Our country is on the path of westernization. We need to train our Officers to fasten the progress"
   industrial_reform_program:0 "Industrial Reform Program"

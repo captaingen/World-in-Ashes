@@ -32,13 +32,19 @@ on_actions = {
 				limit = {
 					has_country_flag = local_weapons_flag
 				}
-				add_to_variable = { reform_points = reform_points_rate }
+				add_to_variable = { reform_points = reform_points_rate1 }
 			}
 			if = {
 				limit = {
 					has_country_flag = improved_construction_flag
 				}
 				add_to_variable = { reform_points = reform_points_rate }
+			}
+			if = {
+				limit = {
+					has_country_flag = improved_infrastructure_flag
+				}
+				add_to_variable = { reform_points = reform_points_rate1 }
 			}
 			if = {
 				limit = {

@@ -41,9 +41,7 @@ westernization_actions = {
 		icon = generic_prepare_civil_war
 		
 		available = {
-			NOT = {
-				has_country_flag = local_weapons_flag
-			}
+			
 		}
 		
 		cost = 75
@@ -79,7 +77,6 @@ westernization_actions = {
 			NOT = {
 				has_country_flag = imported_weapons_flag
 			}
-			has_country_flag = local_weapons_flag
 		}
 		
 		cost = 125
@@ -108,9 +105,7 @@ westernization_actions = {
 		icon = generic_construction
 		
 		available = {
-			NOT = {
-				has_country_flag = improved_construction_flag
-			}
+			
 		}
 		
 		cost = 75
@@ -122,14 +117,48 @@ westernization_actions = {
 		visible = {
 			has_country_flag = westernization_1_completed_flag
 			has_country_flag = start_research_flag
+			NOT = {
+				has_country_flag = improved_construction_flag
+			}
 		}
 		
-		days_remove = 50
+		days_remove = 85
 		
 		remove_effect = {
 			custom_effect_tooltip = improved_construction_tt
 			hidden_effect = {
 				set_country_flag = improved_construction_flag
+			}
+		}
+		
+	}
+	
+	improved_infrastructure = {
+		
+		icon = generic_construction
+		
+		available = {
+			NOT = {
+				has_country_flag = improved_infrastructure_flag
+			}
+		}
+		
+		cost = 125
+		
+		ai_will_do = {
+			factor = 175
+		}
+		
+		visible = {
+			has_country_flag = improved_construction_flag
+		}
+		
+		days_remove = 85
+		
+		remove_effect = {
+			custom_effect_tooltip = improved_infrastructure_tt
+			hidden_effect = {
+				set_country_flag = improved_infrastructure_flag
 			}
 		}
 		

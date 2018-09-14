@@ -6,6 +6,7 @@
     local_weapons_tt:0 "Starting to build local weapons will give you an additional §G1 Daily Reform Points§! towards your westernization"
     imported_weapons_tt:0 "Starting to import foreign weapons will give you an additional §G2 Daily Reform Points§! towards your westernization"
     improved_construction_tt:0 "Improving construction will give you an additional §G1 Daily Reform Points§! towards your westernization"
+    improved_infrastructure_tt:0 "Improving infrastructure will give you an additional §G2 Daily Reform Points§! towards your westernization"
     train_officers_tt:0 "Training the Officers will give you an additional §G1 Daily Reform Points§! towards your westernization"
     industrial_reform_program_tt:0 "Starting the Industrial Reform Program will give you an additional §G1 Daily Reform Points§! towards your westernization"
     finance_reform_tt:0 "Reforming the Financial Logarithm will give you an additional §G1 Daily Reform Points§! towards your westernization"
