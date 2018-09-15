@@ -31,12 +31,20 @@
   improved_infrastructure_desc:0 "Our country is on the path of westernization. We need improved infrastructure to fasten the progress"
   train_officers:0 "Train Officers"
   train_officers_desc:0 "Our country is on the path of westernization. We need to train our Officers to fasten the progress"
+  meritocratic_military:0 "Meritocratic Military"
+  meritocratic_military_desc:0 "Our country is on the path of westernization. We need a Meritocratic Military to fasten the progress"
   industrial_reform_program:0 "Industrial Reform Program"
   industrial_reform_program_desc:0 "Our country is on the path of westernization. We need an Industrial Reform Program to fasten the progress"
+  industrial_modernization:0 "Industrial Modernization"
+  industrial_modernization_desc:0 "Our country is on the path of westernization. We need a modernized industry to fasten the progress"
   finance_reform:0 "Financial Reform Program"
   finance_reform_desc:0 "Our country is on the path of westernization. We need a Financial Reform Program to fasten the progress"
+  banking_act:0 "Banking Act"
+  banking_act_desc:0 "Our country is on the path of westernization. We need a better banking system to fasten the progress"
   education_program:0 "Educational Reform"
   education_program_desc:0 "Our country is on the path of westernization. We need better education to fasten the progress"
+  teachers_union:0 "Teachers Union"
+  teachers_union_desc:0 "Our country is on the path of westernization. We need a teacher's union to fasten the progress"
   
   
   #WIF

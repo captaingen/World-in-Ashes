@@ -44,7 +44,7 @@ westernization_actions = {
 			
 		}
 		
-		cost = 75
+		cost = 100
 		
 		ai_will_do = {
 			factor = 200
@@ -79,7 +79,7 @@ westernization_actions = {
 			}
 		}
 		
-		cost = 125
+		cost = 150
 		
 		ai_will_do = {
 			factor = 175
@@ -108,7 +108,7 @@ westernization_actions = {
 			
 		}
 		
-		cost = 75
+		cost = 100
 		
 		ai_will_do = {
 			factor = 200
@@ -122,7 +122,7 @@ westernization_actions = {
 			}
 		}
 		
-		days_remove = 85
+		days_remove = 50
 		
 		remove_effect = {
 			custom_effect_tooltip = improved_construction_tt
@@ -143,7 +143,7 @@ westernization_actions = {
 			}
 		}
 		
-		cost = 125
+		cost = 150
 		
 		ai_will_do = {
 			factor = 175
@@ -169,12 +169,10 @@ westernization_actions = {
 		icon = generic_army_support
 		
 		available = {
-			NOT = {
-				has_country_flag = train_officers_flag
-			}
+			
 		}
 		
-		cost = 75
+		cost = 100
 		
 		ai_will_do = {
 			factor = 200
@@ -183,6 +181,9 @@ westernization_actions = {
 		visible = {
 			has_country_flag = westernization_1_completed_flag
 			has_country_flag = start_research_flag
+			NOT = {
+				has_country_flag = train_officers_flag
+			}
 		}
 		
 		days_remove = 50
@@ -196,17 +197,46 @@ westernization_actions = {
 		
 	}
 	
+	meritocratic_military = {
+		
+		icon = generic_army_support
+		
+		available = {
+			NOT = {
+				has_country_flag = meritocratic_military_flag
+			}
+		}
+		
+		cost = 150
+		
+		ai_will_do = {
+			factor = 175
+		}
+		
+		visible = {
+			has_country_flag = train_officers_flag
+		}
+		
+		days_remove = 85
+		
+		remove_effect = {
+			custom_effect_tooltip = meritocratic_military_tt
+			hidden_effect = {
+				set_country_flag = meritocratic_military_flag
+			}
+		}
+		
+	}
+	
 	industrial_reform_program = {
 		
 		icon = generic_industry
 		
 		available = {
-			NOT = {
-				has_country_flag = industrial_reform_program_flag
-			}
+			
 		}
 		
-		cost = 75
+		cost = 100
 		
 		ai_will_do = {
 			factor = 200
@@ -215,6 +245,9 @@ westernization_actions = {
 		visible = {
 			has_country_flag = westernization_1_completed_flag
 			has_country_flag = start_research_flag
+			NOT = {
+				has_country_flag = industrial_reform_program_flag
+			}
 		}
 		
 		days_remove = 50
@@ -228,17 +261,46 @@ westernization_actions = {
 		
 	}
 	
+	industrial_modernization = {
+		
+		icon = generic_industry
+		
+		available = {
+			NOT = {
+				has_country_flag = industrial_modernization_flag
+			}
+		}
+		
+		cost = 150
+		
+		ai_will_do = {
+			factor = 175
+		}
+		
+		visible = {
+			has_country_flag = industrial_reform_program_flag
+		}
+		
+		days_remove = 85
+		
+		remove_effect = {
+			custom_effect_tooltip = industrial_modernization_tt
+			hidden_effect = {
+				set_country_flag = industrial_modernization_flag
+			}
+		}
+		
+	}
+	
 	finance_reform = {
 		
 		icon = ger_mefo_bills
 		
 		available = {
-			NOT = {
-				has_country_flag = finance_reform_flag
-			}
+			
 		}
 		
-		cost = 75
+		cost = 100
 		
 		ai_will_do = {
 			factor = 200
@@ -247,6 +309,9 @@ westernization_actions = {
 		visible = {
 			has_country_flag = westernization_1_completed_flag
 			has_country_flag = start_research_flag
+			NOT = {
+				has_country_flag = finance_reform_flag
+			}
 		}
 		
 		days_remove = 50
@@ -260,17 +325,46 @@ westernization_actions = {
 		
 	}
 	
+	banking_act = {
+		
+		icon = ger_mefo_bills
+		
+		available = {
+			NOT = {
+				has_country_flag = banking_act_flag
+			}
+		}
+		
+		cost = 150
+		
+		ai_will_do = {
+			factor = 175
+		}
+		
+		visible = {
+			has_country_flag = finance_reform_flag
+		}
+		
+		days_remove = 85
+		
+		remove_effect = {
+			custom_effect_tooltip = banking_act_tt
+			hidden_effect = {
+				set_country_flag = banking_act_flag
+			}
+		}
+		
+	}
+	
 	education_program = {
 		
 		icon = generic_political_discourse
 		
 		available = {
-			NOT = {
-				has_country_flag = education_program_flag
-			}
+			
 		}
 		
-		cost = 75
+		cost = 100
 		
 		ai_will_do = {
 			factor = 200
@@ -279,6 +373,9 @@ westernization_actions = {
 		visible = {
 			has_country_flag = westernization_1_completed_flag
 			has_country_flag = start_research_flag
+			NOT = {
+				has_country_flag = education_program_flag
+			}
 		}
 		
 		days_remove = 50
@@ -287,6 +384,37 @@ westernization_actions = {
 			custom_effect_tooltip = education_program_tt
 			hidden_effect = {
 				set_country_flag = education_program_flag
+			}
+		}
+		
+	}
+	
+	teachers_union = {
+		
+		icon = generic_political_discourse
+		
+		available = {
+			NOT = {
+				has_country_flag = teachers_union_flag
+			}
+		}
+		
+		cost = 150
+		
+		ai_will_do = {
+			factor = 175
+		}
+		
+		visible = {
+			has_country_flag = education_program_flag
+		}
+		
+		days_remove = 85
+		
+		remove_effect = {
+			custom_effect_tooltip = teachers_union_tt
+			hidden_effect = {
+				set_country_flag = teachers_union_flag
 			}
 		}
 		

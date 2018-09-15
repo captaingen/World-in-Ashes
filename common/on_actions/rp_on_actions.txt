@@ -10,9 +10,6 @@ on_actions = {
 			set_variable = { reform_points_rate3 = 4 }
 			set_variable = { reform_points_rate4 = 5 }
 			set_variable = { reform_points_rate5 = 6 }
-			set_variable = { reform_points_rate6 = 7 }
-			set_variable = { reform_points_rate7 = 8 }
-			set_variable = { reform_points_rate8 = 9 }
 			set_variable = { reform_points_max = 500 }
 			}
 		}
@@ -54,6 +51,12 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					has_country_flag = meritocratic_military_flag
+				}
+				add_to_variable = { reform_points = reform_points_rate1 }
+			}
+			if = {
+				limit = {
 					has_country_flag = industrial_reform_program_flag
 				}
 				add_to_variable = { reform_points = reform_points_rate }
@@ -66,9 +69,21 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					has_country_flag = banking_act_flag
+				}
+				add_to_variable = { reform_points = reform_points_rate1 }
+			}
+			if = {
+				limit = {
 					has_country_flag = education_program_flag
 				}
 				add_to_variable = { reform_points = reform_points_rate }
+			}
+			if = {
+				limit = {
+					has_country_flag = teachers_union_flag
+				}
+				add_to_variable = { reform_points = reform_points_rate1 }
 			}
 				
 		}
