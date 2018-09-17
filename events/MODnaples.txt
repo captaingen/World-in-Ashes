@@ -1,0 +1,76 @@
+﻿###########################
+# Napoli Events
+###########################
+
+add_namespace = napoli
+
+
+country_event = {
+	id = napoli.0
+	title = napoli.0.t
+	desc = napoli.0.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+	
+	option = { #
+		name = napoli.0.a
+		country_event = { days = 125 id = napoli.1}
+	}
+}
+
+#Mafia Presence in Napoli
+country_event = {
+	id = napoli.1
+	title = napoli.1.t
+	desc = napoli.1.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	hidden = no
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = { #Try to improve relations with the mafia
+		name = napoli.1.a
+		ai_chance = {
+			factor = 25
+		}
+		add_political_power = 5
+		add_stability = 0.01
+		hidden_effect = {
+			set_country_flag = napoli_improves_relations_mafia
+			
+		}
+	}
+	option = { #Not our business
+		name = napoli.1.b
+		ai_chance = {
+			factor = 25
+		}
+		add_political_power = -5
+		add_stability = -0.01
+		add_war_support = 0.02
+		hidden_effect = {
+			set_country_flag = napoli_bad_relations_mafia
+			
+		}
+	}
+}

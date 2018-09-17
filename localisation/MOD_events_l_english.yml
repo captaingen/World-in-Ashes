@@ -5,6 +5,13 @@
  westernization.0.d:0 "Our country has been undeveloped for long enough. It is now time to finally start westernizing our country to get closer to the level of development of other major nations."
  westernization.0.a:0 "Start Westernizing"
  
+ 
+ #Napoli
+ napoli.1.t:0 "Mafia Presence in Napoli"
+ napoli.1.d:0 "The mafia is hugely present in our nation. We need to make strategic decisions, either improve the government's relations with the Mafia or we should not do anything and keep the tensions."
+ napoli.1.a:0 "We should improve relations"
+ napoli.1.b:0 "The mafia isn't influencial here"
+ 
  #usa foreign
  america.0.t:0 "Bordeaux Requests Officer Training"
  america.0.d:0 "Bordeaux has a very inneffective officer corps, which is heavily affecting them in the French Civil War. They have requested for us to send military advisors to train their officers to be able to handle their situation much more effectively. It wouldn't come at a great cost to send advisors, but we need every man available at home. Should we send help to one of the last standing democracies on the European Continent?"
