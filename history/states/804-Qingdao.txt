@@ -8,8 +8,10 @@ state=
 	
 	history=
 	{
-		owner = SHA
+		owner = CHI
 		add_core_of = SHA
+		add_core_of = CHI
+		
 		victory_points = {
 			10000 5 
 		}
