@@ -6,8 +6,9 @@ state=
 	state_category = utterly_dense
 	history=
 	{
-		owner = ANH
+		owner = CHI
 		add_core_of = ANH
+		add_core_of = CHI
 		
 		victory_points = { 
 			9974 1 
