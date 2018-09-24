@@ -6,8 +6,9 @@ state={
 	state_category = overcrowded
 
 	history={
-		owner = ANH
+		owner = CHI
 		add_core_of = ANH
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
