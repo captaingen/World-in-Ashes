@@ -6,8 +6,9 @@ state={
 	state_category = extremely_sparse
 	
 	history={
-		owner = GXC
+		owner = CHI
 		add_core_of = GXC
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
 			11981 = {
