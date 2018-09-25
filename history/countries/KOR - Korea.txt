@@ -75,7 +75,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Un"
+	name = "Park Chung-hee"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
