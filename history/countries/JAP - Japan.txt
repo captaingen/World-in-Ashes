@@ -65,6 +65,8 @@ create_import = {
 
 set_convoys = 400
 
+puppet = KOR
+
 set_politics = {
 
 	parties = {
