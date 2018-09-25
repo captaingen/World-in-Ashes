@@ -97,6 +97,13 @@
  ENG_solo_anti_monarchist_neutrality_ADJ:0 "Anglo-Welsh"
  ENG_solo_anti_monarchist_fascism_ADJ:0 "Anglo-Welsh"
  ENG_solo_anti_monarchist_democratic_ADJ:0 "Anglo-Welsh"
+ 
+ ##################################################
+ #Korea Names
+ ##################################################
+
+ KOR_JAP_autonomy_puppet:0 "Semi-Independent Korea"
+ KOR_JAP_autonomy_puppet_DEF:0 "Semi-Independent Korea"
 
  #################################################
  #   
