@@ -11,7 +11,7 @@ state=
 	}
 	
 	history={
-		owner = MOR
+		owner = CZE
 		victory_points = {
 			557 5 
 		}
@@ -22,7 +22,7 @@ state=
 			
 
 		}
-		add_core_of = MOR
+		add_core_of = CZE
 
 	}
 	provinces=

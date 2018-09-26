@@ -10,7 +10,7 @@ state={
 	state_category = very_sparse
 	
 	history={
-		owner = SLO
+		owner = HUN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -19,7 +19,7 @@ state={
 			6573 1 
 		}
 		add_core_of = SLO
-		add_claim_by = HUN
+		add_core_of = HUN
 	}
 	
 	provinces={

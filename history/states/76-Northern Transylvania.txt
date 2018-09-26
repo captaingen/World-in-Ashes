@@ -7,7 +7,7 @@ state={
 	state_category = dense
 	
 	history={
-		owner = HUN
+		owner = ROM
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

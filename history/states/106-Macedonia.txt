@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = MAC
+		owner = BUL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -18,8 +18,8 @@ state={
 		victory_points = {
 			3882 1 
 		}
-		add_core_of = MAC
-
+		add_core_of = BUL
+		add_core_of = SER
 	}
 
 	provinces={
