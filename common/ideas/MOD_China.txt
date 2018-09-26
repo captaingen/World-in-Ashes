@@ -1,10 +1,12 @@
 ideas = {
 	country = {
-		rural_country = {
+		canadian_isolationism = {
 
-			picture = #rice fields
+			picture = neutrality_idea
 		
 			allowed = {
+				original_tag = CAN
+				has_war = no
 			}
 
 			allowed_civil_war = {
@@ -14,15 +16,21 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				ai_join_ally_desire_factor = -50
+				war_support_factor = -0.05
+				join_faction_tension = 0.20
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.50
+				guarantee_tension = 0.75
 			}
 		}
 		
-		pillaged_towns_and_cities = {
+		fascism_quebec = {
 
-			picture = #burnt town
+			picture = nationalism_quebec
 		
 			allowed = {
+				original_tag = CAN
 			}
 
 			allowed_civil_war = {
@@ -32,115 +40,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
-			}
-		}
-
-		memories_of_mao = {
-
-			picture = The_War_to_End_All_Wars
-		
-			allowed = {
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		democratic_sympatizers = {
-
-			picture = Generic_democratic_drift_bonus
-		
-			allowed = {
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		prospertity_of_hong_kong = {
-
-			picture = FRA_national_mobilization_focus
-		
-			allowed = {
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		prospertity_of_hong_kong = {
-
-			picture = FRA_national_mobilization_focus
-		
-			allowed = {
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		failure_of_the_Self-Strengthening_Movement = {
-
-			picture = Anti_soviet_pact
-		
-			allowed = {
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		divided_government = {
-
-			picture = Disjointed_Government
-		
-			allowed = {
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
+				stability_factor = -0.10
 			}
 		}
 	}
@@ -150,12 +50,12 @@ ideas = {
 	##############################################
 	
 	head_of_government = {
-		 = { #socialist
-			allowed = {always = no}
+		tommy_douglas_hog = { #socialist
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
-				
+				christian_socialist
 			}
 			cancel_if_invalid = no
 			
@@ -164,12 +64,12 @@ ideas = {
 			cost = 150
 		}
 		
-		 = { #french canadian
-			allowed = {always = no}
+		maurice_duplessis_hog = { #french canadian
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
-				
+				french_canadian
 			}
 			cancel_if_invalid = no
 			
@@ -180,8 +80,8 @@ ideas = {
 	}
 	
 	foreign_minister = {
-		 = { #french canadian
-			allowed = {always = no}
+		louis_st_laurent_fm = { #french canadian
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -195,7 +95,7 @@ ideas = {
 		}
 		
 		richard_bennett_fm = { 
-			allowed = {always = no}
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -210,8 +110,8 @@ ideas = {
 	}
 	
 	minister_national_defense = {
-		 = {
-			allowed = {always = no}
+		ian_mackenzie_mnd = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -224,8 +124,8 @@ ideas = {
 			cost = 150
 		}
 		
-		 = {
-			allowed = {always = no}
+		grote_stirling_mnd = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -240,8 +140,8 @@ ideas = {
 	}
 	
 	economy_minister = {
-		 = {
-			allowed = {always = no}
+		charles_dunning_em = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -254,8 +154,8 @@ ideas = {
 			cost = 150
 		}
 		
-		 = {
-			allowed = {always = no}
+		james_ralston_em = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -270,8 +170,8 @@ ideas = {
 	}
 	
 	construction_minister = {
-		 = {
-			allowed = {always = no}
+		maxwell_kalman_cm = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -284,8 +184,8 @@ ideas = {
 			cost = 150
 		}
 		
-		 = { #french canadian
-			allowed = {always = no}
+		ernest_cormier_cm = { #french canadian
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -300,8 +200,8 @@ ideas = {
 	}
 	
 	intel_minister = {
-		 = {
-			allowed = {always = no}
+		stuart_wood_im = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
@@ -314,8 +214,8 @@ ideas = {
 			cost = 150
 		}
 		
-		 = {
-			allowed = {always = no}
+		william_stephenson_im = {
+			allowed = {original_tag = CAN}
 			available = {
 			}
 			traits = {
