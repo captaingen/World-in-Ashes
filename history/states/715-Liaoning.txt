@@ -6,8 +6,9 @@ state={
 	state_category = very_dense
 
 	history={
-		owner = MAN
+		owner = MEN
 		add_core_of = MAN
+		add_core_of = MEN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

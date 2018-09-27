@@ -5,8 +5,9 @@ state={
 	state_category = highly_dense
 
 	history={
-		owner = MAN
+		owner = QIU
 		add_core_of = MAN
+		add_core_of = QIU
 		buildings = {
 			infrastructure = 3
 
