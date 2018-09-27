@@ -1,0 +1,331 @@
+ideas = {
+	country = {
+		rural_country = {
+
+			picture = #rice fields
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		
+		pillaged_towns_and_cities = {
+
+			picture = #burnt town
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		memories_of_mao = {
+
+			picture = The_War_to_End_All_Wars
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		democratic_sympatizers = {
+
+			picture = Generic_democratic_drift_bonus
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		prospertity_of_hong_kong = {
+
+			picture = FRA_national_mobilization_focus
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		prospertity_of_hong_kong = {
+
+			picture = FRA_national_mobilization_focus
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		failure_of_the_Self-Strengthening_Movement = {
+
+			picture = Anti_soviet_pact
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		divided_government = {
+
+			picture = Disjointed_Government
+		
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+	
+	##############################################
+	#################MINISTERS####################
+	##############################################
+	
+	head_of_government = {
+		 = { #socialist
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				
+			}
+			cancel_if_invalid = no
+			
+			picture = tommy_douglas_idea
+
+			cost = 150
+		}
+		
+		 = { #french canadian
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				
+			}
+			cancel_if_invalid = no
+			
+			picture = duplessis_idea
+
+			cost = 150
+		}
+	}
+	
+	foreign_minister = {
+		 = { #french canadian
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				ambassador
+			}
+			cancel_if_invalid = no
+			
+			picture = st_laurent_idea
+
+			cost = 150
+		}
+		
+		richard_bennett_fm = { 
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				lawyer
+			}
+			cancel_if_invalid = no
+			
+			picture = bennett_idea
+
+			cost = 150
+		}
+	}
+	
+	minister_national_defense = {
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				scandalous
+			}
+			cancel_if_invalid = no
+			
+			picture = mackenzie_idea
+
+			cost = 150
+		}
+		
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				conservative
+			}
+			cancel_if_invalid = no
+			
+			picture = stirling_idea
+
+			cost = 150
+		}
+	}
+	
+	economy_minister = {
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				businessman
+			}
+			cancel_if_invalid = no
+			
+			picture = dunning_idea
+
+			cost = 150
+		}
+		
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				lawyer
+			}
+			cancel_if_invalid = no
+			
+			picture = ralston_idea
+
+			cost = 150
+		}
+	}
+	
+	construction_minister = {
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				civilian_architect
+			}
+			cancel_if_invalid = no
+			
+			picture = kalman_idea
+
+			cost = 150
+		}
+		
+		 = { #french canadian
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				french_architect
+			}
+			cancel_if_invalid = no
+			
+			picture = cormier_idea
+
+			cost = 150
+		}
+	}
+	
+	intel_minister = {
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				rcmp_commander
+			}
+			cancel_if_invalid = no
+			
+			picture = wood_idea
+
+			cost = 150
+		}
+		
+		 = {
+			allowed = {always = no}
+			available = {
+			}
+			traits = {
+				business_spy
+			}
+			cancel_if_invalid = no
+			
+			picture = stephenson_idea
+
+			cost = 150
+		}
+	}
+}
