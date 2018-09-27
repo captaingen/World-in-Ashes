@@ -6,8 +6,9 @@ state={
 	}
 
 	history={
-		owner = MAN
+		owner = QIU
 		add_core_of = MAN
+		add_core_of = QIU
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
