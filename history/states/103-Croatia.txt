@@ -1,11 +1,7 @@
 
 state={
 	id=103
-	name="STATE_103" # Eastern Dalmatia
-	manpower = 931700
-
-	state_category = sparse
-
+	name="STATE_103"
 
 	history={
 		owner = CRO
@@ -18,16 +14,23 @@ state={
 			industrial_complex = 3
 			3924 = {
 				naval_base = 3
+
 			}
 			6889 = {
 				naval_base = 1
+
 			}
+
 		}
-		add_claim_by = ITA #added by focus
+		add_claim_by = ITA
 		add_core_of = CRO
+
 	}
 
 	provinces={
-		984 3601 3868 3924 3974 6611 6889 11816 
+		3601 3868 3924 6889 6942 9894 11816 11845 
 	}
+	manpower=831700
+	buildings_max_level_factor=1.000
+	state_category=sparse
 }
