@@ -101,4 +101,8 @@ spriteTypes = {
 		name = "GFX_focus_USA_global_interventionism"
 		textureFile = "gfx/interface/goals/USA/focus_USA_global_interventionism.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_father_of_fascism"
+		textureFile = "gfx/interface/goals/NAP/father_of_fascism.dds"			
+	}
 }

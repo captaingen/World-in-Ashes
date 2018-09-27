@@ -13,7 +13,7 @@ focus_tree = {
 	####Government Control
 	focus = {
 		id = NAP_father_fascism
-		icon = unknown
+		icon = GFX_focus_father_of_fascism
 		x = 4
 		y = 0
 		cost = 10
