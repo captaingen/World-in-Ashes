@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		rural_country = {
+
+			picture = protected_by_the_maginot_line
+		
+			allowed = {
+				original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.25
+				production_speed_buildings_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+			}
+		}
+		
+		prosperity_of_hong_kong = {
+
+			picture = protected_by_the_maginot_line
+		
+			allowed = {
+				original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.1
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+	}
+}
