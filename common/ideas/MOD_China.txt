@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		rural_country = {
 
-			picture = Idea_generic_deal_with_the_devil
+			picture = generic_manpower_bonus
 		
 			allowed = {
 				original_tag = CHI
@@ -25,7 +25,7 @@ ideas = {
 		
 		prosperity_of_hong_kong = {
 
-			picture = Idea_generic_deal_with_the_devil
+			picture = generic_manpower_bonus
 		
 			allowed = {
 				original_tag = CHI
