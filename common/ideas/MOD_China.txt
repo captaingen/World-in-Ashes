@@ -6,6 +6,7 @@ ideas = {
 		
 			allowed = {
 				original_tag = CHI
+				always = no
 			}
 
 			allowed_civil_war = {
@@ -21,6 +22,8 @@ ideas = {
 				industrial_capacity_factory = -0.25
 				industrial_capacity_dockyard = -0.25
 			}
+			rule = {
+			}
 		}
 		
 		prosperity_of_hong_kong = {
@@ -29,6 +32,7 @@ ideas = {
 		
 			allowed = {
 				original_tag = CHI
+				always = no
 			}
 
 			allowed_civil_war = {
@@ -43,6 +47,8 @@ ideas = {
 				stability_factor = 0.1
 				production_speed_arms_factory_factor = 0.1
 				production_speed_industrial_complex_factor = 0.1
+			}
+			rule = {
 			}
 		}
 	}
