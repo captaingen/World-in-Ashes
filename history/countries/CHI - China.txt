@@ -24,6 +24,10 @@ set_country_flag = completed_diplo_flag
 add_ideas = {
 	rural_country
 	prosperity_of_hong_kong
+	pilaged_towns_and_villages
+	divided_government
+	extereme_corruption
+	unhappy_peasants
 }
 
 set_politics = {
@@ -194,5 +198,3 @@ create_field_marshal = {
 	planning_skill = 2
 	logistics_skill = 2
 }
-
-#a message
