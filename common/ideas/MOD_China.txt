@@ -68,9 +68,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				local_resources_factor = -0.75
+				local_resources_factor = -0.4
 				consumer_goods_factor = -0.5
-				production_speed_infrastructure_factor = -0.75
+				production_speed_infrastructure_factor = -0.4
 			}
 			rule = {
 			}
@@ -118,11 +118,11 @@ ideas = {
 			modifier = {
 				foreign_subversive_activites = 0.5
 				encryption_factor = -0.5
-				consumer_goods_factor = -0.8
-				army_leader_start_level = -0.8
-				military_leader_cost_factor = 0.8
-				political_advisor_cost_factor = 0.8
-				high_command_cost_factor = 0.8
+				consumer_goods_factor = -0.5
+				army_leader_start_level = -0.5
+				military_leader_cost_factor = 0.5
+				political_advisor_cost_factor = 0.5
+				high_command_cost_factor = 0.5
 				political_power_gain = -0.5
 				stability_gain = -0.3
 				war_support_gain = -0.3
