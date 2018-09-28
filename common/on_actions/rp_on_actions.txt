@@ -63,6 +63,12 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					has_country_flag = industrial_modernization_flag
+				}
+				add_to_variable = { reform_points = reform_points_rate1 }
+			}
+			if = {
+				limit = {
 					has_country_flag = finance_reform_flag
 				}
 				add_to_variable = { reform_points = reform_points_rate }
