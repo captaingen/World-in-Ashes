@@ -115,11 +115,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				foreign_subversive_activites = 0.4
-				encryption_factor = -0.4
+				foreign_subversive_activites = 0.3
+				encryption_factor = -0.3
 				consumer_goods_factor = -0.2
-				stability_gain = -0.2
-				war_support_gain = -0.2
+				stability_factor = -0.2
+				war_support_factor = -0.2
 			}
 			rule = {
 			}
