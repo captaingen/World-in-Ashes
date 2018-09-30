@@ -22,6 +22,10 @@ set_technology = {
 	early_destroyer = 1
 }
 
+add_ideas = {
+	the_great_balkan_game
+}
+
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 set_country_flag = completed_modern_flag

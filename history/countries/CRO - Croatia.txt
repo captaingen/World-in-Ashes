@@ -20,6 +20,10 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+	the_great_balkan_game
+}
+
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_industry_flag
 set_country_flag = completed_modern_flag
