@@ -105,4 +105,20 @@ spriteTypes = {
 		name = "GFX_focus_father_of_fascism"
 		textureFile = "gfx/interface/goals/NAP/father_of_fascism.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_generic_urbanization"
+		textureFile = "gfx/interface/goals/focus_generic_urbanization.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_generic_urbanization_2"
+		textureFile = "gfx/interface/goals/focus_generic_urbanization_2.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_generic_economic_prosperity"
+		textureFile = "gfx/interface/goals/focus_generic_economic_prosperity.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_generic_economic_prosperity_2"
+		textureFile = "gfx/interface/goals/focus_generic_economic_prosperity_2.dds"			
+	}
 }
