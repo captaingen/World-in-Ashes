@@ -9,6 +9,14 @@ on_actions = {
 			}
 			NAP = {
 				country_event = napoli.0
+				set_variable = {
+					var = ITA_mafia_presence
+					value = 70
+				}
+				set_variable = {
+					var = ITA_mafia_influence
+					value = 37
+				}
 			}
 
 			WIF = {

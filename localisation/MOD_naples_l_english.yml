@@ -1,4 +1,12 @@
 ﻿l_english:
+    #Decisions
+    NAP_mafia:0 "The Mafia"
+    NAP_mafia_desc:0 "Current Presence: §H[?ITA_mafia_presence]%§!\nCurrent Influence: §H[?ITA_mafia_influence]%§!"
+    NAP_analyze_mafia_presence:0 "Analyze the Mafia Presence"
+    
+    
+    
+    
     #Focus Tree
     NAP_father_fascism:0 "Father of Fascism"
     NAP_father_fascism_desc:0 ""
