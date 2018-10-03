@@ -2,7 +2,7 @@
 # Chinese Events
 ###########################
 
-add_namespace = CHI
+add_namespace = chi
 
 ######################Intro Events ######################
 country_event = { #introduction of Chinyyyyya
