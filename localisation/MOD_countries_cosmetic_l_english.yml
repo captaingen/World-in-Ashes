@@ -101,9 +101,14 @@
  ##################################################
  #Korea Names
  ##################################################
-
+ KOR_JAP_autonomy_integrated_puppet:0 "Japanese Korea"
+ KOR_JAP_autonomy_integrated_puppet_DEF:0 "Japanese Korea"
  KOR_JAP_autonomy_puppet:0 "Korean Protectorate"
  KOR_JAP_autonomy_puppet_DEF:0 "Korean Protectorate"
+ KOR_JAP_autonomy_colony:0 "Korean Protectorate"
+ KOR_JAP_autonomy_colony_DEF:0 "Korean Protectorate"
+ KOR_JAP_autonomy_dominion:0 "The Dominion of Korea"
+ KOR_JAP_autonomy_dominion_DEF:0 "The Dominion of Korea"
 
  #################################################
  #   

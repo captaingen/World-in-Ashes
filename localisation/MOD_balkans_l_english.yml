@@ -1,0 +1,12 @@
+﻿l_english:
+ #Custom Tooltips
+  SER_tooltip_von_tooltip:0 "§YThis is a tooltip§!"
+ #Localized country Flags
+ #Opinion mods
+ #Events
+   #News
+ #National Spirits
+  the_great_balkan_game:0 "The Great Balkan Game"
+  the_great_balkan_game_desc:0 "The Great Balkan Game is the interlocking diplomacy and rivalries in the Balkans between the Serbs, the Croats, the Romanians, the Bulgarians, the Greeks, and the Hungarians. Any country which gains an advantage is immediately reprimanded. Alliances are made and broken. Friendships created and discontinued. Border conflict are common. Nothing is off the table, not even war."
+  bosnian_tensions:0 "Bosnian Tensions"
+  bosnian_tensions_desc:0 "The Muslims within our borders cause problems with regards to the stability of the state as a whole. This instability, caused by the revoking of Muslim land ownership and centralization of the government, can only be solved either through force, through concessions, or through hardship."

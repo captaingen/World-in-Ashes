@@ -1,0 +1,30 @@
+
+state={
+	id=864
+	name="STATE_864"
+	manpower = 1379483
+	
+	state_category = slightly_sparse
+
+	history={
+		owner = NAP
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+			}
+			6831 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NAP
+	}
+
+	provinces={
+		923 963 3923 3966 6831 13253 
+	}
+}

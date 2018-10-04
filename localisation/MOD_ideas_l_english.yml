@@ -20,6 +20,7 @@
  construction_minister:0 "Construction Minister"
  intel_minister:0 "Intelligence Minister"
  economy_minister:0 "Economy Minister"
+ chief_of_staff:0 "Chief of Staff"
  
  idea_category_army_chief:0 "Chief of Army"
  idea_category_head_of_government:0 "Second in Power"
@@ -28,7 +29,13 @@
  idea_category_construction_minister:0 "Construction Minister"
  idea_category_intel_minister:0 "Intelligence Minister"
  idea_category_economy_minister:0 "Economy Minister"
+ idea_category_chief_of_staff:0 "Chief of Staff"
 
+ 
+ #Naples
+ weak_currency:0 "Weak Currency"
+ weak_currency_desc:0 "Our Nation's currency is on a downward spiral. It is affecting our national and international economic decisions and if not dealt with, it will destroy our economy for good."
+ 
  #France
  FRA_Civil_War:0 "French Civil War"
  FRA_Civil_War_desc:0 "The french civil war has been raging on for quite a while, and we have to be at our best to be able to win this war."
@@ -80,3 +87,11 @@
  #Peru
  memories_of_peruvian_civil_war:0 "Memories of the Second Peruvian Civil War"
  memories_of_peruvian_civil_war_desc:0 "Our people still remembers the civil war, the horrors and the separation of families... and the fight for the control of the country.. probably our people would never forge this.."  
+
+ #China
+ rural_country:0 "Rural Country"
+ prosperity_of_hong_kong:0 "Prosperity of Hong Kong"
+ pilaged_towns_and_villages:0 "Pillaged Towns and Villages"
+ divided_government:0 "Divided Government"
+ extereme_corruption:0 "Extereme Corruption"
+ unhappy_peasants:0 "Unhappy Peasants"

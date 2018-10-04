@@ -34,7 +34,7 @@ country_event = {
 	id = napoli.1
 	title = napoli.1.t
 	desc = napoli.1.d
-	picture = GFX_report_event_generic_conference
+	picture = GFX_NAP_mafia_presence
 
 	is_triggered_only = yes
 

@@ -51,11 +51,15 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_WIF_Intro"
-		texturefile = "gfx/event_pictures/GFX_WIF_Intro"
+		texturefile = "gfx/event_pictures/GFX_WIF_Intro.dds"
 	}
 	spriteType = {
 		name = "GFX_USA_train_bor_officers"
-		texturefile = "gfx/event_pictures/USA_train_bor_officers"
+		texturefile = "gfx/event_pictures/USA_train_bor_officers.dds"
+	}
+	spriteType = {
+		name = "GFX_NAP_mafia_presence"
+		texturefile = "gfx/event_pictures/NAP_mafia_presence.dds"
 	}
 }
 	

@@ -14,7 +14,7 @@ set_technology = {
 	early_light_cruiser = 1
 }
 
-create_faction = The Loyalist League
+create_faction = the_loyalist_league
 add_to_faction = MEN
 
 set_stability = 0.2
@@ -59,3 +59,4 @@ create_country_leader = {
 		#
 	}
 }
+#test

@@ -1,0 +1,23 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = chi
+
+######################Intro Events ######################
+country_event = { #introduction of Chinyyyyya
+	id = chi.1
+	title = chi.1.title
+	desc = chi.1.desc
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = chi.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
