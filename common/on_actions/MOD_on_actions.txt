@@ -9,6 +9,22 @@ on_actions = {
 			}
 			NAP = {
 				country_event = napoli.0
+				set_variable = {
+					var = NAP_mafia_presence_gov
+					value = 20
+				}
+				set_variable = {
+					var = NAP_mafia_influence_gov
+					value = 37
+				}
+				set_variable = {
+					var = NAP_mafia_presence_ind
+					value = 63
+				}
+				set_variable = {
+					var = NAP_mafia_influence_ind
+					value = 76
+				}
 			}
 			CHI = {
 				country_event = chi.1

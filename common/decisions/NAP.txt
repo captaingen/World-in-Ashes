@@ -1,0 +1,10 @@
+NAP_mafia = {
+	NAP_analyze_mafia_presence = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		the_great_balkan_game = {
+			picture = chi_wargaming_division
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.25
+				subversive_activites_upkeep = -0.2
+				join_faction_tension = -0.10
+			}
+		}
+		bosnian_tensions = {
+			picture = FRA_matignon_agreements
+			
+			allowed = {
+				original_tag = SER
+				NOT = {
+					any_enemy_country = {
+						strength_ratio = {
+							tag = ROOT
+							ratio = 1
+						}
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.20
+				conscription_factor = -0.20
+			}
+		}
+	}
+}

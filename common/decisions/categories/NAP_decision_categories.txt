@@ -1,0 +1,7 @@
+NAP_mafia = {
+	icon = generic_crisis
+	
+	allowed = {
+		tag = NAP
+	}
+}
