@@ -1,0 +1,7 @@
+CHI_internal_factions = {
+	icon = generic_crisis
+	
+	allowed = {
+		tag = CHI
+	}
+}

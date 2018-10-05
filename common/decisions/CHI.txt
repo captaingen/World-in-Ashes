@@ -1,0 +1,26 @@
+CHI_internal_factions = {
+	CHI_evaluate_generals = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	CHI_evaluate_peasants = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	CHI_evaluate_b = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}

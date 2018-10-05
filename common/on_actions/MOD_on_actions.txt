@@ -28,6 +28,30 @@ on_actions = {
 			}
 			CHI = {
 				country_event = chi.1
+				set_variable = {
+					var = CHI_influnce_of_the_generals
+					value = 60
+				}
+				set_variable = {
+					var = CHI_loyalty_of_the_generals
+					value = 60
+				}
+				set_variable = {
+					var = CHI_influnce_of_the_peasants
+					value = 10
+				}
+				set_variable = {
+					var = CHI_loyalty_of_the_peasants
+					value = 20
+				}
+				set_variable = {
+					var = CHI_influnce_of_the_bureaucrats
+					value = 40
+				}
+				set_variable = {
+					var = CHI_loyalty_of_the_bureaucrats
+					value = 30
+				}
 			}
 
 			WIF = {
