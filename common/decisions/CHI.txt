@@ -15,7 +15,7 @@ CHI_internal_factions = {
 #			}
 		}
 	}
-	CHI_evaluate_b = {
+	CHI_evaluate_bureaucrats = {
 		complete_effect = {
 #			country_event = {
 #				id = unknown
