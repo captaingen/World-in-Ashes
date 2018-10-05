@@ -1,7 +1,7 @@
 ﻿l_english:
     #Decisions
     CHI_internal_factions:0 "Internal Factions"
-    CHI_internal_factions_desc:0 "China has many internal factions. The generals who use thier control over the army to levarage deals. The peasants who use thier numbers to be heard in the government. The bureaucrats who want the formation of a house of commons to have more power in the government. \n\n§gGenerals:§! \nCurrent Influence: §Y[?CHI_influnce_of_the_generals]%§!\nCurrent Happiness: §Y[?CHI_loyalty_of_the_generals]%§! \n\n§gPeasants:§! \nCurrent Influence: §Y[?CHI_influnce_of_the_peasants]%§!\nCurrent Happines: §Y[?CHI_loyalty_of_the_peasants]%§! \n\n§gBureaucrats:§! \nCurrent Influence: §Y[?CHI_influnce_of_the_bureaucrats]%§! \nCurrent Happiness: §Y[?CHI_loyalty_of_the_bureaucrats]%§!"
+    CHI_internal_factions_desc:0 "China has many internal factions. The generals who use thier control over the army to levarage deals. The peasants who use thier numbers to be heard in the government. The bureaucrats who want the formation of a house of commons to have more power in the government. \n\n§gGenerals:§! \nCurrent Influence: §Y[?CHI_influnce_of_the_generals]%§!\nCurrent Loyalty: §Y[?CHI_loyalty_of_the_generals]%§! \n\n§gPeasants:§! \nCurrent Influence: §Y[?CHI_influnce_of_the_peasants]%§!\nCurrent Loyalty: §Y[?CHI_loyalty_of_the_peasants]%§! \n\n§gBureaucrats:§! \nCurrent Influence: §Y[?CHI_influnce_of_the_bureaucrats]%§! \nCurrent Loyalty: §Y[?CHI_loyalty_of_the_bureaucrats]%§!"
     
     
     
