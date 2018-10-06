@@ -1,0 +1,4 @@
+﻿l_english:
+    #Ideas
+    northern_revolts:0 "Northern Revolts"
+    northern_revolts_desc:0 "There are many fascist supporters who are still largely present in the northern parts of Italy. They have been a great nuisance to us. \n\n§GEffects in Piedmont:§! \n§WResources =§! §R-20%§! \n§WAttrition =§! §R+10%§! \n§WOrganization Regain =§! §R-15%§! \n§WSupplies =§! §R-30%§! \n§WBuilding Slots =§! §R-15%§! \n§WFactory Sabotage =§! §R+10%§!"
