@@ -1,1 +1,36 @@
-﻿#leave blank
+﻿####Events for Italy######
+
+add_namespace = italy
+
+
+#Hidden Event
+country_event = {
+    id = italy.0
+    title = italy.0.t
+    desc = italy.0.d
+    picture = GFX_report_event_worker_protests
+
+    hidden = yes
+	
+	fire_only_once = yes
+
+    immediate = {
+    }
+
+    option = {
+        name = italy.0.a
+		158 = {
+			add_state_modifier = {
+					modifier = {
+						local_resources = -0.20
+						attrition = 0.1
+						local_org_regain = -0.15
+						local_supplies = -0.3
+						local_building_slots_factor = -0.15
+						local_factory_sabotage = 0.1
+					}
+            }
+		}
+		add_ideas = northern_revolts
+    }
+}
