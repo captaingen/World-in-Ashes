@@ -33,7 +33,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_duce
-		icon = unknown
+		icon = GFX_focus_il_duce
 		x = 1
 		y = 1
 		cost = 10
@@ -184,7 +184,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_enforcing_legge
-		icon = unknown
+		icon = GFX_focus_constitution
 		x = 4
 		y = 2
 		cost = 10
@@ -209,7 +209,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_postase
-		icon = unknown
+		icon = GFX_focus_postase
 		x = 4
 		y = 3
 		cost = 10
@@ -233,7 +233,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_senato
-		icon = unknown
+		icon = GFX_focus_il_senato
 		x = 7
 		y = 1
 		cost = 10
@@ -396,6 +396,30 @@ focus_tree = {
 		prerequisite = {
 			focus = NAP_distribute_wealth
 			focus = NAP_strengthen_training
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_mafia_question
+		icon = unknown
+		x = 13
+		y = 0
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+			
 		}
 		
 		ai_will_do = {
