@@ -11,8 +11,7 @@ state={
 			925 1 
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 3
 			1198 = {
 				naval_base = 1
 			}
@@ -21,6 +20,7 @@ state={
 	}
 	
 	
-	manpower=0
+	manpower=18653
 	buildings_max_level_factor=1.000
+	state_category=utterly_sparse
 }

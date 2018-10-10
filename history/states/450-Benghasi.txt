@@ -24,7 +24,7 @@ state={
 	provinces={
 		4120 10123 11954 
 	}
-	manpower=82535
+	manpower=67535
 	buildings_max_level_factor=1.000
 	state_category=utterly_sparse
 }
