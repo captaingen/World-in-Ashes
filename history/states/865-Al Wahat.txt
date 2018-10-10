@@ -1,0 +1,26 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		1127 1198 4057 4200 7076 
+	}
+	
+	history={
+		owner = EGY
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			1198 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = EGY
+	}
+	
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}
