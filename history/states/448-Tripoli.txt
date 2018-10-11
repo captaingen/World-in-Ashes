@@ -7,7 +7,7 @@ state={
 	state_category = highly_sparse
 
 	history={
-		owner = ITA
+		owner = TRI
 		
 		victory_points = {
 			1149 10 
@@ -19,7 +19,7 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = LBA
+		add_core_of = TRI
 	}
 
 	provinces={
