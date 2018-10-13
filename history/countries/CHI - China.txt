@@ -196,9 +196,9 @@ create_field_marshal = {
 	planning_skill = 2
 	logistics_skill = 2
 }
-<<<<<<< HEAD
+#    HEAD
 
 #a message
 #test
-=======
->>>>>>> 01996a6eac307d05ce8c57b1ba7fed2ee9e09774
+#=======
+#     01996a6eac307d05ce8c57b1ba7fed2ee9e09774
