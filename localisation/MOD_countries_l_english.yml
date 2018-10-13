@@ -1134,6 +1134,15 @@
  SEN_democratic_ADJ:0 "Senussi"
  SEN_neutrality_ADJ:0 "Senussi"
  SEN_communism_ADJ:0 "Senussi"
+
+ CLA_fascism:0 "Free Cities of China"
+ CLA_fascism_DEF:0 "The Free Cities of China"
+ CLA_democratic:0 "League of Chinese City States"
+ CLA_democratic_DEF:0 "The League of Chinese City States"
+ CLA_communism:0 "Union of China"
+ CLA_communism_DEF:0 "The Union of China"
+ CLA_neutrality:0 "Corporate League of Asia"
+ CLA_neutrality_DEF:0 "The Corporate League of Asia"
  
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
