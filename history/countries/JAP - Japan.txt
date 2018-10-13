@@ -70,6 +70,8 @@ set_autonomy = {
 	autonomous_state = autonomy_colony
 }
 
+give_guarantee = CLA
+
 set_politics = {
 
 	parties = {

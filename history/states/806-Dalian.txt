@@ -7,9 +7,9 @@ state={
 	state_category = sparse
 	history=
 	{
-		owner = JAP
+		owner = CLA
 		add_core_of = MAN
-		add_core_of = JAP
+		add_core_of = CLA
 		victory_points = {
 			1150 1 
 		}

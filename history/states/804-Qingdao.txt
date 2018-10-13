@@ -8,9 +8,10 @@ state=
 	
 	history=
 	{
-		owner = GER
+		owner = CLA
 		add_core_of = SHA
 		add_core_of = CHI
+		add_core_of = CLA
 		
 		victory_points = {
 			10000 5 
