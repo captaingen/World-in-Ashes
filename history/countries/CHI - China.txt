@@ -55,9 +55,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Chiang Kai-Shek"
+	name = "Hu Hanmin"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
