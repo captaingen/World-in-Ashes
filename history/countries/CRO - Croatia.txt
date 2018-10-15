@@ -22,6 +22,7 @@ set_convoys = 5
 
 add_ideas = {
 	the_great_balkan_game
+	CRO_internal_opposition
 }
 
 set_country_flag = westernization_1_completed_flag
@@ -35,6 +36,7 @@ set_politics = {
 	parties = {
 		democratic = { 
 			popularity = 15
+			banned = yes 
 		}
 
 		fascism = {
@@ -43,6 +45,7 @@ set_politics = {
 		
 		communism = {
 			popularity = 10
+			banned = yes 
 		}
 	}
 	
@@ -53,7 +56,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ante Pavelic"
+	name = "Ante Pavelić"
 	desc = "ANTE_PAVELIC_DESC"
 	picture = "Portrait_Croatia_Ante_Pavelic.dds"
 	expire = "1965.1.1"
