@@ -13,7 +13,6 @@ state={
 	history={
 		owner = JAP
 		add_core_of = JAP
-		add_core_of = NAT
 		buildings = {
 			infrastructure = 8
 			air_base = 6
