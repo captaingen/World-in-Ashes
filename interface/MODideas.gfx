@@ -205,4 +205,8 @@ spriteTypes = {
 	    name = "GFX_idea_slot_intel_minister"
 		texturefile = "gfx/interface/idea_slot_ministers.dds"
 	}
+	spriteType = {
+	    name = "GFX_idea_slot_government_type"
+		texturefile = "gfx/interface/idea_slot_govtype.dds"
+	}
 }
