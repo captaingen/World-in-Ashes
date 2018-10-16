@@ -2,13 +2,9 @@
 state={
 	id=450
 	name="STATE_450"
-	manpower = 82535
-	
-	state_category = utterly_sparse
 
 	history={
-		owner = ITA
-		
+		owner = EGY
 		victory_points = {
 			11954 3 
 		}
@@ -17,12 +13,18 @@ state={
 			air_base = 1
 			11954 = {
 				naval_base = 1
+
 			}
+
 		}
-		add_core_of = LBA
+		add_core_of = EGY
+
 	}
 
 	provinces={
-		1127 4120 10123 11954 
+		4120 10123 11954 
 	}
+	manpower=67535
+	buildings_max_level_factor=1.000
+	state_category=utterly_sparse
 }

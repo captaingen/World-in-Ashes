@@ -36,19 +36,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10
+			popularity = 24
 		}
 
 		fascism = {
-			popularity = 23
+			popularity = 4 
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 65
+			popularity = 72
 		}
 	}
 	
@@ -60,9 +60,9 @@ set_politics = {
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	name = "King Constantine I"
+	desc = "POLITICS_CONSTANTINE_I_DESC"
+	picture = "Portrait_Greece_Constantine_I.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

@@ -1,0 +1,183 @@
+ideas = {
+
+	government_type = {
+		law = yes
+	
+		oligarchy = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = communism
+					has_government = socialism
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		empowered_democracy = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = socialism
+					has_government = neutraliy
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		republic = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = socialism
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		totalitarian_state = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		military_junta = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+					has_government = neutraliy
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		dictatorship = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		semi_constitutional_monarchy = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				has_government = neutraliy
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		constitutional_monarchy = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = neutraliy
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		absolute_monarchy = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				has_government = neutraliy
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+	}
+}

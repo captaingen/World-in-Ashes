@@ -121,4 +121,20 @@ spriteTypes = {
 		name = "GFX_focus_generic_economic_prosperity_2"
 		textureFile = "gfx/interface/goals/focus_generic_economic_prosperity_2.dds"			
 	}
+	spriteType = {
+		name = "GFX_focus_il_duce"
+		textureFile = "gfx/interface/goals/NAP/il_duce.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_il_senato"
+		textureFile = "gfx/interface/goals/NAP/il_senato.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_postase"
+		textureFile = "gfx/interface/goals/NAP/postase.dds"			
+	}
+	spriteType = {
+		name = "GFX_focus_constitution"
+		textureFile = "gfx/interface/goals/constitution.dds"			
+	}
 }

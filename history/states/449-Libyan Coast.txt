@@ -1,20 +1,22 @@
 
 state={
 	id=449
-	name="STATE_449" # El Agheila
-	manpower = 40431
-	
-	state_category = utterly_sparse
+	name="STATE_449"
 
 	history={
-		owner = ITA
+		owner = TRI
 		buildings = {
 			infrastructure = 3
+
 		}
-		add_core_of = LBA
+		add_core_of = TRI
+
 	}
 
 	provinces={
-		1041 1198 4047 4057 10046 10117 12088 
+		1041 4047 10046 10117 12088 
 	}
+	manpower=38431
+	buildings_max_level_factor=1.000
+	state_category=utterly_sparse
 }

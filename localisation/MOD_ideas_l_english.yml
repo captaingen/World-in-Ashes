@@ -21,6 +21,8 @@
  intel_minister:0 "Intelligence Minister"
  economy_minister:0 "Economy Minister"
  chief_of_staff:0 "Chief of Staff"
+ government_type:0 "Type of Government"
+ outlook:0 "Outlook"
  
  idea_category_army_chief:0 "Chief of Army"
  idea_category_head_of_government:0 "Second in Power"
@@ -30,7 +32,24 @@
  idea_category_intel_minister:0 "Intelligence Minister"
  idea_category_economy_minister:0 "Economy Minister"
  idea_category_chief_of_staff:0 "Chief of Staff"
+ idea_category_government_type:0 "Type of Government"
+ idea_category_outlook:0 "Outlook"
 
+ #Outlook
+ german_outlook:0 "German Outlook"
+ us_outlook:0 "American Outlook"
+ french_outlook:0 "French Outlook"
+ 
+ #Type of Government
+ oligarchy:0 "Oligarchy"
+ republic:0 "Republic"
+ empowered_democracy:0 "Empowered Presidential Democracy"
+ totalitarian_state:0 "Totalitarian State"
+ military_junta:0 "Military Junta"
+ dictatorship:0 "Dictatorship"
+ semi_constitutional_monarchy:0 "Semi Constitutional Monarchy"
+ constitutional_monarchy:0 "Constitutional Monarchy"
+ absolute_monarchy:0 "Absolute Monarchy"
  
  #Naples
  weak_currency:0 "Weak Currency"

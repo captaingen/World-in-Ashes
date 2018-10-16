@@ -41,8 +41,35 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.20
-				conscription_factor = -0.20
+				stability_factor = -0.10
+				conscription_factor = -0.15
+			}
+		}
+		
+		CRO_internal_opposition = {
+			picture = FRA_matignon_agreements
+			
+			allowed = {
+				original_tag = CRO
+				NOT = {
+					any_enemy_country = {
+						strength_ratio = {
+							tag = ROOT
+							ratio = 1
+						}
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15 
+				conscription_factor = -0.10 
 			}
 		}
 	}

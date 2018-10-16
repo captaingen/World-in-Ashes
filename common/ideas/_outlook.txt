@@ -1,0 +1,73 @@
+ideas = {
+
+	outlook = {
+		law = yes
+	
+		german_outlook = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				NOT = {
+					OR = {
+						original_tag = USA
+						original_tag = FRA
+					}
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		us_outlook = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				NOT = {
+					OR = {
+						original_tag = GER
+						original_tag = FRA
+					}
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		french_outlook = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				NOT = {
+					OR = {
+						original_tag = GER
+						original_tag = USA
+					}
+				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+	}
+}

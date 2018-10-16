@@ -36,20 +36,21 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 0
+			banned = yes 
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 47
 		}
 		
 		communism = {
-			popularity = 20
-			#banned = no #default is no
+			popularity = 0
+			banned = yes 
 		}
 		
 		neutrality = { 
-			popularity = 30
+			popularity = 53
 		}
 	}
 	
@@ -60,11 +61,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Draza Mihailovic"
+	name = "King Paul"
 	desc = ""
 	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		#
 	}
@@ -76,17 +77,6 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = Despotism
 	traits = {
 		#
 	}
