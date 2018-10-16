@@ -19,7 +19,7 @@ idea_categories = {
 		slot = trade_laws
 		slot = economy
 		slot = government_type
-		slot = political_advisor
+		slot = outlook
 		slot = political_advisor
 		
 		cost = 150

@@ -10,7 +10,10 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = communism
+					has_government = socialism
+				}
 			}
 
 			modifier = {
@@ -27,7 +30,11 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = democratic
+					has_government = socialism
+					has_government = neutraliy
+				}
 			}
 
 			modifier = {
@@ -44,7 +51,10 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = democratic
+					has_government = socialism
+				}
 			}
 
 			modifier = {
@@ -61,7 +71,10 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
 			}
 
 			modifier = {
@@ -78,7 +91,11 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = fascism
+					has_government = communism
+					has_government = neutraliy
+				}
 			}
 
 			modifier = {
@@ -95,7 +112,10 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
 			}
 
 			modifier = {
@@ -112,7 +132,7 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				has_government = neutraliy
 			}
 
 			modifier = {
@@ -129,7 +149,10 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				OR = {
+					has_government = democratic
+					has_government = neutraliy
+				}
 			}
 
 			modifier = {
@@ -146,7 +169,7 @@ ideas = {
 			level = 7
 			
 			available = {
-				
+				has_government = neutraliy
 			}
 
 			modifier = {
