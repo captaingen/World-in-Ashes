@@ -33,7 +33,7 @@ ideas = {
 				OR = {
 					has_government = democratic
 					has_government = socialism
-					has_government = neutraliy
+					has_government = neutrality
 				}
 			}
 
@@ -94,7 +94,7 @@ ideas = {
 				OR = {
 					has_government = fascism
 					has_government = communism
-					has_government = neutraliy
+					has_government = neutrality
 				}
 			}
 
@@ -132,7 +132,7 @@ ideas = {
 			level = 7
 			
 			available = {
-				has_government = neutraliy
+				has_government = neutrality
 			}
 
 			modifier = {
@@ -151,7 +151,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = democratic
-					has_government = neutraliy
+					has_government = neutrality
 				}
 			}
 
@@ -169,7 +169,7 @@ ideas = {
 			level = 7
 			
 			available = {
-				has_government = neutraliy
+				has_government = neutrality
 			}
 
 			modifier = {
