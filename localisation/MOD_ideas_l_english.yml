@@ -41,6 +41,7 @@
  western_outlook:0 "Western Outlook"
  nasi_outlook:0 "Nasi Outlook"
  non_aligned_outlook:0 "Non Aligned Outlook"
+ isolationist_outlook:0 "Isolationist Outlook"
  self_first_outlook:0 "[Root.GetName] First"
  
  #Type of Government
