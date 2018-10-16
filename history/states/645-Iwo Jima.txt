@@ -8,6 +8,7 @@ state=
 	{
 		owner = JAP
 		add_core_of = JAP
+		add_core_of = NAT
 		buildings = {
 			infrastructure = 3
 			air_base = 1

@@ -9,8 +9,9 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = NAT
 		add_core_of = JAP
+		add_core_of = NAT
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

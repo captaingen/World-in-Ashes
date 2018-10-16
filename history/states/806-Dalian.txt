@@ -10,6 +10,7 @@ state={
 		owner = JAP
 		add_core_of = MAN
 		add_core_of = JAP
+		add_core_of = NAT
 		victory_points = {
 			1150 1 
 		}

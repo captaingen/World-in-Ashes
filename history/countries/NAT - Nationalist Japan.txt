@@ -1,0 +1,198 @@
+﻿capital = 530
+
+oob = "NAT_1936"
+
+set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.8
+
+set_research_slots = 4
+
+set_country_flag = westernization_1_completed_flag
+set_country_flag = completed_industry_flag
+set_country_flag = completed_modern_flag
+set_country_flag = completed_diplo_flag
+set_country_flag = westernization_5_completed_flag
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines  = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	trench_warfare = 1
+	base_strike = 1
+	synth_oil_experiments = 1
+}
+
+set_convoys = 200
+
+set_autonomy = {
+	target = KOR
+	autonomous_state = autonomy_colony
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 60
+		}
+		
+		communism = {
+			popularity = 40
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kingoro Hashimoto"
+	desc = "POLITICS_Hirohito_DESC"
+	expire = "1957.29.6"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+
+### VARIANTS ###
+	# 1936 Start #
+		### Carrier Variants
+		create_equipment_variant = {
+			name = "Akagi Class"
+			type = carrier_1
+			parent_version = 0
+			upgrades = {
+				ship_deckspace_upgrade = 5
+				carrier_armor_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_reliability_upgrade = 3
+			}
+			obsolete = yes
+		}
+		### Battleship Variants	
+		create_equipment_variant = {
+			name = "Ise Class"
+			type = battleship_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 3
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Nagato Class"
+			type = battleship_1
+			parent_version = 1
+			upgrades = {
+				ship_reliability_upgrade = 3
+				ship_engine_upgrade = 4
+				ship_armor_upgrade = 3
+				ship_gun_upgrade = 4
+			}
+			obsolete = yes
+		}
+		### Heavy Cruiser Variants	
+		create_equipment_variant = {
+			name = "Myoko Class"
+			type = heavy_cruiser_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_armor_upgrade = 2
+				ship_gun_upgrade = 3
+			}
+			obsolete = yes
+		}
+		### Light Cruiser Variants	
+		create_equipment_variant = {
+			name = "Kuma Class"
+			type = light_cruiser_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_gun_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Sendai Class"
+			type = light_cruiser_1
+			parent_version = 1
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 3
+				ship_gun_upgrade = 1
+				ship_anti_air_upgrade = 2
+			}
+			obsolete = yes
+		}
+		### Destroyer Variants
+		create_equipment_variant = {
+			name = "Fubuki Class"
+			type = destroyer_1
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 4
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 2
+			}
+		}	
+		### Submarine Variants	
+		create_equipment_variant = {
+			name = "Kaidai III Class"
+			type = submarine_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 3
+				sub_engine_upgrade = 3
+				sub_stealth_upgrade = 1
+				sub_torpedo_upgrade = 2
+			}
+			obsolete = yes
+		}
+	
+#hopes this works

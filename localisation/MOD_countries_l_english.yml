@@ -1135,6 +1135,18 @@
  SEN_neutrality_ADJ:0 "Senussi"
  SEN_communism_ADJ:0 "Senussi"
  
+ NAT_fascism:0 "Nationalist Japan"
+ NAT_fascism_DEF:0 "The Nationalist Japan"
+ NAT_democratic:0 "Japanese Republic"
+ NAT_democratic_DEF:0 "The Japanese Republic"
+ NAT_neutrality:0 "Japanese Empire"
+ NAT_neutrality_DEF:0 "The Japanese Empire"
+ NAT_communism:0 "Militant Socalist Japan"
+ NAT_communism_DEF:0 "The Militant Socalist Japan"
+ NAT_fascism_ADJ:0 "Japapnese"
+ NAT_democratic_ADJ:0 "Japapnese"
+ NAT_neutrality_ADJ:0 "Japapnese"
+ NAT_communism_ADJ:0 "Japapnese"
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
