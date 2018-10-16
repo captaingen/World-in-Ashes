@@ -3,7 +3,7 @@ ideas = {
 	outlook = {
 		law = yes
 	
-		german_outlook = {
+		imperial_outlook = {
 						
 			cost = 150
 			removal_cost = -1
@@ -25,7 +25,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
-		us_outlook = {
+		western_outlook = {
 						
 			cost = 150
 			removal_cost = -1
@@ -47,7 +47,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
-		french_outlook = {
+		nasi_outlook = {
 						
 			cost = 150
 			removal_cost = -1
@@ -60,6 +60,40 @@ ideas = {
 						original_tag = USA
 					}
 				}
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		non_aligned_outlook = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				
+			}
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		self_first_outlook = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				
 			}
 
 			modifier = {

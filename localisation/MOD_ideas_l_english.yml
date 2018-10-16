@@ -36,9 +36,11 @@
  idea_category_outlook:0 "Outlook"
 
  #Outlook
- german_outlook:0 "German Outlook"
- us_outlook:0 "American Outlook"
- french_outlook:0 "French Outlook"
+ imperial_outlook:0 "Imperial Outlook"
+ western_outlook:0 "Western Outlook"
+ nasi_outlook:0 "Nasi Outlook"
+ non_aligned_outlook:0 "Non Aligned Outlook"
+ self_first_outlook:0 "[Root.GetName] First"
  
  #Type of Government
  oligarchy:0 "Oligarchy"
