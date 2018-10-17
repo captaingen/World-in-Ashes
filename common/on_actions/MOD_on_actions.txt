@@ -56,25 +56,6 @@ on_actions = {
 					value = 30
 				}
 			}
-			JAP = {
-				set_variable = {
-					var = JAP_agressive_expansion
-					value = 5
-				}
-				set_variable = {
-					var = JAP_likelyhood_of_us_intervention
-					value = 5
-				}
-				set_variable = {
-					var = JAP_likelyhood_of_russia_intervention
-					value = 0
-				}
-				set_variable = {
-					var = JAP_likelyhood_of_germany_intervention
-					value = 0
-				}
-			}
-
 			WIF = {
 				country_event = wif.4
 			}
