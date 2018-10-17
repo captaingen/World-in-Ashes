@@ -26,6 +26,9 @@ add_ideas = {
 	prosperity_of_hong_kong
 	pilaged_towns_and_villages
 	extereme_corruption
+	military_junta
+	self_first_outlook
+	partial_economic_mobilisation
 }
 
 set_politics = {
