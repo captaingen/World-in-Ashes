@@ -11,6 +11,12 @@ set_war_support = 0.6
 set_convoys = 0
 set_research_slots = 2
 
+add_ideas = {
+	partial_economic_mobilisation
+	military_junta
+	self_first_outlook
+}
+
 set_country_flag = westernization_1_completed_flag
 set_country_flag = completed_diplo_flag
 

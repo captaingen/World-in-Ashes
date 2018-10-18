@@ -29,6 +29,7 @@ add_ideas = {
 	military_junta
 	self_first_outlook
 	partial_economic_mobilisation
+	extensive_conscription
 }
 
 set_politics = {

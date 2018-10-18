@@ -2,8 +2,13 @@
 
 oob = "JAP_1936"
 
-set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
+set_stability = 0.5 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
+
+set_autonomy = {
+	target = KOR
+	autonomous_state = autonomy_colony
+}
 
 set_research_slots = 4
 
@@ -61,6 +66,13 @@ create_import = {
 		resource = oil
 		factories = 2
 		exporter = USA
+}
+
+add_ideas = {
+	partial_economic_mobilisation
+	military_junta
+	extensive_conscription
+	self_first_outlook
 }
 
 set_convoys = 400
