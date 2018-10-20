@@ -296,15 +296,17 @@ leader_traits = {
 				targeted_modifier = { tag = MEN attack_bonus_against = -0.1 }
 				targeted_modifier = { tag = SIK attack_bonus_against = -0.1 }
 			}
-			CHI_lack_of_loyalty = {
+			CHI_leaders_of_the_buercrats = {
 				random = no
 				ai_will_do = {
 					factor = 0
 				}
-				political_power_gain = -0.1
 			}
-			CHI_leaders_of_the_buercrats = {
+		#Zhang Renjie
+			CHI_secret_communist = {
 				random = no
+				communism_drift = 0.0.05
+		
 				ai_will_do = {
 					factor = 0
 				}

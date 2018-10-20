@@ -30,7 +30,12 @@ add_ideas = {
 	self_first_outlook
 	partial_economic_mobilisation
 	extensive_conscription
-	hu_hanmin
+	chen_jitang_hm
+	wang_jingwei_fm
+	chen_cheng_dm
+	zhang_renjie_em
+	zhu_jiahua_cm
+	dai_li_im
 }
 
 set_politics = {

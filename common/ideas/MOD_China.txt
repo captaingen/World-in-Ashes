@@ -172,6 +172,7 @@ ideas = {
 			traits = {
 				ambassador
 				democratic_hog
+				CHI_leaders_of_the_buercrats
 			}
 			cancel_if_invalid = no
 			
@@ -190,7 +191,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			
-			picture = Cheng
+			picture = Chen
 
 			cost = 150
 		}
@@ -200,9 +201,8 @@ ideas = {
 			allowed = {original_tag = CHI}
 			available = {has_government = neutrality}
 			traits = {
-				fascist_hog
-				violent_minister
-
+				CHI_secret_communist
+				financial_genius
 			}
 			cancel_if_invalid = no
 			
@@ -211,8 +211,22 @@ ideas = {
 			cost = 150
 		}
 	}
-	intel_minister = {
-			ku_meng-yu_im ={
+	economy_minister = {
+		zhang_renjie_em ={
+			allowed = {original_tag = CHI}
+			available = {has_government = communism}
+			traits = {
+				financial_genius
+			}
+			cancel_if_invalid = no
+			
+			picture = Zhang
+
+			cost = 150
+		}
+	}
+	construction_minister = {
+			zhu_jiahua_cm ={
 			allowed = {original_tag = CHI}
 			available = {has_government = neutrality}
 			traits = {
@@ -221,6 +235,22 @@ ideas = {
 			cancel_if_invalid = no
 			
 			picture = Ku
+
+			cost = 150
+		}
+	}
+	intel_minister = {
+			dai_li_im ={
+			allowed = {original_tag = CHI}
+			available = {has_government = neutrality}
+			traits = {
+				violent_minister
+				fascist_hog
+				stealthy_spy
+			}
+			cancel_if_invalid = no
+			
+			picture = Zhu_Jiahua
 
 			cost = 150
 		}
