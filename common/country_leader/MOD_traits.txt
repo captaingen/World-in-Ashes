@@ -282,4 +282,31 @@ leader_traits = {
 				}
 				political_power_gain = -0.4
 			}
+	#China
+		#Chen Jitang
+			CHI_sympethic_to_the_warlords = {
+				random = no
+				ai_will_do = {
+					factor = 0
+				}
+				targeted_modifier = { tag = XSM attack_bonus_against = -0.1 }
+				targeted_modifier = { tag = SZC attack_bonus_against = -0.1 }
+				targeted_modifier = { tag = YUN attack_bonus_against = -0.1 }
+				targeted_modifier = { tag = SHX attack_bonus_against = -0.1 }
+				targeted_modifier = { tag = MEN attack_bonus_against = -0.1 }
+				targeted_modifier = { tag = SIK attack_bonus_against = -0.1 }
+			}
+			CHI_lack_of_loyalty = {
+				random = no
+				ai_will_do = {
+					factor = 0
+				}
+				political_power_gain = -0.1
+			}
+			CHI_leaders_of_the_buercrats = {
+				random = no
+				ai_will_do = {
+					factor = 0
+				}
+			}
 }

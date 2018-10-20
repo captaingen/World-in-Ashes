@@ -149,4 +149,80 @@ ideas = {
 			}
 		}
 	}
+	#second in command
+	head_of_government = {
+		chen_jitang_hm = {
+			allowed = {original_tag = CHI}
+			available = {has_government = neutrality}
+			traits = {
+				CHI_sympethic_to_the_warlords
+				drill_sergeant
+			}
+			cancel_if_invalid = no
+			
+			picture = Chen
+
+			cost = 150
+		}
+	}
+	foreign_minister = {
+		wang_jingwei_fm ={
+			allowed = {original_tag = CHI}
+			available = {has_government = neutrality}
+			traits = {
+				ambassador
+				democratic_hog
+			}
+			cancel_if_invalid = no
+			
+			picture = Wang
+
+			cost = 150
+		}
+	}
+	minister_national_defense = {
+		chen_cheng_dm ={
+			allowed = {original_tag = CHI}
+			available = {has_government = neutrality}
+			traits = {
+				fascist_hog
+				violent_minister
+			}
+			cancel_if_invalid = no
+			
+			picture = Cheng
+
+			cost = 150
+		}
+	}
+	economy_minister = {
+		zhang_renjie_em ={
+			allowed = {original_tag = CHI}
+			available = {has_government = neutrality}
+			traits = {
+				fascist_hog
+				violent_minister
+
+			}
+			cancel_if_invalid = no
+			
+			picture = Zhang
+
+			cost = 150
+		}
+	}
+	intel_minister = {
+			ku_meng-yu_im ={
+			allowed = {original_tag = CHI}
+			available = {has_government = neutrality}
+			traits = {
+				smart_engineer
+			}
+			cancel_if_invalid = no
+			
+			picture = Ku
+
+			cost = 150
+		}
+	}
 }

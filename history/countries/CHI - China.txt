@@ -30,6 +30,7 @@ add_ideas = {
 	self_first_outlook
 	partial_economic_mobilisation
 	extensive_conscription
+	hu_hanmin
 }
 
 set_politics = {
