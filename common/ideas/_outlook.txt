@@ -19,7 +19,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = -0.15
+				
 			}
 			
 			cancel_if_invalid = no
@@ -41,7 +41,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = 0.2
+				
 			}
 			
 			cancel_if_invalid = no
@@ -63,7 +63,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = -0.25
+				
 			}
 			
 			cancel_if_invalid = no
@@ -80,7 +80,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = 0.50
+				
 			}
 			
 			cancel_if_invalid = no
@@ -97,7 +97,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = 0.80
+				
 			}
 			
 			cancel_if_invalid = no
@@ -114,7 +114,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = -0.05
+				
 			}
 			
 			cancel_if_invalid = no
