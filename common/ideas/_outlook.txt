@@ -19,7 +19,8 @@ ideas = {
 			}
 
 			modifier = {
-				
+				war_support_factor = 0.1
+				political_power_gain = 0.1
 			}
 			
 			cancel_if_invalid = no
@@ -41,7 +42,8 @@ ideas = {
 			}
 
 			modifier = {
-				
+				war_support_factor = 0.05
+				political_power_gain = -0.15
 			}
 			
 			cancel_if_invalid = no
@@ -63,7 +65,8 @@ ideas = {
 			}
 
 			modifier = {
-				
+				war_support_factor = 0.15
+				political_power_gain = 0.25
 			}
 			
 			cancel_if_invalid = no
@@ -80,7 +83,9 @@ ideas = {
 			}
 
 			modifier = {
-				
+				political_power_gain = 0.5
+				justify_war_goal_time = 0.10
+				war_support_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -97,7 +102,9 @@ ideas = {
 			}
 
 			modifier = {
-				
+				political_power_gain = 0.75
+				justify_war_goal_time = 0.35
+				war_support_factor = -0.15
 			}
 			
 			cancel_if_invalid = no
@@ -114,7 +121,9 @@ ideas = {
 			}
 
 			modifier = {
-				
+				political_power_gain = -1.0
+				justify_war_goal_time = -0.15
+				war_support_factor = 0.05
 			}
 			
 			cancel_if_invalid = no
