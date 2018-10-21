@@ -50,3 +50,7 @@
   #Nicholas II
    RUS_unpopular_imperator:0 "Unpopular Imperator"
    RUS_incompetent_statesman:0 "Incompetent Statesman"
+#china
+  CHI_secret_communist:0 "Secret Communist"
+  CHI_sympethic_to_the_warlords:0 "Sympethic to the Warlords"
+  CHI_leaders_of_the_buercrats:0 "Leader of the Buercrats"
