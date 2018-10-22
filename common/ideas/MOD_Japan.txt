@@ -95,7 +95,7 @@ ideas = {
 			rule = {
 			}
 		}
-		great_depression = {
+		JAP_great_depression = {
 
 			allowed = {
 				original_tag = JAP
