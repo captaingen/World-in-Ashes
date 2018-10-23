@@ -73,6 +73,11 @@ add_ideas = {
 	military_junta
 	extensive_conscription
 	self_first_outlook
+	JAP_great_depression 
+	hated_by_all 
+	a_rising_power
+	exteremly_loyalty
+	naval_focus
 }
 
 set_convoys = 400
