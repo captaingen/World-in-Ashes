@@ -9,6 +9,15 @@ westernization_actions = {
 	}
 }
 
+the_great_balkan_game_category = {
+	
+	icon = power_struggle
+	
+	available = {
+		has_idea = the_great_balkan_game
+	}
+}
+
 FRA_civil_war_operations = {
 	
 	icon = generic_crisis

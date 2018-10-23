@@ -22,6 +22,11 @@ set_technology = {
 	early_destroyer = 1
 }
 
+set_variable = {
+	var = power_projection
+	value = 10
+}
+
 add_ideas = {
 	the_great_balkan_game
 }

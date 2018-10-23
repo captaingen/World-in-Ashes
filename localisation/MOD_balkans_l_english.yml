@@ -12,3 +12,13 @@
   bosnian_tensions_desc:0 "The Muslims within our borders cause problems with regards to the stability of the state as a whole. This instability, caused by the revoking of Muslim land ownership and centralization of the government, can only be solved either through force, through concessions, or through hardship."
   CRO_internal_opposition:0 "Democratic Opposition"
   CRO_internal_opposition_desc:0 "Ever since the civil war Croatia has been ruled with an iron grip by Ante Pavelic. His rule has been however troubled due to an opposition from a large part of the population which wishes to see a return to the golden days of the Croatian Republic."
+ #Decisions
+  the_great_balkan_game_category:0 "The Great Balkan Game"
+  the_great_balkan_game_category_desc:0 "A great power struggle has been occuring in the Balkans since the collapse of the Austro-Hungarian Empire. No one knows who will come out on top as the dominant power in the Balkans.\n\n§gPower Projection:§![GRE.GetBalkanPowerProjection][BUL.GetBalkanPowerProjection][SER.GetBalkanPowerProjection][CRO.GetBalkanPowerProjection][HUN.GetBalkanPowerProjection][ROM.GetBalkanPowerProjection]\n\n§gBalkan Tension:§! [?global.balkan_tension|%0]"
+ #Scripted Localization
+  ROM_power_projection:0 "\n§Y[ROM.GetName]:§! [?ROM.power_projection]"
+  HUN_power_projection:0 "\n§Y[HUN.GetName]:§! [?HUN.power_projection]"
+  CRO_power_projection:0 "\n§Y[CRO.GetName]:§! [?CRO.power_projection]"
+  SER_power_projection:0 "\n§Y[SER.GetName]:§! [?SER.power_projection]"
+  BUL_power_projection:0 "\n§Y[BUL.GetName]:§! [?BUL.power_projection]"
+  GRE_power_projection:0 "\n§Y[GRE.GetName]:§! [?GRE.power_projection]"

@@ -1,0 +1,45 @@
+defined_text = {
+	name = GetBalkanPowerProjection
+	text = {
+		trigger = {
+			has_idea = the_great_balkan_game
+			tag = ROM
+		}
+		localization_key = ROM_power_projection
+	}
+	text = {
+		trigger = {
+			has_idea = the_great_balkan_game
+			tag = HUN
+		}
+		localization_key = HUN_power_projection
+	}
+	text = {
+		trigger = {
+			has_idea = the_great_balkan_game
+			tag = CRO
+		}
+		localization_key = CRO_power_projection
+	}
+	text = {
+		trigger = {
+			has_idea = the_great_balkan_game
+			tag = SER
+		}
+		localization_key = SER_power_projection
+	}
+	text = {
+		trigger = {
+			has_idea = the_great_balkan_game
+			tag = BUL
+		}
+		localization_key = BUL_power_projection
+	}
+	text = {
+		trigger = {
+			has_idea = the_great_balkan_game
+			tag = GRE
+		}
+		localization_key = GRE_power_projection
+	}
+}

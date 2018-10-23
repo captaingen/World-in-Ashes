@@ -1,0 +1,21 @@
+the_great_balkan_game_category = {
+	
+	
+	assassinate_minister = {
+		
+		icon = generic_research
+		
+		available = {
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		visible = {
+			has_idea = the_great_balkan_game
+		}
+	}
+}

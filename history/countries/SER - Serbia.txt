@@ -19,6 +19,11 @@ set_technology = {
 	early_submarine = 1
 }
 
+set_variable = {
+	var = power_projection
+	value = 10
+}
+
 add_ideas = {
 	bosnian_tensions
 	the_great_balkan_game

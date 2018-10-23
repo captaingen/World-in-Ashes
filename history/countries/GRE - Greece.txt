@@ -4,6 +4,11 @@ oob = "GRE_1936"
 
 set_research_slots = 3
 
+set_variable = {
+	var = power_projection
+	value = 10
+}
+
 add_ideas = {
 	limited_conscription
 	the_great_balkan_game

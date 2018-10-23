@@ -20,6 +20,11 @@ set_technology = {
 
 set_convoys = 5
 
+set_variable = {
+	var = power_projection
+	value = 5
+}
+
 add_ideas = {
 	the_great_balkan_game
 	CRO_internal_opposition
