@@ -18,6 +18,9 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.05
+				stability_factor = 0.05
+				socialism_acceptance = 50
+				communism_acceptance = 50
 			}
 			
 			cancel_if_invalid = no
@@ -39,6 +42,8 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = 0.20
+				democratic_acceptance = 75
+				stability_factor = 0.05
 			}
 			
 			cancel_if_invalid = no
@@ -59,6 +64,8 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = 0.30
+				democratic_acceptance = 85
+				stability_factor = 0.10
 			}
 			
 			cancel_if_invalid = no
