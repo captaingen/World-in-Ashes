@@ -45,7 +45,7 @@ focus_tree = {
 		cost = 10
 		
 		available = {
-			
+			owns_state = 115
 		}
 		
 		bypass = {
@@ -63,7 +63,22 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			115 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+			}
+			750 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -75,7 +90,7 @@ focus_tree = {
 		cost = 10
 		
 		available = {
-			
+			owns_state = 750
 		}
 		
 		bypass = {
@@ -93,7 +108,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			750 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -123,7 +145,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = NAP_mil_conversions
 		}
 	}
 	
@@ -409,7 +431,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = naval_equipment
+			}
 		}
 	}
 	
@@ -443,7 +469,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			117 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -477,7 +510,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			156 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+				}
+			}
 		}
 	}
 	
