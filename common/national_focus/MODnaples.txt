@@ -13,7 +13,7 @@ focus_tree = {
 	#Industrial Tree
 	focus = {
 		id = NAP_3_year_plan
-		icon = unknown
+		icon = GFX_focus_generic_industry_2
 		x = 4
 		y = 0
 		cost = 10
@@ -39,7 +39,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_sicilian_industry
-		icon = unknown
+		icon = GFX_focus_focus_generic_industry_1
 		x = 1
 		y = 1
 		cost = 10
@@ -69,7 +69,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_palermo_industry
-		icon = unknown
+		icon = GFX_focus_focus_generic_industry_1
 		x = 0
 		y = 2
 		cost = 10
@@ -99,7 +99,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_military_conversions
-		icon = unknown
+		icon = GFX_goal_generic_small_arms
 		x = 2
 		y = 2
 		cost = 10
@@ -351,7 +351,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_iron
-		icon = unknown
+		icon = GFX_focus_generic_steel
 		x = 6
 		y = 4
 		cost = 10
@@ -385,7 +385,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_naval_focus
-		icon = unknown
+		icon = GFX_focus_generic_cruiser2
 		x = 8
 		y = 1
 		cost = 10
@@ -415,7 +415,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_naples_dy
-		icon = unknown
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 7
 		y = 2
 		cost = 10
@@ -449,7 +449,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_taranto_dy
-		icon = unknown
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 9
 		y = 2
 		cost = 10
@@ -483,7 +483,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_sub_dy
-		icon = unknown
+		icon = GFX_goal_generic_navy_anti_submarine
 		x = 8
 		y = 3
 		cost = 10
@@ -514,7 +514,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_naval_war_eco
-		icon = unknown
+		icon = GFX_goal_generic_amphibious_assault
 		x = 8
 		y = 4
 		cost = 10
@@ -544,7 +544,7 @@ focus_tree = {
 	
 	focus = {
 		id = NAP_focus_on_research
-		icon = unknown
+		icon = GFX_goal_generic_scientific_exchange
 		x = 4
 		y = 5
 		cost = 10
