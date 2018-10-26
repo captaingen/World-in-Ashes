@@ -27,7 +27,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = NAP_3_year_plan_tt
+			hidden_effect = {	
+				add_timed_idea = {
+					idea = NAP_3_year_plan_idea
+					days = 1095
+				}
+			}
 		}
 	}
 	
@@ -40,6 +46,12 @@ focus_tree = {
 		
 		available = {
 			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
 		}
 		
 		prerequisite = {
@@ -66,6 +78,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		prerequisite = {
 			focus = NAP_sicilian_industry
 		}
@@ -88,6 +106,12 @@ focus_tree = {
 		
 		available = {
 			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
 		}
 		
 		prerequisite = {
@@ -114,6 +138,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		prerequisite = {
 			focus = NAP_military_conversions
 		}
@@ -136,6 +166,12 @@ focus_tree = {
 		
 		available = {
 			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
 		}
 		
 		mutually_exclusive = {
@@ -166,6 +202,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		mutually_exclusive = {
 			focus = NAP_keep_carthage_artifacts
 		}
@@ -194,6 +236,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		prerequisite = {
 			focus = NAP_3_year_plan
 		}
@@ -216,6 +264,12 @@ focus_tree = {
 		
 		available = {
 			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
 		}
 		
 		prerequisite = {
@@ -242,6 +296,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		prerequisite = {
 			focus = NAP_mountain_factories
 		}
@@ -264,6 +324,12 @@ focus_tree = {
 		
 		available = {
 			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
 		}
 		
 		mutually_exclusive = {
@@ -294,6 +360,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		mutually_exclusive = {
 			focus = NAP_clothing
 		}
@@ -322,6 +394,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		prerequisite = {
 			focus = NAP_3_year_plan
 		}
@@ -344,6 +422,12 @@ focus_tree = {
 		
 		available = {
 			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
 		}
 		
 		mutually_exclusive = {
@@ -374,6 +458,12 @@ focus_tree = {
 			
 		}
 		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
 		mutually_exclusive = {
 			focus = NAP_naples_dy
 		}		
@@ -400,7 +490,13 @@ focus_tree = {
 		
 		available = {
 			
-		}	
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
 		
 		prerequisite = {
 			focus = NAP_taranto_dy
@@ -425,7 +521,13 @@ focus_tree = {
 		
 		available = {
 			
-		}	
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
 		
 		prerequisite = {
 			focus = NAP_sub_dy

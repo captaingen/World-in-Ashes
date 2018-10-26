@@ -4,8 +4,11 @@
     NAP_mafia_desc:0 "The Mafia is a criminal organization according to many nations. In Italy and Naples, the Mafia has large presence and influence in the government and industry. \n\n§gGovernment:§! \nCurrent Presence: §H[?NAP_mafia_presence_gov]%§!\nCurrent Influence: §H[?NAP_mafia_influence_gov]%§! \n\n§gIndustry:§! \nCurrent Presence: §H[?NAP_mafia_presence_ind]%§!\nCurrent Influence: §H[?NAP_mafia_influence_ind]%§!"
     NAP_analyze_mafia_presence:0 "Analyze the Mafia Presence"
     
+    #Ideas
+    NAP_3_year_plan_idea:0 "3 Year Plan"
     
-    
+    #Custom Effect Tooltip
+    NAP_3_year_plan_tt:0 "This focus will start the 3 year plan. If 3 years pass before finishing the following focuses, they will be §Rbypassed§!."
     
     #Focus Tree
     NAP_father_fascism:0 "Father of Fascism"
