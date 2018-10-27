@@ -10,11 +10,657 @@ focus_tree = {
 		}
 	}
 
+	#Industrial Tree
+	focus = {
+		id = NAP_3_year_plan
+		icon = GFX_focus_generic_industry_2
+		x = 4
+		y = 0
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = NAP_3_year_plan_tt
+			hidden_effect = {	
+				add_timed_idea = {
+					idea = NAP_3_year_plan_idea
+					days = 1095
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_sicilian_industry
+		icon = GFX_focus_focus_generic_industry_1
+		x = 1
+		y = 1
+		cost = 10
+		
+		available = {
+			owns_state = 115
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_3_year_plan
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			115 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+			}
+			750 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_palermo_industry
+		icon = GFX_focus_focus_generic_industry_1
+		x = 0
+		y = 2
+		cost = 10
+		
+		available = {
+			owns_state = 750
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_sicilian_industry
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			750 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_military_conversions
+		icon = GFX_goal_generic_small_arms
+		x = 2
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_sicilian_industry
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = NAP_mil_conversions
+		}
+	}
+	
+	focus = {
+		id = NAP_artifacts
+		icon = unknown
+		x = 2
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_military_conversions
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_keep_carthage_artifacts
+		icon = unknown
+		x = 0
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_destroy_carthage_artifacts
+		}
+		
+		prerequisite = {
+			focus = NAP_artifacts
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_destroy_carthage_artifacts
+		icon = unknown
+		x = 2
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_keep_carthage_artifacts
+		}
+		
+		prerequisite = {
+			focus = NAP_artifacts
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_alpine_industry
+		icon = unknown
+		x = 4
+		y = 1
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_3_year_plan
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_mountain_factories
+		icon = unknown
+		x = 4
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_alpine_industry
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_underground_facilities
+		icon = unknown
+		x = 4
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_mountain_factories
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_clothing
+		icon = unknown
+		x = 4
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_iron
+		}
+		
+		prerequisite = {
+			focus = NAP_underground_facilities
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_iron
+		icon = GFX_focus_generic_steel
+		x = 6
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_clothing
+		}
+		
+		prerequisite = {
+			focus = NAP_underground_facilities
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = NAP_naval_focus
+		icon = GFX_focus_generic_cruiser2
+		x = 8
+		y = 1
+		cost = 5
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_3_year_plan
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = naval_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_naples_dy
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 7
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_taranto_dy
+		}		
+		
+		prerequisite = {
+			focus = NAP_naval_focus
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			117 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
+			117 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 819
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_taranto_dy
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 9
+		y = 2
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = NAP_naples_dy
+		}		
+		
+		prerequisite = {
+			focus = NAP_naval_focus
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			156 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_sub_dy
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 8
+		y = 3
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_taranto_dy
+			focus = NAP_naples_dy
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			156 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 3901
+					instant_build = yes
+				}
+			}
+			117 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 883
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 0.25
+				uses = 2
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_naval_war_eco
+		icon = GFX_goal_generic_amphibious_assault
+		x = 8
+		y = 4
+		cost = 10
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = {
+				has_idea = NAP_3_year_plan_idea
+			}
+		}
+		
+		prerequisite = {
+			focus = NAP_sub_dy
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			navy_experience = 35
+			117 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NAP_focus_on_research
+		icon = GFX_goal_generic_scientific_exchange
+		x = 4
+		y = 5
+		cost = 10
+		
+		available = {
+			
+		}	
+		
+		prerequisite = {
+			focus = NAP_keep_carthage_artifacts
+			focus = NAP_destroy_carthage_artifacts
+		}
+		prerequisite = {
+			focus = NAP_clothing
+			focus = NAP_iron
+		}
+		prerequisite = {
+			focus = NAP_naval_war_eco
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	
 	####Government Control
 	focus = {
 		id = NAP_father_fascism
 		icon = GFX_focus_father_of_fascism
-		x = 4
+		x = 16
 		y = 0
 		cost = 10
 		
@@ -34,7 +680,7 @@ focus_tree = {
 	focus = {
 		id = NAP_duce
 		icon = GFX_focus_il_duce
-		x = 1
+		x = 13
 		y = 1
 		cost = 10
 		
@@ -62,7 +708,7 @@ focus_tree = {
 	focus = {
 		id = NAP_full_military_control
 		icon = unknown
-		x = 0
+		x = 12
 		y = 2
 		cost = 10
 		
@@ -86,7 +732,7 @@ focus_tree = {
 	focus = {
 		id = NAP_graziani_youth
 		icon = unknown
-		x = 0
+		x = 12
 		y = 3
 		cost = 10
 		
@@ -110,7 +756,7 @@ focus_tree = {
 	focus = {
 		id = NAP_full_political_control
 		icon = unknown
-		x = 2
+		x = 14
 		y = 2
 		cost = 10
 		
@@ -134,7 +780,7 @@ focus_tree = {
 	focus = {
 		id = NAP_unite_south
 		icon = unknown
-		x = 2
+		x = 14
 		y = 3
 		cost = 10
 		
@@ -158,7 +804,7 @@ focus_tree = {
 	focus = {
 		id = NAP_strengthen_training
 		icon = unknown
-		x = 1
+		x = 13
 		y = 4
 		cost = 10
 		
@@ -185,7 +831,7 @@ focus_tree = {
 	focus = {
 		id = NAP_enforcing_legge
 		icon = GFX_focus_constitution
-		x = 4
+		x = 16
 		y = 2
 		cost = 10
 		
@@ -210,7 +856,7 @@ focus_tree = {
 	focus = {
 		id = NAP_postase
 		icon = GFX_focus_postase
-		x = 4
+		x = 16
 		y = 3
 		cost = 10
 		
@@ -234,7 +880,7 @@ focus_tree = {
 	focus = {
 		id = NAP_senato
 		icon = GFX_focus_il_senato
-		x = 7
+		x = 19
 		y = 1
 		cost = 10
 		
@@ -262,7 +908,7 @@ focus_tree = {
 	focus = {
 		id = NAP_senate_rules
 		icon = unknown
-		x = 6
+		x = 18
 		y = 2
 		cost = 10
 		
@@ -286,7 +932,7 @@ focus_tree = {
 	focus = {
 		id = NAP_italian_corruption
 		icon = unknown
-		x = 6
+		x = 18
 		y = 3
 		cost = 10
 		
@@ -310,7 +956,7 @@ focus_tree = {
 	focus = {
 		id = NAP_senatorial_military
 		icon = unknown
-		x = 8
+		x = 20
 		y = 2
 		cost = 10
 		
@@ -334,7 +980,7 @@ focus_tree = {
 	focus = {
 		id = NAP_special_forces
 		icon = unknown
-		x = 8
+		x = 20
 		y = 3
 		cost = 10
 		
@@ -358,7 +1004,7 @@ focus_tree = {
 	focus = {
 		id = NAP_distribute_wealth
 		icon = unknown
-		x = 7
+		x = 19
 		y = 4
 		cost = 10
 		
@@ -385,7 +1031,7 @@ focus_tree = {
 	focus = {
 		id = NAP_strengthen_italian_lira
 		icon = unknown
-		x = 4
+		x = 16
 		y = 5
 		cost = 10
 		
@@ -407,31 +1053,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = NAP_mafia_question
-		icon = unknown
-		x = 13
-		y = 0
-		cost = 10
-		
-		available = {
-			
-		}
-		
-		prerequisite = {
-			
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
 	
 	
-	
-	
+
 }
