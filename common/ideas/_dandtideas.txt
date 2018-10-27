@@ -1,5 +1,8 @@
 ideas = {
 	tax_high_income = {
+	
+		law = yes
+	
 		no_taxes_high_income = {
 			default = no
 			level = 1			
@@ -94,6 +97,9 @@ ideas = {
 	}
 	
 	tax_medium_income = {
+	
+		law = yes
+	
 		no_taxes_medium_income = {
 			default = no
 			level = 1			
@@ -187,6 +193,9 @@ ideas = {
 	}
 	
 	tax_low_income = {
+	
+		law = yes
+	
 		no_taxes_low_income = {
 			default = no
 			level = 1			
@@ -280,6 +289,9 @@ ideas = {
 	}
 	
 	economic_development = {
+	
+		law = yes
+		
 		extremely_impoverished = {
 			default = no
 			level = 1			
@@ -489,6 +501,9 @@ ideas = {
 	}
 	
 	economic_debt_reserves_to_gdp = {
+	
+		law = yes
+	
 		dandt_200_debt = {
 			default = no
 			level = 1			
@@ -1857,6 +1872,9 @@ ideas = {
 	}
 	
 	economic_situation = {
+	
+		law = yes
+	
 		free_fall = {
 			default = no
 			level = 1			
@@ -1994,6 +2012,9 @@ ideas = {
 	}
 	
 	expenses_army = {
+	
+		law = yes
+	
 		internal_security_only = {
 			default = no
 			level = 1			
