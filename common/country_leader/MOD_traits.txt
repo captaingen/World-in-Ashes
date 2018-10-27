@@ -311,4 +311,17 @@ leader_traits = {
 					factor = 0
 				}
 			}
+	#Japan
+		#Hirtito the doubled chin bastard
+			JAP_loyalty_to_the_emperor = {
+				random = no
+
+				ai_will_do = {
+					factor = 0
+				}
+				army_morale_factor = 0.15
+				set_rule = {
+    					can_use_kamikaze_pilots = yes
+				}
+			}
 }

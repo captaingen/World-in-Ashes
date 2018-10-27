@@ -1,31 +1,8 @@
 ideas = {
 	country = {
-		hated_by_all = {
-
-			picture = FRA_scw_intervention_republicans_focus
-		
-			allowed = {
-				original_tag = JAP
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				opinion_gain_monthly_factor = -0.2
-				ai_badass_factor = 0.2
-				join_faction_tension = 0.4
-			}
-			rule = {
-			}
-		}
 		a_rising_power = {
 
-			picture = warrior_traditions
+			picture = warrior_traditions_idea
 		
 			allowed = {
 				original_tag = JAP
@@ -39,41 +16,16 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				enemy_justify_war_goal_time = -0.3]
-				industrial_capacity_factory = -0.1
+				justify_war_goal_time = -0.3
+				industrial_capacity_factory = 0.1
 				conscription_factor = 0.3
-			}
-			rule = {
-			}
-		}
-		exteremly_loyalty = {
-
-			picture = imperial_glory
-		
-			allowed = {
-				original_tag = JAP
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				army_morale_factor = 0.4
-				training_time_army_factor = -0.1
-				set_rule = {
-    					can_use_kamikaze_pilots = yes
-				}
 			}
 			rule = {
 			}
 		}
 		naval_focus = {
 
-			picture = liberty_ships_focus
+			picture = idea_jap_interservice_rivalry_navy_dominant
 		
 			allowed = {
 				original_tag = JAP
@@ -87,7 +39,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				naval_retreat_chance = -0.3
+				naval_retreat_chance = 0.3
 				experience_gain_navy_factor = 0.1
 				industrial_capacity_dockyard = 0.3
 				research_bonus = { naval = 0.1 }
@@ -96,6 +48,8 @@ ideas = {
 			}
 		}
 		JAP_great_depression = {
+
+			picture = great_depression
 
 			allowed = {
 				original_tag = JAP

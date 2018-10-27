@@ -74,9 +74,7 @@ add_ideas = {
 	extensive_conscription
 	self_first_outlook
 	JAP_great_depression 
-	hated_by_all 
 	a_rising_power
-	exteremly_loyalty
 	naval_focus
 }
 
@@ -115,6 +113,7 @@ create_country_leader = {
 		warrior_code
 		emperor_showa
 		imperial_sanction
+		JAP_loyalty_to_the_emperor
 	}
 	id = 700 #Hirohito
 }
