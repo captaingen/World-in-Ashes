@@ -7,6 +7,7 @@
     #Ideas
     NAP_3_year_plan_idea:0 "3 Year Plan"
     NAP_mil_conversions:0 "Military Conversions"
+    NAP_better_uniforms:0 "Better Uniforms"
     
     #Custom Effect Tooltip
     NAP_3_year_plan_tt:0 "This focus will start the 3 year plan. If 3 years pass before finishing the following focuses, they will be §Rbypassed§!."
