@@ -1,0 +1,164 @@
+CHI_internal_factions = {
+	
+	
+	decrease_agricultral_quotas = {
+		
+		icon = generic_research
+		
+		available = {
+			has_variable = CHI_influnce_of_the_peasants
+			has_variable = CHI_loyalty_of_the_peasants
+		}
+		
+		cost = 100
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_effect = {
+			add_to_variable = {
+				CHI_influnce_of_the_peasants = 10
+				CHI_loyalty_of_the_peasants = 10
+			}
+		}
+
+		visible = {
+			tag = CHI
+		}
+	}
+
+	give_generals_political_postions = {
+		
+		icon = generic_research
+		
+		available = {
+			has_variable = CHI_influnce_of_the_generals
+			has_variable = CHI_loyalty_of_the_generals
+		}
+		
+		cost = 100
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_effect = {
+			add_to_variable = {
+				CHI_influnce_of_the_generals = 10
+				CHI_loyalty_of_the_generals = 10
+			}
+		}
+
+		visible = {
+			tag = CHI
+		}
+	}
+
+	bring_back_democratic_elements = {
+		
+		icon = generic_research
+		
+		available = {
+			has_variable = CHI_influnce_of_the_bureaucrats
+			has_variable = CHI_loyalty_of_the_bureaucrats
+		}
+		
+		cost = 100
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_effect = {
+			add_to_variable = {
+				CHI_influnce_of_the_bureaucrats = 10
+				CHI_loyalty_of_the_bureaucrats = 10
+			}
+		}
+
+		visible = {
+			tag = CHI
+		}
+	}
+
+	increase_agricultral_quotas = {
+		
+		icon = generic_research
+		
+		available = {
+			has_variable = CHI_influnce_of_the_peasants
+			has_variable = CHI_loyalty_of_the_peasants
+		}
+		
+		cost = 100
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_effect = {
+			add_to_variable = {
+				CHI_influnce_of_the_peasants = -10
+				CHI_loyalty_of_the_peasants = -10
+			}
+		}
+
+		visible = {
+			tag = CHI
+		}
+	}
+
+	remove_generals_from_political_positions = {
+		
+		icon = generic_research
+		
+		available = {
+			has_variable = CHI_influnce_of_the_generals
+			has_variable = CHI_loyalty_of_the_generals
+		}
+		
+		cost = 100
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		complete_effect = {
+			add_to_variable = {
+				CHI_influnce_of_the_generals = -10
+				CHI_loyalty_of_the_generals = -10
+			}
+		}
+
+		visible = {
+			tag = CHI
+		}
+	}
+	remove_democratic_elements = {
+		
+		icon = generic_research
+		
+		available = {
+			has_variable = CHI_influnce_of_the_bureaucrats
+			has_variable = CHI_loyalty_of_the_bureaucrats
+		}
+		
+		cost = 100
+		
+		ai_will_do = {
+			factor = 10
+		}
+	
+		complete_effect = {
+			add_to_variable = {
+				CHI_influnce_of_the_bureaucrats = -10
+				CHI_loyalty_of_the_bureaucrats = -10
+			}
+		}
+
+		visible = {
+			tag = CHI
+		}
+	}
+}
