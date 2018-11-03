@@ -86,6 +86,9 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.30
+				stability_factor = -0.15
+				fascism_acceptance = 75
+				neutrality_acceptance = 25
 			}
 			
 			cancel_if_invalid = no
@@ -107,6 +110,8 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.20
+				stability_factor = -0.1
+				neutrality_acceptance = 50
 			}
 			
 			cancel_if_invalid = no
@@ -127,6 +132,9 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.10
+				stability_factor = -0.05
+				fascism_acceptance = 65
+				neutrality_acceptance = 35
 			}
 			
 			cancel_if_invalid = no
@@ -144,6 +152,9 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = 0.10
+				stability_factor = 0.025
+				neutrality_acceptance = 50
+				democratic_acceptance = 25
 			}
 			
 			cancel_if_invalid = no
@@ -164,6 +175,9 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = 0.20
+				stability_factor = 0.05
+				neutrality_acceptance = 25
+				democratic_acceptance = 50
 			}
 			
 			cancel_if_invalid = no
@@ -181,6 +195,8 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.05
+				stability_factor = -0.025
+				neutrality_acceptance = 75
 			}
 			
 			cancel_if_invalid = no

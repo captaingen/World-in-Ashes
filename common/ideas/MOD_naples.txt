@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		NAP_3_year_plan_idea = {
 
-			picture = generic_central_management
+			picture = GFX_idea_man_five_year_plan_industry
 		
 			allowed = {
 				always = yes
